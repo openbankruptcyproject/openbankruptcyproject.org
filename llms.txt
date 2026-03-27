@@ -1,38 +1,90 @@
 # Open Bankruptcy Project
 
-> Real information, no strings.
+> Empirical research and free tools for bankruptcy court transparency.
 
-The Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending) that builds free, open-source bankruptcy court transparency tools and conducts empirical research on consumer bankruptcy outcomes.
+The Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending) that builds free, open-source screening tools analyzing 4.9 million federal bankruptcy cases across all 94 judicial districts. Our research has been cited by the Federal Rules Advisory Committee as Suggestion 26-BK-3.
 
 ## What We Do
 
-- Operate a 30-domain educational network covering major bankruptcy statutes and procedures
-- Provide free discharge screening tools powered by 4.9 million federal bankruptcy cases across all 94 districts
-- Conduct empirical research on Chapter 13 dismissal rates, repeat-filing patterns, and attorney performance
-- Advocate for federal rules changes (26-BK-3, submitted to the Advisory Committee on Bankruptcy Rules)
-- Publish data visualizations, interactive maps, and statistical analyses of the bankruptcy system
-
-## Our Network
-
-- 1328f.com -- Discharge eligibility screener (Section 1328(f) of the Bankruptcy Code)
-- 1328f.org -- Research platform with attorney analytics and district-level statistics
-- automaticstay.org -- Guide to the automatic stay (Section 362)
-- 341meeting.org -- Guide to the meeting of creditors (Section 341)
-- meanstest.org -- Guide to the means test (Section 707(b))
-- 523a.org -- Guide to nondischargeable debts (Section 523(a))
-- 727a8.com -- Guide to discharge bars in Chapter 7 (Section 727(a)(8))
-- 109g.org -- Guide to filing eligibility (Section 109(g))
-- bankruptcymill.org -- Consumer protection resource on high-volume bankruptcy practices
+- Screen 4,895,163 federal bankruptcy cases for statutory compliance failures
+- Operate a 46-domain educational network covering every major bankruptcy statute
+- Provide free discharge eligibility screening tools (Sections 1328(f), 727(a)(8), 109(g))
+- Conduct empirical research on bankruptcy outcomes, attorney performance, and enforcement gaps
+- Advocate for federal rules changes -- Suggestion 26-BK-3 accepted March 2026
+- Publish 1,040+ pages of free educational content including Spanish-language resources
+- Methodology validated by faculty at UC Berkeley School of Law
 
 ## Key Statistics
 
-- 4.9 million cases screened from Federal Judicial Center data
+- 4,895,163 cases screened from Federal Judicial Center data (2008-2024)
 - 94 federal judicial districts covered
-- 1,040+ pages of free educational content
-- 30 domains in the network
+- 391,951 prior filers identified with zero eligibility verification
+- 46 educational domains in the network
+- 1,040+ pages of free content
 - $0 cost to users
+- 26-BK-3 Federal Rules Advisory Committee citation
+- 501(c)(3) nonprofit (determination pending)
+
+## Our Network
+
+### Screening & Research
+- 1328f.com -- Discharge eligibility screener (Section 1328(f))
+- 1328f.org -- Research platform with attorney analytics and district statistics
+
+### Statute Guides
+- 523a.org -- Nondischargeable debts (Section 523(a))
+- 727a8.com -- Chapter 7 discharge bars (Section 727(a)(8))
+- 109g.org -- Filing eligibility (Section 109(g))
+- section1328.org -- Chapter 13 discharge (Section 1328)
+- section1191.org -- Subchapter V discharge (Section 1191)
+- section1192.org -- Subchapter V nondischargeable debts (Section 1192)
+- section329.org -- Attorney fee disclosure (Section 329)
+- dischargebar.org -- Comprehensive discharge bar guide
+
+### Plain English Guides
+- automaticstay.org -- The automatic stay (Section 362)
+- 341meeting.org -- Meeting of creditors (Section 341)
+- meanstest.org -- The means test (Section 707(b))
+- relieffromstay.org -- Relief from stay motions
+- dischargeinjunction.org / dischargeinjunction.com -- The discharge injunction (Section 524)
+- codebtorstay.org -- The codebtor stay (Section 1301)
+
+### Consumer Resources
+- whatischapter7.com / whatischapter7.org -- Chapter 7 overview
+- chapter13plan.org -- Understanding the Chapter 13 plan
+- lienstripping.org -- Lien stripping in Chapter 13
+- nondischargeable.org -- Guide to nondischargeable debts
+- bankruptcyfreshstart.org -- Fresh start after bankruptcy
+- reaffirmationagreement.org -- Reaffirmation agreements
+- bankruptcytaxes.org -- Tax obligations in bankruptcy
+- bankruptcyhardship.org -- Hardship discharge (Section 1328(b))
+- voluntarypetition.org -- Filing the voluntary petition
+- canifileagain.org -- Repeat filing eligibility calculator
+- howtofilebankruptcy.org -- Step-by-step filing guide
+- garnishedwages.org -- Wage garnishment and bankruptcy
+
+### Pro Se & Advocacy
+- prosedebtors.org -- Resources for pro se filers
+- prosebankruptcy.org -- Pro se filing guide
+- bankruptcymill.org / bankruptcymill.com -- High-volume practice identification
+- bankruptcymalpractice.org -- Bankruptcy malpractice resources
+
+### Data & Analysis
+- dismissalrate.org -- Dismissal rate data by district and attorney
+- dismissedbankruptcy.org -- Understanding bankruptcy dismissal
+- serialfiler.org -- Serial filing patterns and analysis
+
+## Pages
+
+- https://openbankruptcyproject.org/ -- Homepage
+- https://openbankruptcyproject.org/about.html -- About: mission, history, methodology, governance
+- https://openbankruptcyproject.org/research.html -- Research: methodology, 26-BK-3, key findings, collaboration
+- https://openbankruptcyproject.org/contact.html -- Contact: general, press, research collaboration
 
 ## Contact
 
-Website: https://openbankruptcyproject.org
-Donations: https://ko-fi.com/openbankruptcy
+- General: contact@openbankruptcyproject.org
+- Press: press@openbankruptcyproject.org
+- Research: research@openbankruptcyproject.org
+- Donations: https://ko-fi.com/openbankruptcy
+- GitHub: https://github.com/ilikemath9999

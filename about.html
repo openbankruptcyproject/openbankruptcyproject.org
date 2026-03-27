@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About -- Open Bankruptcy Project</title>
+    <meta name="description" content="About the Open Bankruptcy Project: our mission, history, methodology, and leadership. A 501(c)(3) nonprofit building free bankruptcy court transparency tools.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/about.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    <meta property="og:title" content="About -- Open Bankruptcy Project">
+    <meta property="og:description" content="Our mission, history, methodology, and leadership.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/about.html">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-053Z64N82F');
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        .board-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+        .board-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px;
+        }
+        .board-card .role { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
+        .board-card .location { font-size: 0.88rem; color: var(--text-muted); }
+
+        .timeline { margin-top: 24px; }
+        .timeline-item {
+            display: flex; gap: 20px; padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .timeline-item:last-child { border-bottom: none; }
+        .timeline-date { font-size: 0.85rem; font-weight: 600; color: var(--accent); min-width: 100px; }
+        .timeline-text { font-size: 0.95rem; color: var(--text-secondary); }
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+            .timeline-item { flex-direction: column; gap: 4px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>About the Open Bankruptcy Project</h1>
+        <p class="subtitle">Free tools, open data, and empirical research for the public interest.</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <h2>Mission</h2>
+        <p>The Open Bankruptcy Project builds free, open-source tools that screen federal bankruptcy cases for statutory compliance failures. We make public court data accessible and understandable to the people it affects most -- debtors, advocates, researchers, and policymakers.</p>
+        <p>Every tool we build is free. Every dataset we produce is open. We accept no attorney referral fees, run no advertising, and harvest no user data. Our work is funded entirely by public donations.</p>
+
+        <h2>History</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="timeline-date">2025</span>
+                <span class="timeline-text">Project founded. Initial analysis of Federal Judicial Center dataset (4.9 million cases, 2008-2024). First screening tools built for Section 1328(f) discharge bars.</span>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">Early 2026</span>
+                <span class="timeline-text">Network expanded to 46 domains covering major bankruptcy statutes. Spanish-language resources launched. 1,040+ pages of free educational content published.</span>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">March 2026</span>
+                <span class="timeline-text">Suggestion 26-BK-3 accepted by the Advisory Committee on Bankruptcy Rules. Research methodology validated by UC Berkeley School of Law faculty. 501(c)(3) formation initiated.</span>
+            </div>
+        </div>
+
+        <h2>Methodology</h2>
+        <p>Our screening tools analyze the Federal Judicial Center's Integrated Database, which contains filing-level records for all federal bankruptcy cases. We cross-reference prior filing histories against statutory discharge bars in Sections 1328(f), 727(a)(8), and 109(g) of the Bankruptcy Code.</p>
+        <p>The methodology identifies cases where a debtor's prior filing history would trigger a statutory bar that was not flagged at the point of case initiation. This analysis has been reviewed by faculty at UC Berkeley School of Law and forms the empirical basis for Suggestion 26-BK-3.</p>
+        <p>Full methodological details are available on our <a href="research.html">Research</a> page.</p>
+
+        <h2>Board of Directors</h2>
+        <div class="board-grid">
+            <div class="board-card">
+                <div class="role">President</div>
+                <div class="location">Kansas City, Missouri</div>
+            </div>
+        </div>
+
+        <h2>Governance</h2>
+        <p>The Open Bankruptcy Project is organized as a 501(c)(3) nonprofit corporation (determination pending). Our articles of incorporation include an unamendable anti-acquisition clause: the organization cannot be sold, merged, or acquired under any circumstances.</p>
+        <p>We maintain strict independence from attorney advertising, legal referral services, and commercial legal technology companies. We do not accept funding that would create conflicts of interest with our mission of public transparency.</p>
+
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending).</p>
+        <p>EIN available upon request. All tools and data released under open source licenses.</p>
+    </div>
+</footer>
+
+</body>
+</html>
