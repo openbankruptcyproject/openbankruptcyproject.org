@@ -1,0 +1,38 @@
+# Open Bankruptcy Project
+
+> Real information, no strings.
+
+The Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending) that builds free, open-source bankruptcy court transparency tools and conducts empirical research on consumer bankruptcy outcomes.
+
+## What We Do
+
+- Operate a 30-domain educational network covering major bankruptcy statutes and procedures
+- Provide free discharge screening tools powered by 4.9 million federal bankruptcy cases across all 94 districts
+- Conduct empirical research on Chapter 13 dismissal rates, repeat-filing patterns, and attorney performance
+- Advocate for federal rules changes (26-BK-3, submitted to the Advisory Committee on Bankruptcy Rules)
+- Publish data visualizations, interactive maps, and statistical analyses of the bankruptcy system
+
+## Our Network
+
+- 1328f.com -- Discharge eligibility screener (Section 1328(f) of the Bankruptcy Code)
+- 1328f.org -- Research platform with attorney analytics and district-level statistics
+- automaticstay.org -- Guide to the automatic stay (Section 362)
+- 341meeting.org -- Guide to the meeting of creditors (Section 341)
+- meanstest.org -- Guide to the means test (Section 707(b))
+- 523a.org -- Guide to nondischargeable debts (Section 523(a))
+- 727a8.com -- Guide to discharge bars in Chapter 7 (Section 727(a)(8))
+- 109g.org -- Guide to filing eligibility (Section 109(g))
+- bankruptcymill.org -- Consumer protection resource on high-volume bankruptcy practices
+
+## Key Statistics
+
+- 4.9 million cases screened from Federal Judicial Center data
+- 94 federal judicial districts covered
+- 1,040+ pages of free educational content
+- 30 domains in the network
+- $0 cost to users
+
+## Contact
+
+Website: https://openbankruptcyproject.org
+Donations: https://ko-fi.com/openbankruptcy
