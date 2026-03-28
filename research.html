@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research -- Open Bankruptcy Project</title>
-    <meta name="description" content="Empirical research on bankruptcy outcomes, attorney performance, and enforcement gaps. Methodology overview, 26-BK-3 citation, and collaboration inquiries.">
+    <title>Research - Open Bankruptcy Project</title>
+    <meta name="description" content="Empirical research on consumer bankruptcy outcomes. 4.9 million FJC cases, 94 federal districts, attorney performance analytics, and policy proposals.">
     <link rel="canonical" href="https://openbankruptcyproject.org/research.html">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
-    <meta property="og:title" content="Research -- Open Bankruptcy Project">
-    <meta property="og:description" content="Empirical research on bankruptcy outcomes. Cited by the Federal Rules Advisory Committee as 26-BK-3.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Research - Open Bankruptcy Project">
+    <meta property="og:description" content="Empirical research on consumer bankruptcy outcomes. 4.9M FJC cases across 94 federal districts.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://openbankruptcyproject.org/research.html">
 
+    <!-- GA4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -21,188 +23,316 @@
         gtag('config', 'G-053Z64N82F');
     </script>
 
+    <!-- Schema.org NonprofitOrganization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NonprofitOrganization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://openbankruptcyproject.org",
+        "description": "Free, open-source bankruptcy court transparency tools and empirical research on consumer bankruptcy outcomes.",
+        "nonprofitStatus": "https://schema.org/NonprofitType501c3",
+        "sameAs": [
+            "https://github.com/ilikemath9999/openbankruptcyproject.org",
+            "https://ko-fi.com/openbankruptcy"
+        ],
+        "areaServed": {
+            "@type": "Country",
+            "name": "United States"
+        },
+        "knowsAbout": ["Bankruptcy", "Consumer Debt", "Chapter 13", "Chapter 7", "Federal Courts"]
+    }
+    </script>
+
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
         :root {
             --bg: #0d1117;
-            --surface: #151b23;
-            --surface-hover: #1a2230;
-            --border: #252d38;
+            --surface: #161b22;
+            --border: #30363d;
             --text: #e6edf3;
-            --text-secondary: #b1bac4;
-            --text-muted: #7d8590;
+            --text-muted: #8b949e;
             --accent: #58a6ff;
             --accent-hover: #79b8ff;
+            --green: #3fb950;
             --gold: #d29922;
         }
-        html { scroll-behavior: smooth; }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-            background: var(--bg); color: var(--text); line-height: 1.7;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
             -webkit-font-smoothing: antialiased;
         }
+
         a { color: var(--accent); text-decoration: none; }
-        a:hover { color: var(--accent-hover); }
-        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
 
         nav {
-            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
-            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+            border-bottom: 1px solid var(--border);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
         }
-        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
-        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        nav .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .nav-brand { font-size: 1.1rem; font-weight: 700; color: var(--text); }
         .nav-brand a { color: var(--text); }
         .nav-brand a:hover { text-decoration: none; }
-        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
-        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links { display: flex; gap: 20px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
         .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
 
-        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
-        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
-        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
-
-        .content { padding: 56px 0; }
-        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
-        .content h2:first-child { margin-top: 0; }
-        .content h3 { font-size: 1.1rem; font-weight: 700; margin: 32px 0 12px; }
-        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
-        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
-        .content li { margin-bottom: 8px; }
-
-        .rules-block {
-            background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--gold);
-            border-radius: 2px 10px 10px 2px; padding: 28px; margin: 24px 0;
+        .page-header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
         }
-        .rules-block .cite-label {
-            font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
-            color: var(--gold); margin-bottom: 8px;
+        .page-header h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
         }
-        .rules-block .cite-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 12px; color: var(--text); }
-        .rules-block p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 12px; }
-        .rules-block p:last-child { margin-bottom: 0; }
+        .page-header p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            max-width: 640px;
+        }
 
-        .method-card {
-            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
-            padding: 28px; margin: 16px 0;
+        section { padding: 48px 0; border-bottom: 1px solid var(--border); }
+        section:last-of-type { border-bottom: none; }
+        section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
         }
-        .method-card h4 { font-size: 0.95rem; font-weight: 700; margin-bottom: 10px; }
-        .method-card p { font-size: 0.92rem; margin-bottom: 0; }
+        section p { color: var(--text-muted); margin-bottom: 16px; max-width: 720px; }
 
-        .collab-block {
-            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
-            padding: 32px; margin-top: 24px; text-align: center;
+        .rules-cite {
+            background: var(--surface);
+            border-left: 4px solid var(--gold);
+            padding: 24px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 24px;
+            margin-bottom: 24px;
         }
-        .collab-block h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; }
-        .collab-block p { max-width: 520px; margin: 0 auto; font-size: 0.95rem; }
+        .rules-cite .cite-id {
+            font-weight: 700;
+            color: var(--gold);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+
+        .report-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+            margin-top: 24px;
+        }
+        .report-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 24px;
+            transition: border-color 0.2s;
+        }
+        .report-card:hover { border-color: var(--accent); }
+        .report-card h3 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+        .report-card p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 0;
+        }
+
+        .data-highlight {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 28px;
+            margin-top: 24px;
+            text-align: center;
+        }
+        .data-highlight .big-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--accent);
+            display: block;
+            margin-bottom: 8px;
+        }
+        .data-highlight .label {
+            font-size: 1rem;
+            color: var(--text-muted);
+        }
+
+        .link-list {
+            list-style: none;
+            margin-top: 16px;
+        }
+        .link-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .link-list li:last-child { border-bottom: none; }
+        .link-list a {
+            font-weight: 600;
+        }
+        .link-list .link-desc {
+            display: block;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
 
         footer {
-            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            padding: 40px 0;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
             border-top: 1px solid var(--border);
         }
-        footer .footer-links { margin-bottom: 20px; }
-        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
-        footer .footer-links a:hover { color: var(--text); }
-        footer p { margin-bottom: 6px; line-height: 1.6; }
+        footer p { margin-bottom: 8px; }
+        footer a { color: var(--text-muted); }
+        footer a:hover { color: var(--text); }
 
         @media (max-width: 600px) {
-            .container { padding: 0 20px; }
-            .page-header { padding: 48px 0 32px; }
+            .page-header { padding: 40px 0 32px; }
             .page-header h1 { font-size: 1.8rem; }
-            .content { padding: 40px 0; }
+            section { padding: 32px 0; }
+            section h2 { font-size: 1.3rem; }
+            .data-highlight .big-number { font-size: 2.2rem; }
         }
     </style>
 </head>
 <body>
 
 <nav>
-    <div class="nav-inner">
+    <div class="container">
         <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
         <div class="nav-links">
             <a href="/">Home</a>
-            <a href="about.html">About</a>
-            <a href="research.html">Research</a>
-            <a href="contact.html">Contact</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html" class="active">Research</a>
+            <a href="/impact.html">Impact</a>
+            <a href="/press.html">Press</a>
+            <a href="/contact.html">Contact</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
         </div>
     </div>
 </nav>
 
-<div class="page-header">
+<header class="page-header">
     <div class="container">
-        <h1>Our Research</h1>
-        <p class="subtitle">Empirical analysis of bankruptcy outcomes, enforcement gaps, and attorney performance.</p>
+        <h1>Research</h1>
+        <p>Empirical analysis of consumer bankruptcy outcomes using 4.9 million federal cases from the Federal Judicial Center, covering all 94 bankruptcy districts.</p>
     </div>
-</div>
+</header>
 
-<div class="content">
+<section>
     <div class="container">
+        <h2>The Dataset</h2>
 
-        <h2>Methodology</h2>
-        <p>Our research draws on the Federal Judicial Center's Integrated Database (IDB), the most comprehensive public dataset of federal bankruptcy filings. The IDB contains filing-level records for all bankruptcy cases filed in U.S. federal courts since 2008.</p>
-
-        <div class="method-card">
-            <h4>Data Source</h4>
-            <p>Federal Judicial Center Integrated Database. 4,895,163 cases spanning 2008-2024, covering all 94 federal judicial districts. Updated annually.</p>
+        <div class="data-highlight">
+            <span class="big-number">4,900,000+</span>
+            <span class="label">Federal bankruptcy cases from the FJC Integrated Database -- every consumer filing from 2008 through 2024</span>
         </div>
 
-        <div class="method-card">
-            <h4>Screening Approach</h4>
-            <p>We reconstruct individual filing histories by linking cases across the IDB using debtor identifiers. Each filing is tested against statutory discharge bars in Sections 1328(f), 727(a)(8), and 109(g) of the Bankruptcy Code. Cases where a prior filing would trigger an unchecked bar are flagged for further analysis.</p>
+        <p style="margin-top:24px;">Our research uses the Federal Judicial Center's Integrated Database, the most comprehensive public record of federal bankruptcy filings in the United States. We cross-reference this data with PACER docket records, CourtListener archives, and RECAP to build a complete picture of consumer bankruptcy outcomes.</p>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Federal Rules Submission</h2>
+        <p>Our empirical research has been accepted by the federal judiciary for formal consideration.</p>
+
+        <div class="rules-cite">
+            <div class="cite-id">Suggestion 26-BK-3</div>
+            <p>Accepted March 23, 2026 by the Advisory Committee on Bankruptcy Rules. Proposes mandatory disclosure of attorney-level dismissal and completion rates in consumer bankruptcy cases, supported by analysis of 4.9 million FJC records across all 94 federal districts.</p>
         </div>
 
-        <div class="method-card">
-            <h4>Validation</h4>
-            <p>Methodology reviewed by faculty at UC Berkeley School of Law. Statistical findings cross-referenced against published academic literature on repeat filing and Chapter 13 outcomes.</p>
+        <p>This is the first data-backed proposal submitted to the Rules Committee that quantifies the scale of non-enforcement of Section 1328(f) discharge eligibility requirements. The submission identifies 391,951 repeat filers who received a discharge with no documented eligibility verification.</p>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Reports</h2>
+        <p>All reports are published on our research platform and are freely available.</p>
+
+        <div class="report-grid">
+            <a href="/abi-commission-seven-years.html" class="report-card" style="border-color: var(--gold);">
+                <h3>BAPCPA at Twenty: The ABI Commission's Unfinished Business</h3>
+                <p>The ABI Commission proposed nearly 50 reforms in 2019. We measure what changed using 4.9 million federal cases. March 2026.</p>
+            </a>
+            <a href="https://1328f.org/reports/" class="report-card" target="_blank" rel="noopener">
+                <h3>All Reports</h3>
+                <p>Complete index of published reports on 1328f.org, including district analyses, attorney scorecards, and outcome studies.</p>
+            </a>
+            <a href="https://1328f.org/methodology/" class="report-card" target="_blank" rel="noopener">
+                <h3>Methodology</h3>
+                <p>Detailed documentation of our data sources, statistical methods, and validation procedures.</p>
+            </a>
+            <a href="https://1328f.org/replicate/" class="report-card" target="_blank" rel="noopener">
+                <h3>Replicate Our Work</h3>
+                <p>Step-by-step instructions for reproducing our analysis using publicly available data. Includes SQL queries, Python scripts, and data dictionaries.</p>
+            </a>
         </div>
+    </div>
+</section>
 
-        <h2>Federal Rules Citation</h2>
+<section>
+    <div class="container">
+        <h2>Academic Engagement</h2>
+        <p>We collaborate with researchers at institutions including UC Berkeley and others studying consumer bankruptcy outcomes. Our dataset and methodology are available to any academic researcher working on bankruptcy-related empirical research.</p>
+        <p>If you are a researcher interested in our data or methodology, please contact us at <a href="mailto:contact@openbankruptcyproject.org">contact@openbankruptcyproject.org</a>.</p>
+    </div>
+</section>
 
-        <div class="rules-block">
-            <div class="cite-label">Suggestion 26-BK-3</div>
-            <div class="cite-title">Automated Section 1328(f) Discharge Bar Screening in Federal Bankruptcy Courts</div>
-            <p>Accepted March 23, 2026 by the Advisory Committee on Bankruptcy Rules. The submission proposes that federal bankruptcy courts implement automated screening at the point of case filing to detect statutory discharge bars under Section 1328(f).</p>
-            <p>Key finding: 391,951 prior filers in the FJC dataset (2008-2024) had no systematic eligibility verification at the point of filing, representing a structural gap in case administration that affects debtor outcomes, creditor recoveries, and judicial efficiency.</p>
-            <p><a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" target="_blank" rel="noopener">View on uscourts.gov &rarr;</a></p>
-        </div>
+<section>
+    <div class="container">
+        <h2>Open Source</h2>
+        <p>All of our tools, scripts, and analysis code are published on GitHub under open-source licenses.</p>
 
-        <h2>Key Findings</h2>
-
-        <h3>Discharge Bar Screening Gap</h3>
-        <p>Federal bankruptcy courts have no systematic mechanism to verify whether a debtor's prior filing history triggers a statutory discharge bar at the time of case initiation. Our screening of 4.9 million cases identified 391,951 instances where prior filings could implicate Section 1328(f), 727(a)(8), or 109(g) bars without automated detection.</p>
-
-        <h3>Attorney Performance Variation</h3>
-        <p>Chapter 13 case outcomes vary dramatically by attorney. Dismissal rates range from under 20% to over 70% across attorneys handling similar caseloads in the same district. These patterns are persistent across years and cannot be explained by case mix alone.</p>
-
-        <h3>Geographic Variation</h3>
-        <p>Chapter 13 completion rates vary by more than 40 percentage points across federal districts. This variation correlates with local legal culture, trustee practices, and the concentration of high-volume practitioners.</p>
-
-        <h2>Publications &amp; Presentations</h2>
-        <ul>
-            <li>Suggestion 26-BK-3, Advisory Committee on Bankruptcy Rules (March 2026)</li>
-            <li>Open Bankruptcy Project screening methodology, published on <a href="https://1328f.org" target="_blank" rel="noopener">1328f.org</a> (2025-2026)</li>
-            <li>District-level statistical reports available on <a href="https://dismissalrate.org" target="_blank" rel="noopener">dismissalrate.org</a></li>
+        <ul class="link-list">
+            <li>
+                <a href="https://github.com/ilikemath9999/bankruptcy-discharge-screener" target="_blank" rel="noopener">bankruptcy-discharge-screener</a>
+                <span class="link-desc">The primary screening tool -- client-side SQL.js against FJC data. No server required.</span>
+            </li>
+            <li>
+                <a href="https://github.com/ilikemath9999/openbankruptcyproject.org" target="_blank" rel="noopener">openbankruptcyproject.org</a>
+                <span class="link-desc">This website -- the organizational homepage for the Open Bankruptcy Project.</span>
+            </li>
+            <li>
+                <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">All Repositories</a>
+                <span class="link-desc">View all public repositories on GitHub.</span>
+            </li>
         </ul>
-
-        <h2>Collaboration</h2>
-
-        <div class="collab-block">
-            <h3>Research Collaboration</h3>
-            <p>We welcome collaboration with academic researchers, legal aid organizations, and policy institutions. If you are interested in working with our data or methodology, please <a href="contact.html">contact us</a>.</p>
-        </div>
-
     </div>
-</div>
+</section>
 
 <footer>
     <div class="container">
-        <div class="footer-links">
-            <a href="/">Home</a>
-            <a href="about.html">About</a>
-            <a href="research.html">Research</a>
-            <a href="contact.html">Contact</a>
-            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
-        </div>
-        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending).</p>
-        <p>EIN available upon request. All tools and data released under open source licenses.</p>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending). EIN available upon request.</p>
+        <p>All tools are free and open source. <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">View on GitHub</a></p>
+        <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
     </div>
 </footer>
 
