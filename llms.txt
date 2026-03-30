@@ -83,8 +83,8 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination
 
 ## Contact
 
-- General: contact@openbankruptcyproject.org
-- Press: press@openbankruptcyproject.org
-- Research: research@openbankruptcyproject.org
+- General: info@openbankruptcyproject.org
+- Press: info@openbankruptcyproject.org
+- Research: info@openbankruptcyproject.org
 - Donations: https://ko-fi.com/openbankruptcy
 - GitHub: https://github.com/ilikemath9999
