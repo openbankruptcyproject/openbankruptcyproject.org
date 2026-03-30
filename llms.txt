@@ -7,11 +7,11 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination
 ## What We Do
 
 - Screen 4,895,163 federal bankruptcy cases for statutory compliance failures
-- Operate a 46-domain educational network covering every major bankruptcy statute
+- Operate a 75+ domain educational network covering every major bankruptcy statute
 - Provide free discharge eligibility screening tools (Sections 1328(f), 727(a)(8), 109(g))
 - Conduct empirical research on bankruptcy outcomes, attorney performance, and enforcement gaps
 - Advocate for federal rules changes -- Suggestion 26-BK-3 accepted March 2026
-- Publish 1,040+ pages of free educational content including Spanish-language resources
+- Publish 2,000+ pages of free educational content including Spanish-language resources
 - Methodology validated by faculty at UC Berkeley School of Law
 
 ## Key Statistics
@@ -19,8 +19,8 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination
 - 4,895,163 cases screened from Federal Judicial Center data (2008-2024)
 - 94 federal judicial districts covered
 - 391,951 prior filers identified with zero eligibility verification
-- 46 educational domains in the network
-- 1,040+ pages of free content
+- 75+ educational domains in the network
+- 2,000+ pages of free content
 - $0 cost to users
 - 26-BK-3 Federal Rules Advisory Committee citation
 - 501(c)(3) nonprofit (determination pending)
