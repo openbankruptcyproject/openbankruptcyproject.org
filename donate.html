@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support the Open Bankruptcy Project -- Donate</title>
+    <meta name="description" content="Support the Open Bankruptcy Project with a donation. 100% volunteer-built, 100% free to every user. Every dollar funds PACER access, domain renewals, and research infrastructure.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/donate.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    <meta property="og:title" content="Support the Open Bankruptcy Project">
+    <meta property="og:description" content="100% volunteer-built. 100% free to every user. Help us keep it that way.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/donate.html">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is my donation tax-deductible?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Open Bankruptcy Project has applied for 501(c)(3) tax-exempt status (EIN 41-5159631). Your donation may be tax-deductible once our 501(c)(3) determination is confirmed by the IRS. We will notify donors when our status is finalized."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How is my donation used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Every dollar goes directly to project costs: PACER access fees ($0.10 per page for thousands of federal court docket pages), domain registration (~$10/domain/year for 75+ domains), and research infrastructure including databases and APIs. All labor is volunteer -- zero dollars go to salaries or overhead."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); text-align: center; }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        /* Impact Stats Grid */
+        .impact-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 24px 0 16px;
+        }
+        .impact-cell {
+            background: var(--surface);
+            padding: 28px 20px;
+            text-align: center;
+        }
+        .impact-cell:hover { background: var(--surface-hover); }
+        .impact-number {
+            font-size: 1.8rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 4px;
+            color: var(--text);
+        }
+        .impact-label {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+        }
+
+        /* Where Money Goes */
+        .breakdown-list {
+            list-style: none;
+            margin: 24px 0 16px 0;
+            padding: 0;
+        }
+        .breakdown-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 0;
+        }
+        .breakdown-list li:last-child { border-bottom: none; }
+        .breakdown-icon {
+            flex-shrink: 0;
+            width: 36px;
+            height: 36px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            margin-top: 2px;
+        }
+
+        /* Donate CTA */
+        .donate-cta {
+            text-align: center;
+            padding: 56px 0;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            margin: 48px 0;
+        }
+        .donate-cta h2 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+        .donate-cta p {
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+            font-size: 1rem;
+        }
+        .donate-btn {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 16px 48px;
+            border-radius: 8px;
+            transition: background 0.2s;
+            letter-spacing: -0.01em;
+        }
+        .donate-btn:hover {
+            background: var(--accent-hover);
+            color: #fff;
+        }
+        .tax-info {
+            margin-top: 20px;
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            line-height: 1.7;
+        }
+
+        /* Other Ways */
+        .ways-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+            margin-top: 24px;
+        }
+        .way-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 24px;
+        }
+        .way-card .way-title {
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+        .way-card .way-desc {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+            .impact-grid { grid-template-columns: repeat(2, 1fr); }
+            .donate-btn { padding: 14px 36px; font-size: 1rem; }
+            .donate-cta { padding: 40px 0; margin: 32px 0; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="network.html">Network</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Support the Open Bankruptcy Project</h1>
+        <p class="subtitle">100% volunteer-built. 100% free to every user.</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <h2>Why Donate</h2>
+        <p>The Open Bankruptcy Project is a nonprofit building free tools that help people understand the federal bankruptcy system. We run no ads. We accept no attorney referral fees. We collect no user data. Every tool, every dataset, and every page of content is free to everyone -- forever.</p>
+        <p>Every dollar donated goes directly to keeping this infrastructure running: PACER access fees, domain renewals, and the research databases that power our screening tools. Everything else is volunteer labor.</p>
+
+        <h2>Impact</h2>
+        <div class="impact-grid">
+            <div class="impact-cell">
+                <div class="impact-number">4.9M</div>
+                <div class="impact-label">Cases Screened</div>
+            </div>
+            <div class="impact-cell">
+                <div class="impact-number">75+</div>
+                <div class="impact-label">Free Domains</div>
+            </div>
+            <div class="impact-cell">
+                <div class="impact-number">2,000+</div>
+                <div class="impact-label">Pages of Content</div>
+            </div>
+            <div class="impact-cell">
+                <div class="impact-number">94</div>
+                <div class="impact-label">Districts Covered</div>
+            </div>
+            <div class="impact-cell">
+                <div class="impact-number">$0</div>
+                <div class="impact-label">Cost to Every User</div>
+            </div>
+            <div class="impact-cell">
+                <div class="impact-number">100%</div>
+                <div class="impact-label">Volunteer-Built</div>
+            </div>
+        </div>
+
+        <h2>Where Your Money Goes</h2>
+        <p>We have no employees, no office, and no overhead. Here is exactly what your donation funds:</p>
+        <ul class="breakdown-list">
+            <li>
+                <span class="breakdown-icon">$</span>
+                <span><strong>PACER access fees</strong> -- Federal court records cost $0.10 per page. Screening thousands of docket pages across 94 districts adds up fast.</span>
+            </li>
+            <li>
+                <span class="breakdown-icon">@</span>
+                <span><strong>Domain registration</strong> -- We maintain 75+ educational domains at roughly $10/domain/year, covering every major bankruptcy statute.</span>
+            </li>
+            <li>
+                <span class="breakdown-icon">&gt;</span>
+                <span><strong>Research infrastructure</strong> -- Databases, APIs, and data processing tools that power our case screening and analysis.</span>
+            </li>
+            <li>
+                <span class="breakdown-icon">0</span>
+                <span><strong>Everything else is volunteer labor</strong> -- Code, content, research, design, outreach -- all donated time. Zero dollars go to salaries or overhead.</span>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="donate-cta">
+    <div class="container">
+        <h2>Help Keep Bankruptcy Data Free</h2>
+        <p>Your donation directly funds public access to federal court data that should have been free all along.</p>
+        <a href="https://ko-fi.com/openbankruptcy" class="donate-btn" target="_blank" rel="noopener">Donate on Ko-fi</a>
+        <div class="tax-info">
+            <p>EIN 41-5159631 | 501(c)(3) determination pending</p>
+            <p>Your donation may be tax-deductible once our 501(c)(3) status is confirmed.</p>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <h2>Other Ways to Help</h2>
+        <div class="ways-grid">
+            <div class="way-card">
+                <div class="way-title">Share Our Tools</div>
+                <div class="way-desc">Know someone facing bankruptcy? Share our free screening tools and educational resources. Every share helps someone make a more informed decision.</div>
+            </div>
+            <div class="way-card">
+                <div class="way-title">Use the 1328(f) Screener</div>
+                <div class="way-desc">Our flagship tool at <a href="https://1328f.com">1328f.com</a> screens cases for discharge bar violations. More users means more awareness of the problem.</div>
+            </div>
+            <div class="way-card">
+                <div class="way-title">Star Our Repos on GitHub</div>
+                <div class="way-desc">Visit <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">github.com/ilikemath9999</a> and star our repositories. It helps others discover the project.</div>
+            </div>
+            <div class="way-card">
+                <div class="way-title">Install RECAP</div>
+                <div class="way-desc">The <a href="https://free.law/recap" target="_blank" rel="noopener">RECAP browser extension</a> automatically frees PACER documents you access. It costs nothing and helps open the court system for everyone.</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="network.html">Network</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://ko-fi.com/openbankruptcy" target="_blank" rel="noopener">Donate</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending).</p>
+        <p>EIN 41-5159631 | All tools and data released under open source licenses.</p>
+    </div>
+</footer>
+
+</body>
+</html>
