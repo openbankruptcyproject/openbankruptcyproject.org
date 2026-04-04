@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>OBP Methodology -- Validation Package</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-size: 15px; line-height: 1.65; color: #1a1a1a; background: #fafafa; }
+.container { max-width: 820px; margin: 0 auto; padding: 40px 24px 60px; }
+header { text-align: center; margin-bottom: 40px; padding-bottom: 32px; border-bottom: 3px solid #1a3a5c; }
+header h1 { font-size: 26px; font-weight: 700; color: #1a3a5c; margin-bottom: 4px; }
+header .subtitle { font-size: 15px; color: #555; margin-top: 8px; }
+h2 { font-size: 19px; font-weight: 700; color: #1a3a5c; margin: 36px 0 16px; padding-bottom: 6px; border-bottom: 1px solid #ddd; }
+p { margin-bottom: 14px; }
+a { color: #1a3a5c; }
+.file-card { background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 16px 20px; margin: 12px 0; }
+.file-card h3 { font-size: 15px; font-weight: 600; color: #1a3a5c; margin-bottom: 4px; }
+.file-card p { font-size: 13px; color: #555; margin-bottom: 8px; }
+.file-card a { display: inline-block; font-size: 13px; padding: 4px 12px; background: #e8eef4; border-radius: 4px; text-decoration: none; margin-right: 8px; }
+.file-card a:hover { background: #d0dae4; }
+.footer { margin-top: 48px; padding-top: 24px; border-top: 2px solid #1a3a5c; text-align: center; font-size: 13px; color: #888; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+<h1>OBP Methodology</h1>
+<div class="subtitle">Validation Package for Academic Review</div>
+</header>
+
+<p>This package contains the methodology, findings, source code, and reproduction steps for two OBP analyses. All data sources are publicly available. The code is anonymized. Nothing in this package identifies specific attorneys or cases.</p>
+
+<h2>1. Section 1328(f) Discharge Eligibility Analysis</h2>
+
+<p>Cross-references FJC IDB prior filing history against case disposition across 4.9 million cases to identify 391,951 cases where prior filers received discharge with no evidence of eligibility verification.</p>
+
+<div class="file-card">
+<h3>Methodology</h3>
+<p>Full description of the FJC cross-reference approach, data sources, filtering logic, and limitations.</p>
+<a href="1328f/methodology.md">View methodology.md</a>
+</div>
+
+<div class="file-card">
+<h3>Findings</h3>
+<p>National summary: 391,951 cases (27.4%), policy impact, Advisory Committee citation.</p>
+<a href="1328f/findings.md">View findings.md</a>
+</div>
+
+<h2>2. Attorney Behavior Analytics</h2>
+
+<p>Parses PACER docket entries to measure how frequently a debtor's attorney responds to creditor motions. Sample finding: one firm responded to 30 of 309 creditor motions (9.7%).</p>
+
+<div class="file-card">
+<h3>Methodology</h3>
+<p>Docket entry classification, response matching, rate calculation, and controls.</p>
+<a href="attorney-analytics/methodology.md">View methodology.md</a>
+</div>
+
+<div class="file-card">
+<h3>Source Code</h3>
+<p>Python script for calculating opposition rates from downloaded PACER dockets. Anonymized.</p>
+<a href="attorney-analytics/opposition_rate.py">View opposition_rate.py</a>
+</div>
+
+<div class="file-card">
+<h3>Sample Output</h3>
+<p>Anonymized results table showing response rates by motion type.</p>
+<a href="attorney-analytics/sample_output.md">View sample_output.md</a>
+</div>
+
+<h2>3. Validation Guide</h2>
+
+<div class="file-card">
+<h3>Reproduction Steps</h3>
+<p>Step-by-step instructions for independently reproducing both analyses using public data.</p>
+<a href="VALIDATION.md">View VALIDATION.md</a>
+</div>
+
+<h2>Data Access</h2>
+
+<p>All analyses use publicly available data:</p>
+<ul style="margin: 0 0 16px 24px;">
+<li><strong>FJC Integrated Database:</strong> <a href="https://www.fjc.gov/research/idb">fjc.gov/research/idb</a> (free download)</li>
+<li><strong>PACER docket reports:</strong> $0.10/page via CM/ECF, or free via <a href="https://www.courtlistener.com/recap/">RECAP archive</a></li>
+<li><strong>Live screener:</strong> <a href="https://1328f.com">1328f.com</a> (client-side, no server)</li>
+<li><strong>Research platform:</strong> <a href="https://1328f.org">1328f.org</a></li>
+</ul>
+
+<p>The GitHub repository with all source code is available on request: <a href="https://github.com/openbankruptcyproject/obp-methodology">github.com/openbankruptcyproject/obp-methodology</a> (private, collaborator access required).</p>
+
+<div class="footer">
+<p>Open Bankruptcy Project &bull; <a href="https://openbankruptcyproject.org">openbankruptcyproject.org</a> &bull; 501(c)(3) pending</p>
+<p style="margin-top: 8px;">Private. Not indexed, not linked.</p>
+</div>
+
+</div>
+</body>
+</html>
