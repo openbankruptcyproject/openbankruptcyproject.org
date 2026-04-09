@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>openbankruptcyproject.org -- Bankruptcy Information</title>
+  <subtitle>Free bankruptcy information and guides from the Open Bankruptcy Project</subtitle>
+  <link href="https://openbankruptcyproject.org/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://openbankruptcyproject.org/" rel="alternate" type="text/html"/>
+  <id>https://openbankruptcyproject.org/</id>
+  <updated>2026-04-08T00:00:00Z</updated>
+  <author>
+    <name>Open Bankruptcy Project</name>
+    <uri>https://openbankruptcyproject.org</uri>
+  </author>
+  <rights>Copyright 2026 Open Bankruptcy Project</rights>
+  <entry>
+    <title>Open Bankruptcy Project -- Empirical Research &amp; Free Tools for Bankruptcy Court Transparency</title>
+    <link href="https://openbankruptcyproject.org/" rel="alternate"/>
+    <id>https://openbankruptcyproject.org/</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Open Bankruptcy Project -- free tools, data, and research making the bankruptcy system more transparent and accessible. A 501(c)(3) nonprofit initiative.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+      <uri>https://openbankruptcyproject.org</uri>
+    </author>
+  </entry>
+  <entry>
+    <title>11 U.S.C. Section 707 -- Dismissal of Chapter 7 Case</title>
+    <link href="https://openbankruptcyproject.org/707-dismissal.html" rel="alternate"/>
+    <id>https://openbankruptcyproject.org/707-dismissal.html</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Learn about 11 u.s.c. section 707 -- dismissal of chapter 7 case in our free 2026 guide. Clear explanations, real data, and practical steps.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+      <uri>https://openbankruptcyproject.org</uri>
+    </author>
+  </entry>
+  <entry>
+    <title>11 U.S.C. Section 707(b) -- Means Test and Abuse</title>
+    <link href="https://openbankruptcyproject.org/707b-means-test-abuse.html" rel="alternate"/>
+    <id>https://openbankruptcyproject.org/707b-means-test-abuse.html</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Detailed guide to Section 707(b) means test abuse in Chapter 7 bankruptcy. Presumption of abuse, rebuttal, totality of circumstances, and how courts.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+      <uri>https://openbankruptcyproject.org</uri>
+    </author>
+  </entry>
+  <entry>
+    <title>BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission&#x27;s Unfinished Business - Open Bankruptcy Project -- Openbk Project</title>
+    <link href="https://openbankruptcyproject.org/abi-commission-seven-years.html" rel="alternate"/>
+    <id>https://openbankruptcyproject.org/abi-commission-seven-years.html</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Learn about bapcpa at twenty: what 4.9 million cases reveal about the abi commission&#x27;s unfinished business - open bankruptcy project explained | free.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+      <uri>https://openbankruptcyproject.org</uri>
+    </author>
+  </entry>
+  <entry>
+    <title>About -- Open Bankruptcy Project -- Openbk Project</title>
+    <link href="https://openbankruptcyproject.org/about.html" rel="alternate"/>
+    <id>https://openbankruptcyproject.org/about.html</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>About the Open Bankruptcy Project: our mission, history, methodology, and leadership. [Openbk Project]</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+      <uri>https://openbankruptcyproject.org</uri>
+    </author>
+  </entry>
+  <entry>
+    <title>Bankruptcy Hearing -- What to Expect in Court</title>
+    <link href="https://openbankruptcyproject.org/bankruptcy-hearing-what-to-expect.html" rel="alternate"/>
+    <id>https://openbankruptcyproject.org/bankruptcy-hearing-what-to-expect.html</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Learn about bankruptcy hearing -- what to expect in court in our free 2026 guide. Clear explanations, real data, and practical steps.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+      <uri>https://openbankruptcyproject.org</uri>
+    </author>
+  </entry>
+  <entry>
+    <title>Bankruptcy Impact on Co-Signers -- What Happens to Joint Debts</title>
+    <link href="https://openbankruptcyproject.org/bankruptcy-impact-cosigner.html" rel="alternate"/>
+    <id>https://openbankruptcyproject.org/bankruptcy-impact-cosigner.html</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Learn about bankruptcy impact on co-signers -- what happens to joint debts in our free 2026 guide. Clear explanations, real data, and practical steps.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+      <uri>https://openbankruptcyproject.org</uri>
+    </author>
+  </entry>
+  <entry>
+    <title>Business Owner Personal Liability in Bankruptcy</title>
+    <link href="https://openbankruptcyproject.org/business-owner-personal-liability.html" rel="alternate"/>
+    <id>https://openbankruptcyproject.org/business-owner-personal-liability.html</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Learn about business owner personal liability in bankruptcy in our free 2026 guide. Clear explanations, real data, and practical steps.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+      <uri>https://openbankruptcyproject.org</uri>
+    </author>
+  </entry>
+  <entry>
+    <title>Can You File Bankruptcy on Taxes? IRS Debt Discharge Rules</title>
+    <link href="https://openbankruptcyproject.org/can-you-file-bankruptcy-on-taxes.html" rel="alternate"/>
+    <id>https://openbankruptcyproject.org/can-you-file-bankruptcy-on-taxes.html</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Learn about can you file bankruptcy on taxes? irs debt discharge rules in our free 2026 guide. Clear explanations, real data, and practical steps.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+      <uri>https://openbankruptcyproject.org</uri>
+    </author>
+  </entry>
+  <entry>
+    <title>Bankruptcy by City -- Local Guides for Every Metro</title>
+    <link href="https://openbankruptcyproject.org/cities.html" rel="alternate"/>
+    <id>https://openbankruptcyproject.org/cities.html</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Learn about bankruptcy by city -- local guides for every metro | open bankruptcy project in our free 2026 guide.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+      <uri>https://openbankruptcyproject.org</uri>
+    </author>
+  </entry>
+</feed>
