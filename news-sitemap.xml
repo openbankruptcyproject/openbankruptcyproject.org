@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <!-- Google News Sitemap: only articles published within the last 2 days are eligible.
+       All current articles were published April 2-3, 2026. Update this file when new
+       articles are published. Remove entries older than 2 days. -->
+
+  <url>
+    <loc>https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Open Bankruptcy Project</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-03</news:publication_date>
+      <news:title>75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://openbankruptcyproject.org/news/where-chapter-13-fails-worst-districts-2024.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Open Bankruptcy Project</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-03</news:publication_date>
+      <news:title>Where Chapter 13 Fails: The 15 Worst Districts for Plan Completion (2020-2024)</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://openbankruptcyproject.org/news/repeat-bankruptcy-filers-by-district-2024.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Open Bankruptcy Project</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-03</news:publication_date>
+      <news:title>1 in 3 Chapter 13 Filers Has Filed Before: Repeat Bankruptcy by District</news:title>
+    </news:news>
+  </url>
+
   <url>
     <loc>https://openbankruptcyproject.org/news/bankruptcy-filings-by-state-2026.html</loc>
     <news:news>
@@ -12,6 +52,7 @@
       <news:title>Bankruptcy Filings by State: 2026 National Overview</news:title>
     </news:news>
   </url>
+
   <url>
     <loc>https://openbankruptcyproject.org/news/chapter-13-completion-rates-by-district.html</loc>
     <news:news>
@@ -23,6 +64,7 @@
       <news:title>Chapter 13 Completion Rates Vary Widely Across Federal Districts</news:title>
     </news:news>
   </url>
+
   <url>
     <loc>https://openbankruptcyproject.org/news/means-test-april-2026-median-income.html</loc>
     <news:news>
@@ -34,6 +76,7 @@
       <news:title>The Means Test Gets Harder: April 2026 Median Income Increases</news:title>
     </news:news>
   </url>
+
   <url>
     <loc>https://openbankruptcyproject.org/news/pro-se-bankruptcy-filings-data.html</loc>
     <news:news>
@@ -45,6 +88,7 @@
       <news:title>Pro Se Bankruptcy Filings: What the Data Shows</news:title>
     </news:news>
   </url>
+
   <url>
     <loc>https://openbankruptcyproject.org/news/attorney-fee-transparency-bankruptcy.html</loc>
     <news:news>
@@ -56,4 +100,5 @@
       <news:title>Attorney Fee Transparency in Consumer Bankruptcy: A National Analysis</news:title>
     </news:news>
   </url>
+
 </urlset>

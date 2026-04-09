@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Open Bankruptcy Project -- News &amp; Analysis</title>
+    <link>https://openbankruptcyproject.org/news/</link>
+    <description>Data-driven bankruptcy news and analysis from the Open Bankruptcy Project. Empirical research covering 4.9 million federal cases across all 94 judicial districts.</description>
+    <language>en-us</language>
+    <copyright>Copyright 2026 Open Bankruptcy Project</copyright>
+    <managingEditor>info@openbankruptcyproject.org (Open Bankruptcy Project)</managingEditor>
+    <webMaster>info@openbankruptcyproject.org (Open Bankruptcy Project)</webMaster>
+    <lastBuildDate>Wed, 09 Apr 2026 12:00:00 +0000</lastBuildDate>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <generator>Open Bankruptcy Project Static Site</generator>
+    <atom:link href="https://openbankruptcyproject.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://openbankruptcyproject.org/og-default.svg</url>
+      <title>Open Bankruptcy Project -- News &amp; Analysis</title>
+      <link>https://openbankruptcyproject.org/news/</link>
+    </image>
+
+    <item>
+      <title>75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them</title>
+      <link>https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html</link>
+      <guid isPermaLink="true">https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html</guid>
+      <pubDate>Thu, 03 Apr 2026 12:00:00 +0000</pubDate>
+      <dc:creator>Open Bankruptcy Project Research Team</dc:creator>
+      <description>An estimated 75,764 Section 1328(f) timing violations have occurred nationally, and no federal court is systematically screening for them. District-by-district data from 4.9 million cases.</description>
+      <category>Research</category>
+      <category>1328(f)</category>
+    </item>
+
+    <item>
+      <title>Where Chapter 13 Fails: The 15 Worst Districts for Plan Completion (2020-2024)</title>
+      <link>https://openbankruptcyproject.org/news/where-chapter-13-fails-worst-districts-2024.html</link>
+      <guid isPermaLink="true">https://openbankruptcyproject.org/news/where-chapter-13-fails-worst-districts-2024.html</guid>
+      <pubDate>Thu, 03 Apr 2026 11:00:00 +0000</pubDate>
+      <dc:creator>Open Bankruptcy Project Research Team</dc:creator>
+      <description>National analysis of Chapter 13 plan completion rates reveals the 15 worst-performing federal districts from 2020-2024, with dismissal rates exceeding 60% in some courts.</description>
+      <category>Research</category>
+      <category>Chapter 13</category>
+    </item>
+
+    <item>
+      <title>1 in 3 Chapter 13 Filers Has Filed Before: Repeat Bankruptcy by District</title>
+      <link>https://openbankruptcyproject.org/news/repeat-bankruptcy-filers-by-district-2024.html</link>
+      <guid isPermaLink="true">https://openbankruptcyproject.org/news/repeat-bankruptcy-filers-by-district-2024.html</guid>
+      <pubDate>Thu, 03 Apr 2026 10:00:00 +0000</pubDate>
+      <dc:creator>Open Bankruptcy Project Research Team</dc:creator>
+      <description>District-by-district data on repeat bankruptcy filings shows approximately one-third of Chapter 13 filers have filed previously, raising questions about system effectiveness.</description>
+      <category>Research</category>
+      <category>Chapter 13</category>
+    </item>
+
+    <item>
+      <title>Attorney Fee Transparency in Consumer Bankruptcy: A National Analysis</title>
+      <link>https://openbankruptcyproject.org/news/attorney-fee-transparency-bankruptcy.html</link>
+      <guid isPermaLink="true">https://openbankruptcyproject.org/news/attorney-fee-transparency-bankruptcy.html</guid>
+      <pubDate>Thu, 02 Apr 2026 14:00:00 +0000</pubDate>
+      <dc:creator>Open Bankruptcy Project Research Team</dc:creator>
+      <description>Fee disclosures in consumer bankruptcy happen after retention, lack standardization, and sit behind PACER's paywall. Open Bankruptcy Project data reveals significant concentration in the consumer bankruptcy bar.</description>
+      <category>Research</category>
+      <category>Attorney Fees</category>
+    </item>
+
+    <item>
+      <title>Bankruptcy Filings by State: 2026 National Overview</title>
+      <link>https://openbankruptcyproject.org/news/bankruptcy-filings-by-state-2026.html</link>
+      <guid isPermaLink="true">https://openbankruptcyproject.org/news/bankruptcy-filings-by-state-2026.html</guid>
+      <pubDate>Thu, 02 Apr 2026 13:00:00 +0000</pubDate>
+      <dc:creator>Open Bankruptcy Project Research Team</dc:creator>
+      <description>Comprehensive state-by-state breakdown of bankruptcy filing rates for 2026, with data on Chapter 7 and Chapter 13 distribution across all 50 states.</description>
+      <category>Data</category>
+      <category>Statistics</category>
+    </item>
+
+    <item>
+      <title>Chapter 13 Completion Rates Vary Widely Across Federal Districts</title>
+      <link>https://openbankruptcyproject.org/news/chapter-13-completion-rates-by-district.html</link>
+      <guid isPermaLink="true">https://openbankruptcyproject.org/news/chapter-13-completion-rates-by-district.html</guid>
+      <pubDate>Thu, 02 Apr 2026 12:00:00 +0000</pubDate>
+      <dc:creator>Open Bankruptcy Project Research Team</dc:creator>
+      <description>National analysis shows Chapter 13 plan completion rates vary dramatically by federal district, ranging from under 20% to over 60%, driven by local legal culture and fee structures.</description>
+      <category>Research</category>
+      <category>Chapter 13</category>
+    </item>
+
+    <item>
+      <title>The Means Test Gets Harder: April 2026 Median Income Increases</title>
+      <link>https://openbankruptcyproject.org/news/means-test-april-2026-median-income.html</link>
+      <guid isPermaLink="true">https://openbankruptcyproject.org/news/means-test-april-2026-median-income.html</guid>
+      <pubDate>Thu, 02 Apr 2026 11:00:00 +0000</pubDate>
+      <dc:creator>Open Bankruptcy Project Research Team</dc:creator>
+      <description>Updated median income figures for April 2026 raise the bar for the Chapter 7 means test, potentially pushing more filers toward Chapter 13.</description>
+      <category>Policy</category>
+      <category>Means Test</category>
+    </item>
+
+    <item>
+      <title>Pro Se Bankruptcy Filings: What the Data Shows</title>
+      <link>https://openbankruptcyproject.org/news/pro-se-bankruptcy-filings-data.html</link>
+      <guid isPermaLink="true">https://openbankruptcyproject.org/news/pro-se-bankruptcy-filings-data.html</guid>
+      <pubDate>Thu, 02 Apr 2026 10:00:00 +0000</pubDate>
+      <dc:creator>Open Bankruptcy Project Research Team</dc:creator>
+      <description>Data analysis of pro se (self-represented) bankruptcy filings across federal districts reveals patterns in filing rates, outcomes, and the gap between represented and unrepresented debtors.</description>
+      <category>Research</category>
+      <category>Pro Se</category>
+    </item>
+
+  </channel>
+</rss>

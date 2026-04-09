@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Open Bankruptcy Project -- News &amp; Analysis</title>
   <subtitle>Data-driven bankruptcy news and analysis from the Open Bankruptcy Project. Empirical research covering 4.9 million federal cases across all 94 judicial districts.</subtitle>
-  <link href="https://openbankruptcyproject.org/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://openbankruptcyproject.org/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://openbankruptcyproject.org/news/" rel="alternate" type="text/html"/>
   <id>https://openbankruptcyproject.org/news/</id>
   <updated>2026-04-09T12:00:00Z</updated>
