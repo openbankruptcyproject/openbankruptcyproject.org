@@ -6,6 +6,30 @@
        articles are published. Remove entries older than 2 days. -->
 
   <url>
+    <loc>https://openbankruptcyproject.org/news/btn-network-launch-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Open Bankruptcy Project</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-09</news:publication_date>
+      <news:title>Open Bankruptcy Project Launches 160+ Free Bankruptcy Resources Nationwide</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://openbankruptcyproject.org/news/btn-network-launch-2026-es.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Open Bankruptcy Project</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-09</news:publication_date>
+      <news:title>Open Bankruptcy Project lanza mas de 160 recursos gratuitos sobre bancarrota en todo el pais</news:title>
+    </news:news>
+  </url>
+
+  <url>
     <loc>https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html</loc>
     <news:news>
       <news:publication>
