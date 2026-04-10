@@ -165,13 +165,14 @@ button:disabled { background: #999; cursor: not-allowed; }
 }
 </script>
 <meta name="description" content="Learn about 1328(f) screening demo -- interactive validation in our free 2026 guide. Clear explanations, real data, and practical steps.">
+<link rel="canonical" href="https://openbankruptcyproject.org/briefing/6f353a79549e585e/methodology/interactive_demo.html">
 </head>
 <body>
 <div class="container">
 
 <header>
 <h1>Section 1328(f) Screening Demo</h1>
-<p>Interactive validation of the discharge bar screening methodology</p>
+<p>Interactive validation of the <a href="https://dischargebar.org/" title="discharge bar">discharge bar</a> screening methodology</p>
 <p style="font-size:12px; color:#999; margin-top:4px;">Client-side only. No data leaves your browser. Open DevTools (F12) to inspect.</p>
 </header>
 <nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://1328f.org">Home</a><span class="separator">&rsaquo;</span><a href="https://openbankruptcyproject.org">1328(f) Screening Demo -- Interactive Validation</a><span class="separator">&rsaquo;</span><span>Section 1328(f) Screening Demo</span></nav>
@@ -179,16 +180,16 @@ button:disabled { background: #999; cursor: not-allowed; }
 
 <div class="card">
 <h2>How It Works</h2>
-<p>This demo runs the exact same screening logic used in the national 1328(f) analysis. It operates on a small anonymized sample dataset (70 cases, 30 debtors) embedded in this page. Click "Run Screening" to execute the algorithm in your browser.</p>
+<p>This demo runs the exact same screening logic used in the national <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> analysis. It operates on a small anonymized sample dataset (70 cases, 30 debtors) embedded in this page. Click "Run Screening" to execute the algorithm in your browser.</p>
 
 <h3>Statutory Framework</h3>
 <div class="code">11 U.S.C. 1328(f):
 
-(f)(1): No discharge if debtor received a discharge in a case filed under
-        chapter 7, 11, or 12 within 4 YEARS before the current Ch.13 filing.
+(f)(1): No <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> if debtor received a discharge in a case filed under
+        <a href="https://whatischapter7.com/" title="Chapter 7">chapter 7</a>, 11, or 12 within 4 YEARS before the current Ch.13 filing.
 
 (f)(2): No discharge if debtor received a discharge in a case filed under
-        chapter 13 within 2 YEARS before the current Ch.13 filing.
+        <a href="https://chapter7vs13.org/" title="Chapter 13">chapter 13</a> within 2 YEARS before the current Ch.13 filing.
 
 Key: The window runs from PRIOR FILING DATE to CURRENT FILING DATE.
      The prior case must have resulted in a discharge.
@@ -198,7 +199,7 @@ Key: The window runs from PRIOR FILING DATE to CURRENT FILING DATE.
 <ol style="margin: 8px 0 0 24px; font-size: 13px;">
 <li>Group cases by debtor name (normalized: lowercase, suffix-stripped)</li>
 <li>For each debtor with 2+ cases, find discharged cases and Ch.13 filings</li>
-<li>For each Ch.13 filing dated after Oct 17, 2005 (BAPCPA effective):</li>
+<li>For each Ch.13 filing dated after Oct 17, 2005 (<a href="https://1328f.com/glossary.html#bapcpa" title="BAPCPA">BAPCPA</a> effective):</li>
 <li style="margin-left: 20px;">Check each prior discharged case's filing date</li>
 <li style="margin-left: 20px;">If prior was Ch.7/11/12 and gap <= 4 years: flag as (f)(1) violation</li>
 <li style="margin-left: 20px;">If prior was Ch.13 and gap <= 2 years: flag as (f)(2) violation</li>

@@ -102,6 +102,7 @@ a { color: #1a3a5c; }
 }
 </script>
 <meta name="description" content="Learn about obp methodology -- validation package in our free 2026 guide. Clear explanations, real data, and practical steps. Part of the...">
+<link rel="canonical" href="https://openbankruptcyproject.org/briefing/6f353a79549e585e/methodology/">
 </head>
 <body>
 <div class="container">
@@ -118,7 +119,7 @@ a { color: #1a3a5c; }
 <!-- ================================================================== -->
 <h2>1. Section 1328(f) Discharge Eligibility Analysis</h2>
 
-<p>Cross-references FJC IDB prior filing history against case disposition across 4.9 million Ch.13 cases to identify 391,951 cases where prior filers received discharge with no evidence of eligibility verification.</p>
+<p>Cross-references FJC IDB prior filing history against case disposition across 4.9 million Ch.13 cases to identify 391,951 cases where prior filers received <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> with no evidence of eligibility verification.</p>
 
 <div class="file-card">
 <h3>Methodology <span class="section-badge badge-doc">DOC</span></h3>
@@ -140,7 +141,7 @@ a { color: #1a3a5c; }
 
 <div class="file-card">
 <h3>Screener Logic (Python) <span class="section-badge badge-code">CODE</span></h3>
-<p>Standalone Python implementation of the 1328(f) screening algorithm. Takes PACER CSV exports and outputs violations. Also includes FJC IDB national screening mode. Zero dependencies beyond Python 3.8 stdlib.</p>
+<p>Standalone Python implementation of the <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> screening algorithm. Takes <a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> CSV exports and outputs violations. Also includes FJC IDB national screening mode. Zero dependencies beyond Python 3.8 stdlib.</p>
 <a href="1328f/screener_logic.py">View screener_logic.py</a>
 </div>
 
@@ -163,7 +164,7 @@ a { color: #1a3a5c; }
 
 <div class="file-card">
 <h3>District Comparison Tool (Python) <span class="section-badge badge-code">CODE</span></h3>
-<p>Compares any attorney's metrics against their district's baseline. Computes Z-scores on 6 dimensions (dismissal, discharge, OSC, MTD, fee density, stay relief). Anonymized -- no firm/attorney names in code.</p>
+<p>Compares any attorney's metrics against their district's baseline. Computes Z-scores on 6 dimensions (<a href="https://dismissedbankruptcy.org/" title="dismissal">dismissal</a>, discharge, OSC, MTD, fee density, stay relief). Anonymized -- no firm/attorney names in code.</p>
 <a href="attorney-analytics/district_comparison.py">View district_comparison.py</a>
 </div>
 

@@ -172,6 +172,7 @@ a { color: #1a3a5c; }
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What We Built?", "acceptedAnswer": {"@type": "Answer", "text": "The Open Bankruptcy Project started when a Chapter 11 debtor in Kansas City taught himself Python to investigate his own attorney."}}, {"@type": "Question", "name": "Where SCALES and OBP Intersect?", "acceptedAnswer": {"@type": "Answer", "text": "OBP is a use case that demonstrates the full SCALES thesis: free court data, enriched with computational tools, in the hands of the public, producing policy outcomes."}}]}
 </script>
+<link rel="canonical" href="https://openbankruptcyproject.org/briefing/scales/">
 </head>
 <body>
 <div class="container">
@@ -184,7 +185,7 @@ a { color: #1a3a5c; }
 
 <h2>What We Built</h2>
 
-<p>The Open Bankruptcy Project started when a Chapter 11 debtor in Kansas City taught himself Python to investigate his own attorney. It grew into a national-scale court data research platform -- built entirely on publicly available federal court records, including PACER data accessed through infrastructure that SCALES helped make possible.</p>
+<p>The Open Bankruptcy Project started when a <a href="https://section1191.org/" title="Chapter 11">Chapter 11</a> debtor in Kansas City taught himself Python to investigate his own attorney. It grew into a national-scale court data research platform -- built entirely on publicly available federal court records, including <a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> data accessed through infrastructure that SCALES helped make possible.</p>
 
 <div class="stat-grid">
 <div class="stat-card">
@@ -210,7 +211,7 @@ a { color: #1a3a5c; }
 <p>Using FJC public release data (37.9M rows, both the IDB main and supplementary files), we cross-referenced two fields that had never been systematically compared: prior filing history and case disposition.</p>
 
 <div class="highlight-box">
-<p><strong>Finding:</strong> 391,951 bankruptcy cases involving prior filers received a discharge with no evidence of 11 U.S.C. &sect; 1328(f) eligibility verification. This represents 27.4% of all prior filers with known dispositions -- a national compliance gap hiding in the government's own data.</p>
+<p><strong>Finding:</strong> 391,951 bankruptcy cases involving prior filers received a <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> with no evidence of 11 U.S.C. &sect; <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> eligibility verification. This represents 27.4% of all prior filers with known dispositions -- a national compliance gap hiding in the government's own data.</p>
 </div>
 
 <p>The aggregate data showing the problem is free (FJC). The verification data that would confirm actual violations is behind the PACER paywall. That's the access-to-justice problem in one example: a federal rules committee is now acting on data that requires paid access to verify.</p>
@@ -244,7 +245,7 @@ a { color: #1a3a5c; }
 
 <table>
 <tr><th>Capability</th><th>What It Does</th></tr>
-<tr><td><strong>Attorney Scorecard</strong></td><td>Multi-dimensional analysis of any bankruptcy attorney: dismissal rates, timing patterns, fee extraction, client outcomes vs. district norms</td></tr>
+<tr><td><strong>Attorney Scorecard</strong></td><td>Multi-dimensional analysis of any bankruptcy attorney: <a href="https://dismissedbankruptcy.org/" title="dismissal">dismissal</a> rates, timing patterns, fee extraction, client outcomes vs. district norms</td></tr>
 <tr><td><strong>Blind Outlier Detection</strong></td><td>Identifies statistical anomalies without specifying a target -- the tool finds the outliers, not the user</td></tr>
 <tr><td><strong>ML Mill Probability</strong></td><td>Random forest classifier trained on known mill indicators: case volume, dismissal timing, fee patterns, prior-filer rates</td></tr>
 <tr><td><strong>District Comparison</strong></td><td>Benchmarks any attorney or firm against their district's baseline across 15+ metrics</td></tr>
