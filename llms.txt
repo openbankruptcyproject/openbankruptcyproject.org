@@ -1,245 +1,536 @@
-# Open Bankruptcy Project -- Empirical Research &amp; Free Tools for Bankruptcy Court Transparency
+# Open Bankruptcy Project - Empirical Research &amp; Free Tools for Bankruptcy Court Transparency
 > Free bankruptcy tools and 4.9M-case research database from a 501(c)(3) nonprofit. Discharge screeners, court data, and reform advocacy.
 
 ## About
 openbankruptcyproject.org is part of the Open Bankruptcy Project (openbankruptcyproject.org), a 501(c)(3) nonprofit building free, open-source tools for bankruptcy court transparency.
 
 ## Key Pages
-- National Bankruptcy Statistics (2008-2024) -- 4.9 Million Cases Analyzed | Open Bankruptcy Project: https://openbankruptcyproject.org/statistics.html
-- 11 U.S.C. Section 707 -- Dismissal of Chapter 7 Case: https://openbankruptcyproject.org/707-dismissal.html
-- 11 U.S.C. Section 707(b) -- Means Test and Abuse: https://openbankruptcyproject.org/707b-means-test-abuse.html
+- 11 U.S.C. Section 707 - Dismissal of Chapter 7 Case: https://openbankruptcyproject.org/707-dismissal.html
+- 11 U.S.C. Section 707(b) - Means Test and Abuse: https://openbankruptcyproject.org/707b-means-test-abuse.html
 - BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business - Open Bankruptcy Project: https://openbankruptcyproject.org/abi-commission-seven-years.html
-- About -- Open Bankruptcy Project: https://openbankruptcyproject.org/about.html
-- Citations &amp; References -- Where OBP Research Has Been Cited | Open Bankruptcy Project: https://openbankruptcyproject.org/citations.html
-- Bankruptcy Hearing -- What to Expect in Court: https://openbankruptcyproject.org/bankruptcy-hearing-what-to-expect.html
-- Bankruptcy Impact on Co-Signers -- What Happens to Joint Debts: https://openbankruptcyproject.org/bankruptcy-impact-cosigner.html
+- About - Open Bankruptcy Project: https://openbankruptcyproject.org/about.html
+- Bankruptcy Hearing - What to Expect in Court: https://openbankruptcyproject.org/bankruptcy-hearing-what-to-expect.html
+- Bankruptcy Impact on Co-Signers - What Happens to Joint Debts: https://openbankruptcyproject.org/bankruptcy-impact-cosigner.html
 - Business Owner Personal Liability in Bankruptcy: https://openbankruptcyproject.org/business-owner-personal-liability.html
 - Can You File Bankruptcy on Taxes? IRS Debt Discharge Rules: https://openbankruptcyproject.org/can-you-file-bankruptcy-on-taxes.html
+- Citations &amp; References - Where OBP Research Has Been Cited | Open Bankruptcy Project: https://openbankruptcyproject.org/citations.html
+- Bankruptcy by City - Local Guides for Every Metro: https://openbankruptcyproject.org/cities.html
 - How to Close a Business Through Bankruptcy: https://openbankruptcyproject.org/close-business-bankruptcy.html
-- Chapter 13 Confirmation Hearing -- What to Expect: https://openbankruptcyproject.org/confirmation-hearing.html
-- Contact -- Open Bankruptcy Project: https://openbankruptcyproject.org/contact.html
-- Corporation Bankruptcy -- Chapter 7 and Chapter 11 for Corporations: https://openbankruptcyproject.org/corporation-bankruptcy.html
+- LegalZoom Bankruptcy vs Filing Yourself - What You Need to Know: https://openbankruptcyproject.org/compare/legalzoom-vs-filing-yourself.html
+- Nolo vs Open Bankruptcy Project - Free Bankruptcy Resources Compared: https://openbankruptcyproject.org/compare/nolo-vs-obp.html
+- Upsolve vs Open Bankruptcy Project - Which Free Tool Is Better?: https://openbankruptcyproject.org/compare/upsolve-vs-obp.html
+- Chapter 13 Confirmation Hearing - What to Expect: https://openbankruptcyproject.org/confirmation-hearing.html
+- Contact - Open Bankruptcy Project: https://openbankruptcyproject.org/contact.html
+- Corporation Bankruptcy - Chapter 7 and Chapter 11 for Corporations: https://openbankruptcyproject.org/corporation-bankruptcy.html
 - Data Access: Download Our Datasets: https://openbankruptcyproject.org/data-access.html
 - Does Bankruptcy Affect Getting a Job? Employment Discrimination: https://openbankruptcyproject.org/does-bankruptcy-affect-getting-job.html
 - Does Bankruptcy Affect Rent Applications? Tenant Rights Guide: https://openbankruptcyproject.org/does-bankruptcy-affect-rent-applications.html
 - Does Bankruptcy Affect Your Spouse? Joint vs Individual Filing: https://openbankruptcyproject.org/does-bankruptcy-affect-spouse.html
 - Does Bankruptcy Clear All Debt? What Gets Discharged: https://openbankruptcyproject.org/does-bankruptcy-clear-all-debt.html
 - Does Bankruptcy Clear Student Loans? Undue Hardship: https://openbankruptcyproject.org/does-bankruptcy-clear-student-loans.html
-- Support the Open Bankruptcy Project -- Donate: https://openbankruptcyproject.org/donate.html
-- How to Fire Your Bankruptcy Lawyer -- Substitution of Counsel: https://openbankruptcyproject.org/fire-bankruptcy-lawyer.html
+- Support the Open Bankruptcy Project - Donate: https://openbankruptcyproject.org/donate.html
+- Find Free Bankruptcy Help Near You - Legal Aid by State: https://openbankruptcyproject.org/find-help.html
+- How to Fire Your Bankruptcy Lawyer - Substitution of Counsel: https://openbankruptcyproject.org/fire-bankruptcy-lawyer.html
+- Bankruptcy FAQ - Frequently Asked Questions: https://openbankruptcyproject.org/frequently-asked-questions.html
+- Free Bankruptcy Help in Alabama - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/alabama.html
+- Free Bankruptcy Help in Alaska - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/alaska.html
+- Free Bankruptcy Help in Arizona - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/arizona.html
+- Free Bankruptcy Help in Arkansas - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/arkansas.html
+- Free Bankruptcy Help in California - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/california.html
+- Free Bankruptcy Help in Colorado - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/colorado.html
+- Free Bankruptcy Help in Connecticut - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/connecticut.html
+- Free Bankruptcy Help in Delaware - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/delaware.html
+- Free Bankruptcy Help in District of Columbia - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/district-of-columbia.html
+- Free Bankruptcy Help in Florida - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/florida.html
+- Free Bankruptcy Help in Georgia - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/georgia.html
+- Free Bankruptcy Help in Hawaii - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/hawaii.html
+- Free Bankruptcy Help in Idaho - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/idaho.html
+- Free Bankruptcy Help in Illinois - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/illinois.html
+- Free Bankruptcy Help in Indiana - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/indiana.html
+- Free Bankruptcy Help in Iowa - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/iowa.html
+- Free Bankruptcy Help in Kansas - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/kansas.html
+- Free Bankruptcy Help in Kentucky - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/kentucky.html
+- Free Bankruptcy Help in Louisiana - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/louisiana.html
+- Free Bankruptcy Help in Maine - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/maine.html
+- Free Bankruptcy Help in Maryland - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/maryland.html
+- Free Bankruptcy Help in Massachusetts - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/massachusetts.html
+- Free Bankruptcy Help in Michigan - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/michigan.html
+- Free Bankruptcy Help in Minnesota - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/minnesota.html
+- Free Bankruptcy Help in Mississippi - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/mississippi.html
+- Free Bankruptcy Help in Missouri - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/missouri.html
+- Free Bankruptcy Help in Montana - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/montana.html
+- Free Bankruptcy Help in Nebraska - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/nebraska.html
+- Free Bankruptcy Help in Nevada - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/nevada.html
+- Free Bankruptcy Help in New Hampshire - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/new-hampshire.html
+- Free Bankruptcy Help in New Jersey - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/new-jersey.html
+- Free Bankruptcy Help in New Mexico - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/new-mexico.html
+- Free Bankruptcy Help in New York - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/new-york.html
+- Free Bankruptcy Help in North Carolina - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/north-carolina.html
+- Free Bankruptcy Help in North Dakota - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/north-dakota.html
+- Free Bankruptcy Help in Ohio - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/ohio.html
+- Free Bankruptcy Help in Oklahoma - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/oklahoma.html
+- Free Bankruptcy Help in Oregon - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/oregon.html
+- Free Bankruptcy Help in Pennsylvania - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/pennsylvania.html
+- Free Bankruptcy Help in Rhode Island - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/rhode-island.html
+- Free Bankruptcy Help in South Carolina - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/south-carolina.html
+- Free Bankruptcy Help in South Dakota - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/south-dakota.html
+- Free Bankruptcy Help in Tennessee - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/tennessee.html
+- Free Bankruptcy Help in Texas - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/texas.html
+- Free Bankruptcy Help in Utah - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/utah.html
+- Free Bankruptcy Help in Vermont - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/vermont.html
+- Free Bankruptcy Help in Virginia - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/virginia.html
+- Free Bankruptcy Help in Washington - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/washington.html
+- Free Bankruptcy Help in West Virginia - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/west-virginia.html
+- Free Bankruptcy Help in Wisconsin - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/wisconsin.html
+- Free Bankruptcy Help in Wyoming - Legal Aid & Pro Bono: https://openbankruptcyproject.org/help/wyoming.html
+- Bankruptcy by Debt Type: Find Your Situation - Open Bankruptcy Project: https://openbankruptcyproject.org/hub-debt-types.html
+- How to File Bankruptcy: Complete Resource Hub - Open Bankruptcy Project: https://openbankruptcyproject.org/hub-filing.html
+- Life After Bankruptcy: Rebuilding Guide - Open Bankruptcy Project: https://openbankruptcyproject.org/hub-after-bankruptcy.html
+- Is Your Bankruptcy Lawyer Doing a Good Job? - Open Bankruptcy Project: https://openbankruptcyproject.org/hub-attorney-quality.html
+- Protecting Your Assets in Bankruptcy - Open Bankruptcy Project: https://openbankruptcyproject.org/hub-protect-assets.html
 - Impact - Open Bankruptcy Project: https://openbankruptcyproject.org/impact.html
-- Open Bankruptcy Project -- Empirical Research &amp; Free Tools for Bankruptcy Court Transparency: https://openbankruptcyproject.org/
+- Open Bankruptcy Project - Empirical Research &amp; Free Tools for Bankruptcy Court Transparency: https://openbankruptcyproject.org/
 - Is Bankruptcy Worth It? Honest Analysis for 2026: https://openbankruptcyproject.org/is-bankruptcy-worth-it.html
-- For Legal Aid Organizations -- Open Bankruptcy Project: https://openbankruptcyproject.org/legal-aid.html
-- LLC Bankruptcy -- Options for Limited Liability Companies: https://openbankruptcyproject.org/llc-bankruptcy.html
-- Methodology -- How We Analyze 4.9 Million Bankruptcy Cases | Open Bankruptcy Project: https://openbankruptcyproject.org/methodology.html
-- Motion to Convert Bankruptcy -- Chapter 7 to 13 or 13 to 7: https://openbankruptcyproject.org/motion-to-convert-bankruptcy.html
-- Bankruptcy Transparency Network -- 75+ Free Educational Domains: https://openbankruptcyproject.org/network.html
+- For Legal Aid Organizations - Open Bankruptcy Project: https://openbankruptcyproject.org/legal-aid.html
+- LLC Bankruptcy - Options for Limited Liability Companies: https://openbankruptcyproject.org/llc-bankruptcy.html
+- Methodology - How We Analyze 4.9 Million Bankruptcy Cases | Open Bankruptcy Project: https://openbankruptcyproject.org/methodology.html
+- Motion to Convert Bankruptcy - Chapter 7 to 13 or 13 to 7: https://openbankruptcyproject.org/motion-to-convert-bankruptcy.html
+- Bankruptcy Transparency Network - 75+ Free Educational Domains: https://openbankruptcyproject.org/network.html
+- Open Bankruptcy Project Launches 160+ Free Bankruptcy Resources Nationwide - Open Bankruptcy Project: https://openbankruptcyproject.org/news/btn-network-launch-2026.html
+- Attorney Fee Transparency in Consumer Bankruptcy: A National Analysis - Open Bankruptcy Project: https://openbankruptcyproject.org/news/attorney-fee-transparency-bankruptcy.html
+- Bankruptcy Filings by State: 2026 National Overview - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-filings-by-state-2026.html
+- Bankruptcy in Alabama: 60,987 Chapter 13 Cases Across 3 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-alabama-2024.html
+- Bankruptcy in Alaska: 216 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-alaska-2024.html
+- Bankruptcy in Arizona: 8,695 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-arizona-2024.html
+- Bankruptcy in Arkansas: 17,169 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-arkansas-2024.html
+- Bankruptcy in California: 37,838 Chapter 13 Cases Across 4 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-california-2024.html
+- Bankruptcy in Colorado: 7,178 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-colorado-2024.html
+- Bankruptcy in Connecticut: 2,727 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-connecticut-2024.html
+- Bankruptcy in Delaware: 2,231 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-delaware-2024.html
+- Bankruptcy in District of Columbia: 397 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-district-of-columbia-2024.html
+- Bankruptcy in Florida: 49,136 Chapter 13 Cases Across 3 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-florida-2024.html
+- Bankruptcy in Georgia: 74,441 Chapter 13 Cases Across 3 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-georgia-2024.html
+- Bankruptcy in Guam: 50 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-guam-2024.html
+- Bankruptcy in Hawaii: 1,867 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-hawaii-2024.html
+- Bankruptcy in Idaho: 1,082 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-idaho-2024.html
+- Bankruptcy in Illinois: 45,239 Chapter 13 Cases Across 3 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-illinois-2024.html
+- Bankruptcy in Indiana: 27,846 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-indiana-2024.html
+- Bankruptcy in Iowa: 1,980 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-iowa-2024.html
+- Bankruptcy in Kansas: 8,778 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-kansas-2024.html
+- Bankruptcy in Kentucky: 20,892 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-kentucky-2024.html
+- Bankruptcy in Louisiana: 27,826 Chapter 13 Cases Across 3 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-louisiana-2024.html
+- Bankruptcy in Maine: 602 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-maine-2024.html
+- Bankruptcy in Maryland: 15,672 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-maryland-2024.html
+- Bankruptcy in Massachusetts: 6,330 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-massachusetts-2024.html
+- Bankruptcy in Michigan: 25,711 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-michigan-2024.html
+- Bankruptcy in Minnesota: 8,024 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-minnesota-2024.html
+- Bankruptcy in Mississippi: 21,087 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-mississippi-2024.html
+- Bankruptcy in Missouri: 20,509 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-missouri-2024.html
+- Bankruptcy in Montana: 554 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-montana-2024.html
+- Bankruptcy in Nebraska: 3,875 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-nebraska-2024.html
+- Bankruptcy in Nevada: 5,309 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-nevada-2024.html
+- Bankruptcy in New Hampshire: 1,109 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-new-hampshire-2024.html
+- Bankruptcy in New Jersey: 21,981 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-new-jersey-2024.html
+- Bankruptcy in New Mexico: 986 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-new-mexico-2024.html
+- Bankruptcy in New York: 24,539 Chapter 13 Cases Across 4 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-new-york-2024.html
+- Bankruptcy in North Carolina: 23,589 Chapter 13 Cases Across 3 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-north-carolina-2024.html
+- Bankruptcy in North Dakota: 292 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-north-dakota-2024.html
+- Bankruptcy in Ohio: 25,879 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-ohio-2024.html
+- Bankruptcy in Oklahoma: 4,821 Chapter 13 Cases Across 3 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-oklahoma-2024.html
+- Bankruptcy in Oregon: 6,806 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-oregon-2024.html
+- Bankruptcy in Pennsylvania: 24,028 Chapter 13 Cases Across 3 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-pennsylvania-2024.html
+- Bankruptcy in Puerto Rico: 14,927 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-puerto-rico-2024.html
+- Bankruptcy in Rhode Island: 1,052 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-rhode-island-2024.html
+- Bankruptcy in South Carolina: 12,771 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-south-carolina-2024.html
+- Bankruptcy in South Dakota: 531 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-south-dakota-2024.html
+- Bankruptcy in Tennessee: 53,854 Chapter 13 Cases Across 3 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-tennessee-2024.html
+- Bankruptcy in Texas: 48,996 Chapter 13 Cases Across 4 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-texas-2024.html
+- Bankruptcy in Utah: 11,516 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-utah-2024.html
+- Bankruptcy in Vermont: 258 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-vermont-2024.html
+- Bankruptcy in Virginia: 27,400 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-virginia-2024.html
+- Bankruptcy in Washington: 7,972 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-washington-2024.html
+- Bankruptcy in West Virginia: 1,223 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-west-virginia-2024.html
+- Bankruptcy in Wisconsin: 15,445 Chapter 13 Cases Across 2 Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-wisconsin-2024.html
+- Bankruptcy in Wyoming: 254 Chapter 13 Cases Across 1 District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-wyoming-2024.html
+- Chapter 13 Bankruptcy in C.D. Cal.: 17,361 Cases, 83.7% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-c-d-cal-bankruptcy-data.html
+- Chapter 13 Bankruptcy in C.D. Ill.: 3,037 Cases, 62.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-c-d-ill-bankruptcy-data.html
+- Chapter 13 Completion Rates Vary Widely Across Federal Districts - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-completion-rates-by-district.html
+- Chapter 13 Bankruptcy in D. Alaska: 216 Cases, 78.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-alaska-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Ariz.: 8,695 Cases, 74.5% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-ariz-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Colo.: 7,178 Cases, 71.2% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-colo-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Connecticut: 2,727 Cases, 88.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-connecticut-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D.D.C.: 397 Cases, 85.7% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-d-c-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Delaware: 2,231 Cases, 75.4% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-delaware-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Guam: 50 Cases, 0 Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-guam-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Hawaii: 1,867 Cases, 53.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-hawaii-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Idaho: 1,082 Cases, 67.6% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-idaho-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Kan.: 8,778 Cases, 51.4% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-kan-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Maine: 602 Cases, 62.6% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-maine-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Maryland: 15,672 Cases, 81.5% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-maryland-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Massachusetts: 6,330 Cases, 79.9% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-massachusetts-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Minn.: 8,024 Cases, 58.2% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-minn-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Mont.: 554 Cases, 50.7% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-mont-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D.N.D.: 292 Cases, 48.2% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-n-d-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D.N.M.: 986 Cases, 67.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-n-m-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Neb.: 3,875 Cases, 52.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-neb-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Nev.: 5,309 Cases, 76.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-nev-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. New Hampshire: 1,109 Cases, 68.6% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-new-hampshire-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. New Jersey: 21,981 Cases, 74.7% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-new-jersey-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Or.: 6,806 Cases, 62.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-or-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Puerto Rico: 14,927 Cases, 58.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-puerto-rico-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Rhode Island: 1,052 Cases, 69.5% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-rhode-island-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D.S.C.: 12,771 Cases, 76.9% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-s-c-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D.S.D.: 531 Cases, 59.4% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-s-d-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Utah: 11,516 Cases, 75.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-utah-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D.V.I.: 6 Cases, 0 Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-v-i-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Vermont: 258 Cases, 53.8% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-vermont-bankruptcy-data.html
+- Chapter 13 Bankruptcy in D. Wyo.: 254 Cases, 76.5% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-wyo-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Ark.: 11,613 Cases, 78.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-ark-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Cal.: 9,187 Cases, 76.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-cal-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Ky.: 8,134 Cases, 52.2% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-ky-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. La.: 6,571 Cases, 71.2% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-la-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Mich.: 21,544 Cases, 75.2% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-mich-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Mo.: 11,116 Cases, 76.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-mo-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D.N.C.: 12,727 Cases, 69.4% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-n-c-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D.N.Y.: 13,187 Cases, 96.4% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-n-y-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Okla.: 417 Cases, 75.4% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-okla-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Pa.: 10,211 Cases, 77.7% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-pa-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Tenn.: 14,486 Cases, 75.9% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-tenn-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Tex.: 8,974 Cases, 84.8% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-tex-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Va.: 21,231 Cases, 76.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-va-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Wash.: 1,773 Cases, 53.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-wash-bankruptcy-data.html
+- Chapter 13 Bankruptcy in E.D. Wis.: 12,222 Cases, 75.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-wis-bankruptcy-data.html
+- Chapter 13 Bankruptcy in M.D. Ala.: 21,637 Cases, 70.8% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-ala-bankruptcy-data.html
+- Chapter 13 Bankruptcy in M.D. Fla.: 20,598 Cases, 82.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-fla-bankruptcy-data.html
+- Chapter 13 Bankruptcy in M.D. Ga.: 18,108 Cases, 73.9% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-ga-bankruptcy-data.html
+- Chapter 13 Bankruptcy in M.D. La.: 1,926 Cases, 79.8% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-la-bankruptcy-data.html
+- Chapter 13 Bankruptcy in M.D.N.C.: 6,053 Cases, 69.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-n-c-bankruptcy-data.html
+- Chapter 13 Bankruptcy in M.D. Pa.: 6,580 Cases, 66.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-pa-bankruptcy-data.html
+- Chapter 13 Bankruptcy in M.D. Tenn.: 11,524 Cases, 70.7% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-tenn-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D. Ala.: 27,429 Cases, 77.8% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-ala-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D. Cal.: 8,358 Cases, 70.9% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-cal-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D. Fla.: 1,981 Cases, 90.4% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-fla-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D. Ga.: 40,911 Cases, 85.8% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-ga-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D. Ill.: 38,689 Cases, 75.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-ill-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D. Ind.: 10,209 Cases, 73.9% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-ind-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D. Iowa: 593 Cases, 71.4% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-iowa-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D. Miss.: 10,820 Cases, 69.9% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-miss-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D.N.Y.: 4,034 Cases, 60.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-n-y-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D. Ohio: 11,378 Cases, 72.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-ohio-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D. Okla.: 767 Cases, 73.6% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-okla-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D. Tex.: 17,147 Cases, 86.4% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-tex-bankruptcy-data.html
+- Chapter 13 Bankruptcy in N.D.W. Va.: 628 Cases, 62.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-w-va-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D. Ala.: 11,921 Cases, 70.8% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-ala-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D. Cal.: 2,932 Cases, 77.2% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-cal-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D. Fla.: 26,557 Cases, 71.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-fla-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D. Ga.: 15,422 Cases, 70.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-ga-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D. Ill.: 3,513 Cases, 63.4% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-ill-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D. Ind.: 17,637 Cases, 63.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-ind-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D. Iowa: 1,387 Cases, 69.2% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-iowa-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D. Miss.: 10,267 Cases, 78.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-miss-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D.N.Y.: 4,263 Cases, 80.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-n-y-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D. Ohio: 14,501 Cases, 67.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-ohio-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D. Tex.: 13,757 Cases, 83.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-tex-bankruptcy-data.html
+- Chapter 13 Bankruptcy in S.D.W. Va.: 595 Cases, 66.8% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-w-va-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. Ark.: 5,556 Cases, 68.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-ark-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. Ky.: 12,758 Cases, 77.4% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-ky-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. La.: 19,329 Cases, 78.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-la-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. Mich.: 4,167 Cases, 66.6% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-mich-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. Mo.: 9,393 Cases, 64.8% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-mo-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D.N.C.: 4,809 Cases, 63.2% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-n-c-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D.N.Y.: 3,055 Cases, 76.8% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-n-y-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. Okla.: 3,637 Cases, 71.6% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-okla-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. Pa.: 7,237 Cases, 67.1% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-pa-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. Tenn.: 27,844 Cases, 91.3% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-tenn-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. Tex.: 9,118 Cases, 85.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-tex-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. Va.: 6,169 Cases, 54.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-va-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. Wash.: 6,199 Cases, 58.6% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-wash-bankruptcy-data.html
+- Chapter 13 Bankruptcy in W.D. Wis.: 3,223 Cases, 63.0% Dismissal Rate - Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-wis-bankruptcy-data.html
+- 75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them - Open Bankruptcy Project: https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html
+- News & Analysis - Open Bankruptcy Project: https://openbankruptcyproject.org/news/
+- The Means Test Gets Harder: April 2026 Median Income Increases - Open Bankruptcy Project: https://openbankruptcyproject.org/news/means-test-april-2026-median-income.html
+- Pro Se Bankruptcy Filings: What the Data Shows - Open Bankruptcy Project: https://openbankruptcyproject.org/news/pro-se-bankruptcy-filings-data.html
+- 1 in 3 Chapter 13 Filers Has Filed Before: Repeat Bankruptcy by District - Open Bankruptcy Project: https://openbankruptcyproject.org/news/repeat-bankruptcy-filers-by-district-2024.html
+- Where Chapter 13 Fails: The 15 Worst Districts for Plan Completion (2020-2024) - Open Bankruptcy Project: https://openbankruptcyproject.org/news/where-chapter-13-fails-worst-districts-2024.html
 - PACER Reform: Why Court Records Should Be Free: https://openbankruptcyproject.org/pacer-reform.html
 - Press - Open Bankruptcy Project: https://openbankruptcyproject.org/press.html
-- Privacy Policy -- Open Bankruptcy Project: https://openbankruptcyproject.org/privacy.html
-- RECAP Contributions -- Open Bankruptcy Project: https://openbankruptcyproject.org/recap.html
-- How to Reopen a Bankruptcy Case -- Motion to Reopen Guide: https://openbankruptcyproject.org/reopen-bankruptcy-case.html
+- Privacy Policy - Open Bankruptcy Project: https://openbankruptcyproject.org/privacy.html
+- RECAP Contributions - Open Bankruptcy Project: https://openbankruptcyproject.org/recap.html
+- How to Reopen a Bankruptcy Case - Motion to Reopen Guide: https://openbankruptcyproject.org/reopen-bankruptcy-case.html
 - Research - Open Bankruptcy Project: https://openbankruptcyproject.org/research.html
-- For Researchers -- Open Bankruptcy Project: https://openbankruptcyproject.org/researchers.html
-- 11 U.S.C. Section 101 -- Definitions in the Bankruptcy Code: https://openbankruptcyproject.org/section-101-definitions.html
-- 11 U.S.C. Section 109 -- Who May Be a Debtor: https://openbankruptcyproject.org/section-109-who-may-be-debtor.html
-- 11 U.S.C. Section 1101 -- Chapter 11 Definitions: https://openbankruptcyproject.org/section-1101-chapter-11-definitions.html
-- 11 U.S.C. Section 1112 -- Conversion or Dismissal of Chapter 11: https://openbankruptcyproject.org/section-1112-conversion-dismissal.html
-- 11 U.S.C. Section 1121 -- Who May File a Plan in Chapter 11: https://openbankruptcyproject.org/section-1121-who-may-file-plan.html
-- 11 U.S.C. Section 1125 -- Disclosure Statement in Chapter 11: https://openbankruptcyproject.org/section-1125-disclosure-statement.html
-- 11 U.S.C. Section 1129 -- Confirmation of Chapter 11 Plan: https://openbankruptcyproject.org/section-1129-confirmation.html
-- 11 U.S.C. Section 1141 -- Effect of Confirmation of Chapter 11 Plan: https://openbankruptcyproject.org/section-1141-effect-of-confirmation.html
-- 11 U.S.C. Section 1181 -- Subchapter V for Small Business Debtors: https://openbankruptcyproject.org/section-1181-subchapter-v.html
-- 11 U.S.C. Section 1186 -- Property of the Estate in Subchapter V: https://openbankruptcyproject.org/section-1186-property-of-estate.html
-- 11 U.S.C. Section 1189 -- Filing of Plan in Subchapter V: https://openbankruptcyproject.org/section-1189-filing-of-plan.html
-- 11 U.S.C. Section 1190 -- Acceptance of Plan in Subchapter V: https://openbankruptcyproject.org/section-1190-acceptance-of-plan.html
-- 11 U.S.C. Section 1193 -- Modification of Plan in Subchapter V: https://openbankruptcyproject.org/section-1193-modification.html
-- 11 U.S.C. Section 1201 -- Co-Debtor Stay in Chapter 12: https://openbankruptcyproject.org/section-1201-stay-of-action.html
-- 11 U.S.C. Section 1225 -- Confirmation of Chapter 12 Plan: https://openbankruptcyproject.org/section-1225-confirmation-ch12.html
-- 11 U.S.C. Section 1322 -- Contents of Chapter 13 Plan: https://openbankruptcyproject.org/section-1322-contents-of-plan.html
-- 11 U.S.C. Section 1325 -- Confirmation of Chapter 13 Plan: https://openbankruptcyproject.org/section-1325-confirmation.html
-- 11 U.S.C. Section 329 -- Debtor's Transactions with Attorneys: https://openbankruptcyproject.org/section-329-debtor-transactions.html
-- 11 U.S.C. Section 363 -- Use, Sale, or Lease of Property: https://openbankruptcyproject.org/section-363-use-sale-lease-property.html
-- 11 U.S.C. Section 365 -- Executory Contracts and Unexpired Leases: https://openbankruptcyproject.org/section-365-executory-contracts.html
-- 11 U.S.C. Section 506 -- Determination of Secured Status: https://openbankruptcyproject.org/section-506-secured-status.html
-- 11 U.S.C. Section 507 -- Priority Claims in Bankruptcy: https://openbankruptcyproject.org/section-507-priorities.html
-- 11 U.S.C. Section 521 -- Debtor's Duties in Bankruptcy: https://openbankruptcyproject.org/section-521-debtor-duties.html
-- 11 U.S.C. Section 525 -- Protection from Discrimination After Bankruptcy: https://openbankruptcyproject.org/section-525-discrimination-against-debtor.html
-- Sole Proprietor Bankruptcy -- Personal and Business Debt Combined: https://openbankruptcyproject.org/sole-proprietor-bankruptcy.html
-- Terms of Use -- Open Bankruptcy Project: https://openbankruptcyproject.org/terms.html
-- Things to Do Before Filing Bankruptcy -- Pre-Filing Checklist: https://openbankruptcyproject.org/things-to-do-before-bankruptcy.html
-- Transparency Report 2026: https://openbankruptcyproject.org/transparency-report.html
-- United States Trustee -- Role, Powers, and How to File Complaints: https://openbankruptcyproject.org/us-trustee.html
-- Will I Lose My Car in Bankruptcy? Complete Guide: https://openbankruptcyproject.org/will-i-lose-my-car-in-bankruptcy.html
-- Attorney Fee Transparency in Consumer Bankruptcy: A National Analysis -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/attorney-fee-transparency-bankruptcy.html
-- Bankruptcy Filings by State: 2026 National Overview -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-filings-by-state-2026.html
-- Chapter 13 Completion Rates Vary Widely Across Federal Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-completion-rates-by-district.html
-- News & Analysis -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/
-- The Means Test Gets Harder: April 2026 Median Income Increases -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/means-test-april-2026-median-income.html
-- Pro Se Bankruptcy Filings: What the Data Shows -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/pro-se-bankruptcy-filings-data.html
-- Where Chapter 13 Fails: The 15 Worst Districts for Plan Completion (2020-2024) -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/where-chapter-13-fails-worst-districts-2024.html
-- 1 in 3 Chapter 13 Filers Has Filed Before: Repeat Bankruptcy by District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/repeat-bankruptcy-filers-by-district-2024.html
-- 75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html
-- Debtor Experience Survey -- Open Bankruptcy Project: https://openbankruptcyproject.org/survey/
-- Chapter 13 Bankruptcy in E.D.N.Y.: 13,187 Cases, 96.4% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-n-y-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. Tenn.: 27,844 Cases, 91.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-tenn-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D. Fla.: 1,981 Cases, 90.4% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-fla-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Connecticut: 2,727 Cases, 88.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-connecticut-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D. Tex.: 17,147 Cases, 86.4% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-tex-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D. Ga.: 40,911 Cases, 85.8% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-ga-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D.D.C.: 397 Cases, 85.7% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-d-c-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. Tex.: 9,118 Cases, 85.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-tex-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Tex.: 8,974 Cases, 84.8% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-tex-bankruptcy-data.html
-- Chapter 13 Bankruptcy in C.D. Cal.: 17,361 Cases, 83.7% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-c-d-cal-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D. Tex.: 13,757 Cases, 83.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-tex-bankruptcy-data.html
-- Chapter 13 Bankruptcy in M.D. Fla.: 20,598 Cases, 82.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-fla-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Maryland: 15,672 Cases, 81.5% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-maryland-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D.N.Y.: 4,263 Cases, 80.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-n-y-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Massachusetts: 6,330 Cases, 79.9% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-massachusetts-bankruptcy-data.html
-- Chapter 13 Bankruptcy in M.D. La.: 1,926 Cases, 79.8% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-la-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. La.: 19,329 Cases, 78.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-la-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Ark.: 11,613 Cases, 78.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-ark-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D. Miss.: 10,267 Cases, 78.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-miss-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Alaska: 216 Cases, 78.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-alaska-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D. Ala.: 27,429 Cases, 77.8% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-ala-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Pa.: 10,211 Cases, 77.7% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-pa-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. Ky.: 12,758 Cases, 77.4% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-ky-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D. Cal.: 2,932 Cases, 77.2% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-cal-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D.S.C.: 12,771 Cases, 76.9% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-s-c-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D.N.Y.: 3,055 Cases, 76.8% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-n-y-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Wyo.: 254 Cases, 76.5% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-wyo-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Cal.: 9,187 Cases, 76.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-cal-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Va.: 21,231 Cases, 76.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-va-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Mo.: 11,116 Cases, 76.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-mo-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Nev.: 5,309 Cases, 76.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-nev-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Tenn.: 14,486 Cases, 75.9% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-tenn-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Delaware: 2,231 Cases, 75.4% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-delaware-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Okla.: 417 Cases, 75.4% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-okla-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D. Ill.: 38,689 Cases, 75.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-ill-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Mich.: 21,544 Cases, 75.2% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-mich-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Wis.: 12,222 Cases, 75.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-wis-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Utah: 11,516 Cases, 75.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-utah-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. New Jersey: 21,981 Cases, 74.7% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-new-jersey-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Ariz.: 8,695 Cases, 74.5% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-ariz-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D. Ind.: 10,209 Cases, 73.9% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-ind-bankruptcy-data.html
-- Chapter 13 Bankruptcy in M.D. Ga.: 18,108 Cases, 73.9% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-ga-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D. Okla.: 767 Cases, 73.6% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-okla-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D. Ohio: 11,378 Cases, 72.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-ohio-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. Okla.: 3,637 Cases, 71.6% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-okla-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D. Iowa: 593 Cases, 71.4% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-iowa-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D. Fla.: 26,557 Cases, 71.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-fla-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. La.: 6,571 Cases, 71.2% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-la-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Colo.: 7,178 Cases, 71.2% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-colo-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D. Cal.: 8,358 Cases, 70.9% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-cal-bankruptcy-data.html
-- Chapter 13 Bankruptcy in M.D. Ala.: 21,637 Cases, 70.8% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-ala-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D. Ala.: 11,921 Cases, 70.8% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-ala-bankruptcy-data.html
-- Chapter 13 Bankruptcy in M.D. Tenn.: 11,524 Cases, 70.7% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-tenn-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D. Ga.: 15,422 Cases, 70.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-ga-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D. Miss.: 10,820 Cases, 69.9% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-miss-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Rhode Island: 1,052 Cases, 69.5% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-rhode-island-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D.N.C.: 12,727 Cases, 69.4% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-n-c-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D. Iowa: 1,387 Cases, 69.2% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-iowa-bankruptcy-data.html
-- Chapter 13 Bankruptcy in M.D.N.C.: 6,053 Cases, 69.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-n-c-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. New Hampshire: 1,109 Cases, 68.6% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-new-hampshire-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. Ark.: 5,556 Cases, 68.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-ark-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Idaho: 1,082 Cases, 67.6% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-idaho-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. Pa.: 7,237 Cases, 67.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-pa-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D. Ohio: 14,501 Cases, 67.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-ohio-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D.N.M.: 986 Cases, 67.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-n-m-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D.W. Va.: 595 Cases, 66.8% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-w-va-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. Mich.: 4,167 Cases, 66.6% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-mich-bankruptcy-data.html
-- Chapter 13 Bankruptcy in M.D. Pa.: 6,580 Cases, 66.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-m-d-pa-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. Mo.: 9,393 Cases, 64.8% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-mo-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D. Ill.: 3,513 Cases, 63.4% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-ill-bankruptcy-data.html
-- Chapter 13 Bankruptcy in S.D. Ind.: 17,637 Cases, 63.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-s-d-ind-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D.N.C.: 4,809 Cases, 63.2% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-n-c-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. Wis.: 3,223 Cases, 63.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-wis-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Maine: 602 Cases, 62.6% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-maine-bankruptcy-data.html
-- Chapter 13 Bankruptcy in C.D. Ill.: 3,037 Cases, 62.3% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-c-d-ill-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D.W. Va.: 628 Cases, 62.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-w-va-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Or.: 6,806 Cases, 62.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-or-bankruptcy-data.html
-- Chapter 13 Bankruptcy in N.D.N.Y.: 4,034 Cases, 60.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-n-d-n-y-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D.S.D.: 531 Cases, 59.4% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-s-d-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. Wash.: 6,199 Cases, 58.6% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-wash-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Minn.: 8,024 Cases, 58.2% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-minn-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Puerto Rico: 14,927 Cases, 58.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-puerto-rico-bankruptcy-data.html
-- Chapter 13 Bankruptcy in W.D. Va.: 6,169 Cases, 54.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-w-d-va-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Vermont: 258 Cases, 53.8% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-vermont-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Wash.: 1,773 Cases, 53.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-wash-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Hawaii: 1,867 Cases, 53.0% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-hawaii-bankruptcy-data.html
-- Chapter 13 Bankruptcy in E.D. Ky.: 8,134 Cases, 52.2% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-e-d-ky-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Neb.: 3,875 Cases, 52.1% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-neb-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Kan.: 8,778 Cases, 51.4% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-kan-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Mont.: 554 Cases, 50.7% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-mont-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D.N.D.: 292 Cases, 48.2% Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-n-d-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D.V.I.: 6 Cases, 0 Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-v-i-bankruptcy-data.html
-- Chapter 13 Bankruptcy in D. Guam: 50 Cases, 0 Dismissal Rate -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/chapter-13-d-guam-bankruptcy-data.html
-- Bankruptcy in New York: 24,539 Chapter 13 Cases Across 4 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-new-york-2024.html
-- Bankruptcy in Tennessee: 53,854 Chapter 13 Cases Across 3 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-tennessee-2024.html
-- Bankruptcy in Florida: 49,136 Chapter 13 Cases Across 3 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-florida-2024.html
-- Bankruptcy in Connecticut: 2,727 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-connecticut-2024.html
-- Bankruptcy in Texas: 48,996 Chapter 13 Cases Across 4 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-texas-2024.html
-- Bankruptcy in Georgia: 74,441 Chapter 13 Cases Across 3 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-georgia-2024.html
-- Bankruptcy in District of Columbia: 397 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-district-of-columbia-2024.html
-- Bankruptcy in California: 37,838 Chapter 13 Cases Across 4 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-california-2024.html
-- Bankruptcy in Maryland: 15,672 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-maryland-2024.html
-- Bankruptcy in Massachusetts: 6,330 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-massachusetts-2024.html
-- Bankruptcy in Louisiana: 27,826 Chapter 13 Cases Across 3 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-louisiana-2024.html
-- Bankruptcy in Arkansas: 17,169 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-arkansas-2024.html
-- Bankruptcy in Mississippi: 21,087 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-mississippi-2024.html
-- Bankruptcy in Alaska: 216 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-alaska-2024.html
-- Bankruptcy in Alabama: 60,987 Chapter 13 Cases Across 3 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-alabama-2024.html
-- Bankruptcy in Pennsylvania: 24,028 Chapter 13 Cases Across 3 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-pennsylvania-2024.html
-- Bankruptcy in Kentucky: 20,892 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-kentucky-2024.html
-- Bankruptcy in South Carolina: 12,771 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-south-carolina-2024.html
-- Bankruptcy in Wyoming: 254 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-wyoming-2024.html
-- Bankruptcy in Virginia: 27,400 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-virginia-2024.html
-- Bankruptcy in Missouri: 20,509 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-missouri-2024.html
-- Bankruptcy in Nevada: 5,309 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-nevada-2024.html
-- Bankruptcy in Delaware: 2,231 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-delaware-2024.html
-- Bankruptcy in Oklahoma: 4,821 Chapter 13 Cases Across 3 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-oklahoma-2024.html
-- Bankruptcy in Illinois: 45,239 Chapter 13 Cases Across 3 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-illinois-2024.html
-- Bankruptcy in Michigan: 25,711 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-michigan-2024.html
-- Bankruptcy in Wisconsin: 15,445 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-wisconsin-2024.html
-- Bankruptcy in Utah: 11,516 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-utah-2024.html
-- Bankruptcy in New Jersey: 21,981 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-new-jersey-2024.html
-- Bankruptcy in Arizona: 8,695 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-arizona-2024.html
-- Bankruptcy in Indiana: 27,846 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-indiana-2024.html
-- Bankruptcy in Ohio: 25,879 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-ohio-2024.html
-- Bankruptcy in Iowa: 1,980 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-iowa-2024.html
-- Bankruptcy in Colorado: 7,178 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-colorado-2024.html
-- Bankruptcy in Rhode Island: 1,052 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-rhode-island-2024.html
-- Bankruptcy in North Carolina: 23,589 Chapter 13 Cases Across 3 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-north-carolina-2024.html
-- Bankruptcy in New Hampshire: 1,109 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-new-hampshire-2024.html
-- Bankruptcy in Idaho: 1,082 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-idaho-2024.html
-- Bankruptcy in New Mexico: 986 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-new-mexico-2024.html
-- Bankruptcy in West Virginia: 1,223 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-west-virginia-2024.html
-- Bankruptcy in Maine: 602 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-maine-2024.html
-- Bankruptcy in Oregon: 6,806 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-oregon-2024.html
-- Bankruptcy in South Dakota: 531 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-south-dakota-2024.html
-- Bankruptcy in Washington: 7,972 Chapter 13 Cases Across 2 Districts -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-washington-2024.html
-- Bankruptcy in Minnesota: 8,024 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-minnesota-2024.html
-- Bankruptcy in Puerto Rico: 14,927 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-puerto-rico-2024.html
-- Bankruptcy in Vermont: 258 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-vermont-2024.html
-- Bankruptcy in Hawaii: 1,867 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-hawaii-2024.html
-- Bankruptcy in Nebraska: 3,875 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-nebraska-2024.html
-- Bankruptcy in Kansas: 8,778 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-kansas-2024.html
-- Bankruptcy in Montana: 554 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-montana-2024.html
-- Bankruptcy in North Dakota: 292 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-north-dakota-2024.html
-- Bankruptcy in Guam: 50 Chapter 13 Cases Across 1 District -- Open Bankruptcy Project: https://openbankruptcyproject.org/news/bankruptcy-statistics-guam-2024.html
-- Bankruptcy by City -- Local Guides for Every Metro: https://openbankruptcyproject.org/cities.html
-- Bankruptcy by State -- Free State Guides: https://openbankruptcyproject.org/states.html
-- Do I Qualify for Subchapter V? Eligibility Requirements: https://openbankruptcyproject.org/subchapter-v-eligibility.html
-- The Subchapter V Plan -- What You Need to Know: https://openbankruptcyproject.org/subchapter-v-plan.html
+- For Researchers - Open Bankruptcy Project: https://openbankruptcyproject.org/researchers.html
+- 11 U.S.C. Section 101 - Definitions in the Bankruptcy Code: https://openbankruptcyproject.org/section-101-definitions.html
+- 11 U.S.C. Section 109 - Who May Be a Debtor: https://openbankruptcyproject.org/section-109-who-may-be-debtor.html
+- 11 U.S.C. Section 1101 - Chapter 11 Definitions: https://openbankruptcyproject.org/section-1101-chapter-11-definitions.html
+- 11 U.S.C. Section 1112 - Conversion or Dismissal of Chapter 11: https://openbankruptcyproject.org/section-1112-conversion-dismissal.html
+- 11 U.S.C. Section 1121 - Who May File a Plan in Chapter 11: https://openbankruptcyproject.org/section-1121-who-may-file-plan.html
+- 11 U.S.C. Section 1125 - Disclosure Statement in Chapter 11: https://openbankruptcyproject.org/section-1125-disclosure-statement.html
+- 11 U.S.C. Section 1129 - Confirmation of Chapter 11 Plan: https://openbankruptcyproject.org/section-1129-confirmation.html
+- 11 U.S.C. Section 1141 - Effect of Confirmation of Chapter 11 Plan: https://openbankruptcyproject.org/section-1141-effect-of-confirmation.html
+- 11 U.S.C. Section 1181 - Subchapter V for Small Business Debtors: https://openbankruptcyproject.org/section-1181-subchapter-v.html
+- 11 U.S.C. Section 1186 - Property of the Estate in Subchapter V: https://openbankruptcyproject.org/section-1186-property-of-estate.html
+- 11 U.S.C. Section 1189 - Filing of Plan in Subchapter V: https://openbankruptcyproject.org/section-1189-filing-of-plan.html
+- 11 U.S.C. Section 1190 - Acceptance of Plan in Subchapter V: https://openbankruptcyproject.org/section-1190-acceptance-of-plan.html
+- 11 U.S.C. Section 1193 - Modification of Plan in Subchapter V: https://openbankruptcyproject.org/section-1193-modification.html
+- 11 U.S.C. Section 1201 - Co-Debtor Stay in Chapter 12: https://openbankruptcyproject.org/section-1201-stay-of-action.html
+- 11 U.S.C. Section 1225 - Confirmation of Chapter 12 Plan: https://openbankruptcyproject.org/section-1225-confirmation-ch12.html
+- 11 U.S.C. Section 1322 - Contents of Chapter 13 Plan: https://openbankruptcyproject.org/section-1322-contents-of-plan.html
+- 11 U.S.C. Section 1325 - Confirmation of Chapter 13 Plan: https://openbankruptcyproject.org/section-1325-confirmation.html
+- 11 U.S.C. Section 329 - Debtor's Transactions with Attorneys: https://openbankruptcyproject.org/section-329-debtor-transactions.html
+- 11 U.S.C. Section 363 - Use, Sale, or Lease of Property: https://openbankruptcyproject.org/section-363-use-sale-lease-property.html
+- 11 U.S.C. Section 365 - Executory Contracts and Unexpired Leases: https://openbankruptcyproject.org/section-365-executory-contracts.html
+- 11 U.S.C. Section 506 - Determination of Secured Status: https://openbankruptcyproject.org/section-506-secured-status.html
+- 11 U.S.C. Section 507 - Priority Claims in Bankruptcy: https://openbankruptcyproject.org/section-507-priorities.html
+- 11 U.S.C. Section 521 - Debtor's Duties in Bankruptcy: https://openbankruptcyproject.org/section-521-debtor-duties.html
+- 11 U.S.C. Section 525 - Protection from Discrimination After Bankruptcy: https://openbankruptcyproject.org/section-525-discrimination-against-debtor.html
+- Sole Proprietor Bankruptcy - Personal and Business Debt Combined: https://openbankruptcyproject.org/sole-proprietor-bankruptcy.html
+- Bankruptcy by State - Free State Guides: https://openbankruptcyproject.org/states.html
+- National Bankruptcy Statistics (2008-2024) - 4.9 Million Cases Analyzed | Open Bankruptcy Project: https://openbankruptcyproject.org/statistics.html
 - How Much Does Subchapter V Cost? Filing Fees, Attorney Fees: https://openbankruptcyproject.org/subchapter-v-costs.html
-- Subchapter V vs Chapter 13 -- Which Is Right for Your Business?: https://openbankruptcyproject.org/subchapter-v-vs-chapter13.html
-- Subchapter V Discharge -- 1191(a) Consensual vs 1191(b) Cramdown: https://openbankruptcyproject.org/subchapter-v-discharge.html
-- Subchapter V FAQ -- 16 Common Questions Answered: https://openbankruptcyproject.org/subchapter-v-faq.html
-- Upsolve vs Open Bankruptcy Project -- Which Free Tool Is Better?: https://openbankruptcyproject.org/compare/upsolve-vs-obp.html
-- Nolo vs Open Bankruptcy Project -- Free Bankruptcy Resources Compared: https://openbankruptcyproject.org/compare/nolo-vs-obp.html
-- LegalZoom Bankruptcy vs Filing Yourself -- What You Need to Know: https://openbankruptcyproject.org/compare/legalzoom-vs-filing-yourself.html
-- Bankruptcy FAQ -- Frequently Asked Questions: https://openbankruptcyproject.org/frequently-asked-questions.html
+- Subchapter V Discharge - 1191(a) Consensual vs 1191(b) Cramdown: https://openbankruptcyproject.org/subchapter-v-discharge.html
+- Do I Qualify for Subchapter V? Eligibility Requirements: https://openbankruptcyproject.org/subchapter-v-eligibility.html
+- Subchapter V FAQ - 16 Common Questions Answered: https://openbankruptcyproject.org/subchapter-v-faq.html
+- The Subchapter V Plan - What You Need to Know: https://openbankruptcyproject.org/subchapter-v-plan.html
+- Subchapter V vs Chapter 13 - Which Is Right for Your Business?: https://openbankruptcyproject.org/subchapter-v-vs-chapter13.html
+- Subchapter V Small Business Bankruptcy - Complete Guide: https://openbankruptcyproject.org/subchapter-v.html
+- Debtor Experience Survey - Open Bankruptcy Project: https://openbankruptcyproject.org/survey/
+- Terms of Use - Open Bankruptcy Project: https://openbankruptcyproject.org/terms.html
+- Things to Do Before Filing Bankruptcy - Pre-Filing Checklist: https://openbankruptcyproject.org/things-to-do-before-bankruptcy.html
+- Transparency Report 2026: https://openbankruptcyproject.org/transparency-report.html
+- United States Trustee - Role, Powers, and How to File Complaints: https://openbankruptcyproject.org/us-trustee.html
+- Will I Lose My Car in Bankruptcy? Complete Guide: https://openbankruptcyproject.org/will-i-lose-my-car-in-bankruptcy.html
+- Facing Foreclosure? Free Resources - Open Bankruptcy Project: https://openbankruptcyproject.org/facing-foreclosure.html
+- Drowning in Debt? Understand Your Options - Open Bankruptcy Project: https://openbankruptcyproject.org/drowning-in-debt.html
+- Problems With Your Bankruptcy Lawyer? What To Do - Open Bankruptcy Project: https://openbankruptcyproject.org/bad-bankruptcy-lawyer.html
+- Just Got Your Discharge? What's Next - Open Bankruptcy Project: https://openbankruptcyproject.org/after-bankruptcy.html
+- Bankruptcy Filing Statistics: April 2026 Data Roundup - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/data-roundup-april-2026.html
+- Blog - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/
+- What Happens When Chapter 13 Is Dismissed? - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/what-happens-when-chapter-13-is-dismissed.html
+- Can You File Bankruptcy More Than Once? - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/can-you-file-bankruptcy-more-than-once.html
+- What Is a Bankruptcy Trustee? - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/what-is-a-bankruptcy-trustee.html
+- How Long Does Chapter 7 Take? - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/how-long-does-chapter-7-take.html
+- What Debts Survive Bankruptcy? - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/what-debts-survive-bankruptcy.html
+- Can I Keep My Tax Refund in Bankruptcy? - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/can-i-keep-my-tax-refund-in-bankruptcy.html
+- Bankruptcy vs Debt Settlement: Which Is Better? - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/bankruptcy-vs-debt-settlement.html
+- How Much Debt Do You Need to File Bankruptcy? - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/how-much-debt-to-file-bankruptcy.html
+- Does Bankruptcy Affect Your Spouse? - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/does-bankruptcy-affect-your-spouse.html
+- What Happens to Your Bank Account in Bankruptcy? - Open Bankruptcy Project: https://openbankruptcyproject.org/blog/what-happens-to-your-bank-account-in-bankruptcy.html
+- Case Index — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/
+- W.D. Mo. Bankruptcy Cases — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/mowbk/
+- D. Kan. Bankruptcy Cases — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/
+- W.D. Mo. Bankruptcy Cases — Page 1 of 10 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/mowbk/page-1.html
+- W.D. Mo. Bankruptcy Cases — Page 2 of 10 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/mowbk/page-2.html
+- W.D. Mo. Bankruptcy Cases — Page 3 of 10 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/mowbk/page-3.html
+- W.D. Mo. Bankruptcy Cases — Page 4 of 10 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/mowbk/page-4.html
+- W.D. Mo. Bankruptcy Cases — Page 5 of 10 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/mowbk/page-5.html
+- W.D. Mo. Bankruptcy Cases — Page 6 of 10 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/mowbk/page-6.html
+- W.D. Mo. Bankruptcy Cases — Page 7 of 10 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/mowbk/page-7.html
+- W.D. Mo. Bankruptcy Cases — Page 8 of 10 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/mowbk/page-8.html
+- W.D. Mo. Bankruptcy Cases — Page 9 of 10 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/mowbk/page-9.html
+- W.D. Mo. Bankruptcy Cases — Page 10 of 10 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/mowbk/page-10.html
+- D. Kan. Bankruptcy Cases — Page 1 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-1.html
+- D. Kan. Bankruptcy Cases — Page 2 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-2.html
+- D. Kan. Bankruptcy Cases — Page 3 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-3.html
+- D. Kan. Bankruptcy Cases — Page 4 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-4.html
+- D. Kan. Bankruptcy Cases — Page 5 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-5.html
+- D. Kan. Bankruptcy Cases — Page 6 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-6.html
+- D. Kan. Bankruptcy Cases — Page 7 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-7.html
+- D. Kan. Bankruptcy Cases — Page 8 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-8.html
+- D. Kan. Bankruptcy Cases — Page 9 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-9.html
+- D. Kan. Bankruptcy Cases — Page 10 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-10.html
+- D. Kan. Bankruptcy Cases — Page 11 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-11.html
+- D. Kan. Bankruptcy Cases — Page 12 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-12.html
+- D. Kan. Bankruptcy Cases — Page 13 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-13.html
+- D. Kan. Bankruptcy Cases — Page 14 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-14.html
+- D. Kan. Bankruptcy Cases — Page 15 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-15.html
+- D. Kan. Bankruptcy Cases — Page 16 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-16.html
+- D. Kan. Bankruptcy Cases — Page 17 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-17.html
+- D. Kan. Bankruptcy Cases — Page 18 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-18.html
+- D. Kan. Bankruptcy Cases — Page 19 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-19.html
+- D. Kan. Bankruptcy Cases — Page 20 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-20.html
+- D. Kan. Bankruptcy Cases — Page 21 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-21.html
+- D. Kan. Bankruptcy Cases — Page 22 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-22.html
+- D. Kan. Bankruptcy Cases — Page 23 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-23.html
+- D. Kan. Bankruptcy Cases — Page 24 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-24.html
+- D. Kan. Bankruptcy Cases — Page 25 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-25.html
+- D. Kan. Bankruptcy Cases — Page 26 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-26.html
+- D. Kan. Bankruptcy Cases — Page 27 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-27.html
+- D. Kan. Bankruptcy Cases — Page 28 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-28.html
+- D. Kan. Bankruptcy Cases — Page 29 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-29.html
+- D. Kan. Bankruptcy Cases — Page 30 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-30.html
+- D. Kan. Bankruptcy Cases — Page 31 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-31.html
+- D. Kan. Bankruptcy Cases — Page 32 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-32.html
+- D. Kan. Bankruptcy Cases — Page 33 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-33.html
+- D. Kan. Bankruptcy Cases — Page 34 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-34.html
+- D. Kan. Bankruptcy Cases — Page 35 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-35.html
+- D. Kan. Bankruptcy Cases — Page 36 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-36.html
+- D. Kan. Bankruptcy Cases — Page 37 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-37.html
+- D. Kan. Bankruptcy Cases — Page 38 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-38.html
+- D. Kan. Bankruptcy Cases — Page 39 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-39.html
+- D. Kan. Bankruptcy Cases — Page 40 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-40.html
+- D. Kan. Bankruptcy Cases — Page 41 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-41.html
+- D. Kan. Bankruptcy Cases — Page 42 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-42.html
+- D. Kan. Bankruptcy Cases — Page 43 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-43.html
+- D. Kan. Bankruptcy Cases — Page 44 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-44.html
+- D. Kan. Bankruptcy Cases — Page 45 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-45.html
+- D. Kan. Bankruptcy Cases — Page 46 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-46.html
+- D. Kan. Bankruptcy Cases — Page 47 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-47.html
+- D. Kan. Bankruptcy Cases — Page 48 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-48.html
+- D. Kan. Bankruptcy Cases — Page 49 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-49.html
+- D. Kan. Bankruptcy Cases — Page 50 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-50.html
+- D. Kan. Bankruptcy Cases — Page 51 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-51.html
+- D. Kan. Bankruptcy Cases — Page 52 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-52.html
+- D. Kan. Bankruptcy Cases — Page 53 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-53.html
+- D. Kan. Bankruptcy Cases — Page 54 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-54.html
+- D. Kan. Bankruptcy Cases — Page 55 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-55.html
+- D. Kan. Bankruptcy Cases — Page 56 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-56.html
+- D. Kan. Bankruptcy Cases — Page 57 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-57.html
+- D. Kan. Bankruptcy Cases — Page 58 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-58.html
+- D. Kan. Bankruptcy Cases — Page 59 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-59.html
+- D. Kan. Bankruptcy Cases — Page 60 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-60.html
+- D. Kan. Bankruptcy Cases — Page 61 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-61.html
+- D. Kan. Bankruptcy Cases — Page 62 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-62.html
+- D. Kan. Bankruptcy Cases — Page 63 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-63.html
+- D. Kan. Bankruptcy Cases — Page 64 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-64.html
+- D. Kan. Bankruptcy Cases — Page 65 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-65.html
+- D. Kan. Bankruptcy Cases — Page 66 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-66.html
+- D. Kan. Bankruptcy Cases — Page 67 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-67.html
+- D. Kan. Bankruptcy Cases — Page 68 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-68.html
+- D. Kan. Bankruptcy Cases — Page 69 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-69.html
+- D. Kan. Bankruptcy Cases — Page 70 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-70.html
+- D. Kan. Bankruptcy Cases — Page 71 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-71.html
+- D. Kan. Bankruptcy Cases — Page 72 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-72.html
+- D. Kan. Bankruptcy Cases — Page 73 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-73.html
+- D. Kan. Bankruptcy Cases — Page 74 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-74.html
+- D. Kan. Bankruptcy Cases — Page 75 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-75.html
+- D. Kan. Bankruptcy Cases — Page 76 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-76.html
+- D. Kan. Bankruptcy Cases — Page 77 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-77.html
+- D. Kan. Bankruptcy Cases — Page 78 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-78.html
+- D. Kan. Bankruptcy Cases — Page 79 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-79.html
+- D. Kan. Bankruptcy Cases — Page 80 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-80.html
+- D. Kan. Bankruptcy Cases — Page 81 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-81.html
+- D. Kan. Bankruptcy Cases — Page 82 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-82.html
+- D. Kan. Bankruptcy Cases — Page 83 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-83.html
+- D. Kan. Bankruptcy Cases — Page 84 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-84.html
+- D. Kan. Bankruptcy Cases — Page 85 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-85.html
+- D. Kan. Bankruptcy Cases — Page 86 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-86.html
+- D. Kan. Bankruptcy Cases — Page 87 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-87.html
+- D. Kan. Bankruptcy Cases — Page 88 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-88.html
+- D. Kan. Bankruptcy Cases — Page 89 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-89.html
+- D. Kan. Bankruptcy Cases — Page 90 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-90.html
+- D. Kan. Bankruptcy Cases — Page 91 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-91.html
+- D. Kan. Bankruptcy Cases — Page 92 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-92.html
+- D. Kan. Bankruptcy Cases — Page 93 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-93.html
+- D. Kan. Bankruptcy Cases — Page 94 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-94.html
+- D. Kan. Bankruptcy Cases — Page 95 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-95.html
+- D. Kan. Bankruptcy Cases — Page 96 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-96.html
+- D. Kan. Bankruptcy Cases — Page 97 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-97.html
+- D. Kan. Bankruptcy Cases — Page 98 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-98.html
+- D. Kan. Bankruptcy Cases — Page 99 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-99.html
+- D. Kan. Bankruptcy Cases — Page 100 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-100.html
+- D. Kan. Bankruptcy Cases — Page 101 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-101.html
+- D. Kan. Bankruptcy Cases — Page 102 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-102.html
+- D. Kan. Bankruptcy Cases — Page 103 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-103.html
+- D. Kan. Bankruptcy Cases — Page 104 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-104.html
+- D. Kan. Bankruptcy Cases — Page 105 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-105.html
+- D. Kan. Bankruptcy Cases — Page 106 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-106.html
+- D. Kan. Bankruptcy Cases — Page 107 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-107.html
+- D. Kan. Bankruptcy Cases — Page 108 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-108.html
+- D. Kan. Bankruptcy Cases — Page 109 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-109.html
+- D. Kan. Bankruptcy Cases — Page 110 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-110.html
+- D. Kan. Bankruptcy Cases — Page 111 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-111.html
+- D. Kan. Bankruptcy Cases — Page 112 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-112.html
+- D. Kan. Bankruptcy Cases — Page 113 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-113.html
+- D. Kan. Bankruptcy Cases — Page 114 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-114.html
+- D. Kan. Bankruptcy Cases — Page 115 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-115.html
+- D. Kan. Bankruptcy Cases — Page 116 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-116.html
+- D. Kan. Bankruptcy Cases — Page 117 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-117.html
+- D. Kan. Bankruptcy Cases — Page 118 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-118.html
+- D. Kan. Bankruptcy Cases — Page 119 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-119.html
+- D. Kan. Bankruptcy Cases — Page 120 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-120.html
+- D. Kan. Bankruptcy Cases — Page 121 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-121.html
+- D. Kan. Bankruptcy Cases — Page 122 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-122.html
+- D. Kan. Bankruptcy Cases — Page 123 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-123.html
+- D. Kan. Bankruptcy Cases — Page 124 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-124.html
+- D. Kan. Bankruptcy Cases — Page 125 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-125.html
+- D. Kan. Bankruptcy Cases — Page 126 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-126.html
+- D. Kan. Bankruptcy Cases — Page 127 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-127.html
+- D. Kan. Bankruptcy Cases — Page 128 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-128.html
+- D. Kan. Bankruptcy Cases — Page 129 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-129.html
+- D. Kan. Bankruptcy Cases — Page 130 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-130.html
+- D. Kan. Bankruptcy Cases — Page 131 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-131.html
+- D. Kan. Bankruptcy Cases — Page 132 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-132.html
+- D. Kan. Bankruptcy Cases — Page 133 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-133.html
+- D. Kan. Bankruptcy Cases — Page 134 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-134.html
+- D. Kan. Bankruptcy Cases — Page 135 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-135.html
+- D. Kan. Bankruptcy Cases — Page 136 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-136.html
+- D. Kan. Bankruptcy Cases — Page 137 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-137.html
+- D. Kan. Bankruptcy Cases — Page 138 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-138.html
+- D. Kan. Bankruptcy Cases — Page 139 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-139.html
+- D. Kan. Bankruptcy Cases — Page 140 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-140.html
+- D. Kan. Bankruptcy Cases — Page 141 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-141.html
+- D. Kan. Bankruptcy Cases — Page 142 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-142.html
+- D. Kan. Bankruptcy Cases — Page 143 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-143.html
+- D. Kan. Bankruptcy Cases — Page 144 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-144.html
+- D. Kan. Bankruptcy Cases — Page 145 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-145.html
+- D. Kan. Bankruptcy Cases — Page 146 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-146.html
+- D. Kan. Bankruptcy Cases — Page 147 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-147.html
+- D. Kan. Bankruptcy Cases — Page 148 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-148.html
+- D. Kan. Bankruptcy Cases — Page 149 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-149.html
+- D. Kan. Bankruptcy Cases — Page 150 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-150.html
+- D. Kan. Bankruptcy Cases — Page 151 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-151.html
+- D. Kan. Bankruptcy Cases — Page 152 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-152.html
+- D. Kan. Bankruptcy Cases — Page 153 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-153.html
+- D. Kan. Bankruptcy Cases — Page 154 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-154.html
+- D. Kan. Bankruptcy Cases — Page 155 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-155.html
+- D. Kan. Bankruptcy Cases — Page 156 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-156.html
+- D. Kan. Bankruptcy Cases — Page 157 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-157.html
+- D. Kan. Bankruptcy Cases — Page 158 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-158.html
+- D. Kan. Bankruptcy Cases — Page 159 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-159.html
+- D. Kan. Bankruptcy Cases — Page 160 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-160.html
+- D. Kan. Bankruptcy Cases — Page 161 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-161.html
+- D. Kan. Bankruptcy Cases — Page 162 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-162.html
+- D. Kan. Bankruptcy Cases — Page 163 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-163.html
+- D. Kan. Bankruptcy Cases — Page 164 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-164.html
+- D. Kan. Bankruptcy Cases — Page 165 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-165.html
+- D. Kan. Bankruptcy Cases — Page 166 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-166.html
+- D. Kan. Bankruptcy Cases — Page 167 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-167.html
+- D. Kan. Bankruptcy Cases — Page 168 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-168.html
+- D. Kan. Bankruptcy Cases — Page 169 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-169.html
+- D. Kan. Bankruptcy Cases — Page 170 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-170.html
+- D. Kan. Bankruptcy Cases — Page 171 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-171.html
+- D. Kan. Bankruptcy Cases — Page 172 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-172.html
+- D. Kan. Bankruptcy Cases — Page 173 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-173.html
+- D. Kan. Bankruptcy Cases — Page 174 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-174.html
+- D. Kan. Bankruptcy Cases — Page 175 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-175.html
+- D. Kan. Bankruptcy Cases — Page 176 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-176.html
+- D. Kan. Bankruptcy Cases — Page 177 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-177.html
+- D. Kan. Bankruptcy Cases — Page 178 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-178.html
+- D. Kan. Bankruptcy Cases — Page 179 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-179.html
+- D. Kan. Bankruptcy Cases — Page 180 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-180.html
+- D. Kan. Bankruptcy Cases — Page 181 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-181.html
+- D. Kan. Bankruptcy Cases — Page 182 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-182.html
+- D. Kan. Bankruptcy Cases — Page 183 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-183.html
+- D. Kan. Bankruptcy Cases — Page 184 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-184.html
+- D. Kan. Bankruptcy Cases — Page 185 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-185.html
+- D. Kan. Bankruptcy Cases — Page 186 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-186.html
+- D. Kan. Bankruptcy Cases — Page 187 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-187.html
+- D. Kan. Bankruptcy Cases — Page 188 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-188.html
+- D. Kan. Bankruptcy Cases — Page 189 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-189.html
+- D. Kan. Bankruptcy Cases — Page 190 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-190.html
+- D. Kan. Bankruptcy Cases — Page 191 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-191.html
+- D. Kan. Bankruptcy Cases — Page 192 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-192.html
+- D. Kan. Bankruptcy Cases — Page 193 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-193.html
+- D. Kan. Bankruptcy Cases — Page 194 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-194.html
+- D. Kan. Bankruptcy Cases — Page 195 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-195.html
+- D. Kan. Bankruptcy Cases — Page 196 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-196.html
+- D. Kan. Bankruptcy Cases — Page 197 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-197.html
+- D. Kan. Bankruptcy Cases — Page 198 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-198.html
+- D. Kan. Bankruptcy Cases — Page 199 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-199.html
+- D. Kan. Bankruptcy Cases — Page 200 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-200.html
+- D. Kan. Bankruptcy Cases — Page 201 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-201.html
+- D. Kan. Bankruptcy Cases — Page 202 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-202.html
+- D. Kan. Bankruptcy Cases — Page 203 of 203 — Open Bankruptcy Project: https://openbankruptcyproject.org/cases/ksb/page-203.html
 
 ## Contact
 - Website: https://openbankruptcyproject.org
