@@ -22,6 +22,9 @@
     </script>
     <!-- BTN:GA4:END -->
 
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "W.D. Mo. Bankruptcy Case Index", "description": "Full index of 4,560 federal bankruptcy cases in the W.D. Mo. available on the RECAP Archive. Free public-record access published by the Open Bankruptcy Project.", "url": "https://openbankruptcyproject.org/cases/mowbk/", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "creator": {"@type": "NonprofitOrganization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "sourceOrganization": {"@type": "Organization", "name": "Free Law Project", "url": "https://free.law/"}, "isAccessibleForFree": true, "keywords": "bankruptcy, federal court, RECAP, CourtListener, public records, W.D. Mo.", "variableMeasured": ["case number", "caption", "chapter", "date filed"], "size": {"@type": "QuantitativeValue", "value": 4560, "unitText": "cases"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Cases", "item": "https://openbankruptcyproject.org/cases/"}, {"@type": "ListItem", "position": 3, "name": "W.D. Mo.", "item": "https://openbankruptcyproject.org/cases/mowbk/"}]}</script>
+
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
         :root { --bg:#0d1117; --surface:#151b23; --border:#252d38; --text:#e6edf3; --text-secondary:#b1bac4; --text-muted:#7d8590; --accent:#58a6ff; --green:#3fb950; --gold:#d29922; }
@@ -56,6 +59,11 @@
         .page-list a { background: var(--surface); border: 1px solid var(--border); padding: 14px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 500; text-align: center; }
         .page-list a:hover { background: rgba(88,166,255,0.1); text-decoration: none; }
         .page-list a.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+        .chapter-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-top: 20px; }
+        .chapter-stat { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 22px 20px; text-align: center; }
+        .chapter-stat .ch-num { display: block; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 8px; }
+        .chapter-stat .ch-count { display: block; font-size: 1.5rem; font-weight: 800; color: var(--accent); letter-spacing: -0.02em; margin-bottom: 4px; }
+        .chapter-stat .ch-pct { display: block; font-size: 0.82rem; color: var(--text-muted); }
         .attribution { padding: 20px 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-size: 0.85rem; color: var(--text-muted); margin: 32px 0; }
         .attribution strong { color: var(--text-secondary); }
         .attribution a { color: var(--text-secondary); }
@@ -104,6 +112,20 @@
         <div class="page-list">
             <a href="index.html" class="active">Start here →</a> <a href="page-2.html">Page 2</a> <a href="page-3.html">Page 3</a> <a href="page-4.html">Page 4</a> <a href="page-5.html">Page 5</a> <a href="page-6.html">Page 6</a> <a href="page-7.html">Page 7</a> <a href="page-8.html">Page 8</a> <a href="page-9.html">Page 9</a> <a href="page-10.html">Page 10</a>
         </div>
+    </section>
+    
+    <section class="section">
+        <div class="label" style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 10px;">Filing Breakdown</div>
+        <h2>Cases by Chapter</h2>
+        <p>Distribution of cases in this district by bankruptcy chapter. Source: CourtListener docket metadata.</p>
+        <div class="chapter-grid">
+            <div class="chapter-stat"><span class="ch-num">Ch. 7</span><span class="ch-count">2,261</span><span class="ch-pct">49.6%</span></div><div class="chapter-stat"><span class="ch-num">Ch. 13</span><span class="ch-count">2,192</span><span class="ch-pct">48.1%</span></div><div class="chapter-stat"><span class="ch-num">Ch. 11</span><span class="ch-count">28</span><span class="ch-pct">0.6%</span></div><div class="chapter-stat"><span class="ch-num">Ch. 12</span><span class="ch-count">7</span><span class="ch-pct">0.2%</span></div>
+        </div>
+    </section>
+    <section class="section">
+        <h2>About This Court</h2>
+        <p>The United States Bankruptcy Court for the Western District of Missouri handles bankruptcy filings for its federal judicial district. Case records are available on PACER for $0.10 per page, or for free on the <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener RECAP Archive</a> when contributed by RECAP users or purchased and donated by organizations like the Open Bankruptcy Project.</p>
+        <p>This index lists <strong>4,560 cases</strong> from the W.D. Mo. that appear on RECAP. Cases are sorted by filing date (most recent first) and paginated at 500 cases per page. Each row links directly to the full docket on CourtListener &mdash; no fee, no login, no paywall.</p>
     </section>
     <div class="attribution">
         <p><strong>Data source:</strong> Case metadata from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>, operated by the <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a>. Content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. This derived index is published under the same license. Last updated 2026-04-14.</p>
