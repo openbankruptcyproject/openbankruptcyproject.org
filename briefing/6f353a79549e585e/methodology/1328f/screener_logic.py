@@ -44,7 +44,6 @@ DEPENDENCIES:
 
 import csv
 import re
-import os
 import sys
 import glob
 import json
@@ -184,7 +183,7 @@ def load_all_cases(data_dir: Path):
     if not csv_files:
         print("ERROR: No matching CSV files found.", file=sys.stderr)
         print(f"  Searched: {data_dir}", file=sys.stderr)
-        print(f"  Expected pattern: api_*.csv", file=sys.stderr)
+        print("  Expected pattern: api_*.csv", file=sys.stderr)
         sys.exit(1)
 
     seen = {}
