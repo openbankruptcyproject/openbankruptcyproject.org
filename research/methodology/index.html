@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Methodology — Open Bankruptcy Project</title>
+<meta name="description" content="How the Open Bankruptcy Project computes district-level federal bankruptcy statistics. Data sources, metric definitions, coverage caveats, and limitations."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/research/methodology/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Methodology — Open Bankruptcy Project"/>
+<meta property="og:description" content="How OBP computes district-level federal bankruptcy statistics. Data sources, metric definitions, coverage caveats."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/research/methodology/"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.hero{padding:40px 0 28px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:8px}
+.hero h1{font-size:2rem;font-weight:800;letter-spacing:-.02em;margin-bottom:12px}
+.hero p{color:var(--text-secondary)}
+main{padding:32px 0 72px}
+h2{margin:40px 0 12px;font-size:1.35rem;font-weight:700;letter-spacing:-.01em}
+h3{margin:22px 0 8px;font-size:1.05rem;font-weight:700;color:var(--text-secondary)}
+p,ul,ol{margin-bottom:14px;color:var(--text-secondary)}
+ul,ol{padding-left:22px}
+li{margin-bottom:6px}
+code{background:var(--surface);padding:2px 6px;border-radius:4px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:16px 20px;margin:20px 0;border-radius:0 6px 6px 0}
+.callout strong{color:var(--text)}
+footer{padding:40px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a><a href="/cases/">Cases</a>
+<a class="active" href="/research/">Research</a>
+<a href="/recap.html">RECAP</a><a href="/about.html">About</a><a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Research</div>
+<h1>Methodology</h1>
+<p>How the Open Bankruptcy Project computes the statistics that appear on district, circuit, and state profile pages. Sources, metric definitions, and coverage caveats.</p>
+</div></section>
+<main class="container">
+
+<h2>Data sources</h2>
+<ul>
+<li><strong>Federal Judicial Center Integrated Database (IDB).</strong> Case-level federal bankruptcy data published by the <a href="https://www.fjc.gov/research/idb" rel="external">Federal Judicial Center</a>. The IDB is the authoritative count of US federal bankruptcy filings; OBP uses a local copy refreshed from FJC's periodic releases. Chapter mix, filing volumes, prior-filer flags, pro se flags, and dispositional outcomes all derive from IDB fields.</li>
+<li><strong>Free Law Project RECAP Archive via CourtListener.</strong> Docket-level coverage on OBP district pages measures RECAP's share of FJC-counted filings. Docket metadata comes from <a href="https://www.courtlistener.com/" rel="external">CourtListener</a>; full filings are linked to CourtListener, not rehosted.</li>
+<li><strong>Federal Judicial Center 2024 Unredacted SSN Study.</strong> National privacy-rule context on every district page cites <a href="https://www.fjc.gov/sites/default/files/materials/30/Unredacted%20Social%20Security%20Numbers%20in%20Federal%20Court%20PACER%20Documents%202024%20Final.pdf" rel="external">Garri, Germano, Cantone, and Laks (April 2024)</a>, the Federal Judicial Center's empirical study of unredacted Social Security Numbers in federal PACER documents.</li>
+<li><strong>Court websites (<code>.uscourts.gov</code>).</strong> Judge rosters, courthouse addresses, and local-rules landing pages are scraped once per district with a polite 10-second crawl delay and a descriptive user-agent. Scraped data is cached; re-scraping is gated on staleness.</li>
+</ul>
+
+<h2>Metric definitions</h2>
+
+<h3>Total cases</h3>
+<p>Count of records in FJC IDB <code>fjc_cases</code> where <code>district</code> matches the district's 2-character FJC code. Includes all chapters and all fiscal years in the IDB release.</p>
+
+<h3>Latest-FY filings</h3>
+<p>Count of IDB records for the most recent <strong>complete</strong> fiscal year. The current federal fiscal year (Oct–Sep) is excluded when filings are still arriving.</p>
+
+<h3>Chapter mix</h3>
+<p>Share of filings by chapter (7, 11, 12, 13) computed over records with a non-blank chapter code (<code>crntchp</code>). Chapter 15 cases are folded into a single bucket; Chapter 9 appears only where municipalities have filed.</p>
+
+<h3>Disposition mix</h3>
+<div class="callout">
+<strong>Important coverage caveat.</strong> The FJC IDB's disposition code (<code>d1fdsp</code>) is populated only when a case was assigned a terminal disposition at the time of the FJC extract. Historical cohorts typically have 30–50% coverage because the IDB is a periodic, not continuous, dataset. OBP reports disposition percentages over the <em>classified</em> subset (i.e., cases with a recorded outcome) and surfaces the unclassified count explicitly. We do not infer outcomes for unclassified cases.
+</div>
+<p>Disposition codes are grouped into four buckets: <strong>discharged</strong> (code A), <strong>dismissed</strong> (codes D, E, F, G, H, I, J, O, T), <strong>converted</strong> (code K), and <strong>other</strong> (revocations, administrative closures, transfers, and other terminal codes). Bucket membership follows the FJC IDB code sheet.</p>
+
+<h3>Prior-filer rate (Chapter 13)</h3>
+<p>Share of Chapter 13 cases with the <code>prfile='Y'</code> flag (prior bankruptcy filing of record), computed over the classified subset (<code>prfile</code> in {'Y','N'}). This metric is relevant to 11 U.S.C. § 1328(f) discharge eligibility and has been the subject of <a href="/research/">OBP's § 1328(f) research</a>.</p>
+
+<h3>Pro se rate</h3>
+<p>Share of filings without an attorney of record, from the FJC IDB <code>d1fprse</code> field. Computed over the classified subset.</p>
+
+<h3>RECAP coverage</h3>
+<p>Count of dockets for a district in the Free Law Project's RECAP Archive, divided by the district's total FJC IDB case count. This measures how much of the district's public docket is available free of charge; coverage varies widely by district and by time period.</p>
+
+<h3>National rank and percentile</h3>
+<p>Districts are ranked 1–94 on each metric, and a percentile is computed as <code>(1 &minus; (rank &minus; 1) / 94) × 100</code>. A district at the 75th percentile on total filings is in the top quarter of the country.</p>
+
+<h3>Peer districts</h3>
+<p>For each district, three peer districts are identified as the same-circuit districts closest in total case volume. The goal is to give readers a comparative frame without introducing editorial judgment about comparability.</p>
+
+<h2>Privacy-rule (Rule 9037) context</h2>
+<p>The statistics in the Privacy Rule section of every district page are national figures from the Federal Judicial Center's 2024 study of unredacted Social Security Numbers in PACER. OBP does not publish district-level compliance or non-compliance rates: the FJC study itself does not break its findings out by district, and the difference between "appearance of non-compliance" (which the FJC measured) and "adjudicated Rule 9037 violation" is a legal distinction OBP respects. Per the FJC authors' own note, "researchers interpreted the exemption provisions broadly" &mdash; the 72% non-compliance figure is a floor, not a ceiling.</p>
+
+<h2>Judicial information</h2>
+<p>Judge rosters are drawn from each court's public website. OBP publishes <strong>names and roles</strong> (e.g., <em>Chief Judge</em>, <em>Judge</em>) as they appear on the court's roster, and nothing else. Qualitative characterizations of judges &mdash; whether they are &ldquo;strict,&rdquo; &ldquo;lenient,&rdquo; or anything similar &mdash; do not appear anywhere on this site. Case statistics by judge are not currently published on the district pages.</p>
+
+<h2>Entity-naming policy</h2>
+<p>Creditors, law firms, and individual attorneys are not named on the district profile pages. OBP's research publications aggregate. Questions about specific attorneys should be directed to the relevant state bar association or federal district court. Questions about specific creditors should be directed to the consumer bureau with jurisdiction (e.g., the Consumer Financial Protection Bureau) and, where applicable, the trustee or US Trustee supervising the relevant case.</p>
+
+<h2>Reproducibility</h2>
+<p>The scripts that build these pages are open-source. Each district profile page can be regenerated from source data using the tools in <code>pacer/scripts/</code> in the OBP GitHub organization. Specifically: <code>district_metadata.py</code> (the canonical 94-district registry), <code>scrape_court_site.py</code> (the court-website scraper), <code>build_district_profile_data.py</code> (the preprocessor that produces per-district JSON), and <code>render_district_profile.py</code> (the HTML renderer). Every metric on a rendered page can be traced back to a specific SQL query or source file.</p>
+
+<h2>Updates</h2>
+<p>District profiles are regenerated on a rolling schedule. The footer of each profile page shows when its data was last refreshed. FJC IDB refreshes follow the FJC's own release cadence; RECAP docket caches refresh no more than once per 24 hours.</p>
+
+<h2>Corrections</h2>
+<p>If you find an error in the data, a broken link, or an inaccurate description, please <a href="/contact.html">submit a correction</a>. Every correction is logged and the relevant page is rebuilt; significant corrections are noted in the page&rsquo;s data-updated stamp.</p>
+
+</main>
+<footer><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy.</div></footer>
+</body></html>
