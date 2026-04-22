@@ -2,7 +2,7 @@
 
 > Empirical research and free tools for bankruptcy court transparency.
 
-The Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending) that builds free, open-source screening tools analyzing 4.9 million federal bankruptcy cases across all 94 judicial districts. Our research has been cited by the Federal Rules Advisory Committee as Suggestion 26-BK-3.
+The Open Bankruptcy Project is a 501(c)(3) nonprofit organization that builds free, open-source screening tools analyzing 4.9 million federal bankruptcy cases across all 94 judicial districts. Our research has been cited by the Federal Rules Advisory Committee as Suggestion 26-BK-3.
 
 ## What We Do
 
@@ -23,7 +23,7 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination
 - 1,040+ pages of free content
 - $0 cost to users
 - 26-BK-3 Federal Rules Advisory Committee citation
-- 501(c)(3) nonprofit (determination pending)
+- 501(c)(3) nonprofit
 
 ## Our Network
 
