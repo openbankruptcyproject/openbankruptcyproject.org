@@ -2,11 +2,6 @@ User-agent: *
 Allow: /
 
 
-Sitemap: https://openbankruptcyproject.org/sitemap-index.xml
-Sitemap: https://openbankruptcyproject.org/sitemap.xml
-Sitemap: https://openbankruptcyproject.org/sitemap-cases.xml
 
-Sitemap: https://openbankruptcyproject.org/news-sitemap.xml
-Sitemap: https://openbankruptcyproject.org/feed.xml
-Sitemap: https://openbankruptcyproject.org/rss.xml
-Sitemap: https://openbankruptcyproject.org/atom.xml
+
+Sitemap: https://openbankruptcyproject.org/sitemapindex.xml

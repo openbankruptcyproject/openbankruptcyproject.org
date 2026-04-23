@@ -2,10 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://openbankruptcyproject.org/news-sitemap.xml</loc>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-04-22</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://openbankruptcyproject.org/sitemap-cases.xml</loc>
+    <lastmod>2026-04-22</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://openbankruptcyproject.org/sitemap-guides.xml</loc>
+    <lastmod>2026-04-22</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://openbankruptcyproject.org/sitemap-index.xml</loc>
+    <lastmod>2026-04-22</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://openbankruptcyproject.org/sitemap.xml</loc>
-    <lastmod>2026-04-05</lastmod>
+    <lastmod>2026-04-22</lastmod>
   </sitemap>
 </sitemapindex>
