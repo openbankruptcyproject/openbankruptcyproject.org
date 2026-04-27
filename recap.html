@@ -486,20 +486,8 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td><a href="https://www.courtlistener.com/docket/68140536/victory-cleaning-systems-inc/" target="_blank" rel="noopener">24-40010</a></td>
-                    <td><span class="court-badge">W.D. Mo.</span></td>
-                    <td>Ch. 11 <a href="https://section1191.org/" title="Subchapter V">Sub V</a></td>
-                    <td class="doc-count">93</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td><a href="https://www.courtlistener.com/docket/70828036/paul-stephan-bassett/" target="_blank" rel="noopener">25-20315</a></td>
-                    <td><span class="court-badge">W.D. Mo.</span></td>
-                    <td>Ch. 13</td>
-                    <td class="doc-count">--</td>
-                    <td>Donated</td>
-                </tr>
+                
+                
                 <tr>
                     <td><a href="https://www.courtlistener.com/docket/72261976/executive-development-associates-inc/" target="_blank" rel="noopener">26-40233</a></td>
                     <td><span class="court-badge">W.D. Mo.</span></td>
@@ -571,17 +559,17 @@
 </section>
 
 <script>
-// Load full case data dynamically, pin VCS at top
+// Load full case data dynamically
 fetch('recap-data.json').then(r=>r.json()).then(data=>{
     const tbody = document.querySelector('.case-table tbody');
     if(!tbody || !data.cases) return;
     tbody.innerHTML = '';
-    // Pin VCS first
-    const pinned = data.cases.filter(c => c.num === '24-40010');
-    const rest = data.cases.filter(c => c.num !== '24-40010');
+    // (no pinned case)
+    const pinned = [];
+    const rest = data.cases;
     [...pinned, ...rest].forEach(c=>{
         const row = document.createElement('tr');
-        const isVCS = c.num === '24-40010';
+        const isVCS = false;
         if(isVCS) row.style.cssText = 'background:rgba(0,200,150,0.08);border-left:3px solid var(--green);';
         row.innerHTML = `
             <td><a href="https://www.courtlistener.com/docket/68140536/victory-cleaning-systems-inc/" target="_blank" rel="noopener" ${isVCS ? 'style="font-weight:700;color:var(--green)"' : ''}>${c.num}${isVCS ? ' ★' : ''}</a></td>
