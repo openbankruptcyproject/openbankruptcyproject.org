@@ -334,7 +334,7 @@ footer p { margin-bottom: 6px; line-height: 1.6; }
 <h3>Court Identifier Standardization</h3>
 <p>The FJC uses numeric district codes that have changed over time. We maintain a mapping table that resolves all historical code variations to consistent, current district identifiers (e.g., "<a href="/cases/mowbk/">Western District of Missouri</a>" regardless of whether the record uses the pre-2010 or post-2010 FJC code).</p>
 <h3>Attorney and Firm Name Normalization</h3>
-<p>Attorney names in court records contain abbreviations, misspellings, and formatting inconsistencies. We apply fuzzy matching algorithms with manual review thresholds to consolidate name variants (e.g., "Wm Law" / "WM Law LLC" / "W.M. Law, L.L.C." all resolve to the same entity). Firm name normalization follows the same process.</p>
+<p>Attorney names in court records contain abbreviations, misspellings, and formatting inconsistencies. We apply fuzzy matching algorithms with manual review thresholds to consolidate name variants (e.g., "Smith Jones" / "Smith Jones LLP" / "Smith, Jones &amp; Associates" all resolve to the same entity). Firm name normalization follows the same process.</p>
 <h3>Record Deduplication</h3>
 <p>Cases that appear in multiple fiscal-year data dumps are deduplicated using a composite key of district, case number, and filing date. Multi-district filings are tracked but counted once in national totals.</p>
 <h3>Integrity Validation</h3>
