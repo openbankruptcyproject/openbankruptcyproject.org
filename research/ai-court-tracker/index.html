@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI in U.S. Government Tracker | Open Bankruptcy Project</title>
+<meta name="description" content="An empirical tracker of U.S. government responses to AI in law and policy. Federal and state court orders, sanctions decisions, standing orders, executive actions, legislation, and agency rules, organized by branch, court, jurisdiction, and doctrinal framework. Deepest coverage on judicial and bankruptcy-relevant orders.">
+<link rel="canonical" href="https://openbankruptcyproject.org/research/ai-court-tracker/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="AI in U.S. Government Tracker | Open Bankruptcy Project">
+<meta property="og:description" content="An empirical tracker of U.S. government responses to AI in law and policy. Federal and state court orders, sanctions decisions, standing orders, executive actions, legislation, and agency rules, organized by branch, court, jurisdiction, and doctrinal framework. Deepest coverage on judicial and bankruptcy-relevant orders.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://openbankruptcyproject.org/research/ai-court-tracker/">
+<meta name="twitter:card" content="summary">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-053Z64N82F');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AI in U.S. Government Tracker",
+  "description": "An empirical tracker of U.S. government responses to AI in law and policy. Federal and state court orders, sanctions decisions, standing orders, executive actions, legislation, and agency rules, organized by branch, court, jurisdiction, and doctrinal framework. Deepest coverage on judicial and bankruptcy-relevant orders.",
+  "url": "https://openbankruptcyproject.org/research/ai-court-tracker/",
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "NonprofitOrganization",
+    "name": "Open Bankruptcy Project",
+    "url": "https://openbankruptcyproject.org",
+    "email": "research@openbankruptcyproject.org"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://openbankruptcyproject.org/research/ai-court-tracker/data.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://openbankruptcyproject.org/research/ai-court-tracker/data.csv"
+    }
+  ],
+  "keywords": [
+    "artificial intelligence",
+    "federal courts",
+    "judicial standing orders",
+    "sanctions",
+    "hallucinated citations",
+    "Rule 11",
+    "legal ethics",
+    "pro se litigation",
+    "empirical legal research"
+  ],
+  "datePublished": "2026-04-28"
+}
+</script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0d1117; --bg-elevated: #0f1319; --surface: #151b23; --surface-hover: #1a2230;
+  --border: #252d38; --border-light: #2d3748;
+  --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+  --accent: #58a6ff; --accent-hover: #79b8ff; --accent-subtle: rgba(88, 166, 255, 0.08);
+  --green: #3fb950; --green-subtle: rgba(63, 185, 80, 0.08);
+  --gold: #d29922; --gold-subtle: rgba(210, 153, 34, 0.08);
+  --red: #f85149; --red-subtle: rgba(248, 81, 73, 0.08);
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.7;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+a:hover { color: var(--accent-hover); }
+.container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+.container-wide { max-width: 1040px; margin: 0 auto; padding: 0 32px; }
+nav {
+  border-bottom: 1px solid var(--border); padding: 18px 0;
+  position: sticky; top: 0; background: rgba(13, 17, 23, 0.95);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); z-index: 100;
+}
+nav .nav-inner {
+  max-width: 1040px; margin: 0 auto; padding: 0 32px;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 12px;
+}
+.nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+.nav-brand a { color: var(--text); }
+.nav-brand a:hover { text-decoration: none; }
+.nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+.nav-links a:hover { color: var(--text); text-decoration: none; }
+.page-header {
+  padding: 72px 0 48px; border-bottom: 1px solid var(--border);
+}
+.page-header h1 {
+  font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px;
+}
+.page-header .subtitle {
+  font-size: 1.1rem; color: var(--text-secondary); max-width: 640px;
+}
+.content { padding: 56px 0; }
+.section-heading {
+  font-size: 0.78rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.12em; color: var(--text-muted); margin: 40px 0 20px;
+  padding-bottom: 12px; border-bottom: 1px solid var(--border-light);
+}
+.section-heading:first-of-type { margin-top: 0; }
+.entry-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: 28px; margin-bottom: 18px;
+  transition: border-color 0.2s, background 0.2s; display: block;
+}
+.entry-card:hover {
+  border-color: var(--accent); background: var(--surface-hover); text-decoration: none;
+}
+.entry-card .tags {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; margin-bottom: 12px;
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+}
+.tag {
+  font-size: 0.68rem; padding: 3px 10px; border-radius: 20px; font-weight: 600;
+  background: var(--gold-subtle); color: var(--gold);
+}
+.tag.tag-sanctions { background: var(--red-subtle); color: var(--red); }
+.tag.tag-standing { background: var(--accent-subtle); color: var(--accent); }
+.tag.tag-disciplinary { background: var(--gold-subtle); color: var(--gold); }
+.tag.tag-executive { background: rgba(190, 119, 230, 0.10); color: #be77e6; }
+.tag.tag-legislative { background: rgba(255, 165, 0, 0.10); color: #ffa500; }
+.tag.tag-bankruptcy-primary { background: var(--green-subtle); color: var(--green); }
+.tag.tag-verified { background: var(--green-subtle); color: var(--green); }
+.tag.tag-corroborated { background: var(--gold-subtle); color: var(--gold); }
+.entry-card h2 {
+  font-size: 1.18rem; font-weight: 700; color: var(--text);
+  margin-bottom: 10px; letter-spacing: -0.01em;
+}
+.entry-card .court-line {
+  font-size: 0.86rem; color: var(--text-secondary); margin-bottom: 12px;
+}
+.entry-card .holding {
+  font-size: 0.92rem; color: var(--text-muted); margin-bottom: 14px; line-height: 1.65;
+}
+.entry-card .meta {
+  font-size: 0.78rem; color: var(--text-muted);
+  display: flex; gap: 16px; flex-wrap: wrap;
+}
+.entry-card .arrow {
+  color: var(--accent); font-size: 0.86rem; font-weight: 600;
+  margin-top: 14px; display: block;
+}
+.detail-section { margin-bottom: 32px; }
+.detail-section h3 {
+  font-size: 0.78rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.12em; color: var(--text-muted); margin-bottom: 12px;
+}
+.detail-section p, .detail-section .body { font-size: 1rem; color: var(--text); line-height: 1.8; }
+.detail-meta {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: 24px; margin-bottom: 32px;
+}
+.detail-meta dl { display: grid; grid-template-columns: 180px 1fr; gap: 12px 24px; }
+.detail-meta dt {
+  font-size: 0.78rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--text-muted);
+}
+.detail-meta dd { font-size: 0.95rem; color: var(--text); }
+.back-link {
+  display: inline-block; font-size: 0.88rem; color: var(--text-muted);
+  margin-bottom: 24px; font-weight: 500;
+}
+.back-link:hover { color: var(--text); }
+.intro-block {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: 28px; margin-bottom: 32px;
+}
+.intro-block p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.75; margin-bottom: 14px; }
+.intro-block p:last-child { margin-bottom: 0; }
+.download-row {
+  display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px;
+}
+.download-row a {
+  font-size: 0.85rem; padding: 8px 16px; border-radius: 8px;
+  background: var(--accent-subtle); color: var(--accent);
+  border: 1px solid var(--accent-subtle);
+}
+.download-row a:hover {
+  background: var(--accent); color: var(--bg); text-decoration: none;
+}
+footer {
+  padding: 48px 0 40px; text-align: center;
+  color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border);
+}
+footer .footer-links { margin-bottom: 20px; }
+footer .footer-links a {
+  color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500;
+}
+footer .footer-links a:hover { color: var(--text); }
+footer p { margin-bottom: 6px; line-height: 1.6; }
+@media (max-width: 600px) {
+  .container, .container-wide { padding: 0 20px; }
+  .page-header { padding: 48px 0 32px; }
+  .page-header h1 { font-size: 1.8rem; }
+  .entry-card { padding: 20px; }
+  .entry-card h2 { font-size: 1.05rem; }
+  .detail-meta dl { grid-template-columns: 1fr; gap: 4px 0; }
+  .detail-meta dt { margin-top: 12px; }
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/research/">Research</a>
+      <a href="/press.html">Press</a>
+      <a href="/contact.html">Contact</a>
+      <a href="https://github.com/openbankruptcyproject" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</nav>
+<header class="page-header"><div class="container">
+<h1>AI in U.S. Government Tracker</h1>
+<p class="subtitle">An empirical tracker of U.S. government responses to AI in law and policy. Federal and state court orders, sanctions decisions, standing orders, executive actions, legislation, and agency rules, organized by branch, court, jurisdiction, and doctrinal framework. Deepest coverage on judicial and bankruptcy-relevant orders.</p>
+</div></header>
+<div class="content"><div class="container">
+<div class="intro-block">
+<p>This tracker catalogs federal court responses to AI in litigation. Coverage focuses on judicial conduct: standing orders, sanctions decisions, local rule amendments, and framework-setting opinions. Each entry includes a neutral holding paraphrase, primary-source citation, and a doctrinal-framework tag identifying the rule the order establishes.</p>
+<p>The dataset is freely downloadable in JSON and CSV. Editorial standard: no per-litigant commentary; sanctioned attorneys are named only as identified in the underlying order. For broader case-level coverage of AI hallucinations across jurisdictions, see the <a href="https://www.damiencharlotin.com/hallucinations/" rel="noopener">AI Hallucination Cases Database</a> maintained by Damien Charlotin, which we cite as a complementary resource.</p>
+<div class="download-row">
+<a href="data.json">Download JSON</a>
+<a href="data.csv">Download CSV</a>
+</div>
+</div>
+<h2 class="section-heading">Bankruptcy Court Orders (Primary Focus)</h2>
+<a href="ftc-rite-aid-2023/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-executive">Agency Rule</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>FTC v. Rite Aid Corporation: Consent Order on AI Facial Recognition Misuse</h2>
+  <div class="court-line">U.S. District Court, Eastern District of Pennsylvania (consent order venue) (3d Cir.) &middot; 2023-12-19</div>
+  <p class="holding">FTC&#x27;s FIRST ENFORCEMENT ACTION against a company for AI bias and unfair AI use. Establishes the FEDERAL AI BIAS ENFORCEMENT FRAMEWORK under FTC Act Section 5: AI deployment without reasonable bias-mitigation safeguards constitutes an unfair practice subject to FTC enforcement. No...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="in-re-martin-ndil-bkrtcy-2025/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>In re Martin: Order Imposing Sanctions on Debtor&#x27;s Counsel for AI-Hallucinated Citations</h2>
+  <div class="court-line">U.S. Bankruptcy Court, Northern District of Illinois (7th Cir.) &middot; 2025 (exact date pending docket pull)</div>
+  <p class="holding">First published bankruptcy-court opinion sanctioning attorney AI misuse (per ABI characterization). Establishes the BANKRUPTCY-COURT FRAMEWORK for AI-hallucinated citations under Bankruptcy Rule 9011 (the bankruptcy-court analog to Fed. R. Civ. P. 11). Court emphasized that &#x27;at t...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="in-re-jackson-hospital-mdal-bkrtcy-2025/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>In re Jackson Hospital: Public Reprimand and Fee Award for AI-Hallucinated Citations</h2>
+  <div class="court-line">U.S. Bankruptcy Court, Middle District of Alabama (11th Cir.) &middot; 2025 (exact date pending docket pull)</div>
+  <p class="holding">Establishes the BIGLAW BANKRUPTCY-PRACTICE FRAMEWORK: large law firms practicing in bankruptcy court face the same Rule 9011 duties as solo practitioners and small firms, and pre-paying sanctions to avoid a hearing does not insulate counsel from public reprimand. The supplemental...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="glyndon-square-llc-bkrtcy-dsc-2025/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>Glyndon Square LLC Adversary Proceeding: Order on AI-Hallucinated Bankruptcy Citations</h2>
+  <div class="court-line">U.S. Bankruptcy Court, District of South Carolina (4th Cir.) &middot; 2025 (exact date pending docket pull)</div>
+  <p class="holding">Establishes the NON-MONETARY-SANCTION FRAMEWORK in bankruptcy court for AI-hallucinated citations: where the misconduct is more isolated (two fabricated cases rather than systemic pattern across multiple briefs), bankruptcy courts may deploy non-monetary remedies (public notation...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="in-re-prince-usa-sdny-bkrtcy-2026/" class="entry-card">
+  <div class="tags">
+    <span class="tag ">Opinion</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>In re Prince USA: Sullivan &amp; Cromwell Emergency Letter on AI-Generated Hallucinations</h2>
+  <div class="court-line">U.S. Bankruptcy Court, Southern District of New York (2d Cir.) &middot; 2026-04-18</div>
+  <p class="holding">Emergency self-disclosure pattern. Significant as a proactive-disclosure framework: where AI-fabricated content is detected post-filing, prompt self-reporting (rather than concealment or doubling-down) is being used by sanctions-aware counsel as a mitigation strategy. Demonstrate...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<h2 class="section-heading">Sanctions Orders</h2>
+<a href="mata-v-avianca-2023/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>Mata v. Avianca, Inc.: Opinion and Order on Sanctions</h2>
+  <div class="court-line">U.S. District Court, Southern District of New York (2d Cir.) &middot; 2023-06-22</div>
+  <p class="holding">Court held that respondents acted with subjective bad faith sufficient for sanctions under Fed. R. Civ. P. 11. Use of generative AI tools does not relieve attorneys of the independent duty to verify the authenticity of cited authority before submission.</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="monk-edtex-goodyear-2024/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>Gauthier v. Goodyear Tire &amp; Rubber Co.: Sanctions Order on Plaintiff&#x27;s Counsel for AI-Hallucinated Citations</h2>
+  <div class="court-line">U.S. District Court, Eastern District of Texas (5th Cir.) &middot; 2024-11-25 (per JDJournal coverage; exact day pending docket pull)</div>
+  <p class="holding">Establishes the EDUCATIONAL-REMEDY FRAMEWORK: monetary sanctions paired with mandatory CLE-style AI course attendance as a corrective sanction. Reflects an emerging judicial recognition that attorney AI competence is a learnable skill and that remediation through education comple...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="ramirez-sdind-erisa-2025/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>Recommended Sanctions Against Attorney Rafael Ramirez for AI-Hallucinated Citations in ERISA Briefs</h2>
+  <div class="court-line">U.S. District Court, Southern District of Indiana (7th Cir.) &middot; 2025 (recommendation; final disposition pending)</div>
+  <p class="holding">Recommendation establishes the REPEATED-INSTANCE-WITHIN-CASE FRAMEWORK for Rule 11 sanctions: where AI-fabricated citations appear in multiple briefs across the same matter, the appropriate sanction scales from per-citation rates toward a substantial flat amount reflecting the su...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="noland-cal-coa-2025/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>Noland v. Land of the Free, L.P.: Order on AI-Fabricated Citations</h2>
+  <div class="court-line">California Court of Appeal (n/a (state intermediate appellate)) &middot; 2025-09 (exact day pending opinion pull)</div>
+  <p class="holding">California&#x27;s first published appellate opinion on AI-fabricated citations. Establishes two distinct doctrines: (1) the $10,000 monetary-sanction baseline for state appellate AI-citation misconduct, consistent with the Watson per-infraction-rate framework but as a flat amount; and...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="couvrette-v-wisnovsky-2025/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>Couvrette v. Wisnovsky: Order on Motion for Sanctions and Dismissal</h2>
+  <div class="court-line">U.S. District Court, District of Oregon (9th Cir.) &middot; 2025-12 (exact day pending docket pull)</div>
+  <p class="holding">Court dismissed plaintiff&#x27;s claims, imposed approximately $110,000 in monetary sanctions and fee-shifting, and referred the matter to the Oregon State Bar after finding attorneys repeatedly submitted briefs containing AI-fabricated authorities. Local counsel held jointly accounta...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="watson-or-coa-2025/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>Sanctions Order Against Gabriel A. Watson</h2>
+  <div class="court-line">Oregon Court of Appeals (state intermediate appellate) (n/a (state court, included as scope expansion because the per-infraction rate framework has been adopted in subsequent federal orders)) &middot; 2025-12 (exact day pending opinion pull)</div>
+  <p class="holding">Oregon Court of Appeals characterized the proliferation of AI-generated sketchy legal documents as &#x27;a very grave situation&#x27; and established a per-infraction sanctions framework: $500 per fabricated citation, $1,000 per fabricated quotation. The framework has been cited in subsequ...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="fivehouse-v-us-ednc-2025/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>Fivehouse v. United States: Show-Cause Order on AUSA AI-Fabricated Citations</h2>
+  <div class="court-line">U.S. District Court, Eastern District of North Carolina (4th Cir.) &middot; 2025-12 (show-cause order; final disposition pending)</div>
+  <p class="holding">First high-profile federal-prosecutor AI-hallucination sanctions matter, with a Department of Justice attorney as the sanctioned actor. Establishes the GOVERNMENT-ATTORNEY FRAMEWORK: federal prosecutors face the same Rule 11 and candor-toward-tribunal duties as private counsel wh...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="solis-kenosha-county-wi-2026/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>Sanctions Order Against District Attorney Xavier Solis for AI-Hallucinated Citations and Failure to Disclose AI Use</h2>
+  <div class="court-line">Kenosha County Circuit Court (Wisconsin) (n/a (state trial court)) &middot; 2026-02-06</div>
+  <p class="holding">First documented case of CHARGES DISMISSED as a remedy for prosecutor AI-hallucination misconduct. Establishes the CRIMINAL-PROSECUTION FRAMEWORK: undisclosed AI use plus fabricated citations in a state criminal case can result in dismissal of charges (without prejudice to refili...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="whiting-v-city-of-athens-ca6-2026/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>Whiting v. City of Athens: Sanctions Order</h2>
+  <div class="court-line">U.S. Court of Appeals for the Sixth Circuit (6th Cir.) &middot; 2026-03 (per JDJournal coverage 2026-03-16; exact day pending opinion pull)</div>
+  <p class="holding">Sixth Circuit imposed $15,000-per-attorney punitive fines plus fee-shifting and double costs after finding fabricated citations across multiple briefs. Court explicitly justified the elevated sanction amount on the ground that &#x27;smaller fines have plainly been inadequate, as is ev...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="rajan-djn-2026/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-sanctions">Sanctions Order</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>Sanctions Order Against Raja Rajan (Second Instance)</h2>
+  <div class="court-line">U.S. District Court, District of New Jersey (3d Cir.) &middot; 2026-04 (week of Inquirer report 2026-04-27; exact day pending docket pull)</div>
+  <p class="holding">Court imposed escalating monetary sanction ($5,000, doubled from prior $2,500) against attorney for repeat filing of AI-hallucinated briefs and warned that a third instance would trigger referral to the attorney&#x27;s licensing-state disciplinary board. Notable for the cross-jurisdic...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<h2 class="section-heading">Standing Orders</h2>
+<a href="starr-ndtx-standing-order-2023/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-standing">Standing Order</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>Mandatory Certification Regarding Generative Artificial Intelligence</h2>
+  <div class="court-line">U.S. District Court, Northern District of Texas (5th Cir.) &middot; 2023-05-30</div>
+  <p class="holding">Standing order requires AI-disclosure certification on every filing; non-compliant filings will be struck. Attorneys remain responsible under Rule 11 for the contents of any filing they sign regardless of AI involvement.</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="fuentes-ndil-standing-order-2023/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-standing">Standing Order</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>Standing Order for Civil Cases Before Judge Fuentes (revised to add AI section)</h2>
+  <div class="court-line">U.S. District Court, Northern District of Illinois (7th Cir.) &middot; 2023-05-31 (revised effective date)</div>
+  <p class="holding">Standing order establishes the **Rule 11-grounded framework** for judicial AI governance: rather than creating a new AI-specific certification regime, the order reaffirms that existing Rule 11 obligations apply to AI-assisted filings. Order language: &#x27;Just as the Court did before...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="baylson-edpa-standing-order-2023/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-standing">Standing Order</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>Standing Order: In Re: Artificial Intelligence (&quot;AI&quot;) in Cases Assigned to Judge Baylson</h2>
+  <div class="court-line">U.S. District Court, Eastern District of Pennsylvania (3d Cir.) &middot; 2023-06-06</div>
+  <p class="holding">Standing order pioneers the **broadest-scope framework** for judicial AI governance: requirement applies to *any* AI use in filing preparation, generative or otherwise, with mandatory accuracy verification of every citation to law or record. Among the early-wave standing orders, ...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="vaden-cit-standing-order-2023/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-standing">Standing Order</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>Order on Artificial Intelligence (cases assigned to Judge Vaden)</h2>
+  <div class="court-line">U.S. Court of International Trade (Federal Circuit (appeals from CIT)) &middot; 2023-06-08</div>
+  <p class="holding">Standing order pioneers the **confidentiality / business-proprietary disclosure-risk framework** for judicial AI governance. Distinct from Starr (accuracy/Rule 11 framework) and Baylson (broad-scope verification framework). Vaden&#x27;s framework recognizes a second category of AI-use...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<h2 class="section-heading">Disciplinary Referrals</h2>
+<a href="crabill-co-opdj-2023/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-disciplinary">Disciplinary Referral</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>People v. Zachariah C. Crabill: Stipulation to Discipline</h2>
+  <div class="court-line">Colorado Office of Presiding Disciplinary Judge (n/a (state attorney discipline)) &middot; 2023-11-22</div>
+  <p class="holding">Disciplinary court approved stipulated suspension establishing the state-bar disciplinary framework for AI-driven citation hallucinations: filing AI-generated authorities without verification implicates competence and diligence rules; subsequent dishonesty about the source of the...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="park-v-kim-2dcir-2024/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-disciplinary">Disciplinary Referral</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>Park v. Kim: Order Referring Counsel for Disciplinary Proceedings</h2>
+  <div class="court-line">U.S. Court of Appeals for the Second Circuit (2d Cir.) &middot; 2024-01-30</div>
+  <p class="holding">Citation to a nonexistent case suggests conduct that falls below the basic obligations of counsel. Use of generative AI tools does not excuse an attorney from separately ensuring that submissions to the court are accurate or legally tenable.</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<h2 class="section-heading">Executive Branch Actions</h2>
+<a href="nist-ai-rmf-1-0-2023/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-executive">Agency Rule</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>NIST AI Risk Management Framework 1.0 (AI RMF 1.0)</h2>
+  <div class="court-line">n/a (federal agency-issued voluntary framework) &middot; 2023-01-26</div>
+  <p class="holding">Establishes the FOUNDATIONAL VOLUNTARY US AI GOVERNANCE FRAMEWORK. Adopted as a key technical reference by federal agencies under EO 14110 / OMB M-24-10. Remains operationally durable across administrations because of its voluntary, technical-reference status (rather than regulat...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="eeoc-ai-hiring-guidance-2023/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-executive">Agency Rule</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>EEOC Technical Assistance: Title VII Application to AI-Based Employment Selection Procedures</h2>
+  <div class="court-line">n/a (federal agency technical-assistance document) &middot; 2023-05-18</div>
+  <p class="holding">Establishes the EEOC AI HIRING DISPARATE-IMPACT FRAMEWORK: AI-based employment selection tools are subject to the same Title VII disparate-impact analysis as traditional selection procedures. The Uniform Guidelines&#x27; Four-Fifths Rule (a selection rate for protected-class members b...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="eo-14110-biden-ai-2023/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-executive">Executive Order</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>Executive Order 14110: Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence</h2>
+  <div class="court-line">n/a (executive branch action) &middot; 2023-10-30</div>
+  <p class="holding">The most comprehensive U.S. federal-government AI governance instrument issued to date at the time of issuance. Directed over 50 federal entities to take more than 100 specific actions across eight policy areas: safety and security; innovation and competition; supporting workers;...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="ftc-rite-aid-2023/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-executive">Agency Rule</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>FTC v. Rite Aid Corporation: Consent Order on AI Facial Recognition Misuse</h2>
+  <div class="court-line">U.S. District Court, Eastern District of Pennsylvania (consent order venue) (3d Cir.) &middot; 2023-12-19</div>
+  <p class="holding">FTC&#x27;s FIRST ENFORCEMENT ACTION against a company for AI bias and unfair AI use. Establishes the FEDERAL AI BIAS ENFORCEMENT FRAMEWORK under FTC Act Section 5: AI deployment without reasonable bias-mitigation safeguards constitutes an unfair practice subject to FTC enforcement. No...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="omb-m-24-10-2024/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-executive">Agency Rule</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>OMB Memorandum M-24-10: Advancing Governance, Innovation, and Risk Management for Agency Use of Artificial Intelligence</h2>
+  <div class="court-line">n/a (executive branch action) &middot; 2024-03-28</div>
+  <p class="holding">Operationalizing companion to EO 14110. Establishes the FEDERAL AGENCY AI GOVERNANCE FRAMEWORK: every federal executive-branch agency must designate a Chief AI Officer, maintain an AI use-case inventory, and apply differentiated risk management to rights-impacting and safety-impa...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="cfpb-ai-mortgage-avm-rule-2024/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-executive">Agency Rule</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>CFPB Final Rule on AI in Automated Valuation Models for Home Mortgage Appraisals</h2>
+  <div class="court-line">n/a (federal agency rulemaking) &middot; 2024-06-24</div>
+  <p class="holding">Establishes the CONSUMER-FINANCE AI VALIDATION FRAMEWORK: federal regulation of AI/algorithmic systems used in consumer mortgage decisions through quality-control, bias-mitigation, and conflict-of-interest requirements. Notable as one of the first federal regulations directly imp...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="eo-14179-trump-ai-revocation-2025/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-executive">Executive Order</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>Executive Order 14179: Removing Barriers to American Leadership in Artificial Intelligence</h2>
+  <div class="court-line">n/a (executive branch action) &middot; 2025-01-20</div>
+  <p class="holding">Revokes Executive Order 14110 (Biden&#x27;s Safe, Secure, and Trustworthy AI). Establishes the DEREGULATORY FEDERAL AI FRAMEWORK: rescinds the federal-government AI safety/security testing requirements, foundation-model developer reporting obligations, and centralized federal AI gover...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<a href="omb-m-25-21-2025/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-executive">Agency Rule</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>OMB Memorandum M-25-21: Accelerating Federal Use of AI through Innovation, Governance, and Public Trust</h2>
+  <div class="court-line">n/a (executive branch action) &middot; 2025-02 (exact date pending verification)</div>
+  <p class="holding">Replacement memorandum that reframes federal AI governance toward acceleration and innovation, partially superseding M-24-10. Preserves some operational structures (Chief AI Officer roles, AI use-case inventories) but reorients the policy emphasis from safety/rights-protection to...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<h2 class="section-heading">Legislation</h2>
+<a href="colorado-ai-act-sb24-205/" class="entry-card">
+  <div class="tags">
+    <span class="tag tag-legislative">Legislation</span>
+    <span class="tag tag-verified">Primary source verified</span>
+  </div>
+  <h2>Colorado Senate Bill 24-205: Consumer Protections for Artificial Intelligence (Colorado AI Act)</h2>
+  <div class="court-line">n/a (state legislation) &middot; 2024-05-17</div>
+  <p class="holding">FIRST COMPREHENSIVE STATE AI CONSUMER PROTECTION LAW with broad scope (Colorado is the second US state to enact major AI consumer-protection legislation; the first is the subject of jurisdictional debate among practitioners). Establishes the STATE-LEVEL HIGH-RISK AI FRAMEWORK: ri...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+<h2 class="section-heading">Other Orders</h2>
+<a href="cohen-sdny-furman-2024/" class="entry-card">
+  <div class="tags">
+    <span class="tag ">Opinion</span>
+    <span class="tag tag-corroborated">Corroborated</span>
+  </div>
+  <h2>United States v. Cohen: Order Declining Sanctions on AI-Hallucinated Citations</h2>
+  <div class="court-line">U.S. District Court, Southern District of New York (2d Cir.) &middot; 2024-03-20</div>
+  <p class="holding">Court found the false citations &#x27;embarrassing and certainly negligent&#x27; but declined to impose sanctions, finding neither Cohen nor Schwartz acted in &#x27;bad faith.&#x27; Holding establishes the GOOD-FAITH FRAMEWORK for AI-hallucination cases: where the filer demonstrates a genuine misund...</p>
+  <span class="arrow">View entry &rarr;</span>
+</a>
+</div></div>
+<footer>
+  <div class="container">
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/research/">Research</a>
+      <a href="/press.html">Press</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+    <p>Open Bankruptcy Project is a 501(c)(3) public charity (EIN 41-5159631).</p>
+    <p>Data on this page is freely available for research, journalism, and education.</p>
+  </div>
+</footer>
+</body>
+</html>
