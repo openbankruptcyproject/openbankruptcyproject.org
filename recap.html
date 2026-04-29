@@ -473,7 +473,7 @@
             <p style="margin:0;font-size:0.95rem;color:var(--text-secondary)"><strong style="color:var(--text)">&rarr; Full searchable case index:</strong> <a href="/cases/" style="font-weight:600">openbankruptcyproject.org/cases/</a></p>
         </div>
 
-        <p style="color:var(--text-muted);font-size:0.88rem;margin-top:24px">The table below shows cases that the Open Bankruptcy Project has directly donated to the RECAP Archive &mdash; a subset of the full index above.</p>
+        <p style="color:var(--text-muted);font-size:0.88rem;margin-top:24px">The table below shows cases the Open Bankruptcy Project has indexed into RECAP. The "Documents" column reflects the count of PDFs currently free in RECAP for each docket; cases marked "Indexed" have searchable docket metadata only. Counts audited against CourtListener API on 2026-04-29.</p>
 
         <table class="case-table">
             <thead>
@@ -554,7 +554,7 @@
             <tr><td><a href="https://www.courtlistener.com/docket/70828036/paul-stephan-bassett/" target="_blank" rel="noopener">25-20315</a></td><td><span class="court-badge">W.D. Mo.</span></td><td>Ch. 13</td><td class="doc-count">--</td><td>Active</td></tr></tbody>
         </table>
 
-        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 24px; text-align: center;">Showing 549 donated cases across 11 federal courts. All documents are available immediately on <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>.</p>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 24px; text-align: center;">Showing 547 cases across 11 federal courts: 138 with free PDFs in RECAP, 409 indexed-only (docket metadata). Click any case number to verify on <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>.</p>
     </div>
 </section>
 
@@ -570,7 +570,7 @@ fetch('recap-data.json').then(r=>r.json()).then(data=>{
     [...pinned, ...rest].forEach(c=>{
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td><a href="https://www.courtlistener.com/?type=r&q=${encodeURIComponent(c.num)}" target="_blank" rel="noopener">${c.num}</a></td>
+            <td><a href="${c.url || 'https://www.courtlistener.com/?type=r&q=' + encodeURIComponent(c.num)}" target="_blank" rel="noopener">${c.num}</a></td>
             <td><span class="court-badge">${c.court}</span></td>
             <td>${c.chapter}</td>
             <td class="doc-count">${c.docs}</td>
