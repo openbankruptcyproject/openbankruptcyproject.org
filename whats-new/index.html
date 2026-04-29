@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>What's New - Open Bankruptcy Project</title>
+<meta name="description" content="Full archive of OBP-shipped resources: research briefs, calculators, guides, datasets, and tooling, ordered by publication date."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/whats-new/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="What's New - Open Bankruptcy Project"/>
+<meta property="og:description" content="Full archive of OBP-shipped resources, ordered by publication date."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/whats-new/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"What's New","description":"Full archive of OBP-shipped resources, ordered by publication date.","url":"https://openbankruptcyproject.org/whats-new/","author":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org","nonprofitStatus":"Nonprofit501c3"},"isAccessibleForFree":true}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://openbankruptcyproject.org/"},{"@type":"ListItem","position":2,"name":"What's New","item":"https://openbankruptcyproject.org/whats-new/"}]}</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+.site-header{padding:1.5rem 0 1rem;border-bottom:1px solid var(--border);margin-bottom:2.5rem}
+.site-header a.brand{color:var(--accent);font-weight:600;font-size:1.1rem}
+h1{font-size:2.2rem;font-weight:700;margin:0 0 0.5rem;line-height:1.15}
+.subhead{color:var(--text-secondary);font-size:1.05rem;margin:0 0 2rem;max-width:620px}
+h2.month-heading{font-size:1.1rem;font-weight:600;color:var(--text-secondary);margin:2.5rem 0 1rem;padding-bottom:0.4rem;border-bottom:1px solid var(--border)}
+ul.resources{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr;gap:0.6rem}
+ul.resources li{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:0.85rem 1rem;transition:background 0.12s ease}
+ul.resources li:hover{background:var(--surface-hover)}
+ul.resources li a{color:var(--text);font-weight:500;font-size:1rem}
+ul.resources li .meta{color:var(--text-muted);font-size:0.82em;margin-top:0.2rem}
+ul.resources li .desc{color:var(--text-secondary);font-size:0.9em;margin-top:0.35rem;line-height:1.55}
+ul.resources li .tags{margin-top:0.5rem;display:flex;flex-wrap:wrap;gap:0.35rem}
+ul.resources li .tag{display:inline-block;font-size:0.72em;padding:0.18rem 0.5rem;background:#21262d;border:1px solid var(--border);border-radius:999px;color:var(--text-muted)}
+.empty{color:var(--text-muted);padding:2rem;text-align:center;border:1px dashed var(--border);border-radius:6px}
+.site-footer{margin:4rem 0 2rem;padding-top:1.5rem;border-top:1px solid var(--border);color:var(--text-muted);font-size:0.85em}
+</style>
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<a class="brand" href="/">← Open Bankruptcy Project</a>
+</div>
+</header>
+<main class="container">
+<h1>What's New</h1>
+<p class="subhead">Full archive of OBP-shipped resources: research briefs, calculators, guides, datasets, and tooling. Newest first.</p>
+
+<div id="resources-archive">
+<div class="empty">Loading archive…</div>
+</div>
+
+</main>
+<footer class="site-footer">
+<div class="container">
+<p>Open Bankruptcy Project &mdash; 501(c)(3) public-interest research nonprofit (EIN 41-5159631). Source data: <a href="/data/new-resources.json">new-resources.json</a>.</p>
+</div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var ENDPOINT = '/data/new-resources.json';
+  var FETCH_TIMEOUT_MS = 5000;
+
+  function escapeHTML(s) {
+    if (s == null) return '';
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function isHttpUrl(u) { return typeof u === 'string' && /^https?:\/\//i.test(u); }
+
+  function monthKey(dateStr) {
+    if (!dateStr || dateStr.length < 7) return 'Undated';
+    return dateStr.slice(0, 7);
+  }
+  function monthLabel(key) {
+    if (key === 'Undated') return 'Undated';
+    var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    var parts = key.split('-');
+    var y = parts[0], m = parseInt(parts[1], 10);
+    if (!m || m < 1 || m > 12) return key;
+    return months[m - 1] + ' ' + y;
+  }
+
+  function renderEntry(entry) {
+    var icon = escapeHTML(entry.icon || '');
+    var label = escapeHTML(entry.label || '');
+    var url = isHttpUrl(entry.url) ? entry.url : '';
+    if (!url || !label) return '';
+    var desc = entry.description ? '<div class="desc">' + escapeHTML(entry.description) + '</div>' : '';
+    var pubdate = entry.pubdate ? '<div class="meta">Published ' + escapeHTML(entry.pubdate) + '</div>' : '';
+    var tags = '';
+    if (Array.isArray(entry.tags) && entry.tags.length) {
+      tags = '<div class="tags">';
+      for (var i = 0; i < entry.tags.length; i++) {
+        tags += '<span class="tag">' + escapeHTML(entry.tags[i]) + '</span>';
+      }
+      tags += '</div>';
+    }
+    return '<li><a href="' + escapeHTML(url) + '">' + icon + ' ' + label + '</a>' + pubdate + desc + tags + '</li>';
+  }
+
+  function render(data, root) {
+    if (!data || !Array.isArray(data.resources) || data.resources.length === 0) {
+      root.innerHTML = '<div class="empty">No resources to display yet.</div>';
+      return;
+    }
+    var entries = data.resources
+      .filter(function (r) { return r && r.label && r.url; })
+      .slice()
+      .sort(function (a, b) {
+        var ap = a.pubdate || '', bp = b.pubdate || '';
+        if (ap < bp) return 1;
+        if (ap > bp) return -1;
+        return 0;
+      });
+
+    var groups = {};
+    var keyOrder = [];
+    for (var i = 0; i < entries.length; i++) {
+      var k = monthKey(entries[i].pubdate);
+      if (!groups[k]) { groups[k] = []; keyOrder.push(k); }
+      groups[k].push(entries[i]);
+    }
+
+    var html = '';
+    for (var j = 0; j < keyOrder.length; j++) {
+      var key = keyOrder[j];
+      html += '<h2 class="month-heading">' + escapeHTML(monthLabel(key)) + '</h2>';
+      html += '<ul class="resources">';
+      for (var m = 0; m < groups[key].length; m++) {
+        html += renderEntry(groups[key][m]);
+      }
+      html += '</ul>';
+    }
+    root.innerHTML = html;
+  }
+
+  function run() {
+    var root = document.getElementById('resources-archive');
+    if (!root) return;
+    var controller = ('AbortController' in window) ? new AbortController() : null;
+    var timeoutId = null;
+    if (controller) timeoutId = setTimeout(function () { controller.abort(); }, FETCH_TIMEOUT_MS);
+    var opts = controller ? { signal: controller.signal, cache: 'no-cache' } : { cache: 'no-cache' };
+    fetch(ENDPOINT, opts)
+      .then(function (r) { if (timeoutId) clearTimeout(timeoutId); if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function (data) { render(data, root); })
+      .catch(function () { root.innerHTML = '<div class="empty">Archive temporarily unavailable. Check back shortly.</div>'; });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', run);
+  } else {
+    run();
+  }
+})();
+</script>
+</body>
+</html>
