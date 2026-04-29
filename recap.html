@@ -569,13 +569,11 @@ fetch('recap-data.json').then(r=>r.json()).then(data=>{
     const rest = data.cases;
     [...pinned, ...rest].forEach(c=>{
         const row = document.createElement('tr');
-        const isVCS = false;
-        if(isVCS) row.style.cssText = 'background:rgba(0,200,150,0.08);border-left:3px solid var(--green);';
         row.innerHTML = `
-            <td><a href="https://www.courtlistener.com/docket/68140536/victory-cleaning-systems-inc/" target="_blank" rel="noopener" ${isVCS ? 'style="font-weight:700;color:var(--green)"' : ''}>${c.num}${isVCS ? ' ★' : ''}</a></td>
+            <td><a href="https://www.courtlistener.com/?type=r&q=${encodeURIComponent(c.num)}" target="_blank" rel="noopener">${c.num}</a></td>
             <td><span class="court-badge">${c.court}</span></td>
             <td>${c.chapter}</td>
-            <td class="doc-count" ${isVCS ? 'style="color:var(--green);font-weight:700"' : ''}>${isVCS ? '97+ docs' : c.docs}</td>
+            <td class="doc-count">${c.docs}</td>
             <td>${c.status}</td>
         `;
         tbody.appendChild(row);
