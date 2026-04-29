@@ -436,10 +436,7 @@
     <loc>https://minnesotabankruptcy.org/sitemap.xml</loc>
     <lastmod>2026-04-09</lastmod>
   </sitemap>
-  <sitemap>
-    <loc>https://missouribankruptcy.org/sitemap.xml</loc>
-    <lastmod>2026-04-09</lastmod>
-  </sitemap>
+  <!-- missouribankruptcy.org sitemap removed 2026-04-29: NOT owned by OBP (Steven A. Levy law firm). -->
   <sitemap>
     <loc>https://monitor.openbankruptcyproject.org/sitemap.xml</loc>
     <lastmod>2026-04-09</lastmod>
