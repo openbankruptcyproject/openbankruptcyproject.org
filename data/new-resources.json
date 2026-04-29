@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-04-29",
+  "_seed_note": "Initial dates for evergreen entries are approximate; refine as new entries ship and rotate evergreens off as needed.",
+  "resources": [
+    {
+      "pubdate": "2026-04-16",
+      "icon": "📑",
+      "label": "26-BK-5 research brief",
+      "description": "Rule 9037 / Forms 121 and 309E1 SSN exposure: five amendments accepted by the Advisory Committee on Bankruptcy Rules.",
+      "url": "https://openbankruptcyproject.org/research/26-bk-5/",
+      "tags": ["rules-committee", "rule-9037", "ssn-exposure", "research-brief"]
+    },
+    {
+      "pubdate": "2026-03-23",
+      "icon": "📑",
+      "label": "26-BK-3 research brief",
+      "description": "Automated Section 1328(f) discharge-bar screening: empirical methodology accepted by the Advisory Committee on Bankruptcy Rules.",
+      "url": "https://openbankruptcyproject.org/research/26-bk-3/",
+      "tags": ["rules-committee", "section-1328f", "research-brief"]
+    },
+    {
+      "pubdate": "2026-03-15",
+      "icon": "📚",
+      "label": "Section 329(b) caselaw map (8th + 10th Circuit)",
+      "description": "Federal caselaw mapping fee-disgorgement under 11 U.S.C. § 329(b).",
+      "url": "https://section329.org/caselaw.html",
+      "tags": ["section-329b", "caselaw"]
+    },
+    {
+      "pubdate": "2026-03-12",
+      "icon": "📄",
+      "label": "Section 329(b) motion template + scaffolding",
+      "description": "Pro se motion template with scaffolded fact sections and authorities for fee-disgorgement under § 329(b).",
+      "url": "https://section329.org/motion-template.html",
+      "tags": ["section-329b", "motion-template", "pro-se"]
+    },
+    {
+      "pubdate": "2026-03-01",
+      "icon": "🧮",
+      "label": "Full Part 1 and Part 2 means test calculator",
+      "description": "Complete Chapter 7 means-test calculator covering presumption-of-abuse and disposable-income analysis.",
+      "url": "https://meanstest.org/calculator.html",
+      "tags": ["means-test", "calculator"]
+    },
+    {
+      "pubdate": "2026-02-25",
+      "icon": "📖",
+      "label": "61-term bankruptcy glossary",
+      "description": "Plain-English definitions for the 61 most common terms a pro se filer encounters.",
+      "url": "https://whathappensinbankruptcy.com/glossary/",
+      "tags": ["glossary", "education"]
+    },
+    {
+      "pubdate": "2026-02-20",
+      "icon": "🌎",
+      "label": "Guías en Español",
+      "description": "Over 2,600 pages of Spanish-language bankruptcy resources, state-by-state.",
+      "url": "https://howtofilebankruptcy.org/states-es/",
+      "tags": ["spanish", "guides"]
+    },
+    {
+      "pubdate": "2026-02-15",
+      "icon": "📍",
+      "label": "Bankruptcy guides for all 50 states",
+      "description": "State-by-state filing guides, exemptions, district statistics, and local procedure.",
+      "url": "https://bankruptcyexemptionsbystate.com/states/",
+      "tags": ["state-guides", "exemptions"]
+    },
+    {
+      "pubdate": "2026-02-10",
+      "icon": "📰",
+      "label": "Latest bankruptcy data analysis",
+      "description": "OBP's news index: empirical analyses of filing trends, attorney patterns, and enforcement gaps.",
+      "url": "https://openbankruptcyproject.org/news/",
+      "tags": ["news", "data-analysis"]
+    }
+  ]
+}
