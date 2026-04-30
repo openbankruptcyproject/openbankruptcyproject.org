@@ -353,6 +353,31 @@
 <div class="label">Press Inquiries</div>
 <div class="email"><a href="mailto:info@openbankruptcyproject.org">info@openbankruptcyproject.org</a></div>
 </div>
+<div style="margin-top:24px;padding:24px;background:var(--surface);border:1px solid var(--border);border-radius:8px">
+<h3 style="font-size:1rem;font-weight:700;margin:0 0 0.4rem;color:var(--text)">Quick Press Inquiry Form</h3>
+<p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:16px">Reaches the same inbox. We respond within 24 hours. Include your outlet and deadline.</p>
+<form id="obp-press-form" style="margin:0">
+<input name="source" type="hidden" value="openbankruptcyproject.org"/>
+<input name="topic" type="hidden" value="Press Inquiry"/>
+<input aria-label="Name and outlet" name="name" type="text" placeholder="Your name and outlet" style="width:100%;padding:0.6rem 0.75rem;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:0.9rem;font-family:inherit;box-sizing:border-box;margin-bottom:0.75rem"/>
+<input aria-label="Email" name="email" type="email" placeholder="Email" required="" style="width:100%;padding:0.6rem 0.75rem;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:0.9rem;font-family:inherit;box-sizing:border-box;margin-bottom:0.75rem"/>
+<textarea name="message" placeholder="Story angle, what you need, deadline..." required="" rows="4" style="width:100%;padding:0.6rem 0.75rem;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:0.9rem;font-family:inherit;box-sizing:border-box;margin-bottom:0.75rem;resize:vertical"></textarea>
+<button type="submit" style="background:var(--accent);color:#fff;border:none;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;cursor:pointer">Send Press Inquiry</button>
+</form>
+<p id="obp-press-thanks" style="display:none;color:#3fb950;font-weight:600;margin:1rem 0 0">Thanks. We will respond within 24 hours.</p>
+<p id="obp-press-error" style="display:none;color:#f85149;font-weight:600;margin:1rem 0 0">Submission failed. Please email <a href="mailto:info@openbankruptcyproject.org" style="color:#f85149;text-decoration:underline">info@openbankruptcyproject.org</a> directly.</p>
+<script>
+document.getElementById('obp-press-form').addEventListener('submit',function(e){
+  e.preventDefault();
+  var f=this,b=f.querySelector('button[type=submit]');
+  b.disabled=true;b.textContent='Sending...';
+  var d={name:f.querySelector('[name=name]').value,email:f.querySelector('[name=email]').value,state:'',message:f.querySelector('[name=message]').value,topic:'Press Inquiry ('+f.querySelector('[name=source]').value+')'};
+  fetch('https://script.google.com/macros/s/AKfycbwSILiwrhpiognHpMEws-j7Yc-aySqk3vDkCXFmNe-hA-tHrzGC6qid7f6ZqBy3n9sqiQ/exec',{method:'POST',body:JSON.stringify(d)})
+  .then(function(){try{if(typeof gtag==='function'){gtag('event','generate_lead',{form_id:'obp-press-form',source:d.topic,value:1});}}catch(_){};f.style.display='none';document.getElementById('obp-press-thanks').style.display='block';})
+  .catch(function(){try{if(typeof gtag==='function'){gtag('event','generate_lead',{form_id:'obp-press-form',source:d.topic,value:1,outcome:'fetch_error'});}}catch(_){};b.disabled=false;b.textContent='Send Press Inquiry';document.getElementById('obp-press-error').style.display='block';});
+});
+</script>
+</div>
 </div>
 </section>
 <section>
