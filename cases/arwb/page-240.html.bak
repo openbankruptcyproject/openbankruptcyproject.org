@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>W.D. Ark. Bankruptcy Cases - Page 240 of 240 - Open Bankruptcy Project</title>
+    <meta name="description" content="Index of federal bankruptcy cases in the W.D. Ark. available on the RECAP Archive. Published by the Open Bankruptcy Project. All primary-source documents are on CourtListener.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/cases/arwb/page-240.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="W.D. Ark. Bankruptcy Cases - Open Bankruptcy Project">
+    <meta property="og:description" content="Index of federal bankruptcy cases in the W.D. Ark. available on the RECAP Archive.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/cases/arwb/page-240.html">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- BTN:GA4:START -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+    <!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "W.D. Ark. Bankruptcy Case Index (Page 240)", "description": "Index of federal bankruptcy cases in the W.D. Ark. available on the RECAP Archive. Published by the Open Bankruptcy Project.", "url": "https://openbankruptcyproject.org/cases/arwb/page-240.html", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "creator": {"@type": "NonprofitOrganization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "sourceOrganization": {"@type": "Organization", "name": "Free Law Project", "url": "https://free.law/"}, "isAccessibleForFree": true, "keywords": "bankruptcy, federal court, RECAP, CourtListener, public records, W.D. Ark."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Cases", "item": "https://openbankruptcyproject.org/cases/"}, {"@type": "ListItem", "position": 3, "name": "W.D. Ark.", "item": "https://openbankruptcyproject.org/cases/arwb/"}, {"@type": "ListItem", "position": 4, "name": "Page 240", "item": "https://openbankruptcyproject.org/cases/arwb/page-240.html"}]}</script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230;
+            --border: #252d38; --border-light: #2d3748;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff;
+            --green: #3fb950; --gold: #d29922;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+
+        nav.topnav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav.topnav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
+
+        .breadcrumb { padding: 16px 0; font-size: 0.85rem; color: var(--text-muted); }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb a:hover { color: var(--accent); }
+        .breadcrumb .sep { margin: 0 8px; color: var(--border-light); }
+
+        .court-header { padding: 32px 0 24px; border-bottom: 1px solid var(--border); }
+        .court-header .label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 8px; }
+        .court-header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+        .court-header p { color: var(--text-secondary); font-size: 0.95rem; max-width: 780px; }
+
+        .case-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 32px 0; }
+        .case-table th { background: var(--bg); text-align: left; padding: 14px 16px; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; border-bottom: 1px solid var(--border); }
+        .case-table td { padding: 12px 16px; font-size: 0.88rem; border-bottom: 1px solid var(--border); }
+        .case-table tr:last-child td { border-bottom: none; }
+        .case-table tr:hover td { background: var(--surface-hover); }
+
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 16px; margin: 24px 0; font-size: 0.9rem; }
+        .pagination a { color: var(--accent); font-weight: 600; padding: 6px 12px; border: 1px solid var(--border-light); border-radius: 6px; }
+        .pagination a:hover { background: var(--surface); text-decoration: none; }
+        .pagination .page-info { color: var(--text-muted); }
+
+        .attribution { padding: 20px 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-size: 0.85rem; color: var(--text-muted); margin: 32px 0; }
+        .attribution strong { color: var(--text-secondary); }
+        .attribution a { color: var(--text-secondary); }
+        .attribution a:hover { color: var(--accent); }
+
+        footer { padding: 40px 0; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; text-align: center; }
+        footer a { color: var(--text-muted); margin: 0 10px; }
+        footer a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+<nav class="topnav">
+    <div class="container">
+        <a href="/" class="nav-brand">Open Bankruptcy Project</a>
+        <div class="nav-links">
+            <a href="/#mission">Mission</a>
+            <a href="/#what-we-do">What We Do</a>
+            <a href="/cases/" class="active">Cases</a>
+            <a href="/research.html">Research</a>
+            <a href="/recap.html">RECAP</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <a href="/cases/">Cases</a><span class="sep">/</span>
+        <a href="/cases/arwb/">W.D. Ark.</a><span class="sep">/</span>
+        <span>Page 240</span>
+    </div>
+</div>
+
+<header class="court-header">
+    <div class="container">
+        <div class="label">Bankruptcy Court Index</div>
+        <h1>United States Bankruptcy Court for the Western District of Arkansas</h1>
+        <p>United States Bankruptcy Court for the Western District of Arkansas is one of the US federal bankruptcy courts whose public, RECAP-archived dockets are indexed here. The Open Bankruptcy Project maintains this national case-level index for empirical research and public-records access. Every case below links to the full docket on the Free Law Project&#x27;s CourtListener.</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <div class="pagination"><a href="page-239.html">← Prev</a> <span class="page-info">Page 240 of 240</span></div>
+
+    <table class="case-table">
+        <thead>
+            <tr>
+                <th>Case Number</th>
+                <th>Caption</th>
+                <th>Chapter</th>
+                <th>Filed</th>
+                <th>Primary Source</th>
+                <th>Research</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1:01-bk-11414</td><td>Edgar C. Johnson and Jenny Lynne Johnson</td><td>Ch. 7</td><td>2001-05-11</td><td><a href="https://www.courtlistener.com/docket/19635963/edgar-c-johnson-and-jenny-lynne-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-ap-08044</td><td>Ryan v. Ride Rite, Inc.</td><td>—</td><td>2001-05-11</td><td><a href="https://www.courtlistener.com/docket/19617030/ryan-v-ride-rite-inc/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-ap-08043</td><td>Associates Commercial Corporation v. Lee</td><td>—</td><td>2001-05-11</td><td><a href="https://www.courtlistener.com/docket/19616888/associates-commercial-corporation-v-lee/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>6:01-ap-06018</td><td>Chase Manhattan Bank USA [NY] v. Rorie</td><td>—</td><td>2001-05-11</td><td><a href="https://www.courtlistener.com/docket/19601616/chase-manhattan-bank-usa-ny-v-rorie/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80812</td><td>Denzil Lee Griffin and Margaret Ellen Griffin</td><td>Ch. 7</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20351154/denzil-lee-griffin-and-margaret-ellen-griffin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80811</td><td>Tami Lynn Wiltgen</td><td>Ch. 7</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20351019/tami-lynn-wiltgen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80810</td><td>Mary Lou Shivers</td><td>Ch. 7</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20350903/mary-lou-shivers/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80809</td><td>Alan L. Jordan and Mary E. Jordan</td><td>Ch. 7</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20350762/alan-l-jordan-and-mary-e-jordan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80808</td><td>Sarah A. Hooper</td><td>Ch. 7</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20350675/sarah-a-hooper/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80807</td><td>Ken Scott and Martha Newsom</td><td>Ch. 13</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20350479/ken-scott-and-martha-newsom/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80806</td><td>Jason E. Shelby and Heather Shelby</td><td>Ch. 13</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20350364/jason-e-shelby-and-heather-shelby/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80805</td><td>Virginia L. Richardson</td><td>Ch. 13</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20350336/virginia-l-richardson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80804</td><td>Terry Eidson and Heather Eidson</td><td>Ch. 7</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20350116/terry-eidson-and-heather-eidson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80803</td><td>Otis Holder and Grace Holder</td><td>Ch. 7</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20349999/otis-holder-and-grace-holder/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80802</td><td>Billy Elenbarger and Diana Elenbarger</td><td>Ch. 13</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20349829/billy-elenbarger-and-diana-elenbarger/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:01-bk-80801</td><td>Charles Richard Yates and Beverly Jane Yates</td><td>Ch. 7</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20349672/charles-richard-yates-and-beverly-jane-yates/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>2:01-bk-70684</td><td>Juliet M. Hilbern</td><td>Ch. 7</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/20166588/juliet-m-hilbern/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>6:01-bk-60597</td><td>Keith Collins</td><td>Ch. 13</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/19975051/keith-collins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>6:01-bk-60596</td><td>Charles G. Anderson</td><td>Ch. 13</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/19974862/charles-g-anderson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>6:01-bk-60595</td><td>James E. Warwick and Martha P. Warwick</td><td>Ch. 13</td><td>2001-05-10</td><td><a href="https://www.courtlistener.com/docket/19974758/james-e-warwick-and-martha-p-warwick/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+        </tbody>
+    </table>
+
+    <div class="pagination"><a href="page-239.html">← Prev</a> <span class="page-info">Page 240 of 240</span></div>
+
+    <div class="attribution">
+        <p><strong>Data source:</strong> Case metadata on this page comes from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>, operated by the <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a>. Content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. This derived index is published under the same license.</p>
+        <p style="margin-top: 12px;"><strong>Scope note:</strong> This index covers federal bankruptcy cases in the W.D. Ark. that appear on the RECAP Archive. The Open Bankruptcy Project does not reproduce docket PDFs or filing text on this domain - all primary-source access is via CourtListener. Last updated 2026-04-19.</p>
+    </div>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/recap.html">RECAP</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a></p>
+        <p style="margin-top: 12px;">Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p style="margin-top: 8px;">Case metadata from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a> / <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>

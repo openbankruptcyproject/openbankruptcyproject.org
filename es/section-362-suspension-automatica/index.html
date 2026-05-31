@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d1117">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Suspensión automática: panorama del § 362 - Open Bankruptcy Project</title>
+<meta name="description" content="Guía en español de 11 U.S.C. § 362 - la suspensión automática (automatic stay) en quiebra. Alcance, excepciones, levantamiento de la suspensión y consecuencias de las violaciones dolosas.">
+<link rel="canonical" href="https://openbankruptcyproject.org/es/section-362-suspension-automatica/">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-362-automatic-stay.html">
+<link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/section-362-automatische-vollstreckungssperre/">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-362-suspension-automatica/">
+<link rel="alternate" hreflang="pl" href="https://openbankruptcyproject.org/pl/section-362-automatyczne-wstrzymanie/">
+<link rel="alternate" hreflang="fr" href="https://openbankruptcyproject.org/fr/section-362-sursis-automatique/">
+<link rel="alternate" hreflang="it" href="https://openbankruptcyproject.org/it/section-362-sospensione-automatica/">
+<link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/section-362-automatic-stay.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+<meta property="og:title" content="Suspensión automática: panorama del § 362">
+<meta property="og:description" content="Guía en español de 11 U.S.C. § 362 - la suspensión automática (automatic stay) en quiebra.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/es/section-362-suspension-automatica/">
+<meta property="og:image" content="/og-image.svg">
+<meta property="og:locale" content="es_MX">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/og-image.svg">
+
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+
+<meta name="last-modified" content="2026-05-22">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "inLanguage": "es",
+      "headline": "Suspensión automática: panorama del § 362",
+      "description": "Guía en español de 11 U.S.C. § 362 - la suspensión automática en quiebra.",
+      "author": {"@type": "Organization", "name": "Open Bankruptcy Project"},
+      "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+      "datePublished": "2026-05-22",
+      "dateModified": "2026-05-22",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/es/section-362-suspension-automatica/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://openbankruptcyproject.org/"},
+        {"@type": "ListItem", "position": 2, "name": "Estatutos", "item": "https://openbankruptcyproject.org/#statutes"},
+        {"@type": "ListItem", "position": 3, "name": "Suspensión automática (§ 362)", "item": "https://openbankruptcyproject.org/es/section-362-suspension-automatica/"}
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg: #0d1117; --surface: #151b23; --border: #252d38; --text: #e6edf3;
+    --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; }
+  html { scroll-behavior: smooth; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { color: var(--accent-hover); }
+  .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+  nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+    background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+  nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+  .nav-brand a { color: var(--text); }
+  .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+  .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+  .nav-links a:hover { color: var(--text); }
+  .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+  .page-header h1 { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; line-height: 1.25; }
+  .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+  .content { padding: 56px 0; }
+  .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; }
+  .content h2:first-child { margin-top: 0; }
+  .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 8px; }
+  .content p { color: var(--text-secondary); margin-bottom: 16px; line-height: 1.8; }
+  .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+  .content li { margin-bottom: 8px; }
+  .callout { background: var(--surface); border-left: 3px solid var(--accent); padding: 14px 18px; border-radius: 6px; margin: 20px 0; }
+  .callout p { margin: 0; color: var(--text); }
+  footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+  footer .footer-links { margin-bottom: 20px; }
+  footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+  @media (max-width: 600px) { .container { padding: 0 20px; } .page-header h1 { font-size: 1.6rem; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+    <div class="nav-links">
+      <a href="/">Inicio</a>
+      <a href="/about.html">Acerca de</a>
+      <a href="/research.html">Investigación</a>
+      <a href="/network.html">Red</a>
+      <a href="/impact.html">Impacto</a>
+      <a href="/press.html">Prensa</a>
+      <a href="/contact.html">Contacto</a>
+      <a href="/section-362-automatic-stay.html" lang="en" hreflang="en">English</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Suspensión automática: panorama del § 362</h1>
+    <p class="subtitle">Guía práctica de 11 U.S.C. § 362 - la suspensión automática (automatic stay): qué detiene, qué no detiene, cómo funciona el levantamiento de la suspensión y las consecuencias de las violaciones dolosas.</p>
+  </div>
+</div>
+
+<div class="content">
+  <div class="container">
+
+    <h2>¿Qué es la Section 362?</h2>
+    <p>La Section 362 del Title 11 del United States Code crea la <strong>suspensión automática (automatic stay)</strong>, una de las disposiciones más consecuentes del Bankruptcy Code. En el momento en que se presenta una petición bajo los Chapters 7, 11, 12 o 13, la suspensión nace por ministerio de ley y detiene prácticamente toda actividad de cobranza, demandas, ejecuciones hipotecarias (foreclosures), recuperaciones de garantías (repossessions), embargos (garnishments) y procedimientos administrativos dirigidos contra el deudor o contra los bienes de la masa de la quiebra (bankruptcy estate).</p>
+    <p>La suspensión no es discrecional y no requiere orden ni notificación. Vincula a los acreedores en el instante en que la petición se registra en la corte, incluso antes de que reciban aviso formal. Su propósito es darle al deudor un respiro y preservar la masa para una distribución ordenada entre los acreedores.</p>
+    <div class="callout"><p><strong>Cita oficial:</strong> 11 U.S.C. § 362</p></div>
+
+    <h2>Alcance de la suspensión: § 362(a)</h2>
+    <p>La Section 362(a) enumera ocho categorías de actos suspendidos al presentarse la petición. Las invocadas con mayor frecuencia incluyen:</p>
+    <ul>
+      <li><strong>362(a)(1):</strong> Inicio o continuación de cualquier acción judicial, administrativa u otra contra el deudor que fue o pudo haberse iniciado antes de la petición.</li>
+      <li><strong>362(a)(2):</strong> Ejecución contra el deudor o contra bienes de la masa de una sentencia obtenida antes de la petición.</li>
+      <li><strong>362(a)(3):</strong> Cualquier acto para obtener posesión de bienes de la masa o para ejercer control sobre bienes de la masa.</li>
+      <li><strong>362(a)(4):</strong> Cualquier acto para crear, perfeccionar o ejecutar un gravamen (lien) contra bienes de la masa.</li>
+      <li><strong>362(a)(5):</strong> Cualquier acto para crear, perfeccionar o ejecutar un gravamen contra bienes del deudor que garantice una reclamación anterior a la petición.</li>
+      <li><strong>362(a)(6):</strong> Cualquier acto para cobrar, evaluar o recuperar una reclamación anterior a la petición contra el deudor. Esta es la prohibición amplia de cobranza que abarca llamadas telefónicas, cartas de cobranza y conducta similar.</li>
+      <li><strong>362(a)(7):</strong> Compensación (setoff) de cualquier deuda adeudada al deudor que haya surgido antes de la petición contra cualquier reclamación contra el deudor.</li>
+      <li><strong>362(a)(8):</strong> Inicio o continuación de un procedimiento en el United States Tax Court relativo a la responsabilidad tributaria de un deudor corporativo o relativo a la responsabilidad tributaria del deudor por un período tributario que el tribunal de quiebras pueda determinar.</li>
+    </ul>
+
+    <h2>Excepciones: § 362(b)</h2>
+    <p>La Section 362(b) enumera más de dos docenas de excepciones a la suspensión automática. Las que se encuentran comúnmente incluyen:</p>
+    <ul>
+      <li>Procedimientos penales contra el deudor (362(b)(1)).</li>
+      <li>Establecimiento de paternidad, modificación de obligaciones de manutención familiar (domestic-support obligations), asuntos de custodia y visitas de menores, y ciertos procedimientos de divorcio (362(b)(2)).</li>
+      <li>Cobro de obligaciones de manutención familiar de bienes que no son parte de la masa (362(b)(2)(B)).</li>
+      <li>Actos para perfeccionar, mantener o continuar la perfección de un interés en bienes en la medida permitida por la § 546(b) (362(b)(3)).</li>
+      <li>Ejercicio del poder de policía o regulatorio de una unidad gubernamental, incluyendo la emisión de órdenes distintas a sentencias monetarias (362(b)(4)).</li>
+      <li>Desalojo por un arrendador de bienes raíces no residenciales después de la terminación del contrato (362(b)(10)).</li>
+      <li>Ciertos desalojos residenciales en los que se haya dictado una sentencia anterior a la petición por posesión (362(b)(22), sujeto al procedimiento de subsanación de la § 362(l)).</li>
+    </ul>
+    <p>La excepción de poder de policía y regulatorio en la 362(b)(4) se litiga intensamente. El marco principal distingue entre actuaciones gubernamentales para proteger la salud pública, la seguridad y el bienestar (no suspendidas) y actuaciones diseñadas principalmente para proteger un interés pecuniario gubernamental (suspendidas).</p>
+
+    <h2>Duración de la suspensión: § 362(c)</h2>
+    <p>Bajo la Section 362(c)(1), la suspensión de un acto contra bienes de la masa continúa hasta que los bienes dejen de ser parte de la masa. Bajo la Section 362(c)(2), la suspensión de un acto contra el deudor (o contra bienes del deudor) continúa hasta el primer evento entre: cierre del caso, desestimación o entrada de la descarga (discharge).</p>
+    <p>Las Sections 362(c)(3) y 362(c)(4) imponen limitaciones significativas a los presentadores reincidentes (serial filers). Si el deudor tuvo un caso anterior de quiebra desestimado dentro del año anterior, la suspensión termina 30 días después de la presentación a menos que se extienda mediante moción (362(c)(3)). Si dos o más casos anteriores fueron desestimados dentro del año anterior, no surge ninguna suspensión a menos que el tribunal la imponga mediante moción (362(c)(4)).</p>
+
+    <h2>Levantamiento de la suspensión: § 362(d)</h2>
+    <p>Una parte interesada puede solicitar el levantamiento de la suspensión bajo la Section 362(d). El tribunal "deberá" conceder el levantamiento por uno de cuatro motivos:</p>
+    <ul>
+      <li><strong>362(d)(1) - Por causa:</strong> Incluyendo la falta de protección adecuada (adequate protection) de un interés en bienes. Este es el motivo más flexible y es comúnmente invocado por acreedores garantizados cuando el colateral se está depreciando y no se está proporcionando protección adecuada.</li>
+      <li><strong>362(d)(2):</strong> Respecto a una suspensión de un acto contra bienes, si el deudor no tiene plusvalía (equity) en los bienes y los bienes no son necesarios para una reorganización efectiva.</li>
+      <li><strong>362(d)(3):</strong> En casos de bienes raíces de activo único (single-asset real estate), cuando el deudor no ha presentado un plan con una posibilidad razonable de confirmación o no ha comenzado pagos mensuales de intereses dentro de 90 días.</li>
+      <li><strong>362(d)(4):</strong> Cuando la presentación fue parte de un esquema para retrasar, obstaculizar o defraudar a los acreedores respecto a bienes raíces, permitiendo el levantamiento <em>in rem</em> que vincula a futuros presentadores.</li>
+    </ul>
+    <p>Una audiencia sobre una moción de levantamiento debe concluir dentro de 30 días bajo la Section 362(e)(1), o la suspensión termina por ministerio de ley en cuanto a la parte que solicita. El plazo de 30 días puede extenderse por acuerdo o por el tribunal por causa.</p>
+
+    <h2>Consecuencias de violaciones de la suspensión: § 362(k)</h2>
+    <p>La Section 362(k)(1) dispone que una persona física lesionada por cualquier violación dolosa (willful) de la suspensión recuperará daños reales, incluyendo costos y honorarios de abogado, y en circunstancias apropiadas podrá recuperar daños punitivos. Una violación es "dolosa" cuando el acreedor conocía la suspensión y los actos realizados fueron intencionales, sin importar la intención de violar la suspensión en sí.</p>
+    <p>Las violaciones comunes incluyen embargos continuados después de notificación, negativa a devolver colateral incautado, llamadas de cobranza post-petición y la prosecución continuada de demandas anteriores a la petición. Los tribunales han sostenido consistentemente que los acreedores tienen el deber afirmativo de detener la actividad de cobranza y de tomar medidas afirmativas para deshacer acciones de cobranza anteriores a la petición cuando se les notifica de la quiebra.</p>
+    <div class="callout"><p><strong>Nota práctica.</strong> Un acreedor que se entere de una presentación de quiebra debe suspender inmediatamente toda actividad de cobranza, instruir a sus agentes de cobranza para que hagan lo mismo, y liberar cualquier embargo o retención. La falta de actuación rápida es una fuente común de adjudicaciones de daños bajo la Section 362(k).</p></div>
+
+    <h2>Secciones relacionadas del Bankruptcy Code</h2>
+    <p>La suspensión automática opera en conjunto con varias otras disposiciones:</p>
+    <ul>
+      <li><a href="https://www.law.cornell.edu/uscode/text/11/541" target="_blank" rel="noopener">Section 541</a> - Bienes de la masa, que define los bienes protegidos por la 362(a)(3) y (4).</li>
+      <li><a href="https://www.law.cornell.edu/uscode/text/11/521" target="_blank" rel="noopener">Section 521</a> - Deberes del deudor, incluyendo el deber de entregar bienes y proporcionar declaraciones tributarias.</li>
+      <li><a href="/es/section-524-orden-de-restriccion-de-descarga/">Section 524</a> - Orden de restricción de descarga (discharge injunction), la sucesora permanente de la suspensión automática.</li>
+      <li><a href="https://www.law.cornell.edu/uscode/text/11/363" target="_blank" rel="noopener">Section 363</a> - Uso, venta o arrendamiento de bienes, que interactúa con el levantamiento de la suspensión.</li>
+      <li><a href="https://www.law.cornell.edu/uscode/text/11/1201" target="_blank" rel="noopener">Section 1201</a> - Suspensión de acción contra codeudores en casos del Chapter 12.</li>
+    </ul>
+    <p>Las Federal Rules of Bankruptcy Procedure 4001 (levantamiento de la suspensión) y 9014 (asuntos contenciosos) rigen la mecánica procesal de las mociones de suspensión.</p>
+
+    <h2>Lecturas adicionales</h2>
+    <ul>
+      <li><a href="https://www.law.cornell.edu/uscode/text/11/362" target="_blank" rel="noopener">11 U.S.C. § 362 - Automatic Stay</a></li>
+      <li><a href="/section-362-automatic-stay.html" lang="en" hreflang="en">Página en inglés de esta misma sección</a></li>
+      <li><a href="/es/section-524-orden-de-restriccion-de-descarga/">§ 524 - Orden de restricción de descarga</a></li>
+      <li><a href="/es/section-523-excepciones-a-la-descarga/">§ 523 - Excepciones a la descarga</a></li>
+    </ul>
+
+    <p style="margin-top:32px;font-size:0.85rem;color:var(--text-muted)"><em>Esta página proporciona únicamente información educativa. Las cuestiones de suspensión automática son específicas a los hechos y procesalmente complejas. Consulte a un abogado licenciado en quiebras sobre su situación específica.</em></p>
+
+  </div>
+</div>
+
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Transparencia gratuita y de código abierto sobre quiebras. Sin publicidad. Sin enlaces de afiliados. Apoyado por <a href="https://openbankruptcyproject.org/donate.html">donaciones</a>.</p>
+
+  <div class="container">
+    <div class="footer-links">
+      <a href="/">Inicio</a>
+      <a href="/about.html">Acerca de</a>
+      <a href="/research.html">Investigación</a>
+      <a href="/contact.html">Contacto</a>
+      <a href="/privacy.html">Privacidad</a>
+      <a href="/terms.html">Términos</a>
+      <a href="/deletion-requests.html">Solicitudes de eliminación</a>
+    </div>
+    <p>Open Bankruptcy Project es una organización 501(c)(3) sin fines de lucro.</p>
+    <p>EIN 41-5159631. Todas las herramientas y datos se publican bajo licencias de código abierto.</p>
+  </div>
+  <p style="margin-top:16px; font-size:0.8rem;">No se proporciona asesoría legal. Esta es información educativa únicamente.</p>
+  <p>Este sitio proporciona información de carácter general, no asesoría legal. Consulte a un abogado calificado sobre su situación específica.</p>
+</footer>
+
+</body>
+</html>

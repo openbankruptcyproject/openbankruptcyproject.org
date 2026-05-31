@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Stockbroker and Commodity Broker Liquidation - Subchapters III and IV, SIPA Interplay, and Customer-Property Priority [2026]</title>
+<meta name="description" content="Plain-English guide to stockbroker liquidation under Sections 741-753 and commodity broker liquidation under Sections 761-767: customer-property priority, the SIPA interplay, the net-equity calculation, and the Madoff/BLMIS framework.">
+<meta name="keywords" content="stockbroker liquidation, commodity broker liquidation, 11 USC 741, 11 USC 761, SIPA, net equity, customer property, BLMIS, Madoff, Section 766">
+<link rel="canonical" href="https://openbankruptcyproject.org/specialty-chapters/stockbroker-commodity-broker-liquidation/">
+<meta property="og:title" content="Stockbroker and Commodity Broker Liquidation - Subchapters III and IV, SIPA, and Customer Property">
+<meta property="og:description" content="Plain-English guide to stockbroker liquidation (Sections 741-753) and commodity broker liquidation (Sections 761-767): customer-property priority, SIPA, net equity.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/specialty-chapters/stockbroker-commodity-broker-liquidation/">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="Stockbroker and Commodity Broker Liquidation">
+<meta name="twitter:description" content="Plain-English guide: Sections 741-753, Sections 761-767, customer-property priority, SIPA interplay, net-equity calculation.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+<meta name="last-modified" content="2026-05-22">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Stockbroker and Commodity Broker Liquidation - Subchapters III and IV, SIPA Interplay, and Customer-Property Priority","description":"Plain-English guide to stockbroker liquidation under Sections 741-753 and commodity broker liquidation under Sections 761-767: customer-property priority, SIPA interplay, and the net-equity calculation.","datePublished":"2026-05-22","dateModified":"2026-05-22","url":"https://openbankruptcyproject.org/specialty-chapters/stockbroker-commodity-broker-liquidation/","author":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"}}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+        { "@type": "ListItem", "position": 2, "name": "Specialty Chapters", "item": "https://openbankruptcyproject.org/specialty-chapters/" },
+        { "@type": "ListItem", "position": 3, "name": "Stockbroker and Commodity Broker Liquidation", "item": "https://openbankruptcyproject.org/specialty-chapters/stockbroker-commodity-broker-liquidation/" }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "Stockbroker and Commodity Broker Liquidation",
+      "url": "https://openbankruptcyproject.org/specialty-chapters/stockbroker-commodity-broker-liquidation/",
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".quick-answer", "h1", ".summary", "p:first-of-type"] }
+    }
+  ]
+}
+</script>
+<style>
+  :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-muted: #9eaab6; --accent: #58a6ff; --green: #3fb950; --red: #f85149; --yellow: #e3a835; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  nav .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger { display: none; background: none; border: 1px solid var(--border); color: var(--text); font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1; }
+  .breadcrumb { max-width: 760px; margin: 1rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; color: var(--text-muted); }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header { background: linear-gradient(135deg, #0d2137, #122a44); border-bottom: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+  header h1 { color: #f0f6fc; font-size: 2rem; margin-bottom: 0.75rem; }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle { color: var(--text-muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 1.5rem; }
+  .content-section h2 { color: #f0f6fc; font-size: 1.375rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .content-section h3 { color: #f0f6fc; font-size: 1.125rem; margin: 1.5rem 0 0.75rem; }
+  .content-section p { color: var(--text); margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .content-section ul, .content-section ol { margin: 0.75rem 0 0.75rem 1.5rem; color: var(--text); font-size: 0.95rem; }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box { background: #21262d; border-left: 3px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .statute-box p { margin-bottom: 0.5rem; }
+  .statute-box p:last-child { margin-bottom: 0; }
+  .warning-box { background: #21262d; border-left: 3px solid var(--red); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .green-box { background: #21262d; border-left: 3px solid var(--green); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .yellow-box { background: #21262d; border-left: 3px solid var(--yellow); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .network-links { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem 2rem; margin-bottom: 1.5rem; font-size: 0.85rem; color: var(--text-muted); line-height: 2; }
+  .network-links strong { color: var(--text); }
+  footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 2rem; }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a { display: block; padding: 0.6rem 0; margin: 0; font-size: 0.95rem; min-height: 44px; line-height: 2; border-bottom: 1px solid #21262d; }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+  }
+</style>
+</head>
+<body>
+<nav aria-label="Main navigation">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a>
+    <a href="/research.html">Research</a>
+    <a href="/impact.html">Impact</a>
+    <a href="/legal-aid.html">Legal Aid</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Stockbroker and <span class="accent">Commodity Broker Liquidation</span></h1>
+  <p class="subtitle">Subchapters III and IV of Chapter 7 carve out specialized liquidation regimes for failed brokerage firms. Customer property is segregated from the general estate, customers' net equity claims have priority over general unsecured claims, and the SIPA framework runs in parallel for securities firms.</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; Specialty Chapters &rsaquo; Stockbroker and Commodity Broker Liquidation
+</div>
+
+<main>
+<aside style="background:#151b23;border:1px solid #252d38;border-radius:10px;padding:20px 24px;margin:24px 0;font-size:0.92rem;">
+  <strong style="color:#58a6ff;text-transform:uppercase;letter-spacing:0.06em;font-size:0.78rem;">Empirical research on this area</strong>
+  <p style="margin-top:10px;color:#b1bac4;">For case-pattern analysis on stockbroker and commodity-broker liquidations, including district-level patterns and primary-source dockets, see <a href="/cases/" style="color:#58a6ff;">openbankruptcyproject.org/cases/</a>. All datasets licensed CC BY-SA 4.0.</p>
+</aside>
+
+<div class="content-section">
+  <h2>Why Brokerage Failures Need Special Rules</h2>
+  <p>The standard Chapter 7 distribution model - collect all assets of the debtor into the estate, pay administrative expenses, then pay priority claims, then pay general unsecured claims pro rata - is the wrong model for a failed brokerage. Customers of a broker-dealer typically have assets that they consider theirs: cash held in customer accounts, securities held in street name, margin collateral, and the like. Treating those assets as part of a general bankruptcy estate, available pro rata to all creditors, would convert customer property into general estate funds and produce ruinous outcomes for retail investors. The Bankruptcy Code recognizes this by carving out two specialized subchapters of Chapter 7: Subchapter III for stockbroker liquidation (Sections 741 through 753) and Subchapter IV for commodity broker liquidation (Sections 761 through 767).</p>
+  <p>The common architecture of both subchapters is to define a category of "customer property," segregate it from the general estate, distribute it first to customers in satisfaction of their "net equity" claims, and only then turn what remains over to general estate distribution. Layered on top, for securities firms, is the Securities Investor Protection Act of 1970 (SIPA), 15 U.S.C. Sections 78aaa et seq., which establishes the Securities Investor Protection Corporation (SIPC) and authorizes a SIPA liquidation proceeding that incorporates large portions of Subchapter III but is administered by SIPC rather than the U.S. Trustee system.</p>
+  <div class="statute-box"><p><strong>Official citations:</strong> 11 U.S.C. <a href="https://www.law.cornell.edu/uscode/text/11/741" rel="noopener" target="_blank">Sections 741-753</a> (stockbroker); 11 U.S.C. <a href="https://www.law.cornell.edu/uscode/text/11/761" rel="noopener" target="_blank">Sections 761-767</a> (commodity broker); 15 U.S.C. 78aaa et seq. (SIPA).</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Subchapter III: Stockbroker Liquidation</h2>
+  <p>Subchapter III applies to a "stockbroker" as defined in Section 101(53A) - generally, a person engaged in the business of effecting transactions in securities for the account of others or for its own account. A stockbroker can be a debtor only in Chapter 7; Sections 109(d) and 109(e) preclude a stockbroker from filing Chapter 11 or Chapter 13. The reasoning is that a failed brokerage's only realistic path is an orderly wind-down designed to maximize customer recovery, not a reorganization that contemplates continued operation.</p>
+  <p>The mechanics in Subchapter III are: the trustee collects "customer property" (Section 741(4)) into a separate distribution pool; the trustee determines each customer's "net equity" claim (Section 741(6)) - the dollar value of the customer's account had the firm liquidated all positions on the filing date; the trustee distributes customer property to customers ratably in satisfaction of net equity claims (Section 752(a)); only after customer claims are paid does any remaining customer property revert to the general estate (Section 752(c)); general unsecured creditors of the broker share in the general estate but not in customer property.</p>
+  <p>Section 745 governs the treatment of customers whose securities are held in margin accounts and whose accounts are subject to setoff. Section 746 governs how securities of customers may be liquidated and what protections customers have. Section 748 deals with the disposition of property of customers who cannot be identified. Section 749 addresses voidable transfers received by customers. Section 750 prohibits Chapter 11 reorganization for stockbrokers (subject to Section 109's eligibility rules).</p>
+</div>
+
+<div class="content-section">
+  <h2>SIPA Interplay</h2>
+  <p>For securities firms that are SIPC members - which include virtually all registered broker-dealers that hold customer property - a SIPA liquidation under 15 U.S.C. Section 78eee is the default pathway when the firm fails. SIPA proceedings are filed by SIPC in district court; the court appoints a SIPA trustee; the trustee administers the case under SIPA, which incorporates Bankruptcy Code provisions by reference (with SIPA overlays). The SIPA trustee determines customer claims, distributes customer property, and pays out SIPC-funded "advances" of up to specified caps per customer to cover shortfalls in customer-property distributions.</p>
+  <p>The SIPA framework is the dominant liquidation regime for retail broker failures. Pure-Chapter-7 Subchapter III liquidations of broker-dealers are unusual because SIPA preempts in nearly every case where customer property is at issue. Subchapter III remains relevant doctrinally: it supplies definitions that SIPA incorporates, it governs cases where SIPA does not apply, and the conceptual model of customer-property segregation and net-equity distribution is identical.</p>
+  <p>The Bernard L. Madoff Investment Securities (BLMIS) SIPA liquidation, commenced in 2008, is the most prominent modern application of the framework. The trustee's calculation of "net equity" - and specifically the decision to value each customer's claim as the net amount of cash deposited minus cash withdrawn, rather than the fictitious balance shown on the customer's last statement - was litigated to the Second Circuit and beyond. The Second Circuit's decision in <em>In re Bernard L. Madoff Investment Securities LLC</em>, 654 F.3d 229 (2d Cir. 2011), affirmed the trustee's "cash-in, cash-out" approach, holding that customers' net-equity claims were properly measured by their actual contributions and withdrawals rather than by the fabricated account statements they had received. That holding has shaped every subsequent Ponzi-driven SIPA liquidation.</p>
+</div>
+
+<div class="content-section">
+  <h2>Subchapter IV: Commodity Broker Liquidation</h2>
+  <p>Subchapter IV applies to a "commodity broker" as defined in Section 101(6) - generally, a futures commission merchant, foreign futures commission merchant, clearing organization, leverage transaction merchant, or commodity options dealer. As with stockbrokers, a commodity broker can only be a Chapter 7 debtor; Chapter 11 reorganization is not available.</p>
+  <p>The structural design parallels Subchapter III but is tuned to the realities of the commodity-futures markets. Section 761(10) defines "customer," Section 761(11) defines "customer property," and Section 761(17) defines "net equity." Section 766 governs the distribution of customer property and contains the central priority scheme: customer property is distributed ratably to customers based on the net equity of customer claims, with subordinate distribution to non-public customers, and any remaining customer property reverts to the general estate.</p>
+  <p>Two features of commodity broker liquidation deserve highlighting. First, the Commodity Futures Trading Commission's segregation rules under the Commodity Exchange Act (7 U.S.C. Section 6d) require commodity brokers to hold customer funds in segregated accounts before any bankruptcy is contemplated; segregation is therefore a pre-existing regulatory protection that interacts with Section 766's bankruptcy-side distribution priority. Second, Section 766(h) permits the trustee to make prompt distributions of "specifically identifiable" customer property without waiting for the full liquidation, which is particularly important for open commodity positions that must be transferred or liquidated within tight market windows.</p>
+</div>
+
+<div class="content-section">
+  <h2>The Net Equity Calculation</h2>
+  <p>"Net equity" is the centerpiece concept in both subchapters. In essence, net equity is what the customer's account would have been worth if the broker had liquidated all positions and settled all open transactions as of the filing date. The statutory definitions in Section 741(6) (stockbroker) and Section 761(17) (commodity broker) work through the same conceptual steps: identify the customer's positive balance (the value of securities, cash, or commodity contracts in the account); subtract amounts the customer owes the broker (margin loans, debit balances, contract obligations); the resulting figure is net equity. Customers with positive net equity have claims against customer property; customers with negative net equity have no customer claim and are general creditors (or debtors) of the estate.</p>
+  <p>In a Ponzi-scheme failure, net equity calculation becomes contentious because account statements may be fictitious. The Madoff/BLMIS litigation established that "cash-in, cash-out" is the appropriate net-equity measure in such cases. Customers who deposited more than they withdrew are net winners with allowable customer claims; customers who withdrew more than they deposited (often early Ponzi participants who received their original investment back plus fictitious "profits") are net losers from the estate's perspective and may face fraudulent-transfer clawback under Sections 548 and 550.</p>
+</div>
+
+<div class="content-section">
+  <h2>Safe-Harbor Provisions: Sections 546(e), 555, and 559</h2>
+  <p>Brokerage failures interact with a series of "safe harbor" provisions scattered through the Bankruptcy Code that protect certain financial transactions from the avoidance and unwinding tools available in an ordinary bankruptcy. Section 546(e) protects margin payments, settlement payments, and transfers made to or by stockbrokers, financial institutions, financial participants, and securities clearing agencies from preference and constructive-fraudulent-transfer avoidance (with an actual-fraud carve-out under Section 548(a)(1)(A)). Section 555 protects a securities-contract counterparty's right to liquidate, terminate, or accelerate a securities contract notwithstanding the automatic stay. Section 559 provides analogous protection for repurchase agreements. The combined effect is to insulate the securities settlement system from cascading bankruptcy unwinds that could destabilize markets. These safe harbors are particularly consequential in stockbroker liquidations because most of the broker's pre-petition transactions are likely to fall within their protected categories.</p>
+</div>
+
+<div class="content-section">
+  <h2>Customer-Property Priority Over General Estate Claims</h2>
+  <p>The decisive structural fact about both subchapters is that customer-property distribution is prior to general estate distribution. A general unsecured creditor of a failed broker-dealer - a landlord, a vendor, a trade creditor - does not share in customer property at all. The general creditor recovers only from the general estate (the broker's own assets, after segregation of customer property). Because customer property typically dwarfs the broker's own assets, the general estate in a broker-dealer liquidation is often modest, and the recovery ratio for general unsecured creditors is correspondingly low. This is the opposite of the standard Chapter 7 dynamic, where the estate is the universal source of recovery for all unsecured creditors.</p>
+</div>
+
+<div class="content-section">
+  <h2>Related Bankruptcy Code Sections</h2>
+  <ul>
+    <li>Section 101(6) - Definition of commodity broker</li>
+    <li>Section 101(53A) - Definition of stockbroker</li>
+    <li>Section 109(d) - Stockbroker and commodity broker may only be Chapter 7 debtors</li>
+    <li>Section 741 - Definitions for Subchapter III (including net equity and customer property)</li>
+    <li>Section 752 - Distribution of customer property in stockbroker liquidation</li>
+    <li>Section 761 - Definitions for Subchapter IV</li>
+    <li>Section 766 - Distribution of customer property in commodity broker liquidation</li>
+    <li>15 U.S.C. Sections 78aaa et seq. - SIPA (parallel statutory framework for securities firms)</li>
+  </ul>
+</div>
+
+<div class="network-links">
+  <strong>Bankruptcy Tools Network:</strong><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Discharge Screener</a> &middot;
+  <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Research Platform</a> &middot;
+  <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Exemptions by State</a> &middot;
+  <a href="https://keepmycarinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your Car</a> &middot;
+  <a href="https://keepmyhouseinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your House</a> &middot;
+  <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Bankruptcy Cost</a>
+</div>
+</main>
+
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by <a href="/donate.html">donations</a>.</p>
+  <p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+  <p style="margin-bottom:0.5rem">
+    <a href="/">Home</a> &middot;
+    <a href="/research.html">Research</a> &middot;
+    <a href="/impact.html">Impact</a> &middot;
+    <a href="/legal-aid.html">Legal Aid</a> &middot;
+    <a href="/about.html">About</a> &middot;
+    <a href="/contact.html">Contact</a>
+  </p>
+  <p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+</footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>

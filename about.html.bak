@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>About - Open Bankruptcy Project</title>
+<meta content="About the Open Bankruptcy Project: our mission, history, methodology, and leadership." name="description"/>
+<link href="https://openbankruptcyproject.org/about.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="About - Open Bankruptcy Project" property="og:title"/>
+<meta content="About the Open Bankruptcy Project: our mission, history, methodology, and leadership." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/about.html" property="og:url"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        .board-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+        .board-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px;
+        }
+        .board-card .role { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
+        .board-card .location { font-size: 0.88rem; color: var(--text-muted); }
+
+        .timeline { margin-top: 24px; }
+        .timeline-item {
+            display: flex; gap: 20px; padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .timeline-item:last-child { border-bottom: none; }
+        .timeline-date { font-size: 0.85rem; font-weight: 600; color: var(--accent); min-width: 100px; }
+        .timeline-text { font-size: 0.95rem; color: var(--text-secondary); }
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+            .timeline-item { flex-direction: column; gap: 4px; }
+        }
+    
+.breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+</style>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NonprofitOrganization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://openbankruptcyproject.org",
+        "description": "501(c)(3) public-charity research publisher providing empirical data and free tools about the US federal bankruptcy system.",
+        "foundingDate": "2026-03-27",
+        "nonprofitStatus": "https://schema.org/NonprofitType501c3",
+        "taxID": "41-5159631",
+        "areaServed": {
+            "@type": "Country",
+            "name": "United States"
+        },
+        "sameAs": ["https://github.com/openbankruptcyproject", "https://github.com/sponsors/openbankruptcyproject"]
+    }
+    </script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does bankruptcy cost?", "acceptedAnswer": {"@type": "Answer", "text": "Filing fees are $338 for Chapter 7 and $313 for Chapter 13. Attorney fees typically range from $1,000 to $3,500 depending on the chapter and complexity. Fee waivers and installment payments are available for those who qualify."}}, {"@type": "Question", "name": "Can I file bankruptcy if I can't afford an attorney?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can file pro se (without an attorney), apply for a fee waiver to eliminate the filing fee, or pay the filing fee in installments. Some legal aid organizations also provide free bankruptcy assistance."}}, {"@type": "Question", "name": "Are there hidden fees in bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "The main costs are the filing fee, attorney fee, and credit counseling courses (about $20-50 total). Some attorneys charge extra for adversary proceedings or plan modifications, so ask for a complete fee breakdown upfront."}}, {"@type": "Question", "name": "What is the cheapest way to file bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "The cheapest option is filing pro se with a fee waiver, which costs nothing. If you hire an attorney, Chapter 7 is generally less expensive than Chapter 13. Always compare quotes from multiple attorneys."}}, {"@type": "Question", "name": "Can I pay bankruptcy attorney fees in installments?", "acceptedAnswer": {"@type": "Answer", "text": "Most bankruptcy attorneys accept payment plans. In Chapter 13, attorney fees can even be paid through your repayment plan. In Chapter 7, many attorneys require full payment before filing, but installment arrangements are common."}}]}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "About the Open Bankruptcy Project",
+      "description": "About the Open Bankruptcy Project: our mission, history, methodology, and leadership. A 501(c)(3) nonprofit building free bankruptcy court transparency tools.",
+      "author": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://1328f.org"
+      },
+      "datePublished": "2026-04-04",
+      "dateModified": "2026-04-09",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/about.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About - Open Bankruptcy Project",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "About the Open Bankruptcy Project",
+          "item": "https://openbankruptcyproject.org/about.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "About the Open Bankruptcy Project",
+      "url": "https://openbankruptcyproject.org/about.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
+    }
+  ]
+}
+</script>
+<link href="https://openbankruptcyproject.org/about.html" hreflang="en" rel="alternate"/>
+<link href="https://openbankruptcyproject.org/about-es.html" hreflang="es" rel="alternate"/>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+<div class="nav-links">
+<a href="/">Home</a>
+<a class="active" href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="methodology.html">Methodology</a>
+<a href="citations.html">Citations</a>
+<a href="press.html">Press</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://1328f.org">Home</a><span class="separator">›</span><a href="https://openbankruptcyproject.org">About - Open Bankruptcy Project</a><span class="separator">›</span><span>About the Open Bankruptcy Project</span></nav>
+<div class="page-header">
+<div class="container">
+<h1>About the Open Bankruptcy Project</h1>
+<p class="subtitle">Free tools, open data, and empirical research for the public interest.</p>
+</div>
+</div>
+<div class="content">
+<div class="container">
+<div style="background:#151b23;border-left:3px solid #58a6ff;border-radius:0 8px 8px 0;padding:20px 24px;margin:0 0 28px 0;color:#b1bac4">
+<div style="font-size:.78rem;color:#7d8590;text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:6px">Tax-Exempt Status</div>
+<p style="margin-bottom:8px;color:#e6edf3"><strong>Open Bankruptcy Project is a 501(c)(3) public charity.</strong> The Internal Revenue Service recognized OBP as tax-exempt under Section 501(c)(3) of the Internal Revenue Code by determination letter dated <strong>April 6, 2026</strong>, effective <strong>March 27, 2026</strong>.</p>
+<ul style="margin:8px 0 0 18px;color:#b1bac4;font-size:.92rem">
+  <li><strong>Employer Identification Number (EIN):</strong> 41-5159631</li>
+  <li><strong>Public charity classification:</strong> 170(b)(1)(A)(vi) &mdash; publicly supported organization</li>
+  <li><strong>Contribution deductibility:</strong> Donations are tax-deductible under IRC &sect; 170. Bequests, devises, transfers, and gifts also qualify under &sect;&sect; 2055, 2106, and 2522.</li>
+  <li><strong>Fiscal year ending:</strong> December 31</li>
+  <li><strong>Annual return:</strong> Form 990-N (e-Postcard) for the initial fiscal year; Form 990-EZ or Form 990 once gross receipts exceed applicable thresholds.</li>
+</ul>
+</div>
+<h2>Mission</h2>
+<p>The Open Bankruptcy Project builds free, open-source tools that screen federal bankruptcy cases for statutory compliance failures. We make public court data accessible and understandable to the people it affects most &mdash; debtors, advocates, researchers, and policymakers.</p>
+<p>Every tool we build is free. Every dataset we produce is open. We accept no attorney referral fees, run no advertising, and harvest no user data. Our work is funded entirely by tax-deductible public donations.</p>
+<h2>What Makes OBP Different</h2>
+<ul>
+<li><strong>Real data, not opinions.</strong> Our findings are drawn from 4.9 million federal bankruptcy cases in the FJC Integrated Database - the largest publicly available dataset of its kind. We publish the data and the code that generates every finding.</li>
+<li><strong>No ads. No referrals. No conflicts.</strong> We do not accept attorney advertising, referral fees, or sponsorships from legal service providers. This independence is structural: our articles of incorporation prohibit it.</li>
+<li><strong>Fully open-source.</strong> Every screening tool, analysis script, and dataset is published on <a href="https://github.com/openbankruptcyproject" rel="noopener" target="_blank">GitHub</a>. Anyone can audit, reproduce, or build upon our work without permission or payment.</li>
+<li><strong>Recognized by the federal judiciary.</strong> Our empirical research was accepted as <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" rel="noopener" target="_blank">Suggestion 26-BK-3</a> by the Advisory Committee on Bankruptcy Rules in March 2026.</li>
+<li><strong>Accessible to everyone.</strong> Over 180 domains, 18,000+ pages, bilingual (English and Spanish), free forever. No paywall, no login, no tracking beyond anonymous analytics.</li>
+</ul>
+<h2>History</h2>
+<div class="timeline">
+<div class="timeline-item">
+<span class="timeline-date">2025</span>
+<span class="timeline-text">Project founded. Initial analysis of <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a> dataset (4.9 million cases, 2008-2024). First screening tools built for <a href="https://1328f.com/" title="Section 1328(f)">Section 1328(f)</a> <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> bars.</span>
+</div>
+<div class="timeline-item">
+<span class="timeline-date">Early 2026</span>
+<span class="timeline-text">Bankruptcy Transparency Network expanded to 160+ domains covering major bankruptcy statutes. Spanish-language resources launched. 13,000+ pages of free educational content published.</span>
+</div>
+<div class="timeline-item">
+<span class="timeline-date">March 2026</span>
+<span class="timeline-text"><a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" rel="noopener" target="_blank">Suggestion 26-BK-3</a> accepted by the Advisory Committee on Bankruptcy Rules. Research methodology reviewed by UC Berkeley School of Law and Georgia State University College of Law faculty. 501(c)(3) formation filed. <a href="/cases/">549+ cases</a> and 3,100+ documents donated to the RECAP Archive.</span>
+</div>
+<div class="timeline-item">
+<span class="timeline-date">April 2026</span>
+<span class="timeline-text">Network expanded to 180+ domains and 18,000+ pages. State &times; statute matrix launched (1,000+ jurisdiction-specific statute explainers, bilingual English/Spanish). Active federal bankruptcy judge coverage expanded to 365+. Interactive <a href="https://1328f.com/tools/">tools library</a> published: exemption calculator, means test, Chapter 13 plan estimator, and credit rebuild timeline. National <a href="/cases/">/cases/</a> index expanded to all 94 federal bankruptcy districts.</span>
+</div>
+</div>
+<h2>Methodology</h2>
+<p>Our screening tools analyze the <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a>'s Integrated Database, which contains filing-level records for all federal bankruptcy cases. We cross-reference prior filing histories against statutory <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> bars in Sections <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a>, <a href="https://727a8.com/" title="Section 727(a)(8)">727(a)(8)</a>, and <a href="https://109g.org/" title="Section 109(g)">109(g)</a> of the Bankruptcy Code.</p>
+<p>The methodology identifies cases where a debtor's prior filing history would trigger a statutory bar that was not flagged at the point of case initiation. This analysis has been reviewed by faculty at UC Berkeley School of Law and Georgia State University College of Law, and forms the empirical basis for Suggestion 26-BK-3.</p>
+<p>Full methodological details are available on our <a href="/methodology.html">Methodology</a> page.</p>
+<h2>Advisory Relationships</h2>
+<p>OBP has engaged with researchers and practitioners at multiple institutions who have reviewed our methodology, provided critical feedback, and explored collaboration opportunities:</p>
+<ul>
+<li><strong>UC Berkeley School of Law</strong> - Faculty in empirical legal studies reviewed the core methodology. No red flags identified. Validated the statistical approach and suggested supplementary data sources for future work.</li>
+<li><strong>Georgia State University College of Law</strong> - Faculty in computational legal studies reviewed the data pipeline and analysis infrastructure. Exploring integration with academic research platforms.</li>
+<li><strong>Free Law Project</strong> - OBP contributes case data to the RECAP Archive, the largest free repository of federal court documents. 549+ cases and 3,100+ files donated to date. See the live national index at <a href="/cases/">/cases/</a>.</li>
+<li><strong>Federal Rules Committee</strong> - Suggestion 26-BK-3, based on OBP research, was accepted by the Advisory Committee on Bankruptcy Rules and forwarded to the Standing Committee.</li>
+</ul>
+<p>We are actively building relationships with law school clinics, legal aid organizations, and empirical legal researchers. Interested parties can reach us at <a href="mailto:research@openbankruptcyproject.org">research@openbankruptcyproject.org</a>.</p>
+<h2>Leadership</h2>
+<div class="board-grid">
+<div class="board-card">
+<div class="role">Founder &amp; President</div>
+<div class="location">Kansas City, Missouri</div>
+</div>
+</div>
+<p style="margin-top:16px;color:var(--text-muted);font-size:0.9rem">OBP was founded by a small business owner who experienced systemic failures in the bankruptcy system firsthand and built the tools to measure them. The project grew from a single screening tool into a national research platform.</p>
+<h2>Governance</h2>
+<p>The Open Bankruptcy Project is organized as a 501(c)(3) nonprofit corporation. Our articles of incorporation include an unamendable anti-acquisition clause: the organization cannot be sold, merged, or acquired under any circumstances.</p>
+<p>We maintain strict independence from attorney advertising, legal referral services, and commercial legal technology companies. We do not accept funding that would create conflicts of interest with our mission of public transparency.</p>
+<h2>Contact</h2>
+<ul>
+<li><strong>General:</strong> <a href="mailto:info@openbankruptcyproject.org">info@openbankruptcyproject.org</a></li>
+<li><strong>Press:</strong> <a href="mailto:press@openbankruptcyproject.org">press@openbankruptcyproject.org</a></li>
+<li><strong>Research:</strong> <a href="mailto:research@openbankruptcyproject.org">research@openbankruptcyproject.org</a></li>
+<li><strong>GitHub:</strong> <a href="https://github.com/openbankruptcyproject" rel="noopener" target="_blank">github.com/openbankruptcyproject</a></li>
+</ul>
+</div>
+</div>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;padding:1.5rem;max-width:700px;margin:2rem auto">
+<p style="color:#f0f6fc;font-weight:600;font-size:1.05rem;margin:0 0 0.75rem 0">Further Reading &amp; Resources</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0 0 1rem 0">Authority sources for deeper research on the Open Bankruptcy Project and 1328(f) research:</p>
+<ul style="list-style:none;padding:0;margin:0">
+<li style="margin-bottom:0.5rem"><a href="https://www.law.cornell.edu/uscode/text/11/1328" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">11 U.S.C. Section 1328(f)</a><br/><span style="color:#7d8590;font-size:0.8rem">Cornell LII - <a href="https://dischargebar.org/" title="discharge bar">discharge bar</a></span></li>
+<li style="margin-bottom:0.5rem"><a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">Federal Rules Suggestions</a><br/><span style="color:#7d8590;font-size:0.8rem">26-BK-3 submission</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://www.fjc.gov/research/idb" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">FJC Integrated Database</a><br/><span style="color:#7d8590;font-size:0.8rem">Source data for this research</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://pacer.uscourts.gov/" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">PACER</a><br/><span style="color:#7d8590;font-size:0.8rem">Public Access to Court Electronic Records</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://www.courtlistener.com/recap/" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">RECAP Archive</a><br/><span style="color:#7d8590;font-size:0.8rem">Free Law Project - free <a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> docs</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://commission.abi.org/" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">ABI Commission</a><br/><span style="color:#7d8590;font-size:0.8rem">American Bankruptcy Institute reform</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://scholar.google.com/scholar?q=%221328%28f%29%22+discharge+bar+bankruptcy" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">1328(f) Research</a><br/><span style="color:#7d8590;font-size:0.8rem">Google Scholar</span></li>
+</ul>
+</div>
+<!-- RELATED GUIDES - injected by inject_related_guides.py -->
+<div id="related-guides" style="max-width:900px;margin:2.5rem auto;padding:0 1rem">
+<p style="color:#f0f6fc;font-weight:700;font-size:1.2rem;margin:0 0 1rem 0;text-align:center">Related Guides</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem">
+<a class="related-card" href="https://openbankruptcyproject.org?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">Open Bankruptcy Project</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Free bankruptcy information guide</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">openbankruptcyproject.com →</p>
+</a>
+<a class="related-card" href="https://1328f.org?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">1328(f) Research Platform</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Free bankruptcy information guide</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">1328f.org →</p>
+</a>
+<a class="related-card" href="https://727a8.org?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">Section 727(a)(8) Research Hub</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Case law and circuit analysis for Section 727(a)(8)</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">727a8.org →</p>
+</a>
+<a class="related-card" href="https://whatischapter7.com?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">What Is Chapter 7 Bankruptcy?</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Everything you need to know about Chapter 7</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">whatischapter7.com →</p>
+</a>
+</div>
+</div>
+<style>
+.related-card:hover {border-color:#58a6ff !important;transform:translateY(-2px)}
+</style>
+<!-- /RELATED GUIDES -->
+<!-- BTN Cross-Links (auto-generated by crosslink_builder.py) -->
+<div class="btn-crosslinks" style="max-width:820px;margin:1.5rem auto;padding:1.5rem;background:#161b22;border:1px solid #30363d;border-radius:8px">
+<p style="color:#f0f6fc;font-weight:600;font-size:1rem;margin:0 0 0.75rem 0">Related Guides</p>
+<ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0.5rem">
+<li><a href="https://monitor.openbankruptcyproject.org" style="color:#58a6ff;text-decoration:none">Attorney Monitoring Dashboard</a></li>
+<li><a href="https://bankruptcymalpractice.org" style="color:#58a6ff;text-decoration:none">Bankruptcy Malpractice Guide</a></li>
+<li><a href="https://bankruptcymill.com" style="color:#58a6ff;text-decoration:none">What is a Bankruptcy Mill?</a></li>
+</ul>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+<a href="https://github.com/ilikemath9999" rel="noopener" target="_blank">GitHub</a>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+<a href="donate.html">Donate</a>
+</div>
+<div style="margin-top:12px;display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap">
+<a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" onmouseout="this.style.borderColor='#30363d'" onmouseover="this.style.borderColor='#58a6ff'" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:#1c2128;border:1px solid #30363d;color:#7d8590;padding:4px 12px;border-radius:20px;font-size:0.75rem;text-decoration:none;transition:border-color 0.2s" target="_blank">
+<svg fill="#3fb950" height="14" viewbox="0 0 16 16" width="14"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zm3.78 5.97l-4.5 4.5a.75.75 0 01-1.06 0l-2-2a.75.75 0 011.06-1.06l1.47 1.47 3.97-3.97a.75.75 0 011.06 1.06z"></path></svg>
+                Cited by the Federal Rules Committee (26-BK-3)
+            </a>
+</div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+<p>All tools and data released under open-source licenses.</p>
+</div>
+<p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
+<!-- BOOST-TOP10 internal links (boost_internal_links.py) -->
+<div class="boost-top10" style="max-width:820px;margin:2rem auto;padding:1.5rem;background:#0d1117;border:1px solid #238636;border-radius:8px">
+<p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
+<ul style="list-style:none;padding:0;margin:0">
+<li style="margin-bottom:0.5rem"><a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Chapter 7 vs. Chapter 13 Comparison</a> <span style="color:#7d8590;font-size:0.8rem">-- chapter7vs13.org</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Bankruptcy Means Test by State</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcymeanstest.org</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://1099cdebt.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">1099-C Cancellation of Debt Tax Guide</a> <span style="color:#7d8590;font-size:0.8rem">-- 1099cdebt.com</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://727a8.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Section 727(a)(8) Discharge Waiting Period</a> <span style="color:#7d8590;font-size:0.8rem">-- 727a8.com</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://bankruptcystudentloans.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loans in Bankruptcy</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcystudentloans.org</span></li>
+</ul>
+</div>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

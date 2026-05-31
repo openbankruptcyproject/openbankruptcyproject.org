@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Form 122A-1 Current Monthly Income - Chapter 7 Means Test Deep Dive [2026] - Open Bankruptcy Project</title>
+<meta content="A clause-by-clause walk-through of Official Form 122A-1: the six-month look-back current monthly income calculation under 11 U.S.C. Section 101(10A), statutory exclusions for Social Security, victim payments, and certain veterans benefits, and the state median income comparison that determines whether Form 122A-2 must be completed." name="description"/>
+<meta content="Form 122A-1, current monthly income, CMI, 707(b)(7), state median income, six month lookback, Social Security exclusion, Chapter 7 means test, household size, BAPCPA" name="keywords"/>
+<meta content="#0d1117" name="theme-color"/>
+<link href="https://openbankruptcyproject.org/means-test-deep-dives/form-122a-1-income/" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Form 122A-1 Current Monthly Income - Chapter 7 Means Test Deep Dive" property="og:title"/>
+<meta content="How Official Form 122A-1 implements the Section 101(10A) current monthly income calculation: which receipts are included, which are excluded, and how the state median comparison at Section 707(b)(7) routes the debtor to Form 122A-2 or out of the means test entirely." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/means-test-deep-dives/form-122a-1-income/" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Form 122A-1 Current Monthly Income - Chapter 7 Means Test Deep Dive" name="twitter:title"/>
+<meta content="A clause-by-clause walk-through of Official Form 122A-1." name="twitter:description"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"Article",
+ "headline":"Form 122A-1 Current Monthly Income - Chapter 7 Means Test Deep Dive",
+ "description":"A clause-by-clause walk-through of Official Form 122A-1: the six-month look-back current monthly income calculation under Section 101(10A), statutory exclusions, and the Section 707(b)(7) state median income comparison.",
+ "datePublished":"2026-05-22",
+ "dateModified":"2026-05-22",
+ "inLanguage":"en",
+ "license":"https://creativecommons.org/licenses/by/4.0/",
+ "author":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},
+ "publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org","nonprofitStatus":"NonprofitType501c3","taxID":"41-5159631"},
+ "mainEntityOfPage":"https://openbankruptcyproject.org/means-test-deep-dives/form-122a-1-income/"
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"BreadcrumbList",
+ "itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Open Bankruptcy Project","item":"https://openbankruptcyproject.org/"},
+  {"@type":"ListItem","position":2,"name":"Means Test Deep Dives","item":"https://openbankruptcyproject.org/means-test-deep-dives/"},
+  {"@type":"ListItem","position":3,"name":"Form 122A-1 Current Monthly Income","item":"https://openbankruptcyproject.org/means-test-deep-dives/form-122a-1-income/"}
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Form 122A-1: Current Monthly Income and the State Median Comparison",
+ "description": "A clause-by-clause walk-through of Official Form 122A-1: the six-month look-back current monthly income calculation under 11 U.S.C. Section 101(10A), statutory exclusions for Social Security, victim payments, and certain veterans benefits, and the state median income comparison that determines wh...",
+ "totalTime": "PT15M",
+ "step": [
+  {
+   "@type": "HowToStep",
+   "position": 1,
+   "name": "What Form 122A-1 does",
+   "text": "Official Form 122A-1, Statement of Your Current Monthly Income, is the entry point of the Chapter 7 means test. It computes current monthly income (CMI) as defined at 11 U.S.C."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 2,
+   "name": "The look-back period",
+   "text": "Section 101(10A)(A)(i) defines CMI as the average monthly income received by the debtor during the six-month period ending on the last day of the calendar month immediately preceding the petition date. The look-back period is exclusive of the petition month."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 3,
+   "name": "Sources of income included in CMI",
+   "text": "Form 122A-1 enumerates eight categories of receipts in lines 2 through 9. Each line asks for the total dollar amount received during the six-month look-back, divided by six to produce a monthly average."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 4,
+   "name": "Statutory exclusions from CMI",
+   "text": "Section 101(10A)(B) excludes four categories of receipts from CMI, regardless of amount or frequency. The form captures these as a deduction line, but the substance is exclusion at the statutory level."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 5,
+   "name": "Household size and marital adjustment",
+   "text": "The state median comparison is performed against a table indexed by state and household size. Household size determines which row of the table applies."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 6,
+   "name": "The state median comparison",
+   "text": "CMI multiplied by twelve produces annualized current monthly income. That figure is compared to the applicable state median family income for the debtor's household size, as published by the U.S."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 7,
+   "name": "Form 122A-1Supp - the exemption forms",
+   "text": "A separate companion form, 122A-1Supp (Statement of Exemption from Presumption of Abuse Under Section 707(b)(2)), is filed by debtors whose circumstances exempt them from the presumption regardless of CMI. The two principal categories of exemption are: Disabled veterans."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 8,
+   "name": "Documentation",
+   "text": "The trustee will request supporting documentation for CMI inputs. Standard requests include the six most recent pay statements for each wage earner, six months of bank statements showing deposits, business profit-and-loss statements for any self-employment income, and 1099 statements for interest, dividend, royalty, and pension income."
+  }
+ ]
+}
+</script>
+
+<style>
+:root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--text:#e6edf3;--text-muted:#9eaab6;--accent:#58a6ff;--green:#238636;--red:#f85149;--yellow:#f0c14b;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh;display:flex;flex-direction:column;}
+a{color:var(--accent);text-decoration:none;}
+a:hover{text-decoration:underline;}
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:0.75rem 2rem;display:flex;align-items:center;justify-content:space-between;}
+.site-name{color:#f0f6fc;font-weight:700;font-size:1.1rem;text-decoration:none;}
+.site-name:hover{color:var(--accent);text-decoration:none;}
+.container{max-width:820px;margin:0 auto;padding:2.5rem 2rem;flex:1;}
+.breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:820px;margin:0 auto;padding-left:2rem;padding-right:2rem;}
+.breadcrumb-nav a{color:var(--accent);text-decoration:none;}
+.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58;}
+h1{color:#f0f6fc;font-size:2.25rem;margin-bottom:0.5rem;line-height:1.25;}
+.subtitle{color:var(--text-muted);font-size:1.05rem;margin-bottom:2rem;}
+h2{color:#f0f6fc;font-size:1.4rem;margin:2rem 0 0.75rem;border-bottom:1px solid var(--border);padding-bottom:0.4rem;}
+h3{color:#f0f6fc;font-size:1.1rem;margin:1.5rem 0 0.5rem;}
+p{margin-bottom:1rem;color:var(--text);}
+ul,ol{margin:0.5rem 0 1rem 1.5rem;}
+li{margin-bottom:0.4rem;}
+blockquote{background:var(--surface);border-left:3px solid var(--accent);padding:1rem 1.25rem;margin:1rem 0;color:var(--text);font-style:italic;}
+code{background:var(--surface);border:1px solid var(--border);padding:0.15rem 0.4rem;border-radius:4px;font-size:0.9em;color:var(--text);}
+.callout{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem 1.5rem;margin:1.5rem 0;}
+.callout.gov{background:#0d2847;border-color:#1f6feb;}
+.callout strong{color:#f0f6fc;}
+.callout p:last-child{margin-bottom:0;}
+.tag{display:inline-block;background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:0.1rem 0.5rem;font-size:0.75rem;color:var(--text-muted);margin-right:0.4rem;text-transform:uppercase;letter-spacing:0.03em;}
+footer{background:var(--surface);border-top:1px solid var(--border);padding:1.5rem;text-align:center;font-size:0.8rem;color:var(--text-muted);margin-top:2rem;}
+</style>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a class="site-name" href="/">Open Bankruptcy Project</a>
+<a href="/" style="color:var(--text-muted);font-size:0.9rem">Home</a>
+</nav>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="/">Home</a><span class="separator">/</span><a href="/means-test-deep-dives/">Means Test Deep Dives</a><span class="separator">/</span><span>Form 122A-1 Current Monthly Income</span></nav>
+<div class="container">
+<span class="tag">11 U.S.C. Section 101(10A)</span>
+<span class="tag">11 U.S.C. Section 707(b)(7)</span>
+<span class="tag">Form 122A-1</span>
+<h1>Form 122A-1: Current Monthly Income and the State Median Comparison</h1>
+<p class="subtitle">The six-month look-back, the statutory exclusions for Social Security, victim payments, and certain veterans benefits, and the threshold that routes a debtor to Form 122A-2 or out of the means test entirely.</p>
+
+<h2>What Form 122A-1 does</h2>
+<p>Official Form 122A-1, Statement of Your Current Monthly Income, is the entry point of the Chapter 7 means test. It computes current monthly income (CMI) as defined at <a href="https://www.law.cornell.edu/uscode/text/11/101" rel="noopener" target="_blank">11 U.S.C. Section 101(10A)</a>, annualizes it, compares it to the applicable state median family income for the debtor's household size, and produces a binary routing decision: a debtor at or below the median completes Form 122A-1 only and need not perform the deduction calculation; a debtor above the median must continue to Form 122A-2.</p>
+<p>The form is mechanical in design. Each line corresponds to a category of receipts during the six-month look-back. The arithmetic is averaging, multiplication by twelve, and comparison to a published table. The contests, when they arise, are over classification of receipts and over household size, not over the arithmetic itself.</p>
+
+<h2>The look-back period</h2>
+<p>Section 101(10A)(A)(i) defines CMI as the average monthly income received by the debtor during the six-month period ending on the last day of the calendar month immediately preceding the petition date. The look-back period is exclusive of the petition month. A debtor filing on April 15 calculates CMI from October 1 through March 31; a debtor filing on April 1 calculates from October 1 through March 31 as well, because the calendar-month rule rounds back regardless of the day within the petition month.</p>
+<p>The period is fixed in number (six calendar months) and in endpoint (the month immediately preceding petition). It does not adjust for unusual circumstances during the look-back. A debtor who received a one-time severance payment in November still includes one-sixth of that payment in CMI for an April filing. A debtor whose income terminated entirely in January still averages the prior receipts. This rigidity is a feature, not a defect, of the statutory design: Congress chose a backward-looking mechanical metric to prevent strategic timing of filings.</p>
+<p>Where the rigidity produces unjust outcomes for above-median debtors, the relief valve is at the deduction stage (Form 122A-2 special circumstances) or at the totality-of-circumstances inquiry under Section 707(b)(3). The look-back itself does not bend.</p>
+
+<h2>Sources of income included in CMI</h2>
+<p>Form 122A-1 enumerates eight categories of receipts in lines 2 through 9. Each line asks for the total dollar amount received during the six-month look-back, divided by six to produce a monthly average.</p>
+<ul>
+<li><strong>Gross wages, salary, tips, bonuses, overtime, commissions.</strong> Gross figures, not net. Voluntary retirement contributions and union dues are subtracted at the deduction stage on Form 122A-2, not at the income stage on Form 122A-1.</li>
+<li><strong>Income from operation of a business, profession, or farm.</strong> Net income after ordinary and necessary operating expenses. The form requires a separate worksheet itemizing gross receipts and expenses. Cash distributions from a closely-held entity that are characterized as profit rather than wages flow through this line.</li>
+<li><strong>Rental and other real property income.</strong> Net rents after ordinary and necessary operating expenses. Depreciation deductions allowable for tax purposes are not subtracted; the form is concerned with economic cash flow, not tax accounting.</li>
+<li><strong>Interest, dividends, and royalties.</strong> Gross figures, not net of any tax withholding.</li>
+<li><strong>Pension and retirement income.</strong> Includes private pension distributions, 401(k) and IRA distributions, and any annuity income. Lump-sum rollovers are not income; only actual distributions are.</li>
+<li><strong>Unemployment compensation.</strong> Included as ordinary income on the standard form. A debtor in a state whose unemployment program is funded by the Social Security Act may assert the exclusion discussed below; the practice is district-dependent.</li>
+<li><strong>Regular contributions from non-debtors to household expenses.</strong> Includes amounts a non-debtor spouse, parent, romantic partner, or other co-resident regularly contributes. The line captures the "marital adjustment" only on its income-side; the corresponding deduction side appears on Form 122A-2.</li>
+<li><strong>Any other income.</strong> A catchall. Common entries are lottery and gambling winnings, prize winnings, life-insurance death-benefit proceeds (where not excluded), trust distributions, and one-time settlement payments.</li>
+</ul>
+
+<h2>Statutory exclusions from CMI</h2>
+<p>Section 101(10A)(B) excludes four categories of receipts from CMI, regardless of amount or frequency. The form captures these as a deduction line, but the substance is exclusion at the statutory level.</p>
+<p><strong>Social Security Act benefits.</strong> All benefits received under the Social Security Act are excluded. This covers Old-Age, Survivors, and Disability Insurance (OASDI) benefits, Supplemental Security Income (SSI), and Social Security retirement benefits. The exclusion is categorical and does not depend on the debtor's age or disability status. A retired debtor whose only income is Social Security has CMI of zero for means-test purposes, regardless of the actual dollar amount of benefits.</p>
+<p>The Social Security exclusion has produced some of the most extensively litigated means-test interpretive disputes. The exclusion's reach extends to all benefits paid under the Social Security Act, which means SSI and Title II benefits are both out; however, private long-term disability benefits and employer-sponsored pension benefits are not Social Security Act benefits and remain in CMI. The form does not invite the debtor to identify the source program, but the underlying classification matters: misidentifying a private disability benefit as a Social Security benefit is a common error that the trustee will flag.</p>
+<p><strong>Payments to victims of war crimes or crimes against humanity.</strong> Reparations and similar payments to victims are excluded. The category is narrow but absolute.</p>
+<p><strong>Payments to victims of international or domestic terrorism.</strong> Compensation paid on account of victim status is excluded. The exclusion does not extend to insurance proceeds or to economic-loss recoveries through general tort litigation; it is limited to payments made on account of the victim's status as such.</p>
+<p><strong>Earned Income Credit and certain veterans benefits.</strong> Earned Income Credit refunds received are not CMI. Veterans benefits paid for a service-connected disability are excluded; general veterans benefits not tied to a service-connected disability remain CMI. The line distinction is meaningful because VA disability compensation differs from VA pension benefits in this respect.</p>
+
+<div class="callout gov">
+<p><strong>Exclusion is at the source, not by category of recipient.</strong> A debtor who receives a payment from a multi-purpose government program must identify the statutory authority for that specific payment to determine whether it qualifies for exclusion. A program label is not enough; the question is whether the particular payment is one of the four enumerated exclusions.</p>
+</div>
+
+<h2>Household size and marital adjustment</h2>
+<p>The state median comparison is performed against a table indexed by state and household size. Household size determines which row of the table applies. Two debtors with identical CMI may produce different above- or below-median routings if their household sizes differ.</p>
+<p>The Bankruptcy Code does not define "household." Districts have adopted three competing approaches:</p>
+<ol>
+<li><strong>Heads-on-beds.</strong> Counts every person who shares the debtor's residence regardless of legal relationship or financial dependency. Produces the largest household sizes.</li>
+<li><strong>Income-tax-dependents.</strong> Counts the debtor, spouse, and persons the debtor could claim as dependents under the Internal Revenue Code. Produces the smallest household sizes.</li>
+<li><strong>Economic-unit.</strong> Asks whether each additional person contributes economically to or draws from the household. A live-in adult relative who pays room and board may not be a household member; a non-dependent child who is supported by the debtor may be. Produces intermediate household sizes.</li>
+</ol>
+<p>The choice can determine whether the debtor is above or below median. In a marginal case, the household-size dispute is the single most outcome-determinative input. The form does not instruct the debtor on which approach to apply; the answer depends on the practice of the district.</p>
+<p>For a debtor who files jointly with a spouse, both incomes are included and the household includes both spouses. For a married debtor who files individually, the non-filing spouse's income is included in CMI for the eligibility comparison, but Form 122A-2 then permits a "marital adjustment" deduction for income the non-filing spouse does not contribute to household expenses. The marital adjustment is documented and often contested.</p>
+
+<h2>The state median comparison</h2>
+<p>CMI multiplied by twelve produces annualized current monthly income. That figure is compared to the applicable state median family income for the debtor's household size, as published by the U.S. Trustee Program. The tables are updated approximately twice per year. The <a href="https://www.justice.gov/ust/means-testing" rel="noopener" target="_blank">EOUST Means Testing website</a> publishes the operative tables.</p>
+<p>The comparison is performed in line 13 of Form 122A-1. If annualized CMI is at or below the applicable median, the form directs the debtor to skip Form 122A-2 entirely. There is no presumption of abuse. The trustee may still investigate under Section 707(b)(3) totality-of-circumstances, but the presumption framework of Section 707(b)(2) does not apply.</p>
+<p>If annualized CMI exceeds the applicable median, the debtor must complete Form 122A-2 to determine whether the presumption of abuse arises. The above-median routing is not itself a finding of abuse; it is a finding that the deduction calculation must be performed.</p>
+
+<h2>Form 122A-1Supp - the exemption forms</h2>
+<p>A separate companion form, 122A-1Supp (Statement of Exemption from Presumption of Abuse Under Section 707(b)(2)), is filed by debtors whose circumstances exempt them from the presumption regardless of CMI. The two principal categories of exemption are:</p>
+<ul>
+<li><strong>Disabled veterans.</strong> A disabled veteran (as defined under the relevant veterans statute) whose debt was incurred primarily during active duty or a period of homeland defense is exempt from the presumption under Section 707(b)(2)(D)(i).</li>
+<li><strong>Reservists and National Guard members on active duty.</strong> During and for 540 days following active-duty service of at least 90 days, certain reservists and Guard members are exempt under Section 707(b)(2)(D)(ii).</li>
+</ul>
+<p>The Form 122A-1Supp is not a substitute for Form 122A-1; both are filed where applicable. The exemption removes only the Section 707(b)(2) presumption framework; Section 707(b)(3) totality-of-circumstances and Section 707(a) general abuse review remain available to the trustee.</p>
+
+<h2>Documentation</h2>
+<p>The trustee will request supporting documentation for CMI inputs. Standard requests include the six most recent pay statements for each wage earner, six months of bank statements showing deposits, business profit-and-loss statements for any self-employment income, and 1099 statements for interest, dividend, royalty, and pension income. Discrepancies between Form 122A-1 figures and supporting documentation are the most common source of trustee objection at the initial meeting of creditors.</p>
+<p>A pay-statement reconciliation that produces a different CMI figure than the form is not itself a basis for amendment; the controlling input is "amount received during the six-month period," which can diverge from year-to-date or annualized figures shown on pay statements. Care in the reconciliation prevents later argument that the form was inaccurate as filed.</p>
+
+<div class="callout">
+<p><strong>Form 122A-1 produces a binary outcome but reflects layered determinations.</strong> The arithmetic of the form is uncontroversial; the classification of receipts and the household-size determination are not. A debtor who appears above-median on a first pass may be below-median after correct application of exclusions and the appropriate household-size methodology, or vice versa. The form's outputs should be tested against alternative classification assumptions before filing.</p>
+</div>
+
+<h2>Related statutes and authority</h2>
+<ul>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/101" rel="noopener" target="_blank">11 U.S.C. Section 101(10A)</a> - Definition of current monthly income</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/707" rel="noopener" target="_blank">11 U.S.C. Section 707(b)(7)</a> - Above-median income threshold</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/707" rel="noopener" target="_blank">11 U.S.C. Section 707(b)(2)(D)</a> - Disabled veteran and reservist exemptions</li>
+<li><a href="https://www.justice.gov/ust/means-testing" rel="noopener" target="_blank">EOUST Means Testing Information</a> - Operative state median income tables</li>
+<li><a href="https://www.uscourts.gov/forms-rules/forms/bankruptcy-forms" rel="noopener" target="_blank">Official Bankruptcy Forms</a> - Current versions of Form 122A-1, 122A-1Supp, and 122A-2</li>
+</ul>
+
+<h2>Open Bankruptcy Project cross-references</h2>
+<ul>
+<li><a href="/means-test-mechanics/">Means Test Mechanics Overview</a></li>
+<li><a href="/means-test-deep-dives/form-122a-2-deductions/">Form 122A-2 Deductions Deep Dive</a></li>
+<li><a href="/means-test-deep-dives/form-122c-chapter-13/">Form 122C Chapter 13 Disposable Income</a></li>
+<li><a href="/means-test-deep-dives/presumed-abuse-rebuttal/">Rebutting the Presumption of Abuse</a></li>
+<li><a href="/707b-means-test-abuse.html">Section 707(b) Abuse Overview</a></li>
+</ul>
+
+<p style="color:var(--text-muted);font-size:0.85rem;margin-top:2rem">This page provides general information about Official Form 122A-1 and the Section 101(10A) current monthly income calculation. It does not constitute legal advice. The classification of receipts and the determination of household size depend on facts and on district practice that should be evaluated by qualified counsel.</p>
+<p style="color:var(--text-muted);font-size:0.8rem;margin-top:0.5rem">Last modified: 2026-05-22</p>
+</div>
+<footer role="contentinfo">
+<p>This site provides general information only and does not constitute legal advice.</p>
+<p>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+<p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
+</footer>
+</body>
+</html>

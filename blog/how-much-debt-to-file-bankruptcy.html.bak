@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+    <title>How Much Debt Do You Need to File Bankruptcy? - Open Bankruptcy Project</title>
+    <meta name="description" content="There is no minimum debt requirement to file bankruptcy, but practical thresholds, filing costs, and the means test all factor into whether it makes financial sense.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/blog/how-much-debt-to-file-bankruptcy.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/blog/how-much-debt-to-file-bankruptcy.html">
+
+    <meta property="og:title" content="How Much Debt Do You Need to File Bankruptcy?">
+    <meta property="og:description" content="No minimum required, but practical thresholds and the means test determine whether it makes sense.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://openbankruptcyproject.org/blog/how-much-debt-to-file-bankruptcy.html">
+    <meta property="og:site_name" content="Open Bankruptcy Project">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How Much Debt Do You Need to File Bankruptcy?">
+    <meta name="twitter:description" content="No minimum required. Here is when it actually makes sense.">
+    <meta name="twitter:image" content="/og-image.svg">
+
+    <!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is there a minimum amount of debt required to file bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. There is no minimum debt requirement to file Chapter 7 or Chapter 13 bankruptcy. You can technically file with any amount of debt. However, the costs of filing (attorney fees, filing fees, credit counseling) typically range from $1,500 to $3,500 for Chapter 7, so filing for very small debts rarely makes financial sense."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is a practical debt threshold for filing Chapter 7?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most bankruptcy attorneys suggest that Chapter 7 starts making financial sense when unsecured debts exceed about $10,000 to $15,000, or when debts would take more than 5 years to repay at your current income. However, the decision also depends on whether you are being sued, garnished, or facing other collection activity that bankruptcy would stop."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the means test for Chapter 7?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The means test compares your household income to the median income for your state and household size. If your income is below the median, you pass automatically. If it is above, you go through a detailed calculation of allowed expenses. If the test shows you have enough disposable income to repay a meaningful portion of your debts, your Chapter 7 filing may be dismissed or converted to Chapter 13."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is there a maximum debt limit for bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chapter 7 has no debt limit. Chapter 13 has debt limits that are adjusted periodically. As of 2024, the combined secured and unsecured debt limit for Chapter 13 is $2,750,000. If your debts exceed this, Chapter 11 may be an option. Subchapter V of Chapter 11 is available for debts up to approximately $7.5 million."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "How Much Debt Do You Need to File Bankruptcy?",
+          "description": "There is no minimum debt requirement, but practical thresholds and the means test determine whether filing makes sense.",
+          "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+          "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntityOfPage": "https://openbankruptcyproject.org/blog/how-much-debt-to-file-bankruptcy.html"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://openbankruptcyproject.org/blog/" },
+            { "@type": "ListItem", "position": 3, "name": "How Much Debt Do You Need to File Bankruptcy?", "item": "https://openbankruptcyproject.org/blog/how-much-debt-to-file-bankruptcy.html" }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230; --border: #252d38; --border-light: #2d3748; --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; --gold: #d29922; --green: #3fb950; }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; } a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); } .nav-brand a { color: var(--text); } .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; } .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; } .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); } .page-header .meta { font-size: 0.85rem; color: var(--text-muted); margin-top: 8px; }
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; } .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; } .content li { margin-bottom: 8px; }
+        .callout-box { background: rgba(63,185,80,0.06); border: 1px solid rgba(63,185,80,0.2); border-radius: 10px; padding: 24px; margin: 24px 0; }
+        .callout-box p { color: var(--text); margin-bottom: 8px; } .callout-box p:last-child { margin-bottom: 0; }
+        .related-posts { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); }
+        .related-posts h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 16px; }
+        .related-posts a { display: block; padding: 12px 0; color: var(--accent); font-size: 0.95rem; border-bottom: 1px solid var(--border); } .related-posts a:last-child { border-bottom: none; }
+        footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+        footer .footer-links { margin-bottom: 20px; } footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; } footer .footer-links a:hover { color: var(--text); } footer p { margin-bottom: 6px; line-height: 1.6; }
+        @media (max-width: 600px) { .container { padding: 0 20px; } .page-header { padding: 48px 0 32px; } .page-header h1 { font-size: 1.8rem; } .content { padding: 40px 0; } }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/methodology.html">Methodology</a>
+            <a href="/citations.html">Citations</a>
+            <a href="/blog/">Blog</a>
+            <a href="/press.html">Press</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">&rsaquo;</span><a href="/blog/">Blog</a><span class="separator">&rsaquo;</span><span>How Much Debt Do You Need to File Bankruptcy?</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>How Much Debt Do You Need to File Bankruptcy?</h1>
+        <p class="subtitle">There is no minimum, but there is a point where it makes financial sense.</p>
+        <p class="meta">Published April 9, 2026</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <p>One of the most common questions people ask is how much debt you need to have before filing bankruptcy. The answer: there is no legal minimum. You could technically file with $500 in debt. But bankruptcy has costs, and the math has to work in your favor.</p>
+
+        <h2>The Cost of Filing</h2>
+        <p>Before you calculate whether bankruptcy makes sense, you need to know what it costs:</p>
+        <ul>
+            <li><strong><a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> filing fee:</strong> $338</li>
+            <li><strong><a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> filing fee:</strong> $313</li>
+            <li><strong>Attorney fees (Chapter 7):</strong> $1,000-$3,000, depending on location and complexity</li>
+            <li><strong>Attorney fees (Chapter 13):</strong> $2,500-$5,000+, typically paid through the plan</li>
+            <li><strong><a href="https://bankruptcyfreshstart.org/" title="credit counseling">Credit counseling</a> + financial management courses:</strong> $30-$100 total</li>
+        </ul>
+        <p>Total out-of-pocket for Chapter 7 is typically $1,500-$3,500. If your total debt is less than that, bankruptcy may cost more than simply paying the debt. If you cannot afford attorney fees, you can file <a href="https://prosequestion.com">pro se</a> (representing yourself) or apply for a fee waiver.</p>
+
+        <h2>Practical Thresholds</h2>
+        <p>While there is no legal minimum, most bankruptcy attorneys consider filing when:</p>
+        <ul>
+            <li><strong>Unsecured debts exceed $10,000-$15,000</strong> and you cannot pay them down within 3-5 years</li>
+            <li><strong>You are being sued or garnished</strong> - the <a href="https://automaticstay.com">automatic stay</a> has value regardless of debt level</li>
+            <li><strong>Debt-to-income ratio exceeds 40%</strong> - more than 40% of your gross income going to non-mortgage debt payments</li>
+            <li><strong>It would take more than 5 years</strong> to pay off debts at your current income</li>
+            <li><strong>You are using credit cards to pay for basic necessities</strong> like food and utilities</li>
+        </ul>
+
+        <div class="callout-box">
+            <p><strong>The real question is not how much debt you have.</strong> It is whether your income can realistically service that debt. Someone earning $30,000 with $15,000 in credit card debt is in a very different position than someone earning $150,000 with the same debt. The <a href="https://707b.com">means test</a> is designed to make exactly this distinction.</p>
+        </div>
+
+        <h2>The Means Test</h2>
+        <p>If you want to file Chapter 7, you must pass the <a href="https://707b.com">means test</a>. It works in two stages:</p>
+        <ol>
+            <li><strong>Income comparison.</strong> If your household income is below the median for your state and household size, you pass automatically. You can check median income figures at the <a href="https://www.justice.gov/ust/means-testing">U.S. Trustee website</a>.</li>
+            <li><strong>Expense calculation.</strong> If your income is above the median, you calculate allowed expenses (using IRS standards) and subtract them from your income. If you do not have enough disposable income to fund a meaningful <a href="https://chapter13plan.org/" title="Chapter 13 plan">Chapter 13 plan</a>, you still pass.</li>
+        </ol>
+        <p>Failing the <a href="https://meanstest.org/" title="means test">means test</a> does not mean you cannot file bankruptcy - it means you may need to file Chapter 13 instead of Chapter 7. Chapter 13 has no income limit; it has a debt limit.</p>
+
+        <h2>Debt Limits for Chapter 13</h2>
+        <p>Chapter 13 has a combined debt limit (secured + unsecured) that is adjusted periodically. As of 2024, the limit is approximately $2,750,000. If your debts exceed this, <a href="https://section1191.org/" title="Chapter 11">Chapter 11</a> (or <a href="https://subchaptervbankruptcy.com">Subchapter V</a> for eligible small businesses) may be an option.</p>
+        <p>Chapter 7 has no debt limits at all.</p>
+
+        <h2>When Not to File</h2>
+        <p>Bankruptcy is not always the answer. It may not make sense if:</p>
+        <ul>
+            <li>Your debt is small and manageable within your budget</li>
+            <li>Most of your debt is <a href="what-debts-survive-bankruptcy.html">nondischargeable</a> (<a href="https://bankruptcystudentloans.org/" title="student loans">student loans</a>, recent taxes, child support)</li>
+            <li>You are <a href="https://judgmentproof.org/" title="judgment proof">judgment-proof</a> (no income, no assets a creditor can reach) - collectors cannot get what does not exist</li>
+            <li>The statute of limitations on your debts is about to expire</li>
+        </ul>
+
+        <h2>Bottom Line</h2>
+        <p>There is no magic number. The decision to file bankruptcy is about the ratio of your debts to your income and assets, not the absolute dollar amount. A free consultation with a bankruptcy attorney (most offer them) is the best way to evaluate whether filing makes sense for your specific situation. You can also check whether you <a href="https://howmuchdoesbankruptcycost.com">qualify and what it would cost</a> using our guides.</p>
+
+        <div class="related-posts">
+            <h3>Related Articles</h3>
+            <a href="bankruptcy-vs-debt-settlement.html">Bankruptcy vs Debt Settlement: Which Is Better?</a>
+            <a href="what-happens-when-chapter-13-is-dismissed.html">What Happens When Chapter 13 Is Dismissed?</a>
+            <a href="does-bankruptcy-affect-your-spouse.html">Does Bankruptcy Affect Your Spouse?</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/privacy.html">Privacy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+            <a href="/donate.html">Donate</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p>All tools and data released under open-source licenses.</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Asset Purchase Mechanics Under Section 363(b) - Open Bankruptcy Project</title>
+<meta name="description" content="Deep-dive on asset purchase mechanics under 11 U.S.C. Section 363(b): notice and a hearing, the business judgment standard, the Lionel test, and procedural anatomy of a non-ordinary-course sale.">
+<link rel="canonical" href="https://openbankruptcyproject.org/section-363-asset-sales/asset-purchase-mechanics/">
+<meta property="og:title" content="Asset Purchase Mechanics Under Section 363(b)">
+<meta property="og:description" content="Deep-dive on asset purchase mechanics under 11 U.S.C. Section 363(b): notice and a hearing, the business judgment standard, the Lionel test, and procedural anatomy of a non-ordinary-course sale.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/section-363-asset-sales/asset-purchase-mechanics/">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="Asset Purchase Mechanics Under Section 363(b)">
+<meta name="twitter:description" content="Deep-dive on asset purchase mechanics under 11 U.S.C. Section 363(b): notice and a hearing, the business judgment standard, the Lionel test, and procedural anatomy of a non-ordinary-course sale.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Asset Purchase Mechanics Under Section 363(b)","description":"Deep-dive on asset purchase mechanics under 11 U.S.C. Section 363(b): notice and a hearing, the business judgment standard, the Lionel test, and procedural anatomy of a non-ordinary-course sale.","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},"datePublished":"2026-05-22","dateModified":"2026-05-22","mainEntityOfPage":"https://openbankruptcyproject.org/section-363-asset-sales/asset-purchase-mechanics/"}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem","position": 1,"name": "Home","item": "https://openbankruptcyproject.org"},
+        {"@type": "ListItem","position": 2,"name": "Section 363 Asset Sales","item": "https://openbankruptcyproject.org/section-363-use-sale-lease-property.html"},
+        {"@type": "ListItem","position": 3,"name": "Asset Purchase Mechanics","item": "https://openbankruptcyproject.org/section-363-asset-sales/asset-purchase-mechanics/"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "Asset Purchase Mechanics Under Section 363(b)",
+      "url": "https://openbankruptcyproject.org/section-363-asset-sales/asset-purchase-mechanics/",
+      "speakable": {"@type": "SpeakableSpecification","cssSelector": [".quick-answer","h1",".summary","p:first-of-type"]}
+    }
+  ]
+}
+</script>
+<style>
+  :root {
+    --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3;
+    --text-muted: #9eaab6; --accent: #58a6ff; --green: #3fb950; --red: #f85149; --yellow: #e3a835;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  nav .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger { display: none; background: none; border: 1px solid var(--border); color: var(--text); font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1; }
+  .breadcrumb { max-width: 760px; margin: 1rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; color: var(--text-muted); }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header { background: linear-gradient(135deg, #0d2137, #122a44); border-bottom: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+  header h1 { color: #f0f6fc; font-size: 2rem; margin-bottom: 0.75rem; }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle { color: var(--text-muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 1.5rem; }
+  .content-section h2 { color: #f0f6fc; font-size: 1.375rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .content-section h3 { color: #f0f6fc; font-size: 1.125rem; margin: 1.5rem 0 0.75rem; }
+  .content-section p { color: var(--text); margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .content-section ul, .content-section ol { margin: 0.75rem 0 0.75rem 1.5rem; color: var(--text); font-size: 0.95rem; }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box { background: #21262d; border-left: 3px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .warning-box { background: #21262d; border-left: 3px solid var(--red); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .green-box { background: #21262d; border-left: 3px solid var(--green); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .yellow-box { background: #21262d; border-left: 3px solid var(--yellow); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+  th, td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid var(--border); }
+  th { color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+  footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 2rem; }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a { display: block; padding: 0.6rem 0; margin: 0; font-size: 0.95rem; min-height: 44px; line-height: 2; border-bottom: 1px solid #21262d; }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+    table { font-size: 0.8rem; }
+    th, td { padding: 0.5rem 0.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a>
+    <a href="/research.html">Research</a>
+    <a href="/impact.html">Impact</a>
+    <a href="/legal-aid.html">Legal Aid</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Asset Purchase Mechanics Under <span class="accent">Section 363(b)</span></h1>
+  <p class="subtitle">Notice and a hearing, the business judgment standard, and the Lionel test for non-ordinary-course sales.</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/section-363-use-sale-lease-property.html">Section 363</a> &rsaquo; Asset Purchase Mechanics
+</div>
+
+<main>
+
+<div class="content-section">
+  <h2>Overview: What Section 363(b) Authorizes</h2>
+  <p>Section 363(b)(1) of the Bankruptcy Code provides that the trustee, "after notice and a hearing, may use, sell, or lease, other than in the ordinary course of business, property of the estate." In a Chapter 11 case, the <a href="https://section1191.org/" title="debtor in possession">debtor in possession</a> exercises this authority under Section 1107(a). The provision is the procedural gateway for every non-ordinary-course transaction in bankruptcy &mdash; from a single piece of equipment to the sale of substantially all assets of a going-concern enterprise.</p>
+  <div class="statute-box"><p><strong>Official citation:</strong> 11 U.S.C. &sect; 363(b)(1) &mdash; "The trustee, after notice and a hearing, may use, sell, or lease, other than in the ordinary course of business, property of the estate."</p></div>
+  <p>The text is deceptively short. What the statute does not specify &mdash; the substantive standard the court applies, the depth of factual inquiry required, and the boundaries between a legitimate 363(b) sale and an impermissible <a href="https://chapter13plan.org/" title="sub rosa plan">sub rosa plan</a> &mdash; has been built out through four decades of case law, beginning with the Second Circuit's foundational decision in <em>Committee of Equity Security Holders v. Lionel Corp.</em>, 722 F.2d 1063 (2d Cir. 1983).</p>
+</div>
+
+<div class="content-section">
+  <h2>The "Notice and a Hearing" Requirement</h2>
+  <p>The phrase "after notice and a hearing" is a defined term under Section 102(1) of the Bankruptcy Code. It means notice appropriate in the particular circumstances and an opportunity for a hearing appropriate in the particular circumstances. A hearing is not always required; if no party in interest timely requests one and the court has authorized the act, the transaction may proceed on the papers.</p>
+  <h3>Federal Rule of Bankruptcy Procedure 2002(a)(2)</h3>
+  <p>Rule 2002(a)(2) requires at least 21 days' notice by mail of a proposed use, sale, or lease of property of the estate other than in the ordinary course of business. The notice must include the time and place of any hearing, the time fixed for filing objections, and a general description of the property.</p>
+  <h3>Rule 6004 &mdash; Sale Procedures</h3>
+  <p>Rule 6004 supplements the notice rule for sales specifically. It requires that the notice include the terms and conditions of any private sale, state the time fixed for filing objections, and (where applicable) describe the auction procedure. Rule 6004(h) imposes a default 14-day stay of any sale order, allowing time for appeal &mdash; though courts routinely waive this stay for good cause when sale closing must occur quickly.</p>
+  <div class="yellow-box"><p><strong>Practice point:</strong> The 14-day stay under Rule 6004(h) is not jurisdictional. Sale orders almost always include a finding that "good cause exists" to waive the stay so the transaction can close immediately. The waiver itself is often the focus of objection from parties contemplating appeal.</p></div>
+</div>
+
+<div class="content-section">
+  <h2>The Business Judgment Standard</h2>
+  <p>Once notice has been given and any hearing held, the court must decide whether to approve the sale. The dominant substantive standard is the "business judgment" rule, which courts have adapted from corporate law into the bankruptcy context. The proponent of the sale &mdash; usually the debtor in possession &mdash; must articulate a sound business reason for the transaction.</p>
+  <p>Under the business judgment standard, the court does not substitute its own view of the optimal transaction for that of the debtor's management. Instead, the court asks whether the debtor's decision was made in good faith, with reasonable diligence, and supported by a rational business purpose. If yes, the court generally defers; if no, the court denies approval or requires modification.</p>
+  <h3>Elements the Movant Typically Must Establish</h3>
+  <ul>
+    <li>A sound business reason for the sale, explained on the record (e.g., depreciating asset, liquidity need, going-concern preservation, melting-ice-cube circumstances).</li>
+    <li>Adequate marketing and exposure of the asset to potential buyers.</li>
+    <li>A fair and reasonable purchase price, often supported by valuation evidence, comparable transactions, or an auction.</li>
+    <li>Good faith in the transaction, including arm's-length negotiation and the absence of self-dealing.</li>
+    <li>Adequate notice to all parties in interest with a stake in the outcome.</li>
+  </ul>
+</div>
+
+<div class="content-section">
+  <h2>The Lionel Test for Non-Ordinary-Course Sales</h2>
+  <p>The seminal articulation of the standard for a 363(b) sale &mdash; particularly for sales of substantially all of a debtor's assets prior to plan confirmation &mdash; comes from the Second Circuit's decision in <em>Lionel</em>. The court held that a bankruptcy judge approving a 363(b) sale must find from the evidence presented before him at the hearing a good business reason to grant such an application. The court rejected both extremes &mdash; a per se rule against pre-confirmation sales of substantially all assets and a rule of total deference to the debtor.</p>
+  <h3>Factors Courts Consider Under Lionel</h3>
+  <p>Although <em>Lionel</em> deliberately avoided a rigid multi-factor test, subsequent decisions have distilled the relevant inquiries. Courts commonly consider:</p>
+  <ul>
+    <li>The proportionate value of the asset to the estate as a whole.</li>
+    <li>The amount of elapsed time since the petition was filed.</li>
+    <li>The likelihood that a plan of reorganization will be proposed and confirmed in the near future.</li>
+    <li>The effect of the proposed disposition on future plans of reorganization.</li>
+    <li>The proceeds to be obtained from the disposition vis-&agrave;-vis any appraisals of the property.</li>
+    <li>Which of the alternatives of use, sale, or lease the proposal envisions.</li>
+    <li>Whether the asset is increasing or decreasing in value.</li>
+  </ul>
+  <div class="green-box"><p><strong>The animating principle:</strong> Where a 363(b) sale would dispose of substantially all of a debtor's assets &mdash; effectively determining the outcome of the case &mdash; courts apply heightened scrutiny. The further the proposed transaction strays from preserving optionality for a plan-driven reorganization, the more compelling the business justification must be.</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Procedural Anatomy of a 363(b) Sale</h2>
+  <p>The mechanics of a typical non-ordinary-course sale follow a predictable arc:</p>
+  <ol>
+    <li><strong>Pre-petition or early-case marketing:</strong> The debtor and its financial advisors identify potential purchasers, distribute teasers and confidentiality agreements, and circulate confidential information memoranda.</li>
+    <li><strong>Stalking horse selection:</strong> A lead bidder is identified and a definitive asset purchase agreement (APA) is signed, subject to higher and better offers.</li>
+    <li><strong>Bidding procedures motion:</strong> The debtor files a motion seeking court approval of the bidding and auction procedures, often before filing the substantive sale motion.</li>
+    <li><strong>Sale motion and notice:</strong> A motion to approve the sale free and clear under 363(b) and 363(f), with Rule 2002/6004 notice to creditors, equity holders, and known potentially interested parties.</li>
+    <li><strong>Objection period:</strong> Typically 21 days from notice, during which creditors and other stakeholders may file objections on price, process, free-and-clear treatment, assumption and assignment of contracts, or sub rosa plan concerns.</li>
+    <li><strong>Auction (if competing bids materialize):</strong> Conducted in accordance with court-approved bidding procedures, with bids in defined overbid increments and the debtor designating the successful bidder and a back-up bidder.</li>
+    <li><strong>Sale hearing:</strong> The court considers the auction results (or absence of overbids), evidence of marketing, valuation, good faith, and any objections.</li>
+    <li><strong>Sale order:</strong> Findings of fact and conclusions of law, including 363(m) good-faith findings, 363(f) free-and-clear authorizations, and waiver of the Rule 6004(h) stay.</li>
+    <li><strong>Closing:</strong> Transfer of assets, recording of any necessary instruments, and distribution of proceeds (typically into escrow pending resolution of disputed claims).</li>
+  </ol>
+</div>
+
+<div class="content-section">
+  <h2>Sub Rosa Plan Concerns</h2>
+  <p>A 363(b) sale is not a plan of reorganization. The concept of an impermissible sub rosa plan &mdash; first articulated in <em>In re Braniff Airways, Inc.</em>, 700 F.2d 935 (5th Cir. 1983) &mdash; addresses transactions that, while denominated as 363(b) sales, in substance dictate the terms of any subsequent reorganization plan, lock up plan votes, or distribute proceeds to creditors in a manner that bypasses the protections of Chapter 11 plan confirmation.</p>
+  <p>A pure 363(b) asset sale that transfers assets to a buyer and leaves the estate to administer the proceeds through a subsequent plan or trust generally does not implicate sub rosa concerns. A transaction that, by its structure, releases third parties, restricts the trustee's ability to litigate claims, or otherwise predetermines the outcome of the case may face sub rosa scrutiny. <a href="/section-363-asset-sales/court-approval-standards/">Court approval standards</a> for distinguishing legitimate 363 sales from sub rosa plans is examined in detail in a companion deep-dive.</p>
+</div>
+
+<div class="content-section">
+  <h2>Related Provisions and Deep Dives</h2>
+  <ul>
+    <li><a href="/section-363-asset-sales/free-and-clear/">Free-and-clear sales under Section 363(f)</a> &mdash; five alternative bases for clearing competing interests.</li>
+    <li><a href="/section-363-asset-sales/credit-bid-mechanics/">Credit bid mechanics under Section 363(k)</a> &mdash; secured creditor's right to bid debt as currency.</li>
+    <li><a href="/section-363-asset-sales/stalking-horse-auction/">Stalking horse and auction procedure</a> &mdash; break-up fees, expense reimbursement, overbid increments.</li>
+    <li><a href="/section-363-asset-sales/court-approval-standards/">Court approval standards under Section 363(b)</a> &mdash; business judgment, Lionel factors, sub rosa concerns.</li>
+    <li><a href="/section-363-use-sale-lease-property.html">Main Section 363 overview</a> &mdash; the foundational statute page.</li>
+  </ul>
+</div>
+
+<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;margin:1rem 0">Last modified: 2026-05-22</p>
+
+</main>
+
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by <a href="/donate.html">donations</a>.</p>
+  <p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+  <p style="margin-bottom:0.5rem">
+    <a href="/">Home</a> &middot;
+    <a href="/research.html">Research</a> &middot;
+    <a href="/impact.html">Impact</a> &middot;
+    <a href="/legal-aid.html">Legal Aid</a> &middot;
+    <a href="/about.html">About</a> &middot;
+    <a href="/contact.html">Contact</a>
+  </p>
+  <p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+</footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+    <title>Does Bankruptcy Affect Your Spouse? - Open Bankruptcy Project</title>
+    <meta name="description" content="Filing bankruptcy does not automatically affect your spouse, but co-signed debts, joint accounts, and community property states create important exceptions you need to understand.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/blog/does-bankruptcy-affect-your-spouse.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/blog/does-bankruptcy-affect-your-spouse.html">
+
+    <meta property="og:title" content="Does Bankruptcy Affect Your Spouse?">
+    <meta property="og:description" content="Joint debts, co-signed accounts, and community property create exceptions. Here is what you need to know.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://openbankruptcyproject.org/blog/does-bankruptcy-affect-your-spouse.html">
+    <meta property="og:site_name" content="Open Bankruptcy Project">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Does Bankruptcy Affect Your Spouse?">
+    <meta name="twitter:description" content="Joint debts, co-signed accounts, and community property create exceptions.">
+    <meta name="twitter:image" content="/og-image.svg">
+
+    <!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does my spouse's credit get affected if I file bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Your bankruptcy does not appear on your spouse's credit report if you file individually. However, if you have joint debts, those debts will still show on your spouse's credit report. When the bankruptcy discharges your obligation on a joint debt, the creditor can pursue your spouse for the full balance, which may affect their credit if they cannot pay."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should my spouse and I file together or separately?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It depends on whether your debts are joint or individual. If most debts are joint, a joint filing eliminates both spouses' liability in one case. If most debts belong to only one spouse, an individual filing may be better so the other spouse's credit is not affected by a bankruptcy filing. Filing jointly also costs less than two separate filings."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens to joint debts when only one spouse files bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The filing spouse's obligation is discharged, but the non-filing spouse remains fully liable. Creditors can continue to collect from the non-filing spouse. In Chapter 13, the co-debtor stay (Section 1301) temporarily protects the non-filing spouse from collection on consumer debts while the plan is active, but this protection ends when the case closes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does community property affect bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In community property states (Arizona, California, Idaho, Louisiana, Nevada, New Mexico, Texas, Washington, and Wisconsin), community property may become part of the bankruptcy estate even if only one spouse files. This means the non-filing spouse's share of community property could be at risk. Consult a local attorney in community property states."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Does Bankruptcy Affect Your Spouse?",
+          "description": "Filing bankruptcy does not automatically affect your spouse, but co-signed debts, joint accounts, and community property create important exceptions.",
+          "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+          "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntityOfPage": "https://openbankruptcyproject.org/blog/does-bankruptcy-affect-your-spouse.html"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://openbankruptcyproject.org/blog/" },
+            { "@type": "ListItem", "position": 3, "name": "Does Bankruptcy Affect Your Spouse?", "item": "https://openbankruptcyproject.org/blog/does-bankruptcy-affect-your-spouse.html" }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230; --border: #252d38; --border-light: #2d3748; --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; --gold: #d29922; --green: #3fb950; }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; } a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); } .nav-brand a { color: var(--text); } .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; } .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; } .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); } .page-header .meta { font-size: 0.85rem; color: var(--text-muted); margin-top: 8px; }
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; } .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; } .content li { margin-bottom: 8px; }
+        .callout-box { background: rgba(88,166,255,0.06); border: 1px solid rgba(88,166,255,0.2); border-radius: 10px; padding: 24px; margin: 24px 0; }
+        .callout-box p { color: var(--text); margin-bottom: 8px; } .callout-box p:last-child { margin-bottom: 0; }
+        .related-posts { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); }
+        .related-posts h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 16px; }
+        .related-posts a { display: block; padding: 12px 0; color: var(--accent); font-size: 0.95rem; border-bottom: 1px solid var(--border); } .related-posts a:last-child { border-bottom: none; }
+        footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+        footer .footer-links { margin-bottom: 20px; } footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; } footer .footer-links a:hover { color: var(--text); } footer p { margin-bottom: 6px; line-height: 1.6; }
+        @media (max-width: 600px) { .container { padding: 0 20px; } .page-header { padding: 48px 0 32px; } .page-header h1 { font-size: 1.8rem; } .content { padding: 40px 0; } }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/methodology.html">Methodology</a>
+            <a href="/citations.html">Citations</a>
+            <a href="/blog/">Blog</a>
+            <a href="/press.html">Press</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">&rsaquo;</span><a href="/blog/">Blog</a><span class="separator">&rsaquo;</span><span>Does Bankruptcy Affect Your Spouse?</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Does Bankruptcy Affect Your Spouse?</h1>
+        <p class="subtitle">Not automatically - but joint debts, co-signed accounts, and community property create real exceptions.</p>
+        <p class="meta">Published April 9, 2026</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <p>If you are considering bankruptcy and you are married, one of the first questions is what happens to your spouse. The short answer: your bankruptcy filing does not appear on your spouse's credit report, and it does not directly create liability for your spouse. But the real-world effects depend on how your debts and property are structured.</p>
+
+        <h2>Individual Debts: No Direct Effect</h2>
+        <p>If a debt is in your name only - not co-signed, not on a joint account - your bankruptcy discharges that debt and your spouse is not affected. The creditor cannot go after your spouse for a debt that was never theirs. Your spouse's credit report will not show your bankruptcy.</p>
+
+        <h2>Joint Debts: The Critical Exception</h2>
+        <p>This is where it gets complicated. If you and your spouse are both liable on a debt (co-signed loans, joint credit cards, shared medical bills), your bankruptcy only discharges <em>your</em> obligation. The creditor can still pursue your spouse for the full amount.</p>
+        <p>For example, if you and your spouse have a joint credit card with a $10,000 balance and you file <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a>, the <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> eliminates your liability. But the credit card company can still collect the full $10,000 from your spouse. The <a href="https://bankruptcyimpactcosigner.com">impact on co-signers and joint debtors</a> is one of the most misunderstood aspects of bankruptcy.</p>
+
+        <div class="callout-box">
+            <p><strong><a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> <a href="https://codebtorstay.org/" title="codebtor stay">co-debtor stay</a>.</strong> If you file Chapter 13 instead of Chapter 7, Section 1301 provides a "co-debtor stay" that temporarily protects your spouse (and other co-signers) from collection on consumer debts while your plan is active. This protection is unique to Chapter 13 and is one reason some couples choose Chapter 13 even when they qualify for Chapter 7.</p>
+        </div>
+
+        <h2>Joint Filing vs. Individual Filing</h2>
+        <p>Married couples can file a joint bankruptcy petition, which covers both spouses in a single case. The advantages of filing jointly:</p>
+        <ul>
+            <li>Both spouses' debts are addressed in one case</li>
+            <li>One filing fee instead of two</li>
+            <li>All joint debts are discharged for both spouses</li>
+            <li>Simpler process for shared finances</li>
+        </ul>
+        <p>The advantages of individual filing:</p>
+        <ul>
+            <li>Only one spouse's credit report shows the bankruptcy</li>
+            <li>The non-filing spouse's separate assets are protected</li>
+            <li>Makes sense when most debt belongs to one spouse only</li>
+        </ul>
+
+        <h2>Community Property States</h2>
+        <p>If you live in a community property state, the rules are different. Community property states are: Arizona, California, Idaho, Louisiana, Nevada, New Mexico, Texas, Washington, and Wisconsin.</p>
+        <p>In these states, most property and debts acquired during the marriage are considered community property, regardless of whose name they are in. When one spouse files bankruptcy, community property may become part of the <a href="https://1328f.com/glossary.html#estate" title="estate">bankruptcy estate</a> - which means it could be used to pay creditors even though only one spouse filed.</p>
+        <p>The flip side: in community property states, the <a href="https://automaticstay.com">automatic stay</a> may protect community property from creditors even for the non-filing spouse's debts. The rules are complex and state-specific, so consult a local bankruptcy attorney.</p>
+
+        <h2>Mortgage and Home Ownership</h2>
+        <p>If you own a home jointly with your spouse and only you file bankruptcy, the home may still be affected. In Chapter 7, the trustee may claim your equity interest in the home (subject to <a href="https://bankruptcyexemptionsbystate.com">exemptions</a>). In Chapter 13, your plan must account for the home. If the mortgage is in both names, the lender retains its lien regardless of your discharge - so payments must continue for both of you to keep the house.</p>
+
+        <h2>Practical Tips</h2>
+        <ul>
+            <li><strong>List all joint debts</strong> and identify which ones your spouse would inherit if you file alone</li>
+            <li><strong>Check your state's property laws</strong> - community property states have different rules</li>
+            <li><strong>Consider whether joint filing saves money</strong> if both spouses have significant debt</li>
+            <li><strong>Look at the co-debtor stay</strong> in Chapter 13 if protecting your spouse from collection is a priority</li>
+            <li><strong>Do not transfer assets to your spouse before filing</strong> - the trustee can reverse transfers made within 2 years as fraudulent conveyances</li>
+        </ul>
+
+        <div class="related-posts">
+            <h3>Related Articles</h3>
+            <a href="what-happens-to-your-bank-account-in-bankruptcy.html">What Happens to Your Bank Account in Bankruptcy?</a>
+            <a href="how-much-debt-to-file-bankruptcy.html">How Much Debt Do You Need to File Bankruptcy?</a>
+            <a href="can-i-keep-my-tax-refund-in-bankruptcy.html">Can I Keep My Tax Refund in Bankruptcy?</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/privacy.html">Privacy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+            <a href="/donate.html">Donate</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p>All tools and data released under open-source licenses.</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

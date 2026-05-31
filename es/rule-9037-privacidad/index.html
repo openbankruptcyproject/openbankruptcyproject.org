@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-053Z64N82F');gtag('config','G-FTWLM223G7');</script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="format-detection" content="telephone=no"><meta name="color-scheme" content="dark light"><meta name="referrer" content="no-referrer-when-downgrade">
+<title>FRBP Regla 9037 - Protección de Información Personal (PII) [2026]</title>
+<meta name="description" content="Guía de la Regla 9037 sobre la redacción (redaction) obligatoria de identificadores personales en archivos federales de quiebra. Qué debe redactarse, quién es responsable y la brecha de cumplimiento.">
+<meta name="keywords" content="Rule 9037, redacción, PII, datos personales, PACER, CM/ECF, FRBP 9037">
+<link rel="canonical" href="https://openbankruptcyproject.org/es/rule-9037-privacidad/">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/rule-9037-compliance.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/rule-9037-privacidad/">
+<link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/rule-9037-datenschutz/">
+<link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/rule-9037-compliance.html">
+<meta property="og:title" content="FRBP Regla 9037 - Protección de Información Personal"><meta property="og:type" content="article"><meta property="og:url" content="https://openbankruptcyproject.org/es/rule-9037-privacidad/"><meta property="og:locale" content="es_MX">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="theme-color" content="#0d1117"><meta name="last-modified" content="2026-05-23">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","inLanguage":"es","headline":"FRBP Regla 9037 - Protección de Información Personal","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},"datePublished":"2026-05-23","dateModified":"2026-05-23","mainEntityOfPage":"https://openbankruptcyproject.org/es/rule-9037-privacidad/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://openbankruptcyproject.org/"},{"@type":"ListItem","position":2,"name":"Reglas Federales","item":"https://openbankruptcyproject.org/#rules"},{"@type":"ListItem","position":3,"name":"Regla 9037","item":"https://openbankruptcyproject.org/es/rule-9037-privacidad/"}]}</script>
+<style>
+  :root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--text:#e6edf3;--text-muted:#9eaab6;--accent:#58a6ff;--green:#3fb950;--red:#f85149;--yellow:#e3a835;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;}
+  a{color:var(--accent);text-decoration:none;}a:hover{text-decoration:underline;}
+  nav{background:var(--surface);border-bottom:1px solid var(--border);padding:0.75rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;}
+  nav .site-name{color:#f0f6fc;font-weight:700;font-size:1.1rem;text-decoration:none;}
+  .nav-links{display:flex;gap:1.25rem;flex-wrap:wrap;align-items:center;}.nav-links a{color:var(--text-muted);font-size:0.9rem;}
+  .hamburger{display:none;background:none;border:1px solid var(--border);color:var(--text);font-size:1.3rem;cursor:pointer;padding:0.3rem 0.6rem;border-radius:4px;line-height:1;}
+  .breadcrumb{max-width:760px;margin:1rem auto 0;padding:0 1.5rem;font-size:0.85rem;color:var(--text-muted);}.breadcrumb a{color:var(--text-muted);}
+  header{background:linear-gradient(135deg,#0d2137,#122a44);border-bottom:1px solid var(--border);padding:3rem 2rem;text-align:center;}
+  header h1{color:#f0f6fc;font-size:2rem;margin-bottom:0.75rem;}header .subtitle{color:var(--text-muted);font-size:1.05rem;max-width:700px;margin:0 auto;}
+  main{max-width:760px;margin:0 auto;padding:2rem 1.5rem;}
+  .content-section{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:2rem;margin-bottom:1.5rem;}
+  .content-section h2{color:#f0f6fc;font-size:1.375rem;margin-bottom:1rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border);}
+  .content-section h3{color:#f0f6fc;font-size:1.125rem;margin:1.5rem 0 0.75rem;}
+  .content-section p{color:var(--text);margin-bottom:0.75rem;font-size:0.95rem;}
+  .content-section ul,.content-section ol{margin:0.75rem 0 0.75rem 1.5rem;color:var(--text);font-size:0.95rem;}.content-section li{margin-bottom:0.4rem;}
+  blockquote{background:#21262d;border-left:3px solid var(--accent);padding:1rem 1.25rem;margin:1rem 0;font-style:italic;}
+  .statute-box{background:#21262d;border-left:3px solid var(--accent);padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1rem 0;}
+  .warning-box{background:#21262d;border-left:3px solid var(--red);padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1rem 0;}
+  table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:0.9rem;}
+  th,td{padding:0.6rem 0.8rem;text-align:left;border-bottom:1px solid var(--border);}
+  th{background:#1f2630;color:#f0f6fc;}
+  .network-links{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:1.5rem 2rem;margin-bottom:1.5rem;font-size:0.85rem;color:var(--text-muted);line-height:2;}
+  footer{background:var(--surface);border-top:1px solid var(--border);padding:2rem;text-align:center;font-size:0.85rem;color:var(--text-muted);margin-top:2rem;}footer a{color:var(--accent);}
+  @media (max-width:768px){.hamburger{display:inline-block;}.nav-links{display:none;width:100%;flex-direction:column;gap:0;}.nav-links.open{display:flex;}.nav-links a{display:block;padding:0.6rem 0;margin:0;font-size:0.95rem;min-height:44px;line-height:2;border-bottom:1px solid #21262d;}header{padding:2rem 1rem;}header h1{font-size:1.5rem;}main{padding:1.5rem 1rem;}.content-section{padding:1.25rem;}}
+</style>
+</head>
+<body>
+<nav aria-label="Navegación principal">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú de navegación">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Inicio</a><a href="/research.html">Investigación</a><a href="/impact.html">Impacto</a><a href="/legal-aid.html">Asistencia Legal</a><a href="/about.html">Acerca de</a><a href="/contact.html">Contacto</a>
+    <a href="/rule-9037-compliance.html" lang="en" hreflang="en">English</a>
+  </div>
+</nav>
+<header>
+  <h1><a href="https://www.law.cornell.edu/rules/frbp/rule_9037" rel="noopener" target="_blank">Regla 9037</a> - Protección de la Información Personal en Archivos Federales</h1>
+  <p class="subtitle">Guía en español de la regla federal que protege la información personal en los archivos del tribunal de quiebras: qué debe redactarse (redaction), quién es responsable y la brecha estructural de cumplimiento.</p>
+</header>
+<div class="breadcrumb"><a href="/">Inicio</a> &rsaquo; Reglas Federales &rsaquo; Regla 9037</div>
+<main>
+
+<div class="content-section">
+  <h2>¿Qué es la Regla 9037?</h2>
+  <p>La Federal Rule of Bankruptcy Procedure 9037 exige que los identificadores personales sean redactados (redacted) de los documentos presentados ante el tribunal de quiebras. La regla existe porque los archivos de quiebra son registros públicos, accesibles a cualquiera a través de PACER (Public Access to Court Electronic Records). Sin redacción, la información personal sensible se vuelve permanentemente accesible al público.</p>
+  <p>La Regla 9037 refleja la <strong>Federal Rule of Civil Procedure 5.2(a)</strong>, que impone requisitos idénticos en procedimientos civiles y penales. Juntas, estas reglas establecen un estándar federal uniforme: los datos personales deben redactarse parcialmente antes de que cualquier documento entre al expediente público.</p>
+  <p>La regla aplica a todo documento presentado en un caso de quiebra, ya sea de manera electrónica a través de CM/ECF o en papel. Aplica igualmente a deudores, acreedores, abogados, síndicos y cualquier otra parte que presente documentos.</p>
+  <div class="statute-box">
+    <p><strong>Fed. R. Bankr. P. 9037(a):</strong> A menos que el tribunal ordene otra cosa, en una presentación electrónica o en papel hecha al tribunal que contenga el número de Seguro Social, el número de identificación de contribuyente o la fecha de nacimiento de un individuo, el nombre de un individuo conocido como menor, o un número de cuenta financiera, una parte o no parte que haga la presentación solo podrá incluir:</p>
+    <p style="margin-left:20px;">(1) los últimos cuatro dígitos del número de Seguro Social y del número de identificación de contribuyente;<br>
+    (2) el año de nacimiento del individuo;<br>
+    (3) las iniciales del menor; y<br>
+    (4) los últimos cuatro dígitos del número de cuenta financiera.</p>
+  </div>
+</div>
+
+<div class="content-section">
+  <h2>Qué debe redactarse</h2>
+  <p>La Regla 9037(a) y la Civil Rule 5.2(a) identifican cuatro categorías de identificadores personales que deben redactarse parcialmente en cada presentación. Para los números de Seguro Social y los números de identificación de contribuyente, solo pueden mostrarse los últimos cuatro dígitos (formato XXX-XX-últimos-cuatro). Para las fechas de nacimiento, solo puede mostrarse el año (sin día ni mes). Para los nombres de menores, solo pueden mostrarse las iniciales. Para los números de cuenta financiera, ya sea de banco, tarjeta de crédito o préstamo, solo pueden mostrarse los últimos cuatro dígitos.</p>
+  <p>Estos requisitos aplican a todo el contenido dentro de una presentación, incluidos adjuntos, anexos y documentos escaneados. Un archivo puede contener docenas de páginas, y un solo identificador no redactado en cualquier página constituye una violación.</p>
+</div>
+
+<div class="content-section">
+  <h2>Quién es responsable</h2>
+  <p>La regla es inequívoca sobre la responsabilidad:</p>
+  <blockquote><strong>Fed. R. Bankr. P. 9037(d):</strong> "La responsabilidad de redactar estos identificadores personales recae exclusivamente sobre el abogado y las partes. El secretario (clerk) no está obligado a revisar los documentos presentados al tribunal para verificar el cumplimiento de esta regla."</blockquote>
+  <p>Esto significa:</p>
+  <ul>
+    <li><strong>Los abogados</strong> tienen responsabilidad primaria por cada documento que presentan o causan que se presente en nombre de clientes</li>
+    <li><strong>Los presentadores pro se</strong> están sujetos al mismo estándar, aun cuando puedan carecer de entrenamiento legal o conciencia de la regla</li>
+    <li><strong>Los acreedores y sus abogados</strong> deben redactar comprobantes de reclamo, mociones y cualquier otro archivo que mencione identificadores personales</li>
+    <li><strong>La oficina del secretario</strong> no tiene obligación de filtrar documentos antes de su entrada al expediente público</li>
+    <li><strong>El sistema CM/ECF</strong> no realiza detección automática de PII en el punto de presentación</li>
+  </ul>
+</div>
+
+<div class="content-section">
+  <h2>La brecha de cumplimiento</h2>
+  <p>La Regla 9037 crea un problema estructural: redacción obligatoria combinada con cero aplicación en el punto de presentación. El sistema CM/ECF acepta todos los documentos sin escanear identificadores personales. No hay advertencia, ni mensaje de error, ni revisión automática.</p>
+  <div class="warning-box"><p><strong>El problema central:</strong> La autocertificación sin verificación automática significa que las violaciones se descubren solo cuando alguien revisa manualmente un archivo después de que ya entró al registro público. En ese punto, la exposición ya ha ocurrido.</p></div>
+  <p>El Open Bankruptcy Project ha escaneado más de 752 documentos en más de 21 tribunales federales y ha encontrado violaciones de redacción en archivos de múltiples acreedores y sus abogados. No son incidentes aislados. Representan una brecha sistémica entre los requisitos de la regla y el cumplimiento real.</p>
+</div>
+
+<div class="content-section">
+  <h2>El problema de permanencia</h2>
+  <p>Cuando un documento no redactado entra al expediente público a través de CM/ECF, queda inmediatamente disponible en PACER. En minutos u horas, servicios de terceros pueden capturar y archivar una copia:</p>
+  <ul>
+    <li><strong>RECAP / CourtListener</strong> (Free Law Project) archiva documentos de PACER y los pone disponibles gratuitamente. Una vez capturados, los documentos permanecen en el archivo de forma permanente.</li>
+    <li><strong>PacerMonitor</strong> indexa y almacena en caché los archivos del tribunal para sus suscriptores.</li>
+    <li><strong>Otros agregadores</strong> y plataformas de investigación legal pueden capturar y redistribuir el contenido público.</li>
+  </ul>
+  <p>Aunque el tribunal restrinja después el acceso al archivo original en CM/ECF, esto no recupera las copias ya descargadas, almacenadas en caché o archivadas por terceros. La restricción aplica solo al acceso futuro vía PACER al documento original.</p>
+  <div class="warning-box"><p><strong>Conclusión clave:</strong> La prevención en el punto de presentación es la única protección efectiva. Una vez que la PII no redactada entra al expediente público, la contención total no es posible. La redacción posterior es mitigación de daño, no prevención.</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Riesgo de los presentadores pro se</h2>
+  <p>Las personas que presentan quiebra sin abogado enfrentan el mayor riesgo de exposición accidental de PII. Los presentadores pro se están sujetos a los mismos requisitos de redacción que los abogados, pero típicamente:</p>
+  <ul>
+    <li>No tienen entrenamiento legal ni conciencia de la Regla 9037</li>
+    <li>No reciben orientación del sistema CM/ECF sobre los requisitos de redacción</li>
+    <li>Presentan documentos que contienen sus propios SSNs completos, fechas de nacimiento y números de cuenta financiera</li>
+    <li>Adjuntan estados de cuenta, declaraciones de impuestos y nóminas sin redactar como anexos</li>
+    <li>No saben que su presentación será públicamente accesible en PACER</li>
+  </ul>
+</div>
+
+<div class="content-section">
+  <h2>Cómo cumplir: lista de verificación previa a la presentación</h2>
+  <p>Cada documento debe revisarse por identificadores personales sin redactar antes de presentarse. Siga esta lista:</p>
+  <ul>
+    <li><strong>Busque patrones de SSN.</strong> Use la función de búsqueda de su lector de PDF para buscar números de nueve dígitos, con o sin guiones. Reemplace solo con los últimos cuatro dígitos.</li>
+    <li><strong>Busque fechas completas de nacimiento.</strong> Busque fechas completas en cualquier formato. Reemplace solo con el año.</li>
+    <li><strong>Verifique nombres de menores.</strong> Reemplace cualquier nombre completo de individuos conocidos como menores con sus iniciales.</li>
+    <li><strong>Busque números de cuenta financiera.</strong> Busque números de cuenta bancaria, tarjetas de crédito y enrutamiento. Reemplace con últimos cuatro dígitos solamente.</li>
+    <li><strong>Revise documentos escaneados y páginas de imagen.</strong> La búsqueda en PDF no encontrará texto en imágenes. Use OCR para extraer texto.</li>
+    <li><strong>Revise todos los anexos y exhibits.</strong> Los anexos son la fuente más común de identificadores no redactados.</li>
+  </ul>
+</div>
+
+<div class="network-links">
+  <strong>Bankruptcy Tools Network:</strong><br>
+  <span style="color:var(--text-muted)">Herramientas relacionadas (en inglés):</span><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Discharge Screener</a> &middot;
+  <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Research Platform</a>
+</div>
+</main>
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Transparencia gratuita y de código abierto sobre quiebras. Sin publicidad. Sin enlaces de afiliados. Apoyado por <a href="https://openbankruptcyproject.org/donate.html">donaciones</a>.</p>
+  <p style="margin-bottom:0.5rem">Educación gratuita sobre quiebras. No constituye asesoría legal.</p>
+  <p style="margin-bottom:0.5rem"><a href="/">Inicio</a> &middot; <a href="/research.html">Investigación</a> &middot; <a href="/impact.html">Impacto</a> &middot; <a href="/legal-aid.html">Asistencia Legal</a> &middot; <a href="/about.html">Acerca de</a> &middot; <a href="/contact.html">Contacto</a></p>
+  <p style="font-size:0.75rem">Este sitio proporciona únicamente información de carácter general y no constituye asesoría legal. El uso del sitio no crea una relación abogado-cliente. Consulte a un abogado licenciado sobre su situación específica.<br>Un proyecto del <strong>Open Bankruptcy Project</strong>, organización benéfica pública 501(c)(3) (EIN 41-5159631).</p>
+</footer>
+<script>document.querySelector('.hamburger').addEventListener('click',function(){var nav=document.getElementById('nav-links');var open=nav.classList.toggle('open');this.setAttribute('aria-expanded',open);});</script>
+</body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Data Access: Download Our Datasets</title>
+<meta name="description" content="Download free bankruptcy datasets from the Open Bankruptcy Project. 4.9 million cases, district-level statistics, attorney outcomes, and ...">
+<meta name="keywords" content="bankruptcy data download, free bankruptcy dataset, court data access, bankruptcy statistics">
+<link rel="canonical" href="https://openbankruptcyproject.org/data-access.html">
+<meta property="og:title" content="Data Access: Download Our Datasets">
+<meta property="og:description" content="Download free bankruptcy datasets from the Open Bankruptcy Project. 4.9 million cases, district-level statistics, attorney outcomes, and ...">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/data-access.html">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Data Access: Download Our Datasets">
+<meta name="twitter:description" content="Download free bankruptcy datasets from the Open Bankruptcy Project. 4.9 million cases, district-level statistics, attorney outcomes, and ...">
+<meta name="twitter:image" content="/og-image.svg">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="theme-color" content="#0d1117">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is the data really free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, completely free with no restrictions. Our data derives from public federal records and is provided under open-source licenses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What format is the data in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SQLite databases and CSV files. Our analysis scripts are Python 3. Documentation is included."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use this for my research?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Academic, journalistic, advocacy, and personal use are all welcome. Citation appreciated but not required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How large is the dataset?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The full national database is approximately 2GB (SQLite). Individual district files are much smaller. CSV exports of common queries are available for lighter analysis."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://openbankruptcyproject.org"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Openbankruptcyproject",
+      "item": "https://openbankruptcyproject.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Data Access &<br>Download Datasets",
+      "item": "https://openbankruptcyproject.org/data-access.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Data Access &<br>Download Datasets",
+  "description": "Download free bankruptcy datasets from the Open Bankruptcy Project. 4.9 million cases, district-level statistics, attorney outcomes, and analysis tools.",
+  "author": {
+    "@type": "Organization",
+    "name": "Open Bankruptcy Project"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Open Bankruptcy Project",
+    "url": "https://1328f.org"
+  },
+  "datePublished": "2026-04-02",
+  "dateModified": "2026-04-02",
+  "mainEntityOfPage": "https://openbankruptcyproject.org/data-access.html"
+}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "WebPage", "name": "Data Access: Download Our Datasets", "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["h1", ".subtitle", ".faq-item h3", ".faq-item p"]}, "url": "https://openbankruptcyproject.org/data-access.html"}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;background:#0a0a0a;color:#e5e5e5;min-height:100vh}
+a{color:#60a5fa;text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible{outline:2px solid #60a5fa;outline-offset:2px}
+.skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;z-index:9999;padding:1rem;background:#238636;color:#fff;font-weight:600;text-decoration:none}
+.skip-link:focus{position:fixed;top:10px;left:10px;width:auto;height:auto;overflow:visible}
+.nav{background:#111;border-bottom:1px solid #333;padding:12px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.nav .brand{color:#60a5fa;font-weight:700;font-size:16px;margin-right:auto;text-decoration:none}
+.nav .brand:hover{text-decoration:none;opacity:0.9}
+.nav-links{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.nav-links a{color:#999;font-size:14px}
+.nav-links a:hover{color:#fff;text-decoration:none}
+.nav-links a.active{color:#fff;font-weight:600}
+.hamburger{display:none;background:none;border:1px solid #333;color:#e5e5e5;font-size:1.2rem;padding:6px 12px;border-radius:4px;cursor:pointer}
+.hero{text-align:center;padding:64px 24px 40px}
+.hero h1{font-size:32px;font-weight:700;color:#fff;margin-bottom:16px;line-height:1.3}
+.hero .subtitle{color:#999;font-size:17px;max-width:700px;margin:0 auto;line-height:1.7}
+.hero .badge{display:inline-block;background:#0d2137;border:1px solid #60a5fa;color:#60a5fa;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:600;margin-bottom:20px}
+.content{max-width:860px;margin:0 auto;padding:0 24px}
+.section{margin:48px 0}
+.section h2{font-size:22px;color:#fff;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid #333}
+.section h3{font-size:18px;color:#e5e5e5;margin:24px 0 12px}
+.section p{color:#ccc;font-size:15px;line-height:1.8;margin-bottom:16px}
+.section ul,.section ol{color:#ccc;font-size:15px;line-height:1.8;margin:0 0 16px 24px}
+.section li{margin-bottom:8px}
+.data-table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px}
+.data-table th{background:#161b22;color:#e5e5e5;padding:10px 12px;text-align:left;border:1px solid #333;font-weight:600;font-size:13px}
+.data-table td{padding:10px 12px;border:1px solid #333;color:#ccc}
+.data-table tr:nth-child(even){background:#111}
+.data-table td.bad{color:#f85149;font-weight:600}
+.data-table td.good{color:#3fb950;font-weight:600}
+.data-table td.warn{color:#f0883e;font-weight:600}
+.data-table td.num{text-align:right;font-variant-numeric:tabular-nums}
+.callout{background:#111;border-left:4px solid #60a5fa;border-radius:0 8px 8px 0;padding:20px 24px;margin:24px 0}
+.callout.green{border-left-color:#3fb950}
+.callout.red{border-left-color:#f85149}
+.callout.orange{border-left-color:#f0883e}
+.callout p{margin-bottom:0;color:#ccc}
+.callout strong{color:#fff}
+.faq-item{background:#111;border:1px solid #333;border-radius:8px;margin-bottom:12px;overflow:hidden}
+.faq-q{padding:16px 20px;cursor:pointer;color:#fff;font-weight:600;font-size:15px;display:flex;justify-content:space-between;align-items:center}
+.faq-q:hover{background:#161b22}
+.faq-q::after{content:'+';font-size:20px;color:#888}
+.faq-item.open .faq-q::after{content:'-'}
+.faq-a{padding:0 20px 16px;color:#999;font-size:14px;line-height:1.7;display:none}
+.faq-item.open .faq-a{display:block}
+.network-footer{background:#111;border-top:1px solid #333;padding:2rem 24px;text-align:center;margin-top:48px}
+.network-footer p{color:#888;font-size:0.85rem;margin-bottom:0.5rem}
+.network-footer .links{display:flex;justify-content:center;flex-wrap:wrap;gap:1rem;margin-top:0.75rem}
+.network-footer .links a{color:#888;font-size:0.85rem}
+.network-footer .links a:hover{color:#60a5fa}
+.network-footer .disclaimer{margin-top:1rem;font-size:0.75rem;color:#666}
+.rules-badge{display:inline-block;background:#0d2137;border:1px solid #1f6feb;padding:6px 14px;border-radius:6px;font-size:12px;color:#58a6ff;font-weight:600;margin:8px 0}
+.toc{background:#111;border:1px solid #333;border-radius:8px;padding:24px;margin:24px 0}
+.toc h3{color:#fff;margin-bottom:12px;font-size:16px}
+.toc ul{list-style:none;padding:0;margin:0;columns:2;column-gap:24px}
+.toc li{margin-bottom:8px}
+.toc a{color:#60a5fa;font-size:14px}
+@media(max-width:768px){
+  .hero h1{font-size:24px}
+  .hero{padding:40px 16px 28px}
+  .hamburger{display:block}
+  .nav-links{display:none;width:100%;flex-direction:column;gap:0;padding-top:12px}
+  .nav-links.open{display:flex}
+  .nav-links a{display:block;padding:10px 0;border-top:1px solid #222;min-height:44px;line-height:1.6}
+  .data-table{font-size:12px}
+  .data-table th,.data-table td{padding:8px 6px}
+  .toc ul{columns:1}
+}
+
+.breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+</style>
+
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/data-access.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/data-access-es.html">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<nav class="nav" role="navigation" aria-label="Site navigation">
+  <a href="/" class="brand" style="color:#60a5fa">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="var n=this.nextElementSibling;var open=n.classList.toggle('open');this.setAttribute('aria-expanded',open);">&#9776;</button>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/research.html">Research</a>
+    <a href="/network.html">Network</a>
+    <a href="/donate.html">Donate</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+</nav>
+<div class="hero">
+  <div class="badge" style="background:#0d2137;border-color:#60a5fa;color:#60a5fa">Data</div>
+  <h1>Data Access &<br>Download Datasets</h1>
+  <p class="subtitle">Free, open access to our processed bankruptcy datasets and analysis tools.</p>
+</div>
+<main id="main-content">
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://1328f.org">Home</a><span class="separator">&rsaquo;</span><a href="https://openbankruptcyproject.org/">Openbankruptcyproject</a><span class="separator">&rsaquo;</span><span>Data Access &<br>Download Datasets</span></nav>
+
+<div class="content">
+<div class="section"><h2>Available Datasets</h2>
+<p>We provide free, unrestricted access to our processed datasets. All data is derived from public federal records and can be used for any purpose - research, journalism, advocacy, or personal exploration.</p>
+</div>
+<div class="section"><h2>National Case Database</h2>
+<p>4.9 million bankruptcy cases from 2008-2024. Fields include: court, case number, chapter, filing date, closing date, disposition, debtor demographics (state, zip), and case outcomes. Available as SQLite database or CSV.</p>
+</div>
+<div class="section"><h2>District Statistics</h2>
+<p>Aggregated statistics for all 94 federal bankruptcy districts: filing volume, completion rates by chapter, median case duration, <a href="https://prosebankruptcy.org/" title="pro se">pro se</a> filing rates, and year-over-year trends.</p>
+</div>
+<div class="section"><h2>Analysis Tools</h2>
+<p>Our open-source Python analysis toolkit includes: district comparison, attorney scorecard, <a href="https://meanstest.org" title="Bankruptcy Means Test - Open Bankruptcy Project" target="_blank" rel="noopener">means test</a> analysis, outlier detection, and visualization generators. Available on GitHub under MIT license.</p>
+</div>
+<div class="section"><h2>How to Access</h2>
+<p>All datasets and tools are available on our GitHub repository: github.com/ilikemath9999/bankruptcy-discharge-screener. No registration required. No usage restrictions. If you use our data in published work, we appreciate (but do not require) a citation.</p>
+</div>
+
+<div class="section"><h2>Frequently Asked Questions</h2>
+<div class="faq-item">
+<div class="faq-q">Is the data really free?</div>
+<div class="faq-a">Yes, completely free with no restrictions. Our data derives from public federal records and is provided under open-source licenses.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">What format is the data in?</div>
+<div class="faq-a">SQLite databases and CSV files. Our analysis scripts are Python 3. Documentation is included.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Can I use this for my research?</div>
+<div class="faq-a">Absolutely. Academic, journalistic, advocacy, and personal use are all welcome. Citation appreciated but not required.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">How large is the dataset?</div>
+<div class="faq-a">The full national database is approximately 2GB (SQLite). Individual district files are much smaller. CSV exports of common queries are available for lighter analysis.</div>
+</div>
+</div>
+
+<div class="section"><h2>Related Topics on This Site</h2><ul>
+  <li><a href="/methodology.html">Methodology</a></li>
+  <li><a href="/research.html">Research</a></li>
+  <li><a href="/researchers.html">For Researchers</a></li>
+</ul></div>
+
+<div class="section">
+  <p style="font-size:13px;color:#888">Last updated: April 2026. Not legal advice.</p>
+  <span class="rules-badge">Part of the Bankruptcy Transparency Network</span>
+</div>
+</div>
+<div class="btn-crosslinks" style="max-width:820px;margin:1.5rem auto;padding:1.5rem;background:#161b22;border:1px solid #30363d;border-radius:8px">
+  <p style="color:#f0f6fc;font-weight:600;font-size:1rem;margin:0 0 0.75rem 0">Related Guides</p>
+  <ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0.5rem">
+  <li><a href="https://1328f.com" style="color:#58a6ff;text-decoration:none">Free Bankruptcy Eligibility Screener</a></li>
+  <li><a href="https://chapter7vs13.org" style="color:#58a6ff;text-decoration:none">Chapter 7 vs Chapter 13</a></li>
+  </ul>
+</div>
+
+</main>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;padding:1.5rem;text-align:center;max-width:600px;margin:2rem auto">
+  <p style="color:#f0f6fc;font-size:1rem;font-weight:600;margin-bottom:0.5rem">Stay updated on new datasets and research findings</p>
+  <p style="color:#9eaab6;font-size:0.85rem;margin-bottom:1rem">No spam. No marketing. Just data.</p>
+  <form action="https://formspree.io/f/xkoqeyzw" method="POST" style="display:flex;gap:0.5rem;justify-content:center;flex-wrap:wrap">
+    <input type="email" name="email" placeholder="your@email.com" required style="padding:0.5rem 1rem;border-radius:6px;border:1px solid #30363d;background:#0d1117;color:#f0f6fc;font-size:0.9rem;min-width:250px">
+    <input type="hidden" name="_subject" value="BTN Research Subscriber">
+    <button type="submit" style="padding:0.5rem 1.5rem;border-radius:6px;border:none;background:#238636;color:#fff;font-weight:600;font-size:0.9rem;cursor:pointer">Subscribe</button>
+  </form>
+</div>
+<div style="background:#161b22;border:1px solid #238636;border-radius:6px;padding:1rem 1.5rem;text-align:center;max-width:600px;margin:2rem auto 1rem">
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+</div>
+<!-- BOOST-TOP10 internal links (boost_internal_links.py) -->
+<div class="boost-top10" style="max-width:820px;margin:2rem auto;padding:1.5rem;background:#0d1117;border:1px solid #238636;border-radius:8px">
+  <p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
+  <ul style="list-style:none;padding:0;margin:0">
+    <li style="margin-bottom:0.5rem"><a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Bankruptcy Means Test by State</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcymeanstest.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://bankruptcystudentloans.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loans in Bankruptcy</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcystudentloans.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://studentloanforgive.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loan Forgiveness Programs</a> <span style="color:#7d8590;font-size:0.8rem">-- studentloanforgive.org</span></li>
+  </ul>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer class="network-footer" role="contentinfo">
+  <p><strong>Part of the Bankruptcy Transparency Network</strong></p>
+  <div class="links">
+    <a href="https://1328f.com?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">1328f.com</a>
+    <a href="https://1328f.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">1328f.org</a>
+    <a href="https://meanstest.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">meanstest.org</a>
+    <a href="https://whatischapter7.com?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">whatischapter7.com</a>
+    <a href="https://chapter13plan.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">chapter13plan.org</a>
+    <a href="https://dischargebar.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">dischargebar.org</a>
+    <a href="https://523a.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">523a.org</a>
+    <a href="https://howmuchdoesbankruptcycost.com?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">howmuchdoesbankruptcycost.com</a>
+    <a href="https://openbankruptcyproject.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">openbankruptcyproject.org</a>
+    <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+  </div>
+  <p class="disclaimer">Free bankruptcy education. Not legal advice. Consult a qualified attorney for your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) nonprofit.</p>
+  <p style="margin-top:0.75rem;font-size:0.8rem"><a href="https://openbankruptcyproject.org/privacy.html?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network" style="color:#7d8590;text-decoration:none">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network" style="color:#7d8590;text-decoration:none">Terms</a></p>
+<div style="text-align:center;padding:1rem 0 0;border-top:1px solid #30363d;margin-top:1.5rem">
+<p style="color:#7d8590;font-size:0.75rem">Our research was cited by the federal judiciary as <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" target="_blank" rel="noopener" style="color:#58a6ff">Suggestion 26-BK-3</a></p>
+</div>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script>
+document.querySelectorAll('.faq-q').forEach(function(q){
+  q.addEventListener('click',function(){this.parentElement.classList.toggle('open');});
+});
+</script>
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

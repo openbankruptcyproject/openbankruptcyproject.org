@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Suggestion 26-BK-3: Section 1328(f) Discharge Eligibility Screening - Open Bankruptcy Project</title>
+<meta content="Suggestion 26-BK-3, accepted by the Advisory Committee on Bankruptcy Rules. Proposes automated verification of discharge eligibility under 11 U.S.C. Section 1328(f). Key finding: approximately 391,951 cases with zero eligibility verification." name="description"/>
+<link href="https://openbankruptcyproject.org/research/26-bk-3/" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Suggestion 26-BK-3: Section 1328(f) Discharge Eligibility Screening" property="og:title"/>
+<meta content="Accepted by the Advisory Committee on Bankruptcy Rules, March 2026. 391,951 cases with zero eligibility verification across 94 federal districts." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/research/26-bk-3/" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="Suggestion 26-BK-3: Section 1328(f) Discharge Eligibility Screening" name="twitter:title"/>
+<meta content="Accepted by the Advisory Committee on Bankruptcy Rules. 391,951 cases with zero eligibility verification." name="twitter:description"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-053Z64N82F');
+    </script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ScholarlyArticle",
+        "name": "Suggestion 26-BK-3: Section 1328(f) Discharge Eligibility Screening",
+        "headline": "Suggestion 26-BK-3: Section 1328(f) Discharge Eligibility Screening",
+        "description": "Formal suggestion to the Advisory Committee on Bankruptcy Rules proposing automated verification of discharge eligibility under 11 U.S.C. Section 1328(f). Analysis of 4.9 million FJC cases identifies 391,951 prior filers with zero eligibility verification.",
+        "author": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+        },
+        "datePublished": "2026-03-19",
+        "dateAccepted": "2026-03-23",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+        },
+        "url": "https://openbankruptcyproject.org/research/26-bk-3/",
+        "about": [
+            "11 U.S.C. Section 1328(f)",
+            "Federal Rule of Bankruptcy Procedure 4004",
+            "Discharge Eligibility",
+            "Consumer Bankruptcy"
+        ]
+    }
+    </script>
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0d1117;
+            --bg-elevated: #0f1319;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --accent-subtle: rgba(88, 166, 255, 0.08);
+            --green: #3fb950;
+            --green-subtle: rgba(63, 185, 80, 0.08);
+            --gold: #d29922;
+            --gold-subtle: rgba(210, 153, 34, 0.08);
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+        a:hover { color: var(--accent-hover); }
+
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        /* NAV */
+        nav {
+            border-bottom: 1px solid var(--border);
+            padding: 18px 0;
+            position: sticky;
+            top: 0;
+            background: rgba(13, 17, 23, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        nav .nav-inner {
+            max-width: 1040px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        /* HEADER */
+        .page-header {
+            padding: 72px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+        .back-link {
+            display: inline-block;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        .back-link:hover { color: var(--text); }
+        .tracking-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .tracking-badge .number {
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--gold);
+            background: var(--gold-subtle);
+            padding: 5px 14px;
+            border-radius: 20px;
+        }
+        .tracking-badge .status {
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--green);
+            background: var(--green-subtle);
+            padding: 5px 14px;
+            border-radius: 20px;
+        }
+        .page-header h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+        .page-header .subtitle {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            max-width: 640px;
+        }
+
+        /* CTA BUTTON */
+        .cta-btn {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            padding: 12px 32px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.92rem;
+            transition: opacity 0.2s;
+            margin-top: 24px;
+        }
+        .cta-btn:hover { opacity: 0.9; text-decoration: none; color: #fff; }
+
+        /* CONTENT */
+        .content { padding: 56px 0; }
+        .content section {
+            padding-bottom: 40px;
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border);
+        }
+        .content section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .section-label {
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent);
+            margin-bottom: 12px;
+        }
+        .content h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+        .content p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            font-size: 0.98rem;
+            line-height: 1.8;
+        }
+        .content p:last-child { margin-bottom: 0; }
+
+        /* METADATA TABLE */
+        .meta-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 8px;
+        }
+        .meta-table tr {
+            border-bottom: 1px solid var(--border);
+        }
+        .meta-table tr:last-child { border-bottom: none; }
+        .meta-table th {
+            text-align: left;
+            padding: 12px 16px 12px 0;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            white-space: nowrap;
+            vertical-align: top;
+            width: 160px;
+        }
+        .meta-table td {
+            padding: 12px 0;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* KEY FINDING */
+        .finding-block {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--gold);
+            border-radius: 2px 10px 10px 2px;
+            padding: 32px;
+            margin: 24px 0;
+        }
+        .finding-block .finding-label {
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--gold);
+            margin-bottom: 12px;
+        }
+        .finding-number {
+            font-size: 2.4rem;
+            font-weight: 800;
+            color: var(--text);
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+        }
+        .finding-block p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* CITATION BLOCK */
+        .citation-block {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--accent);
+            border-radius: 2px 10px 10px 2px;
+            padding: 28px 32px;
+            margin: 24px 0;
+        }
+        .citation-block .cite-label {
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent);
+            margin-bottom: 10px;
+        }
+        .citation-block p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* LINKS LIST */
+        .links-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-top: 16px;
+        }
+        .link-card {
+            display: block;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px 22px;
+            transition: border-color 0.2s, background 0.2s;
+        }
+        .link-card:hover {
+            border-color: var(--accent);
+            background: var(--surface-hover);
+            text-decoration: none;
+        }
+        .link-card .link-title {
+            font-weight: 700;
+            font-size: 0.92rem;
+            color: var(--text);
+            display: block;
+            margin-bottom: 4px;
+        }
+        .link-card .link-desc {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+        .link-card .link-url {
+            font-size: 0.78rem;
+            color: var(--accent);
+            margin-top: 6px;
+            display: block;
+        }
+
+        /* PDF PLACEHOLDER */
+        .pdf-placeholder {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 10px 20px;
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            margin-top: 12px;
+            cursor: default;
+        }
+
+        /* FOOTER */
+        footer {
+            padding: 48px 0 40px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.6rem; }
+            .finding-number { font-size: 1.8rem; }
+            .finding-block { padding: 24px; }
+            .citation-block { padding: 20px 24px; }
+            .meta-table th { width: 120px; font-size: 0.8rem; }
+            .meta-table td { font-size: 0.88rem; }
+            .cta-btn { display: block; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a href="/impact.html">Impact</a>
+<a href="/press.html">Press</a>
+<a href="/contact.html">Contact</a>
+<a href="https://github.com/openbankruptcyproject" rel="noopener" target="_blank">GitHub</a>
+</div>
+</div>
+</nav>
+<header class="page-header">
+<div class="container">
+<a class="back-link" href="/research/">← All Submissions</a>
+<div class="tracking-badge">
+<span class="number">26-BK-3</span>
+<span class="status">Pending Consideration</span>
+</div>
+<h1><a href="https://www.law.cornell.edu/uscode/text/11/1328#f_0" rel="noopener" target="_blank">Section 1328(f)</a> Discharge Eligibility Screening</h1>
+<p class="subtitle">Formal suggestion to the Advisory Committee on Bankruptcy Rules proposing automated verification of discharge eligibility under 11 U.S.C. <a href="https://www.law.cornell.edu/uscode/text/11/1328#f_0" rel="noopener" target="_blank">Section 1328(f)</a>.</p>
+<a class="cta-btn" href="https://www.uscourts.gov/forms-rules/records-rules-committees/suggestions/dan-brown-26-bk-3" rel="noopener" target="_blank">View on uscourts.gov</a>
+</div>
+</header>
+<div class="content">
+<div class="container">
+<section>
+<div class="section-label">Submission Details</div>
+<table class="meta-table">
+<tr>
+<th>Tracking Number</th>
+<td>26-BK-3</td>
+</tr>
+<tr>
+<th>Submitter</th>
+<td>Open Bankruptcy Project</td>
+</tr>
+<tr>
+<th>Date Accepted</th>
+<td>March 23, 2026</td>
+</tr>
+<tr>
+<th>Status</th>
+<td>Pending consideration, Advisory Committee on Bankruptcy Rules</td>
+</tr>
+<tr>
+<th>Subject</th>
+<td><a href="https://www.law.cornell.edu/rules/frbp/rule_4004" rel="noopener" target="_blank">Rule 4004</a> - requiring verification of discharge eligibility under 11 U.S.C. Section 1328(f)</td>
+</tr>
+</table>
+</section>
+<section>
+<div class="section-label">Advisory Committee Citation</div>
+<h2>Consumer Subcommittee Memo</h2>
+<div class="citation-block">
+<div class="cite-label"><a href="https://www.uscourts.gov/sites/default/files/document/2026-04_bankruptcy_rules_agenda_book.pdf#page=125" rel="noopener" target="_blank">April 15, 2026 Agenda Book - Tab 4C, Page 125, Footnote 4 →</a></div>
+<p>Suggestion 26-BK-3 is cited in the Consumer Subcommittee memo within the Advisory Committee on Bankruptcy Rules' April 2026 agenda book. The subcommittee recommends asking the <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a> to study court practices related to verification of discharge eligibility under Section 1328(f).</p>
+<p style="margin-top:1rem;font-size:0.9rem"><a href="https://www.uscourts.gov/forms-rules/records-rules-committees/agenda-books/advisory-committee-bankruptcy-rules-april-2026" rel="noopener" target="_blank">View full agenda book on uscourts.gov →</a></p>
+</div>
+<p>This represents the first instance of empirical, data-driven research from an independent nonprofit being formally cited in an Advisory Committee agenda book as the basis for a proposed <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a> study.</p>
+</section>
+<section>
+<div class="section-label">Key Finding</div>
+<h2>The Enforcement Gap</h2>
+<div class="finding-block">
+<div class="finding-label">Prior Filers with Zero Eligibility Verification</div>
+<span class="finding-number">391,951</span>
+<p>Approximately 391,951 cases in which prior filers received discharges without evidence of 1328(f) eligibility verification - 27.4% of all prior filers with known dispositions across all 94 federal bankruptcy districts.</p>
+</div>
+<p>Section 1328(f) of the Bankruptcy Code imposes time-based bars on repeat discharge eligibility. A debtor who received a Chapter 7 discharge within four years, or a Chapter 13 discharge within two years, is ineligible for a subsequent Chapter 13 discharge. Despite this statutory mandate, there is no systematic mechanism in the federal courts to verify eligibility at the point of filing.</p>
+<p>Our analysis of the FJC Integrated Database identified nearly 400,000 cases in which these bars should have been evaluated but were not - resulting in discharges granted without documented eligibility review.</p>
+</section>
+<section>
+<div class="section-label">Methodology</div>
+<h2>Data and Approach</h2>
+<p>The analysis uses the Federal Judicial Center's Integrated Database, the most comprehensive public record of federal bankruptcy filings in the United States, covering all consumer filings from 2008 through 2024.</p>
+<p>The methodology cross-references the ORIGIN field (which indicates whether a case involves a prior filing) with the DIESSION field (disposition/outcome) to identify cases in which:</p>
+<p>(1) the debtor had a prior bankruptcy filing within the statutory lookback period, and (2) the subsequent case resulted in a discharge, with (3) no documented evidence that the court or trustee verified compliance with Section 1328(f) timing requirements.</p>
+<p>This approach produces a conservative lower bound. The actual number of unverified discharges is likely higher, as the FJC data does not capture every prior filing relationship and the ORIGIN field is known to be underreported in some districts.</p>
+</section>
+<section>
+<div class="section-label">Documents</div>
+<h2>Links and Resources</h2>
+<div class="links-grid">
+<a class="link-card" href="https://www.uscourts.gov/forms-rules/records-rules-committees/suggestions/dan-brown-26-bk-3" rel="noopener" target="_blank">
+<span class="link-title">Official uscourts.gov Page</span>
+<span class="link-desc">Suggestion 26-BK-3 on the U.S. Courts Rules Suggestions database.</span>
+<span class="link-url">uscourts.gov →</span>
+</a>
+<a class="link-card" href="https://www.uscourts.gov/sites/default/files/document/2026-04_bankruptcy_rules_agenda_book.pdf" rel="noopener" target="_blank">
+<span class="link-title">April 2026 Advisory Committee Agenda Book</span>
+<span class="link-desc">Full agenda book (PDF). See Tab 4C, page 125, footnote 4 for the citation to 26-BK-3.</span>
+<span class="link-url">uscourts.gov (PDF) →</span>
+</a>
+<a class="link-card" href="https://1328f.com" rel="noopener" target="_blank">
+<span class="link-title">1328f.com - Discharge Eligibility Screener</span>
+<span class="link-desc">Free, client-side screening tool. Runs entirely in the browser using sql.js against the FJC dataset. No server, no data collection.</span>
+<span class="link-url">1328f.com →</span>
+</a>
+<a class="link-card" href="https://1328f.org" rel="noopener" target="_blank">
+<span class="link-title">1328f.org - Research Platform</span>
+<span class="link-desc">District-level statistics, attorney analytics, methodology documentation, and replication instructions.</span>
+<span class="link-url">1328f.org →</span>
+</a>
+<a class="link-card" href="https://github.com/openbankruptcyproject/bankruptcy-discharge-screener" rel="noopener" target="_blank">
+<span class="link-title">Source Code on GitHub</span>
+<span class="link-desc">Open-source repository for the discharge eligibility screener. MIT license.</span>
+<span class="link-url">github.com/openbankruptcyproject →</span>
+</a>
+</div>
+<div class="pdf-placeholder">
+<svg fill="currentColor" height="16" viewbox="0 0 16 16" width="16"><path d="M3.5 1A1.5 1.5 0 002 2.5v11A1.5 1.5 0 003.5 15h9a1.5 1.5 0 001.5-1.5V5.414a1 1 0 00-.293-.707l-3.414-3.414A1 1 0 009.586 1H3.5zm0 1h5.586L13 5.914V13.5a.5.5 0 01-.5.5h-9a.5.5 0 01-.5-.5v-11a.5.5 0 01.5-.5z"></path></svg>
+                Download submission PDF (coming soon)
+            </div>
+</section>
+</div>
+</div>
+<footer>
+<div class="container">
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a href="/contact.html">Contact</a>
+<a href="https://github.com/openbankruptcyproject" rel="noopener" target="_blank">GitHub</a>
+<a href="https://ko-fi.com/openbankruptcy" rel="noopener" target="_blank">Donate</a>
+</div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+<p>All tools and data released under open source licenses.</p>
+<p style="margin-top: 12px;">No legal advice is provided. This is educational and research information only.</p>
+</div>
+</footer>
+</body>
+</html>

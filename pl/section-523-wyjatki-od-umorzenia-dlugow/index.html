@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d1117">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Wyjątki od umorzenia długów: przegląd § 523 - Open Bankruptcy Project</title>
+<meta name="description" content="Praktyczny przegląd 11 U.S.C. § 523 - kategorie długów, które przeżywają umorzenie długów (discharge) w upadłości. Podatki, kredyty studenckie, oszustwo, alimenty, restytucja oraz proceduralny mechanizm powództw o niewykonalność umorzenia.">
+<link rel="canonical" href="https://openbankruptcyproject.org/pl/section-523-wyjatki-od-umorzenia-dlugow/">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-523-dischargeability.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-523-excepciones-a-la-descarga/">
+<link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/section-523-ausnahmen-zur-restschuldbefreiung/">
+<link rel="alternate" hreflang="pl" href="https://openbankruptcyproject.org/pl/section-523-wyjatki-od-umorzenia-dlugow/">
+<link rel="alternate" hreflang="fr" href="https://openbankruptcyproject.org/fr/section-523-exceptions-a-la-liberation-de-dettes/">
+<link rel="alternate" hreflang="it" href="https://openbankruptcyproject.org/it/section-523-eccezioni-alla-liberazione/">
+<link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/section-523-dischargeability.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+<meta property="og:title" content="Wyjątki od umorzenia długów: przegląd § 523">
+<meta property="og:description" content="Praktyczny przegląd 11 U.S.C. § 523 - kategorie długów, które przeżywają umorzenie długów (discharge) w upadłości.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/pl/section-523-wyjatki-od-umorzenia-dlugow/">
+<meta property="og:image" content="/og-image.svg">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/og-image.svg">
+
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+
+<meta name="last-modified" content="2026-05-22">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "inLanguage": "pl",
+      "headline": "Wyjątki od umorzenia długów: przegląd § 523",
+      "description": "Praktyczny przegląd 11 U.S.C. § 523 - kategorie długów, które przeżywają umorzenie długów (discharge) w upadłości.",
+      "author": {"@type": "Organization", "name": "Open Bankruptcy Project"},
+      "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+      "datePublished": "2026-05-22",
+      "dateModified": "2026-05-22",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/pl/section-523-wyjatki-od-umorzenia-dlugow/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://openbankruptcyproject.org/"},
+        {"@type": "ListItem", "position": 2, "name": "Przepisy", "item": "https://openbankruptcyproject.org/#statutes"},
+        {"@type": "ListItem", "position": 3, "name": "Wyjątki od umorzenia długów (§ 523)", "item": "https://openbankruptcyproject.org/pl/section-523-wyjatki-od-umorzenia-dlugow/"}
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg: #0d1117; --surface: #151b23; --border: #252d38; --text: #e6edf3;
+    --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; }
+  html { scroll-behavior: smooth; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { color: var(--accent-hover); }
+  .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+  nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+    background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+  nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+  .nav-brand a { color: var(--text); }
+  .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+  .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+  .nav-links a:hover { color: var(--text); }
+  .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+  .page-header h1 { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; line-height: 1.25; }
+  .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+  .content { padding: 56px 0; }
+  .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; }
+  .content h2:first-child { margin-top: 0; }
+  .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 8px; }
+  .content p { color: var(--text-secondary); margin-bottom: 16px; line-height: 1.8; }
+  .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+  .content li { margin-bottom: 8px; }
+  .callout { background: var(--surface); border-left: 3px solid var(--accent); padding: 14px 18px; border-radius: 6px; margin: 20px 0; }
+  .callout p { margin: 0; color: var(--text); }
+  footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+  footer .footer-links { margin-bottom: 20px; }
+  footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+  @media (max-width: 600px) { .container { padding: 0 20px; } .page-header h1 { font-size: 1.6rem; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+    <div class="nav-links">
+      <a href="/">Strona główna</a>
+      <a href="/about.html">O nas</a>
+      <a href="/research.html">Badania</a>
+      <a href="/network.html">Sieć</a>
+      <a href="/impact.html">Wpływ</a>
+      <a href="/press.html">Prasa</a>
+      <a href="/contact.html">Kontakt</a>
+      <a href="/section-523-dischargeability.html" lang="en" hreflang="en">English</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Wyjątki od umorzenia długów: przegląd § 523</h1>
+    <p class="subtitle">Umorzenie długów (discharge) w upadłości eliminuje większość zobowiązań sprzed dnia złożenia wniosku - lecz nie wszystkie. Section 523 Bankruptcy Code wymienia kategorie, które się utrzymują.</p>
+  </div>
+</div>
+
+<div class="content">
+  <div class="container">
+
+    <h2>Zasada ogólna</h2>
+    <p>Umorzenie długów (discharge) na podstawie <a href="https://www.law.cornell.edu/uscode/text/11/727" target="_blank" rel="noopener">§ 727</a> (Chapter 7) lub <a href="https://www.law.cornell.edu/uscode/text/11/1328" target="_blank" rel="noopener">§ 1328</a> (Chapter 13) zwalnia dłużnika z osobistej odpowiedzialności za większość długów powstałych przed dniem złożenia wniosku. <a href="https://www.law.cornell.edu/uscode/text/11/523" target="_blank" rel="noopener">11 U.S.C. § 523</a> wyodrębnia jednak określone kategorie, które nie podlegają umorzeniu. Wyjątki te odzwierciedlają mieszankę ocen w zakresie polityki publicznej - niektóre długi są zbyt istotne dla społeczeństwa, by mogły zostać zniesione, inne zaś odzwierciedlają niewłaściwe postępowanie dłużnika, które nie powinno być nagradzane.</p>
+    <p>Poniższa lista ma charakter wybiórczy - § 523(a) zawiera 19 wymienionych kategorii. Najistotniejsze dla typowych dłużników konsumenckich opisane są poniżej.</p>
+
+    <h2>Zobowiązania podatkowe</h2>
+    <p>Section 523(a)(1) wyłącza spod umorzenia większość zobowiązań podatkowych. Podatki dochodowe podlegają umorzeniu tylko w wąskim oknie, gdy spełnione są łącznie następujące warunki (tzw. reguła „3-2-240"):</p>
+    <ul>
+      <li>Termin złożenia deklaracji podatkowej (z uwzględnieniem przedłużeń) upłynął ponad 3 lata przed datą złożenia wniosku</li>
+      <li>Deklaracja została faktycznie złożona co najmniej 2 lata przed datą wniosku</li>
+      <li>Podatek został naliczony co najmniej 240 dni przed datą wniosku</li>
+      <li>Brak jest deklaracji fałszywej lub umyślnego uchylania się od opodatkowania</li>
+    </ul>
+    <p>Zobowiązania podatkowe niespełniające wszystkich czterech warunków utrzymują się mimo umorzenia. Tzw. podatki funduszu powierniczego (trust-fund taxes - potrącenia z wynagrodzeń, które dłużnik był zobowiązany pobrać) nie podlegają umorzeniu niezależnie od dat.</p>
+
+    <h2>Kredyty studenckie</h2>
+    <p>Section 523(a)(8) wyłącza spod umorzenia kredyty edukacyjne, chyba że dłużnik wykaże „nadmierne obciążenie" (undue hardship) w odrębnym postępowaniu kontradyktoryjnym (adversary proceeding). Test nadmiernego obciążenia w większości okręgów apelacyjnych opiera się na sprawie <em>Brunner v. New York State Higher Education Services Corp.</em>, 831 F.2d 395 (2d Cir. 1987) i wymaga:</p>
+    <ol>
+      <li>Dłużnik nie jest w stanie utrzymać minimalnego poziomu życia dla siebie i osób pozostających na utrzymaniu przy obecnych dochodach, jednocześnie spłacając kredyt</li>
+      <li>Dodatkowe okoliczności sugerują, że stan ten utrzyma się przez znaczną część okresu spłaty</li>
+      <li>Dłużnik podejmował starania w dobrej wierze w celu spłaty kredytu</li>
+    </ol>
+    <p>9th Circuit stosuje podobny, lecz odrębny test „całokształtu okoliczności" (totality of circumstances). Tak czy inaczej, umorzenie kredytów studenckich z powodu nadmiernego obciążenia jest trudne i rzadkie, choć ostatnie wytyczne DOJ nieco ułatwiły drogę kredytobiorcom federalnych kredytów studenckich.</p>
+
+    <h2>Zobowiązania alimentacyjne</h2>
+    <p>Section 523(a)(5) wyłącza spod umorzenia w całości zobowiązania alimentacyjne (domestic-support obligations) - alimenty na dzieci, świadczenia małżeńskie (mające charakter wsparcia) oraz podobne zobowiązania wynikające z orzeczeń sądowych. Stanowią one również wierzytelności uprzywilejowane na podstawie <a href="https://www.law.cornell.edu/uscode/text/11/507" target="_blank" rel="noopener">§ 507(a)(1)</a> i muszą być w pełni zaspokojone w ramach planu Chapter 13.</p>
+    <p>Zobowiązania wynikające z podziału majątku w toku rozwodu (property settlement) regulowane są odrębnie w § 523(a)(15) i nie podlegają umorzeniu w Chapter 7, natomiast historycznie podlegały umorzeniu w Chapter 13. Nowelizacje BAPCPA z 2005 r. zawęziły rozszerzone umorzenie w Chapter 13 w taki sposób, że wiele zobowiązań z podziału majątku obecnie również nie podlega umorzeniu w Chapter 13.</p>
+
+    <h2>Oszustwo i sprzeniewierzenie</h2>
+    <p>Section 523(a)(2) wyłącza długi za pieniądze, mienie lub usługi uzyskane w drodze:</p>
+    <ul>
+      <li>Fałszywych pretekstów, fałszywego oświadczenia lub rzeczywistego oszustwa (innego niż oświadczenie dotyczące sytuacji finansowej)</li>
+      <li>Materialnie fałszywego pisemnego oświadczenia dotyczącego sytuacji finansowej (z rozsądnym poleganiem na nim oraz zamiarem wprowadzenia w błąd)</li>
+    </ul>
+    <p>Kategoria ta wymaga wszczęcia przez wierzyciela postępowania kontradyktoryjnego. Wierzyciel musi wnieść pozew w terminie 60 dni od pierwszej daty wyznaczonej na zgromadzenie wierzycieli (FRBP 4007(c)) oraz udowodnić elementy oszustwa za pomocą przewagi dowodowej (preponderance of the evidence).</p>
+    <p>Typowe sprawy z § 523(a)(2) dotyczą oszustw związanych z kartami kredytowymi (wypłaty gotówki lub zakupy luksusowe na krótko przed złożeniem wniosku) oraz fałszywych oświadczeń finansowych składanych w celu uzyskania kredytów.</p>
+
+    <h2>Sprzeniewierzenie, kradzież, defraudacja powiernicza</h2>
+    <p>Section 523(a)(4) wyłącza długi powstałe wskutek oszustwa lub defraudacji (defalcation) popełnionej w charakterze powiernika, sprzeniewierzenia (embezzlement) lub kradzieży (larceny). Podobnie jak § 523(a)(2), wymagają one postępowań kontradyktoryjnych wnoszonych w 60-dniowym oknie.</p>
+
+    <h2>Umyślna i złośliwa szkoda</h2>
+    <p>Section 523(a)(6) wyłącza długi za umyślną (willful) i złośliwą szkodę wyrządzoną przez dłużnika innemu podmiotowi lub mieniu innej osoby. Sąd Najwyższy w sprawie <em>Kawaauhau v. Geiger</em>, 523 U.S. 57 (1998), stwierdził, że „willful" wymaga celowego lub zamierzonego wyrządzenia szkody, a nie jedynie celowego lub zamierzonego działania, które powoduje szkodę. Szkody wyrządzone z niedbalstwa lub lekkomyślności nie spełniają tego kryterium.</p>
+    <p>Typowe zastosowania obejmują zamierzone delikty (napaść, pobicie), zamierzone uszkodzenie mienia oraz niektóre roszczenia z tytułu naruszenia umowy o charakterze umyślnym.</p>
+
+    <h2>Śmierć lub uszkodzenie ciała w wyniku prowadzenia pod wpływem (DUI)</h2>
+    <p>Section 523(a)(9) wyłącza długi za śmierć lub uszkodzenie ciała spowodowane prowadzeniem przez dłużnika pojazdu mechanicznego, statku lub statku powietrznego pod wpływem alkoholu, narkotyku lub innej substancji. Kategoria ta nie wymaga postępowania kontradyktoryjnego - rejestr karny lub wyrok cywilny są zazwyczaj wystarczającym dowodem.</p>
+
+    <h2>Restytucja i grzywny karne</h2>
+    <p>Section 523(a)(7) wyłącza grzywny, kary i przepadki płatne na rzecz jednostki rządowej. Section 523(a)(13) wyłącza nakazy restytucji karnej. Utrzymują się one mimo umorzenia, niezależnie od zdolności płatniczej dłużnika.</p>
+
+    <h2>Długi niewykazane w zestawieniach upadłościowych</h2>
+    <p>Section 523(a)(3) wyłącza długi niewykazane w zestawieniach (schedules), gdy wierzyciel nie miał zawiadomienia ani faktycznej wiedzy o sprawie w czasie pozwalającym na terminowe zgłoszenie wierzytelności. Wyjątek ma zastosowanie głównie w sprawach, w których aktywa są dostępne do podziału; w sprawach bez aktywów sądy często otwierają sprawę ponownie, aby dodać pominiętego wierzyciela lub traktują pominięcie jako bez znaczenia.</p>
+
+    <div class="callout">
+      <p><strong>Uwaga praktyczna.</strong> Należy zawsze umieszczać każdego znanego wierzyciela w zestawieniach upadłościowych, nawet w odniesieniu do długów kwestionowanych przez dłużnika. Pominięcie wierzyciela rodzi ryzyko niewykonalności umorzenia na podstawie § 523(a)(3), zwłaszcza w sprawach z aktywami.</p>
+    </div>
+
+    <h2>Mechanizm postępowania kontradyktoryjnego</h2>
+    <p>Dla kategorii wymagających działania wierzyciela (§ 523(a)(2), (4), (6), (15)) wierzyciel musi wnieść pozew kontradyktoryjny na podstawie FRBP 7001 w terminie 60 dni od pierwszej daty wyznaczonej na zgromadzenie wierzycieli z § 341. Pozew wszczyna odrębne postępowanie cywilne w ramach sprawy upadłościowej. Sąd rozstrzyga, czy dług mieści się w wyjątku, i wydaje orzeczenie określające wykonalność umorzenia.</p>
+    <p>Niewniesienie pozwu w terminie skutkuje umorzeniem długu. Sądy interpretują ten termin rygorystycznie; przedłużenia są przyznawane rzadko, jedynie w wyjątkowych okolicznościach.</p>
+
+    <h2>Kategorie samowykonalne a wymagające postępowania kontradyktoryjnego</h2>
+    <p>Niektóre kategorie § 523(a) są „samowykonalne" (self-executing) - dług nie podlega umorzeniu z mocy prawa, bez konieczności prowadzenia postępowania kontradyktoryjnego (podatki, alimenty, kredyty studenckie, grzywny karne). Inne wymagają od wierzyciela wniesienia powództwa kontradyktoryjnego w celu wykazania niewykonalności umorzenia (oszustwo, sprzeniewierzenie, umyślna i złośliwa szkoda, podział majątku).</p>
+    <p>Rozróżnienie to ma znaczenie: wyjątki samowykonalne utrzymują się po zakończeniu postępowania upadłościowego bez czyichkolwiek działań; wyjątki wymagające postępowania kontradyktoryjnego są tracone, jeśli wierzyciel nie złoży pozwu w terminie.</p>
+
+    <h2>Dalsza lektura</h2>
+    <ul>
+      <li><a href="https://www.law.cornell.edu/uscode/text/11/523" target="_blank" rel="noopener">11 U.S.C. § 523 - Exceptions to Discharge</a></li>
+      <li><em>Brunner v. NY State Higher Ed. Servs. Corp.</em>, 831 F.2d 395 (2d Cir. 1987)</li>
+      <li><em>Kawaauhau v. Geiger</em>, 523 U.S. 57 (1998)</li>
+      <li><a href="/does-bankruptcy-clear-all-debt.html">Does Bankruptcy Clear All Debt? (w języku angielskim)</a></li>
+      <li><a href="/does-bankruptcy-clear-student-loans.html">Does Bankruptcy Clear Student Loans? (w języku angielskim)</a></li>
+      <li><a href="/can-you-file-bankruptcy-on-taxes.html">Can You File Bankruptcy on Taxes? (w języku angielskim)</a></li>
+    </ul>
+
+    <p style="margin-top:32px;font-size:0.85rem;color:var(--text-muted)"><em>Niniejsza strona dostarcza wyłącznie informacji edukacyjnych. Kwestie wykonalności umorzenia są specyficzne dla danego długu i proceduralnie złożone. W indywidualnej sprawie proszę skonsultować się z licencjonowanym prawnikiem specjalizującym się w upadłościach.</em></p>
+
+  </div>
+</div>
+
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Bezpłatna, otwarta transparentność postępowań upadłościowych. Bez reklam. Bez linków afiliacyjnych. Wspierane przez <a href="https://openbankruptcyproject.org/donate.html">darowizny</a>.</p>
+
+  <div class="container">
+    <div class="footer-links">
+      <a href="/">Strona główna</a>
+      <a href="/about.html">O nas</a>
+      <a href="/research.html">Badania</a>
+      <a href="/contact.html">Kontakt</a>
+      <a href="/privacy.html">Prywatność</a>
+      <a href="/terms.html">Regulamin</a>
+      <a href="/deletion-requests.html">Wnioski o usunięcie</a>
+    </div>
+    <p>Open Bankruptcy Project jest organizacją non-profit 501(c)(3).</p>
+    <p>EIN 41-5159631. Wszystkie narzędzia i dane udostępniane są na licencjach open source.</p>
+  </div>
+  <p style="margin-top:16px; font-size:0.8rem;">Nie udziela się porad prawnych. To wyłącznie informacja edukacyjna.</p>
+  <p>Ta strona dostarcza informacji o charakterze ogólnym, a nie porady prawnej. W indywidualnej sprawie proszę skonsultować się z wykwalifikowanym prawnikiem.</p>
+</footer>
+
+</body>
+</html>

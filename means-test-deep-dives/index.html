@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Means Test Deep Dives - Open Bankruptcy Project</title>
+<meta name="description" content="Line-by-line walkthroughs of the Chapter 7 and Chapter 13 means-test forms (122A-1, 122A-2, and 122C) and the presumed-abuse rebuttal framework."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/means-test-deep-dives/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Means Test Deep Dives - Open Bankruptcy Project"/>
+<meta property="og:description" content="Line-by-line walkthroughs of the Chapter 7 and Chapter 13 means-test forms (122A-1, 122A-2, and 122C) and the presumed-abuse rebuttal framework."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/means-test-deep-dives/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Means Test Deep Dives","description":"Line-by-line walkthroughs of the Chapter 7 and Chapter 13 means-test forms (122A-1, 122A-2, and 122C) and the presumed-abuse rebuttal framework.","url":"https://openbankruptcyproject.org/means-test-deep-dives/","isPartOf":{"@type":"WebSite","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org/"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Form 122A-1 - Chapter 7 Statement of Current Monthly Income","url":"https://openbankruptcyproject.org/means-test-deep-dives/form-122a-1-income/"},{"@type":"ListItem","position":2,"name":"Form 122A-2 - Chapter 7 Means Test Deductions","url":"https://openbankruptcyproject.org/means-test-deep-dives/form-122a-2-deductions/"},{"@type":"ListItem","position":3,"name":"Form 122C - Chapter 13 Statement of Current Monthly Income","url":"https://openbankruptcyproject.org/means-test-deep-dives/form-122c-chapter-13/"},{"@type":"ListItem","position":4,"name":"Presumed Abuse Rebuttal","url":"https://openbankruptcyproject.org/means-test-deep-dives/presumed-abuse-rebuttal/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://openbankruptcyproject.org/"},{"@type":"ListItem","position":2,"name":"Means Test Deep Dives","item":"https://openbankruptcyproject.org/means-test-deep-dives/"}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul{margin:10px 0 18px 0;color:var(--text-secondary);list-style:none}
+main li{margin-bottom:14px}
+.child-list{margin:18px 0}
+.child-list a{font-weight:700;font-size:1.02rem}
+.child-list .desc{display:block;color:var(--text-secondary);font-size:.93rem;margin-top:4px}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}</style>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LegalCase","name":"Hamilton v. Lanning","alternateName":"Hamilton v. Lanning, 560 U.S. 505 (2010)","url":"https://openbankruptcyproject.org/citations/hamilton-v-lanning/","datePublished":"2010-06-07","court":"Supreme Court of the United States"}</script>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">BAPCPA Eligibility Framework</div>
+<h1>Means Test Deep Dives</h1>
+<p class="lede">The means test enacted by the Bankruptcy Abuse Prevention and Consumer Protection Act of 2005 - codified at 11 U.S.C. section 707(b)(2) for Chapter 7 and section 1325(b) for Chapter 13 - is the principal eligibility filter for consumer bankruptcy. Three Official Forms (122A-1, 122A-2, and 122C) operationalize the calculation, and a body of case law has developed around the presumed-abuse rebuttal framework. These four guides walk through each form and the rebuttal mechanics.</p>
+<div class="datastamp">Last modified <time datetime="2026-05-23">2026-05-23</time>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Means Test Deep Dives</div>
+
+<h2>About the means test</h2>
+<p>The means test has two functions. In Chapter 7, it determines whether the filing is presumed to be an abuse of the bankruptcy system under section 707(b)(2), in which case the case must be dismissed (or, with the debtor's consent, converted to Chapter 13) absent rebuttal by a showing of special circumstances. In Chapter 13, it determines the applicable commitment period (three years for below-median debtors, five years for above-median debtors) and constrains the calculation of projected disposable income that must be paid to unsecured creditors under section 1325(b).</p>
+<p>The mechanics are deceptively simple. Form 122A-1 calculates current monthly income (CMI) by averaging the debtor's gross income from all sources during the six full calendar months preceding the petition date and multiplying by twelve to annualize. If annualized CMI is at or below the applicable state-and-household-size median income (published quarterly by the United States Trustee Program), the means test is over and no presumption arises. If CMI is above the median, the debtor proceeds to Form 122A-2 and applies the standardized National Standards, Local Standards, and Other Necessary Expenses deductions promulgated by the IRS, along with the secured-debt and priority-debt deductions specified by section 707(b)(2)(A)(iii) and (iv).</p>
+<p>The deep-dives below treat each form and the rebuttal framework in turn, covering the line-by-line calculation, the principal interpretive disputes (including the <em>Hamilton v. Lanning</em> framework for projected disposable income in Chapter 13), and the practical mechanics of the presumed-abuse rebuttal.</p>
+
+<h2>Form-by-form deep-dives</h2>
+<ul class="child-list">
+<li><a href="/means-test-deep-dives/form-122a-1-income/">Form 122A-1 - Chapter 7 Statement of Current Monthly Income</a><span class="desc">The Chapter 7 CMI calculation, the six-month lookback window, the inclusion and exclusion rules for various income sources, the marital-adjustment line, and the median-income comparison.</span></li>
+<li><a href="/means-test-deep-dives/form-122a-2-deductions/">Form 122A-2 - Chapter 7 Means Test Deductions</a><span class="desc">The IRS National Standards, the Local Standards housing and transportation allowances, the Other Necessary Expenses category, the secured-debt and priority-debt deductions, and the disposable-income computation that triggers the presumption.</span></li>
+<li><a href="/means-test-deep-dives/form-122c-chapter-13/">Form 122C - Chapter 13 Statement of Current Monthly Income</a><span class="desc">The Chapter 13 CMI and disposable-income calculation, the applicable-commitment-period determination, and the projected-disposable-income framework articulated by <em>Hamilton v. Lanning</em>.</span></li>
+<li><a href="/means-test-deep-dives/presumed-abuse-rebuttal/">Presumed Abuse Rebuttal</a><span class="desc">The section 707(b)(2)(B) special-circumstances rebuttal, the documentation and itemization requirements, the totality-of-circumstances analysis under section 707(b)(3), and the United States Trustee's role.</span></li>
+</ul>
+
+<div class="callout"><strong>Procedural note:</strong> Under Federal Rule of Bankruptcy Procedure 1017(e), a motion to dismiss for presumed abuse under section 707(b)(2) must be filed within 60 days after the first date set for the section 341 meeting of creditors. The United States Trustee's section 704(b)(1)(A) statement of presumed abuse, however, is due within 10 days after the 341 meeting.</div>
+
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Educational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+</body></html>

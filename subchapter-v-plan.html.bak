@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<!-- BTN:GA4:START -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>The Subchapter V Plan - What You Need to Know [2026]</title>
+<meta content="How to draft a Subchapter V plan. Plan contents, the 90-day filing deadline, feasibility requirements, treatment of secured and unsecured..." name="description"/>
+<link href="https://openbankruptcyproject.org/subchapter-v-plan.html" rel="canonical"/>
+<meta content="The Subchapter V Plan - What You Need to Know [2026]" property="og:title"/>
+<meta content="How to draft a Subchapter V plan. Plan contents, the 90-day filing deadline, feasibility requirements, treatment of secured and unsecured..." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/subchapter-v-plan.html" property="og:url"/>
+<meta content="openbankruptcyproject.org" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/sitemap.xml" rel="sitemap" type="application/xml"/>
+<meta content="#0d1117" name="theme-color"/>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"The Subchapter V Plan - What You Need to Know [2026]","description":"How to draft a Subchapter V plan. Plan contents, deadlines, creditor treatment, and confirmation.","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://1328f.org"},"datePublished":"2026-04-07","dateModified":"2026-04-07","mainEntityOfPage":"https://openbankruptcyproject.org/subchapter-v-plan.html"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+{"@type": "Question", "name": "What must a Subchapter V plan contain?", "acceptedAnswer": {"@type": "Answer", "text": "A Sub V plan must include a brief history of the business, a liquidation analysis, projected financial information, and the proposed treatment for each class of claims. Unlike traditional Chapter 11, no separate disclosure statement is required."}},
+{"@type": "Question", "name": "When must the Sub V plan be filed?", "acceptedAnswer": {"@type": "Answer", "text": "The plan must be filed within 90 days after the order for relief (11 U.S.C. section 1189(b)). Extensions are possible for cause, but courts expect compliance with this deadline."}},
+{"@type": "Question", "name": "Can creditors file a competing plan in Subchapter V?", "acceptedAnswer": {"@type": "Answer", "text": "No. Only the debtor may file a plan in Subchapter V. This is one of the biggest advantages over traditional Chapter 11, where creditors can propose competing plans after the exclusivity period expires."}},
+{"@type": "Question", "name": "What happens if creditors reject the Sub V plan?", "acceptedAnswer": {"@type": "Answer", "text": "The court can still confirm the plan under section 1191(b) (cramdown) if the plan does not discriminate unfairly, is fair and equitable, and commits all projected disposable income to unsecured creditors for 3-5 years."}},
+{"@type": "Question", "name": "Does a Sub V plan require a disclosure statement?", "acceptedAnswer": {"@type": "Answer", "text": "No. Section 1181(b) eliminates the disclosure statement requirement for Subchapter V cases. The plan itself must contain adequate information, but no separate disclosure document needs court approval before soliciting votes."}}
+]}
+</script>
+<style>
+  :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-muted: #9eaab6; --accent: #58a6ff; --green: #3fb950; --red: #f85149; --yellow: #e3a835; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  nav .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .hamburger { display: none; background: none; border: 1px solid var(--border); color: var(--text); font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1; }
+  .breadcrumb { max-width: 760px; margin: 1rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; color: var(--text-muted); }
+  .breadcrumb a { color: var(--text-muted); } .breadcrumb a:hover { color: var(--accent); }
+  header { background: linear-gradient(135deg, #0d2137, #122a44); border-bottom: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+  header h1 { color: #f0f6fc; font-size: 2rem; margin-bottom: 0.75rem; }
+  header .subtitle { color: var(--text-muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 1.5rem; }
+  .content-section h2 { color: #f0f6fc; font-size: 1.375rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .content-section h3 { color: #f0f6fc; font-size: 1.125rem; margin: 1.5rem 0 0.75rem; }
+  .content-section p { color: var(--text); margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .content-section ul, .content-section ol { margin: 0.75rem 0 0.75rem 1.5rem; color: var(--text); font-size: 0.95rem; }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box { background: #21262d; border-left: 3px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .warning-box { background: #21262d; border-left: 3px solid var(--red); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .green-box { background: #21262d; border-left: 3px solid var(--green); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .yellow-box { background: #21262d; border-left: 3px solid var(--yellow); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .sponsor-cta { text-align: center; padding: 1.5rem; margin: 1.5rem 0; }
+  .network-links { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem 2rem; margin-bottom: 1.5rem; font-size: 0.85rem; color: var(--text-muted); line-height: 2; }
+  .network-links strong { color: var(--text); }
+  footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 2rem; }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) { .hamburger { display: inline-block; } .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; } .nav-links.open { display: flex; } header { padding: 2rem 1rem; } header h1 { font-size: 1.5rem; } main { padding: 1.5rem 1rem; } .content-section { padding: 1.25rem; } }
+</style>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a class="site-name" href="/">openbankruptcyproject.org</a>
+<button aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation menu" class="hamburger">☰</button>
+<div class="nav-links" id="nav-links">
+<a href="/">Home</a><a href="research.html">Research</a><a href="impact.html">Impact</a><a href="legal-aid.html">Legal Aid</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+</div>
+</nav>
+<header>
+<h1>The Subchapter V Plan</h1>
+<p class="subtitle">What goes in the plan, when it must be filed, how creditors vote, and the two paths to confirmation. The plan is the center of every Sub V case - get it right.</p>
+</header>
+<div class="breadcrumb"><a href="/">Home</a> › <a href="subchapter-v.html">Subchapter V Guide</a> › The Plan</div>
+<main>
+<div class="content-section">
+<h2>The 90-Day Deadline</h2>
+<p>Under 11 U.S.C. § 1189(b), the debtor must file a plan within <strong>90 days</strong> after the order for relief. The court can extend this deadline "if the need for the extension is attributable to circumstances for which the debtor should not justly be held accountable."</p>
+<p>In practice, courts routinely grant 30-60 day extensions for cause. But do not plan on it. The best approach is to start drafting the plan before you even file the petition. Your financial projections, creditor treatment, and plan terms should be substantially complete at filing.</p>
+<div class="warning-box">
+<p><strong>Consequence of missing the deadline:</strong> If you do not file a plan within the deadline (or any extended deadline), the court can dismiss the case or convert it to <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> on the motion of any party in interest. The <a href="https://section1191.org/" title="Subchapter V">Sub V</a> trustee will flag late plans.</p>
+</div>
+</div>
+<div class="content-section">
+<h2>What the Plan Must Contain</h2>
+<p>Because <a href="https://section1191.org/" title="Subchapter V">Subchapter V</a> eliminates the separate disclosure statement, the plan itself must include adequate information. At minimum:</p>
+<ul>
+<li><strong>Brief history of the business operations.</strong> What does the business do, how long has it operated, and what led to the bankruptcy filing.</li>
+<li><strong>Liquidation analysis.</strong> Show that creditors receive at least as much under the plan as they would in a <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> liquidation. This is the "best interests of creditors" test.</li>
+<li><strong>Financial projections.</strong> Revenue, expenses, and cash flow projections for the plan period (typically 3-5 years). These must be realistic and supportable.</li>
+<li><strong>Classification of claims.</strong> Group creditors into classes based on the nature of their claims (secured, priority unsecured, general unsecured).</li>
+<li><strong>Treatment of each class.</strong> How each class will be paid - amount, timing, interest rate, and any modifications to original terms.</li>
+<li><strong>Means of implementation.</strong> Where the money will come from. Ongoing business income, asset sales, new financing, or a combination.</li>
+</ul>
+</div>
+<div class="content-section">
+<h2>Treatment of Claims</h2>
+<h3>Secured creditors</h3>
+<p>Secured claims must be treated in one of three ways: (1) the plan provides that the creditor retains its lien and receives deferred payments equal to the allowed amount of the claim, (2) the debtor surrenders the collateral, or (3) the creditor accepts different treatment.</p>
+<p>For vehicle loans and equipment financing, the plan can modify the terms - extending the payment period, reducing the interest rate to the current market rate, or cramming down the claim to the collateral's value if the loan is not a purchase money security interest obtained within the applicable time period.</p>
+<h3>Priority claims</h3>
+<p>Priority claims (taxes, domestic support obligations, administrative expenses) must generally be paid in full. The plan can propose deferred payments of priority tax claims over a period not exceeding 5 years from the petition date.</p>
+<h3>General unsecured creditors</h3>
+<p>The plan must provide that unsecured creditors receive at least as much as they would in a Chapter 7 liquidation. Under a consensual plan (§ 1191(a)), the debtor has flexibility in the percentage and timing of distributions. Under <a href="https://section1192.org/" title="cramdown">cramdown</a> (§ 1191(b)), the debtor must commit all projected disposable income for 3-5 years.</p>
+</div>
+<div class="content-section">
+<h2>Confirmation: Consensual vs. Cramdown</h2>
+<p>There are two paths to getting a Sub V plan confirmed:</p>
+<h3><a href="https://www.law.cornell.edu/uscode/text/11/1191#a_0" rel="noopener" target="_blank">Section 1191(a)</a> - Consensual confirmation</h3>
+<ul>
+<li>All impaired classes vote to accept the plan</li>
+<li>Each accepting class must have more than 50% in number and at least two-thirds in amount of the voting creditors accept</li>
+<li>Unimpaired classes are deemed to accept</li>
+<li>Classes that do not vote are deemed to accept</li>
+<li><strong><a href="https://bankruptcydischarge.org/" title="discharge">Discharge</a> at confirmation</strong> - the debtor receives the <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> immediately</li>
+</ul>
+<h3><a href="https://www.law.cornell.edu/uscode/text/11/1191#b_0" rel="noopener" target="_blank">Section 1191(b)</a> - Cramdown confirmation</h3>
+<ul>
+<li>At least one impaired class rejects the plan</li>
+<li>The plan does not discriminate unfairly and is fair and equitable with respect to each rejecting class</li>
+<li>The debtor must commit all projected disposable income for 3-5 years to unsecured creditors</li>
+<li>The absolute priority rule does <strong>not</strong> apply - the debtor keeps the business</li>
+<li><strong>Discharge after plan completion</strong> - not at confirmation</li>
+</ul>
+<div class="green-box">
+<p><strong>Strategy:</strong> Always aim for § 1191(a) consensual confirmation. The immediate discharge, the lack of a disposable income commitment, and the certainty of a confirmed plan are all significant advantages. Negotiate with creditors before the <a href="https://chapter13plan.org/" title="confirmation">confirmation hearing</a>.</p>
+</div>
+</div>
+<div class="content-section">
+<h2>Feasibility</h2>
+<p>The court will not confirm a plan that is not feasible. Under 11 U.S.C. § 1129(a)(11) (applicable to Sub V through § 1191), confirmation requires that the plan is "not likely to be followed by the liquidation, or the need for further financial reorganization, of the debtor."</p>
+<p>Your financial projections must be credible. The court and the Sub V trustee will scrutinize them. Common feasibility problems:</p>
+<ul>
+<li><strong>Over-optimistic revenue projections.</strong> If your business lost money last year, projecting 30% growth requires strong justification.</li>
+<li><strong>Ignoring seasonal patterns.</strong> Monthly cash flow matters. An annual surplus is meaningless if you cannot make January payments.</li>
+<li><strong>Understating expenses.</strong> Courts have seen this before. Be realistic about costs.</li>
+<li><strong>No contingency buffer.</strong> Plans that work only if everything goes perfectly are not feasible.</li>
+</ul>
+</div>
+<div class="content-section">
+<h2>Related Pages</h2>
+<ul>
+<li><a href="subchapter-v.html">Subchapter V Complete Guide</a></li>
+<li><a href="subchapter-v-eligibility.html">Do I Qualify for Subchapter V?</a></li>
+<li><a href="subchapter-v-costs.html">Subchapter V Costs</a></li>
+<li><a href="subchapter-v-discharge.html">Subchapter V Discharge (1191a vs 1191b)</a></li>
+<li><a href="subchapter-v-faq.html">Subchapter V FAQ</a></li>
+<li><a href="section-1189-filing-of-plan.html">Section 1189 - Filing of the Plan</a></li>
+<li><a href="section-1190-acceptance-of-plan.html">Section 1190 - Acceptance of the Plan</a></li>
+</ul>
+</div>
+<div class="sponsor-cta">
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor This Project</a>
+</div>
+<div class="network-links">
+<strong>Bankruptcy Tools Network:</strong><br/>
+<a href="https://1328f.com?utm_source=btn&amp;utm_medium=crosslink&amp;utm_campaign=openbankruptcyproject.org">Discharge Screener</a> ·
+  <a href="https://1328f.org?utm_source=btn&amp;utm_medium=crosslink&amp;utm_campaign=openbankruptcyproject.org">Research Platform</a> ·
+  <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&amp;utm_medium=crosslink&amp;utm_campaign=openbankruptcyproject.org">Exemptions by State</a> ·
+  <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&amp;utm_medium=crosslink&amp;utm_campaign=openbankruptcyproject.org">Bankruptcy Cost</a> ·
+  <a href="https://prosebankruptcy.org?utm_source=btn&amp;utm_medium=crosslink&amp;utm_campaign=openbankruptcyproject.org">Pro Se Guide</a>
+</div>
+</main>
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+<p style="margin-bottom:0.5rem"><a href="/">Home</a> · <a href="research.html">Research</a> · <a href="impact.html">Impact</a> · <a href="legal-aid.html">Legal Aid</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a></p>
+<p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br/>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) nonprofit.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script>document.querySelector('.hamburger').addEventListener('click', function() { var nav = document.getElementById('nav-links'); var open = nav.classList.toggle('open'); this.setAttribute('aria-expanded', open); });</script>
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Clerk Notification Templates - Rule 9037(a) Exposures | Open Bankruptcy Project</title>
+<meta name="description" content="Sample written notice to the clerk of a federal bankruptcy court identifying a Rule 9037(a) exposure. Template language, what to include, what to omit, follow-up workflow.">
+<meta name="theme-color" content="#0d1117">
+<link rel="canonical" href="https://openbankruptcyproject.org/rule-9037/clerk-notification/">
+<meta property="og:title" content="Clerk Notification Templates for Rule 9037(a) Exposures">
+<meta property="og:description" content="Sample written notice to a clerk of court identifying an unredacted personal identifier on a public filing.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/rule-9037/clerk-notification/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Open Bankruptcy Project", "item": "https://openbankruptcyproject.org/"},
+    {"@type": "ListItem", "position": 2, "name": "Rule 9037", "item": "https://openbankruptcyproject.org/rule-9037/"},
+    {"@type": "ListItem", "position": 3, "name": "Clerk notification", "item": "https://openbankruptcyproject.org/rule-9037/clerk-notification/"}
+  ]
+}
+</script>
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<style>
+  :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --text-muted:#9eaab6; --accent:#58a6ff; --green:#238636; --yellow:#f0c14b; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; min-height:100vh; display:flex; flex-direction:column; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  nav { background:var(--surface); border-bottom:1px solid var(--border); padding:0.75rem 2rem; display:flex; align-items:center; justify-content:space-between; }
+  .site-name { color:#f0f6fc; font-weight:700; font-size:1.1rem; }
+  .container { max-width:820px; margin:0 auto; padding:2.5rem 2rem; flex:1; }
+  .crumb { color:var(--text-muted); font-size:0.85rem; margin-bottom:0.75rem; }
+  .crumb a { color:var(--text-muted); }
+  h1 { color:#f0f6fc; font-size:2rem; margin-bottom:0.5rem; line-height:1.3; }
+  .subtitle { color:var(--text-muted); font-size:1.05rem; margin-bottom:2rem; }
+  h2 { color:#f0f6fc; font-size:1.3rem; margin:2rem 0 0.75rem; }
+  h3 { color:#f0f6fc; font-size:1.05rem; margin:1.5rem 0 0.5rem; }
+  p { margin-bottom:1rem; }
+  ul, ol { margin:0.5rem 0 1rem 1.5rem; }
+  li { margin-bottom:0.4rem; }
+  code { background:var(--surface); border:1px solid var(--border); padding:0.1rem 0.35rem; border-radius:4px; font-size:0.9em; }
+  .callout { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:1.1rem 1.4rem; margin:1.5rem 0; }
+  .callout.warn { background:#2a1a00; border-color:#bb8c3a; }
+  .callout strong { color:#f0f6fc; }
+  .callout p:last-child { margin-bottom:0; }
+  .template { background:#0d1f2d; border:1px solid #1f4068; border-radius:6px; padding:1.25rem 1.5rem; margin:1rem 0; font-family:ui-monospace,SFMono-Regular,Monaco,Menlo,Consolas,monospace; font-size:0.88rem; line-height:1.7; white-space:pre-wrap; color:#c9d1d9; }
+  .network-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:0.6rem; margin:1rem 0; }
+  .network-grid a { background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:0.75rem; text-align:center; font-size:0.9rem; }
+  .network-grid a:hover { border-color:var(--accent); text-decoration:none; }
+  footer { background:var(--surface); border-top:1px solid var(--border); padding:1.5rem; text-align:center; font-size:0.8rem; color:var(--text-muted); margin-top:2rem; }
+</style>
+</head>
+<body>
+<nav><a href="/" class="site-name">Open Bankruptcy Project</a><a href="/" style="color:var(--text-muted);font-size:0.9rem">Home</a></nav>
+<div class="container">
+  <div class="crumb"><a href="/">Home</a> &raquo; <a href="/rule-9037/">Rule 9037</a> &raquo; Clerk notification</div>
+  <h1>Clerk notification templates for Rule 9037(a) exposures</h1>
+  <p class="subtitle">The first remedial step after discovering an unredacted personal identifier on a public filing is to notify the clerk of court. Most clerks can restrict access administratively while a Rule 9037(h) motion is pending.</p>
+
+  <div class="callout warn">
+    <p><strong>Do not include the identifier in the notification.</strong> Identify the exposure by docket location (case number, document number, page) and by category of identifier (SSN, account, routing, DOB). The clerk does not need the value to act on the notice, and transmitting it compounds the exposure.</p>
+  </div>
+
+  <h2>Short-form email template (email to the clerk's intake address)</h2>
+  <div class="template">Subject: Rule 9037(a) exposure on Doc. [##] in Case [##-#####]
+
+Dear Clerk of Court:
+
+I write to notify the Court of an apparent violation of Federal Rule of
+Bankruptcy Procedure 9037(a) in the following filing:
+
+    Case:         [case name], Case No. [##-#####]
+    Document:     [Doc. ##], [description], filed [date]
+    Attachment:   [Att. ##, if applicable]
+    Page:         [page number]
+    Identifier:   [category only - e.g., "full Social Security number";
+                   do not include the value]
+
+I respectfully request that access to this filing be restricted pending
+redaction or a motion under Rule 9037(h). I am available to provide
+additional locator information if needed. I have not included the identifier
+in this notice and request that any further communication identify the
+exposure by docket location only.
+
+Respectfully,
+
+[Name]
+[Role: party, affected non-party, or counsel]
+[Contact information]
+</div>
+
+  <h2>Formal letter template (if email is not accepted)</h2>
+  <div class="template">[Your name]
+[Your address]
+[Date]
+
+Clerk of Court
+United States Bankruptcy Court
+[District]
+[Court address]
+
+Re: Rule 9037(a) exposure - [Case name], Case No. [##-#####]
+    Document [##], page [#]
+
+Dear Clerk of Court:
+
+Pursuant to Federal Rule of Bankruptcy Procedure 9037(a), I write to notify
+the Court that the above-referenced filing contains an apparent unredacted
+personal identifier. The identifier is [category only, e.g., "a full Social
+Security number"] and appears on page [#] of Document [##] in Case
+[##-#####]. I have not reproduced the identifier in this letter, and I
+request that any response or further communication identify the exposure
+by docket location rather than by value.
+
+I respectfully request that access to the filing be restricted pending
+the Court's consideration of any motion under Rule 9037(h). I am [a party,
+an affected non-party, or counsel] and am available to provide additional
+locator information or to file a motion under Rule 9037(h) if the Court
+prefers that the remediation proceed on motion.
+
+Thank you for your attention to this matter.
+
+Respectfully,
+
+[Signature]
+[Printed name]
+[Role]
+[Contact information]
+</div>
+
+  <h2>What to include and what to omit</h2>
+  <h3>Include</h3>
+  <ul>
+    <li>Case name and case number</li>
+    <li>Document (docket entry) number and attachment number if applicable</li>
+    <li>Page number where the identifier appears</li>
+    <li>Category of identifier (SSN, financial account, routing number, date of birth)</li>
+    <li>Your role: party, affected non-party, counsel, or other</li>
+    <li>Your contact information</li>
+    <li>A request that access be restricted pending remediation</li>
+  </ul>
+
+  <h3>Omit</h3>
+  <ul>
+    <li>The value of the identifier (even partially)</li>
+    <li>A copy of the exposed filing</li>
+    <li>A screenshot that shows the identifier</li>
+    <li>Legal conclusions about the filer's intent or fault</li>
+    <li>Arguments more appropriate to a motion (save those for the Rule 9037(h) filing)</li>
+  </ul>
+
+  <h2>Who receives the notice</h2>
+  <p>Each federal bankruptcy court has a general clerk's office intake contact. In most districts, an email to the clerk's intake address is sufficient. Some districts prefer a formal letter. The local rules or the court's website will specify. When in doubt, send both the short-form email and the formal letter, noting in the email that the letter will follow by mail.</p>
+
+  <h2>Follow-up</h2>
+  <p>If the clerk has not responded within seven to ten calendar days, a short follow-up email referencing the original notice (with its date and subject line) is appropriate. If the clerk does not act within a reasonable time, or if the clerk declines to act administratively, the next step is a <a href="/rule-9037/remediation/">motion under Rule 9037(h)</a>.</p>
+
+  <h2>Related pages in this cluster</h2>
+  <div class="network-grid">
+    <a href="/rule-9037/">Rule 9037 hub</a>
+    <a href="/rule-9037/remediation/">Remediation workflow</a>
+    <a href="/rule-9037/forms-121-309e1/">Forms 121 &amp; 309E1</a>
+    <a href="/rule-9037/case-law/">Published case law</a>
+  </div>
+
+  <h2>Related OBP research</h2>
+  <div class="network-grid">
+    <a href="https://section329.org">Section 329 Counsel Fees</a>
+    <a href="https://524injunction.com">Section 524 Discharge Injunction</a>
+    <a href="https://righttocure.org">Notice of Right to Cure</a>
+    <a href="https://garnishedwages.org">Wage Garnishment</a>
+    <a href="https://vacatejudgment.org">Vacating Judgments</a>
+    <a href="https://bankruptcyfreshstart.org">Fresh Start After Bankruptcy</a>
+    <a href="https://openbankruptcyproject.org/statistics.html">National Bankruptcy Statistics</a>
+    <a href="https://openbankruptcyproject.org/citations.html">Citations Index</a>
+  </div>
+
+  <p style="color:var(--text-muted);font-size:0.85rem;margin-top:2rem">General information on clerk-notification practice. Not legal advice. Local rules vary by district; consult the governing local rule and a qualified bankruptcy attorney for your specific situation.</p>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+  <p>This site provides general information only and does not constitute legal advice.</p>
+  <p>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) nonprofit.</p>
+  <p style="margin-top:0.5rem"><a href="/privacy.html" style="color:#7d8590">Privacy</a> | <a href="/terms.html" style="color:#7d8590">Terms</a> | <a href="/" style="color:#7d8590">Open Bankruptcy Project</a></p>
+</footer>
+<!-- BTN:FOOTER:END -->
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Discharge Mechanics - Open Bankruptcy Project</title>
+<meta name="description" content="Deep-dive guides to the bankruptcy discharge: section 524 injunction, reaffirmation, discharge denial vs dischargeability, Brunner test, and priority tax claims."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/discharge-mechanics/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Discharge Mechanics - Open Bankruptcy Project"/>
+<meta property="og:description" content="Deep-dive guides to the bankruptcy discharge: section 524 injunction, reaffirmation, dischargeability, Brunner test, and priority tax claims."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/discharge-mechanics/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Discharge Mechanics","description":"Deep-dive guides to how the bankruptcy discharge is granted, enforced, denied, and excepted.","url":"https://openbankruptcyproject.org/discharge-mechanics/","isPartOf":{"@type":"WebSite","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org/"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Section 524 Discharge Injunction","url":"https://openbankruptcyproject.org/discharge-mechanics/section-524-discharge-injunction/"},{"@type":"ListItem","position":2,"name":"Reaffirmation Agreements","url":"https://openbankruptcyproject.org/discharge-mechanics/reaffirmation-agreements/"},{"@type":"ListItem","position":3,"name":"Discharge Denial vs Dischargeability","url":"https://openbankruptcyproject.org/discharge-mechanics/discharge-denial-vs-dischargeability/"},{"@type":"ListItem","position":4,"name":"Student Loans and the Brunner Test","url":"https://openbankruptcyproject.org/discharge-mechanics/student-loans-brunner-test/"},{"@type":"ListItem","position":5,"name":"Priority Tax Claims","url":"https://openbankruptcyproject.org/discharge-mechanics/priority-tax-claims/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://openbankruptcyproject.org/"},{"@type":"ListItem","position":2,"name":"Discharge Mechanics","item":"https://openbankruptcyproject.org/discharge-mechanics/"}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul{margin:10px 0 18px 0;color:var(--text-secondary);list-style:none}
+main li{margin-bottom:14px}
+.child-list{margin:18px 0}
+.child-list a{font-weight:700;font-size:1.02rem}
+.child-list .desc{display:block;color:var(--text-secondary);font-size:.93rem;margin-top:4px}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">The Bankruptcy Fresh Start</div>
+<h1>Discharge Mechanics</h1>
+<p class="lede">The discharge is the central benefit of consumer bankruptcy: a court order permanently barring creditors from collecting pre-petition debts from the debtor personally. But the discharge is qualified - some debts are excepted under section 523, some debtors are denied discharge entirely under section 727 or section 1328(e), and some otherwise-dischargeable debts can be voluntarily revived through reaffirmation. These five deep-dives unpack the mechanics.</p>
+<div class="datastamp">Last modified <time datetime="2026-05-22">2026-05-22</time>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Discharge Mechanics</div>
+
+<h2>About the discharge framework</h2>
+<p>A bankruptcy discharge operates as a statutory injunction under section 524(a)(2), prohibiting any act to collect a discharged debt as a personal liability of the debtor. The injunction is automatic on entry of the discharge order; it requires no separate enforcement action and binds creditors regardless of whether they received notice of the bankruptcy case (with narrow exceptions for unscheduled debts in no-asset cases).</p>
+<p>Two doctrinally distinct mechanisms can defeat a discharge. First, the entire discharge can be denied under section 727 (Chapter 7) or section 1328(e) (Chapter 13) for misconduct in the bankruptcy case itself - concealment of assets, false oath, failure to keep records, refusal to obey a court order, and similar grounds. Second, a particular debt can be excepted from an otherwise-granted discharge under section 523(a) for specific reasons such as fraud, willful and malicious injury, domestic-support obligations, and certain taxes and student loans. The two are procedurally distinct: denial proceedings are governed by Rule 4004, dischargeability complaints by Rule 4007. The deadlines run on parallel but different clocks.</p>
+<p>Reaffirmation is the only mechanism by which a debtor may voluntarily revive a dischargeable debt, and it is hedged with statutory protections including a required disclosure, court approval in the absence of debtor counsel, and a 60-day rescission window. The Bankruptcy Code also gives certain creditors - most notably the IRS and student-loan holders - extraordinary protection through dischargeability exceptions that require affirmative debtor action to overcome.</p>
+
+<h2>Discharge-mechanics deep-dives</h2>
+<ul class="child-list">
+<li><a href="/discharge-mechanics/section-524-discharge-injunction/">Section 524 Discharge Injunction</a><span class="desc">The scope of the section 524(a)(2) injunction, the contempt remedy for violations under the <em>Taggart</em> standard, and the interaction with reaffirmation and redemption.</span></li>
+<li><a href="/discharge-mechanics/reaffirmation-agreements/">Reaffirmation Agreements</a><span class="desc">Section 524(c) requirements, the undue-hardship presumption, court approval when debtor is unrepresented, the section 524(d) reaffirmation hearing, and the 60-day rescission right.</span></li>
+<li><a href="/discharge-mechanics/discharge-denial-vs-dischargeability/">Discharge Denial vs Dischargeability</a><span class="desc">The structural difference between a section 727 global denial and a section 523 debt-specific exception; the Rule 4004 and Rule 4007 deadlines; and burden-of-proof allocation.</span></li>
+<li><a href="/discharge-mechanics/student-loans-brunner-test/">Student Loans and the Brunner Test</a><span class="desc">The three-part undue-hardship test established by <em>Brunner v. New York State Higher Education Services Corp.</em>, the DOJ guidance on stipulated discharge, and recent Department of Education attestation procedures.</span></li>
+<li><a href="/discharge-mechanics/priority-tax-claims/">Priority Tax Claims</a><span class="desc">Section 507(a)(8) priority taxes, the three-year/240-day/two-year discharge tests under section 523(a)(1), and the treatment of unfiled and fraudulent returns.</span></li>
+</ul>
+
+<div class="callout"><strong>Deadline note:</strong> Both Rule 4004 (objection to discharge) and Rule 4007 (dischargeability complaint) impose 60-day deadlines that run from the first date set for the section 341 meeting. Extensions require a motion filed before the deadline expires. Missing either deadline is generally not curable.</div>
+
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Educational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+</body></html>

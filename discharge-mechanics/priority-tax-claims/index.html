@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Priority Tax Claims - Section 507(a)(8), 523(a)(1), 3-Year/240-Day/2-Year Rules [2026]</title>
+<meta name="description" content="Deep dive on priority tax claims under Section 507(a)(8) and tax nondischargeability under Section 523(a)(1): the 3-year, 240-day, and 2-year rules, the late-filed return McCoy/Mallo split, and the BAPCPA hanging paragraph.">
+<meta name="keywords" content="section 507(a)(8), section 523(a)(1), priority tax, 3-year rule, 240-day rule, 2-year rule, McCoy, Mallo, late-filed return, hanging paragraph, BAPCPA">
+<link rel="canonical" href="https://openbankruptcyproject.org/discharge-mechanics/priority-tax-claims/">
+<meta property="og:title" content="Priority Tax Claims - Section 507(a)(8), 523(a)(1), Time Rules">
+<meta property="og:description" content="Deep dive on priority tax claims under Section 507(a)(8) and tax nondischargeability under Section 523(a)(1): the 3-year, 240-day, and 2-year rules, the late-filed return McCoy/Mallo split, and the BAPCPA hanging paragraph.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/discharge-mechanics/priority-tax-claims/">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="Priority Tax Claims - Section 507(a)(8), 523(a)(1), Time Rules">
+<meta name="twitter:description" content="Priority tax claims under Section 507(a)(8) and tax nondischargeability under Section 523(a)(1) including the 3/240/2-year rules and the McCoy/Mallo split.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+<meta name="last-modified" content="2026-05-22">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Priority Tax Claims - Section 507(a)(8) and 523(a)(1) Deep Dive","description":"Deep dive on priority tax claims under Section 507(a)(8) and tax nondischargeability under Section 523(a)(1): the 3-year, 240-day, and 2-year rules, the late-filed return McCoy/Mallo split, and the BAPCPA hanging paragraph.","datePublished":"2026-05-22","dateModified":"2026-05-22","url":"https://openbankruptcyproject.org/discharge-mechanics/priority-tax-claims/","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"}}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org"},
+    {"@type": "ListItem", "position": 2, "name": "Discharge Mechanics", "item": "https://openbankruptcyproject.org/discharge-mechanics/"},
+    {"@type": "ListItem", "position": 3, "name": "Priority Tax Claims", "item": "https://openbankruptcyproject.org/discharge-mechanics/priority-tax-claims/"}
+  ]
+}
+</script>
+<style>
+  :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-muted: #9eaab6; --accent: #58a6ff; --green: #3fb950; --red: #f85149; --yellow: #e3a835; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  nav .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger { display: none; background: none; border: 1px solid var(--border); color: var(--text); font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1; }
+  .breadcrumb { max-width: 760px; margin: 1rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; color: var(--text-muted); }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header { background: linear-gradient(135deg, #0d2137, #122a44); border-bottom: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+  header h1 { color: #f0f6fc; font-size: 2rem; margin-bottom: 0.75rem; }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle { color: var(--text-muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 1.5rem; }
+  .content-section h2 { color: #f0f6fc; font-size: 1.375rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .content-section h3 { color: #f0f6fc; font-size: 1.125rem; margin: 1.5rem 0 0.75rem; }
+  .content-section p { color: var(--text); margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .content-section ul, .content-section ol { margin: 0.75rem 0 0.75rem 1.5rem; color: var(--text); font-size: 0.95rem; }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box { background: #21262d; border-left: 3px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .warning-box { background: #21262d; border-left: 3px solid var(--red); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .green-box { background: #21262d; border-left: 3px solid var(--green); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .yellow-box { background: #21262d; border-left: 3px solid var(--yellow); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .network-links { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem 2rem; margin-bottom: 1.5rem; font-size: 0.85rem; color: var(--text-muted); line-height: 2; }
+  .network-links strong { color: var(--text); }
+  footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 2rem; }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a { display: block; padding: 0.6rem 0; margin: 0; font-size: 0.95rem; min-height: 44px; line-height: 2; border-bottom: 1px solid #21262d; }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+  }
+</style>
+</head>
+<body>
+<nav aria-label="Main navigation">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a>
+    <a href="/research.html">Research</a>
+    <a href="/impact.html">Impact</a>
+    <a href="/legal-aid.html">Legal Aid</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1><span class="accent">Priority Tax Claims</span> &mdash; Section 507(a)(8), 523(a)(1), and the Time Rules</h1>
+  <p class="subtitle">A deep dive into income-tax priority and nondischargeability: the 3-year return rule, the 240-day assessment rule, the 2-year late-return rule, the McCoy/Mallo split on whether a late-filed return is a "return" at all, and the BAPCPA hanging paragraph that codified the answer for half the country.</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/discharge-mechanics/">Discharge Mechanics</a> &rsaquo; Priority Tax Claims
+</div>
+
+<main>
+<aside style="background:#151b23;border:1px solid #252d38;border-radius:10px;padding:20px 24px;margin:24px 0;font-size:0.92rem;">
+  <strong style="color:#58a6ff;text-transform:uppercase;letter-spacing:0.06em;font-size:0.78rem;">Empirical research on this section</strong>
+  <p style="margin-top:10px;color:#b1bac4;">For case-pattern analysis on how federal bankruptcy courts apply these provisions, including district-level patterns and primary-source dockets, see <a href="/cases/" style="color:#58a6ff;">openbankruptcyproject.org/cases/</a>. All datasets licensed CC BY-SA 4.0.</p>
+</aside>
+
+<div class="content-section">
+  <h2>Why Tax Claims Get Two Sections</h2>
+  <p>Tax claims occupy two structurally distinct positions in the Bankruptcy Code, and confusion between the two regularly trips up debtors, creditors, and counsel. <strong>Section 507(a)(8)</strong> establishes priority status for certain unsecured tax claims, dictating where the tax authority sits in the distribution waterfall. <strong>Section 523(a)(1)</strong> determines whether the underlying tax debt survives the discharge. The two sections are linked: any tax that is priority under 507(a)(8) is also nondischargeable under 523(a)(1)(A). But not every nondischargeable tax is a priority tax: a tax can be nondischargeable for other reasons (such as a fraudulent return or a tax for which no return was filed) without being entitled to priority distribution.</p>
+  <div class="statute-box"><p><strong>Official citations:</strong> 11 U.S.C. &sect; 507(a)(8); 11 U.S.C. &sect; 523(a)(1). Statutory text at the <a href="https://www.law.cornell.edu/uscode/text/11/507" rel="noopener" target="_blank">Cornell Legal Information Institute</a>.</p></div>
+</div>
+
+<div class="content-section">
+  <h2>The Three Income-Tax Time Rules</h2>
+  <p>Three subsections of Section 507(a)(8) define when an income tax is priority. A tax that satisfies all three may also be discharged (since it falls outside 507(a)(8) and therefore outside the automatic 523(a)(1)(A) nondischargeability hook). The three rules are conjunctive lookbacks measured from the petition date.</p>
+
+  <h3>The 3-Year Rule &mdash; Section 507(a)(8)(A)(i)</h3>
+  <p>An income tax is priority if the return was last due (including extensions) within three years before the petition date. The lookback measures from the petition back to the last due date of the return. An April 15, 2023 due date for tax year 2022 means a petition filed on or before April 15, 2026 captures that tax as priority. A petition filed on April 16, 2026 places the 2022 tax outside the 3-year window, all else equal. Extensions extend the due date: a six-month extension to October 15 pushes the date forward by six months for purposes of the rule.</p>
+
+  <h3>The 240-Day Rule &mdash; Section 507(a)(8)(A)(ii)</h3>
+  <p>An income tax is priority if it was assessed within 240 days before the petition date, plus any time during which an offer in compromise was pending or in effect (plus 30 days), and plus any time during which a stay of collection was in effect in a prior bankruptcy case (plus 90 days). The 240-day rule covers reassessments and audit-driven assessments that occur after the original return was filed. A tax originally returned in 2018 that is reassessed by the IRS in 2025 may be priority under the 240-day rule even though it falls far outside the 3-year window.</p>
+
+  <h3>The 2-Year Rule for Late-Filed Returns &mdash; Section 523(a)(1)(B)</h3>
+  <p>The 2-year rule lives in Section 523(a)(1)(B), not 507(a)(8), but operates in the same family of timing rules. A tax debt is nondischargeable if the return was filed late and was filed within two years before the petition. The rule prevents debtors from filing long-overdue returns shortly before bankruptcy and discharging the resulting tax. A return filed within the 2-year window cannot be discharged regardless of how old the underlying tax year is.</p>
+
+  <div class="yellow-box"><p><strong>Practice note:</strong> All three time rules are tolled by prior bankruptcy filings during which collection was stayed. A serial-filer history can extend the priority window by years and meaningfully change the discharge analysis. Always run the time-rule calculation with attention to any prior cases.</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Nondischargeability Tied to Priority &mdash; Section 523(a)(1)(A)</h2>
+  <p>Section 523(a)(1)(A) excepts from discharge any tax of the kind and for the periods specified in Section 507(a)(2) or 507(a)(8), whether or not a claim for such tax was filed or allowed. The provision is a straight cross-reference: if a tax is priority under 507(a)(8), it is nondischargeable under 523(a)(1)(A) by force of the cross-reference, without need for the taxing authority to file an adversary proceeding or even a proof of claim.</p>
+  <p>This makes 507(a)(8) the gating analysis. The first question in any tax-discharge inquiry is whether the tax fits any of the priority subsections. If yes, the tax is nondischargeable in any individual chapter. If no, the tax can still be nondischargeable under 523(a)(1)(B) (late-filed or unfiled return) or 523(a)(1)(C) (fraudulent return or willful tax evasion), but the analysis moves out of the priority framework.</p>
+</div>
+
+<div class="content-section">
+  <h2>The McCoy/Mallo Split &mdash; What Counts as a "Return"</h2>
+  <p>Section 523(a)(1)(B)(i) makes a tax nondischargeable if it is "with respect to which a return, or equivalent report or notice, if required, . . . was not filed or given." A 2005 BAPCPA amendment added a definitional "hanging paragraph" after Section 523(a)(19) (often called the "* hanging paragraph") providing that "return" means a return that satisfies the requirements of applicable nonbankruptcy law.</p>
+
+  <h3>The McCoy Position &mdash; The Hard Line</h3>
+  <p>The Fifth Circuit in <em>In re McCoy</em>, 666 F.3d 924 (5th Cir. 2012), interpreted the hanging paragraph categorically: under the Internal Revenue Code, a return is timely only if filed by the due date; therefore a late-filed return is not a "return" for purposes of Section 523(a)(1)(B), and the underlying tax can never be discharged regardless of how many years have elapsed. The Tenth and First Circuits adopted variations of the McCoy position in subsequent decisions, making late-filed returns effectively nondischargeable in those circuits.</p>
+
+  <h3>The Mallo Critique and the Minority View</h3>
+  <p>Other courts, applying the pre-BAPCPA <em>Beard</em> four-factor test (<em>Beard v. Commissioner</em>, 82 T.C. 766 (1984), aff'd, 793 F.2d 139 (6th Cir. 1986)), continue to treat a late-filed return as a "return" provided it purports to be a return, is signed under penalty of perjury, contains sufficient data to calculate tax liability, and represents an honest and reasonable attempt to satisfy the requirements of the tax law. Under the Beard framework, a late return can support a discharge if the 2-year rule is satisfied. The Tenth Circuit's decision in <em>Mallo v. Internal Revenue Service</em>, 774 F.3d 1313 (10th Cir. 2014), adopted McCoy's strict reading; the case lent its name to the colloquial label for the split even though Mallo agreed with McCoy.</p>
+
+  <p>The circuit split remains unresolved at the Supreme Court level. The practical consequence is that a debtor's circuit of residence determines whether late-filed tax returns can ever support discharge of the underlying tax, even after the 2-year window has run.</p>
+</div>
+
+<div class="content-section">
+  <h2>Fraudulent Returns and Willful Evasion &mdash; Section 523(a)(1)(C)</h2>
+  <p>Section 523(a)(1)(C) excepts from discharge any tax with respect to which the debtor made a fraudulent return or willfully attempted in any manner to evade or defeat such tax. The provision applies regardless of the timing rules and regardless of whether the underlying tax would have been dischargeable on the time-based analysis. Fraud and willful evasion are scienter-heavy doctrines: the taxing authority must show, by a preponderance of the evidence, that the debtor acted with the requisite intent to defeat the tax.</p>
+  <p>Courts distinguish nonpayment from evasion. The Supreme Court has not squarely addressed Section 523(a)(1)(C)'s scope, but circuit courts generally require a showing that the debtor engaged in conduct beyond mere failure to pay (such as transferring assets, lying on returns, or structuring transactions to defeat collection). A pattern of lifestyle expenditures inconsistent with claimed inability to pay can supply the willful-evasion proof in the right factual setting.</p>
+</div>
+
+<div class="content-section">
+  <h2>Other Categories of Priority Tax</h2>
+  <p>Beyond income tax, Section 507(a)(8) extends priority to several other categories: property taxes assessed before the petition and last payable without penalty within one year before the petition (507(a)(8)(B)); withholding taxes (507(a)(8)(C), the "trust fund" taxes for which 26 U.S.C. Section 6672 imposes personal liability on responsible officers); employment taxes (507(a)(8)(D) and (E)); excise taxes (507(a)(8)(E)); customs duties (507(a)(8)(F)); and tax penalties in compensation for actual pecuniary loss (507(a)(8)(G)).</p>
+  <p>Each category has its own timing and structural rules. Withholding taxes are particularly punitive: they are always priority, always nondischargeable, and create personal liability on responsible officers that survives any corporate bankruptcy.</p>
+</div>
+
+<div class="content-section">
+  <h2>Related Provisions and Further Reading</h2>
+  <ul>
+    <li><a href="/section-507-priorities.html">Section 507 &mdash; Priorities</a></li>
+    <li><a href="/section-523-dischargeability.html">Section 523 &mdash; Exceptions to Discharge</a></li>
+    <li><a href="/discharge-mechanics/discharge-denial-vs-dischargeability/">Deep dive: Denial vs. Nondischargeability</a></li>
+    <li><a href="/discharge-mechanics/section-524-discharge-injunction/">Deep dive: The Section 524 Discharge Injunction</a></li>
+    <li><a href="/tax-debts-in-bankruptcy.html">Tax Debts in Bankruptcy &mdash; Overview</a></li>
+  </ul>
+</div>
+
+<div class="network-links">
+  <strong>Bankruptcy Tools Network:</strong><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Discharge Screener</a> &middot;
+  <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Research Platform</a> &middot;
+  <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Exemptions by State</a> &middot;
+  <a href="https://keepmycarinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your Car</a> &middot;
+  <a href="https://keepmyhouseinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your House</a> &middot;
+  <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Bankruptcy Cost</a>
+</div>
+</main>
+
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by <a href="/donate.html">donations</a>.</p>
+  <p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+  <p style="margin-bottom:0.5rem">
+    <a href="/">Home</a> &middot;
+    <a href="/research.html">Research</a> &middot;
+    <a href="/impact.html">Impact</a> &middot;
+    <a href="/legal-aid.html">Legal Aid</a> &middot;
+    <a href="/about.html">About</a> &middot;
+    <a href="/contact.html">Contact</a>
+  </p>
+  <p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+</footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>

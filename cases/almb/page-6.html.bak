@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>M.D. Ala. Bankruptcy Cases - Page 6 of 6 - Open Bankruptcy Project</title>
+    <meta name="description" content="Index of federal bankruptcy cases in the M.D. Ala. available on the RECAP Archive. Published by the Open Bankruptcy Project. All primary-source documents are on CourtListener.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/cases/almb/page-6.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="M.D. Ala. Bankruptcy Cases - Open Bankruptcy Project">
+    <meta property="og:description" content="Index of federal bankruptcy cases in the M.D. Ala. available on the RECAP Archive.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/cases/almb/page-6.html">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- BTN:GA4:START -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+    <!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "M.D. Ala. Bankruptcy Case Index (Page 6)", "description": "Index of federal bankruptcy cases in the M.D. Ala. available on the RECAP Archive. Published by the Open Bankruptcy Project.", "url": "https://openbankruptcyproject.org/cases/almb/page-6.html", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "creator": {"@type": "NonprofitOrganization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "sourceOrganization": {"@type": "Organization", "name": "Free Law Project", "url": "https://free.law/"}, "isAccessibleForFree": true, "keywords": "bankruptcy, federal court, RECAP, CourtListener, public records, M.D. Ala."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Cases", "item": "https://openbankruptcyproject.org/cases/"}, {"@type": "ListItem", "position": 3, "name": "M.D. Ala.", "item": "https://openbankruptcyproject.org/cases/almb/"}, {"@type": "ListItem", "position": 4, "name": "Page 6", "item": "https://openbankruptcyproject.org/cases/almb/page-6.html"}]}</script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230;
+            --border: #252d38; --border-light: #2d3748;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff;
+            --green: #3fb950; --gold: #d29922;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+
+        nav.topnav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav.topnav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
+
+        .breadcrumb { padding: 16px 0; font-size: 0.85rem; color: var(--text-muted); }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb a:hover { color: var(--accent); }
+        .breadcrumb .sep { margin: 0 8px; color: var(--border-light); }
+
+        .court-header { padding: 32px 0 24px; border-bottom: 1px solid var(--border); }
+        .court-header .label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 8px; }
+        .court-header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+        .court-header p { color: var(--text-secondary); font-size: 0.95rem; max-width: 780px; }
+
+        .case-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 32px 0; }
+        .case-table th { background: var(--bg); text-align: left; padding: 14px 16px; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; border-bottom: 1px solid var(--border); }
+        .case-table td { padding: 12px 16px; font-size: 0.88rem; border-bottom: 1px solid var(--border); }
+        .case-table tr:last-child td { border-bottom: none; }
+        .case-table tr:hover td { background: var(--surface-hover); }
+
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 16px; margin: 24px 0; font-size: 0.9rem; }
+        .pagination a { color: var(--accent); font-weight: 600; padding: 6px 12px; border: 1px solid var(--border-light); border-radius: 6px; }
+        .pagination a:hover { background: var(--surface); text-decoration: none; }
+        .pagination .page-info { color: var(--text-muted); }
+
+        .attribution { padding: 20px 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-size: 0.85rem; color: var(--text-muted); margin: 32px 0; }
+        .attribution strong { color: var(--text-secondary); }
+        .attribution a { color: var(--text-secondary); }
+        .attribution a:hover { color: var(--accent); }
+
+        footer { padding: 40px 0; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; text-align: center; }
+        footer a { color: var(--text-muted); margin: 0 10px; }
+        footer a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+<nav class="topnav">
+    <div class="container">
+        <a href="/" class="nav-brand">Open Bankruptcy Project</a>
+        <div class="nav-links">
+            <a href="/#mission">Mission</a>
+            <a href="/#what-we-do">What We Do</a>
+            <a href="/cases/" class="active">Cases</a>
+            <a href="/research.html">Research</a>
+            <a href="/recap.html">RECAP</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <a href="/cases/">Cases</a><span class="sep">/</span>
+        <a href="/cases/almb/">M.D. Ala.</a><span class="sep">/</span>
+        <span>Page 6</span>
+    </div>
+</div>
+
+<header class="court-header">
+    <div class="container">
+        <div class="label">Bankruptcy Court Index</div>
+        <h1>United States Bankruptcy Court for the Middle District of Alabama</h1>
+        <p>United States Bankruptcy Court for the Middle District of Alabama is one of the US federal bankruptcy courts whose public, RECAP-archived dockets are indexed here. The Open Bankruptcy Project maintains this national case-level index for empirical research and public-records access. Every case below links to the full docket on the Free Law Project&#x27;s CourtListener.</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <div class="pagination"><a href="page-5.html">← Prev</a> <span class="page-info">Page 6 of 6</span></div>
+
+    <table class="case-table">
+        <thead>
+            <tr>
+                <th>Case Number</th>
+                <th>Caption</th>
+                <th>Chapter</th>
+                <th>Filed</th>
+                <th>Primary Source</th>
+                <th>Research</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>25-32914</td><td>Anthony L Woods</td><td>Ch. 13</td><td>2025-12-05</td><td><a href="https://www.courtlistener.com/docket/71998095/anthony-l-woods/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32913</td><td>Latisia Marchell Ball</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71997074/latisia-marchell-ball/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32912</td><td>Billy Hines</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71996971/billy-hines/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81552</td><td>Peggy Dorrill</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71996696/peggy-dorrill/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32911</td><td>Lourn M. Frandsen and Jessica B. Frandsen</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71996642/lourn-m-frandsen-and-jessica-b-frandsen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32910</td><td>Audrianna Lashay Dorsey</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71996566/audrianna-lashay-dorsey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32909</td><td>Zeldra Denise Richard</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71996492/zeldra-denise-richard/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81551</td><td>Jesse Harper</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71996386/jesse-harper/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32908</td><td>John Scott and Sharity Shamika Scott</td><td>Ch. 7</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71996283/john-scott-and-sharity-shamika-scott/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81550</td><td>Latisha Mangram</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71996088/latisha-mangram/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81549</td><td>Keanna Zhane Greer</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71995795/keanna-zhane-greer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32907</td><td>Darryl E. Freeman and Melinda A. Freeman</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71995712/darryl-e-freeman-and-melinda-a-freeman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11401</td><td>Cecelia A. McCardle</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71995570/cecelia-a-mccardle/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11400</td><td>Christina D. Dear</td><td>Ch. 7</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71995455/christina-d-dear/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81548</td><td>Tomekia Thomas</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71995349/tomekia-thomas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81547</td><td>Betty J King</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71994787/betty-j-king/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81546</td><td>Shwanta Cousins</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71994748/shwanta-cousins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32906</td><td>Nyasia Nicole Logan</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71994649/nyasia-nicole-logan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81545</td><td>Kawandra Reese</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71994550/kawandra-reese/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81544</td><td>Nija Semone Jackson</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71994048/nija-semone-jackson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32905</td><td>Latisha R. Scott</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71993193/latisha-r-scott/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81543</td><td>Kerry L Woodson</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71993009/kerry-l-woodson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81542</td><td>Janina Nicole Darby</td><td>Ch. 7</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71992762/janina-nicole-darby/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11399</td><td>Candace Latrice Bryant</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71992734/candace-latrice-bryant/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32904</td><td>Cleophus Dawson, Jr.</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71992625/cleophus-dawson-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81541</td><td>John Morgan Simpson</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71992584/john-morgan-simpson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32903</td><td>Bertha Little</td><td>Ch. 13</td><td>2025-12-04</td><td><a href="https://www.courtlistener.com/docket/71992407/bertha-little/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32902</td><td>Billy Joe Milliner</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71991140/billy-joe-milliner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32901</td><td>Patrick C. Nelson</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71990889/patrick-c-nelson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32900</td><td>Felecia Thorns</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71990846/felecia-thorns/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11398</td><td>Nina L. Macena</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71990536/nina-l-macena/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-03024</td><td>Aaron v. Ferrell</td><td>—</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71990534/aaron-v-ferrell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32899</td><td>Roshanta Franchesca Tubbs</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71990334/roshanta-franchesca-tubbs/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32898</td><td>Robb James Benzee</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71989941/robb-james-benzee/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32897</td><td>Robb James Benzee</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71989856/robb-james-benzee/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11397</td><td>Veneaka R Jones</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71989845/veneaka-r-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11396</td><td>Courtney Vinson</td><td>Ch. 7</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71989584/courtney-vinson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81540</td><td>Sharica Burton</td><td>Ch. 7</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71989583/sharica-burton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81539</td><td>Lisa Lashae Parmer</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71989403/lisa-lashae-parmer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32896</td><td>Justin Pittman and Destiny Pittman</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71989389/justin-pittman-and-destiny-pittman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32895</td><td>Jesse Brent Walker, Jr</td><td>Ch. 7</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71989183/jesse-brent-walker-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81538</td><td>Tre&#x27;Vante Ligon</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71989182/trevante-ligon/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32894</td><td>Renay Henderson Sexton</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71988951/renay-henderson-sexton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32893</td><td>Courtney Shree Austin</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71988746/courtney-shree-austin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81537</td><td>Kenneth Smith</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71988513/kenneth-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11395</td><td>Douglas Larry Yost</td><td>Ch. 7</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71988443/douglas-larry-yost/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81536</td><td>Janie E Roberts</td><td>Ch. 7</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71988314/janie-e-roberts/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81535</td><td>LaQuetta Woods</td><td>Ch. 7</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71988209/laquetta-woods/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32892</td><td>Mike Powell</td><td>Ch. 7</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71987951/mike-powell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81534</td><td>Eddie Clyde Crim</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71987135/eddie-clyde-crim/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32891</td><td>Randall Gamall Merritt</td><td>Ch. 13</td><td>2025-12-03</td><td><a href="https://www.courtlistener.com/docket/71987077/randall-gamall-merritt/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81533</td><td>Donald D Shuff</td><td>Ch. 7</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71986608/donald-d-shuff/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32890</td><td>Willie James Gordon</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71985513/willie-james-gordon/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81532</td><td>Shaquita M. Wright</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71985394/shaquita-m-wright/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81531</td><td>Nancie Jones Hampton</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71985327/nancie-jones-hampton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32889</td><td>Devereoux Ronald Billy Whigham, Jr</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71984942/devereoux-ronald-billy-whigham-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11394</td><td>Katecia Rivers-Martin</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71984861/katecia-rivers-martin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11393</td><td>Latosha Jones</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71984790/latosha-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81530</td><td>Robert Darda</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71984065/robert-darda/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32888</td><td>Tina Marie Gross</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71983941/tina-marie-gross/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81529</td><td>Lonzie Lydell Trimble</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71983685/lonzie-lydell-trimble/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81528</td><td>Lydia Katharina Pitts</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71983579/lydia-katharina-pitts/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81527</td><td>Westley Moneymaker</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71983402/westley-moneymaker/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32887</td><td>Tranica Smith</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71983314/tranica-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11392</td><td>Verdell B. Richards</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71983253/verdell-b-richards/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81526</td><td>James E Bell, Jr.</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71983170/james-e-bell-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81525</td><td>Mary Allen</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71982386/mary-allen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81524</td><td>Kendra Johnson</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71982290/kendra-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32886</td><td>David Steele Cody</td><td>Ch. 7</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71981892/david-steele-cody/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32885</td><td>Quintarious Marquez Perdue</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71981829/quintarious-marquez-perdue/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32884</td><td>Theodore Richard Noon, Sr</td><td>Ch. 13</td><td>2025-12-02</td><td><a href="https://www.courtlistener.com/docket/71981652/theodore-richard-noon-sr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11391</td><td>Brandon Parker Underwood</td><td>Ch. 7</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71980643/brandon-parker-underwood/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32883</td><td>Allen Turcotte</td><td>Ch. 7</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71980112/allen-turcotte/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81523</td><td>Travis D. Stone and Christy-Leigh C. Stone</td><td>Ch. 7</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71979524/travis-d-stone-and-christy-leigh-c-stone/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32882</td><td>Kristin N. Bradley</td><td>Ch. 7</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71979279/kristin-n-bradley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11390</td><td>Kyla Dorthea Perry</td><td>Ch. 13</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71978443/kyla-dorthea-perry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32881</td><td>David S. Currie</td><td>Ch. 7</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71978338/david-s-currie/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32880</td><td>Paul Stagner</td><td>Ch. 13</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71978225/paul-stagner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32879</td><td>Natasha Chandler</td><td>Ch. 13</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71977293/natasha-chandler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32878</td><td>Carlos J Bolling</td><td>Ch. 13</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71976830/carlos-j-bolling/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11389</td><td>James Ray</td><td>Ch. 13</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71976829/james-ray/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81522</td><td>Rebecca Marie Thompson and Amber Iola Thompson</td><td>Ch. 13</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71976821/rebecca-marie-thompson-and-amber-iola-thompson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81521</td><td>Betty Spear Clark</td><td>Ch. 13</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71976720/betty-spear-clark/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11388</td><td>Robert James Grant</td><td>Ch. 7</td><td>2025-12-01</td><td><a href="https://www.courtlistener.com/docket/71976406/robert-james-grant/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81520</td><td>Michael Wayne Hancock and Jacquelyn Michelle Hancock</td><td>Ch. 13</td><td>2025-11-29</td><td><a href="https://www.courtlistener.com/docket/71974170/michael-wayne-hancock-and-jacquelyn-michelle-hancock/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81519</td><td>Ruby Covington Marion and MC Marion</td><td>Ch. 13</td><td>2025-11-28</td><td><a href="https://www.courtlistener.com/docket/71973731/ruby-covington-marion-and-mc-marion/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32877</td><td>Danielle Rose Plyler</td><td>Ch. 13</td><td>2025-11-28</td><td><a href="https://www.courtlistener.com/docket/71973450/danielle-rose-plyler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32876</td><td>John William Harrington</td><td>Ch. 13</td><td>2025-11-28</td><td><a href="https://www.courtlistener.com/docket/71973058/john-william-harrington/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32875</td><td>Belinda Denise Gordon</td><td>Ch. 13</td><td>2025-11-28</td><td><a href="https://www.courtlistener.com/docket/71973011/belinda-denise-gordon/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32874</td><td>Jack Eric Gomes</td><td>Ch. 13</td><td>2025-11-27</td><td><a href="https://www.courtlistener.com/docket/71972811/jack-eric-gomes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32873</td><td>Alvin Adelberth Rollins</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71972631/alvin-adelberth-rollins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32872</td><td>Kriste Joy Doniver</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71971553/kriste-joy-doniver/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32871</td><td>Jordan Daniel Lenoir</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71971454/jordan-daniel-lenoir/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11387</td><td>Jazzmen Dashey Butler</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71971337/jazzmen-dashey-butler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11386</td><td>Timothy Andrews and Jasmin Andrews</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71971295/timothy-andrews-and-jasmin-andrews/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32870</td><td>Tia Davis Boykins</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71971235/tia-davis-boykins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11384</td><td>Christopher Robert Genesi</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71971181/christopher-robert-genesi/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11385</td><td>Timothy Coy Elmore</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71971178/timothy-coy-elmore/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32869</td><td>Akatherine Williams</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71971082/akatherine-williams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11382</td><td>Allison Rebecca Metcalf-Wise</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71971080/allison-rebecca-metcalf-wise/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11383</td><td>Edna Cobb Lee</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71971078/edna-cobb-lee/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32868</td><td>Latrecia C Bibbins</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71971030/latrecia-c-bibbins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32867</td><td>Westley Donavan Gill and Stephyne Lynne Roberson</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71970949/westley-donavan-gill-and-stephyne-lynne-roberson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11381</td><td>Gwendolyn Kincey</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71970896/gwendolyn-kincey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32866</td><td>Melody Nicole Jones Desrouleaux</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71970685/melody-nicole-jones-desrouleaux/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11380</td><td>Cleveland Reeves and Amy Reeves</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71970484/cleveland-reeves-and-amy-reeves/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81518</td><td>Robert Douglas Newborn, Jr.</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71970368/robert-douglas-newborn-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32865</td><td>Robert Keith Perkins and Lea Vanice Perkins</td><td>Ch. 7</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71970171/robert-keith-perkins-and-lea-vanice-perkins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11379</td><td>Celeste Jones and Joseph Jones</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71970134/celeste-jones-and-joseph-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32863</td><td>Kenneth Duane Edgar and Whitney Dee Ann Edgar</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71969817/kenneth-duane-edgar-and-whitney-dee-ann-edgar/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32864</td><td>Jerry Devaughn Daniel</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71969815/jerry-devaughn-daniel/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32862</td><td>Brian L. Shepherd and Cam A. Wesley</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71969791/brian-l-shepherd-and-cam-a-wesley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11378</td><td>Slayter Jerkins and Jocee Jerkins</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71969684/slayter-jerkins-and-jocee-jerkins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32861</td><td>Naquarius T Gaston</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71969362/naquarius-t-gaston/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32860</td><td>Jeanette Ruth Gray</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71969316/jeanette-ruth-gray/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32859</td><td>Curtessa Lenora Mills</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71969224/curtessa-lenora-mills/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32858</td><td>Quvius D Toney</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71968970/quvius-d-toney/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32857</td><td>Bryce Stephens Dubose</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71967805/bryce-stephens-dubose/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81517</td><td>Michael Jeter</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71967699/michael-jeter/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11377</td><td>Scotty E. Holmes and Cynthia D. Holmes</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71967535/scotty-e-holmes-and-cynthia-d-holmes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32856</td><td>Chanta L. Smith</td><td>Ch. 7</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71967534/chanta-l-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32855</td><td>Tokequin Wright</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71967481/tokequin-wright/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81516</td><td>Terrance Flournoy</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71967366/terrance-flournoy/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11376</td><td>Cynthia Myhand</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71967141/cynthia-myhand/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11375</td><td>Taylor L. Dillard</td><td>Ch. 7</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71967078/taylor-l-dillard/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32854</td><td>Maranda Davis</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71966890/maranda-davis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11374</td><td>Pamela K. Mathis</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71966133/pamela-k-mathis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11373</td><td>Lana Kristina Blanchard</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71966007/lana-kristina-blanchard/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32853</td><td>Brandon Duncan</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71965691/brandon-duncan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32852</td><td>Tina Yvette Sanders</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71965629/tina-yvette-sanders/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32851</td><td>Janet Deloise McCormick</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71965552/janet-deloise-mccormick/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32850</td><td>Octavia Osborne</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71965531/octavia-osborne/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32849</td><td>Valencia Nyree Smith</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71965164/valencia-nyree-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32848</td><td>Joseph Emil Scruggs</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71965156/joseph-emil-scruggs/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32847</td><td>Kayla Ashley Moore</td><td>Ch. 13</td><td>2025-11-26</td><td><a href="https://www.courtlistener.com/docket/71965149/kayla-ashley-moore/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32846</td><td>Antonio M Broadnax</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71963961/antonio-m-broadnax/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32845</td><td>Princess A Bristow</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71963873/princess-a-bristow/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32844</td><td>LaShay Monique Smith</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71963312/lashay-monique-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32843</td><td>James Lee O&#x27;Shields</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71963234/james-lee-oshields/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81515</td><td>Zaquasha Jamese Ferguson</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71963094/zaquasha-jamese-ferguson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81514</td><td>Wyatt Henry Carson</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71963024/wyatt-henry-carson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81513</td><td>Lee Pino</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71962914/lee-pino/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81512</td><td>SyBeria Lynette-Ger May Jones</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71962797/syberia-lynette-ger-may-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32842</td><td>Edward James Townsend</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71962700/edward-james-townsend/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32841</td><td>Sherilynn Deneen Maull</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71962538/sherilynn-deneen-maull/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32840</td><td>Olivia Louisa Knight</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71962446/olivia-louisa-knight/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81511</td><td>William Stewart</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71962362/william-stewart/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81510</td><td>Jeffry Blomeyer</td><td>Ch. 7</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71962186/jeffry-blomeyer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32839</td><td>Alexis Marie Owens</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71962096/alexis-marie-owens/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11372</td><td>Tamishia Lakia Wilson</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71961947/tamishia-lakia-wilson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32838</td><td>Tracy Tarver</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71960993/tracy-tarver/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11371</td><td>April Jones</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71960527/april-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81509</td><td>Donna Maddox</td><td>Ch. 7</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959959/donna-maddox/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32837</td><td>Jessica Nicole Colvin</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959649/jessica-nicole-colvin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11370</td><td>Gregory Logan Hall</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959583/gregory-logan-hall/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81508</td><td>Dorothy Middlebrooks</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959525/dorothy-middlebrooks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32835</td><td>Bre&#x27;una Cassidy Loder</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959524/breuna-cassidy-loder/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32836</td><td>Tyrus Llewelyn Reives</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959523/tyrus-llewelyn-reives/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32834</td><td>Helen Hendrix Knight</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959502/helen-hendrix-knight/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11369</td><td>Roger Cassidy</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959498/roger-cassidy/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81507</td><td>James McCrane</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959409/james-mccrane/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32833</td><td>Tam&#x27;Maya Denise Carter</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959295/tammaya-denise-carter/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32832</td><td>Mary Katherine Holmes</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959161/mary-katherine-holmes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81506</td><td>Keldrick McKenzie</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71959058/keldrick-mckenzie/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32831</td><td>Deidra Rene Fontana</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71958977/deidra-rene-fontana/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32830</td><td>Willie Stewart</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71958892/willie-stewart/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81505</td><td>Benjamin James Richey and Amanda Cheyenne Darnell</td><td>Ch. 7</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71958429/benjamin-james-richey-and-amanda-cheyenne-darnell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11368</td><td>James Lum</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71958341/james-lum/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32829</td><td>Markeisha Kei&#x27;onsha Curry</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71958222/markeisha-keionsha-curry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32828</td><td>Robin Nicole Campbell</td><td>Ch. 13</td><td>2025-11-25</td><td><a href="https://www.courtlistener.com/docket/71958096/robin-nicole-campbell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32827</td><td>Antonio Demetrice Jackson</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71956567/antonio-demetrice-jackson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32826</td><td>Stephen Reynolds and Kayla Reynolds</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71956512/stephen-reynolds-and-kayla-reynolds/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81504</td><td>Kathleen Marie O&#x27;Neill</td><td>Ch. 7</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71956453/kathleen-marie-oneill/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32825</td><td>Rikita Tate Dunn</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71956367/rikita-tate-dunn/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32824</td><td>Sarah R Banks</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71956305/sarah-r-banks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81503</td><td>Nicholas Gooden</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71956247/nicholas-gooden/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11367</td><td>Carmiya R. Brown</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71956075/carmiya-r-brown/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32823</td><td>Brittany Heath</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71955949/brittany-heath/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32822</td><td>Bernice Lawanda Mays-Butler</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71955561/bernice-lawanda-mays-butler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81502</td><td>Delphine Peabody Tolbert</td><td>Ch. 7</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71955494/delphine-peabody-tolbert/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81501</td><td>Christine Thomas</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71955213/christine-thomas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32821</td><td>Barry Lee Sneller</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71954876/barry-lee-sneller/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11366</td><td>Tyravian Rayshun Wallace</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71954798/tyravian-rayshun-wallace/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11365</td><td>Marcus Alan Greene</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71954582/marcus-alan-greene/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81500</td><td>Jeremy Blake Burnett and Laura Anne Burnett</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71954185/jeremy-blake-burnett-and-laura-anne-burnett/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32820</td><td>Adrianne McNutt</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71953709/adrianne-mcnutt/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32819</td><td>Caryn Wykena Barnes</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71953552/caryn-wykena-barnes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81499</td><td>Geneva L. Stinson</td><td>Ch. 7</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71953445/geneva-l-stinson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11364</td><td>Angela M. Smith</td><td>Ch. 7</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71953309/angela-m-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32818</td><td>Lushea Marie Wyatt-Chambers</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71953198/lushea-marie-wyatt-chambers/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11363</td><td>Kelly Marie Stitt</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71953155/kelly-marie-stitt/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11362</td><td>Timothy Kelley and Janice Kelley</td><td>Ch. 13</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71952822/timothy-kelley-and-janice-kelley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32817</td><td>Allan Dylan Connell</td><td>Ch. 7</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71952715/allan-dylan-connell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81498</td><td>Susan Earline Swindler</td><td>Ch. 7</td><td>2025-11-24</td><td><a href="https://www.courtlistener.com/docket/71951651/susan-earline-swindler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32816</td><td>Dedric Darnell Savage</td><td>Ch. 13</td><td>2025-11-22</td><td><a href="https://www.courtlistener.com/docket/71950310/dedric-darnell-savage/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32815</td><td>Sheretha K Wortham</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71949789/sheretha-k-wortham/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32814</td><td>Kendra Patrice Abrams</td><td>Ch. 7</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71949581/kendra-patrice-abrams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32813</td><td>Kimberly Lee Bethea</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71949500/kimberly-lee-bethea/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32812</td><td>Yvonne M Payton</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71949440/yvonne-m-payton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81497</td><td>Alexis Breanna Vallia</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71949403/alexis-breanna-vallia/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11361</td><td>Debra Kelley and Charles Kelley</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71949035/debra-kelley-and-charles-kelley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32811</td><td>Theresa Jones</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71948956/theresa-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32810</td><td>Constance Billingsley</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71948777/constance-billingsley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32809</td><td>Patricia Murry Moore</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71948500/patricia-murry-moore/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11360</td><td>Stephen D. Knight</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71948337/stephen-d-knight/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11359</td><td>Jeremy D. Cruthirds and Victoria Leann Cruthirds</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71948095/jeremy-d-cruthirds-and-victoria-leann-cruthirds/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32808</td><td>Quatashia La&#x27;Queria Colvin</td><td>Ch. 7</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71948015/quatashia-laqueria-colvin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32807</td><td>Valencia Hall</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71947752/valencia-hall/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32806</td><td>Kayla Marie Yates</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71947682/kayla-marie-yates/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81496</td><td>Rodger Adams</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71947570/rodger-adams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32805</td><td>Gwendolyn Hester</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71947156/gwendolyn-hester/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11358</td><td>Jaritza Goode</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71947088/jaritza-goode/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11357</td><td>Jack Fleming, Jr. and Theresa Priscillia Fleming</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71946785/jack-fleming-jr-and-theresa-priscillia-fleming/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11356</td><td>Brandi Renee Williams</td><td>Ch. 7</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71946690/brandi-renee-williams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32804</td><td>Gennell Hughley</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71946614/gennell-hughley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81495</td><td>Jeffery Miller, Jr.</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71946502/jeffery-miller-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11355</td><td>William Morris Gamble</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71945959/william-morris-gamble/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81494</td><td>Kiara Denisha Morgan</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71945904/kiara-denisha-morgan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32803</td><td>Tasia Keshana Murry</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71945764/tasia-keshana-murry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32802</td><td>Brandon C. Smith</td><td>Ch. 7</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71945495/brandon-c-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32801</td><td>Lori R Dutton</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71945201/lori-r-dutton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81493</td><td>Christopher Payne</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71945122/christopher-payne/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81492</td><td>Erin Elizabeth Boyd</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71944627/erin-elizabeth-boyd/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81491</td><td>Nakeisha Lafaye Butler</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71944556/nakeisha-lafaye-butler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81490</td><td>Robin Burks and Lizetta Burks</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71944454/robin-burks-and-lizetta-burks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32800</td><td>Talia K Starks</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71944386/talia-k-starks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81489</td><td>Megan Leigh Branton</td><td>Ch. 7</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71944338/megan-leigh-branton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81488</td><td>Briana Simone Tucker</td><td>Ch. 13</td><td>2025-11-21</td><td><a href="https://www.courtlistener.com/docket/71944211/briana-simone-tucker/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32799</td><td>Sharday E Stinson</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71942740/sharday-e-stinson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81487</td><td>Britteney Nicole Ware</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71942699/britteney-nicole-ware/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11354</td><td>John S. Kima, IV</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71942639/john-s-kima-iv/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81486</td><td>Merissa L. Ransom</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71942584/merissa-l-ransom/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81485</td><td>Brishquette Balon Heard</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71942459/brishquette-balon-heard/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32798</td><td>Tracy Denise Johnson</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71942361/tracy-denise-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81484</td><td>Janice Colvert</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71942142/janice-colvert/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81483</td><td>Zita L. Davis</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71941928/zita-l-davis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32797</td><td>Amelia Shanell Purifoy</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71941414/amelia-shanell-purifoy/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32796</td><td>Rebecca Benzee</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71941252/rebecca-benzee/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32795</td><td>Janice Henley Smith</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71941090/janice-henley-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81482</td><td>Michelle Reese</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71940946/michelle-reese/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32794</td><td>Rosie S Owens and Jesse Owens, III</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71940877/rosie-s-owens-and-jesse-owens-iii/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81481</td><td>Cindy Sweatman</td><td>Ch. 7</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71940564/cindy-sweatman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81480</td><td>Alexis Anthony</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71940221/alexis-anthony/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32793</td><td>Brian Christopher Nolan</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71940198/brian-christopher-nolan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11353</td><td>Alexis Ioannou and Teresa Brooke Ioannou</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71940075/alexis-ioannou-and-teresa-brooke-ioannou/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81479</td><td>Rebecca Harper</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71939871/rebecca-harper/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11352</td><td>Robert J. Walker</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71939561/robert-j-walker/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81478</td><td>Eric Barnell Horne</td><td>Ch. 7</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71938865/eric-barnell-horne/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11351</td><td>Roberto Buelna and Jessica Buelna</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71938651/roberto-buelna-and-jessica-buelna/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32792</td><td>Curtis R Washington</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71938040/curtis-r-washington/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32791</td><td>Millie Enriqueta Garcia</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71937194/millie-enriqueta-garcia/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32790</td><td>Aletha Lewis and Derick Lewis</td><td>Ch. 13</td><td>2025-11-20</td><td><a href="https://www.courtlistener.com/docket/71937193/aletha-lewis-and-derick-lewis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32789</td><td>Pentoria Denise Gray</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71936362/pentoria-denise-gray/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81477</td><td>Lorree Bolton</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71935843/lorree-bolton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32787</td><td>Roderickas Rudolph and Latoya Rudolph</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71935682/roderickas-rudolph-and-latoya-rudolph/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32786</td><td>Dustin Dennis</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71935681/dustin-dennis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32788</td><td>Rhonda Nicole Howard</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71935679/rhonda-nicole-howard/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81475</td><td>Derrick Le&#x27;Shun James</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71935504/derrick-leshun-james/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81476</td><td>Robert Allen</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71935503/robert-allen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32785</td><td>Debbie Denise Cooper</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71935502/debbie-denise-cooper/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81474</td><td>Jeremiah Rashad Peters</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71935461/jeremiah-rashad-peters/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32784</td><td>Roderick Cabble</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71935392/roderick-cabble/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32783</td><td>Lameisha Nicole Vanhuse Grant</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71935197/lameisha-nicole-vanhuse-grant/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32782</td><td>Lashondra Smith</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71935169/lashondra-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81473</td><td>Bernard Townsend, Jr.</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71934885/bernard-townsend-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32781</td><td>Chynna Nicole Ellis</td><td>Ch. 7</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71934883/chynna-nicole-ellis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32780</td><td>Ayana Jakes</td><td>Ch. 7</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71934859/ayana-jakes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81472</td><td>Delando Stroud, Jr.</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71934716/delando-stroud-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11350</td><td>Shelia Lawton Thigpen</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71934590/shelia-lawton-thigpen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81471</td><td>William A. Sumbry</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71934487/william-a-sumbry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81470</td><td>Azaria lunda Holloway</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71934407/azaria-lunda-holloway/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81469</td><td>Sean Morgan</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71933798/sean-morgan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32779</td><td>Joaquin Laron Dubose</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71932625/joaquin-laron-dubose/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11349</td><td>Patricia Jean Dean</td><td>Ch. 7</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71932535/patricia-jean-dean/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32778</td><td>Brandon A. Taylor</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71931911/brandon-a-taylor/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81468</td><td>Bobby Allen Parr</td><td>Ch. 7</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71931827/bobby-allen-parr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32777</td><td>Antonio B Bonham</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71931428/antonio-b-bonham/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11348</td><td>Andrea Dunlap, Jr.</td><td>Ch. 13</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71931388/andrea-dunlap-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11347</td><td>Levi Peterson</td><td>Ch. 7</td><td>2025-11-19</td><td><a href="https://www.courtlistener.com/docket/71931177/levi-peterson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11346</td><td>Deonte De&#x27;Shawn Schwertzler</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71930000/deonte-deshawn-schwertzler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32776</td><td>Ebony Freeman Burke</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71929876/ebony-freeman-burke/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11345</td><td>Lynn A. Cade</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71929806/lynn-a-cade/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32775</td><td>Lakesha Renea Buskey</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71929757/lakesha-renea-buskey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11344</td><td>Kenneth Toral Townsend</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71929624/kenneth-toral-townsend/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11343</td><td>Michelle A. Paul</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71928646/michelle-a-paul/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81467</td><td>Gavin Preston</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71928479/gavin-preston/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32774</td><td>David Shane Combs and Miranda Nicole Johnson</td><td>Ch. 7</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71928478/david-shane-combs-and-miranda-nicole-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32773</td><td>Stacy Harper</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71928422/stacy-harper/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11342</td><td>Joseph Paul Ford</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71928155/joseph-paul-ford/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11341</td><td>Steven Lee Rodgers and Carolyn Lanell Fischer</td><td>Ch. 7</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71928100/steven-lee-rodgers-and-carolyn-lanell-fischer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32772</td><td>Torey Marquize Dunlap</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71928022/torey-marquize-dunlap/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81466</td><td>Brenda Wilbanks</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71927790/brenda-wilbanks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81465</td><td>Carmen I. Hernandez</td><td>Ch. 7</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71927137/carmen-i-hernandez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32771</td><td>Wanda Lee Powell</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71926605/wanda-lee-powell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81464</td><td>Briunna McKissic-Welch</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71926305/briunna-mckissic-welch/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81463</td><td>Sade Johnson and Anthony Johnson</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71926254/sade-johnson-and-anthony-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32770</td><td>Shalana McGhee</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71925540/shalana-mcghee/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-81462</td><td>SouthEastern Industrial Contractors, LLC</td><td>Ch. 11</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71925506/southeastern-industrial-contractors-llc/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-11340</td><td>Jeffery Strickland and Betty Strickland</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71925461/jeffery-strickland-and-betty-strickland/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>25-32769</td><td>Joe Lewis Thompson</td><td>Ch. 13</td><td>2025-11-18</td><td><a href="https://www.courtlistener.com/docket/71925300/joe-lewis-thompson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+        </tbody>
+    </table>
+
+    <div class="pagination"><a href="page-5.html">← Prev</a> <span class="page-info">Page 6 of 6</span></div>
+
+    <div class="attribution">
+        <p><strong>Data source:</strong> Case metadata on this page comes from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>, operated by the <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a>. Content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. This derived index is published under the same license.</p>
+        <p style="margin-top: 12px;"><strong>Scope note:</strong> This index covers federal bankruptcy cases in the M.D. Ala. that appear on the RECAP Archive. The Open Bankruptcy Project does not reproduce docket PDFs or filing text on this domain - all primary-source access is via CourtListener. Last updated 2026-04-21.</p>
+    </div>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/recap.html">RECAP</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a></p>
+        <p style="margin-top: 12px;">Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p style="margin-top: 8px;">Case metadata from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a> / <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>

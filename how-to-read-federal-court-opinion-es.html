@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d1117">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Cómo leer una opinión judicial federal (para no abogados)</title>
+<meta name="description" content="Guía en lenguaje claro para leer opiniones judiciales federales: encabezado, postura procesal, decisión vs. dicta, citas, concurrencias y disensos.">
+<link rel="canonical" href="https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+<meta property="og:title" content="Cómo leer una opinión judicial federal (para no abogados)">
+<meta property="og:description" content="Guía en lenguaje claro para leer opiniones judiciales federales: encabezado, postura procesal, decisión vs. dicta, citas, concurrencias y disensos.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html">
+<meta property="og:site_name" content="Open Bankruptcy Project">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/og-image.svg">
+
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag('js',new Date());gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/how-to-read-federal-court-opinion.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Cómo leer una opinión judicial federal (para no abogados)",
+      "description": "Guía en lenguaje claro para leer opiniones judiciales federales: encabezado, postura procesal, decisión vs. dicta, citas, concurrencias y disensos.",
+      "author": {
+        "@type": "NonprofitOrganization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://openbankruptcyproject.org"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://openbankruptcyproject.org",
+        "taxID": "41-5159631"
+      },
+      "datePublished": "2026-05-04",
+      "dateModified": "2026-05-04",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html",
+      "inLanguage": "es"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cómo sé si una opinión está publicada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mire la cita. Las publicadas citan a un reportero (F.3d, F.Supp.2d, etc.). Las no publicadas usualmente tienen cita 'WL' o 'LEXIS', o están marcadas 'Not for publication.' Las publicadas son precedentes; las no publicadas suelen no serlo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la diferencia entre decisión y dicta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La decisión es la regla legal aplicada para decidir el caso. La dicta es todo lo demás. La prueba: si remueve la declaración y el caso sale igual, es dicta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué algunas opiniones citan casos que no conozco?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El common law federal se construye por siglos. Una opinión moderna puede citar un caso del siglo XIX si el principio se ha aplicado continuamente. Citar casos viejos es normal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Son útiles los disensos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Los disensos señalan vistas minoritarias que pueden volverse mayoritarias. También identifican precedentes y preocupaciones que la mayoría no abordó o rechazó."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es 'standard of review' y por qué importa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es el lente con que una corte de apelación evalúa la decisión inferior. De novo es el más exigente (sin deferencia); abuse of discretion es más deferente; clear error es el más deferente. El estándar suele determinar el resultado."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NonprofitOrganization",
+  "name": "Open Bankruptcy Project",
+  "alternateName": "OBP",
+  "url": "https://openbankruptcyproject.org",
+  "email": "info@openbankruptcyproject.org",
+  "taxID": "41-5159631",
+  "nonprofitStatus": "Nonprofit501c3"
+}
+</script>
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+    --bg: #0d1117; --surface: #151b23; --border: #252d38;
+    --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+    --accent: #58a6ff; --accent-subtle: rgba(88, 166, 255, 0.08);
+    --green: #3fb950; --green-subtle: rgba(63, 185, 80, 0.08);
+    --gold: #d29922; --gold-subtle: rgba(210, 153, 34, 0.08);
+}
+html { scroll-behavior: smooth; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: #79b8ff; }
+.container { max-width: 920px; margin: 0 auto; padding: 0 32px; }
+nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+    background: rgba(13, 17, 23, 0.95); backdrop-filter: blur(12px); z-index: 100; }
+nav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; max-width: 1040px; }
+.nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+.nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+.nav-links a:hover { color: var(--text); }
+.breadcrumb-nav { font-size: 0.85rem; color: #8b949e; padding: 0.75rem 0; max-width: 920px; margin: 0 auto; }
+.breadcrumb-nav a { color: #58a6ff; }
+.breadcrumb-nav .separator { margin: 0 0.5rem; color: #484f58; }
+.page-hero { padding: 64px 0 36px; border-bottom: 1px solid var(--border); }
+.page-hero h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 16px; max-width: 780px; }
+.page-hero .tagline { font-size: 1.1rem; color: var(--text-secondary); max-width: 720px; }
+.page-hero .meta { font-size: 0.85rem; color: var(--text-muted); margin-top: 20px; }
+.callout { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--green);
+    border-radius: 2px 10px 10px 2px; padding: 28px 32px; margin: 40px 0; }
+.callout h2 { font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; }
+.callout p { color: var(--text-secondary); margin: 0 0 10px 0; font-size: 0.98rem; }
+.callout p:last-child { margin-bottom: 0; }
+.callout .badge { display: inline-block; background: var(--green-subtle); color: var(--green);
+    padding: 3px 10px; border-radius: 4px; font-size: 0.72rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px; }
+section.body-section { padding: 40px 0; border-bottom: 1px solid var(--border); }
+section.body-section h2 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
+section.body-section .section-label { font-size: 0.74rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--accent); margin-bottom: 10px; }
+section.body-section p { color: var(--text-secondary); margin: 0 0 16px 0; }
+section.body-section ul, section.body-section ol { color: var(--text-secondary); margin: 0 0 16px 24px; }
+section.body-section li { margin-bottom: 8px; }
+.step { background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 24px 28px; margin-bottom: 14px; }
+.step-header { display: flex; align-items: baseline; gap: 14px; margin-bottom: 10px; }
+.step-num { background: var(--accent-subtle); color: var(--accent);
+    font-size: 0.78rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; white-space: nowrap; }
+.step h3 { font-size: 1.1rem; font-weight: 700; }
+.step p { color: var(--text-secondary); margin: 0 0 10px 0; font-size: 0.98rem; }
+.step p:last-child { margin: 0; }
+.step .tip { background: var(--accent-subtle); border-left: 3px solid var(--accent);
+    padding: 10px 14px; margin-top: 12px; font-size: 0.92rem; color: var(--text-secondary); border-radius: 0 6px 6px 0; }
+.fees-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
+    background: var(--border); border: 1px solid var(--border);
+    border-radius: 10px; overflow: hidden; margin-top: 24px; }
+.fee-cell { background: var(--surface); padding: 24px 18px; text-align: center; }
+.fee-num { font-size: 1.6rem; font-weight: 800; display: block; letter-spacing: -0.02em; margin-bottom: 4px; }
+.fee-num.green { color: var(--green); }
+.fee-num.gold { color: var(--gold); }
+.fee-num.accent { color: var(--accent); }
+.fee-label { font-size: 0.76rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.gotcha { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 18px 22px; margin-bottom: 12px; border-radius: 0 8px 8px 0; }
+.gotcha h4 { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+.gotcha p { color: var(--text-secondary); margin: 0; font-size: 0.94rem; }
+details.faq { background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 16px 22px; margin-bottom: 10px; }
+details.faq summary { font-weight: 700; cursor: pointer; list-style: none; }
+details.faq summary::-webkit-details-marker { display: none; }
+details.faq summary::after { content: " +"; color: var(--text-muted); }
+details.faq[open] summary::after { content: " -"; }
+details.faq p { color: var(--text-secondary); margin: 12px 0 0 0; font-size: 0.96rem; }
+.timeline { position: relative; padding: 8px 0 8px 28px; border-left: 2px solid var(--border); margin: 20px 0; }
+.timeline-item { margin-bottom: 24px; position: relative; }
+.timeline-item::before { content: ''; position: absolute; left: -34px; top: 8px; width: 12px; height: 12px;
+    border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px var(--bg); }
+.timeline-item h4 { color: var(--text); font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+.timeline-item p { color: var(--text-secondary); margin: 0; font-size: 0.94rem; }
+.timeline-item .when { color: var(--text-muted); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+footer { padding: 48px 0; text-align: center; }
+.footer-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-bottom: 24px; }
+.footer-links a { color: var(--text-muted); font-size: 0.85rem; }
+footer p { color: var(--text-muted); font-size: 0.82rem; margin-top: 8px; }
+@media (max-width: 768px) { .page-hero h1 { font-size: 1.7rem; } .fees-grid { grid-template-columns: 1fr; } }
+        .quick-answer { background: var(--surface); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 16px 20px; margin-bottom: 24px; }
+        .quick-answer p { color: var(--text); margin: 0; font-size: 0.95rem; }
+
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://openbankruptcyproject.org/es.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Leer Opinión Judicial",
+          "item": "https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "Cómo Leer una Opinión Judicial Federal",
+      "url": "https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html",
+      "inLanguage": "es",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".subtitle",
+          "p:first-of-type"
+        ]
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Cómo Leer una Opinión Judicial Federal",
+  "description": "Guía del lector para entender las siete secciones estructurales de casi toda opinión judicial federal publicada.",
+  "totalTime": "PT30M",
+  "inLanguage": "es",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Lea el encabezado",
+      "text": "El encabezado en la parte superior nombra a las partes, el tribunal, el número de expediente y la fecha. Le dice quién demanda a quién, dónde y cómo citar la opinión.",
+      "url": "https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html#step-1"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Identifique la postura procesal",
+      "text": "Un párrafo inicial explica cómo el caso llegó a este tribunal: apelación, moción de juicio sumario, veredicto de juicio u otra. La postura define el estándar de revisión y los remedios disponibles.",
+      "url": "https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html#step-2"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Lea los hechos críticamente",
+      "text": "El tribunal elige qué hechos enfatizar, y ese énfasis frecuentemente indica hacia dónde se dirige el análisis legal. Los hechos disputados generalmente se señalan explícitamente.",
+      "url": "https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html#step-3"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Encuentre la decisión (holding)",
+      "text": "El holding es la regla legal específica anunciada por el tribunal aplicada a los hechos. Aparece típicamente como una declaración clara: 'Sostenemos que...' o 'Concluimos que...'",
+      "url": "https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html#step-4"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Distinga holding de dicta",
+      "text": "Las opiniones contienen tanto el holding (vinculante) como dicta (declaraciones secundarias no esenciales). Solo el holding tiene fuerza precedencial.",
+      "url": "https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html#step-5"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "Lea opiniones concurrentes y disidentes",
+      "text": "Las opiniones concurrentes están de acuerdo con el resultado pero por razones diferentes. Las disidentes no están de acuerdo. Ambas pueden iluminar el razonamiento de la mayoría.",
+      "url": "https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html#step-6"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 7,
+      "name": "Verifique citaciones posteriores",
+      "text": "Use Shepard's, KeyCite o citaciones gratuitas en CourtListener para verificar si la opinión sigue siendo buena ley o ha sido revocada o limitada.",
+      "url": "https://openbankruptcyproject.org/how-to-read-federal-court-opinion-es.html#step-7"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <a href="es.html" class="nav-brand">Open Bankruptcy Project</a>
+        <div class="nav-links">
+            <a href="es.html">Inicio</a>
+            <a href="/cases/">Casos</a>
+            <a href="recap-es.html">RECAP</a>
+            <a href="how-to-use-pacer-es.html">Guía PACER</a>
+            <a href="about-es.html">Acerca</a>
+            <a href="contact-es.html">Contacto</a>
+        </div>
+    </div>
+</nav>
+
+<nav class="breadcrumb-nav" aria-label="Breadcrumb">
+    <div class="container" style="padding:0"><a href="https://openbankruptcyproject.org/es.html">Inicio</a><span class="separator">&rsaquo;</span><a href="https://openbankruptcyproject.org/how-to-use-pacer-es.html">Guías procedimentales</a><span class="separator">&rsaquo;</span><span>Cómo leer una opinión judicial federal</span></div>
+</nav>
+
+<div class="page-hero">
+    <div class="container">
+        <h1>Cómo leer una opinión judicial federal (para no abogados)</h1>
+        <p class="tagline">Las opiniones judiciales federales parecen intimidantes pero siguen una estructura predecible. Una vez que conoce las partes, puede extraer la sustancia legal de cualquier opinión en pocos minutos.</p>
+        <p class="meta">Publicado por Open Bankruptcy Project. Actualizado el 2026-05-04. Información educativa solamente; no es asesoría legal.</p>
+    </div>
+</div>
+
+
+<link rel="stylesheet" href="/assets/obp-search.css?v=20260519d">
+<div id="search" style="background:#0d1117;border-bottom:1px solid #252d38;padding:32px 0">
+<div class="container">
+<div class="obp-search" data-program="cases" data-placeholder="Buscar registros judiciales de quiebras, beneficiarios PPP o EIDL..."></div>
+<p style="text-align:center;color:#7d8590;font-size:0.82rem;margin-top:14px">Busca en <strong>23.1M registros</strong>: 7.9M expedientes de quiebra (PACER + RECAP), 11.5M beneficiarios PPP, 3.7M beneficiarios EIDL. Solo datos de registro publico.</p>
+</div>
+</div>
+<script src="/assets/obp-search.js?v=20260519d" defer></script>
+
+<div class="container">
+<section class="body-section">
+<div class="section-label">Anatomía de una opinión</div>
+        <div class="quick-answer">
+            <p>Mire la cita. Las publicadas citan a un reportero (F.3d, F.Supp.2d, etc.). Las no publicadas usualmente tienen cita 'WL' o 'LEXIS', o están marcadas 'Not for publication.' Las publicadas son precedentes; las no publicadas suelen no serlo.</p>
+        </div>
+
+<h2>Las siete secciones que toda opinión tiene</h2>
+<p>Las opiniones siguen una estructura notablemente consistente. Reconocer las partes acelera la lectura.</p>
+</section>
+<section class="body-section">
+<div class="section-label">El encabezado</div>
+<h2>El encabezado</h2>
+<p>Parte superior de cada opinión. Lista las partes, la corte, el número de docket y la fecha. El encabezado le dice quién demanda a quién, dónde y cómo citar la opinión.</p>
+</section>
+<section class="body-section">
+<div class="section-label">Postura procesal</div>
+<h2>Postura procesal</h2>
+<p>Párrafo temprano explicando cómo el caso llegó a esta corte. ¿Fue apelado? ¿Es una moción de juicio sumario? ¿Un veredicto? La postura procesal moldea todo: las cortes de apelación revisan errores legales, no corrección fáctica.</p>
+</section>
+<section class="body-section">
+<div class="section-label">Los hechos</div>
+<h2>Los hechos</h2>
+<p>Un resumen de lo que pasó. Lea esta sección críticamente. Las cortes eligen qué hechos enfatizar, y los hechos elegidos suelen señalar hacia dónde va el análisis.</p>
+</section>
+<section class="body-section">
+<div class="section-label">La decisión</div>
+<h2>La decisión</h2>
+<p>La conclusión legal de la corte. Suele expresarse como "sostenemos que..." o "concluimos..." Todo lo demás existe para respaldar la decisión. Es lo que otras cortes deben seguir.</p>
+</section>
+<section class="body-section">
+<div class="section-label">Dicta</div>
+<h2>Dicta</h2>
+<p>Declaraciones en una opinión que van más allá de lo necesario para decidir el caso. La dicta no es precedente vinculante. Distinguir decisión de dicta es una habilidad central de lectura legal.</p>
+</section>
+<section class="body-section">
+<div class="section-label">Citas</div>
+<h2>Citas</h2>
+<p>Cada opinión cita casos previos. El formato es consistente: nombres de partes, número de volumen, reportero, página, corte (en paréntesis), año. Las citas son la estructura de soporte; rastrearlas es esencial.</p>
+</section>
+<section class="body-section">
+<div class="section-label">Concurrencias y disensos</div>
+<h2>Concurrencias y disensos</h2>
+<p>Los paneles de múltiples jueces pueden producir concurrencias (acuerdo con el resultado por razones diferentes) y disensos (jueces que decidirían diferente). No tienen fuerza precedencial pero suelen señalar cambios doctrinales futuros.</p>
+</section>
+<section class="body-section" id="faq">
+<div class="section-label">Preguntas frecuentes</div>
+<h2>Preguntas frecuentes</h2>
+<details class="faq"><summary>¿Cómo sé si una opinión está publicada?</summary><p>Mire la cita. Las publicadas citan a un reportero (F.3d, F.Supp.2d, etc.). Las no publicadas usualmente tienen cita 'WL' o 'LEXIS', o están marcadas 'Not for publication.' Las publicadas son precedentes; las no publicadas suelen no serlo.</p></details>
+<details class="faq"><summary>¿Cuál es la diferencia entre decisión y dicta?</summary><p>La decisión es la regla legal aplicada para decidir el caso. La dicta es todo lo demás. La prueba: si remueve la declaración y el caso sale igual, es dicta.</p></details>
+<details class="faq"><summary>¿Por qué algunas opiniones citan casos que no conozco?</summary><p>El common law federal se construye por siglos. Una opinión moderna puede citar un caso del siglo XIX si el principio se ha aplicado continuamente. Citar casos viejos es normal.</p></details>
+<details class="faq"><summary>¿Son útiles los disensos?</summary><p>Sí. Los disensos señalan vistas minoritarias que pueden volverse mayoritarias. También identifican precedentes y preocupaciones que la mayoría no abordó o rechazó.</p></details>
+<details class="faq"><summary>¿Qué es 'standard of review' y por qué importa?</summary><p>Es el lente con que una corte de apelación evalúa la decisión inferior. De novo es el más exigente (sin deferencia); abuse of discretion es más deferente; clear error es el más deferente. El estándar suele determinar el resultado.</p></details>
+</section>
+<section class="body-section">
+<div class="section-label">Próximos pasos</div>
+<h2>A dónde ir desde aquí</h2>
+<p>Ahora puede leer cualquier opinión federal. Para encontrarlas:</p>
+<ul>
+<li><a href="how-to-use-courtlistener-es.html">Cómo usar CourtListener</a> - búsqueda gratuita de cada opinión publicada.</li>
+<li><a href="how-to-use-pacer-es.html">Cómo usar PACER</a> - para opiniones en dockets activos.</li>
+</ul></section>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="about-es.html">Acerca</a>
+            <a href="contact-es.html">Contacto</a>
+            <a href="privacy-es.html">Privacidad</a>
+        </div>
+        <p>Open Bankruptcy Project es una organización sin fines de lucro 501(c)(3).</p>
+        <p>EIN 41-5159631. Todas las herramientas y datos publicados bajo licencias de código abierto.</p>
+        <p style="margin-top: 12px;">No se proporciona asesoría legal. Esta es información educativa y de investigación solamente.</p>
+    </div>
+</footer>
+
+</body>
+</html>

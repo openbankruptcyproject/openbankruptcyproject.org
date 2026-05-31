@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Filing Bankruptcy Pro Se (Without an Attorney) - Procedural Guide | Open Bankruptcy Project</title>
+<meta name="description" content="Procedural overview of filing a federal bankruptcy case pro se: who can proceed without counsel, required forms, typical court requirements, and free resources for unrepresented debtors."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/pro-se/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Filing Bankruptcy Pro Se (Without an Attorney) - Procedural Guide | Open Bankruptcy Project"/>
+<meta property="og:description" content="Procedural overview of filing a federal bankruptcy case pro se: who can proceed without counsel, required forms, typical court requirements, and free resources for unrepresented debtors."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/pro-se/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Filing Bankruptcy Without an Attorney", "description": "Procedural overview of filing a federal bankruptcy case pro se: who can proceed without counsel, required forms, typical court requirements, and free resources for unrepresented debtors.", "url": "https://openbankruptcyproject.org/pro-se/", "datePublished": "2026-04-21", "dateModified": "2026-04-21", "author": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org", "nonprofitStatus": "Nonprofit501c3"}, "isAccessibleForFree": true}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 3, "name": "Pro Se", "item": "https://openbankruptcyproject.org/pro-se/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I file bankruptcy without a lawyer?", "acceptedAnswer": {"@type": "Answer", "text": "An individual may file a bankruptcy case pro se under 28 U.S.C. § 1654. Corporate debtors (including LLCs and partnerships) generally cannot proceed pro se on case-level matters under Rowland v. California Men's Colony, 506 U.S. 194 (1993)."}}, {"@type": "Question", "name": "Where are the bankruptcy forms?", "acceptedAnswer": {"@type": "Answer", "text": "Official federal bankruptcy forms are free at uscourts.gov/forms/bankruptcy-forms. Each US bankruptcy court also publishes local forms and instructions on its website, linked from the national district index."}}, {"@type": "Question", "name": "Do I need to take a credit counseling course before filing?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. 11 U.S.C. § 109(h) requires an approved credit-counseling course within the 180 days before filing. A second course (debtor education under § 727(a)(11)) is required before discharge can be entered. Approved agencies are listed at justice.gov/ust/list-credit-counseling-agencies."}}, {"@type": "Question", "name": "What is the 341 meeting?", "acceptedAnswer": {"@type": "Answer", "text": "The § 341 \"meeting of creditors\" is a post-filing examination of the debtor under oath, conducted by the case trustee and typically held 21–50 days after the petition is filed. Pro se debtors are expected to attend and bring any documents the trustee has requested."}}, {"@type": "Question", "name": "Can I avoid unredacted Social Security Number exposure in my filing?", "acceptedAnswer": {"@type": "Answer", "text": "Federal Rule of Bankruptcy Procedure 9037 requires redaction of Social Security Numbers, dates of birth, financial account numbers, and minor-child identifiers in filed documents. Form 121 — the Statement About Your Social Security Numbers — is filed separately and is explicitly not part of the public case file."}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main h3{font-size:1.05rem;font-weight:700;margin:22px 0 8px;color:var(--text)}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul,main ol{margin:10px 0 18px 22px;color:var(--text-secondary)}
+main li{margin-bottom:6px}
+main strong{color:var(--text)}
+main code{background:var(--surface);padding:2px 6px;border-radius:4px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.callout strong{color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 24px;margin:18px 0}
+.card h3{margin-top:0}
+.link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+.link-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:.15s}
+.link-card:hover{background:var(--surface-hover);border-color:var(--accent)}
+.link-card .label{font-size:.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600;margin-bottom:4px}
+.link-card h4{font-size:.98rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.link-card p{font-size:.85rem;color:var(--text-secondary);margin:0}
+.faq details{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;color:var(--text-muted);font-weight:300;font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'−'}
+.faq details[open] summary{margin-bottom:10px;color:var(--accent)}
+.faq details p{margin:10px 0 0;color:var(--text-secondary)}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Research Guide</div>
+<h1>Filing Bankruptcy Without an Attorney</h1>
+<p class="lede">A natural person may file an individual bankruptcy case without an attorney - "pro se." Corporate debtors generally cannot, under <em>Rowland v. California Men's Colony</em>. This page outlines the procedural framework for pro se filers: who's eligible, which Official Forms are required, and what free resources exist from the federal courts and other nonprofits.</p>
+<div class="datastamp">Data updated <time datetime="2026-04-21">2026-04-21</time>. See <a href="/research/methodology/">methodology &amp; sources</a>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Pro Se</div>
+<h2>Who can proceed pro se</h2>
+<p>Under 28 U.S.C. § 1654, parties in federal court may appear and conduct their own cases. In bankruptcy, this right applies fully to individual debtors in their own Chapter 7, 13, or 11 cases. Corporate debtors (including LLCs and partnerships) are generally barred from proceeding pro se on case-level and plan-level matters under the rule from <em>Rowland v. California Men's Colony, Inc.</em>, 506 U.S. 194 (1993).</p>
+<h2>Required filings to open a case</h2>
+<p>Every bankruptcy petition filing requires a core set of Official Forms, available free at uscourts.gov/forms/bankruptcy-forms. The exact set varies by chapter but core items include:</p>
+<ul><li>Form 101 - Voluntary Petition for Individuals Filing for Bankruptcy</li><li>Form 106 Summary and Schedules A/B through J - assets, debts, income, expenses</li><li>Form 107 - Statement of Financial Affairs for Individuals</li><li>Form 121 - Statement About Your Social Security Numbers (filed separately under Rule 9037, not part of the public record)</li><li>Form 122A-1 (Chapter 7) or Form 122C-1 (Chapter 13) - means test / current monthly income</li><li>Certificate of Credit Counseling (pre-filing requirement under 11 U.S.C. § 109(h))</li><li>Filing fee, installment application (Form 103A), or Chapter 7 fee waiver application (Form 103B)</li></ul>
+<h2>Pre-filing credit counseling and post-filing debtor education</h2>
+<p>Section 109(h) requires individual debtors to complete an approved credit-counseling course within 180 days before filing. Section 727(a)(11) requires an approved debtor-education course before discharge can be entered. Both courses are offered by agencies on the US Trustee Program's approved list at justice.gov/ust/list-credit-counseling-agencies.</p>
+<h2>The 341 meeting</h2>
+<p>Every bankruptcy case includes a meeting of creditors under 11 U.S.C. § 341, typically held 21–50 days after filing. The case trustee conducts the meeting; the debtor answers questions under oath. Pro se debtors are expected to attend in person or by video (local practice varies) and to provide any documents requested by the trustee.</p>
+<h2>Common pitfalls for pro se filers</h2>
+<ul><li>Incomplete exemption claims. State and federal exemption schedules determine which property is protected. Missing or inaccurate claims expose assets. See the <a href="/exemptions/">exemptions overview</a>.</li><li>Unredacted personal information. Federal Rule of Bankruptcy Procedure 9037 requires redaction of Social Security Numbers, dates of birth, financial account numbers, and minor-child identifiers in filed documents. Form 121 is an exception - it is explicitly not part of the public case file.</li><li>Missed deadlines. Statements of Intention (Form 108) for secured debt, reaffirmation agreements, and amendments all have strict windows.</li><li>Credit-counseling timing errors. The course must be completed within 180 days before filing.</li><li>Incorrect means-test calculation. Errors in current-monthly-income or expense deductions can delay or derail the case. See the <a href="/means-test/">means test guide</a>.</li></ul>
+<h2>Free resources</h2>
+<ul><li>Federal bankruptcy courts publish local rules and pro se filer guides on their websites - each court's page is linked from the <a href="/cases/">national district index</a>.</li><li>Many law schools operate free consumer-bankruptcy clinics for qualifying low-income filers.</li><li>The <a href="/recap.html">RECAP Archive</a> provides free access to federal court documents that would otherwise require paid PACER access.</li><li>Chapter 7 and Chapter 13 forms and instructions are free at <a href="https://www.uscourts.gov/forms/bankruptcy-forms" rel="external">uscourts.gov/forms/bankruptcy-forms</a>.</li><li>The Open Bankruptcy Project's free <a href="/screener/">discharge-eligibility screener</a> checks § 1328(f) and § 727(a) timing bars based on a user-supplied filing history.</li></ul>
+<h2>Related resources</h2><div class="link-grid"><a class="link-card" href="/screener/"><div class="label">Tool</div><h4>Discharge screener</h4><p>Check § 1328(f) and § 727(a) timing bars before filing.</p></a><a class="link-card" href="/chapter-7-vs-13/"><div class="label">Concept</div><h4>Chapter 7 vs Chapter 13</h4><p>Factual comparison of the two consumer chapters.</p></a><a class="link-card" href="/automatic-stay/"><div class="label">Concept</div><h4>Automatic stay</h4><p>Scope of § 362 protection from filing onward.</p></a><a class="link-card" href="/cases/"><div class="label">Data</div><h4>District case index</h4><p>Each district&#x27;s filing fee, local rules, and pro se information.</p></a></div>
+<section class="faq"><h2>Frequently asked questions</h2><details><summary>Can I file bankruptcy without a lawyer?</summary><p>An individual may file a bankruptcy case pro se under 28 U.S.C. § 1654. Corporate debtors (including LLCs and partnerships) generally cannot proceed pro se on case-level matters under <em>Rowland v. California Men's Colony</em>, 506 U.S. 194 (1993).</p></details><details><summary>Where are the bankruptcy forms?</summary><p>Official federal bankruptcy forms are free at <a href="https://www.uscourts.gov/forms/bankruptcy-forms" rel="external">uscourts.gov/forms/bankruptcy-forms</a>. Each US bankruptcy court also publishes local forms and instructions on its website, linked from the <a href="/cases/">national district index</a>.</p></details><details><summary>Do I need to take a credit counseling course before filing?</summary><p>Yes. 11 U.S.C. § 109(h) requires an approved credit-counseling course within the 180 days before filing. A second course (debtor education under § 727(a)(11)) is required before discharge can be entered. Approved agencies are listed at justice.gov/ust/list-credit-counseling-agencies.</p></details><details><summary>What is the 341 meeting?</summary><p>The § 341 "meeting of creditors" is a post-filing examination of the debtor under oath, conducted by the case trustee and typically held 21–50 days after the petition is filed. Pro se debtors are expected to attend and bring any documents the trustee has requested.</p></details><details><summary>Can I avoid unredacted Social Security Number exposure in my filing?</summary><p>Federal Rule of Bankruptcy Procedure 9037 requires redaction of Social Security Numbers, dates of birth, financial account numbers, and minor-child identifiers in filed documents. Form 121 - the Statement About Your Social Security Numbers - is filed separately and is explicitly not part of the public case file.</p></details></section>
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Empirical statistics and informational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Data sources: Federal Judicial Center Integrated Database; Free Law Project RECAP Archive via CourtListener; official US federal bankruptcy court websites. Derived content on this page is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>. See the <a href="/research/methodology/">methodology page</a> for metric definitions and sourcing.</p>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+</body></html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+    <title>Blog - Open Bankruptcy Project</title>
+    <meta name="description" content="Practical bankruptcy guides backed by data from 4.9 million federal cases. Free educational articles on Chapter 7, Chapter 13, discharge, trustees, and more.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/blog/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/blog/">
+
+    <meta property="og:title" content="Blog - Open Bankruptcy Project">
+    <meta property="og:description" content="Practical bankruptcy guides backed by data from 4.9 million federal cases. Free educational articles on Chapter 7, Chapter 13, discharge, trustees, and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/blog/">
+    <meta property="og:site_name" content="Open Bankruptcy Project">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog - Open Bankruptcy Project">
+    <meta name="twitter:description" content="Practical bankruptcy guides backed by data from 4.9 million federal cases.">
+    <meta name="twitter:image" content="/og-image.svg">
+
+    <!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Blog",
+          "name": "Open Bankruptcy Project Blog",
+          "description": "Practical bankruptcy guides backed by data from 4.9 million federal cases.",
+          "url": "https://openbankruptcyproject.org/blog/",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+          },
+          "blogPost": [
+            { "@type": "BlogPosting", "headline": "What Happens When Chapter 13 Is Dismissed?", "url": "https://openbankruptcyproject.org/blog/what-happens-when-chapter-13-is-dismissed.html", "datePublished": "2026-04-09" },
+            { "@type": "BlogPosting", "headline": "Can You File Bankruptcy More Than Once?", "url": "https://openbankruptcyproject.org/blog/can-you-file-bankruptcy-more-than-once.html", "datePublished": "2026-04-09" },
+            { "@type": "BlogPosting", "headline": "What Is a Bankruptcy Trustee?", "url": "https://openbankruptcyproject.org/blog/what-is-a-bankruptcy-trustee.html", "datePublished": "2026-04-09" },
+            { "@type": "BlogPosting", "headline": "How Long Does Chapter 7 Take?", "url": "https://openbankruptcyproject.org/blog/how-long-does-chapter-7-take.html", "datePublished": "2026-04-09" },
+            { "@type": "BlogPosting", "headline": "What Debts Survive Bankruptcy?", "url": "https://openbankruptcyproject.org/blog/what-debts-survive-bankruptcy.html", "datePublished": "2026-04-09" },
+            { "@type": "BlogPosting", "headline": "Can I Keep My Tax Refund in Bankruptcy?", "url": "https://openbankruptcyproject.org/blog/can-i-keep-my-tax-refund-in-bankruptcy.html", "datePublished": "2026-04-09" },
+            { "@type": "BlogPosting", "headline": "Bankruptcy vs Debt Settlement: Which Is Better?", "url": "https://openbankruptcyproject.org/blog/bankruptcy-vs-debt-settlement.html", "datePublished": "2026-04-09" },
+            { "@type": "BlogPosting", "headline": "How Much Debt Do You Need to File Bankruptcy?", "url": "https://openbankruptcyproject.org/blog/how-much-debt-to-file-bankruptcy.html", "datePublished": "2026-04-09" },
+            { "@type": "BlogPosting", "headline": "Does Bankruptcy Affect Your Spouse?", "url": "https://openbankruptcyproject.org/blog/does-bankruptcy-affect-your-spouse.html", "datePublished": "2026-04-09" },
+            { "@type": "BlogPosting", "headline": "What Happens to Your Bank Account in Bankruptcy?", "url": "https://openbankruptcyproject.org/blog/what-happens-to-your-bank-account-in-bankruptcy.html", "datePublished": "2026-04-09" }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://openbankruptcyproject.org/blog/" }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+            --green: #3fb950;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        .wide-container { max-width: 1040px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+
+        .blog-list { padding: 56px 0; }
+        .blog-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 28px 32px;
+            margin-bottom: 20px; transition: border-color 0.2s, transform 0.2s; display: block; color: var(--text);
+        }
+        .blog-card:hover { border-color: var(--accent); transform: translateY(-2px); color: var(--text); }
+        .blog-card .card-date { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 8px; }
+        .blog-card h2 { font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.02em; }
+        .blog-card p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; margin: 0; }
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container, .wide-container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .blog-card { padding: 20px 24px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/methodology.html">Methodology</a>
+            <a href="/citations.html">Citations</a>
+            <a href="/blog/">Blog</a>
+            <a href="/press.html">Press</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">&rsaquo;</span><span>Blog</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Blog</h1>
+        <p class="subtitle">Practical bankruptcy guides backed by data from 4.9 million federal cases.</p>
+    </div>
+</div>
+
+<div class="blog-list">
+    <div class="container">
+
+        <a class="blog-card" href="data-roundup-april-2026.html">
+            <div class="card-date">April 14, 2026</div>
+            <h2>Bankruptcy Filing Statistics: April 2026 Data Roundup</h2>
+            <p>Monthly data roundup covering 1,926 bankruptcy filings across 12 federal districts. Year-over-year change: -80.2%.</p>
+        </a>
+
+        <a class="blog-card" href="data-roundup-april-2026.html">
+            <div class="card-date">April 9, 2026</div>
+            <h2>Bankruptcy Filing Statistics: April 2026 Data Roundup</h2>
+            <p>Monthly data roundup covering 1,926 bankruptcy filings across 12 federal districts. Year-over-year change: -80.2%.</p>
+        </a>
+
+        <a class="blog-card" href="what-happens-to-your-bank-account-in-bankruptcy.html">
+            <div class="card-date">April 9, 2026</div>
+            <h2>What Happens to Your Bank Account in Bankruptcy?</h2>
+            <p>Your bank accounts are not automatically frozen when you file, but the trustee can access non-exempt funds. Learn about exemptions, set-off risk, and how to protect your money.</p>
+        </a>
+
+        <a class="blog-card" href="does-bankruptcy-affect-your-spouse.html">
+            <div class="card-date">April 9, 2026</div>
+            <h2>Does Bankruptcy Affect Your Spouse?</h2>
+            <p>Filing bankruptcy does not automatically affect your spouse, but co-signed debts, joint accounts, and community property states create important exceptions.</p>
+        </a>
+
+        <a class="blog-card" href="how-much-debt-to-file-bankruptcy.html">
+            <div class="card-date">April 9, 2026</div>
+            <h2>How Much Debt Do You Need to File Bankruptcy?</h2>
+            <p>There is no minimum debt requirement to file bankruptcy. But practical thresholds, the means test, and filing costs all factor into whether it makes sense.</p>
+        </a>
+
+        <a class="blog-card" href="bankruptcy-vs-debt-settlement.html">
+            <div class="card-date">April 9, 2026</div>
+            <h2>Bankruptcy vs Debt Settlement: Which Is Better?</h2>
+            <p>A side-by-side comparison of bankruptcy and debt settlement covering cost, timeline, credit impact, and when each approach makes the most sense.</p>
+        </a>
+
+        <a class="blog-card" href="can-i-keep-my-tax-refund-in-bankruptcy.html">
+            <div class="card-date">April 9, 2026</div>
+            <h2>Can I Keep My Tax Refund in Bankruptcy?</h2>
+            <p>Whether you keep your tax refund depends on the chapter you filed, when you file, and your state's exemption laws. Here is what you need to know.</p>
+        </a>
+
+        <a class="blog-card" href="what-debts-survive-bankruptcy.html">
+            <div class="card-date">April 9, 2026</div>
+            <h2>What Debts Survive Bankruptcy?</h2>
+            <p>Most debts are wiped out in bankruptcy, but some are not dischargeable. A plain-language guide to Section 523(a) and the debts that survive.</p>
+        </a>
+
+        <a class="blog-card" href="how-long-does-chapter-7-take.html">
+            <div class="card-date">April 9, 2026</div>
+            <h2>How Long Does Chapter 7 Take?</h2>
+            <p>Most Chapter 7 cases go from filing to discharge in about 3 to 4 months. Here is the timeline, milestone by milestone.</p>
+        </a>
+
+        <a class="blog-card" href="what-is-a-bankruptcy-trustee.html">
+            <div class="card-date">April 9, 2026</div>
+            <h2>What Is a Bankruptcy Trustee?</h2>
+            <p>Bankruptcy trustees play different roles depending on the chapter. Learn what Chapter 7 and Chapter 13 trustees actually do and how they affect your case.</p>
+        </a>
+
+        <a class="blog-card" href="can-you-file-bankruptcy-more-than-once.html">
+            <div class="card-date">April 9, 2026</div>
+            <h2>Can You File Bankruptcy More Than Once?</h2>
+            <p>Yes, but waiting periods apply depending on which chapters you filed. A breakdown of 727(a)(8), 1328(f), and every cross-chapter timeline.</p>
+        </a>
+
+        <a class="blog-card" href="what-happens-when-chapter-13-is-dismissed.html">
+            <div class="card-date">April 9, 2026</div>
+            <h2>What Happens When Chapter 13 Is Dismissed?</h2>
+            <p>Dismissal ends your bankruptcy protection and lets creditors resume collections. Learn the consequences, whether you can refile, and how Section 109(g) may apply.</p>
+        </a>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/privacy.html">Privacy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+            <a href="/donate.html">Donate</a>
+        
+            <a href="https://openbankruptcyproject.org/rule-9037/" rel="noopener">Rule 9037 Guide</a></div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p>All tools and data released under open-source licenses.</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

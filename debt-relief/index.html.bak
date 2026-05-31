@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Debt Dischargeability in Bankruptcy - Reference Guide | Open Bankruptcy Project</title>
+<meta name="description" content="Reference guide to debt dischargeability under 11 U.S.C. § 523(a): which debts survive bankruptcy by statute and which can be discharged in Chapter 7 or Chapter 13."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/debt-relief/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Debt Dischargeability in Bankruptcy - Reference Guide | Open Bankruptcy Project"/>
+<meta property="og:description" content="Reference guide to debt dischargeability under 11 U.S.C. § 523(a): which debts survive bankruptcy by statute and which can be discharged in Chapter 7 or Chapter 13."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/debt-relief/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Which Debts Are Discharged in Bankruptcy", "description": "Reference guide to debt dischargeability under 11 U.S.C. § 523(a): which debts survive bankruptcy by statute and which can be discharged in Chapter 7 or Chapter 13.", "url": "https://openbankruptcyproject.org/debt-relief/", "datePublished": "2026-04-21", "dateModified": "2026-04-21", "author": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org", "nonprofitStatus": "Nonprofit501c3"}, "isAccessibleForFree": true}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 3, "name": "Debt Relief", "item": "https://openbankruptcyproject.org/debt-relief/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can tax debts be discharged in bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "Most recent income tax debts are non-dischargeable under § 523(a)(1), but older income tax debts that meet all dischargeability criteria (including timely-filed returns and sufficient age) can be discharged. Tax debts for which no return was filed, or for which a fraudulent return was filed, are non-dischargeable regardless of age."}}, {"@type": "Question", "name": "Are student loans dischargeable?", "acceptedAnswer": {"@type": "Answer", "text": "§ 523(a)(8) makes student loans non-dischargeable absent a finding of \"undue hardship.\" Most circuits apply the Brunner test: inability to maintain a minimal standard of living, persistence of the inability, and good-faith repayment efforts."}}, {"@type": "Question", "name": "Does bankruptcy discharge child support?", "acceptedAnswer": {"@type": "Answer", "text": "No. Domestic support obligations under § 523(a)(5) — alimony, child support, and maintenance — are non-dischargeable in every chapter."}}, {"@type": "Question", "name": "Can fraud-based debts be discharged?", "acceptedAnswer": {"@type": "Answer", "text": "§ 523(a)(2), (4), and (6) exclude from discharge debts for money obtained by fraud, fiduciary defalcation, embezzlement, larceny, and willful-and-malicious injury. These categories require creditor adversary proceedings to establish the non-dischargeability."}}, {"@type": "Question", "name": "What debts are typically discharged in Chapter 7?", "acceptedAnswer": {"@type": "Answer", "text": "Most unsecured consumer debts: credit card balances, medical bills, signature loans, older utility bills, and deficiency judgments. Secured debt personal liability is also discharged, though liens remain on property until the collateral is surrendered or the lien is otherwise addressed."}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main h3{font-size:1.05rem;font-weight:700;margin:22px 0 8px;color:var(--text)}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul,main ol{margin:10px 0 18px 22px;color:var(--text-secondary)}
+main li{margin-bottom:6px}
+main strong{color:var(--text)}
+main code{background:var(--surface);padding:2px 6px;border-radius:4px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.callout strong{color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 24px;margin:18px 0}
+.card h3{margin-top:0}
+.link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+.link-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:.15s}
+.link-card:hover{background:var(--surface-hover);border-color:var(--accent)}
+.link-card .label{font-size:.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600;margin-bottom:4px}
+.link-card h4{font-size:.98rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.link-card p{font-size:.85rem;color:var(--text-secondary);margin:0}
+.faq details{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;color:var(--text-muted);font-weight:300;font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'−'}
+.faq details[open] summary{margin-bottom:10px;color:var(--accent)}
+.faq details p{margin:10px 0 0;color:var(--text-secondary)}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Research Guide</div>
+<h1>Which Debts Are Discharged in Bankruptcy</h1>
+<p class="lede">Bankruptcy discharges most debts, but not all. Section 523(a) of the Bankruptcy Code lists the statutory exceptions to discharge. This page collects the most common categories - taxes, student loans, support obligations, fraud-based debts, and others - with pointers to the controlling statutory language and leading case law.</p>
+<div class="datastamp">Data updated <time datetime="2026-04-21">2026-04-21</time>. See <a href="/research/methodology/">methodology &amp; sources</a>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Debt Relief</div>
+<h2>Debts generally discharged</h2>
+<p>Most unsecured consumer debts are discharged in both Chapter 7 and Chapter 13. Typical examples include credit card balances, medical bills, personal loans, signature lines of credit, older utility bills, and deficiency judgments on repossessed collateral. Secured debts are handled differently - the personal in personam liability is discharged, but the lien remains on the property unless avoided or surrendered.</p>
+<h2>Taxes - § 523(a)(1)</h2>
+<p>Most federal, state, and local income tax debts are non-dischargeable if they fall within specific categories: recent tax years (roughly the three most recent), taxes for which no return was filed, taxes for which a return was filed late within two years of filing, and taxes for which a fraudulent return was filed. Older income tax debts that fail the non-dischargeability test under § 523(a)(1) can be discharged.</p>
+<h2>Student loans - § 523(a)(8)</h2>
+<p>Educational loans and certain educational benefit overpayments are non-dischargeable absent a finding that excepting them from discharge would impose an "undue hardship" on the debtor and the debtor's dependents. The <em>Brunner</em> test, used by most circuits, requires: (1) the debtor cannot maintain a minimal standard of living if forced to repay; (2) additional circumstances indicate this state is likely to persist; (3) the debtor has made good-faith efforts to repay.</p>
+<h2>Domestic support obligations - § 523(a)(5) and § 523(a)(15)</h2>
+<p>Alimony, child support, and other domestic support obligations are non-dischargeable in both chapters. Property-settlement obligations owed to a former spouse or child are non-dischargeable in Chapter 7 under § 523(a)(15), but Chapter 13 historically permitted discharge of § 523(a)(15) obligations - post-BAPCPA, that distinction narrowed.</p>
+<h2>Fraud and related exceptions - § 523(a)(2), (4), (6)</h2>
+<ul><li><strong>§ 523(a)(2):</strong> debts for money, property, services, or an extension of credit obtained by false pretenses, a false representation, or actual fraud. Includes both general fraud and debts incurred by use of a false financial statement.</li><li><strong>§ 523(a)(4):</strong> debts for fraud or defalcation while acting in a fiduciary capacity, embezzlement, or larceny.</li><li><strong>§ 523(a)(6):</strong> debts for willful and malicious injury to another person or property. Intent requirement is narrow - the creditor must show intent to cause the injury, not just intent to do the act.</li></ul>
+<h2>Other common non-dischargeable categories</h2>
+<ul><li>Fines, penalties, and restitution payable to a governmental unit - § 523(a)(7)</li><li>Debts for death or personal injury caused by a debtor operating a motor vehicle, vessel, or aircraft while intoxicated - § 523(a)(9)</li><li>Debts not listed in the petition (with limited exceptions) - § 523(a)(3)</li><li>Debts listed in a prior bankruptcy case in which discharge was denied, waived, or revoked - § 523(a)(10)</li><li>Certain condominium/HOA post-petition assessments - § 523(a)(16)</li><li>Court-ordered civil restitution or criminal restitution - § 523(a)(13)</li><li>Certain governmental-benefit overpayments and educational loan guarantor claims</li></ul>
+<h2>Chapter 7 vs Chapter 13 discharge scope</h2>
+<p>Chapter 13 historically provided a slightly broader "super-discharge," discharging some debts that would survive Chapter 7. Post-BAPCPA (2005), the categories subject to the super-discharge narrowed substantially. A few differences remain - most notably, certain property-settlement-type marital debts under § 523(a)(15) are treated differently, and certain late-paid taxes are treated differently in Chapter 13.</p>
+<h2>Related resources</h2><div class="link-grid"><a class="link-card" href="/chapter-7-vs-13/"><div class="label">Concept</div><h4>Chapter 7 vs Chapter 13</h4><p>Factual comparison of the two chapters and their discharge differences.</p></a><a class="link-card" href="/means-test/"><div class="label">Concept</div><h4>Means test</h4><p>Income threshold for Chapter 7 eligibility under § 707(b).</p></a><a class="link-card" href="/exemptions/"><div class="label">Concept</div><h4>Exemptions</h4><p>Which property is protected from the trustee.</p></a></div>
+<section class="faq"><h2>Frequently asked questions</h2><details><summary>Can tax debts be discharged in bankruptcy?</summary><p>Most recent income tax debts are non-dischargeable under § 523(a)(1), but older income tax debts that meet all dischargeability criteria (including timely-filed returns and sufficient age) can be discharged. Tax debts for which no return was filed, or for which a fraudulent return was filed, are non-dischargeable regardless of age.</p></details><details><summary>Are student loans dischargeable?</summary><p>§ 523(a)(8) makes student loans non-dischargeable absent a finding of "undue hardship." Most circuits apply the <em>Brunner</em> test: inability to maintain a minimal standard of living, persistence of the inability, and good-faith repayment efforts.</p></details><details><summary>Does bankruptcy discharge child support?</summary><p>No. Domestic support obligations under § 523(a)(5) - alimony, child support, and maintenance - are non-dischargeable in every chapter.</p></details><details><summary>Can fraud-based debts be discharged?</summary><p>§ 523(a)(2), (4), and (6) exclude from discharge debts for money obtained by fraud, fiduciary defalcation, embezzlement, larceny, and willful-and-malicious injury. These categories require creditor adversary proceedings to establish the non-dischargeability.</p></details><details><summary>What debts are typically discharged in Chapter 7?</summary><p>Most unsecured consumer debts: credit card balances, medical bills, signature loans, older utility bills, and deficiency judgments. Secured debt personal liability is also discharged, though liens remain on property until the collateral is surrendered or the lien is otherwise addressed.</p></details></section>
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Empirical statistics and informational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Data sources: Federal Judicial Center Integrated Database; Free Law Project RECAP Archive via CourtListener; official US federal bankruptcy court websites. Derived content on this page is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>. See the <a href="/research/methodology/">methodology page</a> for metric definitions and sourcing.</p>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+</body></html>

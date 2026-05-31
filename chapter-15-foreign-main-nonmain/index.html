@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Foreign Main vs Foreign Nonmain Proceeding - 11 USC 1502 COMI [2026] | Open Bankruptcy Project</title>
+<meta content="Foreign main proceeding (COMI under 11 U.S.C. Section 1502(4)) versus foreign nonmain proceeding (establishment under Section 1502(2)) and the effects of recognition under Section 1520 automatic stay and Section 1521 discretionary relief." name="description"/>
+<meta content="foreign main proceeding, foreign nonmain proceeding, COMI, center of main interests, establishment, 1502(4), 1502(2), 1520, 1521, automatic stay, discretionary relief, Chapter 15" name="keywords"/>
+<meta content="#0d1117" name="theme-color"/>
+<link href="https://openbankruptcyproject.org/chapter-15-foreign-main-nonmain/" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Foreign Main vs Foreign Nonmain Proceeding - 11 USC 1502 COMI" property="og:title"/>
+<meta content="COMI versus establishment, foreign main versus foreign nonmain, and the Section 1520 / 1521 relief distinction." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/chapter-15-foreign-main-nonmain/" property="og:url"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Foreign Main vs Foreign Nonmain Proceeding - COMI, Establishment, and the Effects of Recognition",
+      "description": "The distinction between foreign main and foreign nonmain proceedings under 11 U.S.C. Section 1502, the COMI and establishment standards, and the relief consequences under Sections 1520 and 1521.",
+      "author": {"@type": "Organization", "name": "Open Bankruptcy Project"},
+      "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project"},
+      "datePublished": "2026-05-22",
+      "dateModified": "2026-05-22"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Open Bankruptcy Project", "item": "https://openbankruptcyproject.org/"},
+        {"@type": "ListItem", "position": 2, "name": "Foreign Main vs Nonmain", "item": "https://openbankruptcyproject.org/chapter-15-foreign-main-nonmain/"}
+      ]
+    }
+  ]
+}
+</script>
+<!-- BTN:GA4:START -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<style>
+  :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --text-muted:#9eaab6; --accent:#58a6ff; --green:#238636; --red:#f85149; --yellow:#f0c14b; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; min-height:100vh; display:flex; flex-direction:column; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  nav { background:var(--surface); border-bottom:1px solid var(--border); padding:0.75rem 2rem; display:flex; align-items:center; justify-content:space-between; }
+  .site-name { color:#f0f6fc; font-weight:700; font-size:1.1rem; text-decoration:none; }
+  .site-name:hover { color:var(--accent); text-decoration:none; }
+  .container { max-width:820px; margin:0 auto; padding:2.5rem 2rem; flex:1; }
+  h1 { color:#f0f6fc; font-size:2.25rem; margin-bottom:0.5rem; line-height:1.25; }
+  .subtitle { color:var(--text-muted); font-size:1.05rem; margin-bottom:2rem; }
+  h2 { color:#f0f6fc; font-size:1.4rem; margin:2rem 0 0.75rem; }
+  h3 { color:#f0f6fc; font-size:1.1rem; margin:1.5rem 0 0.5rem; }
+  p { margin-bottom:1rem; }
+  ul, ol { margin:0.5rem 0 1rem 1.5rem; }
+  li { margin-bottom:0.4rem; }
+  blockquote { background:var(--surface); border-left:3px solid var(--accent); padding:1rem 1.25rem; margin:1rem 0; color:var(--text); font-style:italic; }
+  code { background:var(--surface); border:1px solid var(--border); padding:0.15rem 0.4rem; border-radius:4px; font-size:0.9em; color:var(--text); }
+  .callout { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:1.25rem 1.5rem; margin:1.5rem 0; }
+  .callout.gov { background:#0d2847; border-color:#1f6feb; }
+  .callout.warn { background:#2a1a00; border-color:#bb8c3a; }
+  .callout strong { color:#f0f6fc; }
+  .callout p:last-child { margin-bottom:0; }
+  .tag { display:inline-block; background:var(--surface); border:1px solid var(--border); border-radius:4px; padding:0.1rem 0.5rem; font-size:0.75rem; color:var(--text-muted); margin-right:0.4rem; text-transform:uppercase; letter-spacing:0.03em; }
+  .two-col { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin:1rem 0; }
+  @media (max-width:640px) { .two-col { grid-template-columns:1fr; } }
+  .two-col .card { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:1.25rem; }
+  .two-col .card h3 { margin-top:0; }
+  .two-col .card p:last-child { margin-bottom:0; }
+  .network-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:0.6rem; margin:1rem 0; }
+  .network-grid a { background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:0.75rem; text-align:center; font-size:0.9rem; }
+  .network-grid a:hover { border-color:var(--accent); text-decoration:none; }
+  footer { background:var(--surface); border-top:1px solid var(--border); padding:1.5rem; text-align:center; font-size:0.8rem; color:var(--text-muted); margin-top:2rem; }
+</style>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a class="site-name" href="/">Open Bankruptcy Project</a>
+<a href="/" style="color:var(--text-muted);font-size:0.9rem">Home</a>
+</nav>
+<div class="container">
+<span class="tag">11 U.S.C.</span>
+<span class="tag">Sections 1502, 1520, 1521</span>
+<h1>Foreign Main vs Foreign Nonmain Proceeding: COMI, Establishment, and the Effects of Recognition</h1>
+<p class="subtitle">The Section 1502(4) center of main interests, the Section 1502(2) establishment, and the divergent relief consequences under Sections 1520 (automatic) and 1521 (discretionary).</p>
+
+<h2>The statutory definitions</h2>
+<blockquote>(4) "foreign main proceeding" means a foreign proceeding pending in the country where the debtor has the center of its main interests.<br/>
+(5) "foreign nonmain proceeding" means a foreign proceeding, other than a foreign main proceeding, pending in a country where the debtor has an establishment.<br/>
+(2) "establishment" means any place of operations where the debtor carries out a nontransitory economic activity. 11 U.S.C. Section 1502(2), (4), (5).</blockquote>
+
+<p>The classification is binary in operation but rests on two different geographical anchors. Foreign main proceedings are pending where the COMI lies. Foreign nonmain proceedings are pending where the debtor has an "establishment" - a fixed place of business with non-transient economic activity. A foreign proceeding that satisfies neither anchor does not qualify for recognition under <a href="https://www.law.cornell.edu/uscode/text/11/1517" rel="noopener" target="_blank">Section 1517</a>; the recognition is denied and the petition fails.</p>
+
+<h2>The COMI standard</h2>
+<p>"Center of main interests" is the cornerstone of the Model Law's structure and carries over into Chapter 15 unchanged. The term is not defined in the Code; courts have developed it through case law. Three reference points govern the analysis:</p>
+
+<h3>The Section 1516(c) presumption</h3>
+<p>Under <a href="https://www.law.cornell.edu/uscode/text/11/1516" rel="noopener" target="_blank">11 U.S.C. Section 1516(c)</a>, "[i]n the absence of evidence to the contrary, the debtor's registered office, or habitual residence in the case of an individual, is presumed to be the center of the debtor's main interests." The presumption is rebuttable. Where credible evidence challenges the registered office as the operational center of the business, the court must look beyond the formal seat to the operational reality.</p>
+
+<h3>Operational factors - the post-Bear Stearns framework</h3>
+<p>The Southern District of New York's decisions in <em>In re Bear Stearns High-Grade Structured Credit Strategies Master Fund, Ltd.</em>, 374 B.R. 122 (Bankr. S.D.N.Y. 2007), aff'd, 389 B.R. 325 (S.D.N.Y. 2008), and <em>In re SPhinX, Ltd.</em>, 351 B.R. 103 (Bankr. S.D.N.Y. 2006), articulated the now-standard factors:</p>
+<ul>
+<li>The location of the debtor's headquarters and management</li>
+<li>The location of those who actually manage the debtor (which may be headquarters of a parent or affiliated entity)</li>
+<li>The location of the debtor's primary assets</li>
+<li>The location of the majority of the debtor's creditors or the creditors most affected by the case</li>
+<li>The jurisdiction whose law would apply to most disputes</li>
+</ul>
+<p>The factors are not a checklist; they are inputs to a totality-of-the-circumstances analysis. Courts have rejected rigid formulas and instead asked, after weighing the factors, where the debtor's affairs are administered on a regular basis such that they are ascertainable by third parties (the creditor-cognizability test borrowed from the European Insolvency Regulation tradition).</p>
+
+<h3>Date of COMI determination</h3>
+<p>The Fifth Circuit's decision in <em>In re Ran</em>, 607 F.3d 1017 (5th Cir. 2010), held that COMI is determined as of the date of the Chapter 15 petition, not as of an earlier historical date - even where there is evidence that the debtor manipulated its location to manufacture COMI in a favorable forum on the eve of filing. Other circuits have engaged with the issue and have moved toward a similar view, recognizing that courts must guard against forum manipulation through evidence of long-term operational reality, but that the formal inquiry date is the petition date.</p>
+
+<h2>The establishment standard</h2>
+<p>"Establishment" carries a lower threshold than COMI. The Section 1502(2) definition - "any place of operations where the debtor carries out a nontransitory economic activity" - requires (a) a place of operations, (b) economic activity, and (c) some degree of permanence. The activity need not be the principal locus of the debtor's business; that is what distinguishes establishment from COMI.</p>
+
+<p>A debtor may have multiple establishments, but only one COMI. A foreign proceeding may be recognized as foreign nonmain in multiple countries where the debtor has establishments, and the U.S. court will respect that classification provided the petitioner adduces evidence of operations beyond a registered office or a mailing address.</p>
+
+<p>In <em>In re Creative Finance Ltd.</em>, 543 B.R. 498 (Bankr. S.D.N.Y. 2016), the court denied recognition altogether - both as foreign main and as foreign nonmain - because the debtor's purported British Virgin Islands operations consisted of nothing more than a registered address. The case stands for the proposition that the establishment standard, while lower than COMI, still requires real activity.</p>
+
+<h2>Effects of foreign-main recognition - Section 1520</h2>
+<blockquote>(a) Upon recognition of a foreign proceeding that is a foreign main proceeding - (1) sections 361 and 362 apply with respect to the debtor and the property of the debtor that is within the territorial jurisdiction of the United States; (2) sections 363, 549, and 552 apply to a transfer of an interest of the debtor in property that is within the territorial jurisdiction of the United States to the same extent that the sections would apply to property of an estate; (3) unless the court orders otherwise, the foreign representative may operate the debtor's business and may exercise the rights and powers of a trustee under and to the extent provided by sections 363 and 552; and (4) section 552 applies to property of the debtor that is within the territorial jurisdiction of the United States. 11 U.S.C. Section 1520(a).</blockquote>
+
+<p>Foreign-main recognition is the heavyweight outcome. It triggers automatic Code consequences that operate without further court action:</p>
+
+<div class="two-col">
+<div class="card">
+<h3>Section 362 automatic stay</h3>
+<p>The full automatic stay applies to the debtor and to the debtor's property in the United States. Creditor actions against the U.S. assets - foreclosure, repossession, judgment enforcement, setoff - are enjoined immediately upon entry of the recognition order. The stay carries the same enforcement weight (contempt; damages under Section 362(k)) as in a domestic case.</p>
+</div>
+<div class="card">
+<h3>Section 363 transfer controls</h3>
+<p>Transfers of the debtor's U.S. property outside the ordinary course require court authorization. The Section 549 power to avoid unauthorized postpetition transfers applies. The Section 552 cutoff of after-acquired property security interests applies to the U.S. property.</p>
+</div>
+<div class="card">
+<h3>Adequate protection - Section 361</h3>
+<p>Creditors with interests in the debtor's U.S. property may seek adequate protection under Section 361 in connection with relief from stay or use of cash collateral, drawing the U.S. statutory regime into the otherwise foreign-administered case.</p>
+</div>
+<div class="card">
+<h3>Operating authority of the foreign representative</h3>
+<p>Unless the court orders otherwise, the foreign representative may operate the debtor's U.S. business and exercise the rights and powers of a trustee under Sections 363 and 552. The provision is permissive in court discretion but defaults to broad operational authority on recognition.</p>
+</div>
+</div>
+
+<h2>Effects of foreign-nonmain recognition - no Section 1520 automatic stay</h2>
+<p>Recognition as a foreign nonmain proceeding does not trigger the Section 1520 package. The automatic stay does not arise by operation of statute on recognition; transfer controls are not automatic; the foreign representative does not have default operating authority. All relief must be specifically requested and is granted at the court's discretion under Section 1521.</p>
+
+<p>This is the doctrinal weight of the foreign-main / foreign-nonmain distinction. A debtor seeking the protection of the U.S. automatic stay and a foreign representative seeking the default authority to administer U.S. assets need foreign-main recognition. A debtor whose center of main interests is plainly elsewhere may still obtain useful relief through foreign-nonmain recognition, but the relief is discretionary, must be requested in detail, and is shaped by the court's view of what cooperation serves the case.</p>
+
+<h2>Section 1521 discretionary relief</h2>
+<blockquote>Upon recognition of a foreign proceeding, whether main or nonmain, where necessary to effectuate the purpose of this chapter and to protect the assets of the debtor or the interests of the creditors, the court may, at the request of the foreign representative, grant any appropriate relief, including - (1) staying the commencement or continuation of an individual action or proceeding concerning the debtor's assets, rights, obligations or liabilities to the extent they have not been stayed under section 1520(a); (2) staying execution against the debtor's assets to the extent it has not been stayed under section 1520(a); (3) suspending the right to transfer, encumber or otherwise dispose of any assets of the debtor to the extent this right has not been suspended under section 1520(a); (4) providing for the examination of witnesses, the taking of evidence or the delivery of information concerning the debtor's assets, affairs, rights, obligations or liabilities; (5) entrusting the administration or realization of all or part of the debtor's assets within the territorial jurisdiction of the United States to the foreign representative or another person, including an examiner, authorized by the court; (6) extending relief granted under section 1519(a); and (7) granting any additional relief that may be available to a trustee, except for relief available under sections 522, 544, 545, 547, 548, 550, and 724(a). 11 U.S.C. Section 1521(a).</blockquote>
+
+<p>Section 1521 is the workhorse provision for foreign nonmain recognitions and for supplementary relief in foreign main recognitions. The categories of relief mirror many of the Section 1520 automatic effects, but require an affirmative motion, a finding that the relief is necessary to effectuate the chapter's purpose, and protection of creditor interests under Section 1522.</p>
+
+<h3>The Section 1521(a)(7) carve-out</h3>
+<p>The chapter-wide bar on using Chapter 15 to obtain U.S. avoidance powers is implemented in Section 1521(a)(7). A foreign representative cannot use Chapter 15 to bring preference actions under Section 547, fraudulent-transfer actions under Section 548, or other U.S. avoidance claims. To pursue U.S. avoidance powers, the foreign representative must commence a plenary case under another chapter (typically Chapter 11 or Chapter 7) in addition to or instead of the Chapter 15 ancillary case. The Section 1521(a)(7) line was a deliberate choice of the BAPCPA drafters and has been confirmed in cases like <em>In re Condor Insurance Ltd.</em>, 601 F.3d 319 (5th Cir. 2010), which held that the foreign representative may sometimes pursue foreign-law avoidance theories without violating Section 1521(a)(7) - the bar runs to the specific U.S. provisions enumerated, not to the underlying concept of avoidance.</p>
+
+<h2>The Section 1522 protection-of-interests requirement</h2>
+<blockquote>The court may grant relief under section 1519 or 1521, or may modify or terminate relief under subsection (c), only if the interests of the creditors and other interested entities, including the debtor, are sufficiently protected. 11 U.S.C. Section 1522(a).</blockquote>
+
+<p>Discretionary relief under Section 1519 (provisional) or Section 1521 (post-recognition) is conditioned on a finding that creditor interests are sufficiently protected. The provision lends the U.S. court ongoing supervisory authority over the operation of the relief and is the mechanism through which U.S. creditors who would be disadvantaged by deferring to the foreign administration may seek modification or termination of relief.</p>
+
+<h2>The interaction with plenary Chapter 7 or 11</h2>
+<p>A foreign representative may commence a plenary case under <a href="https://www.law.cornell.edu/uscode/text/11/1511" rel="noopener" target="_blank">11 U.S.C. Section 1511</a> upon recognition. Where a plenary case is commenced alongside the Chapter 15 case, the relief available expands dramatically - the full estate, the full panoply of avoidance powers, and the full U.S. distribution system come into play. The decision whether to file plenary in addition to ancillary is driven by the value of U.S.-based avoidance claims, the practicality of administering U.S. assets through a U.S. trustee, and the desire to obtain a U.S. discharge or restructuring effect not available through ancillary relief alone.</p>
+
+<h2>Comparative summary</h2>
+<div class="two-col">
+<div class="card">
+<h3>Foreign main proceeding</h3>
+<ul>
+<li>COMI standard (Section 1502(4))</li>
+<li>Registered-office presumption (Section 1516(c))</li>
+<li>Automatic Section 362 stay on U.S. assets</li>
+<li>Automatic Sections 363, 549, 552 controls</li>
+<li>Default operating authority for foreign representative</li>
+<li>Section 1521 additional discretionary relief still available</li>
+</ul>
+</div>
+<div class="card">
+<h3>Foreign nonmain proceeding</h3>
+<ul>
+<li>Establishment standard (Section 1502(2))</li>
+<li>No registered-office presumption</li>
+<li>No automatic stay; stay obtainable under Section 1521(a)(1)-(2) on motion</li>
+<li>No automatic Sections 363, 549, 552 controls</li>
+<li>No default operating authority; entrustment obtainable under Section 1521(a)(5)</li>
+<li>Section 1522 sufficient-protection requirement on all relief</li>
+</ul>
+</div>
+</div>
+
+<div class="callout warn">
+<p><strong>Section 1521(a)(7) avoidance carve-out.</strong> Ancillary recognition does not unlock the U.S. avoidance powers under Sections 544, 545, 547, 548, 550, or 724(a). A foreign representative who needs preference recoveries or U.S. fraudulent-transfer remedies must consider filing a plenary case under Section 1511 in addition to the Chapter 15 case, or pursuing avoidance under the law of the foreign main proceeding to the extent the U.S. court will accommodate it under Section 1521(a)(7) as interpreted by <em>In re Condor Insurance Ltd.</em></p>
+</div>
+
+<h2>Related authority</h2>
+<ul>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/1502" rel="noopener" target="_blank">11 U.S.C. Section 1502</a> - Definitions, including COMI and establishment</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/1516" rel="noopener" target="_blank">Section 1516</a> - Presumptions concerning recognition</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/1520" rel="noopener" target="_blank">Section 1520</a> - Effects of recognition of a foreign main proceeding</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/1521" rel="noopener" target="_blank">Section 1521</a> - Relief that may be granted upon recognition</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/1522" rel="noopener" target="_blank">Section 1522</a> - Protection of creditors and other interested persons</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/1511" rel="noopener" target="_blank">Section 1511</a> - Commencement of case under section 301, 302, or 303</li>
+</ul>
+
+<h2>Open Bankruptcy Project cross-references</h2>
+<div class="network-grid">
+<a href="/chapter-15-cross-border/">Chapter 15 Recognition</a>
+<a href="/district-court-bankruptcy-appeals/">District Court Appeals</a>
+<a href="/bap-vs-district-court-appeals/">BAP vs District Court</a>
+<a href="/rule-9011/">Rule 9011 (Sanctions)</a>
+</div>
+
+<h2>Further reading</h2>
+<ul>
+<li>11 U.S.C. Chapter 15 - <a href="https://www.law.cornell.edu/uscode/text/11/chapter-15" rel="noopener" target="_blank">Cornell Legal Information Institute</a></li>
+<li>UNCITRAL Model Law on Cross-Border Insolvency (1997) - <a href="https://uncitral.un.org/en/texts/insolvency/modellaw/cross-border_insolvency" rel="noopener" target="_blank">uncitral.un.org</a></li>
+<li><em>In re Bear Stearns High-Grade Structured Credit Strategies Master Fund, Ltd.</em>, 374 B.R. 122 (Bankr. S.D.N.Y. 2007)</li>
+<li><em>In re SPhinX, Ltd.</em>, 351 B.R. 103 (Bankr. S.D.N.Y. 2006)</li>
+<li><em>In re Ran</em>, 607 F.3d 1017 (5th Cir. 2010) - COMI determination date</li>
+<li><em>In re Condor Insurance Ltd.</em>, 601 F.3d 319 (5th Cir. 2010) - Section 1521(a)(7) avoidance scope</li>
+<li><em>In re Creative Finance Ltd.</em>, 543 B.R. 498 (Bankr. S.D.N.Y. 2016) - establishment threshold</li>
+</ul>
+
+<p style="color:var(--text-muted);font-size:0.85rem;margin-top:2rem">This page provides general information about the foreign main / foreign nonmain classification under 11 U.S.C. Sections 1502, 1520, and 1521 and the effects of recognition under Chapter 15. It does not constitute legal advice. Cross-border insolvency proceedings should be evaluated by qualified counsel familiar with U.S., foreign, and Model Law insolvency frameworks. Last modified 2026-05-22.</p>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+<p>This site provides general information only and does not constitute legal advice.</p>
+<p>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+<p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
+</footer>
+<!-- BTN:FOOTER:END -->
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Find Someone in Bankruptcy — Free Public Records Search</title>
+<meta name="description" content="Search 7.9M federal bankruptcy filings by debtor name. Free, public records only — no PACER fee, no signup. Find out if someone has filed Chapter 7, 11, or 13 in any U.S. district.">
+<link rel="canonical" href="https://openbankruptcyproject.org/find-someone-in-bankruptcy.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+<meta property="og:title" content="Find Someone in Bankruptcy — Free Public Records Search">
+<meta property="og:description" content="Search 7.9M federal bankruptcy filings by debtor name. Free, public records only — no PACER fee, no signup.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://openbankruptcyproject.org/find-someone-in-bankruptcy.html">
+
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag('js',new Date());gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Find Someone in Bankruptcy",
+  "description": "Free public-records search across 7.9M federal bankruptcy filings.",
+  "url": "https://openbankruptcyproject.org/find-someone-in-bankruptcy.html",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://obp-search.openbankruptcyproject.workers.dev/search?q={query}",
+    "query-input": "required name=query"
+  },
+  "publisher": {
+    "@type": "NonprofitOrganization",
+    "name": "Open Bankruptcy Project"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-answer",
+      "h1",
+      ".subtitle",
+      "p:first-of-type"
+    ]
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I find out if someone has filed bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "Bankruptcy filings are public records. You can search them through PACER (the federal court system, which charges fees) or through a free public-records index like the Open Bankruptcy Project. Type the person's full name or business name in the search box above."}}, {"@type": "Question", "name": "Is bankruptcy information public?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Federal bankruptcy filings are public records under 11 U.S.C. § 107. Anyone can view the docket, including case caption, chapter, filing date, and most documents. Personal identifiers (SSN, financial account numbers, dates of birth, minor children's names) must be partially redacted under FRBP 9037."}}, {"@type": "Question", "name": "Is this free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our search is completely free. PACER (the official federal records system) charges $0.10 per page; we publish the public-record case captions and link to free RECAP/CourtListener archives where available."}}, {"@type": "Question", "name": "Can I search by case number instead of name?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The search accepts both debtor names and case numbers. Try formats like \"24-12345\" or \"4:2024bk40010\"."}}, {"@type": "Question", "name": "What if the person I'm looking for doesn't appear?", "acceptedAnswer": {"@type": "Answer", "text": "Either they haven't filed bankruptcy, they filed in a court not yet in our index, or the filing is recent enough that we haven't synced it. Try PACER directly if you need definitive coverage."}}, {"@type": "Question", "name": "How current is the bankruptcy filing data?", "acceptedAnswer": {"@type": "Answer", "text": "Coverage varies by district and dataset. The Open Bankruptcy Project's case search refreshes regularly but lags PACER by some interval depending on the source pipeline. For real-time lookups of a very recent filing, PACER itself is the authoritative source. For research, statistics, and historical lookups, the OBP data is typically sufficient. The dataset metadata page lists the most recent refresh date for each dataset. If you cannot find a case that you know was filed, try PACER directly or wait for the next refresh cycle."}}, {"@type": "Question", "name": "Will the person know I searched for their bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "No. Searches on the Open Bankruptcy Project, like searches on PACER, do not notify the debtor or any party in the case. Court searches are anonymous. Court filings themselves are public records - anyone can look at any case without permission. The fact of having looked is not itself recorded in any way that the debtor would see. The same is true of credit reports: pulling a credit report leaves a record on the file, but reading a court docket does not."}}, {"@type": "Question", "name": "Can I search for joint filings under a spouse's name?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Bankruptcy cases filed jointly by spouses appear under both spouses' names in PACER and OBP. Searching the name of either spouse will return the joint case. Cases filed by only one spouse appear under that spouse's name only - the non-filing spouse is not a party of record. If you cannot find a case under one spouse's name, try the other spouse's name. Maiden names, prior married names, and middle-name variations all matter for completeness."}}]}
+</script>
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --bg: #0d1117; --surface: #151b23; --border: #252d38; --text: #e6edf3;
+  --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; --green: #3fb950; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.7; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); }
+.container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+nav { border-bottom: 1px solid var(--border); padding: 18px 0; }
+nav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.nav-brand { font-weight: 700; color: var(--text); }
+.nav-brand a { color: var(--text); }
+.nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.nav-links a { color: var(--text-muted); font-size: 0.88rem; }
+.hero { padding: 56px 0 32px; text-align: center; border-bottom: 1px solid var(--border); }
+.hero h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 14px; }
+.hero p.tagline { font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 12px; }
+.hero .stats { color: var(--text-muted); font-size: 0.9rem; }
+.hero .stats strong { color: var(--green); }
+section { padding: 40px 0; border-bottom: 1px solid var(--border); }
+section h2 { font-size: 1.4rem; font-weight: 700; margin-bottom: 14px; }
+section p { color: var(--text-secondary); margin-bottom: 14px; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 20px 0; }
+.step { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 18px; }
+.step .num { color: var(--accent); font-weight: 800; font-size: 1.4rem; }
+.step h3 { margin: 6px 0; font-size: 1rem; }
+.step p { color: var(--text-muted); font-size: 0.9rem; margin: 0; }
+.faq-item { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px 20px; margin-bottom: 12px; }
+.faq-item h3 { color: var(--accent); margin-bottom: 8px; font-size: 1.05rem; }
+.faq-item p { color: var(--text-secondary); margin: 0; }
+footer { padding: 40px 0; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+footer a { color: var(--text-muted); margin: 0 10px; }
+        .quick-answer { background: var(--surface); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 16px 20px; margin-bottom: 24px; }
+        .quick-answer p { color: var(--text); margin: 0; font-size: 0.95rem; }
+
+</style>
+</head>
+<body>
+
+<nav>
+<div class="container">
+<span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="lookup.html">Lookup</a>
+<a href="find-someone-in-bankruptcy-es.html">Español</a>
+</div>
+</div>
+</nav>
+
+<div class="hero">
+<div class="container">
+<h1>Find Someone in Bankruptcy</h1>
+<p class="tagline">Search 7.9M federal bankruptcy filings by debtor name. Free, public records only.</p>
+<p class="stats"><strong>No PACER fee. No signup. No ads.</strong> 501(c)(3) nonprofit.</p>
+</div>
+</div>
+
+<link rel="stylesheet" href="/assets/obp-search.css?v=20260519d">
+<div id="search" style="background:#0d1117;border-bottom:1px solid #252d38;padding:32px 0">
+<div class="container">
+<div class="obp-search" data-program="cases" data-placeholder="Search bankruptcy cases by debtor name..."></div>
+<p style="text-align:center;color:#7d8590;font-size:0.82rem;margin-top:14px">Searches across <strong>7.9M case captions</strong> from PACER + RECAP. Public-record data only.</p>
+</div>
+</div>
+<script src="/assets/obp-search.js?v=20260519d" defer></script>
+
+<section>
+<div class="container">
+        <div class="quick-answer">
+            <p>Bankruptcy filings are public records. You can search them through PACER (the federal court system, which charges fees) or through a free public-records index like the Open Bankruptcy Project. Type the person's full name or business name in the search box above.</p>
+        </div>
+
+<h2>How to find someone's bankruptcy filing</h2>
+<div class="steps">
+<div class="step"><div class="num">1</div><h3>Type the name</h3><p>Full name or business name. Partial matches work.</p></div>
+<div class="step"><div class="num">2</div><h3>Or try a case number</h3><p>Format like "24-12345" or "4:2024bk40010".</p></div>
+<div class="step"><div class="num">3</div><h3>Click any match</h3><p>Lands on the district page showing the full case context.</p></div>
+</div>
+<p>The search covers all 95+ federal bankruptcy districts. Each case shows the debtor's caption name, case number, chapter (7, 11, 13, or Subchapter V), and filing date. Where RECAP/CourtListener has documents available, you'll see a "View on CourtListener" link to free document access. Where only PACER has them, the link goes to PACER (paywall).</p>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>Why this is free when PACER charges</h2>
+<p>PACER (Public Access to Court Electronic Records) is the official federal court records system. It charges $0.10 per page (capped at $3.00 per document) for everything except the docket-search page itself. PACER's fees have been controversial — the courts collect over $145 million per year from a system Congress originally intended to be self-sustaining only, not profitable.</p>
+<p>The case captions, numbers, chapters, and filing dates we index are <strong>public information published by the courts</strong>. <em>Florida Star v. B.J.F.</em>, 491 U.S. 524 (1989), and <em>Cox Broadcasting Corp. v. Cohn</em>, 420 U.S. 469 (1975), protect accurate publication of lawfully-obtained public-record information as constitutionally-protected speech. We publish that information at no cost. We do not republish PACER documents; we link to the free RECAP Archive (operated by the Free Law Project) where documents have been contributed.</p>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>Frequently asked questions</h2>
+
+<div class="faq-item">
+<h3>How do I find out if someone has filed bankruptcy?</h3>
+<p>Bankruptcy filings are public records. You can search them through PACER (the federal court system, which charges fees) or through a free public-records index like the Open Bankruptcy Project. Type the person's full name or business name in the search box above.</p>
+</div>
+
+<div class="faq-item">
+<h3>Is bankruptcy information public?</h3>
+<p>Yes. Federal bankruptcy filings are public records under 11 U.S.C. § 107. Anyone can view the docket, including case caption, chapter, filing date, and most documents. Personal identifiers (SSN, financial account numbers, dates of birth, minor children's names) must be partially redacted under FRBP 9037.</p>
+</div>
+
+<div class="faq-item">
+<h3>Is this free?</h3>
+<p>Yes. Our search is completely free. PACER (the official federal records system) charges $0.10 per page; we publish the public-record case captions and link to free RECAP/CourtListener archives where available.</p>
+</div>
+
+<div class="faq-item">
+<h3>Can I search by case number instead of name?</h3>
+<p>Yes. The search accepts both debtor names and case numbers. Try formats like "24-12345" or "4:2024bk40010".</p>
+</div>
+
+<div class="faq-item">
+<h3>What if the person I'm looking for doesn't appear?</h3>
+<p>Either they haven't filed bankruptcy, they filed in a court not yet in our index, or the filing is recent enough that we haven't synced it. Try <a href="https://pacer.uscourts.gov/" target="_blank" rel="noopener">PACER</a> directly if you need definitive coverage.</p>
+</div>
+
+<div class="faq-item">
+<h3>What about state court (non-bankruptcy) filings?</h3>
+<p>We only index federal bankruptcy filings. For state court records, use the relevant state court's online docket system (most states have one).</p>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>Related</h2>
+<ul style="color:var(--text-secondary); margin-left:20px;">
+<li><a href="lookup.html">Free Public-Records Search</a> — the broader entry-point with PPP + EIDL coverage</li>
+<li><a href="research.html">Research</a> — empirical analyses of consumer bankruptcy outcomes</li>
+<li><a href="section-523-dischargeability.html">§ 523 dischargeability</a> — which debts survive bankruptcy</li>
+<li><a href="means-test-presumption-of-abuse.html">Means test (§ 707(b))</a> — Chapter 7 eligibility check</li>
+</ul>
+</div>
+</section>
+
+<!-- BTN:FOOTER:START -->
+<footer class="network-footer" role="contentinfo">
+  <p><strong>Part of the Bankruptcy Transparency Network</strong></p>
+  <p>Real information, no strings.</p>
+  <div class="links">
+    <a href="https://1328f.com?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">Discharge Screener</a>
+    <a href="https://openbankruptcyproject.org?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">Open Bankruptcy Project</a>
+    <a href="https://chapter7vs13.org?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">Ch.7 vs Ch.13</a>
+    <a href="https://howmuchdoesbankruptcycost.com?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">Bankruptcy Cost</a>
+    <a href="https://automaticstay.org?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">Automatic Stay</a>
+    <a href="https://341meeting.org?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">341 Meeting</a>
+    <a href="https://bankruptcyexemptionsbystate.com?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">Exemptions by State</a>
+    <a href="https://meanstest.org?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">Means Test</a>
+    <a href="https://filebankruptcywithoutlawyer.com?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">File Without a Lawyer</a>
+    <a href="https://rebuildcreditafterbankruptcy.com?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">Rebuild Credit</a>
+    <a href="https://1099cdebt.com">1099cdebt.com</a>
+  </div>
+  <p class="disclaimer">Free bankruptcy education for the public interest. Not legal advice.
+    If you need legal help, contact a licensed attorney in your state.
+    A project of the <a href="https://openbankruptcyproject.org?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">Open Bankruptcy Project</a>,
+    a 501(c)(3) nonprofit (EIN 41-5159631).</p>
+  <p><a href="https://openbankruptcyproject.org/privacy.html?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">Privacy</a> |
+     <a href="https://openbankruptcyproject.org/terms.html?utm_source=1099cdebt.com&utm_medium=referral&utm_campaign=btn-network">Terms</a></p>
+  <a href="https://buy.stripe.com/7sY7sE7qbeIZdQfclSaVa05" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Donate</a>
+<div style="text-align:center;padding:1rem 0 0;border-top:1px solid #30363d;margin-top:1.5rem">
+<p style="color:#7d8590;font-size:0.75rem">Our research was cited by the federal judiciary as <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" target="_blank" rel="noopener" style="color:#58a6ff">Suggestion 26-BK-3</a></p>
+</div>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Open Bankruptcy Project Launches National Federal Bankruptcy Case Index - Open Bankruptcy Project</title>
+<meta content="The Open Bankruptcy Project has launched a national, district-level index of federal bankruptcy cases covering all 94 U.S. bankruptcy court districts, built from the Free Law Project's RECAP Archive with CourtListener as the primary-source link for every case." name="description"/>
+<link href="https://openbankruptcyproject.org/news/national-case-index-launch.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Open Bankruptcy Project Launches National Federal Bankruptcy Case Index" property="og:title"/>
+<meta content="A national, district-level index of federal bankruptcy cases covering all 94 U.S. bankruptcy court districts. Metadata only; primary-source access via CourtListener." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/news/national-case-index-launch.html" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="2026-04-19" property="article:published_time"/>
+<meta content="Open Bankruptcy Project Research Team" property="article:author"/>
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open Bankruptcy Project Launches National Federal Bankruptcy Case Index",
+        "description": "The Open Bankruptcy Project has released a national, district-level index of federal bankruptcy cases covering all 94 U.S. bankruptcy court districts. The index is built from the Free Law Project's RECAP Archive and links every case to CourtListener as the primary source.",
+        "datePublished": "2026-04-19",
+        "dateModified": "2026-04-19",
+        "author": {"@type": "Organization", "name": "Open Bankruptcy Project Research Team", "url": "https://openbankruptcyproject.org/about.html"},
+        "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://openbankruptcyproject.org/news/national-case-index-launch.html"},
+        "isAccessibleForFree": true,
+        "inLanguage": "en"
+    }
+    </script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Open Bankruptcy Project National Federal Bankruptcy Case Index",
+        "alternateName": "OBP National Case Index",
+        "description": "A national, district-level index of federal bankruptcy cases covering all 94 U.S. bankruptcy court districts. The dataset contains metadata only -- case number, case caption, chapter, and date filed -- with each record linking to CourtListener as the primary source. No docket PDFs or filing text are reproduced.",
+        "url": "https://openbankruptcyproject.org/cases/",
+        "sameAs": "https://openbankruptcyproject.org/cases/",
+        "keywords": ["bankruptcy", "federal courts", "PACER", "RECAP", "CourtListener", "case index", "chapter 7", "chapter 11", "chapter 13", "empirical legal research"],
+        "spatialCoverage": {
+            "@type": "Place",
+            "name": "United States",
+            "geo": {
+                "@type": "GeoShape",
+                "addressCountry": "US"
+            }
+        },
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "isAccessibleForFree": true,
+        "inLanguage": "en",
+        "creator": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+        },
+        "isBasedOn": {
+            "@type": "Dataset",
+            "name": "RECAP Archive",
+            "url": "https://www.courtlistener.com/recap/",
+            "creator": {
+                "@type": "Organization",
+                "name": "Free Law Project",
+                "url": "https://free.law/"
+            }
+        },
+        "distribution": {
+            "@type": "DataDownload",
+            "encodingFormat": "text/html",
+            "contentUrl": "https://openbankruptcyproject.org/cases/"
+        }
+    }
+    </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Open Bankruptcy Project Launches National Federal Bankruptcy Case Index",
+      "description": "A national, district-level index of federal bankruptcy cases covering all 94 U.S. bankruptcy court districts, built from the Free Law Project's RECAP Archive.",
+      "author": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://openbankruptcyproject.org"
+      },
+      "datePublished": "2026-04-19",
+      "dateModified": "2026-04-19",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/news/national-case-index-launch.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "News",
+          "item": "https://openbankruptcyproject.org/news/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Open Bankruptcy Project Launches National Federal Bankruptcy Case Index",
+          "item": "https://openbankruptcyproject.org/news/national-case-index-launch.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "Open Bankruptcy Project Launches National Federal Bankruptcy Case Index",
+      "url": "https://openbankruptcyproject.org/news/national-case-index-launch.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
+    }
+  ]
+}
+</script>
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117; --bg-elevated: #0f1319; --surface: #151b23;
+            --surface-hover: #1a2230; --border: #252d38; --border-light: #2d3748;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff;
+            --accent-subtle: rgba(88, 166, 255, 0.08);
+            --green: #3fb950; --green-subtle: rgba(63, 185, 80, 0.08);
+            --gold: #d29922; --red: #f85149;
+        }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 1040px; margin: 0 auto; padding: 0 32px; }
+        .narrow { max-width: 760px; }
+        nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13, 17, 23, 0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); }
+        footer { border-top: 1px solid var(--border); padding: 40px 0; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+        footer a { color: var(--text-muted); } footer a:hover { color: var(--accent); }
+        .article-header { padding: 64px 0 32px; border-bottom: 1px solid var(--border); }
+        .article-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.2; margin-bottom: 16px; }
+        .dateline { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 8px; font-weight: 500; }
+        .byline { font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 4px; }
+        .article-body { padding: 40px 0 64px; }
+        .article-body h2 { font-size: 1.4rem; font-weight: 700; margin: 40px 0 16px; letter-spacing: -0.02em; color: var(--text); }
+        .article-body h3 { font-size: 1.15rem; font-weight: 600; margin: 32px 0 12px; color: var(--text); }
+        .article-body p { font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 16px; line-height: 1.8; }
+        .article-body ul, .article-body ol { margin: 0 0 16px 24px; color: var(--text-secondary); }
+        .article-body li { margin-bottom: 8px; line-height: 1.6; }
+        .data-table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 0.92rem; }
+        .data-table th { background: var(--surface); color: var(--text); font-weight: 600; text-align: left; padding: 12px 16px; border-bottom: 2px solid var(--border); }
+        .data-table td { padding: 10px 16px; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+        .data-table tr:hover td { background: var(--surface); }
+        .data-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+        .highlight-box { background: var(--accent-subtle); border: 1px solid var(--border); border-left: 3px solid var(--accent); padding: 20px 24px; border-radius: 6px; margin: 24px 0; }
+        .highlight-box p { color: var(--text); margin-bottom: 8px; }
+        .highlight-box p:last-child { margin-bottom: 0; }
+        .methodology { background: var(--surface); border: 1px solid var(--border); padding: 20px 24px; border-radius: 6px; margin: 32px 0; font-size: 0.9rem; }
+        .methodology p { color: var(--text-muted); font-size: 0.9rem; }
+        .methodology strong { color: var(--text-secondary); }
+        .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 24px 0; }
+        .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 20px; text-align: center; }
+        .stat-card .stat-value { font-size: 2rem; font-weight: 800; color: var(--accent); }
+        .stat-card .stat-label { font-size: 0.85rem; color: var(--text-muted); margin-top: 4px; }
+        @media (max-width: 768px) { .article-header h1 { font-size: 1.7rem; } .data-table { font-size: 0.82rem; } .data-table th, .data-table td { padding: 8px 10px; } }
+
+.breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+</style>
+</head>
+<body>
+<nav>
+<div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/news/">News</a>
+<a href="/research.html">Research</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<div class="container narrow">
+<header class="article-header">
+<h1>Open Bankruptcy Project Launches National Federal Bankruptcy Case Index</h1>
+<div class="byline">By Open Bankruptcy Project Research Team</div>
+<div class="dateline">Published April 19, 2026</div>
+</header>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">›</span><a href="https://openbankruptcyproject.org/news/">News</a><span class="separator">›</span><span>National Federal Bankruptcy Case Index Launch</span></nav>
+<article class="article-body">
+<div class="stat-grid">
+<div class="stat-card">
+<div class="stat-value">94</div>
+<div class="stat-label">Federal Districts</div>
+</div>
+<div class="stat-card">
+<div class="stat-value">National</div>
+<div class="stat-label">Geographic Scope</div>
+</div>
+<div class="stat-card">
+<div class="stat-value">Metadata</div>
+<div class="stat-label">Data Type</div>
+</div>
+<div class="stat-card">
+<div class="stat-value">CC BY-SA 4.0</div>
+<div class="stat-label">License</div>
+</div>
+</div>
+<p>The Open Bankruptcy Project today released a national, district-level index of federal
+        bankruptcy cases covering all 94 U.S. bankruptcy court districts. The index is available
+        at <a href="/cases/">openbankruptcyproject.org/cases/</a> and is intended to support
+        empirical research, public-records access, and educational use by debtors, attorneys,
+        researchers, journalists, and the general public.</p>
+<p>The index is built from the <a href="https://www.courtlistener.com/recap/" rel="noopener" target="_blank">RECAP Archive</a>,
+        maintained by the <a href="https://free.law/" rel="noopener" target="_blank">Free Law Project</a>, and every case
+        record links to <a href="https://www.courtlistener.com/" rel="noopener" target="_blank">CourtListener</a>
+        as the primary source. Users who want to view a docket, pull a filing, or verify a case
+        detail are routed to CourtListener, where the underlying records live.</p>
+<h2>Scope: Metadata Only</h2>
+<p>The index contains metadata only - case number, case caption, chapter, and date filed --
+        organized by federal bankruptcy district. The Open Bankruptcy Project does not reproduce
+        docket PDFs, filing text, or document content of any kind. All primary-source access,
+        including full dockets and individual filings, is handled through CourtListener. This
+        design keeps the index lightweight, keeps attribution clean, and keeps traffic flowing
+        to the canonical primary-source host.</p>
+<div class="highlight-box">
+<p><strong>What the index is:</strong> a navigation and research layer on top of the RECAP
+        Archive. Browse by district, see case-level metadata, click through to CourtListener for
+        anything deeper.</p>
+<p><strong>What the index is not:</strong> a mirror of docket PDFs, an e-filing system, or a
+        replacement for PACER or CourtListener.</p>
+</div>
+<h2>Purpose and Use</h2>
+<p>Federal bankruptcy data is public, but it is not always easy to navigate at the district
+        level or across districts. The national case index is designed to lower the cost of three
+        specific activities: empirical research on filing patterns across districts, public-records
+        access for non-specialist users who do not want to create a PACER account for a single
+        lookup, and educational use in law-school clinics and civics classrooms.</p>
+<p>The dataset is published under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a>
+        license and is marked up with <a href="https://schema.org/Dataset" rel="noopener" target="_blank">schema.org/Dataset</a>
+        structured data so that search engines, academic aggregators, and research tools can
+        discover and cite it.</p>
+<h2>How to Browse</h2>
+<p>The hub page at <a href="/cases/">openbankruptcyproject.org/cases/</a> lets users enter by
+        district. From the district view, each case links out to its CourtListener docket page
+        for primary-source access. The scope is uniform across all 94 districts; the index does
+        not favor, highlight, or single out any district as a focus of investigation.</p>
+<h2>Data Sources and Attribution</h2>
+<p>The national case index is built from, and depends entirely on, the following upstream
+        infrastructure, which is credited here in accordance with the CC BY-SA 4.0 license:</p>
+<ul>
+<li><strong>Free Law Project</strong> - <a href="https://free.law/" rel="noopener" target="_blank">https://free.law/</a>.
+            A 501(c)(3) nonprofit that builds and maintains open legal infrastructure, including
+            CourtListener and the RECAP Archive.</li>
+<li><strong>RECAP Archive</strong> - <a href="https://www.courtlistener.com/recap/" rel="noopener" target="_blank">https://www.courtlistener.com/recap/</a>.
+            A public archive of federal court filings contributed by PACER users through the RECAP
+            browser extension. The archive is the upstream source of the case records indexed here.</li>
+<li><strong>CourtListener</strong> - <a href="https://www.courtlistener.com/" rel="noopener" target="_blank">https://www.courtlistener.com/</a>.
+            The primary-source host for every case record in the index. Each case link in the
+            index resolves to its CourtListener docket page.</li>
+</ul>
+<p>The Open Bankruptcy Project is a 501(c)(3) nonprofit and is independent of the Free Law
+        Project. We are grateful to the Free Law Project and its contributors for the open
+        infrastructure that makes this kind of research possible.</p>
+<h2>Related Resources</h2>
+<ul>
+<li><a href="/cases/">National Federal Bankruptcy Case Index</a> - browse by district</li>
+<li><a href="/research.html">Open Bankruptcy Project Research</a></li>
+<li><a href="/news/">All OBP News &amp; Analysis</a></li>
+</ul>
+<div class="methodology">
+<p><strong>Methodology:</strong> The index is derived from case-level metadata in the
+            <a href="https://www.courtlistener.com/recap/" rel="noopener" target="_blank">RECAP Archive</a>,
+            maintained by the <a href="https://free.law/" rel="noopener" target="_blank">Free Law Project</a>.
+            Fields indexed are case number, case caption, chapter, and date filed, organized by
+            federal bankruptcy district across all 94 U.S. bankruptcy court districts. The Open
+            Bankruptcy Project does not reproduce docket PDFs or filing text; every case record
+            links to <a href="https://www.courtlistener.com/" rel="noopener" target="_blank">CourtListener</a>
+            as the primary source. The dataset is marked up with schema.org/Dataset structured
+            data and released under CC BY-SA 4.0. This work was prepared by the Open Bankruptcy
+            Project Research Team.</p>
+</div>
+</article>
+</div>
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<p>© 2026 Open Bankruptcy Project · 501(c)(3) Nonprofit ·
+        <a href="/about.html">About</a> · <a href="/research.html">Research</a> ·
+        <a href="/news/">News</a> · <a href="/contact.html">Contact</a> ·
+        <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a> ·
+        <a href="https://github.com/openbankruptcyproject" rel="noopener" target="_blank">GitHub</a></p>
+<p style="margin-top:12px;">No legal advice is provided. This is educational information only.</p>
+</div>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

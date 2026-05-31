@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>What Debts Survive Bankruptcy? - Open Bankruptcy Project</title>
+<meta content="Most debts are discharged in bankruptcy, but some survive. A plain-language guide to nondischargeable debts under Section 523(a), including student loans, taxes, child support, and fraud." name="description"/>
+<link href="https://openbankruptcyproject.org/blog/what-debts-survive-bankruptcy.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://openbankruptcyproject.org/blog/what-debts-survive-bankruptcy.html" hreflang="en" rel="alternate"/>
+<meta content="What Debts Survive Bankruptcy?" property="og:title"/>
+<meta content="A plain-language guide to nondischargeable debts under Section 523(a), including student loans, taxes, and child support." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/blog/what-debts-survive-bankruptcy.html" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="What Debts Survive Bankruptcy?" name="twitter:title"/>
+<meta content="Which debts are nondischargeable in bankruptcy? A plain-language guide." name="twitter:description"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Are student loans dischargeable in bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Student loans are generally nondischargeable under Section 523(a)(8) unless you can prove 'undue hardship' in an adversary proceeding. This is a difficult standard, but not impossible. Some courts have become more willing to grant student loan discharges, and the DOJ issued revised guidance in 2022 making it easier to pursue."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you discharge tax debt in bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Some tax debts are dischargeable if they meet specific conditions: the tax return was due more than 3 years before filing, the return was filed more than 2 years before filing, the tax was assessed more than 240 days before filing, the return was not fraudulent, and you did not willfully evade the tax. Recent payroll taxes, trust fund taxes, and taxes for which no return was filed are generally nondischargeable."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens to child support and alimony in bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Domestic support obligations - including child support, alimony, and spousal maintenance - are never dischargeable in bankruptcy under any chapter. They survive Chapter 7, Chapter 13, and Chapter 11 discharge. Past-due amounts remain fully enforceable."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can debts from fraud be discharged?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Debts obtained through fraud, false pretenses, or false financial statements are nondischargeable under Section 523(a)(2). However, the creditor must file an adversary proceeding and prove the fraud - it is not automatic. If the creditor does not file within the deadline, the debt may be discharged by default."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the difference between dischargeable and nondischargeable debt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dischargeable debts are eliminated by the bankruptcy discharge - you no longer owe them. Nondischargeable debts survive the bankruptcy and remain legally enforceable after the case ends. Most consumer debts (credit cards, medical bills, personal loans) are dischargeable. Certain categories listed in Section 523(a) are not."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "What Debts Survive Bankruptcy?",
+          "description": "A plain-language guide to nondischargeable debts under Section 523(a).",
+          "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+          "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntityOfPage": "https://openbankruptcyproject.org/blog/what-debts-survive-bankruptcy.html"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://openbankruptcyproject.org/blog/" },
+            { "@type": "ListItem", "position": 3, "name": "What Debts Survive Bankruptcy?", "item": "https://openbankruptcyproject.org/blog/what-debts-survive-bankruptcy.html" }
+          ]
+        }
+      ]
+    }
+    </script>
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230; --border: #252d38; --border-light: #2d3748; --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; --gold: #d29922; --green: #3fb950; --red: #f85149; }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; } a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); } .nav-brand a { color: var(--text); } .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; } .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; } .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); } .page-header .meta { font-size: 0.85rem; color: var(--text-muted); margin-top: 8px; }
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; } .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; } .content li { margin-bottom: 8px; }
+        .warning-box { background: rgba(248,81,73,0.06); border: 1px solid rgba(248,81,73,0.2); border-radius: 10px; padding: 24px; margin: 24px 0; }
+        .warning-box p { color: var(--text); margin-bottom: 8px; } .warning-box p:last-child { margin-bottom: 0; }
+        .related-posts { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); }
+        .related-posts h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 16px; }
+        .related-posts a { display: block; padding: 12px 0; color: var(--accent); font-size: 0.95rem; border-bottom: 1px solid var(--border); } .related-posts a:last-child { border-bottom: none; }
+        footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+        footer .footer-links { margin-bottom: 20px; } footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; } footer .footer-links a:hover { color: var(--text); } footer p { margin-bottom: 6px; line-height: 1.6; }
+        @media (max-width: 600px) { .container { padding: 0 20px; } .page-header { padding: 48px 0 32px; } .page-header h1 { font-size: 1.8rem; } .content { padding: 40px 0; } }
+    </style>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a href="/methodology.html">Methodology</a>
+<a href="/citations.html">Citations</a>
+<a href="/blog/">Blog</a>
+<a href="/press.html">Press</a>
+<a href="/contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">›</span><a href="/blog/">Blog</a><span class="separator">›</span><span>What Debts Survive Bankruptcy?</span></nav>
+<div class="page-header">
+<div class="container">
+<h1>What Debts Survive Bankruptcy?</h1>
+<p class="subtitle">Most debts are wiped out, but some are protected from <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> by federal law.</p>
+<p class="meta">Published April 9, 2026</p>
+</div>
+</div>
+<div class="content">
+<div class="container">
+<p>Bankruptcy eliminates most consumer debts - credit cards, medical bills, personal loans, utility bills, and many others. But certain categories of debt are classified as "<a href="https://nondischargeable.org/" title="nondischargeable">nondischargeable</a>" under <a href="https://523a.org">Section 523(a)</a> of the Bankruptcy Code, meaning they survive the bankruptcy and remain legally enforceable after your case ends.</p>
+<h2>Debts That Are Never Dischargeable</h2>
+<p>These debts survive bankruptcy in every chapter, and no court discretion can change that:</p>
+<ul>
+<li><strong>Domestic support obligations.</strong> Child support, alimony, and spousal maintenance are always nondischargeable (<a href="https://523a.org/" title="Section 523(a)">Section 523(a)</a>(5)).</li>
+<li><strong>Most <a href="https://bankruptcystudentloans.org/" title="student loans">student loans</a>.</strong> Federal and private student loans survive bankruptcy unless you prove "undue <a href="https://bankruptcyhardship.org/" title="hardship discharge">hardship</a>" in a separate adversary proceeding (<a href="https://www.law.cornell.edu/uscode/text/11/523#a_8" rel="noopener" target="_blank">Section 523(a)(8)</a>). This is difficult but not impossible - courts have become somewhat more receptive to these claims in recent years. See our guide on <a href="https://bankruptcystudentloans.org">student loans in bankruptcy</a>.</li>
+<li><strong>Criminal restitution and fines.</strong> Court-ordered restitution and criminal fines cannot be discharged (Section 523(a)(7), (a)(13)).</li>
+<li><strong>DUI/DWI judgments.</strong> Debts for death or personal injury caused by drunk driving are nondischargeable (Section 523(a)(9)).</li>
+</ul>
+<h2>Debts That Survive Only If a Creditor Objects</h2>
+<p>Some debts are dischargeable by default but can become nondischargeable if a creditor files a timely adversary proceeding and proves the claim:</p>
+<ul>
+<li><strong>Fraud.</strong> Debts obtained through fraud, false pretenses, or materially false financial statements (<a href="https://www.law.cornell.edu/uscode/text/11/523#a_2" rel="noopener" target="_blank">Section 523(a)(2)</a>). The creditor must prove you intentionally deceived them.</li>
+<li><strong>Willful and malicious injury.</strong> Debts for intentional harm to a person or property (Section 523(a)(6)). Negligence is not enough - the harm must be deliberate.</li>
+<li><strong>Embezzlement, larceny, or breach of fiduciary duty.</strong> Debts arising from these acts (Section 523(a)(4)).</li>
+</ul>
+<div class="warning-box">
+<p><strong>Deadline matters.</strong> For fraud and other creditor-initiated exceptions, the creditor must file a complaint within 60 days of the <a href="https://341meeting.org/" title="341 meeting">341 meeting</a>. If the creditor misses this deadline, the debt is discharged even if it would otherwise qualify as nondischargeable. This is why creditors pay close attention to bankruptcy notices.</p>
+</div>
+<h2>Tax Debts: It Depends</h2>
+<p>Some tax debts can be discharged, but they must meet all of these conditions:</p>
+<ol>
+<li>The tax return was <strong>due more than 3 years</strong> before the bankruptcy filing</li>
+<li>The return was <strong>filed more than 2 years</strong> before filing</li>
+<li>The tax was <strong>assessed more than 240 days</strong> before filing</li>
+<li>The return was <strong>not fraudulent</strong></li>
+<li>You <strong>did not willfully evade</strong> the tax</li>
+</ol>
+<p>If all five conditions are met, the income tax debt may be dischargeable. Payroll taxes, trust fund taxes, and taxes for which you never filed a return are generally never dischargeable. For more detail, see our guide on <a href="https://bankruptcytaxes.org">bankruptcy and taxes</a>.</p>
+<h2>Government Fines and Penalties</h2>
+<p>Fines and penalties owed to government entities are generally nondischargeable if they are not compensation for actual financial loss. This includes traffic tickets, regulatory fines, and tax penalties. However, older tax penalties that meet the same timing rules as tax debts may be dischargeable.</p>
+<h2>Debts Not Listed in Your Schedules</h2>
+<p>If you forget to list a creditor in your bankruptcy schedules and the creditor did not learn about the case in time to file a claim or object, the debt may survive the discharge. This is why accurate and complete schedules are critical. Your attorney (or you, if filing <a href="https://prosequestion.com">pro se</a>) should triple-check the creditor list.</p>
+<h2>Chapter 13 Superdischarge</h2>
+<p><a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> historically offered a broader discharge than <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a>, sometimes called the "superdischarge." While the 2005 <a href="https://1328f.com/glossary.html#bapcpa" title="BAPCPA">BAPCPA</a> amendments narrowed this advantage significantly, Chapter 13 can still discharge some debts that Chapter 7 cannot, including certain types of property settlement debts from divorce and debts arising from willful damage to property. If you have debts in these categories, <a href="https://chapter7vs13.org">comparing the chapters</a> is important.</p>
+<div class="related-posts">
+<h3>Related Articles</h3>
+<a href="can-i-keep-my-tax-refund-in-bankruptcy.html">Can I Keep My Tax Refund in Bankruptcy?</a>
+<a href="how-long-does-chapter-7-take.html">How Long Does Chapter 7 Take?</a>
+<a href="bankruptcy-vs-debt-settlement.html">Bankruptcy vs Debt Settlement: Which Is Better?</a>
+</div>
+</div>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a href="/contact.html">Contact</a>
+<a href="/privacy.html">Privacy</a>
+<a href="/terms.html">Terms</a>
+<a href="https://github.com/ilikemath9999" rel="noopener" target="_blank">GitHub</a>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+<a href="/donate.html">Donate</a>
+</div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+<p>All tools and data released under open-source licenses.</p>
+</div>
+<p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

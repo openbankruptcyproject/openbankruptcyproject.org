@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>What Is a Bankruptcy Trustee? - Open Bankruptcy Project</title>
+<meta content="Bankruptcy trustees oversee your case, review your finances, and distribute payments to creditors. Learn what Chapter 7 and Chapter 13 trustees do, how they differ, and what to expect at the 341 meeting." name="description"/>
+<link href="https://openbankruptcyproject.org/blog/what-is-a-bankruptcy-trustee.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://openbankruptcyproject.org/blog/what-is-a-bankruptcy-trustee.html" hreflang="en" rel="alternate"/>
+<meta content="What Is a Bankruptcy Trustee?" property="og:title"/>
+<meta content="What Chapter 7 and Chapter 13 trustees do, how they differ, and what to expect at the 341 meeting." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/blog/what-is-a-bankruptcy-trustee.html" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="What Is a Bankruptcy Trustee?" name="twitter:title"/>
+<meta content="What Chapter 7 and Chapter 13 trustees do and how they affect your case." name="twitter:description"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What does a Chapter 7 trustee do?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A Chapter 7 trustee reviews your bankruptcy petition and schedules, conducts the 341 meeting of creditors, identifies non-exempt assets, and liquidates (sells) those assets to pay creditors. Most consumer Chapter 7 cases are 'no-asset' cases where the trustee finds nothing to liquidate and the case closes quickly."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does a Chapter 13 trustee do?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A Chapter 13 trustee collects your monthly plan payments and distributes them to creditors according to the confirmed plan. The trustee also reviews your plan for feasibility, objects if it does not meet legal requirements, conducts the 341 meeting, monitors your compliance, and can move to dismiss or convert your case if you fall behind on payments."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the difference between a trustee and the U.S. Trustee?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Panel trustees (Chapter 7) and standing trustees (Chapter 13) are private individuals appointed to administer individual cases. The U.S. Trustee is a Department of Justice official who oversees the bankruptcy system, appoints panel trustees, monitors case administration, and can take enforcement action against attorneys or parties who violate bankruptcy rules."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can the trustee take my property?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Chapter 7, the trustee can take and sell non-exempt property to pay creditors. However, most property is protected by federal or state exemptions. In practice, about 95% of consumer Chapter 7 cases are no-asset cases where the trustee takes nothing. In Chapter 13, you keep your property but repay creditors through a 3-to-5-year plan."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "What Is a Bankruptcy Trustee?",
+          "description": "Bankruptcy trustees oversee your case, review your finances, and distribute payments to creditors.",
+          "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+          "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntityOfPage": "https://openbankruptcyproject.org/blog/what-is-a-bankruptcy-trustee.html"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://openbankruptcyproject.org/blog/" },
+            { "@type": "ListItem", "position": 3, "name": "What Is a Bankruptcy Trustee?", "item": "https://openbankruptcyproject.org/blog/what-is-a-bankruptcy-trustee.html" }
+          ]
+        }
+      ]
+    }
+    </script>
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230; --border: #252d38; --border-light: #2d3748; --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; --gold: #d29922; --green: #3fb950; }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; } a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); } .nav-brand a { color: var(--text); } .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; } .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; } .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); } .page-header .meta { font-size: 0.85rem; color: var(--text-muted); margin-top: 8px; }
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; } .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; } .content li { margin-bottom: 8px; }
+        .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 24px 0; }
+        .compare-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; }
+        .compare-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: var(--text); }
+        .compare-card p, .compare-card li { font-size: 0.95rem; }
+        .related-posts { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); }
+        .related-posts h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 16px; }
+        .related-posts a { display: block; padding: 12px 0; color: var(--accent); font-size: 0.95rem; border-bottom: 1px solid var(--border); } .related-posts a:last-child { border-bottom: none; }
+        footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+        footer .footer-links { margin-bottom: 20px; } footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; } footer .footer-links a:hover { color: var(--text); } footer p { margin-bottom: 6px; line-height: 1.6; }
+        @media (max-width: 600px) { .container { padding: 0 20px; } .page-header { padding: 48px 0 32px; } .page-header h1 { font-size: 1.8rem; } .content { padding: 40px 0; } .compare-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a href="/methodology.html">Methodology</a>
+<a href="/citations.html">Citations</a>
+<a href="/blog/">Blog</a>
+<a href="/press.html">Press</a>
+<a href="/contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">›</span><a href="/blog/">Blog</a><span class="separator">›</span><span>What Is a Bankruptcy Trustee?</span></nav>
+<div class="page-header">
+<div class="container">
+<h1>What Is a Bankruptcy Trustee?</h1>
+<p class="subtitle">Trustees are the people who actually run bankruptcy cases. Here is what they do and why they matter.</p>
+<p class="meta">Published April 9, 2026</p>
+</div>
+</div>
+<div class="content">
+<div class="container">
+<p>When you file bankruptcy, the court does not manage your case directly. Instead, a trustee is appointed to administer it. The trustee's role depends on the chapter you file under, but in every case, the trustee has significant power over how your bankruptcy proceeds.</p>
+<h2>Chapter 7 Trustee vs. Chapter 13 Trustee</h2>
+<div class="compare-grid">
+<div class="compare-card">
+<h3>Chapter 7 Trustee</h3>
+<ul>
+<li>Called a "panel trustee" - assigned from a rotating panel</li>
+<li>Reviews your petition and schedules for accuracy</li>
+<li>Conducts the 341 <a href="https://341meeting.org/" title="341 meeting">meeting of creditors</a></li>
+<li>Identifies non-exempt assets</li>
+<li>Liquidates (sells) non-exempt property</li>
+<li>Distributes proceeds to creditors</li>
+<li>Paid a flat fee ($60) plus a percentage of assets liquidated</li>
+</ul>
+</div>
+<div class="compare-card">
+<h3>Chapter 13 Trustee</h3>
+<ul>
+<li>Called a "standing trustee" - handles all <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> cases in a district</li>
+<li>Reviews your proposed repayment plan</li>
+<li>Conducts the 341 meeting of creditors</li>
+<li>Collects your monthly plan payments</li>
+<li>Distributes payments to creditors per the plan</li>
+<li>Monitors compliance for 3 to 5 years</li>
+<li>Paid a percentage of plan payments (typically 4-10%)</li>
+</ul>
+</div>
+</div>
+<h2>The U.S. Trustee: A Different Role</h2>
+<p>The <a href="https://bankruptcytrustee.org">U.S. Trustee</a> is not the same as the trustee assigned to your case. The U.S. Trustee is a Department of Justice official who oversees the bankruptcy system in a given region. The U.S. Trustee appoints panel trustees, monitors case administration, reviews fee applications, and takes enforcement action when attorneys or parties violate bankruptcy rules.</p>
+<p>If you believe your bankruptcy attorney charged excessive fees or committed misconduct, the U.S. Trustee has authority to investigate and seek sanctions. You can report concerns to the <a href="https://www.justice.gov/ust">U.S. Trustee Program</a> directly.</p>
+<h2>The 341 Meeting of Creditors</h2>
+<p>Every bankruptcy case includes a <a href="https://bankruptcyhearing.com">341 meeting</a> (named after <a href="https://www.law.cornell.edu/uscode/text/11/341" rel="noopener" target="_blank">Section 341</a> of the Bankruptcy Code). The trustee runs this meeting, not the judge. You appear under oath and answer questions about your finances, your petition, and your property. Creditors are invited but rarely attend in consumer cases.</p>
+<p>The meeting is usually short - 5 to 15 minutes for a straightforward case. The trustee verifies your identity, confirms your schedules, and asks about anything that looks unusual. If everything checks out, the meeting concludes and the case proceeds toward <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a>.</p>
+<h2>Can the Trustee Take My Property?</h2>
+<p>In <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a>, the trustee has the power to take and sell non-exempt property to pay your creditors. But in practice, most consumer Chapter 7 cases are "no-asset" cases. Federal and state <a href="https://bankruptcyexemptionsbystate.com/" title="exemptions">exemptions</a> protect most of what people own - clothing, household goods, a reasonable car, tools of your trade, and some equity in your home. If all your property falls within exemption limits, the trustee reports a no-asset case and takes nothing.</p>
+<p>In Chapter 13, you keep all your property. Instead of liquidation, you repay creditors through a <a href="https://chapter13plan.com">3-to-5-year payment plan</a>. The trustee's job is to collect and distribute your payments, not to take your assets.</p>
+<h2>What About Chapter 11?</h2>
+<p>In most Chapter 11 cases, the debtor acts as a "<a href="https://section1191.org/" title="debtor in possession">debtor in possession</a>" and performs many of the functions a trustee would handle. A separate trustee is appointed only if there is cause - fraud, mismanagement, or other problems. In <a href="https://subchaptervbankruptcy.com">Subchapter V</a> small business cases, a trustee is always appointed but plays a more limited role focused on facilitating <a href="https://chapter13plan.org/" title="confirmation">plan confirmation</a>.</p>
+<h2>How Trustees Are Paid</h2>
+<p>Trustees do not work for free, and they do not work for you. Chapter 7 panel trustees receive a $60 base fee per case plus a percentage of any assets they liquidate. Chapter 13 standing trustees are paid a percentage of the payments they disburse (typically 4-10%, set by the U.S. Trustee). This compensation structure creates incentives that you should understand: Chapter 7 trustees are motivated to find assets, and Chapter 13 trustees are motivated to see plans succeed (because they earn more from higher disbursements).</p>
+<div class="related-posts">
+<h3>Related Articles</h3>
+<a href="how-long-does-chapter-7-take.html">How Long Does Chapter 7 Take?</a>
+<a href="what-debts-survive-bankruptcy.html">What Debts Survive Bankruptcy?</a>
+<a href="can-i-keep-my-tax-refund-in-bankruptcy.html">Can I Keep My Tax Refund in Bankruptcy?</a>
+</div>
+</div>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a href="/contact.html">Contact</a>
+<a href="/privacy.html">Privacy</a>
+<a href="/terms.html">Terms</a>
+<a href="https://github.com/ilikemath9999" rel="noopener" target="_blank">GitHub</a>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+<a href="/donate.html">Donate</a>
+</div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+<p>All tools and data released under open-source licenses.</p>
+</div>
+<p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

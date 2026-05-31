@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Bankruptcy Filing Fees &amp; § 329 Attorney Fee Review | Open Bankruptcy Project</title>
+<meta name="description" content="Federal bankruptcy filing fees by chapter, fee-waiver and installment procedures under 28 U.S.C. § 1930, and how 11 U.S.C. § 329 governs review of attorney compensation in consumer cases."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/fee-guide/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Bankruptcy Filing Fees &amp; § 329 Attorney Fee Review | Open Bankruptcy Project"/>
+<meta property="og:description" content="Federal bankruptcy filing fees by chapter, fee-waiver and installment procedures under 28 U.S.C. § 1930, and how 11 U.S.C. § 329 governs review of attorney compensation in consumer cases."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/fee-guide/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Bankruptcy Filing Fees and § 329 Attorney Fee Review", "description": "Federal bankruptcy filing fees by chapter, fee-waiver and installment procedures under 28 U.S.C. § 1930, and how 11 U.S.C. § 329 governs review of attorney compensation in consumer cases.", "url": "https://openbankruptcyproject.org/fee-guide/", "datePublished": "2026-04-21", "dateModified": "2026-04-21", "author": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org", "nonprofitStatus": "Nonprofit501c3"}, "isAccessibleForFree": true}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 3, "name": "Fee Guide", "item": "https://openbankruptcyproject.org/fee-guide/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much is the filing fee to file Chapter 7 bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "The Chapter 7 individual filing fee under 28 U.S.C. § 1930 is $338 total ($245 filing + $78 administrative + $15 trustee fee), current as of the 2024 schedule. The fee is uniform across all 94 US federal bankruptcy districts."}}, {"@type": "Question", "name": "Can the filing fee be waived?", "acceptedAnswer": {"@type": "Answer", "text": "The Chapter 7 filing fee may be waived under 28 U.S.C. § 1930(f)(1) for debtors whose household income is below 150% of the federal poverty guidelines and who cannot pay in installments. Chapter 13 does not allow a fee waiver but permits installment payments under Rule 1006(b)."}}, {"@type": "Question", "name": "What is § 329 fee disgorgement?", "acceptedAnswer": {"@type": "Answer", "text": "11 U.S.C. § 329 requires attorneys representing debtors to disclose compensation received within a year before the petition. The court may order disgorgement — return of excess fees — if the court finds the compensation exceeds the reasonable value of services rendered. Grounds include incomplete work, non-disclosure, or fees significantly above market."}}, {"@type": "Question", "name": "Who can request a § 329 review?", "acceptedAnswer": {"@type": "Answer", "text": "The US Trustee, any party in interest, or the court on its own motion may initiate a § 329 review. Debtors and creditors who have standing as parties in interest may file the motion."}}, {"@type": "Question", "name": "Does a § 329 order also lead to disciplinary consequences?", "acceptedAnswer": {"@type": "Answer", "text": "A § 329 disgorgement order is a bankruptcy-court remedy; state disciplinary consequences run separately through the attorney's state licensing authority. The same underlying conduct can result in both outcomes, but each proceeds on its own procedural track."}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main h3{font-size:1.05rem;font-weight:700;margin:22px 0 8px;color:var(--text)}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul,main ol{margin:10px 0 18px 22px;color:var(--text-secondary)}
+main li{margin-bottom:6px}
+main strong{color:var(--text)}
+main code{background:var(--surface);padding:2px 6px;border-radius:4px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.callout strong{color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 24px;margin:18px 0}
+.card h3{margin-top:0}
+.link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+.link-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:.15s}
+.link-card:hover{background:var(--surface-hover);border-color:var(--accent)}
+.link-card .label{font-size:.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600;margin-bottom:4px}
+.link-card h4{font-size:.98rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.link-card p{font-size:.85rem;color:var(--text-secondary);margin:0}
+.faq details{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;color:var(--text-muted);font-weight:300;font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'−'}
+.faq details[open] summary{margin-bottom:10px;color:var(--accent)}
+.faq details p{margin:10px 0 0;color:var(--text-secondary)}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Research Guide</div>
+<h1>Bankruptcy Filing Fees and § 329 Attorney Fee Review</h1>
+<p class="lede">Two separate fee regimes operate in every bankruptcy case: the court filing fees owed to the clerk (28 U.S.C. § 1930) and the attorney compensation governed by 11 U.S.C. § 329. This page covers both - current statutory filing fees, fee-waiver and installment procedures, and how the bankruptcy court reviews attorney compensation for reasonableness.</p>
+<div class="datastamp">Data updated <time datetime="2026-04-21">2026-04-21</time>. See <a href="/research/methodology/">methodology &amp; sources</a>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Fee Guide</div>
+<h2>Federal filing fees by chapter</h2>
+<p>Federal bankruptcy filing fees are uniform across all 94 US federal bankruptcy districts and are set by 28 U.S.C. § 1930. Fees are adjusted periodically by the Judicial Conference under § 1930(f).</p>
+<ul><li>Chapter 7 individual case: <strong>$338</strong> total ($245 filing + $78 administrative + $15 trustee)</li><li>Chapter 13 case: <strong>$313</strong> total ($235 filing + $78 administrative)</li><li>Chapter 11 case: <strong>$1,738</strong></li><li>Chapter 12 case: <strong>$278</strong></li><li>Chapter 9 case: <strong>$1,738</strong></li><li>Chapter 15 case: <strong>$1,738</strong></li></ul>
+<p>Figures reflect fees current as of the 2024 fee schedule. Each court's fee schedule is available on the court website; see the <a href="/cases/">national district index</a> for links.</p>
+<h2>Fee waivers - Chapter 7 only</h2>
+<p>A Chapter 7 filer may apply to waive the filing fee under 28 U.S.C. § 1930(f)(1). The waiver is available to debtors whose household income is below 150% of the federal poverty guidelines and who cannot pay the fee in installments. The application is filed on Official Form 103B.</p>
+<p>Fee waivers are not available in Chapter 13. Chapter 13 debtors may apply to pay the fee in installments under Rule 1006(b) of the Federal Rules of Bankruptcy Procedure.</p>
+<h2>Installment payments</h2>
+<p>Under Rule 1006(b), a debtor may apply to pay the filing fee in installments. The application (Official Form 103A) proposes up to four installment payments, and the final installment must be made no later than 120 days after filing.</p>
+<h2>§ 329 attorney-fee disclosure and review</h2>
+<p>11 U.S.C. § 329 requires every attorney representing a debtor in a bankruptcy case to file a sworn statement disclosing compensation paid or agreed to be paid within one year before the petition was filed. The statement is filed using Rule 2016(b)'s prescribed form and discloses the source of compensation, any sharing agreement, and the scope of services covered.</p>
+<p>The bankruptcy court may, on motion by the US Trustee, any party in interest, or sua sponte, review the disclosed compensation. If the court finds that compensation exceeds the reasonable value of services rendered, the court may order the attorney to cancel any agreement or return excess fees to the estate or to the entity that paid them.</p>
+<div class="callout"><strong>Rule 2016 vs. § 330:</strong> § 329 governs the disclosure and review of debtor-paid compensation. § 330 governs the court's approval of professional compensation paid by the estate (mostly in business cases). The two regimes operate in parallel but address different fees.</div>
+<h2>Factors in § 329 reasonableness review</h2>
+<p>Courts reviewing § 329 compensation generally consider:</p>
+<ul><li>The time and labor required for the matter</li><li>The novelty and difficulty of issues presented</li><li>The skill required to perform the services</li><li>The customary fee charged by attorneys of similar skill in the relevant district</li><li>Whether the representation was completed and the results obtained</li><li>Whether the representation fell below the standard expected - incomplete work, missed deadlines, or failure to communicate can support fee reduction</li><li>Whether disclosure under Rule 2016 was full and timely</li></ul>
+<h2>Consequences of non-compliance</h2>
+<p>Failure to file a complete Rule 2016 disclosure can itself be grounds for fee denial or disgorgement. Courts have routinely ordered full disgorgement where attorneys concealed compensation, failed to disclose fee-sharing arrangements, or received payment for services that were not performed.</p>
+<p>A § 329 disgorgement order is a bankruptcy-court remedy. State disciplinary consequences for the same conduct run separately through the attorney's licensing authority. See the <a href="/attorney-help/">attorney-help guide</a> for how those two processes interact.</p>
+<h2>Related resources</h2><div class="link-grid"><a class="link-card" href="/attorney-help/"><div class="label">Concept</div><h4>Attorney problems</h4><p>Procedural remedies when representation problems arise during a case.</p></a><a class="link-card" href="/means-test/"><div class="label">Concept</div><h4>Means test</h4><p>§ 707(b) median-income calculations - relevant to chapter choice.</p></a><a class="link-card" href="/cases/"><div class="label">Data</div><h4>District case index</h4><p>Local rules links for every US federal bankruptcy district.</p></a></div>
+<section class="faq"><h2>Frequently asked questions</h2><details><summary>How much is the filing fee to file Chapter 7 bankruptcy?</summary><p>The Chapter 7 individual filing fee under 28 U.S.C. § 1930 is $338 total ($245 filing + $78 administrative + $15 trustee fee), current as of the 2024 schedule. The fee is uniform across all 94 US federal bankruptcy districts.</p></details><details><summary>Can the filing fee be waived?</summary><p>The Chapter 7 filing fee may be waived under 28 U.S.C. § 1930(f)(1) for debtors whose household income is below 150% of the federal poverty guidelines and who cannot pay in installments. Chapter 13 does not allow a fee waiver but permits installment payments under Rule 1006(b).</p></details><details><summary>What is § 329 fee disgorgement?</summary><p>11 U.S.C. § 329 requires attorneys representing debtors to disclose compensation received within a year before the petition. The court may order disgorgement - return of excess fees - if the court finds the compensation exceeds the reasonable value of services rendered. Grounds include incomplete work, non-disclosure, or fees significantly above market.</p></details><details><summary>Who can request a § 329 review?</summary><p>The US Trustee, any party in interest, or the court on its own motion may initiate a § 329 review. Debtors and creditors who have standing as parties in interest may file the motion.</p></details><details><summary>Does a § 329 order also lead to disciplinary consequences?</summary><p>A § 329 disgorgement order is a bankruptcy-court remedy; state disciplinary consequences run separately through the attorney's state licensing authority. The same underlying conduct can result in both outcomes, but each proceeds on its own procedural track.</p></details></section>
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Empirical statistics and informational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Data sources: Federal Judicial Center Integrated Database; Free Law Project RECAP Archive via CourtListener; official US federal bankruptcy court websites. Derived content on this page is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>. See the <a href="/research/methodology/">methodology page</a> for metric definitions and sourcing.</p>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+</body></html>

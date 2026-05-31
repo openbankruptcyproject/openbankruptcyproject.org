@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+    <title>Can I Keep My Tax Refund in Bankruptcy? - Open Bankruptcy Project</title>
+    <meta name="description" content="Whether you can keep your tax refund in bankruptcy depends on the chapter, timing of your filing, and your state's exemption laws. Here is what you need to know.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/blog/can-i-keep-my-tax-refund-in-bankruptcy.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/blog/can-i-keep-my-tax-refund-in-bankruptcy.html">
+
+    <meta property="og:title" content="Can I Keep My Tax Refund in Bankruptcy?">
+    <meta property="og:description" content="It depends on the chapter, timing, and your state's exemptions. Here is what you need to know.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://openbankruptcyproject.org/blog/can-i-keep-my-tax-refund-in-bankruptcy.html">
+    <meta property="og:site_name" content="Open Bankruptcy Project">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Can I Keep My Tax Refund in Bankruptcy?">
+    <meta name="twitter:description" content="It depends on the chapter, timing, and exemptions. Here is what to know.">
+    <meta name="twitter:image" content="/og-image.svg">
+
+    <!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Can the bankruptcy trustee take my tax refund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Chapter 7, the trustee can claim your tax refund as an asset of the estate if it is not protected by an exemption. The refund is considered property as of the filing date. If you can exempt the full amount using a wildcard or other applicable exemption, you keep it. If not, the trustee may require you to turn over the non-exempt portion."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does timing of my filing affect whether I keep my tax refund?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. If you file bankruptcy in January before receiving your refund, the entire refund for the prior tax year is an asset of the estate. If you file in July, only the pro-rated portion of the current year's refund earned before filing is part of the estate. Some attorneys advise spending the refund on necessary expenses before filing to reduce the amount the trustee can claim."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What about my tax refund in Chapter 13?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Chapter 13, many trustees and local court rules require you to turn over tax refunds above a certain threshold (often $2,000 to $3,000) during the 3-to-5-year plan period. This money goes toward your plan payments. The specific rules vary by district and trustee, so check your local practice."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the Earned Income Tax Credit protected in bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This varies by state. Some states have specific exemptions that protect the EITC portion of a tax refund. In states that allow the federal exemptions, you may be able to use the wildcard exemption to protect it. Check your state's exemption laws or consult a bankruptcy attorney."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Can I Keep My Tax Refund in Bankruptcy?",
+          "description": "Whether you can keep your tax refund depends on the chapter, timing, and exemptions.",
+          "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+          "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntityOfPage": "https://openbankruptcyproject.org/blog/can-i-keep-my-tax-refund-in-bankruptcy.html"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://openbankruptcyproject.org/blog/" },
+            { "@type": "ListItem", "position": 3, "name": "Can I Keep My Tax Refund in Bankruptcy?", "item": "https://openbankruptcyproject.org/blog/can-i-keep-my-tax-refund-in-bankruptcy.html" }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230; --border: #252d38; --border-light: #2d3748; --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; --gold: #d29922; --green: #3fb950; }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; } a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); } .nav-brand a { color: var(--text); } .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; } .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; } .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); } .page-header .meta { font-size: 0.85rem; color: var(--text-muted); margin-top: 8px; }
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; } .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; } .content li { margin-bottom: 8px; }
+        .callout-box { background: rgba(88,166,255,0.06); border: 1px solid rgba(88,166,255,0.2); border-radius: 10px; padding: 24px; margin: 24px 0; }
+        .callout-box p { color: var(--text); margin-bottom: 8px; } .callout-box p:last-child { margin-bottom: 0; }
+        .related-posts { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); }
+        .related-posts h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 16px; }
+        .related-posts a { display: block; padding: 12px 0; color: var(--accent); font-size: 0.95rem; border-bottom: 1px solid var(--border); } .related-posts a:last-child { border-bottom: none; }
+        footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+        footer .footer-links { margin-bottom: 20px; } footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; } footer .footer-links a:hover { color: var(--text); } footer p { margin-bottom: 6px; line-height: 1.6; }
+        @media (max-width: 600px) { .container { padding: 0 20px; } .page-header { padding: 48px 0 32px; } .page-header h1 { font-size: 1.8rem; } .content { padding: 40px 0; } }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/methodology.html">Methodology</a>
+            <a href="/citations.html">Citations</a>
+            <a href="/blog/">Blog</a>
+            <a href="/press.html">Press</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">&rsaquo;</span><a href="/blog/">Blog</a><span class="separator">&rsaquo;</span><span>Can I Keep My Tax Refund in Bankruptcy?</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Can I Keep My Tax Refund in Bankruptcy?</h1>
+        <p class="subtitle">It depends on the chapter you filed, when you file, and what <a href="https://bankruptcyexemptionsbystate.com/" title="exemptions">exemptions</a> are available in your state.</p>
+        <p class="meta">Published April 9, 2026</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <p>Tax refunds are one of the most commonly overlooked assets in bankruptcy. Many people file their tax return, expect a refund, and then learn the <a href="https://bankruptcytrustee.org/" title="trustee">bankruptcy trustee</a> wants to claim it. Whether you get to keep your refund depends on three factors: which chapter you filed, when during the year you filed, and what exemptions protect it.</p>
+
+        <h2>Chapter 7: The Refund Is an Asset</h2>
+        <p>In <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a>, your tax refund is part of the <a href="https://1328f.com/glossary.html#estate" title="estate">bankruptcy estate</a> as of the day you file. If you file in February and are expecting a $4,000 refund for the prior year, that $4,000 is an asset the trustee can claim - unless you can exempt it.</p>
+        <p>The trustee will typically ask about expected tax refunds at the <a href="https://bankruptcyhearing.com">341 meeting</a>. If the refund has already been received and spent on necessary living expenses before filing, the trustee generally cannot recover it. But if it is sitting in your bank account or has not yet been received, it is fair game.</p>
+
+        <h2>Timing Matters</h2>
+        <p>The filing date determines how much of your refund the trustee can claim. A tax refund for a given year accrues throughout that year as you earn income and have taxes withheld. If you file bankruptcy in June, roughly half of the current year's refund has been "earned" and is part of the estate. The other half accrues after the filing date and belongs to you.</p>
+        <p>This is why some bankruptcy attorneys recommend filing at a time that minimizes your refund exposure - for example, filing after you receive and spend the refund on legitimate necessities, or filing later in the year when less of the next refund has accrued.</p>
+
+        <h2>Exemptions That May Protect Your Refund</h2>
+        <p>Federal and state exemptions determine what property you can protect in bankruptcy. Common exemptions that may cover a tax refund include:</p>
+        <ul>
+            <li><strong>Wildcard exemption.</strong> The federal wildcard exemption (Section 522(d)(5)) lets you protect any property up to a certain dollar amount. If you are not using it to protect other assets, it may cover all or part of your refund.</li>
+            <li><strong>State-specific exemptions.</strong> Some states have exemptions that specifically cover tax refunds or the Earned Income Tax Credit (EITC). Check your <a href="https://bankruptcyexemptionsbystate.com">state's exemption laws</a>.</li>
+            <li><strong>EITC protection.</strong> Several states exempt the EITC portion of your refund. Even in states without a specific EITC exemption, courts have sometimes treated EITC as a public benefit and protected it.</li>
+        </ul>
+
+        <h2>Chapter 13: Refunds During the Plan</h2>
+        <p>In <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a>, the question is different. You are not liquidating assets - you are making payments under a 3-to-5-year plan. But many Chapter 13 trustees and local court rules require you to turn over tax refunds (or refunds above a certain threshold) during the plan period. The threshold varies by district, typically $2,000 to $3,000.</p>
+        <p>The rationale is that the refund represents disposable income that should go to your creditors under the <a href="https://chapter13plan.com">plan</a>. If you need to keep the refund for a specific purpose (car repair, medical expense), you can file a motion asking the court to let you retain it, but you need a good reason.</p>
+
+        <div class="callout-box">
+            <p><strong>Practical tip:</strong> If you are in Chapter 13, adjust your tax withholding so you get a smaller refund and more take-home pay throughout the year. A smaller refund means less for the trustee to claim, and you have more money each month for living expenses. Talk to your employer about adjusting your W-4.</p>
+        </div>
+
+        <h2>What About State Tax Refunds?</h2>
+        <p>State income tax refunds are treated the same way as federal refunds - they are property of the estate in Chapter 7 and potentially claimable in Chapter 13. The same exemption analysis applies.</p>
+
+        <h2>What You Should Do</h2>
+        <ul>
+            <li>Discuss tax refund timing with your attorney before filing</li>
+            <li>If you have already received a refund, use it for necessary expenses (rent, utilities, car repairs, food) and document what you spent it on</li>
+            <li>If you are in Chapter 13, check your local trustee's refund policy</li>
+            <li>Consider adjusting withholding to minimize future refunds during bankruptcy</li>
+        </ul>
+
+        <div class="related-posts">
+            <h3>Related Articles</h3>
+            <a href="what-debts-survive-bankruptcy.html">What Debts Survive Bankruptcy?</a>
+            <a href="what-happens-to-your-bank-account-in-bankruptcy.html">What Happens to Your Bank Account in Bankruptcy?</a>
+            <a href="how-much-debt-to-file-bankruptcy.html">How Much Debt Do You Need to File Bankruptcy?</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/privacy.html">Privacy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+            <a href="/donate.html">Donate</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p>All tools and data released under open-source licenses.</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

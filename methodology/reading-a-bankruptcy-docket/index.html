@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Reading a Bankruptcy Docket [2026] - Open Bankruptcy Project</title>
+<meta content="A working primer on reading a federal bankruptcy docket: party identification headers, docket-entry numbering, sealed-document indicators, response-deadline computation, hearing scheduling indicators, terminated-versus-active party status, and document categorization conventions." name="description"/>
+<meta content="bankruptcy docket, PACER, ECF, docket entry, party status, terminated, response deadline, hearing scheduling, sealed documents" name="keywords"/>
+<meta content="#0d1117" name="theme-color"/>
+<link href="https://openbankruptcyproject.org/methodology/reading-a-bankruptcy-docket/" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Reading a Bankruptcy Docket" property="og:title"/>
+<meta content="How to read the headers, entries, deadlines, and party-status indicators in a federal bankruptcy docket." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/methodology/reading-a-bankruptcy-docket/" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Reading a Bankruptcy Docket" name="twitter:title"/>
+<meta content="A working primer on reading a federal bankruptcy docket." name="twitter:description"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"Article",
+ "headline":"Reading a Bankruptcy Docket",
+ "description":"A working primer on reading a federal bankruptcy docket: headers, entry numbering, sealed-document indicators, deadlines, hearing scheduling, party status, and document categorization.",
+ "datePublished":"2026-05-23",
+ "dateModified":"2026-05-23",
+ "inLanguage":"en",
+ "license":"https://creativecommons.org/licenses/by/4.0/",
+ "author":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},
+ "publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org","nonprofitStatus":"NonprofitType501c3","taxID":"41-5159631"},
+ "mainEntityOfPage":"https://openbankruptcyproject.org/methodology/reading-a-bankruptcy-docket/"
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"BreadcrumbList",
+ "itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Open Bankruptcy Project","item":"https://openbankruptcyproject.org/"},
+  {"@type":"ListItem","position":2,"name":"Methodology","item":"https://openbankruptcyproject.org/methodology/"},
+  {"@type":"ListItem","position":3,"name":"Reading a Bankruptcy Docket","item":"https://openbankruptcyproject.org/methodology/reading-a-bankruptcy-docket/"}
+ ]
+}
+</script>
+<style>
+:root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--text:#e6edf3;--text-muted:#9eaab6;--accent:#58a6ff;--green:#238636;--red:#f85149;--yellow:#f0c14b;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh;display:flex;flex-direction:column;}
+a{color:var(--accent);text-decoration:none;}
+a:hover{text-decoration:underline;}
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:0.75rem 2rem;display:flex;align-items:center;justify-content:space-between;}
+.site-name{color:#f0f6fc;font-weight:700;font-size:1.1rem;text-decoration:none;}
+.site-name:hover{color:var(--accent);text-decoration:none;}
+.container{max-width:820px;margin:0 auto;padding:2.5rem 2rem;flex:1;}
+.breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:820px;margin:0 auto;padding-left:2rem;padding-right:2rem;}
+.breadcrumb-nav a{color:var(--accent);text-decoration:none;}
+.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58;}
+h1{color:#f0f6fc;font-size:2.25rem;margin-bottom:0.5rem;line-height:1.25;}
+.subtitle{color:var(--text-muted);font-size:1.05rem;margin-bottom:2rem;}
+h2{color:#f0f6fc;font-size:1.4rem;margin:2rem 0 0.75rem;border-bottom:1px solid var(--border);padding-bottom:0.4rem;}
+h3{color:#f0f6fc;font-size:1.1rem;margin:1.5rem 0 0.5rem;}
+p{margin-bottom:1rem;color:var(--text);}
+ul,ol{margin:0.5rem 0 1rem 1.5rem;}
+li{margin-bottom:0.4rem;}
+blockquote{background:var(--surface);border-left:3px solid var(--accent);padding:1rem 1.25rem;margin:1rem 0;color:var(--text);font-style:italic;}
+code{background:var(--surface);border:1px solid var(--border);padding:0.15rem 0.4rem;border-radius:4px;font-size:0.9em;color:var(--text);}
+.callout{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem 1.5rem;margin:1.5rem 0;}
+.callout.gov{background:#0d2847;border-color:#1f6feb;}
+.callout strong{color:#f0f6fc;}
+.callout p:last-child{margin-bottom:0;}
+.tag{display:inline-block;background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:0.1rem 0.5rem;font-size:0.75rem;color:var(--text-muted);margin-right:0.4rem;text-transform:uppercase;letter-spacing:0.03em;}
+footer{background:var(--surface);border-top:1px solid var(--border);padding:1.5rem;text-align:center;font-size:0.8rem;color:var(--text-muted);margin-top:2rem;}
+</style>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a class="site-name" href="/">Open Bankruptcy Project</a>
+<a href="/" style="color:var(--text-muted);font-size:0.9rem">Home</a>
+</nav>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="/">Home</a><span class="separator">/</span><a href="/methodology/">Methodology</a><span class="separator">/</span><span>Reading a Bankruptcy Docket</span></nav>
+<div class="container">
+<span class="tag">Docket</span>
+<span class="tag">CM/ECF</span>
+<span class="tag">Reading Practice</span>
+<h1>Reading a Bankruptcy Docket</h1>
+<p class="subtitle">Party-identification headers, docket-entry numbering, sealed-document indicators, response-deadline computation, hearing scheduling indicators, terminated-versus-active party status, and the document-categorization conventions used by federal bankruptcy courts.</p>
+
+<h2>What a docket is</h2>
+<p>A bankruptcy docket is the official chronological record of every event in a case. It is maintained by the Clerk of the Bankruptcy Court using the CM/ECF (Case Management / Electronic Case Files) platform and exposed to the public through PACER. The docket sheet is the spine of the case. Every filed document, every order entered, every hearing held, every notice issued generates a numbered docket entry. A docket entry is not the document; it is the metadata record - the title, the filer, the date, and a hyperlink to the underlying PDF where one exists.</p>
+<p>Reading a docket fluently requires understanding three structural layers: (1) the case header, which fixes the parties and case posture; (2) the docket-entry stream, which records each event in numerical sequence; and (3) the supplemental registers (claims, deadlines, hearings, parties) that the bankruptcy clerk maintains alongside the main docket.</p>
+
+<h2>The case header</h2>
+<p>The header carries the case caption (the parties' names and case number), the chapter under which the case proceeds (7, 9, 11, 12, 13, or 15), the filing date, the assigned judge, the meeting-of-creditors date, the assigned trustee (in Chapter 7, 12, and 13 cases; in Chapter 11 cases a trustee is appointed only in specified circumstances), the assigned U.S. Trustee analyst, debtor's counsel of record, and a list of <em>parties in interest</em> with their counsel.</p>
+<p>The list of parties in interest is the master roster of who has appeared in the case. It distinguishes the debtor; secured creditors who have filed a proof of claim; unsecured creditors who have appeared (most never do); the trustee; the U.S. Trustee; the office of the Subchapter V Trustee in Subchapter V cases; equity-security holders in Chapter 11; and any other entity that has filed a notice of appearance under FRBP 9010. Each party entry shows its counsel of record with date of entry and (where applicable) date of termination.</p>
+
+<h2>Docket-entry numbering</h2>
+<p>Docket entries are numbered sequentially from 1 (the petition itself, or the order of relief in an involuntary case) through whatever the current entry number is. Entries are never renumbered or deleted; a docket entry stricken or vacated by court order remains visible on the docket with a note indicating the strike. Reference to documents in pleadings is by docket entry number: "Doc. 47" or "ECF No. 47" refers to the 47th entry on the docket.</p>
+<p>Sub-entries (attachments to a primary entry) are designated with a hyphen and an integer: <code>47-1</code> is the first exhibit to docket entry 47; <code>47-2</code> is the second. Some courts use <code>47-A</code>, <code>47-B</code> instead. Sub-entries are not separately numbered as primary entries and do not advance the main entry counter; they ride on their parent entry.</p>
+<p>An entry may be amended, supplemented, or superseded by a later entry. The relationship is shown in the entry text (typically as "AMENDED" in the document title) but is not enforced by the system. A reader tracking the live state of any filed document must walk the docket forward from the original entry to confirm no superseding filing has been entered.</p>
+
+<h2>Document categorization</h2>
+<p>Each docket entry carries a <strong>category</strong> assigned at filing through the ECF event menu. The category is not displayed prominently in the default PACER view but governs internal court routing and statistical reporting. Common categories include "Motion," "Notice," "Order," "Stipulation," "Application," "Statement," "Schedules," "Claim," and "Plan." The category determines which response-deadline calculator runs against the entry and which docket-event subscription notifies the U.S. Trustee.</p>
+<p>"Motion" entries trigger response-deadline calculation and, in many courts, automatic hearing scheduling. "Notice" entries do not trigger response deadlines but may carry their own response window stated in the notice text. "Order" entries terminate the response window for the underlying motion to which they respond and may impose new deadlines on the parties. Reading a docket without attention to the categorization can produce misreads of which deadlines remain live.</p>
+
+<h2>Sealed-document indicators</h2>
+<p>Sealed documents appear on the docket as numbered entries but the underlying PDF is not retrievable through PACER. The entry shows the document title (often a generic "Sealed Document" or "Sealed Exhibit") and the filer; the actual content is unavailable to non-parties absent a successful motion to unseal. Common categories of sealed materials in bankruptcy include tax returns required by FRBP 4002(b)(3); pay advices required by Section 521(a)(1)(B)(iv); medical records of a debtor's dependents; certain trade-secret schedules in Chapter 11 cases; and any document filed under a protective order entered in adversary proceedings.</p>
+<p>A docket entry that has been provisionally sealed pending a court ruling appears with a "(Sealed)" or "(Provisionally Sealed)" annotation. The sealing is not necessarily permanent; many provisional seals lapse if no party moves to maintain them within a stated period.</p>
+
+<h2>Response-deadline computation</h2>
+<p>A motion served on parties in interest generally triggers a response deadline. The default deadline in most bankruptcy courts is 21 days from service for objections to motions (FRBP 9006 and local rules govern). Specific motion types carry specific deadlines: a motion to lift the automatic stay is typically 14 days; an objection to a proof of claim is typically 30 days; an objection to a plan in Chapter 13 is the date set by the court in the confirmation notice. Local rules vary; the docket itself usually shows the calculated deadline as a separate entry titled "Deadline" with the response date stated.</p>
+<p>FRBP 9006(a) governs time computation. Day-counting begins the day after the triggering event; the last day is included unless it is a weekend or federal holiday (in which case the deadline rolls to the next business day). When service is by mail, an additional three days is added under FRBP 9006(f). A reader computing deadlines from raw entry dates without applying FRBP 9006(a) and (f) will miscalculate consistently.</p>
+
+<h2>Hearing scheduling indicators</h2>
+<p>Hearings are scheduled either on the court's own initiative (a notice-of-hearing entry generated by chambers) or by the filer's request (a motion that requests a hearing date). The hearing entry appears separately from the underlying motion and carries the time, courtroom, and (in many districts) a Zoom or teleconference dial-in. The hearing entry is also categorized as a Notice; it triggers the deadline for filing pre-hearing briefs and witness lists set by local rule.</p>
+<p>A hearing may be continued, vacated, or held. A continuance is reflected by a new entry rescheduling the hearing; the original hearing entry remains on the docket but is superseded. A vacated hearing is reflected by an entry titled "Hearing Stricken" or similar. A held hearing produces a "Hearing Held" entry, usually within 24 hours, that summarizes the rulings made on the record. Minute orders entered following a hearing carry only the bottom-line ruling; the full reasoning is in the hearing transcript, separately ordered through the court reporter.</p>
+
+<h2>Terminated versus active party status</h2>
+<p>The party-roster header shows two statuses for each appearance: active (currently representing the party in this case) and terminated (formerly representing but has withdrawn, been removed, or had the representation end by some other event). Termination is reflected by a "TERMINATED" notation next to the counsel name with the termination date.</p>
+<p>A counsel termination follows from one of several events: an order granting a motion to withdraw under FRBP 9010 and the applicable local rule; substitution of counsel (the new counsel files a substitution and the prior counsel is terminated automatically); the case closing; or the case dismissal. In a Chapter 11 case, a corporate debtor cannot proceed pro se; if its counsel withdraws, the case is at risk of dismissal unless replacement counsel appears.</p>
+<p>Reading the party roster carefully distinguishes parties whose counsel <strong>currently</strong> represent them from parties whose counsel are <strong>historical</strong>. A party whose counsel is terminated and who has not retained replacement counsel is, in the eyes of the court, proceeding pro se. Service obligations run to the active counsel where one exists; otherwise to the party directly at the address of record.</p>
+
+<h2>Claims register</h2>
+<p>The claims register is a parallel docket maintained by the bankruptcy clerk listing every proof of claim filed. Each claim is numbered sequentially in its own series (Claim 1, Claim 2, ...) independent of the main docket entry numbers. The claim entry shows the claimant, the asserted amount, the claim classification (secured, unsecured priority, unsecured general, administrative), and a hyperlink to the proof-of-claim form and any attached supporting documentation.</p>
+<p>Amended claims supersede the prior version with the same claim number followed by an amendment suffix (Claim 12-2 amends Claim 12-1). Withdrawn claims remain on the register with a "Withdrawn" annotation. A claim disallowed by court order remains visible with an "Allowed" or "Disallowed" annotation following the order.</p>
+
+<div class="callout">
+<p><strong>A docket is a chronological record of events; it is not a state machine.</strong> The current state of any motion, claim, or party relationship must be reconstructed by reading the entries forward from the relevant starting point, applying superseding entries as they appear. Pleadings citing only an entry number without confirming current state risk relying on a superseded document.</p>
+</div>
+
+<h2>Related authority</h2>
+<ul>
+<li><a href="https://www.law.cornell.edu/rules/frbp/rule_9006" rel="noopener" target="_blank">Federal Rule of Bankruptcy Procedure 9006</a> - Time computation and enlargement</li>
+<li><a href="https://www.law.cornell.edu/rules/frbp/rule_9010" rel="noopener" target="_blank">Federal Rule of Bankruptcy Procedure 9010</a> - Representation and notice of appearance</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/342" rel="noopener" target="_blank">11 U.S.C. Section 342</a> - Notice requirements</li>
+<li><a href="https://www.uscourts.gov/court-records/electronic-filing-cmecf" rel="noopener" target="_blank">CM/ECF Overview - U.S. Courts</a> - Filing system documentation</li>
+</ul>
+
+<h2>Open Bankruptcy Project cross-references</h2>
+<ul>
+<li><a href="/methodology/pacer-access-for-journalists/">PACER Access for Journalists and Researchers</a></li>
+<li><a href="/methodology/citation-discipline-in-bankruptcy-research/">Citation Discipline in Bankruptcy Research</a></li>
+<li><a href="/forms-anatomy/disclosure-statement-anatomy/">Anatomy of a Chapter 11 Disclosure Statement</a></li>
+</ul>
+
+<p style="color:var(--text-muted);font-size:0.85rem;margin-top:2rem">This page provides general information about reading a federal bankruptcy docket. It does not constitute legal advice. Specific deadlines, sealing practices, and docket conventions vary by district; always consult the applicable local rules.</p>
+<p style="color:var(--text-muted);font-size:0.8rem;margin-top:0.5rem">Last modified: 2026-05-23</p>
+</div>
+<footer role="contentinfo">
+<p>This site provides general information only and does not constitute legal advice.</p>
+<p>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+<p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
+</footer>
+</body>
+</html>

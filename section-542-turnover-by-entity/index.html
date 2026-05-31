@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>11 USC 542 Deep Dive - Turnover by Entity, City of Chicago v. Fulton [2026]</title>
+<meta name="description" content="Deep-dive guide to 11 U.S.C. Section 542. The general turnover rule, 542(b) account debts, 542(c) good-faith transfer, 542(d) life insurance, and the Supreme Court's holding in City of Chicago v. Fulton that mere retention does not violate Section 362(a)(3).">
+<meta name="keywords" content="11 USC 542, turnover, City of Chicago v Fulton, 362(a)(3), 542(b), 542(c), 542(d), bankruptcy estate, good faith transfer, account debts">
+<link rel="canonical" href="https://openbankruptcyproject.org/section-542-turnover-by-entity/">
+<meta property="og:title" content="11 USC 542 Deep Dive - Turnover by Entity">
+<meta property="og:description" content="Deep-dive guide to 11 U.S.C. Section 542 turnover, account debts, good-faith transfers, and the Fulton holding on mere retention.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/section-542-turnover-by-entity/">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="11 USC 542 Deep Dive - Turnover by Entity">
+<meta name="twitter:description" content="Deep-dive guide to 11 U.S.C. Section 542 turnover and the City of Chicago v. Fulton holding.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+<meta name="last-modified" content="2026-05-22">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"11 U.S.C. Section 542 - Turnover by Entity: Deep Dive","description":"Deep-dive guide to 11 U.S.C. Section 542. Account debts, good-faith transfers, and the City of Chicago v. Fulton holding that mere retention does not violate Section 362(a)(3).","datePublished":"2026-05-22","dateModified":"2026-05-22","url":"https://openbankruptcyproject.org/section-542-turnover-by-entity/","author":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"}}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem","position": 1,"name": "Home","item": "https://openbankruptcyproject.org"},
+        {"@type": "ListItem","position": 2,"name": "Statutes","item": "https://openbankruptcyproject.org/#statutes"},
+        {"@type": "ListItem","position": 3,"name": "Section 542 Deep Dive - Turnover by Entity","item": "https://openbankruptcyproject.org/section-542-turnover-by-entity/"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "11 U.S.C. Section 542 Deep Dive - Turnover by Entity",
+      "url": "https://openbankruptcyproject.org/section-542-turnover-by-entity/",
+      "speakable": {"@type": "SpeakableSpecification","cssSelector": [".quick-answer","h1",".summary","p:first-of-type"]}
+    }
+  ]
+}
+</script>
+<style>
+  :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-muted: #9eaab6; --accent: #58a6ff; --green: #3fb950; --red: #f85149; --yellow: #e3a835; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  nav .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger { display: none; background: none; border: 1px solid var(--border); color: var(--text); font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1; }
+  .breadcrumb { max-width: 760px; margin: 1rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; color: var(--text-muted); }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header { background: linear-gradient(135deg, #0d2137, #122a44); border-bottom: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+  header h1 { color: #f0f6fc; font-size: 2rem; margin-bottom: 0.75rem; }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle { color: var(--text-muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 1.5rem; }
+  .content-section h2 { color: #f0f6fc; font-size: 1.375rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .content-section h3 { color: #f0f6fc; font-size: 1.125rem; margin: 1.5rem 0 0.75rem; }
+  .content-section p { color: var(--text); margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .content-section ul, .content-section ol { margin: 0.75rem 0 0.75rem 1.5rem; color: var(--text); font-size: 0.95rem; }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box { background: #21262d; border-left: 3px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .statute-box p { margin-bottom: 0.5rem; }
+  .statute-box p:last-child { margin-bottom: 0; }
+  .warning-box { background: #21262d; border-left: 3px solid var(--red); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .warning-box p { margin-bottom: 0.5rem; }
+  .green-box { background: #21262d; border-left: 3px solid var(--green); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .yellow-box { background: #21262d; border-left: 3px solid var(--yellow); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .network-links { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem 2rem; margin-bottom: 1.5rem; font-size: 0.85rem; color: var(--text-muted); line-height: 2; }
+  .network-links strong { color: var(--text); }
+  footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 2rem; }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a { display: block; padding: 0.6rem 0; margin: 0; font-size: 0.95rem; min-height: 44px; line-height: 2; border-bottom: 1px solid #21262d; }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+  }
+</style>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LegalCase","name":"City of Chicago v. Fulton","alternateName":"City of Chicago v. Fulton, 592 U.S. 154 (2021)","url":"https://openbankruptcyproject.org/citations/city-of-chicago-v-fulton/","datePublished":"2021-01-14","court":"Supreme Court of the United States"}</script>
+</head>
+<body>
+<nav aria-label="Main navigation">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a>
+    <a href="/research.html">Research</a>
+    <a href="/impact.html">Impact</a>
+    <a href="/legal-aid.html">Legal Aid</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>11 U.S.C. <a href="https://www.law.cornell.edu/uscode/text/11/542" rel="noopener" target="_blank">Section 542</a> Deep Dive - Turnover by Entity</h1>
+  <p class="subtitle">The general turnover rule, account debts under 542(b), the good-faith transfer protection of 542(c), the life-insurance carve-out of 542(d), and the Supreme Court's holding in City of Chicago v. Fulton that mere retention of estate property does not violate Section 362(a)(3).</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; Statutes &rsaquo; Section 542 Deep Dive - Turnover by Entity
+</div>
+
+<main>
+<aside style="background:#151b23;border:1px solid #252d38;border-radius:10px;padding:20px 24px;margin:24px 0;font-size:0.92rem;">
+  <strong style="color:#58a6ff;text-transform:uppercase;letter-spacing:0.06em;font-size:0.78rem;">Empirical research on this section</strong>
+  <p style="margin-top:10px;color:#b1bac4;">For case-pattern analysis on how federal bankruptcy courts apply Section 542, including district-level patterns and primary-source dockets, see <a href="/cases/" style="color:#58a6ff;">openbankruptcyproject.org/cases/</a>. All datasets licensed CC BY-SA 4.0.</p>
+</aside>
+
+<div class="content-section">
+  <h2>The Estate's Recovery Tool for Property Held by Others</h2>
+  <p>Section 542 is the statutory mechanism by which the bankruptcy estate recovers possession of, or payment of, property that belongs to the estate but is held by someone else. Where <a href="/section-541-property-of-estate.html">Section 541</a> defines what the estate <em>owns</em> at the moment of filing, Section 542 defines how the estate gets <em>physical control</em> of it. The two sections are inseparable in practice: a turnover claim under Section 542 requires the moving party to first establish that the property at issue is property of the estate within the meaning of Section 541.</p>
+  <p>Section 542 reaches a broader set of holders than is commonly assumed. It binds "an entity," which Section 101(15) defines to include not only individuals and corporations but also governmental units. There are limited sovereign-immunity carve-outs in Section 106, but for most turnover purposes a state, a city, a federal agency, or a foreign government can be ordered to turn over property of the estate just like any other entity.</p>
+  <div class="statute-box"><p><strong>Official citation:</strong> 11 U.S.C. &sect; 542</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Section 542(a): The General Turnover Rule</h2>
+  <p>Section 542(a) provides that "an entity, other than a custodian, in possession, custody, or control, during the case, of property that the trustee may use, sell, or lease under section 363 of this title, or that the debtor may exempt under section 522 of this title, shall deliver to the trustee, and account for, such property or the value of such property."</p>
+  <p>The provision has four prerequisites for a turnover order:</p>
+  <ol>
+    <li>The respondent is an "entity" within the meaning of Section 101(15)</li>
+    <li>The respondent is not a "custodian" (a custodian is governed by Section 543 instead)</li>
+    <li>The respondent has "possession, custody, or control" of the property during the case</li>
+    <li>The property is either usable by the trustee under Section 363 or exemptible by the debtor under Section 522</li>
+  </ol>
+  <p>The fourth prerequisite is more limiting than it appears. Property worth less than the cost of recovery may not be "usable" in any meaningful sense, and many courts will not order turnover of de minimis assets even though they technically belong to the estate.</p>
+  <p>The provision excludes from the turnover duty property whose value is "of inconsequential value or benefit to the estate." This statutory exception in 542(a) functions as a backstop to the general rule, and is most often invoked in mass-consumer cases where the trustee has no economic incentive to recover small assets even though they are technically estate property.</p>
+</div>
+
+<div class="content-section">
+  <h2>Section 542(b): Account Debts and Setoff</h2>
+  <p>Section 542(b) addresses a distinct category: debts owed to the debtor that have matured into payable obligations. It provides that "an entity that owes a debt that is property of the estate and that is matured, payable on demand, or payable on order, shall pay such debt to, or on the order of, the trustee, except to the extent that such debt may be offset under section 553 of this title against a claim against the debtor."</p>
+  <p>Two structural features of 542(b) are worth highlighting:</p>
+  <h3>The setoff carve-out</h3>
+  <p>The provision expressly preserves the right of setoff under Section 553. A creditor that owes the debtor money may offset that obligation against amounts the debtor owes it, provided the mutuality and pre-petition requirements of Section 553 are satisfied. The 542(b) duty to pay over to the trustee applies only to the net amount after permitted setoff.</p>
+  <h3>Bank accounts as the paradigm case</h3>
+  <p>The largest single category of 542(b) turnover involves bank deposit accounts. A debtor's deposit account is a debt owed by the bank to the debtor (in legal effect, the depositor is an unsecured creditor of the bank). On filing, the account balance becomes property of the estate under Section 541(a)(1) and the bank's obligation to pay becomes subject to Section 542(b). Banks holding accounts of a debtor who has filed bankruptcy face simultaneous obligations to honor the trustee's turnover demand under 542(b) and to respect any setoff right they may have under Section 553.</p>
+</div>
+
+<div class="content-section">
+  <h2>Section 542(c): Good-Faith Transfer Without Knowledge</h2>
+  <p>Section 542(c) protects entities that transfer property of the estate, or pay a debt owed to the debtor, "in good faith and other than in the manner specified in subsection (d) of this section, to an entity other than the trustee, with neither actual notice nor actual knowledge of the commencement of the case." The transferor is discharged from liability "to the same extent as if the case under this title concerning the debtor had not been commenced."</p>
+  <p>This is the safe-harbor for innocent third parties who deal with the debtor in the brief window between filing and the time when notice of the bankruptcy reaches them. The protection has three express requirements:</p>
+  <ul>
+    <li><strong>Good faith:</strong> The transferor must subjectively be acting honestly and without notice of facts that would put a reasonable party on inquiry</li>
+    <li><strong>No actual knowledge:</strong> The transferor must not actually know of the bankruptcy</li>
+    <li><strong>No actual notice:</strong> The transferor must not have received formal notice (typically the Section 342 noticing system)</li>
+  </ul>
+  <p>The protection is asymmetric: 542(c) shields the transferor, but the transferee (whoever ultimately received the property) may still be subject to a turnover claim under 542(a). The estate's recovery shifts downstream rather than disappearing.</p>
+  <div class="yellow-box">
+    <p><strong>Practical effect:</strong> A bank that honors a check drawn on a debtor's account three days after the petition, before the petition has been served on the bank, is protected by 542(c). The payee, however, may have to give back the funds if the trustee pursues a Section 549 claim for unauthorized post-petition transfer.</p>
+  </div>
+</div>
+
+<div class="content-section">
+  <h2>Section 542(d): Life Insurance and Annuity Carve-Out</h2>
+  <p>Section 542(d) addresses a narrow but important category: payments by life insurance companies on policies that have been pledged or assigned to the debtor or that are property of the estate. The subsection provides that a life insurer that transfers property in good faith and without actual notice or knowledge of the case, in accordance with the terms of an existing contract with the debtor, is discharged from liability to the same extent as under 542(c).</p>
+  <p>The life-insurance carve-out exists because life insurers run on contractual schedules (premiums in, payouts on death) that may not be easily adjusted on short notice. A life insurer that pays a death benefit in good faith to a contractual beneficiary three weeks after the insured's filing, without knowing of the filing, is not liable to the estate for the payment.</p>
+</div>
+
+<div class="content-section">
+  <h2>City of Chicago v. Fulton: Mere Retention Does Not Violate 362(a)(3)</h2>
+  <p>The most consequential turnover-related Supreme Court decision in the past decade is <em>City of Chicago v. Fulton</em>, 592 U.S. 154 (2021). The Court held unanimously that the City's mere retention of vehicles it had impounded pre-petition did not violate the automatic-stay provision of <a href="/automatic-stay-scope-exceptions/">Section 362(a)(3)</a>, which prohibits "any act to obtain possession of property of the estate or of property from the estate or to exercise control over property of the estate."</p>
+  <p>The Court read 362(a)(3) to require an affirmative <em>act</em>; passive retention of property already in the holder's possession at the time of filing is not such an act. The Court explicitly contrasted Section 362(a)(3) with Section 542 turnover obligations, observing that to read 362(a)(3) as imposing an automatic affirmative duty to surrender property would "render Section 542 superfluous." The opinion preserves Section 542 as the operative mechanism for compelling turnover.</p>
+  <div class="warning-box">
+    <p><strong>Doctrinal consequence:</strong> A creditor or other entity holding property of the estate at the moment of filing is not, by mere retention, violating the automatic stay. The trustee or debtor must affirmatively invoke Section 542 (typically by adversary complaint or contested motion) to compel turnover. Stay-violation sanctions under Section 362(k) do not flow from non-action alone.</p>
+  </div>
+  <p>The post-Fulton landscape requires debtors and trustees to plan recovery differently. The pre-Fulton practice in some circuits had been to send a written demand citing the automatic stay and to follow with a stay-violation motion if the property was not surrendered. After Fulton, the demand letter still has value (it puts the holder on notice and may waive 542(c) protection for any further transfer), but the enforcement instrument must be a Section 542 turnover complaint or a Section 363 use motion, not a stay-violation proceeding.</p>
+  <h3>Open questions after Fulton</h3>
+  <p>Fulton left several issues unresolved:</p>
+  <ul>
+    <li>Whether retention <em>plus</em> affirmative conduct (such as setting conditions on return, or running a meter on storage fees) crosses the line into an "act" prohibited by 362(a)(3)</li>
+    <li>Whether other subsections of 362(a) (such as 362(a)(4) regarding acts to enforce liens, or 362(a)(6) regarding acts to collect) may still be violated by particular forms of post-petition retention</li>
+    <li>The interaction with Section 542(c) where the entity received post-petition notice but had not yet acted</li>
+  </ul>
+  <p>Lower courts have been working through these questions case by case. The Court's structural holding (542 is the proper turnover mechanism) is firmly settled; the periphery is in active development.</p>
+</div>
+
+<div class="content-section">
+  <h2>The Trustee or Debtor Must Affirmatively Invoke 542</h2>
+  <p>One of the practical consequences of Fulton is that turnover under Section 542 must be pursued as an affirmative claim. Federal Rule of Bankruptcy Procedure 7001(1) requires an adversary proceeding to recover money or property "other than a proceeding to compel the debtor to deliver property to the trustee" and "other than a proceeding under Section 554(b) or Section 725 of the Code, Rule 2017, or Rule 6002." Most third-party turnover claims fall within Rule 7001(1) and must be brought by complaint.</p>
+  <p>Where the property holder is the debtor or a custodian, different procedural paths apply (turnover by the debtor is a contested matter; turnover by a custodian proceeds under <a href="/section-543-turnover-by-custodian/">Section 543</a>). The procedural distinctions matter for notice, discovery, and the form of any final order.</p>
+</div>
+
+<div class="content-section">
+  <h2>Attorney Records and the Privilege Question</h2>
+  <p>Section 542(e) addresses turnover of recorded information, including books, documents, records, and papers, relating to the debtor's property or financial affairs. It provides that subject to applicable privilege, a court may order an attorney, accountant, or other person holding such information to turn it over to the trustee.</p>
+  <p>The "subject to applicable privilege" qualifier preserves the attorney-client privilege and work-product protection. The trustee of a corporate debtor generally controls the corporation's attorney-client privilege under <em>Commodity Futures Trading Commission v. Weintraub</em>, 471 U.S. 343 (1985), and can waive it for purposes of obtaining documents from prior counsel. The same is not true for an individual debtor; the trustee of an individual Chapter 7 debtor does not succeed to the debtor's personal attorney-client privilege.</p>
+</div>
+
+<div class="content-section">
+  <h2>Related Bankruptcy Code Sections</h2>
+  <p>Section 542 operates as part of a larger recovery framework:</p>
+  <ul>
+    <li><a href="/section-542-turnover.html">Section 542 (overview)</a> - the original plain-English page</li>
+    <li><a href="/section-541-property-of-estate/">Section 541 Deep Dive</a> - what enters the estate</li>
+    <li><a href="/section-543-turnover-by-custodian/">Section 543</a> - turnover by custodian</li>
+    <li><a href="/automatic-stay-scope-exceptions/">Section 362</a> - automatic stay scope and Fulton interpretation</li>
+    <li><a href="/section-549-post-petition.html">Section 549</a> - avoidance of unauthorized post-petition transfers</li>
+    <li><a href="/section-553-setoff.html">Section 553</a> - setoff carve-out from 542(b)</li>
+  </ul>
+</div>
+
+<div class="network-links">
+  <strong>Bankruptcy Tools Network:</strong><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Discharge Screener</a> &middot;
+  <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Research Platform</a> &middot;
+  <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Exemptions by State</a> &middot;
+  <a href="https://keepmycarinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your Car</a> &middot;
+  <a href="https://keepmyhouseinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your House</a> &middot;
+  <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Bankruptcy Cost</a>
+</div>
+</main>
+
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by <a href="https://openbankruptcyproject.org/donate.html">donations</a>.</p>
+  <p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+  <p style="margin-bottom:0.5rem">
+    <a href="/">Home</a> &middot;
+    <a href="/research.html">Research</a> &middot;
+    <a href="/impact.html">Impact</a> &middot;
+    <a href="/legal-aid.html">Legal Aid</a> &middot;
+    <a href="/about.html">About</a> &middot;
+    <a href="/contact.html">Contact</a>
+  </p>
+  <p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+</footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>

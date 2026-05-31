@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Chapter 7 vs Chapter 13 Bankruptcy - Comparison Guide | Open Bankruptcy Project</title>
+<meta name="description" content="Factual comparison of Chapter 7 (liquidation) and Chapter 13 (wage-earner plan) bankruptcy cases: statutory eligibility, typical case length, discharge scope, filing-volume ratios by district, and national disposition rates. Empirical data from the Federal Judicial Center Integrated Database."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/chapter-7-vs-13/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Chapter 7 vs Chapter 13 Bankruptcy - Comparison Guide | Open Bankruptcy Project"/>
+<meta property="og:description" content="Factual comparison of Chapter 7 (liquidation) and Chapter 13 (wage-earner plan) bankruptcy cases: statutory eligibility, typical case length, discharge scope, filing-volume ratios by district, and national disposition rates. Empirical data from the Federal Judicial Center Integrated Database."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/chapter-7-vs-13/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Chapter 7 vs Chapter 13 Bankruptcy", "description": "Factual comparison of Chapter 7 (liquidation) and Chapter 13 (wage-earner plan) bankruptcy cases: statutory eligibility, typical case length, discharge scope, filing-volume ratios by district, and national disposition rates. Empirical data from the Federal Judicial Center Integrated Database.", "url": "https://openbankruptcyproject.org/chapter-7-vs-13/", "datePublished": "2026-04-21", "dateModified": "2026-04-21", "author": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org", "nonprofitStatus": "Nonprofit501c3"}, "isAccessibleForFree": true}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 3, "name": "Chapter 7 vs 13", "item": "https://openbankruptcyproject.org/chapter-7-vs-13/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the main difference between Chapter 7 and Chapter 13?", "acceptedAnswer": {"@type": "Answer", "text": "Chapter 7 is a liquidation in which non-exempt assets are sold by a trustee and most unsecured debts are discharged within a few months. Chapter 13 is a reorganization under a three- to five-year repayment plan, with the discharge entered only after plan completion."}}, {"@type": "Question", "name": "How long does a Chapter 7 case take?", "acceptedAnswer": {"@type": "Answer", "text": "A typical Chapter 7 case closes in approximately 3 to 6 months from filing, though no-asset cases often close sooner and cases with asset liquidation or disputes can take longer."}}, {"@type": "Question", "name": "Can I file Chapter 7 if I have a prior bankruptcy discharge?", "acceptedAnswer": {"@type": "Answer", "text": "11 U.S.C. § 727(a)(8) bars a Chapter 7 discharge if the debtor received a prior Chapter 7 discharge within 8 years before the current petition. § 727(a)(9) addresses prior Chapter 13 discharges. The Open Bankruptcy Project's screener checks these timing bars against a supplied filing history."}}, {"@type": "Question", "name": "What debts are not discharged in bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "11 U.S.C. § 523(a) lists categories of non-dischargeable debts, including most tax debts, domestic-support obligations, student loans absent an undue-hardship finding, debts arising from fraud or willful injury, and others."}}, {"@type": "Question", "name": "Can I keep my house in bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "Chapter 13 plans can cure mortgage arrears and prevent foreclosure during the plan period. Chapter 7 does not provide a cure mechanism for mortgage arrears. Whether a home's equity is protected depends on the applicable state or federal exemption scheme."}}, {"@type": "Question", "name": "Where can I find statistics on chapter mix by district?", "acceptedAnswer": {"@type": "Answer", "text": "The Open Bankruptcy Project publishes a free national district-level data index covering all 94 federal bankruptcy courts with filing volumes, chapter mix, and disposition statistics sourced from the Federal Judicial Center Integrated Database."}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main h3{font-size:1.05rem;font-weight:700;margin:22px 0 8px;color:var(--text)}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul,main ol{margin:10px 0 18px 22px;color:var(--text-secondary)}
+main li{margin-bottom:6px}
+main strong{color:var(--text)}
+main code{background:var(--surface);padding:2px 6px;border-radius:4px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.callout strong{color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 24px;margin:18px 0}
+.card h3{margin-top:0}
+.link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+.link-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:.15s}
+.link-card:hover{background:var(--surface-hover);border-color:var(--accent)}
+.link-card .label{font-size:.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600;margin-bottom:4px}
+.link-card h4{font-size:.98rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.link-card p{font-size:.85rem;color:var(--text-secondary);margin:0}
+.faq details{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;color:var(--text-muted);font-weight:300;font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'−'}
+.faq details[open] summary{margin-bottom:10px;color:var(--accent)}
+.faq details p{margin:10px 0 0;color:var(--text-secondary)}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Research Guide</div>
+<h1>Chapter 7 vs Chapter 13 Bankruptcy</h1>
+<p class="lede">Chapter 7 and Chapter 13 are the two most common consumer bankruptcy chapters in the United States. They differ in who can file, how long the case lasts, what assets are exposed, and what debts end up discharged. This page compares the two chapters factually - statutory basis, typical process, and aggregated outcomes from the Federal Judicial Center's Integrated Database.</p>
+<div class="datastamp">Data updated <time datetime="2026-04-21">2026-04-21</time>. See <a href="/research/methodology/">methodology &amp; sources</a>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Chapter 7 vs 13</div>
+<h2>Statutory basis</h2>
+<p>Chapter 7 of the Bankruptcy Code (11 U.S.C. §§ 701–784) governs liquidation proceedings. A court-appointed trustee collects and liquidates non-exempt assets, distributes proceeds to creditors, and the debtor receives a discharge of most unsecured debts within about four to six months of filing.</p>
+<p>Chapter 13 (11 U.S.C. §§ 1301–1330) governs adjustment of debts for a debtor with regular income. The debtor proposes a three- to five-year repayment plan, which the court confirms after a confirmation hearing. The discharge is entered after plan payments are completed.</p>
+<p>11 U.S.C. § 109 sets chapter-specific eligibility: § 109(b) identifies who may be a debtor under Chapter 7; § 109(e) caps unsecured and secured debt for Chapter 13 eligibility (adjusted every three years under § 104).</p>
+<h2>Case-length and structure differences</h2>
+<ul><li>Chapter 7 cases typically close in 3 to 6 months. Non-exempt property is liquidated by the trustee; the debtor's post-petition earnings are not part of the estate.</li><li>Chapter 13 cases run 36 or 60 months under a confirmed plan. Plan payments come from the debtor's post-petition disposable income, and the discharge enters only after all plan payments are made.</li><li>Chapter 13 cases can cure mortgage arrears over the plan period while the automatic stay (§ 362) prevents foreclosure. Chapter 7 generally cannot cure arrears.</li><li>Both chapters impose an automatic stay on filing (§ 362(a)), which halts most collection activity, civil litigation enforcement, and secured-creditor actions.</li></ul>
+<h2>Discharge scope</h2>
+<p>The scope of the discharge is one of the most consequential differences between the two chapters. Chapter 13 discharges a slightly broader set of debts than Chapter 7, though the § 523(a) non-discharge list still applies in both.</p>
+<ul><li>§ 523(a) carve-outs from discharge (in both chapters): certain tax debts, domestic-support obligations, student loans absent an undue-hardship finding under the Brunner standard, debts arising from fraud or willful injury, and others.</li><li>The Chapter 13 "super-discharge" historically covered certain non-tax fraud-based debts. Post-BAPCPA (2005), § 1328(a) narrowed this, and the gap between Chapter 7 and Chapter 13 discharge scope is smaller than it once was.</li><li>§ 727(a) bars a Chapter 7 discharge altogether if the debtor has received a prior Chapter 7 discharge within 8 years, or a prior Chapter 13 discharge within 6 years in certain configurations.</li><li>§ 1328(f) imposes parallel timing bars on Chapter 13 discharges based on prior discharges.</li></ul>
+<h2>Filing volume and chapter mix by district</h2>
+<p>The ratio of Chapter 7 to Chapter 13 filings varies significantly by district. Some districts have majority Chapter 13 filing volumes; others have majority Chapter 7. Local practice, economic conditions, and means-test eligibility drive most of the variance. The Open Bankruptcy Project publishes chapter-mix statistics for every US federal bankruptcy district.</p>
+<div class="callout"><strong>See per-district chapter mix:</strong> browse the <a href="/cases/">national district index</a> to see what share of filings in each court are Chapter 7 vs Chapter 13 over the full FJC IDB history.</div>
+<h2>Case dispositions</h2>
+<p>The Federal Judicial Center's Integrated Database records a terminal disposition code for cases it has coded (code A: discharged; codes D–T: various dismissals; code K: converted to another chapter; plus miscellaneous closings). Disposition coverage in the IDB varies by cohort, because the IDB is a periodic snapshot rather than a continuous outcome tracker.</p>
+<p>Chapter 13 cases face a higher dismissal risk than Chapter 7 because they require sustained plan performance over 3–5 years. Missed payments, changes in employment, and plan modifications can result in dismissal under § 1307. Chapter 13 cases that don't complete to discharge may be converted to Chapter 7 under § 1307(a) or dismissed.</p>
+<h2>Choosing between chapters</h2>
+<p>Chapter choice depends on a debtor's income, asset profile, types of debt, and goals (liquidation vs. reorganization). The means test (§ 707(b)) restricts Chapter 7 eligibility for debtors with above-median income. Debt caps under § 109(e) restrict Chapter 13 eligibility for debtors with very large secured or unsecured balances.</p>
+<p>This page is empirical, not advisory. For a chapter-choice analysis in a specific matter, consult a licensed bankruptcy attorney admitted in the applicable district. The Open Bankruptcy Project's free <a href="/screener/">discharge-eligibility screener</a> checks § 1328(f) and § 727(a) timing bars against a user-supplied filing history.</p>
+<h2>Related resources</h2><div class="link-grid"><a class="link-card" href="/cases/"><div class="label">District data</div><h4>National District Index</h4><p>Filing volume and chapter mix for every US federal bankruptcy district.</p></a><a class="link-card" href="/screener/"><div class="label">Tool</div><h4>Discharge-eligibility screener</h4><p>Free § 1328(f) / § 727(a) timing-bar check based on filing history.</p></a><a class="link-card" href="/automatic-stay/"><div class="label">Concept</div><h4>Automatic stay explained</h4><p>Scope and exceptions of § 362 - what protection bankruptcy provides and when it lifts.</p></a><a class="link-card" href="/means-test/"><div class="label">Concept</div><h4>The means test</h4><p>§ 707(b) income thresholds, how the test is computed, and what &quot;above-median&quot; means.</p></a></div>
+<section class="faq"><h2>Frequently asked questions</h2><details><summary>What is the main difference between Chapter 7 and Chapter 13?</summary><p>Chapter 7 is a liquidation in which non-exempt assets are sold by a trustee and most unsecured debts are discharged within a few months. Chapter 13 is a reorganization under a three- to five-year repayment plan, with the discharge entered only after plan completion.</p></details><details><summary>How long does a Chapter 7 case take?</summary><p>A typical Chapter 7 case closes in approximately 3 to 6 months from filing, though no-asset cases often close sooner and cases with asset liquidation or disputes can take longer.</p></details><details><summary>Can I file Chapter 7 if I have a prior bankruptcy discharge?</summary><p>11 U.S.C. § 727(a)(8) bars a Chapter 7 discharge if the debtor received a prior Chapter 7 discharge within 8 years before the current petition. § 727(a)(9) addresses prior Chapter 13 discharges. The Open Bankruptcy Project's screener checks these timing bars against a supplied filing history.</p></details><details><summary>What debts are not discharged in bankruptcy?</summary><p>11 U.S.C. § 523(a) lists categories of non-dischargeable debts, including most tax debts, domestic-support obligations, student loans absent an undue-hardship finding, debts arising from fraud or willful injury, and others.</p></details><details><summary>Can I keep my house in bankruptcy?</summary><p>Chapter 13 plans can cure mortgage arrears and prevent foreclosure during the plan period. Chapter 7 does not provide a cure mechanism for mortgage arrears. Whether a home's equity is protected depends on the applicable state or federal exemption scheme.</p></details><details><summary>Where can I find statistics on chapter mix by district?</summary><p>The Open Bankruptcy Project publishes a free national <a href="/cases/">district-level data index</a> covering all 94 federal bankruptcy courts with filing volumes, chapter mix, and disposition statistics sourced from the Federal Judicial Center Integrated Database.</p></details></section>
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Empirical statistics and informational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Data sources: Federal Judicial Center Integrated Database; Free Law Project RECAP Archive via CourtListener; official US federal bankruptcy court websites. Derived content on this page is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>. See the <a href="/research/methodology/">methodology page</a> for metric definitions and sourcing.</p>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+</body></html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Upsolve vs Open Bankruptcy Project - Which Free Tool Is Better?</title>
+<meta name="description" content="Upsolve vs Open Bankruptcy Project: a fair comparison of two free bankruptcy resources. App-based Chapter 7 filing vs 161-domain research network with FJC data. See which fits your needs.">
+<meta name="keywords" content="Upsolve alternative, Upsolve vs Open Bankruptcy Project, free bankruptcy tools, bankruptcy filing help, Chapter 7 filing">
+<link rel="canonical" href="https://openbankruptcyproject.org/compare/upsolve-vs-obp.html">
+<meta property="og:title" content="Upsolve vs Open Bankruptcy Project - Which Free Bankruptcy Tool Is Better?">
+<meta property="og:description" content="A fair comparison of two free bankruptcy resources: Upsolve's app-based Chapter 7 filing vs OBP's 161-domain research network with empirical data.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/compare/upsolve-vs-obp.html">
+<meta property="og:site_name" content="Open Bankruptcy Project">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Upsolve vs Open Bankruptcy Project - Which Free Bankruptcy Tool Is Better?">
+<meta name="twitter:description" content="A fair comparison of two free bankruptcy resources: Upsolve's app-based Chapter 7 filing vs OBP's 161-domain research network with empirical data.">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="theme-color" content="#0d1117">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag('js',new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Upsolve vs Open Bankruptcy Project - Which Free Tool Is Better?","datePublished":"2026-04-07","dateModified":"2026-04-07","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Is Upsolve really free?","acceptedAnswer":{"@type":"Answer","text":"Yes, Upsolve is a nonprofit that offers a free Chapter 7 bankruptcy filing tool. They are funded by grants and donations. However, their tool only covers Chapter 7 and requires you to enter personal financial information into their app."}},
+{"@type":"Question","name":"Is Open Bankruptcy Project really free?","acceptedAnswer":{"@type":"Answer","text":"Yes, OBP is a 501(c)(3) nonprofit. All tools, data, and research are free and open source. OBP does not collect personal information and does not prepare bankruptcy filings."}},
+{"@type":"Question","name":"Can I use Upsolve for Chapter 13?","acceptedAnswer":{"@type":"Answer","text":"No. Upsolve only supports Chapter 7 bankruptcy filings. If you need Chapter 13, Chapter 11, or Chapter 12 information, OBP covers all chapters through its research network."}},
+{"@type":"Question","name":"Which is better for bankruptcy research?","acceptedAnswer":{"@type":"Answer","text":"OBP is primarily a research platform with 4.9 million federal cases analyzed across 94 districts. Upsolve is primarily a filing tool. If you need data, statistics, or educational content, OBP is the better fit. If you need help preparing Chapter 7 forms, Upsolve is the better fit."}},
+{"@type":"Question","name":"Does Upsolve collect my personal information?","acceptedAnswer":{"@type":"Answer","text":"Yes, Upsolve's filing tool requires you to enter detailed personal and financial information to generate your bankruptcy forms. OBP's screening and research tools work with aggregated federal data and never ask for personal information."}}
+]}
+</script>
+<style>
+:root{--bg:#0d1117;--surface:#151b23;--border:#30363d;--text:#e6edf3;--text-muted:#9eaab6;--accent:#58a6ff;--green:#3fb950;--red:#f85149;--orange:#d29922}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.container{max-width:900px;margin:0 auto;padding:2rem 1.5rem}
+header{text-align:center;padding:3rem 1rem 2rem;border-bottom:1px solid var(--border)}
+header h1{font-size:2rem;margin-bottom:.5rem}
+header .subtitle{color:var(--text-muted);font-size:1.05rem}
+.breadcrumb{padding:1rem 1.5rem;max-width:900px;margin:0 auto;font-size:0.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}
+.content-section{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.5rem 2rem;margin:1.5rem 0}
+.content-section h2{color:var(--accent);font-size:1.4rem;margin-bottom:1rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+.content-section h3{color:var(--text);font-size:1.1rem;margin:1rem 0 .5rem}
+.content-section p,.content-section li{color:var(--text-muted);margin-bottom:.75rem}
+.content-section ul{padding-left:1.5rem}
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+th,td{padding:.75rem 1rem;text-align:left;border-bottom:1px solid var(--border)}
+th{color:var(--accent);font-weight:600;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em}
+td{color:var(--text-muted)}
+.check{color:var(--green)}
+.x{color:var(--red)}
+.partial{color:var(--orange)}
+details{background:var(--surface);border:1px solid var(--border);border-radius:8px;margin:.75rem 0;padding:0}
+summary{padding:1rem 1.25rem;cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+ ";color:var(--accent)}
+details[open] summary::before{content:"- "}
+details .answer{padding:0 1.25rem 1rem;color:var(--text-muted)}
+.verdict{background:linear-gradient(135deg,#0d1117,#151b23);border:2px solid var(--green);border-radius:12px;padding:1.5rem 2rem;margin:1.5rem 0;text-align:center}
+.verdict h2{color:var(--green);margin-bottom:.75rem}
+footer{text-align:center;padding:2rem 1rem;color:var(--text-muted);font-size:.85rem;border-top:1px solid var(--border);margin-top:2rem}
+</style>
+</head>
+<body>
+
+<header>
+  <p style="font-size:.9rem;color:var(--text-muted);margin-bottom:.5rem"><a href="/" style="color:var(--accent)">Open Bankruptcy Project</a></p>
+  <h1>Upsolve vs Open Bankruptcy Project</h1>
+  <p class="subtitle">Which Free Bankruptcy Tool Is Better? A Fair, Side-by-Side Comparison</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> / <a href="/compare/">Compare</a> / Upsolve vs OBP
+</div>
+
+<div class="container">
+
+<div class="content-section">
+  <h2>Overview</h2>
+  <p>Both Upsolve and the Open Bankruptcy Project (OBP) are nonprofit organizations providing free bankruptcy resources. But they serve very different purposes. Upsolve helps low-income individuals prepare <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> bankruptcy filings through a guided app. OBP provides empirical research, screening tools, and educational content covering all bankruptcy chapters across a network of 161 specialized domains.</p>
+  <p>Neither is "better" in an absolute sense - it depends on what you need.</p>
+</div>
+
+<div class="content-section">
+  <h2>Side-by-Side Comparison</h2>
+  <table>
+    <thead>
+      <tr><th>Feature</th><th>Upsolve</th><th>Open Bankruptcy Project</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Cost</td><td><span class="check">Free</span></td><td><span class="check">Free</span></td></tr>
+      <tr><td>Nonprofit status</td><td><span class="check">501(c)(3)</span></td><td><span class="check">501(c)(3)</span></td></tr>
+      <tr><td>Chapters covered</td><td><a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> only</td><td>All chapters (7, 11, 12, 13, Sub V)</td></tr>
+      <tr><td>Filing preparation</td><td><span class="check">Yes - guided app</span></td><td><span class="x">No - research/education only</span></td></tr>
+      <tr><td>Personal info required</td><td>Yes - detailed financial data</td><td>None collected</td></tr>
+      <tr><td>Income screening</td><td>Yes (<a href="https://meanstest.org/" title="means test">means test</a> built in)</td><td>Yes (<a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> screener, <a href="https://meanstest.org/" title="means test">means test</a> guides)</td></tr>
+      <tr><td>Empirical data</td><td>Limited</td><td>4.9M federal cases, 94 districts</td></tr>
+      <tr><td>Open source</td><td>Partial</td><td><span class="check">Fully open source</span></td></tr>
+      <tr><td>State-specific content</td><td>Limited guides</td><td>180+ domains with state/city guides</td></tr>
+      <tr><td>Attorney directory</td><td>Yes</td><td>No</td></tr>
+      <tr><td>Advertising</td><td>No ads</td><td>No ads</td></tr>
+      <tr><td>Research citations</td><td>--</td><td>Cited by federal judiciary (26-BK-3)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="content-section">
+  <h2>When to Use Upsolve</h2>
+  <ul>
+    <li>You have decided to file Chapter 7 bankruptcy and need help preparing the forms</li>
+    <li>Your income is below the median for your state (means test eligible)</li>
+    <li>You want a step-by-step guided process to generate court-ready documents</li>
+    <li>You are comfortable entering personal financial information into an online tool</li>
+  </ul>
+  <p>Upsolve has helped thousands of people file Chapter 7 <a href="https://filebankruptcywithoutlawyer.com/" title="file without a lawyer">without an attorney</a>. Their app walks you through the entire process, from the means test to generating the petition and schedules.</p>
+</div>
+
+<div class="content-section">
+  <h2>When to Use Open Bankruptcy Project</h2>
+  <ul>
+    <li>You are researching whether bankruptcy is right for you before making any decisions</li>
+    <li>You need information about <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a>, <a href="https://section1191.org/" title="Chapter 11">Chapter 11</a>, or <a href="https://section1191.org/" title="Subchapter V">Subchapter V</a> - not just Chapter 7</li>
+    <li>You want to understand <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> eligibility timelines (the <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> screener)</li>
+    <li>You are a researcher, attorney, or journalist who needs empirical bankruptcy data</li>
+    <li>You do not want to share personal financial information with any platform</li>
+    <li>You want state-specific or city-specific bankruptcy guides</li>
+  </ul>
+  <p>OBP is the largest independent bankruptcy research network, analyzing 4.9 million federal cases. Its tools help you understand the system before you engage with it - without ever asking who you are.</p>
+</div>
+
+<div class="content-section">
+  <h2>Can You Use Both?</h2>
+  <p>Absolutely. Many people start with OBP to research their options, understand <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> eligibility, and learn about their local district's patterns. Once they decide Chapter 7 is the right path, they can use Upsolve to prepare their filing. The two platforms complement each other well.</p>
+</div>
+
+<div class="content-section">
+  <h2>Frequently Asked Questions</h2>
+
+  <details>
+    <summary>Is Upsolve really free?</summary>
+    <div class="answer"><p>Yes, Upsolve is a nonprofit that offers a free Chapter 7 bankruptcy filing tool. They are funded by grants and donations. However, their tool only covers Chapter 7 and requires you to enter personal financial information into their app.</p></div>
+  </details>
+
+  <details>
+    <summary>Is Open Bankruptcy Project really free?</summary>
+    <div class="answer"><p>Yes, OBP is a 501(c)(3) nonprofit. All tools, data, and research are free and open source. OBP does not collect personal information and does not prepare bankruptcy filings.</p></div>
+  </details>
+
+  <details>
+    <summary>Can I use Upsolve for <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a>?</summary>
+    <div class="answer"><p>No. Upsolve only supports Chapter 7 bankruptcy filings. If you need Chapter 13, Chapter 11, or Chapter 12 information, OBP covers all chapters through its research network.</p></div>
+  </details>
+
+  <details>
+    <summary>Which is better for bankruptcy research?</summary>
+    <div class="answer"><p>OBP is primarily a research platform with 4.9 million federal cases analyzed across 94 districts. Upsolve is primarily a filing tool. If you need data, statistics, or educational content, OBP is the better fit. If you need help preparing Chapter 7 forms, Upsolve is the better fit.</p></div>
+  </details>
+
+  <details>
+    <summary>Does Upsolve collect my personal information?</summary>
+    <div class="answer"><p>Yes, Upsolve's filing tool requires you to enter detailed personal and financial information to generate your bankruptcy forms. OBP's screening and research tools work with aggregated federal data and never ask for personal information.</p></div>
+  </details>
+</div>
+
+<div class="verdict">
+  <h2>The Bottom Line</h2>
+  <p style="color:var(--text);font-size:1.05rem">Upsolve is best for <strong>filing Chapter 7</strong>. OBP is best for <strong>research across all chapters</strong>. Use both.</p>
+</div>
+
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p><a href="/">Home</a> | <a href="/about.html">About</a> | <a href="/research.html">Research</a> | <a href="/contact.html">Contact</a> | <a href="/privacy.html">Privacy</a> | <a href="/terms.html">Terms</a></p>
+  <p style="margin-top:.5rem">Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+  <p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+  <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s;margin-top:.75rem" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them - Open Bankruptcy Project</title>
+<meta content="Learn about 75,764 estimated section 1328(f) violations: no court is screening for them - open bankruptcy project in our free 2026 guide." name="description"/>
+<link href="https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/rss.xml" rel="alternate" title="Open Bankruptcy Project - News Feed (RSS)" type="application/rss+xml"/>
+<link href="/feed.xml" rel="alternate" title="Open Bankruptcy Project - News Feed (Atom)" type="application/atom+xml"/>
+<meta content="75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them - Open Bankruptcy Project" property="og:title"/>
+<meta content="Learn about 75,764 estimated section 1328(f) violations: no court is screening for them - open bankruptcy project in our free 2026 guide." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="2026-04-03" property="article:published_time"/>
+<meta content="Open Bankruptcy Project Research Team" property="article:author"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them - Open Bankruptcy Project" name="twitter:title"/>
+<meta content="Learn about 75,764 estimated section 1328(f) violations: no court is screening for them - open bankruptcy project in our free 2026 guide." name="twitter:description"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- GA4 -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them",
+    "description": "FJC data shows an estimated 75,764 bankruptcy discharges may have been granted in violation of the Section 1328(f) waiting period. N.D. Ill. leads with 822 estimated violations.",
+    "datePublished": "2026-04-03",
+    "dateModified": "2026-04-03",
+    "author": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project Research Team",
+        "url": "https://openbankruptcyproject.org/about.html"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://openbankruptcyproject.org",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://openbankruptcyproject.org/favicon.svg"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html"
+    },
+    "image": "/og-image.svg",
+    "isAccessibleForFree": true,
+    "inLanguage": "en"
+}
+    </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Estimated Section 1328(f) Discharge Violations by Federal District (2015-2024)",
+  "description": "Analysis of estimated violations of the Section 1328(f) discharge waiting period across 94 federal judicial districts, based on FJC Integrated Database records of prior filings and discharge dates.",
+  "url": "https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html",
+  "creator": {
+    "@type": "Organization",
+    "name": "Open Bankruptcy Project",
+    "url": "https://openbankruptcyproject.org"
+  },
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "temporalCoverage": "2015/2024",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/html",
+    "contentUrl": "https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html"
+  },
+  "variableMeasured": [
+    "Filing count",
+    "Estimated 1328(f) violations",
+    "Prior filer rate",
+    "District ranking"
+  ],
+  "spatialCoverage": "United States"
+}
+    </script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is Section 1328(f) of the Bankruptcy Code?", "acceptedAnswer": {"@type": "Answer", "text": "Section 1328(f) establishes waiting periods between bankruptcy discharges. A debtor cannot receive a Chapter 13 discharge if they received a Chapter 7 discharge within the prior 4 years, or a Chapter 13 discharge within the prior 2 years. The periods are measured from filing date to filing date."}}, {"@type": "Question", "name": "How many Section 1328(f) violations have occurred?", "acceptedAnswer": {"@type": "Answer", "text": "Based on analysis of FJC Integrated Database records from fiscal years 2015 through 2024, an estimated 75,764 bankruptcy discharges may have been granted in violation of the Section 1328(f) waiting period. This is an estimate because the FJC data does not include exact prior discharge dates for all cases."}}, {"@type": "Question", "name": "Do courts screen for 1328(f) violations before granting discharge?", "acceptedAnswer": {"@type": "Answer", "text": "No automated screening system exists in any federal bankruptcy court to check whether a debtor's prior filing history violates the Section 1328(f) waiting period. The burden falls entirely on debtors, attorneys, trustees, and clerks to identify potential violations manually. The Open Bankruptcy Project has submitted a Rules Committee proposal (26-BK-3) to address this gap."}}, {"@type": "Question", "name": "Which district has the most estimated 1328(f) violations?", "acceptedAnswer": {"@type": "Answer", "text": "The Northern District of Illinois (Chicago) leads with an estimated 822 Section 1328(f) violations, followed by the Northern District of Georgia (Atlanta) with 648 and the District of New Jersey with 442. Georgia has three districts in the top 15, with a combined 1,297 estimated violations."}}, {"@type": "Question", "name": "How can I check if I am eligible for a bankruptcy discharge?", "acceptedAnswer": {"@type": "Answer", "text": "The Open Bankruptcy Project provides a free Section 1328(f) screening tool at 1328f.com. The tool checks discharge eligibility based on prior filing dates and case types. No personal information is stored. Debtors should also consult with a bankruptcy attorney to confirm eligibility before filing."}}]}
+    </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them",
+      "description": "FJC data shows an estimated 75,764 bankruptcy discharges may have been granted in violation of the Section 1328(f) waiting period. N.D. Ill. leads with 822 esti",
+      "author": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://1328f.org"
+      },
+      "datePublished": "2026-04-05",
+      "dateModified": "2026-04-05",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them - Open Bankruptcy Project",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them",
+          "item": "https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them",
+      "url": "https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
+    }
+  ]
+}
+</script>
+<style>
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0d1117;
+            --bg-elevated: #0f1319;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --accent-subtle: rgba(88, 166, 255, 0.08);
+            --green: #3fb950;
+            --green-subtle: rgba(63, 185, 80, 0.08);
+            --gold: #d29922;
+            --gold-subtle: rgba(210, 153, 34, 0.08);
+            --red: #f85149;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+        a:hover { color: var(--accent-hover); }
+
+        .container { max-width: 1040px; margin: 0 auto; padding: 0 32px; }
+        .narrow { max-width: 760px; }
+
+        nav {
+            border-bottom: 1px solid var(--border);
+            padding: 18px 0;
+            position: sticky; top: 0;
+            background: rgba(13, 17, 23, 0.95);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        nav .container {
+            display: flex; align-items: center; justify-content: space-between;
+            flex-wrap: wrap; gap: 12px;
+        }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 40px 0;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        footer a { color: var(--text-muted); }
+        footer a:hover { color: var(--accent); }
+
+        /* Article styles */
+        .article-header {
+            padding: 64px 0 32px;
+            border-bottom: 1px solid var(--border);
+        }
+        .article-header h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .dateline {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        .byline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+        .article-body {
+            padding: 40px 0 64px;
+        }
+        .article-body h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 40px 0 16px;
+            letter-spacing: -0.02em;
+            color: var(--text);
+        }
+        .article-body h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin: 32px 0 12px;
+            color: var(--text);
+        }
+        .article-body p {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            line-height: 1.8;
+        }
+        .article-body ul, .article-body ol {
+            margin: 0 0 16px 24px;
+            color: var(--text-secondary);
+        }
+        .article-body li { margin-bottom: 8px; line-height: 1.6; }
+
+        /* Data table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+            font-size: 0.92rem;
+        }
+        .data-table th {
+            background: var(--surface);
+            color: var(--text);
+            font-weight: 600;
+            text-align: left;
+            padding: 12px 16px;
+            border-bottom: 2px solid var(--border);
+        }
+        .data-table td {
+            padding: 10px 16px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+        .data-table tr:hover td { background: var(--surface); }
+        .data-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+
+        /* Highlight box */
+        .highlight-box {
+            background: var(--accent-subtle);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent);
+            padding: 20px 24px;
+            border-radius: 6px;
+            margin: 24px 0;
+        }
+        .highlight-box p { color: var(--text); margin-bottom: 8px; }
+        .highlight-box p:last-child { margin-bottom: 0; }
+
+        .warning-box {
+            background: rgba(248, 81, 73, 0.06);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--red);
+            padding: 20px 24px;
+            border-radius: 6px;
+            margin: 24px 0;
+        }
+        .warning-box p { color: var(--text); margin-bottom: 8px; }
+        .warning-box p:last-child { margin-bottom: 0; }
+
+        .methodology {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 20px 24px;
+            border-radius: 6px;
+            margin: 32px 0;
+            font-size: 0.9rem;
+        }
+        .methodology p { color: var(--text-muted); font-size: 0.9rem; }
+        .methodology strong { color: var(--text-secondary); }
+
+        /* News index */
+        .news-list { list-style: none; padding: 0; }
+        .news-item {
+            border-bottom: 1px solid var(--border);
+            padding: 28px 0;
+        }
+        .news-item:first-child { padding-top: 0; }
+        .news-item h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .news-item h3 a { color: var(--text); }
+        .news-item h3 a:hover { color: var(--accent); }
+        .news-item .meta {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        .news-item .excerpt {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .article-header h1 { font-size: 1.7rem; }
+            .data-table { font-size: 0.82rem; }
+            .data-table th, .data-table td { padding: 8px 10px; }
+        }
+
+    
+.breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+</style>
+</head>
+<body>
+<nav>
+<div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/news/">News</a>
+<a href="/research.html">Research</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<div class="container narrow">
+<header class="article-header">
+<div class="dateline">KANSAS CITY, April 3, 2026 --</div>
+<h1>75,764 Estimated <a href="https://www.law.cornell.edu/uscode/text/11/1328#f_0" rel="noopener" target="_blank">Section 1328(f)</a> Violations: No Court Is Screening for Them</h1>
+<div class="byline">By Open Bankruptcy Project Research Team</div>
+<div class="dateline">Published April 3, 2026</div>
+</header>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://1328f.org">Home</a><span class="separator">›</span><a href="https://openbankruptcyproject.org">75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them - Open Bankruptcy Project</a><span class="separator">›</span><span>75,764 Estimated <a href="https://www.law.cornell.edu/uscode/text/11/1328#f_0" rel="noopener" target="_blank">Section 1328(f)</a> Violations: No Court Is Screening for Them</span></nav>
+<article class="article-body">
+<p><a href="https://section1328.org" rel="noopener" target="_blank" title="Section 1328 Discharge - Open Bankruptcy Project">Section 1328</a>(f) of the Bankruptcy Code establishes mandatory waiting periods between bankruptcy discharges. A debtor who received a <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> must wait four years before receiving a <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a>. A debtor who received a prior <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> discharge must wait two years. These restrictions were enacted as part of <a href="https://1328f.com/glossary.html#bapcpa" title="BAPCPA">BAPCPA</a> in 2005 to prevent abuse of the bankruptcy system.</p>
+<p>Twenty-one years later, no federal bankruptcy court has implemented an automated system to screen for violations of these waiting periods. An Open Bankruptcy Project analysis of FJC Integrated Database records from fiscal years 2015 through 2024 estimates that 75,764 discharges may have been granted in violation of <a href="https://section1328.org" rel="noopener" target="_blank" title="Section 1328 Discharge - Open Bankruptcy Project">Section 1328</a>(f) - an average of more than 7,500 per year.</p>
+<div class="highlight-box">
+<p><strong>Key finding:</strong> An estimated 75,764 bankruptcy discharges may have been granted in violation of <a href="https://section1328.org" rel="noopener" target="_blank" title="Section 1328 Discharge - Open Bankruptcy Project">Section 1328</a>(f) waiting periods between 2015 and 2024. No automated screening exists in any of the 94 federal bankruptcy courts. The only free public tool to check 1328(f) eligibility is the <a href="https://1328f.com">Open Bankruptcy Project's screener</a>.</p>
+</div>
+<h2>The 15 Districts with the Most Estimated Violations</h2>
+<p>The following districts have the highest estimated number of <a href="https://section1328.org" rel="noopener" target="_blank" title="Section 1328 Discharge - Open Bankruptcy Project">Section 1328</a>(f) violations based on FJC data from fiscal years 2020 through 2024. Estimates are derived by identifying cases where a debtor received a discharge despite having a prior discharge within the statutory waiting period, based on available FJC filing and disposition records.</p>
+<table class="data-table">
+<thead>
+<tr><th>Rank</th><th>District</th><th class="num">Cases Filed</th><th class="num">Est. Violations</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>N.D. Ill. (IL)</td><td class="num">38,689</td><td class="num">822</td></tr>
+<tr><td>2</td><td>N.D. Ga. (GA)</td><td class="num">40,911</td><td class="num">648</td></tr>
+<tr><td>3</td><td>D.N.J. (NJ)</td><td class="num">21,981</td><td class="num">442</td></tr>
+<tr><td>4</td><td><a href="/cases/alnb/">N.D. Ala. (AL)</a></td><td class="num">27,429</td><td class="num">436</td></tr>
+<tr><td>5</td><td>M.D. Ala. (AL)</td><td class="num">21,637</td><td class="num">431</td></tr>
+<tr><td>6</td><td>S.D. Ind. (IN)</td><td class="num">17,637</td><td class="num">355</td></tr>
+<tr><td>7</td><td>M.D. Tenn. (TN)</td><td class="num">11,524</td><td class="num">354</td></tr>
+<tr><td>8</td><td>S.D. Ga. (GA)</td><td class="num">15,422</td><td class="num">348</td></tr>
+<tr><td>9</td><td>D. Utah (UT)</td><td class="num">11,516</td><td class="num">346</td></tr>
+<tr><td>10</td><td>E.D. Va. (VA)</td><td class="num">21,231</td><td class="num">343</td></tr>
+<tr><td>11</td><td>W.D. La. (LA)</td><td class="num">19,329</td><td class="num">313</td></tr>
+<tr><td>12</td><td>S.D. Ohio (OH)</td><td class="num">14,501</td><td class="num">301</td></tr>
+<tr><td>13</td><td>M.D. Ga. (GA)</td><td class="num">18,108</td><td class="num">301</td></tr>
+<tr><td>14</td><td>E.D. Wis. (WI)</td><td class="num">12,222</td><td class="num">298</td></tr>
+<tr><td>15</td><td>W.D. Tenn. (TN)</td><td class="num">27,844</td><td class="num">265</td></tr>
+</tbody>
+</table>
+<h2>Georgia: Three Districts, 1,297 Estimated Violations</h2>
+<p>Georgia is the only state with three districts in the top 15. The Northern District (Atlanta) leads the state with 648 estimated violations, followed by the Southern District (Savannah) with 348 and the Middle District (Macon) with 301. Combined, Georgia's three districts account for an estimated 1,297 <a href="https://section1328.org" rel="noopener" target="_blank" title="Section 1328 Discharge - Open Bankruptcy Project">Section 1328</a>(f) violations - more than any other state.</p>
+<p>Georgia's prominence on this list corresponds with its <a href="/news/repeat-bankruptcy-filers-by-district-2024.html">high repeat filing rates</a>. The Northern District of Georgia has 40,911 Chapter 13 filings with a 48.2% prior filer rate. When nearly half of all filers have been through the process before, the probability of 1328(f) timing violations increases substantially - particularly in the absence of automated screening.</p>
+<h2>Alabama: Two Districts, 867 Estimated Violations</h2>
+<p>Alabama places two districts in the top five: the Northern District (Birmingham) with 436 and the Middle District (Montgomery) with 431 estimated violations. The near-identical violation counts are striking given the volume difference - the Northern District filed 27,429 cases to the Middle District's 21,637. On a per-case basis, the Middle District has a higher estimated violation rate.</p>
+<h2>The Screening Gap</h2>
+<p>The core problem is procedural: no bankruptcy court has an automated system to check whether a debtor's prior filing history triggers a <a href="https://1328f.com/" title="Section 1328(f)">Section 1328(f)</a> bar to discharge. The current process relies on a patchwork of manual checks:</p>
+<ul>
+<li><strong>Debtor's attorney:</strong> Expected to verify prior filing history, but the FJC data shows this check is frequently missed - particularly in high-volume practices handling hundreds of cases simultaneously.</li>
+<li><strong>Chapter 13 trustee:</strong> May review prior filing history during plan administration, but is not specifically tasked with 1328(f) compliance.</li>
+<li><strong>Clerk's office:</strong> Processes discharge orders but does not independently verify eligibility against prior case records in other districts.</li>
+<li><strong>U.S. Trustee:</strong> Monitors for abuse under <a href="https://www.law.cornell.edu/uscode/text/11/707#b_0" rel="noopener" target="_blank">Section 707(b)</a> but has no systematic 1328(f) screening program.</li>
+</ul>
+<p>The result is a system where the statutory protection exists on paper but is not reliably enforced in practice. Each estimated violation represents a discharge that may have been granted to a debtor who was not legally eligible to receive one - potentially at the expense of creditors who would otherwise have been entitled to continued payment.</p>
+<div class="warning-box">
+<p><strong>Rules Committee action:</strong> The Open Bankruptcy Project submitted a proposal to the Advisory Committee on Bankruptcy Rules in March 2026, accepted as submission 26-BK-3, recommending enhanced disclosure requirements for prior filing history. The proposal is currently pending consideration. The submission is <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions">listed on uscourts.gov</a>.</p>
+</div>
+<h2>The Only Free Screening Tool</h2>
+<p>In response to the absence of court-level screening, the Open Bankruptcy Project built and released a free, public <a href="https://1328f.com">Section 1328(f) discharge eligibility screener</a> in early 2026. The tool runs entirely in the browser using client-side processing - no personal information is transmitted or stored. It checks a debtor's prior filing dates and case types against the statutory waiting periods and returns a clear eligibility determination.</p>
+<p>The screener has been used by debtors, attorneys, and legal aid organizations across the country. Additional resources are available at <a href="https://section1328.org">section1328.org</a> and <a href="https://dischargebar.org">dischargebar.org</a>.</p>
+<h2>What a Violation Means</h2>
+<p>A discharge granted in violation of <a href="https://1328f.com/" title="Section 1328(f)">Section 1328(f)</a> is voidable. If discovered, it can be revoked under Section 1328(e), potentially years after the case was closed. For debtors, this means the debts they believed were discharged may be reinstated. For creditors, it means they may have been denied payments they were legally owed. For the courts, each violation represents a case that consumed judicial resources to process a legally defective outcome.</p>
+<p>The 75,764 estimated violations represent a decade of accumulated screening failures. Whether the number reflects attorney negligence, systemic process gaps, or the inherent difficulty of manual cross-district record checks, the scale of the problem underscores the need for automated solutions.</p>
+<p>Related: <a href="/news/where-chapter-13-fails-worst-districts-2024.html">Where Chapter 13 Fails: The 15 Worst Districts</a> | <a href="/news/repeat-bankruptcy-filers-by-district-2024.html">1 in 3 Chapter 13 Filers Has Filed Before</a></p>
+<div class="methodology">
+<p><strong>Methodology:</strong> Violation estimates are derived from the <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a>'s Integrated Database (FJC IDB), covering approximately 4.9 million bankruptcy cases filed between fiscal years 2008 and 2024 across all 94 federal judicial districts. A potential 1328(f) violation is flagged when a debtor received a discharge in a subsequent case filed within the statutory waiting period (4 years after a <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> discharge, 2 years after a Chapter 13 discharge) based on FJC-recorded filing and disposition dates. The 75,764 figure covers estimated violations from FY2015 through FY2024. These are estimates - exact violation counts require case-by-case review of discharge dates that may not be precisely recorded in the FJC database. Data current as of March 2026.</p>
+</div>
+</article>
+</div>
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<p>
+<a href="/about.html">About</a> ·
+            <a href="/research.html">Research</a> ·
+            <a href="/news/">News</a> ·
+            <a href="/contact.html">Contact</a> ·
+            <a href="/privacy.html">Privacy</a> ·
+            <a href="/terms.html">Terms</a> ·
+            <a href="https://github.com/openbankruptcyproject">GitHub</a> ·
+            <a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+</p>
+<p style="margin-top:12px;">© 2026 Open Bankruptcy Project · 501(c)(3) Nonprofit</p>
+</div>
+<p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<script defer="" src="/btn-engage.js"></script>
+<!-- BOOST-TOP10 internal links (boost_internal_links.py) -->
+<div class="boost-top10" style="max-width:820px;margin:2rem auto;padding:1.5rem;background:#0d1117;border:1px solid #238636;border-radius:8px">
+<p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
+<ul style="list-style:none;padding:0;margin:0">
+<li style="margin-bottom:0.5rem"><a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Bankruptcy Means Test by State</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcymeanstest.org</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Chapter 7 vs. Chapter 13 Comparison</a> <span style="color:#7d8590;font-size:0.8rem">-- chapter7vs13.org</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://727a8.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Section 727(a)(8) Discharge Waiting Period</a> <span style="color:#7d8590;font-size:0.8rem">-- 727a8.com</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://1099cdebt.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">1099-C Cancellation of Debt Tax Guide</a> <span style="color:#7d8590;font-size:0.8rem">-- 1099cdebt.com</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://bankruptcystudentloans.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loans in Bankruptcy</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcystudentloans.org</span></li>
+</ul>
+</div>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Second Federal Rules Committee Suggestion Accepted: 26-BK-5 on Rule 9037 SSN Exposure - Open Bankruptcy Project</title>
+<meta content="On April 16, 2026, the Advisory Committee on Bankruptcy Rules accepted Suggestion 26-BK-5 proposing five amendments to Rule 9037 addressing Social Security number exposure in Official Forms 121 and 309E1 and creditor contract templates." name="description"/>
+<link href="https://openbankruptcyproject.org/blog/26-bk-5-rule-9037-accepted.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://openbankruptcyproject.org/blog/26-bk-5-rule-9037-accepted.html" hreflang="en" rel="alternate"/>
+<meta content="Second Federal Rules Committee Suggestion Accepted: 26-BK-5 on Rule 9037 SSN Exposure" property="og:title"/>
+<meta content="OBP's second rule-making suggestion (Rule 9037 / Official Forms 121 and 309E1 / SSN exposure) was accepted by the Advisory Committee on Bankruptcy Rules on April 16, 2026. Five proposed amendments." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/blog/26-bk-5-rule-9037-accepted.html" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="2026-04-16T18:00:00Z" property="article:published_time"/>
+<meta content="Rule-Making" property="article:section"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Suggestion 26-BK-5 Accepted: Rule 9037 SSN Exposure" name="twitter:title"/>
+<meta content="The Advisory Committee on Bankruptcy Rules accepted OBP's second rule-making suggestion on April 16, 2026." name="twitter:description"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "NewsArticle",
+          "headline": "Second Federal Rules Committee Suggestion Accepted: 26-BK-5 on Rule 9037 SSN Exposure",
+          "datePublished": "2026-04-16T18:00:00Z",
+          "dateModified": "2026-04-16T18:00:00Z",
+          "author": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+          "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+          "mainEntityOfPage": "https://openbankruptcyproject.org/blog/26-bk-5-rule-9037-accepted.html",
+          "description": "The Advisory Committee on Bankruptcy Rules accepted Suggestion 26-BK-5 on April 16, 2026, proposing five amendments to Federal Rule of Bankruptcy Procedure 9037.",
+          "image": "/og-image.svg"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org"},
+            {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://openbankruptcyproject.org/blog/"},
+            {"@type": "ListItem", "position": 3, "name": "Suggestion 26-BK-5 Accepted", "item": "https://openbankruptcyproject.org/blog/26-bk-5-rule-9037-accepted.html"}
+          ]
+        }
+      ]
+    }
+    </script>
+<style>
+        :root {
+            --bg: #0d1117; --surface: #161b22; --border: #30363d;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff; --green: #3fb950;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; -webkit-font-smoothing:antialiased; }
+        a { color:var(--accent); text-decoration:none; }
+        a:hover { color:var(--accent-hover); }
+        .container { max-width:760px; margin:0 auto; padding:0 32px; }
+        nav { border-bottom:1px solid var(--border); padding:18px 0; position:sticky; top:0; background:rgba(13,17,23,0.95); backdrop-filter:blur(12px); z-index:100; }
+        nav .nav-inner { max-width:1040px; margin:0 auto; padding:0 32px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+        .nav-brand { font-size:1.05rem; font-weight:700; }
+        .nav-brand a { color:var(--text); }
+        .nav-links { display:flex; gap:24px; flex-wrap:wrap; }
+        .nav-links a { color:var(--text-muted); font-size:0.88rem; font-weight:500; }
+        .nav-links a:hover { color:var(--text); }
+        .breadcrumb-nav { font-size:0.85rem; color:#8b949e; padding:0.5rem 32px; max-width:1040px; margin:0 auto; }
+        .breadcrumb-nav .separator { margin:0 0.5rem; color:#484f58; }
+        .article-header { padding:64px 0 40px; border-bottom:1px solid var(--border); }
+        .article-header h1 { font-size:2rem; font-weight:800; letter-spacing:-0.03em; margin-bottom:12px; line-height:1.25; }
+        .article-header .meta { font-size:0.9rem; color:var(--text-muted); }
+        .article-body { padding:40px 0 64px; }
+        .article-body h2 { font-size:1.4rem; font-weight:700; margin:40px 0 14px; padding-bottom:6px; border-bottom:1px solid var(--border); }
+        .article-body h3 { font-size:1.1rem; font-weight:600; margin:28px 0 10px; }
+        .article-body p { margin-bottom:14px; color:var(--text-secondary); }
+        .article-body ul, .article-body ol { margin:0 0 16px 24px; color:var(--text-secondary); }
+        .article-body li { margin-bottom:6px; }
+        .callout { background:rgba(88,166,255,0.06); border:1px solid rgba(88,166,255,0.2); border-radius:8px; padding:16px 20px; margin:20px 0; font-size:0.95rem; }
+        .callout strong { color:var(--accent); }
+        .amendments { counter-reset:a; list-style:none; padding:0; margin:16px 0 24px; }
+        .amendments li { counter-increment:a; background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:14px 18px 14px 48px; margin-bottom:10px; position:relative; color:var(--text-secondary); }
+        .amendments li::before { content:counter(a); position:absolute; left:14px; top:14px; background:var(--green); color:#fff; width:24px; height:24px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; }
+        .network-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin:20px 0; }
+        .network-grid a { background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:12px; text-align:center; font-size:0.9rem; color:var(--accent); }
+        .network-grid a:hover { border-color:var(--accent); }
+        footer { border-top:1px solid var(--border); padding:32px 0; margin-top:64px; font-size:0.85rem; color:var(--text-muted); text-align:center; }
+    </style>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<div class="nav-brand"><a href="/">Open Bankruptcy Project</a></div>
+<div class="nav-links">
+<a href="/blog/">Blog</a>
+<a href="/statistics.html">Statistics</a>
+<a href="/research.html">Research</a>
+<a href="/citations.html">Citations</a>
+<a href="/rule-9037/">Rule 9037</a>
+</div>
+</div>
+</nav>
+<div class="breadcrumb-nav">
+<a href="/">Home</a> <span class="separator">»</span>
+<a href="/blog/">Blog</a> <span class="separator">»</span>
+    Suggestion 26-BK-5 Accepted
+</div>
+<article>
+<div class="article-header">
+<div class="container">
+<h1>Second Federal Rules Committee suggestion accepted: 26-BK-5 on <a href="https://www.law.cornell.edu/rules/frbp/rule_9037" rel="noopener" target="_blank">Rule 9037</a> SSN exposure</h1>
+<div class="meta">Published April 16, 2026  ·  Rule-Making  ·  Open Bankruptcy Project</div>
+</div>
+</div>
+<div class="article-body">
+<div class="container">
+<p>On April 16, 2026, the Advisory Committee on Bankruptcy Rules accepted a suggestion from the Open Bankruptcy Project proposing five amendments to Federal Rule of Bankruptcy Procedure 9037. The suggestion, tracked as <a href="https://www.uscourts.gov/forms-rules/records-rules-committees/suggestions/dan-brown-26-bk-5" rel="noopener" target="_blank">26-BK-5</a>, is the second OBP submission to reach acceptance; the first, <a href="https://www.uscourts.gov/forms-rules/records-rules-committees/suggestions/dan-brown-26-bk-3" rel="noopener" target="_blank">26-BK-3</a> on automated screening under 11 U.S.C. § 1328(f), was accepted in March and cited in the Consumer Subcommittee's April 15 agenda book.</p>
+<div class="callout">
+<strong>The short version.</strong> Federal court filings are supposed to contain only the last four digits of Social Security numbers under Rule 9037(a). Empirically, that is not what happens. Using a free scan of the RECAP archive, we identified a recurring template-level exposure pattern affecting filings across multiple federal judicial districts. The five proposed amendments target the root cause (template integrity) rather than the symptom (post-hoc redaction).
+            </div>
+<h2>What <a href="https://www.law.cornell.edu/rules/frbp/rule_9037" rel="noopener" target="_blank">Rule 9037</a> requires</h2>
+<p>Rule 9037(a) limits public filings to: the last four digits of a Social Security number or taxpayer-identification number, the year of an individual's birth, a minor's initials, and the last four digits of a financial-account number. Rule 9037(h) provides a remedy on motion by a party or affected non-party to redact a non-compliant filing.</p>
+<p>The rule places the compliance burden entirely on the filer. There is currently no automated screening at the ECF upload point, no template-integrity audit for Official Forms that contain personal-identifier fields, and no mandatory notification to affected individuals when an exposure is identified.</p>
+<h2>Where the exposure lives</h2>
+<p>The bulk of compliance gaps cluster in two places. <a href="/rule-9037/forms-121-309e1/">Official Form 121 and Official Form 309E1</a> carry direct identifier fields; template-level misconfiguration in Form 309E1 in particular can reproduce the same exposure across every case generated from a given template. The larger category is creditor contract templates attached to proofs of claim and motions for relief from stay. When a contract template embeds the debtor's or guarantor's full SSN as a printed field, each new filing that attaches that template reproduces the identifier.</p>
+<p>This is why the 26-BK-5 framing is template-level rather than filer-level. No individual filer is the root cause; a template generated a decade ago and never updated is.</p>
+<h2>The five proposed amendments</h2>
+<ol class="amendments">
+<li><strong>Auto-sealing event code.</strong> An ECF event tag at the docketing layer that automatically restricts public access to any document flagged as containing personal identifiers, until the filer redacts or the court orders otherwise.</li>
+<li><strong>Template-integrity audit for Official Forms.</strong> A recurring audit of Official Forms that carry personal-identifier fields (Form 121, Form 309E1, Form 309C, and others) to ensure the form templates themselves do not generate non-compliant output.</li>
+<li><strong>Pre-acceptance screening at the ECF upload point.</strong> A screening pass at the moment of filing that detects patterns likely to constitute Rule 9037(a) violations and returns the filing to the filer for correction before it reaches the public docket.</li>
+<li><strong>Non-cure provision.</strong> A codification of the existing case-law trend: redaction after public PACER publication does not remedy prior disclosure. This makes the non-cure doctrine explicit in the rule text and provides a clear basis for additional remedies (notification, sanctions) that courts presently reach through inherent authority.</li>
+<li><strong>Mandatory clerk notification to affected individuals.</strong> When a Rule 9037(a) violation is identified, the clerk notifies the person whose identifier was exposed. Currently notification is discretionary and uneven; this amendment makes it uniform.</li>
+</ol>
+<h2>Data and methodology</h2>
+<p>Unlike 26-BK-3, which was built on paid PACER data, 26-BK-5 was built entirely on the free <a href="https://www.courtlistener.com/recap/" rel="noopener" target="_blank">RECAP archive</a> maintained by the Free Law Project. The scan used a custom pattern-detection tool with extensive false-positive filtering and confidence tiering. Findings were reported in masked form only; the underlying identifiers were never extracted, stored, or transmitted. The methodology is detailed in the <a href="/rule-9037/">Rule 9037 hub page</a> and in the case-law analysis linked below.</p>
+<p>Using the free RECAP layer rather than paid PACER matters for replicability. The methodology can be applied by any researcher, clerk, or practitioner with a list of PDFs and a Python interpreter. It does not require institutional funding or PACER fee-exemption status.</p>
+<h2>What happens next</h2>
+<p>The suggestion has been forwarded to the Chairs and Reporters of both the Advisory Committee on Bankruptcy Rules and the Standing Committee on Rules of Practice and Procedure. From there, the typical path is: discussion at the next regular committee meeting, referral to a subcommittee for drafting, circulation of proposed amendment language, public comment period, and eventual transmission to the Judicial Conference and Supreme Court for adoption.</p>
+<p>That sequence usually takes years. The value of acceptance at the front end is that the empirical finding is now formally on the committee's record; later discussion will proceed from that starting point rather than from scratch.</p>
+<h2>If your SSN appears on a public filing</h2>
+<p>Don't wait for the rule amendment. A Rule 9037(h) motion is available now. The <a href="/rule-9037/remediation/">remediation workflow</a> walks through the steps: confirm the docket location, notify the clerk, file under 9037(h), preserve a locator copy (not the identifier), and request removal from secondary republishers. The <a href="/rule-9037/clerk-notification/">clerk notification templates</a> provide ready-to-adapt language.</p>
+<div class="callout">
+<strong>Important.</strong> If you are working through a Rule 9037(a) exposure and need a primer on the rule itself, the <a href="/rule-9037/">Rule 9037 hub</a> covers the statute, the forms, the contract-template exposure vector, and the relevant case law. If you want the full text of 26-BK-5 as submitted to the Committee, it is the PDF linked from the <a href="https://www.uscourts.gov/forms-rules/records-rules-committees/suggestions/dan-brown-26-bk-5" rel="noopener" target="_blank">public page on uscourts.gov</a>.
+            </div>
+<h2>Related reading</h2>
+<div class="network-grid">
+<a href="/rule-9037/">Rule 9037 hub</a>
+<a href="/rule-9037/remediation/">Remediation workflow</a>
+<a href="/rule-9037/forms-121-309e1/">Forms 121 &amp; 309E1</a>
+<a href="/rule-9037/case-law/">Case law</a>
+<a href="/rule-9037/clerk-notification/">Clerk notification templates</a>
+<a href="/citations.html">Full citations index</a>
+</div>
+<p style="color:var(--text-muted);font-size:0.85rem;margin-top:32px">This post provides general information about a pending federal rule-making matter. It does not constitute legal advice. If a filing in your case contains a personal identifier that should have been redacted, consult a qualified bankruptcy attorney or contact the clerk of the court where the filing was made.</p>
+</div>
+</div>
+</article>
+<footer>
+<div class="container">
+<p>Open Bankruptcy Project - a 501(c)(3) nonprofit.</p>
+<p style="margin-top:8px"><a href="/privacy.html">Privacy</a>  |  <a href="/terms.html">Terms</a>  |  <a href="/">Home</a></p>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Rule 9037 Privacy Redaction Deep-Dive - Mandatory Floor, Waiver, Motion to Redact, Sanctions | Open Bankruptcy Project</title>
+<meta content="Fed. R. Bankr. P. 9037 mandatory privacy-redaction floor. Subsection-by-subsection coverage of 9037(a), 9037(b) exemptions, 9037(c) waiver, 9037(d)/(h) motions to redact, and the sanctions architecture for non-compliance." name="description"/>
+<meta content="#0d1117" name="theme-color"/>
+<link href="https://openbankruptcyproject.org/rule-9037-privacy-deep-dive/" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Rule 9037 Privacy Redaction Deep-Dive" property="og:title"/>
+<meta content="Full procedural treatment of Federal Rule of Bankruptcy Procedure 9037: mandatory floor, exemptions, waiver, motion to redact, and sanctions." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/rule-9037-privacy-deep-dive/" property="og:url"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Rule 9037 Privacy Redaction Deep-Dive",
+      "description": "Subsection-by-subsection treatment of Federal Rule of Bankruptcy Procedure 9037, covering the mandatory redaction floor, exemptions, waiver under subsection (c), the motion to redact, and sanctions for non-compliance.",
+      "datePublished": "2026-05-22",
+      "dateModified": "2026-05-22",
+      "author": {"@type": "Organization", "name": "Open Bankruptcy Project"},
+      "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Open Bankruptcy Project", "item": "https://openbankruptcyproject.org/"},
+        {"@type": "ListItem", "position": 2, "name": "Rule 9037 Privacy Deep-Dive", "item": "https://openbankruptcyproject.org/rule-9037-privacy-deep-dive/"}
+      ]
+    }
+  ]
+}
+</script>
+<!-- BTN:GA4:START -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-muted: #9eaab6;
+    --accent: #58a6ff;
+    --green: #238636;
+    --red: #f85149;
+    --yellow: #f0c14b;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  .site-name:hover { color: var(--accent); text-decoration: none; }
+  .container { max-width: 820px; margin: 0 auto; padding: 2.5rem 2rem; flex: 1; }
+  h1 { color: #f0f6fc; font-size: 2.25rem; margin-bottom: 0.5rem; line-height: 1.25; }
+  .subtitle { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 2rem; }
+  h2 { color: #f0f6fc; font-size: 1.4rem; margin: 2rem 0 0.75rem; }
+  h3 { color: #f0f6fc; font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+  p { margin-bottom: 1rem; }
+  ul, ol { margin: 0.5rem 0 1rem 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  code {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: var(--text);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 0.92rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.65rem 0.85rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th { background: #0d2847; color: #f0f6fc; font-weight: 600; }
+  tr:last-child td { border-bottom: none; }
+  .callout {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .callout.gov { background: #0d2847; border-color: #1f6feb; }
+  .callout.warn { background: #2a1a00; border-color: #bb8c3a; }
+  .callout.danger { background: #2a0000; border-color: #f85149; }
+  .callout strong { color: #f0f6fc; }
+  .callout p:last-child { margin-bottom: 0; }
+  .tag {
+    display: inline-block;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.1rem 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-right: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .network-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.6rem;
+    margin: 1rem 0;
+  }
+  .network-grid a {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .network-grid a:hover { border-color: var(--accent); text-decoration: none; }
+  footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 2rem;
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NonprofitOrganization",
+  "name": "Open Bankruptcy Project",
+  "alternateName": "OBP",
+  "url": "https://openbankruptcyproject.org",
+  "email": "info@openbankruptcyproject.org",
+  "taxID": "41-5159631",
+  "nonprofitStatus": "Nonprofit501c3",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1000 W 100th St",
+    "addressLocality": "Kansas City",
+    "addressRegion": "MO",
+    "postalCode": "64114",
+    "addressCountry": "US"
+  }
+}
+</script>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a class="site-name" href="/">Open Bankruptcy Project</a>
+<a href="/" style="color:var(--text-muted);font-size:0.9rem">Home</a>
+</nav>
+<div class="container">
+<span class="tag">Federal Rule of Bankruptcy Procedure</span>
+<span class="tag">9037</span>
+<span class="tag">Privacy</span>
+<h1><a href="https://www.law.cornell.edu/rules/frbp/rule_9037" rel="noopener" target="_blank">Rule 9037</a>: Privacy Redaction Deep-Dive</h1>
+<p class="subtitle">Subsection-by-subsection treatment of the mandatory floor, exemptions, waiver, motion to redact, and the sanctions architecture for non-compliance.</p>
+<div class="callout gov">
+<p><strong>Rule 9037 is not a default. It is a mandatory floor.</strong></p>
+<p>Compliance with the redaction limits in Rule 9037(a) is the responsibility of the filer, not the clerk. The court does not pre-screen filings for compliance. Once an unredacted identifier reaches PACER it is presumptively retained by commercial docket-monitoring services, the <a href="https://free.law/recap" rel="noopener" target="_blank">RECAP</a> archive, and private aggregators. Post-publication redaction removes the identifier from the court's copy. It does not eliminate copies already captured.</p>
+</div>
+<h2>Subsection (a): the mandatory redaction floor</h2>
+<p>Federal Rule of Bankruptcy Procedure 9037(a) provides that, unless the court orders otherwise, in an electronic or paper filing made with the court that contains an individual's social-security number, taxpayer-identification number, or birth date, the name of an individual known to be a minor, or a financial-account number, a party or non-party making the filing may include only:</p>
+<table>
+<thead><tr><th>Identifier type</th><th>Permitted form</th></tr></thead>
+<tbody>
+<tr><td>Social-security number</td><td>Last four digits</td></tr>
+<tr><td>Taxpayer-identification number</td><td>Last four digits</td></tr>
+<tr><td>Date of birth</td><td>Year only</td></tr>
+<tr><td>Name of an individual known to be a minor</td><td>Initials only</td></tr>
+<tr><td>Financial-account number</td><td>Last four digits</td></tr>
+</tbody>
+</table>
+<p>The mandatory character of the floor is structural. The rule does not require a showing of harm, it does not require a request from the affected individual, and it does not depend on whether the filer believes the identifier is sensitive. The redaction obligation attaches at the moment of filing.</p>
+<h2>Subsection (b): exemptions</h2>
+<p>Rule 9037(b) carves out specific filings from the redaction requirement. The exempt categories include:</p>
+<ul>
+<li>A financial-account number or real-property address that identifies the property allegedly subject to forfeiture in a forfeiture proceeding.</li>
+<li>The record of an administrative or agency proceeding.</li>
+<li>The official record of a state-court proceeding.</li>
+<li>The record of a court or tribunal, if that record was not subject to the redaction requirement when originally filed.</li>
+<li>A filing covered by Rule 9037(c).</li>
+<li>A filing that is subject to Section 110 of the Bankruptcy Code (bankruptcy petition preparers).</li>
+</ul>
+<p>The exemptions are narrow. A creditor attaching a state-court judgment is not relieved of the obligation to redact an SSN that appears within the judgment if the SSN was included in the state record. The plain text of subsection (b) refers to the record itself, not the act of attaching that record to a federal filing, and most courts read the exemption strictly.</p>
+<h2>Subsection (c): waiver</h2>
+<p>Rule 9037(c) provides that the redaction requirement does not apply when the filing is made under seal. The clean reading is that sealing supplies the privacy protection in lieu of redaction, on the theory that the matter never enters the public record. The substantive standards for sealing are governed by Rule 9018 and 11 U.S.C. Section 107, not by Rule 9037 itself.</p>
+<p>The waiver concept also surfaces in the practical sense that an individual may consent to the inclusion of their own identifier. Consent, however, does not override the rule's general protection of public docket integrity, and courts generally hold that a debtor's tolerance of a full SSN on a creditor's filing does not relieve the creditor of the redaction obligation. The rule's purpose extends beyond the named individual to the public's interest in not having a docket function as a personal-identifier registry.</p>
+<h2>Subsection (d): protective orders</h2>
+<p>Rule 9037(d) preserves the court's authority, for good cause, to require redaction of additional information or to limit or prohibit a non-party's remote electronic access to a document filed with the court. The provision operates as a discretionary supplement to the mandatory floor and is the procedural anchor for protective orders that go beyond Rule 9037(a)'s enumerated identifiers.</p>
+<h2>Subsection (e) and (f): filings under seal and protective orders</h2>
+<p>Subsection (e) permits a party to file under seal, without prior court order, a reference list that identifies items redacted under (a) and the corresponding unredacted information. The list is retained as part of the record but is not publicly available. Subsection (f) authorizes the court to order that a filing be made under seal without redaction, and provides that the court may later unseal the filing or order the entity that made the filing to file a redacted version for the public file.</p>
+<h2>Subsection (g) and (h): waiver and motion to redact</h2>
+<p>Subsection (g) provides that an entity waives the protection of subsection (a) as to its own information by filing it without redaction and not under seal. The waiver runs to the filer's own identifiers. It does not waive the protection that subsection (a) provides to other parties or non-parties whose identifiers appear on the same filing.</p>
+<p>Subsection (h) supplies the remedial mechanism. On motion, the court may order that a filing that contains personal-data identifiers not be filed publicly and that a redacted version be filed for the public record. A party or affected non-party can invoke (h) to seek removal of the identifier from the court's version of the filing.</p>
+<div class="callout warn">
+<p><strong>Rule 9037(h) is the redaction mechanism, not a cure.</strong> A successful motion under subsection (h) replaces the publicly-available unredacted version with a redacted version on the court's docket. It does not retrieve copies that commercial docket-monitoring services, RECAP, and private aggregators captured during the period of public availability.</p>
+</div>
+<h2>Sanctions architecture for non-compliance</h2>
+<p>Rule 9037 itself does not enumerate sanctions. Authority to sanction non-compliance derives from several distinct sources, applied case-by-case:</p>
+<ul>
+<li><strong>Inherent authority.</strong> The court's inherent authority to manage its docket and protect the integrity of judicial proceedings supports orders for redaction, costs of remediation, and, in egregious cases, monetary sanctions against the filer.</li>
+<li><strong>Federal Rule of Bankruptcy Procedure 9011.</strong> Where the unredacted filing reflects a failure of reasonable inquiry, the court may consider sanctions under Rule 9011, particularly where the same filer has been previously cautioned about the identifier-handling deficiency.</li>
+<li><strong>Local rules and standing orders.</strong> Many federal bankruptcy districts have local rules or standing orders that specify procedures and consequences for Rule 9037(a) violations. Local-rule penalties vary from required corrective filings to monetary sanctions and referral to the United States Trustee.</li>
+<li><strong>Statutory schemes external to the rule.</strong> Where the unredacted disclosure causes identifiable harm, the affected individual may have causes of action under the Privacy Act, the Fair Credit Reporting Act, or state-law identity-theft statutes. Those remedies operate independent of the rule and do not displace the court's procedural responses.</li>
+</ul>
+<h2>Auto-correctable character of the violation</h2>
+<p>A Rule 9037(a) violation is auto-correctable in the sense that, on identification, the appropriate procedural response is mandatory and standardized: notify the clerk, file a motion under subsection (h), and substitute a redacted version. The court does not need to find fault, intent, or harm before ordering substitution. The contrast with sealing under Rule 9018 is structural: sealing requires a categorical fit under Section 107(b) or (c), discretionary evaluation, and on-the-record findings. Redaction under Rule 9037 is mechanical and the relief is presumed appropriate.</p>
+<p>The auto-correctable character is also why post-publication redaction does not provide complete relief. The mechanical nature of the cure on the court's docket conceals the durable nature of prior public exposure on third-party systems. Rules Committee Suggestion 26-BK-5, summarized on the <a href="/rule-9037/">Rule 9037 page</a>, proposes a non-cure provision that would codify the distinction at the rule level.</p>
+<h2>Practical remediation workflow</h2>
+<ol>
+<li><strong>Identify the docket entry.</strong> Note the case number, document number, attachment number, and the specific page where the identifier appears. Do not extract or retain the identifier.</li>
+<li><strong>Notify the clerk of court.</strong> A written notice preserves a remedial record. The clerk may restrict access to the filing pending motion.</li>
+<li><strong>File a motion under Rule 9037(h).</strong> A party or affected non-party may move the court to redact the identifier or to seal and substitute a redacted version.</li>
+<li><strong>Preserve a copy of the unredacted filing.</strong> Not to republish. To document the exposure if redaction is contested or delayed.</li>
+<li><strong>Address secondary republishers.</strong> RECAP and commercial docket services typically respect court orders restricting access, but removal is not automatic. Separate requests may be required.</li>
+</ol>
+<div class="callout danger">
+<p><strong>Do not file a motion that reproduces the unredacted identifier.</strong> A motion under Rule 9037(h) should describe the violation by docket location and identifier type without reproducing the identifier itself. Reproducing the identifier in a public motion compounds the original exposure.</p>
+</div>
+<h2>Open Bankruptcy Project cross-references</h2>
+<div class="network-grid">
+<a href="/rule-9037/">Rule 9037 Overview</a>
+<a href="/rule-9018-sealed-records/">Rule 9018 Sealed Records</a>
+<a href="/sealed-records-vs-privacy-redaction/">Sealing vs. Redaction</a>
+<a href="/rule-9037/remediation/">Remediation Workflow</a>
+<a href="/rule-9037/forms-121-309e1/">Forms 121 &amp; 309E1</a>
+<a href="/rule-9037/case-law/">Published Case Law</a>
+<a href="/rule-9037/clerk-notification/">Clerk Notification Templates</a>
+<a href="https://openbankruptcyproject.org">Open Bankruptcy Project</a>
+</div>
+<h2>Further reading</h2>
+<ul>
+<li>Federal Rule of Bankruptcy Procedure 9037 - full text at <a href="https://www.law.cornell.edu/rules/frbp/rule_9037" rel="noopener" target="_blank">Cornell Legal Information Institute</a></li>
+<li>Federal Rule of Civil Procedure 5.2 (the parallel civil-side rule) - <a href="https://www.law.cornell.edu/rules/frcp/rule_5.2" rel="noopener" target="_blank">Cornell LII</a></li>
+<li>E-Government Act of 2002, Pub. L. 107-347, Section 205(c)(3) - the statutory basis for the privacy-redaction architecture</li>
+<li>Advisory Committee on Bankruptcy Rules - <a href="https://www.uscourts.gov/rules-policies/committees/advisory-committee-bankruptcy-rules" rel="noopener" target="_blank">committee page and meeting minutes</a></li>
+<li>Rules Suggestions archive - <a href="https://www.uscourts.gov/forms-rules/records-rules-committees/rules-suggestions" rel="noopener" target="_blank">uscourts.gov/forms-rules/records-rules-committees/rules-suggestions</a></li>
+</ul>
+<p style="color:var(--text-muted);font-size:0.85rem;margin-top:2rem">This page provides general information about Rule 9037 and the doctrines governing redaction of personal identifiers in federal bankruptcy filings. It does not constitute legal advice.</p>
+<p style="color:var(--text-muted);font-size:0.8rem;margin-top:1rem">Last modified: 2026-05-22.</p>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+<p>This site provides general information only and does not constitute legal advice.</p>
+<p>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+<p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
+</footer>
+<!-- BTN:FOOTER:END -->
+</body>
+</html>

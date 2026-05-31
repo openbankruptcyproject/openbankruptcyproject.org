@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Ahogado en Deudas? Entienda Sus Opciones - Open Bankruptcy Project</title>
+<meta name="description" content="Guia gratuita e imparcial para evaluar opciones de alivio de deuda. Cuando la bancarrota tiene sentido, cuando no, y como decidir.">
+<link rel="canonical" href="https://openbankruptcyproject.org/drowning-in-debt-es.html">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/drowning-in-debt.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/drowning-in-debt-es.html">
+
+<meta property="og:title" content="Ahogado en Deudas? Entienda Sus Opciones">
+<meta property="og:description" content="Guia gratuita para evaluar opciones de alivio de deuda incluyendo bancarrota, negociacion de deuda y consolidacion.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/drowning-in-debt-es.html">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://openbankruptcyproject.org/og-image.svg">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg: #0d1117; --surface: #151b23; --border: #252d38; --border-light: #2d3748; --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; } a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; } .nav-brand a { color: var(--text); } .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; } .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; } .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; } .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; } .content li { margin-bottom: 8px; }
+        .quick-answer { background: var(--surface); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 16px 20px; margin-bottom: 24px; }
+        .quick-answer p { color: var(--text); margin: 0; font-size: 0.95rem; }
+        .compare-table { width: 100%; border-collapse: collapse; margin: 24px 0; }
+        .compare-table th, .compare-table td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.92rem; }
+        .compare-table th { color: var(--text); font-weight: 600; background: var(--surface); }
+        .compare-table td { color: var(--text-secondary); }
+        .resource-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+        .resource-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; transition: border-color 0.2s, transform 0.2s; }
+        .resource-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .resource-card .card-title { font-weight: 700; font-size: 1rem; margin-bottom: 8px; }
+        .resource-card .card-desc { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px; }
+        .resource-card a { font-size: 0.88rem; font-weight: 600; }
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+        .lang-switch { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 8px 16px; display: inline-block; margin: 16px 0; font-size: 0.88rem; }
+        footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+        footer .footer-links { margin-bottom: 20px; } footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; } footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+        @media (max-width: 600px) { .container { padding: 0 20px; } .page-header { padding: 48px 0 32px; } .page-header h1 { font-size: 1.8rem; } .content { padding: 40px 0; } .compare-table { font-size: 0.85rem; } .compare-table th, .compare-table td { padding: 8px 10px; } }
+    </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como se si debo presentar bancarrota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Considere la bancarrota si su deuda no garantizada total excede lo que podria pagar en 5 anos, enfrenta demandas o embargos de salario, o esta usando tarjetas de credito para pagar necesidades basicas. Una consulta gratuita con un abogado de bancarrota puede ayudarle a evaluar si presentar es el paso correcto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cual es la diferencia entre negociacion de deuda y bancarrota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La negociacion de deuda implica negociar con acreedores para aceptar menos del saldo total. Puede tomar anos y los acreedores no estan obligados a participar. La bancarrota es un proceso de tribunal federal que legalmente elimina deudas calificadas. El Capitulo 7 tipicamente toma 3-4 meses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "La bancarrota arruinara mi credito para siempre?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La bancarrota del Capitulo 7 permanece en su reporte de credito por 10 anos y el Capitulo 13 por 7 anos, pero el impacto disminuye con el tiempo. Muchas personas ven mejoras en su puntaje crediticio dentro de 12-18 meses de la presentacion."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "headline": "Ahogado en Deudas? Entienda Sus Opciones",
+      "description": "Guia gratuita para evaluar opciones de alivio de deuda incluyendo bancarrota, negociacion y consolidacion.",
+      "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+      "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+      "datePublished": "2026-04-09",
+      "dateModified": "2026-04-09",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/drowning-in-debt-es.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://openbankruptcyproject.org" },
+        { "@type": "ListItem", "position": 2, "name": "Ahogado en Deudas", "item": "https://openbankruptcyproject.org/drowning-in-debt-es.html" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Inicio</a>
+            <a href="about-es.html">Acerca de</a>
+            <a href="contact-es.html">Contacto</a>
+            <a href="drowning-in-debt.html">English</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Inicio</a><span class="separator">&rsaquo;</span><span>Ahogado en Deudas? Entienda Sus Opciones</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Ahogado en Deudas? Entienda Sus Opciones</h1>
+        <p class="subtitle">Una guia gratuita e imparcial para evaluar si la bancarrota, la negociacion de deuda u otro camino es correcto para usted.</p>
+        <div class="lang-switch"><a href="drowning-in-debt.html">Read this page in English</a></div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <h2>No Esta Solo</h2>
+        <p>Si esta perdiendo el sueno por las facturas, evitando llamadas de cobradores, o usando una tarjeta de credito para pagar otra, esta en una situacion que millones de estadounidenses enfrentan cada ano. La sensacion de estar atrapado es real - pero la situacion no es permanente. Existen herramientas legales concretas disenadas para ayudar a personas exactamente en su posicion.</p>
+
+        <h2>Cuando Tiene Sentido la Bancarrota?</h2>
+        <div class="quick-answer">
+            <p>La bancarrota puede ser la opcion correcta si su deuda no garantizada es mas de lo que podria pagar realisticamente en 5 anos, los acreedores le estan demandando o embargando su salario, o el estres de la deuda esta afectando su salud.</p>
+        </div>
+        <p>La bancarrota no es un fracaso - es un derecho legal establecido en la Constitucion de EE.UU. (Articulo I, Seccion 8). Considere estas senales:</p>
+        <ul>
+            <li>Solo esta pagando minimos y los saldos no bajan</li>
+            <li>Ha sido demandado, o se ha emitido un embargo</li>
+            <li>Esta pidiendo prestado de cuentas de jubilacion para pagar facturas actuales</li>
+            <li>Deuda medica ha hecho su situacion financiera irrecuperable</li>
+            <li>Debe mas en su casa o auto de lo que vale</li>
+        </ul>
+
+        <h2>Bancarrota vs. Alternativas</h2>
+        <table class="compare-table">
+            <tr><th>Opcion</th><th>Ventajas</th><th>Desventajas</th></tr>
+            <tr>
+                <td><strong>Capitulo 7</strong></td>
+                <td>Elimina la mayoria de deuda no garantizada en 3-4 meses. Detiene demandas y embargos inmediatamente.</td>
+                <td>Debe pasar prueba de medios. En reporte crediticio 10 anos.</td>
+            </tr>
+            <tr>
+                <td><strong>Capitulo 13</strong></td>
+                <td>Conserve todos los activos. Cure atrasos hipotecarios/vehiculares. Plan de 3-5 anos.</td>
+                <td>Requiere ingresos regulares. Compromiso de 3-5 anos.</td>
+            </tr>
+            <tr>
+                <td><strong>Negociacion de Deuda</strong></td>
+                <td>Puede reducir el monto total adeudado. No requiere presentacion ante el tribunal.</td>
+                <td>Acreedores pueden negarse. Deuda perdonada puede ser gravable. Sin proteccion legal de demandas.</td>
+            </tr>
+            <tr>
+                <td><strong>Consolidacion</strong></td>
+                <td>Un pago mensual. Puede reducir tasa de interes.</td>
+                <td>No reduce el capital. Requiere credito calificado.</td>
+            </tr>
+        </table>
+
+        <h2>La Prueba de Medios</h2>
+        <p>Para presentar el Capitulo 7, el ingreso de su hogar debe estar por debajo de la mediana de su estado, o debe pasar un calculo que muestre que carece de suficiente ingreso disponible para financiar un plan de pago. Si su ingreso esta por encima de la mediana, el Capitulo 13 generalmente todavia esta disponible. La <a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=drowning-in-debt-es" target="_blank" rel="noopener">guia de la prueba de medios</a> explica el calculo en detalle.</p>
+
+        <h2>Cuidado con Estafas de Alivio de Deuda</h2>
+        <p>Si una empresa promete hacer desaparecer su deuda sin presentar bancarrota, sea esceptico. Senales de alerta:</p>
+        <ul>
+            <li>Tarifas por adelantado antes de cualquier trabajo</li>
+            <li>Garantias de liquidar deudas por "centavos por dolar"</li>
+            <li>Pedirle que deje de pagar a acreedores y les envie dinero a ellos</li>
+            <li>Sin explicacion clara de riesgos, incluyendo consecuencias fiscales</li>
+        </ul>
+
+        <h2>Recursos Gratuitos</h2>
+        <div class="resource-grid">
+            <div class="resource-card">
+                <div class="card-title">Alivio de Deuda o Bancarrota?</div>
+                <div class="card-desc">Comparacion detallada de opciones de alivio de deuda vs. bancarrota, incluyendo implicaciones fiscales.</div>
+                <a href="https://debtrelieforbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=drowning-in-debt-es" target="_blank" rel="noopener">debtrelieforbankruptcy.com &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">No Puedo Pagar Mis Facturas</div>
+                <div class="card-desc">Pasos de emergencia cuando no puede hacer el pago de este mes.</div>
+                <a href="https://cantpaymybills.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=drowning-in-debt-es" target="_blank" rel="noopener">cantpaymybills.com &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Capitulo 7 vs. Capitulo 13</div>
+                <div class="card-desc">Comparacion lado a lado de ambos capitulos, incluyendo costos, plazos y elegibilidad.</div>
+                <a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=drowning-in-debt-es" target="_blank" rel="noopener">chapter7vs13.org &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Prueba de Medios</div>
+                <div class="card-desc">Entienda si califica para el Capitulo 7 basado en su ingreso y umbrales medianos estatales.</div>
+                <a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=drowning-in-debt-es" target="_blank" rel="noopener">bankruptcymeanstest.org &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Transparencia de bancarrota gratuita y de codigo abierto. Sin anuncios. Sin enlaces de afiliados.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Inicio</a>
+            <a href="about-es.html">Acerca de</a>
+            <a href="contact-es.html">Contacto</a>
+            <a href="privacy.html">Privacidad</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Patrocinar</a>
+        </div>
+        <p>Open Bankruptcy Project es una organizacion sin fines de lucro 501(c)(3) (determinacion pendiente).</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No se proporciona asesoramiento legal. Esta es informacion educativa solamente.</p>
+<p>Este sitio proporciona informacion general, no asesoramiento legal. Consulte a un abogado calificado para su situacion especifica.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

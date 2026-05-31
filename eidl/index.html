@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EIDL loan recipients by state - Open Bankruptcy Project</title>
+<meta name="description" content="State-by-state public-record index of COVID-19 Economic Injury Disaster Loan recipients. Caption-level data from the U.S. Small Business Administration's FOIA-released datasets.">
+<link rel="canonical" href="https://openbankruptcyproject.org/eidl/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="EIDL loan recipients by state - Open Bankruptcy Project">
+<meta property="og:description" content="State-by-state public-record index of COVID-19 Economic Injury Disaster Loan recipients. Caption-level data from the U.S. Small Business Administration's FOIA-released datasets.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://openbankruptcyproject.org/eidl/">
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+    --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230;
+    --border: #252d38; --border-light: #2d3748;
+    --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+    --accent: #58a6ff; --accent-hover: #79b8ff;
+    --green: #3fb950; --gold: #d29922;
+}
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+.container { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
+nav.topnav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+nav.topnav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+.nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+.nav-links a:hover { color: var(--text); text-decoration: none; }
+.breadcrumb { padding: 16px 0; font-size: 0.85rem; color: var(--text-muted); }
+.breadcrumb a { color: var(--text-muted); }
+.breadcrumb a:hover { color: var(--accent); }
+.breadcrumb .sep { margin: 0 8px; color: var(--border-light); }
+.state-header { padding: 32px 0 24px; border-bottom: 1px solid var(--border); }
+.state-header .label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 8px; }
+.state-header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+.state-header p { color: var(--text-secondary); font-size: 0.95rem; max-width: 780px; }
+.note { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 20px; margin: 24px 0; font-size: 0.9rem; color: var(--text-secondary); }
+.loan-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 24px 0; font-size: 0.86rem; }
+.loan-table th { background: var(--bg); text-align: left; padding: 12px 14px; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; border-bottom: 1px solid var(--border); }
+.loan-table td { padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.loan-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.loan-table tr:hover { background: var(--surface-hover); }
+.pagination { display: flex; gap: 18px; align-items: center; justify-content: center; padding: 24px 0 48px; font-size: 0.92rem; }
+.pagination .page-info { color: var(--text-muted); }
+footer { border-top: 1px solid var(--border); padding: 32px 0; color: var(--text-muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <div class="container">
+    <a href="/" class="nav-brand">Open Bankruptcy Project</a>
+    <div class="nav-links">
+      <a href="/cases/">Cases</a>
+      <a href="/statistics.html">Statistics</a>
+      <a href="/ppp/" >PPP</a>
+      <a href="/eidl/" class="active">EIDL</a>
+      <a href="/methodology.html">Methodology</a>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <header class="state-header">
+    <div class="label">COVID-19 Economic Injury Disaster Loan</div>
+    <h1>EIDL recipients by state</h1>
+    <p>Public-record index of 3,695,372 EIDL loans sourced from the U.S. Small Business Administration's FOIA-released datasets. Pick a state to browse the caption-level recipient index.</p>
+  </header>
+  <div class="note">
+    <strong>Data source.</strong> U.S. Small Business Administration via <a href="https://data.sba.gov/">data.sba.gov</a>. See <a href="/methodology.html">methodology</a> for full schema, dedup, and limitations.
+  </div>
+  <table class="loan-table">
+    <thead><tr><th>State</th><th>Code</th><th class="num">Loans</th></tr></thead>
+    <tbody><tr><td><a href="/eidl/al/">Alabama</a></td><td>AL</td><td class="num">45,233</td></tr><tr><td><a href="/eidl/ak/">Alaska</a></td><td>AK</td><td class="num">7,681</td></tr><tr><td><a href="/eidl/as/">American Samoa</a></td><td>AS</td><td class="num">160</td></tr><tr><td><a href="/eidl/az/">Arizona</a></td><td>AZ</td><td class="num">62,072</td></tr><tr><td><a href="/eidl/ar/">Arkansas</a></td><td>AR</td><td class="num">21,695</td></tr><tr><td><a href="/eidl/ca/">California</a></td><td>CA</td><td class="num">560,262</td></tr><tr><td><a href="/eidl/co/">Colorado</a></td><td>CO</td><td class="num">57,596</td></tr><tr><td><a href="/eidl/ct/">Connecticut</a></td><td>CT</td><td class="num">35,414</td></tr><tr><td><a href="/eidl/de/">Delaware</a></td><td>DE</td><td class="num">9,711</td></tr><tr><td><a href="/eidl/dc/">District of Columbia</a></td><td>DC</td><td class="num">9,870</td></tr><tr><td><a href="/eidl/fl/">Florida</a></td><td>FL</td><td class="num">461,613</td></tr><tr><td><a href="/eidl/ga/">Georgia</a></td><td>GA</td><td class="num">181,034</td></tr><tr><td><a href="/eidl/gu/">Guam</a></td><td>GU</td><td class="num">1,331</td></tr><tr><td><a href="/eidl/hi/">Hawaii</a></td><td>HI</td><td class="num">18,831</td></tr><tr><td><a href="/eidl/id/">Idaho</a></td><td>ID</td><td class="num">12,464</td></tr><tr><td><a href="/eidl/il/">Illinois</a></td><td>IL</td><td class="num">144,025</td></tr><tr><td><a href="/eidl/in/">Indiana</a></td><td>IN</td><td class="num">40,122</td></tr><tr><td><a href="/eidl/ia/">Iowa</a></td><td>IA</td><td class="num">17,663</td></tr><tr><td><a href="/eidl/ks/">Kansas</a></td><td>KS</td><td class="num">19,142</td></tr><tr><td><a href="/eidl/ky/">Kentucky</a></td><td>KY</td><td class="num">24,976</td></tr><tr><td><a href="/eidl/la/">Louisiana</a></td><td>LA</td><td class="num">67,563</td></tr><tr><td><a href="/eidl/me/">Maine</a></td><td>ME</td><td class="num">10,598</td></tr><tr><td><a href="/eidl/md/">Maryland</a></td><td>MD</td><td class="num">66,404</td></tr><tr><td><a href="/eidl/ma/">Massachusetts</a></td><td>MA</td><td class="num">61,741</td></tr><tr><td><a href="/eidl/mi/">Michigan</a></td><td>MI</td><td class="num">86,899</td></tr><tr><td><a href="/eidl/mn/">Minnesota</a></td><td>MN</td><td class="num">41,670</td></tr><tr><td><a href="/eidl/ms/">Mississippi</a></td><td>MS</td><td class="num">31,299</td></tr><tr><td><a href="/eidl/mo/">Missouri</a></td><td>MO</td><td class="num">42,433</td></tr><tr><td><a href="/eidl/mt/">Montana</a></td><td>MT</td><td class="num">10,147</td></tr><tr><td><a href="/eidl/ne/">Nebraska</a></td><td>NE</td><td class="num">14,628</td></tr><tr><td><a href="/eidl/nv/">Nevada</a></td><td>NV</td><td class="num">39,934</td></tr><tr><td><a href="/eidl/nh/">New Hampshire</a></td><td>NH</td><td class="num">11,509</td></tr><tr><td><a href="/eidl/nj/">New Jersey</a></td><td>NJ</td><td class="num">122,792</td></tr><tr><td><a href="/eidl/nm/">New Mexico</a></td><td>NM</td><td class="num">14,736</td></tr><tr><td><a href="/eidl/ny/">New York</a></td><td>NY</td><td class="num">306,842</td></tr><tr><td><a href="/eidl/nc/">North Carolina</a></td><td>NC</td><td class="num">92,154</td></tr><tr><td><a href="/eidl/nd/">North Dakota</a></td><td>ND</td><td class="num">6,205</td></tr><tr><td><a href="/eidl/mp/">Northern Mariana Islands</a></td><td>MP</td><td class="num">273</td></tr><tr><td><a href="/eidl/oh/">Ohio</a></td><td>OH</td><td class="num">84,043</td></tr><tr><td><a href="/eidl/ok/">Oklahoma</a></td><td>OK</td><td class="num">32,723</td></tr><tr><td><a href="/eidl/or/">Oregon</a></td><td>OR</td><td class="num">38,870</td></tr><tr><td><a href="/eidl/pa/">Pennsylvania</a></td><td>PA</td><td class="num">98,917</td></tr><tr><td><a href="/eidl/pr/">Puerto Rico</a></td><td>PR</td><td class="num">23,692</td></tr><tr><td><a href="/eidl/ri/">Rhode Island</a></td><td>RI</td><td class="num">10,803</td></tr><tr><td><a href="/eidl/sc/">South Carolina</a></td><td>SC</td><td class="num">47,907</td></tr><tr><td><a href="/eidl/sd/">South Dakota</a></td><td>SD</td><td class="num">7,862</td></tr><tr><td><a href="/eidl/tn/">Tennessee</a></td><td>TN</td><td class="num">54,351</td></tr><tr><td><a href="/eidl/tx/">Texas</a></td><td>TX</td><td class="num">314,569</td></tr><tr><td><a href="/eidl/vi/">U.S. Virgin Islands</a></td><td>VI</td><td class="num">1,755</td></tr><tr><td><a href="/eidl/ut/">Utah</a></td><td>UT</td><td class="num">22,661</td></tr><tr><td><a href="/eidl/vt/">Vermont</a></td><td>VT</td><td class="num">6,477</td></tr><tr><td><a href="/eidl/va/">Virginia</a></td><td>VA</td><td class="num">73,646</td></tr><tr><td><a href="/eidl/wa/">Washington</a></td><td>WA</td><td class="num">66,676</td></tr><tr><td><a href="/eidl/wv/">West Virginia</a></td><td>WV</td><td class="num">8,047</td></tr><tr><td><a href="/eidl/wi/">Wisconsin</a></td><td>WI</td><td class="num">38,225</td></tr><tr><td><a href="/eidl/wy/">Wyoming</a></td><td>WY</td><td class="num">5,426</td></tr></tbody>
+  </table>
+</div>
+<footer>
+  <div class="container">
+    <p style="font-size:0.75rem;line-height:1.6;max-width:900px">This site provides general information only and does not constitute legal advice. Open Bankruptcy Project is not a law firm and does not provide legal services. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+    <p style="font-size:0.78rem;margin-top:12px">&middot; <a href="/contact.html">Contact</a> &middot; <a href="/deletion-requests.html">Deletion-request policy</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/methodology.html">Methodology</a></p>
+  </div>
+</footer>
+</body>
+</html>

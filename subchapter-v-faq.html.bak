@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);gtag('config','G-053Z64N82F');gtag('config','G-FTWLM223G7');</script>
+<!-- BTN:GA4:END -->
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Subchapter V FAQ - 16 Common Questions Answered [2026]</title>
+<meta content="Frequently asked questions about Subchapter V bankruptcy. Eligibility, costs, timeline, the Sub V trustee, plan confirmation, discharge, ..." name="description"/>
+<link href="https://openbankruptcyproject.org/subchapter-v-faq.html" rel="canonical"/>
+<meta content="Subchapter V FAQ - 16 Common Questions Answered [2026]" property="og:title"/>
+<meta content="Frequently asked questions about Subchapter V bankruptcy. Eligibility, costs, timeline, the Sub V trustee, plan confirmation, discharge, ..." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/subchapter-v-faq.html" property="og:url"/>
+<meta content="openbankruptcyproject.org" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/sitemap.xml" rel="sitemap" type="application/xml"/>
+<meta content="#0d1117" name="theme-color"/>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Subchapter V FAQ - 16 Common Questions Answered [2026]","description":"Frequently asked questions about Subchapter V bankruptcy. Eligibility, costs, timeline, the Sub V trustee, plan confirmation, discharge, and more.","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://1328f.org"},"datePublished":"2026-04-07","dateModified":"2026-04-07","mainEntityOfPage":"https://openbankruptcyproject.org/subchapter-v-faq.html"}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+{"@type": "Question", "name": "What is Subchapter V bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "Subchapter V is a streamlined version of Chapter 11 bankruptcy created by the Small Business Reorganization Act of 2019. It allows small businesses with debts under $7.5 million to reorganize faster, cheaper, and with fewer requirements than traditional Chapter 11."}},
+{"@type": "Question", "name": "How much does Subchapter V cost?", "acceptedAnswer": {"@type": "Answer", "text": "Filing fee: $1,738. Attorney fees: $4,000-$40,000 depending on complexity. The Sub V trustee takes 3-10% of plan distributions. No UST quarterly fees. Total cost is typically 80-95% less than traditional Chapter 11."}},
+{"@type": "Question", "name": "Who qualifies for Subchapter V?", "acceptedAnswer": {"@type": "Answer", "text": "Any person or entity engaged in commercial or business activities, with total noncontingent liquidated debts (excluding affiliate debts) not exceeding $7.5 million, where at least 50% of debts arise from business activities, and who is not a single asset real estate debtor."}},
+{"@type": "Question", "name": "Can an individual file Subchapter V?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Individuals engaged in business activities - sole proprietors, independent contractors, gig workers, freelancers - can elect Sub V if at least 50% of their debts are business-related."}},
+{"@type": "Question", "name": "Can an LLC or corporation file Subchapter V?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Corporations, LLCs, partnerships, and other business entities can all elect Sub V, provided they meet the debt limit and business activity requirements."}},
+{"@type": "Question", "name": "What is the debt limit for Subchapter V?", "acceptedAnswer": {"@type": "Answer", "text": "$7,500,000 in total noncontingent, liquidated debts (secured plus unsecured combined), excluding debts owed to affiliates or insiders. This was made permanent by the Bankruptcy Threshold Adjustment and Technical Corrections Act of 2022."}},
+{"@type": "Question", "name": "How long does a Subchapter V case take?", "acceptedAnswer": {"@type": "Answer", "text": "Typical timeline is 4-8 months from filing to plan confirmation. The plan must be filed within 90 days. Under consensual confirmation (1191a), the case can be substantially complete within 6 months."}},
+{"@type": "Question", "name": "What does the Sub V trustee do?", "acceptedAnswer": {"@type": "Answer", "text": "The Sub V trustee facilitates the case - reviews financials, helps negotiate with creditors, appears at hearings, and reports to the court. Unlike a Chapter 7 trustee, they do not liquidate assets or take control of the business."}},
+{"@type": "Question", "name": "Do I need a disclosure statement in Subchapter V?", "acceptedAnswer": {"@type": "Answer", "text": "No. Section 1181(b) eliminates the disclosure statement requirement. The plan itself must contain adequate information, but no separate disclosure document needs court approval."}},
+{"@type": "Question", "name": "Can creditors file a competing plan?", "acceptedAnswer": {"@type": "Answer", "text": "No. Only the debtor may file a plan in Subchapter V. No creditor can propose a competing plan to take your business."}},
+{"@type": "Question", "name": "What is the difference between 1191(a) and 1191(b)?", "acceptedAnswer": {"@type": "Answer", "text": "Section 1191(a) is consensual confirmation - all impaired classes accept, discharge at confirmation. Section 1191(b) is cramdown - at least one class rejects, debtor must commit all disposable income for 3-5 years, discharge after plan completion."}},
+{"@type": "Question", "name": "Does the absolute priority rule apply in Sub V?", "acceptedAnswer": {"@type": "Answer", "text": "No. The absolute priority rule does not apply. The debtor can retain ownership of the business even if unsecured creditors are not paid in full."}},
+{"@type": "Question", "name": "Are UST quarterly fees required?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sub V cases do not pay UST quarterly fees. This alone can save $10,000 to $50,000+ compared to traditional Chapter 11."}},
+{"@type": "Question", "name": "Can I file Subchapter V pro se?", "acceptedAnswer": {"@type": "Answer", "text": "Individuals can file pro se. Entities (LLCs, corporations) generally cannot appear without counsel. Filing Sub V pro se is significantly more challenging than filing Chapter 7 pro se due to plan drafting and confirmation requirements."}},
+{"@type": "Question", "name": "What happens if my Sub V plan fails?", "acceptedAnswer": {"@type": "Answer", "text": "If you default on plan payments, the case can be dismissed or converted to Chapter 7. Under 1191(b), default means no discharge. Under 1191(a), the discharge was already entered at confirmation, but creditors may be able to modify the plan or seek other remedies."}},
+{"@type": "Question", "name": "Can I modify a confirmed Sub V plan?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Section 1193 allows modification of a confirmed Sub V plan. The debtor, the trustee, or the holder of an allowed unsecured claim can propose a modification. The modification must meet the same confirmation requirements as the original plan."}}
+]}
+</script>
+<style>:root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--text:#e6edf3;--text-muted:#9eaab6;--accent:#58a6ff;--green:#3fb950;--red:#f85149;--yellow:#e3a835}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:0.75rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem}
+nav .site-name{color:#f0f6fc;font-weight:700;font-size:1.1rem;text-decoration:none}
+.nav-links{display:flex;gap:1.25rem;flex-wrap:wrap;align-items:center}
+.nav-links a{color:var(--text-muted);font-size:0.9rem}
+.hamburger{display:none;background:none;border:1px solid var(--border);color:var(--text);font-size:1.3rem;cursor:pointer;padding:0.3rem 0.6rem;border-radius:4px;line-height:1}
+.breadcrumb{max-width:760px;margin:1rem auto 0;padding:0 1.5rem;font-size:0.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+header{background:linear-gradient(135deg,#0d2137,#122a44);border-bottom:1px solid var(--border);padding:3rem 2rem;text-align:center}
+header h1{color:#f0f6fc;font-size:2rem;margin-bottom:0.75rem}
+header .subtitle{color:var(--text-muted);font-size:1.05rem;max-width:700px;margin:0 auto}
+main{max-width:760px;margin:0 auto;padding:2rem 1.5rem}
+.content-section{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:2rem;margin-bottom:1.5rem}
+.content-section h2{color:#f0f6fc;font-size:1.375rem;margin-bottom:1rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border)}
+.content-section h3{color:#f0f6fc;font-size:1.125rem;margin:1.5rem 0 0.75rem}
+.content-section p{color:var(--text);margin-bottom:0.75rem;font-size:0.95rem}
+.content-section ul,.content-section ol{margin:0.75rem 0 0.75rem 1.5rem;color:var(--text);font-size:0.95rem}
+.content-section li{margin-bottom:0.4rem}
+table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:0.9rem}
+th,td{padding:0.6rem 1rem;text-align:left;border-bottom:1px solid var(--border)}
+th{color:var(--text-muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.5px;font-weight:600}
+.statute-box{background:#21262d;border-left:3px solid var(--accent);padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1rem 0}
+.warning-box{background:#21262d;border-left:3px solid var(--red);padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1rem 0}
+.green-box{background:#21262d;border-left:3px solid var(--green);padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1rem 0}
+.yellow-box{background:#21262d;border-left:3px solid var(--yellow);padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1rem 0}
+.sponsor-cta{text-align:center;padding:1.5rem;margin:1.5rem 0}
+.network-links{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:1.5rem 2rem;margin-bottom:1.5rem;font-size:0.85rem;color:var(--text-muted);line-height:2}
+.network-links strong{color:var(--text)}
+footer{background:var(--surface);border-top:1px solid var(--border);padding:2rem;text-align:center;font-size:0.85rem;color:var(--text-muted);margin-top:2rem}
+footer a{color:var(--accent)}
+@media(max-width:768px){.hamburger{display:inline-block}.nav-links{display:none;width:100%;flex-direction:column;gap:0}.nav-links.open{display:flex}header{padding:2rem 1rem}header h1{font-size:1.5rem}main{padding:1.5rem 1rem}.content-section{padding:1.25rem}}</style>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a class="site-name" href="/">openbankruptcyproject.org</a>
+<button aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation menu" class="hamburger">☰</button>
+<div class="nav-links" id="nav-links">
+<a href="/">Home</a><a href="research.html">Research</a><a href="impact.html">Impact</a><a href="legal-aid.html">Legal Aid</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+</div>
+</nav>
+<div class="breadcrumb"><a href="/">Home</a> › <a href="subchapter-v.html">Subchapter V Guide</a> › FAQ</div>
+<main>
+<header>
+<h1>Subchapter V FAQ</h1>
+<p class="subtitle">16 common questions about <a href="https://section1191.org/" title="Subchapter V">Subchapter V</a> small business bankruptcy, answered in plain English.</p>
+</header>
+<div class="content-section">
+<h2>What is Subchapter V bankruptcy?</h2>
+<p><a href="https://section1191.org/" title="Subchapter V">Subchapter V</a> is a streamlined version of Chapter 11 bankruptcy created by the Small Business Reorganization Act of 2019. It allows small businesses with debts under $7.5 million to reorganize faster, cheaper, and with fewer requirements than traditional Chapter 11.</p>
+</div>
+<div class="content-section">
+<h2>How much does Subchapter V cost?</h2>
+<p>Filing fee: $1,738. Attorney fees: $4,000-$40,000 depending on complexity. The Sub V trustee takes 3-10% of plan distributions. No UST quarterly fees. Total cost is typically 80-95% less than traditional Chapter 11.</p>
+</div>
+<div class="content-section">
+<h2>Who qualifies for Subchapter V?</h2>
+<p>Any person or entity engaged in commercial or business activities, with total noncontingent liquidated debts (excluding affiliate debts) not exceeding $7.5 million, where at least 50% of debts arise from business activities, and who is not a single asset real estate debtor.</p>
+</div>
+<div class="content-section">
+<h2>Can an individual file Subchapter V?</h2>
+<p>Yes. Individuals engaged in business activities - sole proprietors, independent contractors, gig workers, freelancers - can elect Sub V if at least 50% of their debts are business-related.</p>
+</div>
+<div class="content-section">
+<h2>Can an LLC or corporation file Subchapter V?</h2>
+<p>Yes. Corporations, LLCs, partnerships, and other business entities can all elect Sub V, provided they meet the debt limit and business activity requirements.</p>
+</div>
+<div class="content-section">
+<h2>What is the debt limit for Subchapter V?</h2>
+<p>$7,500,000 in total noncontingent, liquidated debts (secured plus unsecured combined), excluding debts owed to affiliates or insiders. This was made permanent by the Bankruptcy Threshold Adjustment and Technical Corrections Act of 2022.</p>
+</div>
+<div class="content-section">
+<h2>How long does a Subchapter V case take?</h2>
+<p>Typical timeline is 4-8 months from filing to <a href="https://chapter13plan.org/" title="confirmation">plan confirmation</a>. The plan must be filed within 90 days. Under consensual confirmation (1191a), the case can be substantially complete within 6 months.</p>
+</div>
+<div class="content-section">
+<h2>What does the Sub V trustee do?</h2>
+<p>The Sub V trustee facilitates the case - reviews financials, helps negotiate with creditors, appears at hearings, and reports to the court. Unlike a <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> trustee, they do not liquidate assets or take control of the business.</p>
+</div>
+<div class="content-section">
+<h2>Do I need a disclosure statement in Subchapter V?</h2>
+<p>No. Section 1181(b) eliminates the disclosure statement requirement. The plan itself must contain adequate information, but no separate disclosure document needs court approval.</p>
+</div>
+<div class="content-section">
+<h2>Can creditors file a competing plan?</h2>
+<p>No. Only the debtor may file a plan in Subchapter V. No creditor can propose a competing plan to take your business.</p>
+</div>
+<div class="content-section">
+<h2>What is the difference between 1191(a) and 1191(b)?</h2>
+<p><a href="https://www.law.cornell.edu/uscode/text/11/1191#a_0" rel="noopener" target="_blank">Section 1191(a)</a> is consensual confirmation - all impaired classes accept, <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> at confirmation. <a href="https://www.law.cornell.edu/uscode/text/11/1191#b_0" rel="noopener" target="_blank">Section 1191(b)</a> is <a href="https://section1192.org/" title="cramdown">cramdown</a> - at least one class rejects, debtor must commit all disposable income for 3-5 years, <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> after plan completion.</p>
+</div>
+<div class="content-section">
+<h2>Does the absolute priority rule apply in Sub V?</h2>
+<p>No. The absolute priority rule does not apply. The debtor can retain ownership of the business even if unsecured creditors are not paid in full.</p>
+</div>
+<div class="content-section">
+<h2>Are UST quarterly fees required?</h2>
+<p>No. Sub V cases do not pay UST quarterly fees. This alone can save $10,000 to $50,000+ compared to traditional Chapter 11.</p>
+</div>
+<div class="content-section">
+<h2>Can I file Subchapter V pro se?</h2>
+<p>Individuals can file <a href="https://prosebankruptcy.org/" title="pro se">pro se</a>. Entities (LLCs, corporations) generally cannot appear without counsel. Filing Sub V <a href="https://prosebankruptcy.org/" title="pro se">pro se</a> is significantly more challenging than filing <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> pro se due to plan drafting and confirmation requirements.</p>
+</div>
+<div class="content-section">
+<h2>What happens if my Sub V plan fails?</h2>
+<p>If you default on plan payments, the case can be dismissed or converted to Chapter 7. Under 1191(b), default means no discharge. Under 1191(a), the discharge was already entered at confirmation, but creditors may be able to modify the plan or seek other remedies.</p>
+</div>
+<div class="content-section">
+<h2>Can I modify a confirmed Sub V plan?</h2>
+<p>Yes. <a href="https://www.law.cornell.edu/uscode/text/11/1193" rel="noopener" target="_blank">Section 1193</a> allows modification of a confirmed Sub V plan. The debtor, the trustee, or the holder of an allowed unsecured claim can propose a modification. The modification must meet the same confirmation requirements as the original plan.</p>
+</div>
+<div class="content-section">
+<h2>Related Pages</h2>
+<ul>
+<li><a href="subchapter-v.html">Subchapter V Complete Guide</a></li>
+<li><a href="subchapter-v-eligibility.html">Do I Qualify for Subchapter V?</a></li>
+<li><a href="subchapter-v-plan.html">The Subchapter V Plan</a></li>
+<li><a href="subchapter-v-costs.html">Subchapter V Costs</a></li>
+<li><a href="subchapter-v-vs-chapter13.html">Subchapter V vs Chapter 13</a></li>
+<li><a href="subchapter-v-discharge.html">Subchapter V Discharge</a></li>
+</ul>
+</div>
+<div class="sponsor-cta">
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor This Project</a>
+</div>
+<div class="network-links">
+<strong>Bankruptcy Tools Network:</strong><br/>
+<a href="https://1328f.com?utm_source=btn&amp;utm_medium=crosslink&amp;utm_campaign=openbankruptcyproject.org">Discharge Screener</a> ·
+  <a href="https://1328f.org?utm_source=btn&amp;utm_medium=crosslink&amp;utm_campaign=openbankruptcyproject.org">Research Platform</a> ·
+  <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&amp;utm_medium=crosslink&amp;utm_campaign=openbankruptcyproject.org">Exemptions by State</a> ·
+  <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&amp;utm_medium=crosslink&amp;utm_campaign=openbankruptcyproject.org">Bankruptcy Cost</a> ·
+  <a href="https://prosebankruptcy.org?utm_source=btn&amp;utm_medium=crosslink&amp;utm_campaign=openbankruptcyproject.org">Pro Se Guide</a>
+</div>
+</main>
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+<p style="margin-bottom:0.5rem"><a href="/">Home</a> · <a href="research.html">Research</a> · <a href="impact.html">Impact</a> · <a href="legal-aid.html">Legal Aid</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a></p>
+<p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice.<br/>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) nonprofit.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script>document.querySelector('.hamburger').addEventListener('click',function(){var n=document.getElementById('nav-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);});</script>
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Facing Foreclosure? Free Resources - Open Bankruptcy Project</title>
+<meta content="Emergency steps if you are facing foreclosure. Learn how the automatic stay stops foreclosure, how Chapter 13 can cure mortgage arrears, and free resources to protect your home." name="description"/>
+<link href="https://openbankruptcyproject.org/facing-foreclosure.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Facing Foreclosure? Free Resources" property="og:title"/>
+<meta content="Emergency steps if you are facing foreclosure. Learn how the automatic stay works, Chapter 13 cure plans, and free tools to protect your home." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/facing-foreclosure.html" property="og:url"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+            --green: #3fb950;
+            --red: #f85149;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        .alert-box {
+            background: rgba(248,81,73,0.08); border: 1px solid rgba(248,81,73,0.3); border-radius: 10px;
+            padding: 24px; margin-bottom: 24px;
+        }
+        .alert-box p { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+        .alert-box ul { margin-top: 8px; }
+
+        .resource-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+        .resource-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .resource-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .resource-card .card-title { font-weight: 700; font-size: 1rem; margin-bottom: 8px; }
+        .resource-card .card-desc { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px; }
+        .resource-card a { font-size: 0.88rem; font-weight: 600; }
+
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+        }
+    </style>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Can bankruptcy stop a foreclosure?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Filing for bankruptcy triggers an automatic stay under 11 U.S.C. Section 362, which immediately halts all collection actions including foreclosure sales. In Chapter 13, you can propose a plan to cure mortgage arrears over 3 to 5 years while keeping your home."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How quickly does the automatic stay stop foreclosure?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The automatic stay takes effect the moment you file your bankruptcy petition with the court. If a foreclosure sale is scheduled, it must be halted immediately once the filing is recorded, even if the sale is set for the same day."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is a Chapter 13 cure plan for mortgage arrears?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Under 11 U.S.C. Section 1322(b)(5), a Chapter 13 plan can cure past-due mortgage payments over the life of the plan (3 to 5 years) while you continue making regular monthly payments going forward. This lets you keep your home and bring the mortgage current over time."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I file bankruptcy the day before a foreclosure sale?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can file at any time before the sale is completed. However, if you have had a prior bankruptcy case dismissed within the past year, the automatic stay may be limited to 30 days or may not go into effect at all under 11 U.S.C. Section 362(c). Consult an attorney immediately if time is short."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Will I lose my home in Chapter 7?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chapter 7 does not provide a mechanism to cure mortgage arrears. If you are behind on payments, the lender can seek relief from the stay and proceed with foreclosure. Chapter 13 is usually the better option if your primary goal is saving your home."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Facing Foreclosure? Free Resources and Emergency Steps",
+          "description": "Emergency steps if you are facing foreclosure. Learn how the automatic stay stops foreclosure, how Chapter 13 can cure mortgage arrears, and free resources.",
+          "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+          "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntityOfPage": "https://openbankruptcyproject.org/facing-foreclosure.html"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Facing Foreclosure", "item": "https://openbankruptcyproject.org/facing-foreclosure.html" }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "name": "Facing Foreclosure? Free Resources",
+          "url": "https://openbankruptcyproject.org/facing-foreclosure.html",
+          "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".quick-answer", "h1", "p:first-of-type"] }
+        }
+      ]
+    }
+    </script>
+<link href="https://openbankruptcyproject.org/facing-foreclosure.html" hreflang="en" rel="alternate"/>
+<link href="https://openbankruptcyproject.org/facing-foreclosure-es.html" hreflang="es" rel="alternate"/>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="methodology.html">Methodology</a>
+<a href="citations.html">Citations</a>
+<a href="press.html">Press</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">›</span><span>Facing Foreclosure? Free Resources</span></nav>
+<div class="page-header">
+<div class="container">
+<h1>Facing Foreclosure? Free Resources</h1>
+<p class="subtitle">Emergency steps, legal protections, and free tools to help you keep your home.</p>
+</div>
+</div>
+<div class="content">
+<div class="container">
+<div class="alert-box">
+<p>If a foreclosure sale is scheduled within days, time is critical.</p>
+<ul>
+<li>Filing a bankruptcy petition triggers an <strong><a href="https://automaticstay.org/" title="automatic stay">automatic stay</a></strong> that halts foreclosure immediately.</li>
+<li>You can file <a href="https://prosebankruptcy.org/" title="pro se">pro se</a> (<a href="https://filebankruptcywithoutlawyer.com/" title="file without a lawyer">without an attorney</a>) in an emergency, but consult a bankruptcy attorney as soon as possible.</li>
+<li>Contact your local bankruptcy court clerk's office - they can tell you what you need to file today.</li>
+</ul>
+</div>
+<h2>Step 1: Understand the Automatic Stay</h2>
+<p>The moment you file a bankruptcy petition, federal law imposes an <a href="https://automaticstay.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=topic-page&amp;utm_campaign=facing-foreclosure" rel="noopener" target="_blank">automatic stay</a> under 11 U.S.C. <a href="https://www.law.cornell.edu/uscode/text/11/362" rel="noopener" target="_blank">Section 362</a>. This court order stops all collection activity, including foreclosure sales, wage garnishments, lawsuits, and harassing phone calls. No separate motion is required - the stay takes effect the instant your case is filed.</p>
+<p>If your lender proceeds with a foreclosure sale after you have filed, that sale may be void. The stay applies to all creditors, regardless of whether they have been formally notified. However, creditors can ask the court to lift the stay, so filing is only the first step - you need a plan.</p>
+<h2>Step 2: Evaluate Chapter 13 vs. Chapter 7</h2>
+<p>If saving your home is the priority, <strong><a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a></strong> is almost always the right choice. Under Section 1322(b)(5), a <a href="https://chapter13plan.org/" title="Chapter 13 plan">Chapter 13 plan</a> lets you cure mortgage arrears over 3 to 5 years while making regular monthly payments going forward. You keep your home and bring the loan current on a schedule the court approves.</p>
+<p><strong><a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a></strong> wipes out unsecured debts quickly but does not provide a mechanism to catch up on missed mortgage payments. If you are current on your mortgage, Chapter 7 can help by eliminating other debts that are making it hard to make your payment. But if you are already behind, Chapter 13 is the path to keeping the house.</p>
+<p>Not sure which chapter fits? The <a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=topic-page&amp;utm_campaign=facing-foreclosure" rel="noopener" target="_blank">Chapter 7 vs. Chapter 13 comparison guide</a> breaks down the differences in plain language.</p>
+<h2>Step 3: Know the Limits</h2>
+<p>The automatic stay is powerful, but it has limits you should understand:</p>
+<ul>
+<li><strong>Repeat filings:</strong> If a prior bankruptcy case was dismissed within the past year, the stay may only last 30 days - or may not take effect at all. See 11 U.S.C. Section 362(c)(3) and (c)(4).</li>
+<li><strong>Stay relief:</strong> Your mortgage lender can ask the court to lift the stay if you have no equity in the property or cannot make <a href="https://relieffromstay.org/" title="adequate protection">adequate protection</a> payments.</li>
+<li><strong>HOA and tax liens:</strong> Some liens survive bankruptcy. Property taxes and HOA assessments generally must be paid in full.</li>
+</ul>
+<h2>Step 4: Gather Your Documents</h2>
+<p>Whether you file with an attorney or on your own, you will need:</p>
+<ol>
+<li>Your most recent mortgage statement (showing the amount past due)</li>
+<li>Any foreclosure notices or sale dates you have received</li>
+<li>Pay stubs or proof of income for the last 6 months</li>
+<li>Tax returns for the last 2 years</li>
+<li>A list of all debts, assets, income, and expenses</li>
+</ol>
+<p>The more organized you are, the faster an attorney can evaluate your situation and file if necessary.</p>
+<h2>Step 5: Explore All Options</h2>
+<p>Bankruptcy is one tool, but not the only one. Before or alongside filing, consider:</p>
+<ul>
+<li><strong>Loan modification:</strong> Contact your servicer's loss mitigation department. Federal programs may be available.</li>
+<li><strong>Forbearance:</strong> A temporary pause or reduction in payments while you get back on your feet.</li>
+<li><strong>State foreclosure mediation:</strong> Many states require lenders to participate in mediation before completing a foreclosure.</li>
+<li><strong>HUD-approved housing counselors:</strong> Free counseling is available at <a href="https://www.hud.gov/findacounselor" rel="noopener" target="_blank">hud.gov/findacounselor</a>.</li>
+</ul>
+<h2>Free Resources</h2>
+<div class="resource-grid">
+<div class="resource-card">
+<div class="card-title">Automatic Stay Guide</div>
+<div class="card-desc">How <a href="https://www.law.cornell.edu/uscode/text/11/362" rel="noopener" target="_blank">Section 362</a> protects you the moment you file. What it covers, how long it lasts, and what creditors cannot do.</div>
+<a href="https://automaticstay.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=topic-page&amp;utm_campaign=facing-foreclosure" rel="noopener" target="_blank">automaticstay.org →</a>
+</div>
+<div class="resource-card">
+<div class="card-title"><a href="https://keepmyhouseinbankruptcy.com/" title="keep my house">Keep My House</a> in Bankruptcy</div>
+<div class="card-desc">State-by-state homestead <a href="https://bankruptcyexemptionsbystate.com/" title="exemptions">exemptions</a>, Chapter 13 cure plans, and strategies for protecting your home.</div>
+<a href="https://keepmyhouseinbankruptcy.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=topic-page&amp;utm_campaign=facing-foreclosure" rel="noopener" target="_blank">keepmyhouseinbankruptcy.com →</a>
+</div>
+<div class="resource-card">
+<div class="card-title">Chapter 7 vs. Chapter 13</div>
+<div class="card-desc">Side-by-side comparison to help you decide which chapter is right for your situation.</div>
+<a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=topic-page&amp;utm_campaign=facing-foreclosure" rel="noopener" target="_blank">chapter7vs13.org →</a>
+</div>
+<div class="resource-card">
+<div class="card-title">How to File Bankruptcy</div>
+<div class="card-desc">Step-by-step filing guide, required forms, costs, and what to expect at each stage.</div>
+<a href="https://howtofilebankruptcy.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=topic-page&amp;utm_campaign=facing-foreclosure" rel="noopener" target="_blank">howtofilebankruptcy.org →</a>
+</div>
+</div>
+</div>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+<a href="https://github.com/ilikemath9999" rel="noopener" target="_blank">GitHub</a>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+<a href="donate.html">Donate</a>
+</div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+<p>All tools and data released under open-source licenses.</p>
+</div>
+<p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

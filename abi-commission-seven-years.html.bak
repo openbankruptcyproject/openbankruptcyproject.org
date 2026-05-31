@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business - Open Bankruptcy Project</title>
+<meta content="Learn about bapcpa at twenty: what 4.9 million cases reveal about the abi commission's unfinished business - open bankruptcy project explained | free. S unfinished business - open bankruptcy project explained | free bankruptcy." name="description"/>
+<meta content="ABI Commission, consumer bankruptcy, BAPCPA, attorney competency, dismissal rates, chapter 13, bankruptcy reform, 1328(f), empirical research" name="keywords"/>
+<link href="https://openbankruptcyproject.org/abi-commission-seven-years.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<!-- Open Graph -->
+<meta content="BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business - Open Bankruptcy Project" property="og:title"/>
+<meta content="Learn about bapcpa at twenty: what 4.9 million cases reveal about the abi commission's unfinished business - open bankruptcy project explained | free." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/abi-commission-seven-years.html" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="2026-03-28" property="article:published_time"/>
+<meta content="Research" property="article:section"/>
+<!-- Twitter -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business - Open Bankruptcy Project" name="twitter:title"/>
+<meta content="Learn about bapcpa at twenty: what 4.9 million cases reveal about the abi commission's unfinished business - open bankruptcy project explained | free." name="twitter:description"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- GA4 -->
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+<!-- Schema.org Article -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ScholarlyArticle",
+        "headline": "BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business",
+        "datePublished": "2026-03-28",
+        "author": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+        },
+        "about": [
+            "ABI Commission on Consumer Bankruptcy",
+            "BAPCPA",
+            "Attorney Competency",
+            "Chapter 13 Dismissal Rates",
+            "Bankruptcy Reform"
+        ],
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+        }
+    }
+    </script>
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0d1117;
+            --surface: #161b22;
+            --border: #30363d;
+            --text: #e6edf3;
+            --text-muted: #8b949e;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --green: #3fb950;
+            --gold: #d29922;
+            --red: #f85149;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        .container { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+        nav {
+            border-bottom: 1px solid var(--border);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        nav .nav-inner {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .nav-brand { font-size: 1.1rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 20px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        /* ARTICLE HEADER */
+        .article-header {
+            padding: 64px 0 40px;
+            border-bottom: 1px solid var(--border);
+        }
+        .article-header .label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 16px;
+        }
+        .article-header h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        .article-header .subtitle {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .article-meta {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* ARTICLE BODY */
+        .article-body { padding: 48px 0; }
+        .article-body h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 40px 0 16px;
+            padding-top: 16px;
+        }
+        .article-body h2:first-child { margin-top: 0; padding-top: 0; }
+        .article-body p {
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            font-size: 1rem;
+            line-height: 1.75;
+        }
+
+        /* PULL QUOTES */
+        .pull-quote {
+            background: var(--surface);
+            border-left: 4px solid var(--gold);
+            padding: 24px 28px;
+            border-radius: 0 8px 8px 0;
+            margin: 28px 0;
+        }
+        .pull-quote p {
+            color: var(--text);
+            font-size: 1.05rem;
+            font-style: italic;
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        .pull-quote .attribution {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-style: normal;
+        }
+
+        /* DATA CALLOUTS */
+        .stat-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin: 28px 0;
+        }
+        .stat-box {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 24px;
+            text-align: center;
+        }
+        .stat-box .number {
+            font-size: 2.4rem;
+            font-weight: 800;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-box .number.red { color: var(--red); }
+        .stat-box .number.gold { color: var(--gold); }
+        .stat-box .number.green { color: var(--green); }
+        .stat-box .desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        /* COMMISSION TABLE */
+        .commission-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+            font-size: 0.9rem;
+        }
+        .commission-table th {
+            text-align: left;
+            padding: 12px 16px;
+            background: var(--surface);
+            color: var(--text);
+            font-weight: 600;
+            border-bottom: 2px solid var(--border);
+        }
+        .commission-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-muted);
+        }
+        .commission-table tr:hover td { background: var(--surface); }
+        .status-none { color: var(--red); font-weight: 600; }
+        .status-partial { color: var(--gold); font-weight: 600; }
+        .status-done { color: var(--green); font-weight: 600; }
+
+        /* FOOTNOTES */
+        .footnotes {
+            border-top: 1px solid var(--border);
+            padding-top: 32px;
+            margin-top: 48px;
+        }
+        .footnotes h3 {
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+        .footnotes ol {
+            list-style-position: outside;
+            padding-left: 24px;
+        }
+        .footnotes li {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        sup a { color: var(--accent); font-size: 0.75rem; }
+
+        /* CTA */
+        .cta-box {
+            background: var(--surface);
+            border: 1px solid var(--accent);
+            border-radius: 8px;
+            padding: 32px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        .cta-box h3 {
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+        }
+        .cta-box p { color: var(--text-muted); margin-bottom: 16px; }
+        .cta-link {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--bg);
+            padding: 10px 28px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        .cta-link:hover { background: var(--accent-hover); text-decoration: none; color: var(--bg); }
+
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+        }
+        footer p { margin-bottom: 8px; max-width: none; }
+        footer a { color: var(--text-muted); }
+        footer a:hover { color: var(--text); }
+
+        @media (max-width: 600px) {
+            .article-header { padding: 40px 0 28px; }
+            .article-header h1 { font-size: 1.6rem; }
+            .article-body h2 { font-size: 1.2rem; }
+            .stat-box .number { font-size: 1.8rem; }
+        }
+    
+.breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+</style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a bankruptcy mill?", "acceptedAnswer": {"@type": "Answer", "text": "A bankruptcy mill is a high-volume law firm that processes large numbers of bankruptcy cases with minimal attorney involvement. Cases are often handled by paralegals or software, leading to errors, missed deadlines, and poor outcomes for clients."}}, {"@type": "Question", "name": "How do I know if my bankruptcy attorney is a mill?", "acceptedAnswer": {"@type": "Answer", "text": "Warning signs include: you rarely speak with an actual attorney, your case is one of hundreds filed monthly, communications come only from paralegals, hearings are attended by attorneys you have never met, and billing entries are generic or duplicated."}}, {"@type": "Question", "name": "What problems do bankruptcy mills cause?", "acceptedAnswer": {"@type": "Answer", "text": "Common issues include missed deadlines, incorrect schedules, failure to claim available exemptions, dismissed cases, unnecessary fees, and lack of personalized legal advice. Clients may lose assets they could have protected with competent counsel."}}, {"@type": "Question", "name": "Can I fire my bankruptcy attorney if they are a mill?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can substitute counsel or proceed pro se at any time. File a motion to substitute counsel with the court. You may also be entitled to a refund of fees for work not performed or performed negligently."}}, {"@type": "Question", "name": "How many cases should a bankruptcy attorney handle?", "acceptedAnswer": {"@type": "Answer", "text": "There is no hard limit, but attorneys filing more than 20-30 cases per month may struggle to provide adequate individual attention. Quality representation requires reviewing each client's unique financial situation, assets, and exemptions."}}]}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business",
+      "description": "In 2019, the ABI Commission on Consumer Bankruptcy proposed nearly 50 reforms. Seven years later, we measure what changed using 4.9 million federal cases. The a",
+      "author": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://1328f.org"
+      },
+      "datePublished": "2026-04-04",
+      "dateModified": "2026-04-05",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/abi-commission-seven-years.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business - Open Bankruptcy Project",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business",
+          "item": "https://openbankruptcyproject.org/abi-commission-seven-years.html"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "window.dataLayer = window.dataLayer || [];\n        function gtag(){dataLayer.push(arguments);}\n        gtag('js', new Date());\n        gtag('config', 'G-FTWLM223G7');\n  gtag('config', 'G-053Z64N82F');"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "District-level variation computed from FJC data for districts with 500 or more Chapter 13 filings in any given year. The 25th and 75th percentile district dismissal rates are 38% and 58%, respectively"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "FJC Integrated Database, Chapter 13 cases, 2018-2024. Attorneys with 50+ filings during the period. District-specific methodology described in our published methodology. &uarr;"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "Final Report of the ABI Commission on Consumer Bankruptcy 108 (2019), citing U.S. Dep't of Justice Exec. Office of U.S. Trustees, United States Trustee Program Annual Report of Significant Accomplishm"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "Pamela Foohey, Robert M. Lawless, Katherine Porter &amp; Deborah Thorne, \"No Money Down\" Bankruptcy, 90 S. Cal. L. Rev. 1055 (2017). Cited at Final Report at 90. &uarr;"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "FJC Integrated Database, 2018-2024. Methodology for identifying fee-structure patterns described in our published methodology. &uarr;"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "Final Report, supra note 4, at 102, 104. &uarr;"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 8,
+          "text": "Id. at 106. &uarr;"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 9,
+          "text": "Id. at 116 (quoting Louis Dembitz Brandeis, Other People's Money: And How the Bankers Use It 92 (1914)). &uarr;"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 10,
+          "text": "Comment of the Open Bankruptcy Project, 26-BK-3, Advisory Committee on Rules of Bankruptcy Procedure (accepted Mar. 23, 2026). Listed on uscourts.gov. &uarr;"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business",
+      "url": "https://openbankruptcyproject.org/abi-commission-seven-years.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
+    }
+  ]
+}
+</script>
+<link href="https://openbankruptcyproject.org/abi-commission-seven-years.html" hreflang="en" rel="alternate"/>
+<link href="https://openbankruptcyproject.org/abi-commission-seven-years-es.html" hreflang="es" rel="alternate"/>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="network.html">Network</a>
+<a href="impact.html">Impact</a>
+<a href="press.html">Press</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<header class="article-header">
+<div class="container">
+<div class="label">Research Report</div>
+<h1>BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business</h1>
+<p class="subtitle">In 2019, the ABI Commission on Consumer Bankruptcy proposed nearly fifty reforms to a system it found broken. Seven years and 4.9 million cases later, we measure what changed. The short answer: not enough.</p>
+<div class="article-meta">
+            Published March 28, 2026 · Open Bankruptcy Project
+        </div>
+</div>
+</header>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://1328f.org">Home</a><span class="separator">›</span><a href="https://openbankruptcyproject.org">BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business - Open Bankruptcy Project</a><span class="separator">›</span><span>BAPCPA at Twenty: What 4.9 Million Cases Reveal About the ABI Commission's Unfinished Business</span></nav>
+<article class="article-body">
+<div class="container">
+<p>The <a href="https://consumercommission.abi.org/" rel="noopener" target="_blank">ABI Commission on Consumer Bankruptcy</a> was the most ambitious examination of the consumer bankruptcy system since <a href="https://1328f.com/glossary.html#bapcpa" title="BAPCPA">BAPCPA</a> itself. Over two years, fifty-two commissioners - including sitting bankruptcy judges, the Director of the <a href="https://www.justice.gov/ust" rel="noopener" target="_blank">U.S. Trustee Program</a>, leading academics, and practitioners from across the stakeholder spectrum - studied nearly fifty discrete issues and produced a 274-page report with concrete recommendations for statutory amendments, rules changes, and best-practice reforms.</p>
+<p>The Commission's reporter was Professor Robert M. Lawless of the University of Illinois. Its members included Professor Bruce A. Markell, Professor Dalié Jiménez, and Clifford J. White III, then-Director of the Executive Office for U.S. Trustees. The report was funded by the ABI Endowment and the National Conference of Bankruptcy Judges.</p>
+<p>The report was released in April 2019. It was praised, discussed at conferences, and largely shelved.</p>
+<p>This analysis uses the largest publicly available dataset of federal bankruptcy outcomes - 4.9 million cases from the <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a>'s Integrated Database, covering every judicial district from 2008 through 2024 - to measure the system against the Commission's own findings. The data confirms what the commissioners warned about. In most areas, the problems have not improved. In some, they have gotten worse.</p>
+<h2>The Dismissal Problem Is Worse Than They Thought</h2>
+<div class="stat-row">
+<div class="stat-box">
+<span class="number red">48%</span>
+<span class="desc">National <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> <a href="https://dismissalrate.org/" title="dismissal rate">dismissal rate</a> (2008-2024)</span>
+</div>
+<div class="stat-box">
+<span class="number gold">25%-70%</span>
+<span class="desc">District-level range in <a href="https://dismissedbankruptcy.org/" title="dismissal">dismissal</a> rates</span>
+</div>
+<div class="stat-box">
+<span class="number">4.9M</span>
+<span class="desc">Federal cases analyzed across 94 districts</span>
+</div>
+</div>
+<p>Nearly half of all <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> cases filed during the study period ended in <a href="https://dismissedbankruptcy.org/" title="dismissal">dismissal</a> rather than <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a>.<sup><a href="#fn1" id="ref1">1</a></sup> Nearly half of all debtors who entered the system - having paid filing fees, attorney retainers, and <a href="https://bankruptcyfreshstart.org/" title="credit counseling">credit counseling</a> costs - received no debt relief whatsoever.</p>
+<p>The more revealing finding is the variation. Dismissal rates range from under 25% in some districts to over 70% in others.<sup><a href="#fn2" id="ref2">2</a></sup> If outcomes were driven primarily by debtor characteristics - income, debt load, employment stability - we would expect a more normal distribution. Instead, the data suggests that <em>where</em> a debtor files, and <em>who</em> represents them, can be more predictive of outcome than the debtor's own financial circumstances.</p>
+<h2>The Commission Saw the Attorney Problem. The Data Confirms It.</h2>
+<p>Section 3.04 of the Commission's Final Report addressed attorney competency and misconduct directly. The Commission wrote:</p>
+<div class="pull-quote">
+<p>"The standard method of compensation in a consumer-based practice - a flat fee charged all debtors or cascading fixed fees - carries with it incentives to reduce the time spent on matters that cut corners or fail to provide the services that clients and the courts expect."</p>
+<div class="attribution">-- ABI Commission on Consumer Bankruptcy, Final Report at 107 (2019)</div>
+</div>
+<p>Our data provides the empirical foundation for that concern. When we disaggregate outcomes by filing attorney within a single district - holding constant the judge, the trustee, the local rules, and the debtor population - the variance is striking. In individual districts, attorneys handling comparable caseloads in the same courthouse produce dismissal rates ranging from 22% to 68%.<sup><a href="#fn3" id="ref3">3</a></sup> The attorneys at the high end are not handling unusually difficult cases. They are handling high volumes of cases with outcomes that systematically underperform their peers.</p>
+<p>This pattern replicates across districts. When filtered to attorneys handling fifty or more cases over a five-year window - sufficient volume to smooth out random variation - a consistent picture emerges: a small number of high-volume practitioners produce dismissal rates two to three standard deviations above their district's mean, while operating at filing volumes in the top decile of their local market.</p>
+<p>The Commission noted that the USTP had "deployed a national strategy to address the problems caused by underperforming or malfeasant attorneys, resulting in a 30% increase in formal actions against consumer attorneys in the 2016 fiscal year."<sup><a href="#fn4" id="ref4">4</a></sup> That was seven years ago. The practices the USTP was targeting have not disappeared. They have adapted.</p>
+<h2>The "No Money Down" Pipeline</h2>
+<p>The Commission cited the foundational research of Professors Foohey, Lawless, Porter, and Thorne on "no money down" Chapter 13 filings - cases where attorney fees are paid through the plan rather than upfront, creating a pipeline where the attorney's financial incentive is to file the case, not to see it through.<sup><a href="#fn5" id="ref5">5</a></sup></p>
+<p>Our national dataset confirms and extends their findings. Cases filed by attorneys whose practices are structured around this model show dismissal rates approximately 15 to 20 percentage points higher than their district averages.<sup><a href="#fn6" id="ref6">6</a></sup> More concerning, these practices tend to concentrate in districts and zip codes with higher proportions of Black and Hispanic residents - a pattern consistent with the Commission's own discussion of racial justice in bankruptcy at section 4.01.</p>
+<p>The Commission recommended presumptively reasonable flat fees through confirmation, with "a la carte" structures for postconfirmation work.<sup><a href="#fn7" id="ref7">7</a></sup> The recommendation was sound. But without a mechanism to identify the practices generating the worst outcomes, the system cannot distinguish between the competent flat-fee attorney and the one using the same fee structure to process volume at the expense of client welfare.</p>
+<h2>The Transparency Gap: Their Best Idea, Still Unbuilt</h2>
+<p>The Commission's most forward-looking recommendation was in section 3.04(e):</p>
+<div class="pull-quote">
+<p>"Bankruptcy courts should docket all disciplinary orders in such a way that all such orders can be searched and found by interested parties, including the public, the press, and governmental agencies such as state bar disciplinary authorities."</p>
+<div class="attribution">-- ABI Commission on Consumer Bankruptcy, Final Report at 106 (2019)</div>
+</div>
+<p>The Commission further recommended that the Administrative Office of the U.S. Courts "include in its annual report a summary of all disciplinary filings" with details on the types of sanctions, the party disciplined, and the attorney's firm affiliation.<sup><a href="#fn8" id="ref8">8</a></sup></p>
+<p><strong>Seven years later, no such system exists.</strong> Disciplinary orders remain scattered across individual district dockets with no uniform indexing. The AO publishes no annual summary of attorney discipline in bankruptcy. A prospective debtor searching for information about a bankruptcy attorney's track record has no centralized resource - not from the courts, not from the bar associations, and not from the <a href="https://www.justice.gov/ust" rel="noopener" target="_blank">U.S. Trustee Program</a>.</p>
+<p>The Commission closed section 3.04 with Justice Brandeis: "Sunlight is the best of disinfectants."<sup><a href="#fn9" id="ref9">9</a></sup></p>
+<p>That is the gap this project exists to fill.</p>
+<h2>Scorecard: The Commission's Key Recommendations, Seven Years Later</h2>
+<table class="commission-table">
+<thead>
+<tr>
+<th>Recommendation</th>
+<th>Section</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>More vigorous enforcement of existing disciplinary tools</td>
+<td>§ 3.04(a)</td>
+<td class="status-none">No measurable change</td>
+</tr>
+<tr>
+<td>Create local disciplinary tribunals</td>
+<td>§ 3.04(b)-(c)</td>
+<td class="status-none">Not adopted</td>
+</tr>
+<tr>
+<td>Uniform docketing of all disciplinary orders</td>
+<td>§ 3.04(e)</td>
+<td class="status-none">Not adopted</td>
+</tr>
+<tr>
+<td>AO annual report on attorney discipline</td>
+<td>§ 3.04(e)</td>
+<td class="status-none">Not adopted</td>
+</tr>
+<tr>
+<td>Board certification as factor in fee approval</td>
+<td>§ 3.04(d)</td>
+<td class="status-partial">Partial (some districts)</td>
+</tr>
+<tr>
+<td>Presumptively reasonable fees through confirmation</td>
+<td>§ 3.03</td>
+<td class="status-partial">Partial (73% of districts)</td>
+</tr>
+<tr>
+<td>Eliminate <a href="https://bankruptcyfreshstart.org/" title="credit counseling">credit counseling</a> requirement</td>
+<td>§ 3.06</td>
+<td class="status-none">Not adopted</td>
+</tr>
+<tr>
+<td>Reform repeat-filer provisions (<a href="https://109g.org/" title="Section 109(g)">109(g)</a>, 349(a), 362(c))</td>
+<td>§ 2.05</td>
+<td class="status-none">Not adopted</td>
+</tr>
+<tr>
+<td><a href="https://section1191.org/" title="Subchapter V">Sub V</a> eligibility threshold increase</td>
+<td>§ 3.10</td>
+<td class="status-done">Adopted (CARES Act / BTATCA)</td>
+</tr>
+<tr>
+<td>Improved bankruptcy forms</td>
+<td>§ 5.06</td>
+<td class="status-partial">Ongoing (AO/Rules Committee)</td>
+</tr>
+</tbody>
+</table>
+<p>Of the Commission's ten most impactful recommendations listed above, only one has been fully adopted. The four recommendations that would have created the most direct accountability for attorney performance - the transparency and enforcement reforms in section 3.04 - have seen zero movement.</p>
+<h2>A Proposal Already Before the Rules Committee</h2>
+<p>Based on these findings, we submitted a formal comment to the Advisory Committee on Rules of Bankruptcy Procedure in March 2026, accepted as <strong>submission 26-BK-3</strong>.<sup><a href="#fn10" id="ref10">10</a></sup> The proposal addresses one specific procedural gap: <a href="https://www.law.cornell.edu/rules/frbp/rule_4004" rel="noopener" target="_blank">Rule 4004</a>'s requirements for <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> eligibility verification under sections <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a>, <a href="https://727a8.com/" title="Section 727(a)(8)">727(a)(8)</a>, and 727(a)(9).</p>
+<p>Our analysis shows that approximately 27% of cases involving a prior filing within the statutory bar period proceed to discharge without any docket entry indicating that the eligibility question was examined.<sup><a href="#fn11" id="ref11">11</a></sup> The proposed rule amendment would create a standardized verification protocol, reducing the risk that debtors receive - and later lose - discharges they were never eligible for.</p>
+<p>This is a narrow proposal. But it illustrates a broader point: the data to identify systemic problems in the bankruptcy system already exists. The courts generate it every day. What is needed is the institutional will to use it.</p>
+<h2>What Comes Next</h2>
+<p>The Commission was right about the problems. Its 2019 report remains the most comprehensive examination of the consumer bankruptcy system's structural weaknesses. But diagnosis without treatment is insufficient.</p>
+<p>The data now available makes it possible to move from anecdote to evidence. We can identify which practices produce the worst outcomes. We can measure whether reforms are working. We can give prospective debtors the information they need to make informed choices about representation. And we can give judges, trustees, and the U.S. Trustee the tools to exercise the "more vigorous" enforcement the Commission recommended.</p>
+<p>The question is whether the bankruptcy profession is ready to look at what the numbers show.</p>
+<div class="cta-box">
+<h3>Explore the Data</h3>
+<p>All of our tools, data, and methodology are free, open source, and publicly available.</p>
+<a class="cta-link" href="https://1328f.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">1328(f) Discharge Screener</a>
+              
+            <a class="cta-link" href="https://1328f.org/methodology/?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" style="background: var(--surface); color: var(--accent); border: 1px solid var(--accent);" target="_blank">Methodology</a>
+</div>
+<div class="footnotes" id="footnotes">
+<h3>Notes</h3>
+<ol>
+<li id="fn1"><a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a>, Integrated Database, 2008-2024. Chapter 13 cases only. Dismissal includes both voluntary and involuntary dismissals. Conversions to <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> are excluded from the denominator. <a href="#ref1">↑</a></li>
+<li id="fn2">District-level variation computed from FJC data for districts with 500 or more Chapter 13 filings in any given year. The 25th and 75th percentile district dismissal rates are 38% and 58%, respectively. <a href="#ref2">↑</a></li>
+<li id="fn3">FJC Integrated Database, Chapter 13 cases, 2018-2024. Attorneys with 50+ filings during the period. District-specific methodology described in our <a href="https://1328f.org/methodology/" rel="noopener" target="_blank">published methodology</a>. <a href="#ref3">↑</a></li>
+<li id="fn4">Final Report of the ABI Commission on Consumer Bankruptcy 108 (2019), citing U.S. Dep't of Justice Exec. Office of U.S. Trustees, United States Trustee Program Annual Report of Significant Accomplishments Fiscal Year 2016. <a href="#ref4">↑</a></li>
+<li id="fn5">Pamela Foohey, Robert M. Lawless, Katherine Porter &amp; Deborah Thorne, <em>"No Money Down" Bankruptcy</em>, 90 S. Cal. L. Rev. 1055 (2017). Cited at Final Report at 90. <a href="#ref5">↑</a></li>
+<li id="fn6">FJC Integrated Database, 2018-2024. Methodology for identifying fee-structure patterns described in our <a href="https://1328f.org/methodology/" rel="noopener" target="_blank">published methodology</a>. <a href="#ref6">↑</a></li>
+<li id="fn7">Final Report, <em>supra</em> note 4, at 102, 104. <a href="#ref7">↑</a></li>
+<li id="fn8"><em>Id.</em> at 106. <a href="#ref8">↑</a></li>
+<li id="fn9"><em>Id.</em> at 116 (quoting Louis Dembitz Brandeis, Other People's Money: And How the Bankers Use It 92 (1914)). <a href="#ref9">↑</a></li>
+<li id="fn10">Comment of the Open Bankruptcy Project, 26-BK-3, Advisory Committee on Rules of Bankruptcy Procedure (accepted Mar. 23, 2026). Listed on <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" rel="noopener" target="_blank">uscourts.gov</a>. <a href="#ref10">↑</a></li>
+<li id="fn11">FJC Integrated Database, 2008-2024. Prior-filing identification methodology described in our <a href="https://1328f.org/methodology/" rel="noopener" target="_blank">published methodology</a>. <a href="#ref11">↑</a></li>
+</ol>
+</div>
+</div>
+</article>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;padding:1.5rem;max-width:700px;margin:2rem auto">
+<p style="color:#f0f6fc;font-weight:600;font-size:1.05rem;margin:0 0 0.75rem 0">Further Reading &amp; Resources</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0 0 1rem 0">Authority sources for deeper research on the Open Bankruptcy Project and <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> research:</p>
+<ul style="list-style:none;padding:0;margin:0">
+<li style="margin-bottom:0.5rem"><a href="https://www.law.cornell.edu/uscode/text/11/1328" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">11 U.S.C. Section 1328(f)</a><br/><span style="color:#7d8590;font-size:0.8rem">Cornell LII - <a href="https://dischargebar.org/" title="discharge bar">discharge bar</a></span></li>
+<li style="margin-bottom:0.5rem"><a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">Federal Rules Suggestions</a><br/><span style="color:#7d8590;font-size:0.8rem">26-BK-3 submission</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://www.fjc.gov/research/idb" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">FJC Integrated Database</a><br/><span style="color:#7d8590;font-size:0.8rem">Source data for this research</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://pacer.uscourts.gov/" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">PACER</a><br/><span style="color:#7d8590;font-size:0.8rem">Public Access to Court Electronic Records</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://www.courtlistener.com/recap/" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">RECAP Archive</a><br/><span style="color:#7d8590;font-size:0.8rem">Free Law Project - free <a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> docs</span></li>
+<li style="margin-bottom:0.5rem"><a href="/cases/" style="color:#58a6ff;font-size:0.9rem;text-decoration:none">OBP Case Index</a><br/><span style="color:#7d8590;font-size:0.8rem">National per-district case index</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://commission.abi.org/" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">ABI Commission</a><br/><span style="color:#7d8590;font-size:0.8rem">American Bankruptcy Institute reform</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://scholar.google.com/scholar?q=%221328%28f%29%22+discharge+bar+bankruptcy" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">1328(f) Research</a><br/><span style="color:#7d8590;font-size:0.8rem">Google Scholar</span></li>
+</ul>
+</div>
+<!-- RELATED GUIDES - injected by inject_related_guides.py -->
+<div id="related-guides" style="max-width:900px;margin:2.5rem auto;padding:0 1rem">
+<p style="color:#f0f6fc;font-weight:700;font-size:1.2rem;margin:0 0 1rem 0;text-align:center">Related Guides</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem">
+<a class="related-card" href="https://openbankruptcyproject.org?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">Open Bankruptcy Project</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Free bankruptcy information guide</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">openbankruptcyproject.com →</p>
+</a>
+<a class="related-card" href="https://1328f.org?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">1328(f) Research Platform</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Free bankruptcy information guide</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">1328f.org →</p>
+</a>
+<a class="related-card" href="https://727a8.org?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">Section 727(a)(8) Research Hub</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Case law and circuit analysis for Section 727(a)(8)</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">727a8.org →</p>
+</a>
+<a class="related-card" href="https://whatischapter7.com?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">What Is Chapter 7 Bankruptcy?</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Everything you need to know about Chapter 7</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">whatischapter7.com →</p>
+</a>
+</div>
+</div>
+<style>
+.related-card:hover {border-color:#58a6ff !important;transform:translateY(-2px)}
+</style>
+<!-- /RELATED GUIDES -->
+<!-- BTN Cross-Links (auto-generated by crosslink_builder.py) -->
+<div class="btn-crosslinks" style="max-width:820px;margin:1.5rem auto;padding:1.5rem;background:#161b22;border:1px solid #30363d;border-radius:8px">
+<p style="color:#f0f6fc;font-weight:600;font-size:1rem;margin:0 0 0.75rem 0">Related Guides</p>
+<ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0.5rem">
+<li><a href="https://monitor.openbankruptcyproject.org" style="color:#58a6ff;text-decoration:none">Attorney Monitoring Dashboard</a></li>
+<li><a href="https://bankruptcymalpractice.org" style="color:#58a6ff;text-decoration:none">Bankruptcy Malpractice Guide</a></li>
+<li><a href="https://bankruptcymill.com" style="color:#58a6ff;text-decoration:none">What is a Bankruptcy Mill?</a></li>
+</ul>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization. EIN 41-5159631.</p>
+<p>All tools are free and open source. <a href="https://github.com/ilikemath9999" rel="noopener" target="_blank">View on GitHub</a> · <a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a></p>
+<p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is empirical research and educational information only.</p>
+</div>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
+<!-- BOOST-TOP10 internal links (boost_internal_links.py) -->
+<div class="boost-top10" style="max-width:820px;margin:2rem auto;padding:1.5rem;background:#0d1117;border:1px solid #238636;border-radius:8px">
+<p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
+<ul style="list-style:none;padding:0;margin:0">
+<li style="margin-bottom:0.5rem"><a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Bankruptcy Means Test by State</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcymeanstest.org</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Chapter 7 vs. Chapter 13 Comparison</a> <span style="color:#7d8590;font-size:0.8rem">-- chapter7vs13.org</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://727a8.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Section 727(a)(8) Discharge Waiting Period</a> <span style="color:#7d8590;font-size:0.8rem">-- 727a8.com</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://1099cdebt.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">1099-C Cancellation of Debt Tax Guide</a> <span style="color:#7d8590;font-size:0.8rem">-- 1099cdebt.com</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://bankruptcystudentloans.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loans in Bankruptcy</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcystudentloans.org</span></li>
+</ul>
+</div>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

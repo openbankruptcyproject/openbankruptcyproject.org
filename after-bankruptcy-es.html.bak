@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Recibio su Descarga? Que Sigue - Open Bankruptcy Project</title>
+<meta name="description" content="Lista de verificacion despues de la bancarrota: reconstruya su credito, compre un auto o casa, monitoree su reporte crediticio y entienda que sucede despues de la descarga.">
+<link rel="canonical" href="https://openbankruptcyproject.org/after-bankruptcy-es.html">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/after-bankruptcy.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/after-bankruptcy-es.html">
+
+<meta property="og:title" content="Recibio su Descarga? Que Sigue">
+<meta property="og:description" content="Lista de verificacion post-bancarrota: cronograma de reconstruccion de credito, compra de auto o casa, y pasos para proteger su nuevo comienzo.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/after-bankruptcy-es.html">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://openbankruptcyproject.org/og-image.svg">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg: #0d1117; --surface: #151b23; --border: #252d38; --border-light: #2d3748; --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; --green: #3fb950; }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; } a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; } .nav-brand a { color: var(--text); } .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; } .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; } .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; } .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; } .content li { margin-bottom: 8px; }
+        .timeline-box { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; margin-bottom: 24px; }
+        .timeline-box .tl-title { font-weight: 700; font-size: 1rem; margin-bottom: 16px; }
+        .tl-item { display: flex; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+        .tl-item:last-child { border-bottom: none; }
+        .tl-period { font-size: 0.85rem; font-weight: 600; color: var(--green); min-width: 110px; }
+        .tl-desc { font-size: 0.92rem; color: var(--text-secondary); }
+        .checklist { list-style: none; margin: 0 0 24px 0; padding: 0; }
+        .checklist li { padding: 8px 0 8px 28px; position: relative; color: var(--text-secondary); }
+        .checklist li::before { content: ''; position: absolute; left: 0; top: 14px; width: 16px; height: 16px; border: 2px solid var(--border-light); border-radius: 3px; }
+        .resource-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+        .resource-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; transition: border-color 0.2s, transform 0.2s; }
+        .resource-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .resource-card .card-title { font-weight: 700; font-size: 1rem; margin-bottom: 8px; }
+        .resource-card .card-desc { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px; }
+        .resource-card a { font-size: 0.88rem; font-weight: 600; }
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+        .lang-switch { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 8px 16px; display: inline-block; margin: 16px 0; font-size: 0.88rem; }
+        footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+        footer .footer-links { margin-bottom: 20px; } footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; } footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+        @media (max-width: 600px) { .container { padding: 0 20px; } .page-header { padding: 48px 0 32px; } .page-header h1 { font-size: 1.8rem; } .content { padding: 40px 0; } .tl-item { flex-direction: column; gap: 4px; } }
+    </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cuanto tiempo permanece la bancarrota en mi reporte de credito?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La bancarrota del Capitulo 7 permanece en su reporte de credito por 10 anos desde la fecha de presentacion. El Capitulo 13 permanece por 7 anos. Sin embargo, el impacto en su puntaje crediticio disminuye significativamente con el tiempo, especialmente si reconstruye activamente su credito."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cuando puedo comprar una casa despues de la bancarrota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para prestamos FHA, el periodo de espera es 2 anos despues de la descarga del Capitulo 7 o 1 ano de pagos puntuales del plan del Capitulo 13 con aprobacion del tribunal. Prestamos convencionales requieren 4 anos despues del Capitulo 7 o 2 anos despues de la descarga del Capitulo 13. Prestamos VA requieren 2 anos despues del Capitulo 7."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cuando puedo comprar un auto despues de la bancarrota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puede comprar un auto inmediatamente despues de que se emita su descarga. Muchos prestamistas se especializan en prestamos de auto post-bancarrota. Las tasas de interes seran mas altas inicialmente pero disminuiran a medida que reconstruya su credito."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pueden los acreedores seguir contactandome despues de la descarga?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La orden de descarga prohibe permanentemente a los acreedores intentar cobrar deudas descargadas. Si un acreedor le contacta sobre una deuda descargada, esta violando la orden de descarga bajo 11 U.S.C. Seccion 524. Documente el contacto y consulte a un abogado."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "headline": "Recibio su Descarga? Que Sigue",
+      "description": "Lista de verificacion post-bancarrota: reconstruya credito, compre auto o casa, monitoree su reporte crediticio.",
+      "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+      "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+      "datePublished": "2026-04-09",
+      "dateModified": "2026-04-09",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/after-bankruptcy-es.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://openbankruptcyproject.org" },
+        { "@type": "ListItem", "position": 2, "name": "Despues de la Bancarrota", "item": "https://openbankruptcyproject.org/after-bankruptcy-es.html" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Inicio</a>
+            <a href="about-es.html">Acerca de</a>
+            <a href="contact-es.html">Contacto</a>
+            <a href="after-bankruptcy.html">English</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Inicio</a><span class="separator">&rsaquo;</span><span>Despues de la Bancarrota: Que Sigue</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Recibio su Descarga? Que Sigue</h1>
+        <p class="subtitle">Su nuevo comienzo empieza ahora. Aqui esta exactamente que hacer en los dias, meses y anos despues de la bancarrota.</p>
+        <div class="lang-switch"><a href="after-bankruptcy.html">Read this page in English</a></div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <h2>Lista de Verificacion Post-Descarga</h2>
+        <p>Felicidades por alcanzar su descarga. La parte mas dificil quedo atras. Los pasos a continuacion le ayudaran a proteger su nuevo comienzo y reconstruir mas rapido de lo que podria esperar.</p>
+
+        <ul class="checklist">
+            <li>Obtenga sus tres reportes de credito en <a href="https://www.annualcreditreport.com" target="_blank" rel="noopener">annualcreditreport.com</a> (gratis)</li>
+            <li>Verifique que cada deuda descargada muestre saldo cero</li>
+            <li>Dispute cualquier error con la agencia de credito por escrito</li>
+            <li>Guarde una copia de su orden de descarga - la necesitara</li>
+            <li>Abra una tarjeta de credito asegurada para comenzar a reconstruir credito</li>
+            <li>Establezca un presupuesto simple que priorice ahorrar un fondo de emergencia</li>
+            <li>Monitoree violaciones de descarga (acreedores que siguen intentando cobrar)</li>
+        </ul>
+
+        <h2>Cronograma de Reconstruccion de Credito</h2>
+        <div class="timeline-box">
+            <div class="tl-title">Que esperar mientras reconstruye</div>
+            <div class="tl-item">
+                <span class="tl-period">Mes 1-3</span>
+                <span class="tl-desc">Abra una tarjeta de credito asegurada ($200-500 deposito). Usela para un cargo recurrente pequeno y pague el saldo completo cada mes. Revise reportes de credito por errores.</span>
+            </div>
+            <div class="tl-item">
+                <span class="tl-period">Mes 3-6</span>
+                <span class="tl-desc">El puntaje crediticio comienza a recuperarse a medida que la mejora en la relacion deuda-ingreso se registra. Muchas personas ven una mejora de 50-80 puntos en este periodo.</span>
+            </div>
+            <div class="tl-item">
+                <span class="tl-period">Mes 6-12</span>
+                <span class="tl-desc">Considere agregar un prestamo de construccion de credito de una cooperativa de credito. Prestamos de auto se vuelven disponibles (tasas mas altas, pero manejables).</span>
+            </div>
+            <div class="tl-item">
+                <span class="tl-period">Ano 1-2</span>
+                <span class="tl-desc">Ofertas de tarjetas de credito sin garantia comienzan a llegar. La elegibilidad para hipotecas FHA se abre a los 2 anos post-descarga del Capitulo 7. El puntaje puede alcanzar el rango de 650-700.</span>
+            </div>
+            <div class="tl-item">
+                <span class="tl-period">Ano 2-4</span>
+                <span class="tl-desc">Periodos de espera de hipotecas convencionales terminan. El puntaje crediticio continua subiendo. Muchos declarantes alcanzan puntajes por encima de 700 para el ano 3-4.</span>
+            </div>
+        </div>
+
+        <h2>Comprar un Auto Despues de la Bancarrota</h2>
+        <p>Puede financiar un auto inmediatamente despues de la descarga. Consejos para obtener la mejor oferta:</p>
+        <ul>
+            <li><strong>Obtenga pre-aprobacion</strong> a traves de una cooperativa de credito antes de visitar concesionarios.</li>
+            <li><strong>Espere tasas mas altas</strong> inicialmente - 8-15% es comun en el primer ano.</li>
+            <li><strong>Evite lotes "compre aqui, pague aqui."</strong> Cobran interes extremo y a menudo no reportan pagos positivos.</li>
+            <li><strong>Mantenga el plazo del prestamo corto.</strong> Un prestamo de 48 meses cuesta menos en general.</li>
+            <li><strong>Pagos puntuales de auto reconstruyen credito rapido.</strong></li>
+        </ul>
+
+        <h2>Comprar una Casa Despues de la Bancarrota</h2>
+        <p>La propiedad de vivienda es absolutamente posible despues de la bancarrota. Los periodos de espera varian por tipo de prestamo:</p>
+        <ul>
+            <li><strong>Prestamos FHA:</strong> 2 anos despues de descarga del Capitulo 7; 1 ano en plan del Capitulo 13 (con aprobacion del tribunal)</li>
+            <li><strong>Prestamos VA:</strong> 2 anos despues de descarga del Capitulo 7</li>
+            <li><strong>Prestamos USDA:</strong> 3 anos despues de descarga del Capitulo 7</li>
+            <li><strong>Convencional (Fannie/Freddie):</strong> 4 anos despues de descarga del Capitulo 7; 2 anos despues de descarga del Capitulo 13</li>
+        </ul>
+
+        <h2>Proteja su Descarga</h2>
+        <p>Su orden de descarga es una orden judicial federal permanente. Significa que los acreedores tienen prohibido permanentemente intentar cobrar deudas descargadas. Pero las violaciones ocurren. Este atento a:</p>
+        <ul>
+            <li><strong>Llamadas o cartas de cobranza</strong> sobre deudas descargadas</li>
+            <li><strong>Errores en reportes de credito</strong> mostrando deudas descargadas como activas</li>
+            <li><strong>Demandas</strong> presentadas sobre deudas descargadas</li>
+            <li><strong>Intentos de embargo de salario</strong> sobre deudas pre-bancarrota</li>
+        </ul>
+        <p>Si cualquiera de estos ocurre, documente todo y consulte a un abogado. Las violaciones de descarga pueden resultar en sanciones y danos otorgados a usted.</p>
+
+        <h2>Recursos Gratuitos</h2>
+        <div class="resource-grid">
+            <div class="resource-card">
+                <div class="card-title">Reconstruir Credito</div>
+                <div class="card-desc">Guia paso a paso de reconstruccion de credito con cronogramas y seguimiento de puntaje.</div>
+                <a href="https://rebuildcreditafterbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=after-bankruptcy-es" target="_blank" rel="noopener">rebuildcreditafterbankruptcy.com &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Comprar un Auto</div>
+                <div class="card-desc">Guia de financiamiento de auto: cuando comprar, donde obtener pre-aprobacion y que evitar.</div>
+                <a href="https://buyacarafterbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=after-bankruptcy-es" target="_blank" rel="noopener">buyacarafterbankruptcy.com &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Comprar una Casa</div>
+                <div class="card-desc">Periodos de espera de hipoteca por tipo de prestamo, estrategias de enganche y como calificar mas rapido.</div>
+                <a href="https://buyahouseafterbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=after-bankruptcy-es" target="_blank" rel="noopener">buyahouseafterbankruptcy.com &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Puntaje de Credito</div>
+                <div class="card-desc">Como la bancarrota afecta su puntaje, cronogramas realistas de recuperacion y los factores que mas importan.</div>
+                <a href="https://creditscorebankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=after-bankruptcy-es" target="_blank" rel="noopener">creditscorebankruptcy.com &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Transparencia de bancarrota gratuita y de codigo abierto. Sin anuncios. Sin enlaces de afiliados.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Inicio</a>
+            <a href="about-es.html">Acerca de</a>
+            <a href="contact-es.html">Contacto</a>
+            <a href="privacy.html">Privacidad</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Patrocinar</a>
+        </div>
+        <p>Open Bankruptcy Project es una organizacion sin fines de lucro 501(c)(3) (determinacion pendiente).</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No se proporciona asesoramiento legal. Esta es informacion educativa solamente.</p>
+<p>Este sitio proporciona informacion general, no asesoramiento legal. Consulte a un abogado calificado para su situacion especifica.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

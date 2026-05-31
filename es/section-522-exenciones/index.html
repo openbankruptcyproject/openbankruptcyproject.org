@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d1117">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Marco de exenciones: panorama del § 522 - Open Bankruptcy Project</title>
+<meta name="description" content="Guía en español de 11 U.S.C. § 522 - el marco de exenciones (exemptions). Elección entre exenciones federales y estatales, la regla de domicilio de 730 días, evitación de gravámenes bajo la § 522(f), reducciones del homestead y el caso Law v. Siegel.">
+<link rel="canonical" href="https://openbankruptcyproject.org/es/section-522-exenciones/">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-522-exemptions-framework/">
+<link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/section-522-befreiungen/">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-522-exenciones/">
+<link rel="alternate" hreflang="pl" href="https://openbankruptcyproject.org/pl/section-522-zwolnienia/">
+<link rel="alternate" hreflang="fr" href="https://openbankruptcyproject.org/fr/section-522-exemptions/">
+<link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/section-522-exemptions-framework/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+<meta property="og:title" content="Marco de exenciones: panorama del § 522">
+<meta property="og:description" content="Guía en español de 11 U.S.C. § 522 - el marco de exenciones en quiebra.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/es/section-522-exenciones/">
+<meta property="og:image" content="/og-image.svg">
+<meta property="og:locale" content="es_MX">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/og-image.svg">
+
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+
+<meta name="last-modified" content="2026-05-22">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "inLanguage": "es",
+      "headline": "Marco de exenciones: panorama del § 522",
+      "description": "Guía en español de 11 U.S.C. § 522 - el marco de exenciones en quiebra.",
+      "author": {"@type": "Organization", "name": "Open Bankruptcy Project"},
+      "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+      "datePublished": "2026-05-22",
+      "dateModified": "2026-05-22",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/es/section-522-exenciones/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://openbankruptcyproject.org/"},
+        {"@type": "ListItem", "position": 2, "name": "Estatutos", "item": "https://openbankruptcyproject.org/#statutes"},
+        {"@type": "ListItem", "position": 3, "name": "Exenciones (§ 522)", "item": "https://openbankruptcyproject.org/es/section-522-exenciones/"}
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg: #0d1117; --surface: #151b23; --border: #252d38; --text: #e6edf3;
+    --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; }
+  html { scroll-behavior: smooth; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { color: var(--accent-hover); }
+  .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+  nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+    background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+  nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+  .nav-brand a { color: var(--text); }
+  .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+  .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+  .nav-links a:hover { color: var(--text); }
+  .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+  .page-header h1 { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; line-height: 1.25; }
+  .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+  .content { padding: 56px 0; }
+  .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; }
+  .content h2:first-child { margin-top: 0; }
+  .content h3 { font-size: 1.15rem; font-weight: 700; margin: 24px 0 8px; }
+  .content p { color: var(--text-secondary); margin-bottom: 16px; line-height: 1.8; }
+  .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+  .content li { margin-bottom: 8px; }
+  .callout { background: var(--surface); border-left: 3px solid var(--accent); padding: 14px 18px; border-radius: 6px; margin: 20px 0; }
+  .callout p { margin: 0; color: var(--text); }
+  footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+  footer .footer-links { margin-bottom: 20px; }
+  footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+  @media (max-width: 600px) { .container { padding: 0 20px; } .page-header h1 { font-size: 1.6rem; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+    <div class="nav-links">
+      <a href="/">Inicio</a>
+      <a href="/about.html">Acerca de</a>
+      <a href="/research.html">Investigación</a>
+      <a href="/network.html">Red</a>
+      <a href="/impact.html">Impacto</a>
+      <a href="/press.html">Prensa</a>
+      <a href="/contact.html">Contacto</a>
+      <a href="/section-522-exemptions-framework/" lang="en" hreflang="en">English</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Marco de exenciones: panorama del § 522</h1>
+    <p class="subtitle">Cómo el Bankruptcy Code permite al deudor mantener ciertos bienes fuera de la masa, cuándo aplican las exenciones (exemptions) estatales frente a las federales, la regla de domicilio de 730 días para escoger qué ley estatal rige, y los límites que la Supreme Court ha puesto a los tribunales para gravar esas exenciones.</p>
+  </div>
+</div>
+
+<div class="content">
+  <div class="container">
+
+    <h2>Qué hace la Section 522</h2>
+    <p>La Section 522 es el estatuto de exenciones. Las exenciones son el mecanismo por el cual un deudor mantiene bienes fuera de la masa de la quiebra (bankruptcy estate), más allá del alcance de los acreedores no garantizados. Sin exenciones, cada dólar de los activos de un deudor del Chapter 7 estaría disponible para liquidación; la lista de exenciones es lo que hace del Chapter 7 una herramienta viable de inicio nuevo en lugar de una entrega forzada de todo lo que el deudor posee.</p>
+    <div class="callout"><p><strong>Cita oficial:</strong> 11 U.S.C. § 522</p></div>
+    <p>La sección también contiene las reglas procesales para objetar las exenciones reclamadas, la lista federal de exenciones en la subsección (d), los poderes de evitación de gravámenes (lien avoidance) de la subsección (f), los topes y reducciones del homestead en las subsecciones (o), (p) y (q), y la protección de fondos de jubilación en la subsección (n).</p>
+
+    <h2>§ 522(b): Elección entre exenciones federales y estatales</h2>
+    <p>La Section 522(b)(1) da al deudor la opción de reclamar las exenciones federales listadas en la subsección (d) o las exenciones permitidas bajo la ley aplicable distinta a la de quiebra (exenciones estatales más exenciones federales no relacionadas con quiebras). La Section 522(b)(2) autoriza a cualquier estado a "optar por excluirse" (opt out) y obligar a sus residentes a usar únicamente la lista de exenciones estatales. Aproximadamente dos terceras partes de los estados se han excluido; el resto permite que el deudor elija.</p>
+    <p>La elección entre las listas federal y estatal es binaria; un deudor en un estado permisivo no puede mezclar y combinar. Para parejas casadas que presentan conjuntamente, ambos cónyuges deben elegir la misma lista (Section 522(b)(1)).</p>
+    <div class="callout"><p><strong>Estados que han optado por excluirse</strong> incluyen jurisdicciones grandes como Florida, Texas, Tennessee, North Carolina y Ohio. <strong>Estados permisivos</strong> incluyen Massachusetts, Pennsylvania, New York (con restricciones) y Washington. La lista cambia; verifique la ley estatal actual antes de elegir.</p></div>
+
+    <h2>§ 522(b)(3): Regla de domicilio estatal y la mirada hacia atrás de 730 días</h2>
+    <p>Antes de BAPCPA, un deudor podía mudarse de un estado con exenciones bajas a uno con exenciones altas poco antes de presentar y reclamar las exenciones más generosas del nuevo estado. BAPCPA agregó una regla de mirada hacia atrás (lookback) sobre domicilio en la Section 522(b)(3)(A) para desalentar esa maniobra.</p>
+    <p>Bajo la ley actual, el deudor debe usar las exenciones del estado donde tuvo su domicilio "durante los 730 días inmediatamente anteriores a la fecha de presentación de la petición". Si el deudor ha vivido en el estado actual menos de 730 días, el deudor usa las exenciones del estado donde tuvo su domicilio "durante el período de 180 días inmediatamente anterior a dicho período de 730 días, o por una parte mayor de dicho período de 180 días que en cualquier otro lugar".</p>
+    <p>Si la aplicación de la regla de mirada hacia atrás "hace al deudor inelegible para cualquier exención", el deudor puede usar las exenciones federales de la Section 522(d). Esta cláusula de salvaguarda evita que un deudor quede atrapado entre dos estados donde, por ejemplo, el estado anterior restringe sus exenciones a residentes actuales.</p>
+    <div class="callout"><p><strong>Ejemplo trabajado:</strong> deudor se muda del Estado A al Estado B 18 meses antes de presentar. Como el deudor no ha tenido su domicilio en el Estado B durante los 730 días completos, la mirada hacia atrás se vuelve a los 180 días anteriores a esa ventana de 730 días. Si el deudor estuvo en el Estado A durante toda esa ventana de 180 días anterior, las exenciones del Estado A aplican, aunque el deudor ahora viva en el Estado B.</p></div>
+
+    <h2>§ 522(d): La lista federal de exenciones</h2>
+    <p>Para los deudores que eligen o caen por defecto en la lista federal, la Section 522(d) enumera las exenciones permitidas federalmente, con montos en dólares ajustados cada tres años por inflación bajo la Section 104. Las principales categorías incluyen una exención de homestead, exención de vehículo motorizado, exención de bienes del hogar con tope por artículo, exención de joyería, exención "comodín" (wildcard) (la porción no utilizada del homestead más un monto fijo adicional aplicable a cualquier bien), exención de herramientas de trabajo, seguros de vida, ayudas para la salud recetadas profesionalmente, fondos de jubilación, manutención y pensión alimenticia, y recuperaciones por lesiones personales y muerte injusta.</p>
+    <p>El homestead federal es materialmente menos generoso que varios homesteads estatales. Los deudores en estados permisivos con plusvalía significativa en su vivienda rutinariamente eligen la ley estatal sólo por la razón del homestead. La exención comodín federal, en contraste, suele ser más flexible que los comodines estatales y puede ser determinante para un deudor con saldo en cuenta corriente u otros bienes que no encajen en una exención específica.</p>
+
+    <h2>§ 522(f): Evitación de gravámenes</h2>
+    <p>La Section 522(f) da al deudor una herramienta poderosa: el derecho a evitar (despojar) dos tipos de gravámenes (liens) que perjudiquen una exención a la que el deudor de otro modo tendría derecho.</p>
+    <p>La Section 522(f)(1)(A) permite la evitación de "un gravamen judicial" (judicial lien) que perjudique una exención, con carve-outs limitados para obligaciones de manutención familiar. Un acreedor por sentencia que haya registrado un gravamen sobre la vivienda del deudor puede ver dicho gravamen evitado en la medida en que perjudique la exención de homestead del deudor. La fórmula de cálculo en la Section 522(f)(2) es matemática: el gravamen perjudica la exención en la medida en que la suma del gravamen, todos los demás gravámenes y la exención exceda el valor que el interés del deudor en los bienes tendría sin gravámenes.</p>
+    <p>La Section 522(f)(1)(B) permite la evitación de "un interés de seguridad no posesorio y no de dinero de compra" (nonpossessory, nonpurchase-money security interest) en ciertas categorías de bienes de consumo: mobiliario del hogar, bienes del hogar, prendas de vestir, electrodomésticos, libros, animales, cultivos, instrumentos musicales, joyería tenida principalmente para uso personal, ayudas para la salud recetadas profesionalmente y herramientas de trabajo. La aplicación clásica es el prestamista de "préstamo de consolidación" que tomó un interés de seguridad general sobre todo lo de la casa del deudor como colateral no de dinero de compra; la Section 522(f)(1)(B) elimina el interés de seguridad y convierte al prestamista en acreedor general no garantizado.</p>
+
+    <h2>§ 522(o) y (p): Reducción del homestead</h2>
+    <p>BAPCPA agregó dos topes al homestead dirigidos a la manipulación de plusvalía previa a la presentación.</p>
+    <p>La Section 522(o) reduce la reclamación de homestead de un deudor por el valor de cualquier bien no exento que el deudor "dispuso de él en el período de 10 años que termina en la fecha de presentación de la petición" con intención de obstaculizar, retrasar o defraudar a los acreedores, si ese valor no exento se convirtió en homestead. Esto aborda el abuso de liquidar activos no exentos y verter el producto en una residencia en un estado de homestead ilimitado poco antes de presentar.</p>
+    <p>La Section 522(p) impone un tope absoluto a las exenciones de homestead reclamadas para residencias adquiridas dentro de los 1,215 días (aproximadamente 3 años y 4 meses) antes de presentar. El tope se ajusta por inflación bajo la Section 104. La disposición aplica sin importar la intención: incluso una mudanza honesta a un estado de exención alta y una compra honesta de residencia principal están sujetas al tope si caen dentro de la ventana de 1,215 días. La Section 522(p) no cubre transferencias entre residencias principales dentro del mismo estado (la excepción de "rollover").</p>
+    <p>La Section 522(q) impone un tope absoluto similar cuando el deudor ha sido condenado por un delito grave que demuestre abuso de las leyes de quiebra, ha sido encontrado responsable de ciertas violaciones a la ley de valores, o debe una deuda derivada de mala conducta intencional que haya causado lesión física grave o muerte.</p>
+
+    <h2>Law v. Siegel: Límites al sobrecargo equitativo</h2>
+    <p>La Supreme Court sostuvo en <em>Law v. Siegel</em>, 571 U.S. 415 (2014), que un tribunal de quiebras no puede "sobrecargar" (surcharge) la exención de homestead de un deudor para compensar a un trustee por los honorarios incurridos en deshacer el fraude del deudor. El trustee había argumentado que la mala conducta del deudor al fabricar una segunda hipoteca falsa para derrotar la recuperación de plusvalía no exenta del trustee justificaba usar los poderes equitativos del tribunal bajo la Section 105(a) para permitir recuperación del homestead de otro modo exento. La Corte rechazó por unanimidad ese enfoque.</p>
+    <p>La opinión sostiene que la Section 105(a) no puede usarse para anular las disposiciones expresas del Bankruptcy Code. La Section 522 establece motivos específicos por los cuales una exención puede ser denegada o reducida, y la conducta litigiosa de mala fe no está entre ellos. El hecho de que el comportamiento del deudor fuera "atroz" no le dio al tribunal de quiebras autoridad equitativa flotante para penalizarlo despojándolo de su exención estatutaria. Otras herramientas (denegación de descarga bajo la Section 727(a), referencia penal, sanciones bajo ley distinta a quiebras) permanecieron disponibles, pero meter mano en un homestead reclamado adecuadamente no estuvo entre ellas.</p>
+    <div class="callout"><p><strong>Efecto doctrinal:</strong> Law v. Siegel cierra los cuatro rincones de la Section 522 como la única base para limitar exenciones. Un trustee que crea que el deudor ha obtenido una exención mediante mala conducta debe trabajar dentro del estatuto (objeción oportuna bajo la Rule 4003, denegación de descarga bajo la Section 727) en lugar de pedir al tribunal que forje un remedio desde la Section 105.</p></div>
+
+    <h2>Procedimiento: Objeciones bajo la Rule 4003</h2>
+    <p>La Federal Rule of Bankruptcy Procedure 4003(b) requiere que la parte que objeta una exención reclamada presente la objeción dentro de los 30 días siguientes a la conclusión de la junta de acreedores (o dentro de los 30 días siguientes a una enmienda a la lista de exenciones). La Supreme Court sostuvo en <em>Taylor v. Freeland &amp; Kronz</em>, 503 U.S. 638 (1992), que la falta de objeción dentro del plazo precluye desafíos incluso a reclamos de exención patentemente impropios. Los trustees y acreedores deben actuar rápidamente o pierden el derecho por completo.</p>
+
+    <h2>Secciones relacionadas del Bankruptcy Code</h2>
+    <ul>
+      <li><a href="https://www.law.cornell.edu/uscode/text/11/541" target="_blank" rel="noopener">Section 541</a> - Bienes de la masa</li>
+      <li><a href="/es/section-727-descarga/">Section 727</a> - Descarga del Chapter 7 y motivos de denegación</li>
+      <li><a href="https://www.law.cornell.edu/uscode/text/11/105" target="_blank" rel="noopener">Section 105</a> - Poderes generales del tribunal</li>
+      <li><a href="https://www.law.cornell.edu/uscode/text/11/704" target="_blank" rel="noopener">Section 704</a> - Deberes del trustee del Chapter 7</li>
+      <li><a href="https://www.law.cornell.edu/uscode/text/11/104" target="_blank" rel="noopener">Section 104</a> - Ajustes de montos en dólares</li>
+    </ul>
+
+    <h2>Lecturas adicionales</h2>
+    <ul>
+      <li><a href="https://www.law.cornell.edu/uscode/text/11/522" target="_blank" rel="noopener">11 U.S.C. § 522 - Exemptions</a></li>
+      <li><em>Law v. Siegel</em>, 571 U.S. 415 (2014)</li>
+      <li><em>Taylor v. Freeland &amp; Kronz</em>, 503 U.S. 638 (1992)</li>
+      <li><a href="/section-522-exemptions-framework/" lang="en" hreflang="en">Página en inglés de esta misma sección</a></li>
+    </ul>
+
+    <p style="margin-top:32px;font-size:0.85rem;color:var(--text-muted)"><em>Esta página proporciona únicamente información educativa. Las cuestiones de exenciones varían sustancialmente por estado y son procesalmente complejas. Consulte a un abogado licenciado en quiebras sobre su situación específica.</em></p>
+
+  </div>
+</div>
+
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Transparencia gratuita y de código abierto sobre quiebras. Sin publicidad. Sin enlaces de afiliados. Apoyado por <a href="https://openbankruptcyproject.org/donate.html">donaciones</a>.</p>
+
+  <div class="container">
+    <div class="footer-links">
+      <a href="/">Inicio</a>
+      <a href="/about.html">Acerca de</a>
+      <a href="/research.html">Investigación</a>
+      <a href="/contact.html">Contacto</a>
+      <a href="/privacy.html">Privacidad</a>
+      <a href="/terms.html">Términos</a>
+      <a href="/deletion-requests.html">Solicitudes de eliminación</a>
+    </div>
+    <p>Open Bankruptcy Project es una organización 501(c)(3) sin fines de lucro.</p>
+    <p>EIN 41-5159631. Todas las herramientas y datos se publican bajo licencias de código abierto.</p>
+  </div>
+  <p style="margin-top:16px; font-size:0.8rem;">No se proporciona asesoría legal. Esta es información educativa únicamente.</p>
+  <p>Este sitio proporciona información de carácter general, no asesoría legal. Consulte a un abogado calificado sobre su situación específica.</p>
+</footer>
+
+</body>
+</html>

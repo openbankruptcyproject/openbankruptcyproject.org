@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>KRPC 5.4: The Professional-Independence Architecture [2026] | Open Bankruptcy Project</title>
+<meta content="KRPC 5.4 and MRPC 4-5.4 establish the professional-independence architecture: permitted nonlawyer compensation structures, fee-sharing carve-outs, practice-entity ownership framework, and the third-party-payor architecture that preserves independent judgment." name="description"/>
+<meta content="KRPC 5.4, MRPC 4-5.4, professional independence, fee architecture, law firm ownership, third-party payor, ABS jurisdictions, Kansas ethics, Missouri ethics" name="keywords"/>
+<meta content="#0d1117" name="theme-color"/>
+<link href="https://openbankruptcyproject.org/krpc-5-4/" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="KRPC 5.4: The Professional-Independence Architecture" property="og:title"/>
+<meta content="The architecture under 5.4 that preserves lawyer independent judgment - permitted compensation structures, fee-sharing exceptions, ownership framework, and third-party-payor architecture." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/krpc-5-4/" property="og:url"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "KRPC 5.4: The Professional-Independence Architecture",
+      "about": {"@type": "Thing", "name": "Rule of Professional Conduct on Professional Independence of a Lawyer"},
+      "author": {"@type": "Organization", "name": "Open Bankruptcy Project"},
+      "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+      "dateModified": "2026-05-23"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Open Bankruptcy Project", "item": "https://openbankruptcyproject.org/"},
+        {"@type": "ListItem", "position": 2, "name": "KRPC 5.4 / MRPC 4-5.4", "item": "https://openbankruptcyproject.org/krpc-5-4/"}
+      ]
+    }
+  ]
+}
+</script>
+<!-- BTN:GA4:START -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<style>
+  :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --text-muted:#9eaab6; --accent:#58a6ff; --green:#238636; --red:#f85149; --yellow:#f0c14b; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; min-height:100vh; display:flex; flex-direction:column; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  nav { background:var(--surface); border-bottom:1px solid var(--border); padding:0.75rem 2rem; display:flex; align-items:center; justify-content:space-between; }
+  .site-name { color:#f0f6fc; font-weight:700; font-size:1.1rem; text-decoration:none; }
+  .site-name:hover { color:var(--accent); text-decoration:none; }
+  .container { max-width:820px; margin:0 auto; padding:2.5rem 2rem; flex:1; }
+  h1 { color:#f0f6fc; font-size:2.25rem; margin-bottom:0.5rem; line-height:1.25; }
+  .subtitle { color:var(--text-muted); font-size:1.05rem; margin-bottom:2rem; }
+  h2 { color:#f0f6fc; font-size:1.4rem; margin:2rem 0 0.75rem; }
+  h3 { color:#f0f6fc; font-size:1.1rem; margin:1.5rem 0 0.5rem; }
+  p { margin-bottom:1rem; }
+  ul, ol { margin:0.5rem 0 1rem 1.5rem; }
+  li { margin-bottom:0.4rem; }
+  blockquote { background:var(--surface); border-left:3px solid var(--accent); padding:1rem 1.25rem; margin:1rem 0; color:var(--text); font-style:italic; }
+  code { background:var(--surface); border:1px solid var(--border); padding:0.15rem 0.4rem; border-radius:4px; font-size:0.9em; color:var(--text); }
+  .callout { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:1.25rem 1.5rem; margin:1.5rem 0; }
+  .callout.gov { background:#0d2847; border-color:#1f6feb; }
+  .callout.warn { background:#2a1a00; border-color:#bb8c3a; }
+  .callout strong { color:#f0f6fc; }
+  .callout p:last-child { margin-bottom:0; }
+  .tag { display:inline-block; background:var(--surface); border:1px solid var(--border); border-radius:4px; padding:0.1rem 0.5rem; font-size:0.75rem; color:var(--text-muted); margin-right:0.4rem; text-transform:uppercase; letter-spacing:0.03em; }
+  .two-col { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin:1rem 0; }
+  @media (max-width:640px) { .two-col { grid-template-columns:1fr; } }
+  .two-col .card { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:1.25rem; }
+  .two-col .card h3 { margin-top:0; }
+  .two-col .card p:last-child { margin-bottom:0; }
+  .network-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:0.6rem; margin:1rem 0; }
+  .network-grid a { background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:0.75rem; text-align:center; font-size:0.9rem; }
+  .network-grid a:hover { border-color:var(--accent); text-decoration:none; }
+  footer { background:var(--surface); border-top:1px solid var(--border); padding:1.5rem; text-align:center; font-size:0.8rem; color:var(--text-muted); margin-top:2rem; }
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is KRPC 5.4 / MRPC 4-5.4?", "acceptedAnswer": {"@type": "Answer", "text": "Rule 5.4 governs the professional independence of a lawyer. The rule restricts fee-sharing with non-lawyers, restricts partnerships with non-lawyers when any of the activities of the partnership consist of the practice of law, and limits the form and structure of practice arrangements to preserve professional independence."}}, {"@type": "Question", "name": "What fee-sharing restrictions does Rule 5.4(a) impose?", "acceptedAnswer": {"@type": "Answer", "text": "A lawyer or law firm shall not share legal fees with a non-lawyer, subject to specified exceptions including agreements regarding compensation for services rendered after a lawyer's death, certain pension and profit-sharing arrangements, and sharing of court-awarded fees with a non-profit organization that employed, retained, or recommended employment of the lawyer."}}, {"@type": "Question", "name": "What partnership restrictions does Rule 5.4(b) impose?", "acceptedAnswer": {"@type": "Answer", "text": "A lawyer shall not form a partnership with a non-lawyer if any of the activities of the partnership consist of the practice of law. The restriction is rooted in the concern that non-lawyer participation in the management of a law practice could compromise the professional independence of the lawyers."}}, {"@type": "Question", "name": "What is the independence-of-judgment requirement under Rule 5.4(c)?", "acceptedAnswer": {"@type": "Answer", "text": "A lawyer shall not permit a person who recommends, employs, or pays the lawyer to render legal services for another to direct or regulate the lawyer's professional judgment in rendering such legal services. The rule preserves the lawyer's loyalty to the client even when payment comes from a third party."}}, {"@type": "Question", "name": "How does Rule 5.4 interact with alternative business structures?", "acceptedAnswer": {"@type": "Answer", "text": "Most U.S. jurisdictions continue to enforce the Rule 5.4 restrictions on fee-sharing and non-lawyer ownership. A small number of jurisdictions have adopted limited exceptions allowing certain alternative business structures; lawyers practicing across jurisdictional lines must evaluate the local rule in each forum."}}]}</script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://openbankruptcyproject.org/krpc-5-4/","name":"KRPC 5.4: The Professional-Independence Architecture [2026] | Open Bankruptcy Project","speakable":{"@type":"SpeakableSpecification","cssSelector":[".speakable-summary","h1",".faq-question",".subtitle"]}}</script>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a class="site-name" href="/">Open Bankruptcy Project</a>
+<a href="/" style="color:var(--text-muted);font-size:0.9rem">Home</a>
+</nav>
+<div class="container">
+<span class="tag">Rule of Professional Conduct</span>
+<span class="tag">KRPC 5.4 / MRPC 4-5.4</span>
+<h1>KRPC 5.4: The Professional-Independence Architecture</h1>
+<p class="subtitle speakable-summary">The compensation, ownership, and third-party-payor framework that preserves a lawyer's independent professional judgment.</p>
+
+<h2>Verbatim text of KRPC 5.4 (Kansas)</h2>
+<blockquote>(a) A lawyer or law firm shall not share legal fees with a nonlawyer, except that:<br/>
+(1) an agreement by a lawyer with the lawyer's firm, partner, or associate may provide for the payment of money, over a reasonable period of time after the lawyer's death, to the lawyer's estate or to one or more specified persons;<br/>
+(2) a lawyer who undertakes to complete unfinished legal business of a deceased lawyer may pay to the estate of the deceased lawyer that proportion of the total compensation which fairly represents the services rendered by the deceased lawyer;<br/>
+(3) a lawyer or law firm may include nonlawyer employees in a compensation or retirement plan, even though the plan is based in whole or in part on a profit-sharing arrangement; and<br/>
+(4) a lawyer may share court-awarded legal fees with a nonprofit organization that employed, retained or recommended employment of the lawyer in the matter.<br/><br/>
+(b) A lawyer shall not form a partnership with a nonlawyer if any of the activities of the partnership consist of the practice of law.<br/><br/>
+(c) A lawyer shall not permit a person who recommends, employs, or pays the lawyer to render legal services for another to direct or regulate the lawyer's professional judgment in rendering such legal services.<br/><br/>
+(d) A lawyer shall not practice with or in the form of a professional corporation or association authorized to practice law for a profit, if:<br/>
+(1) a nonlawyer owns any interest therein, except that a fiduciary representative of the estate of a lawyer may hold the stock or interest of the lawyer for a reasonable time during administration;<br/>
+(2) a nonlawyer is a corporate director or officer thereof; or<br/>
+(3) a nonlawyer has the right to direct or control the professional judgment of a lawyer. Kan. Sup. Ct. R. 226, KRPC 5.4.</blockquote>
+
+<h2>Missouri Rule 4-5.4</h2>
+<p>Missouri Rule 4-5.4 is substantively identical to KRPC 5.4 and tracks <a href="https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_4_professional_independence_of_a_lawyer/" rel="noopener" target="_blank">ABA Model Rule 5.4</a>. Both jurisdictions adopt the architecture in four operative subdivisions: (a) the fee architecture, (b) the partnership-form architecture, (c) the third-party-payor architecture, and (d) the practice-entity ownership architecture.</p>
+
+<h2>The professional-independence architecture 5.4 establishes</h2>
+<p>Rule 5.4 exists to protect three client-facing interests that ride together: the client's interest in confidential communication, the client's interest in undivided loyalty, and the client's interest in legal advice driven by professional judgment rather than by the financial interest of a non-client. Each subdivision is a structural support beam for that protective architecture.</p>
+<p>The Comment to the Model Rule articulates the design purpose directly: the provisions express traditional limitations on sharing fees and on practice forms, and these limitations are to protect the lawyer's professional independence of judgment. Subdivision (a) handles the compensation surface. Subdivision (b) handles the entity-formation surface where a lawyer and a nonlawyer might enter business together. Subdivision (c) handles the bill-paying surface where someone other than the client funds the representation. Subdivision (d) handles the ongoing-entity surface where ownership, governance, or control of a law-practice entity is at issue. Each surface, treated structurally, removes a different vector through which a nonlawyer could acquire leverage over a lawyer's advice.</p>
+
+<h2>Permitted nonlawyer-employee compensation structures under 5.4(a)</h2>
+<p>The compensation architecture under 5.4(a) is fully compatible with the realities of a modern law-firm payroll. Nonlawyer employees - paralegals, legal assistants, investigators, IT staff, office administrators, marketing professionals, billing clerks - are routinely and properly compensated out of the firm's legal-fee revenue. The rule's structure preserves this in several specific ways:</p>
+<ul>
+<li><strong>Salary and wages funded from law-firm earnings.</strong> The Comment confirms that the rule does not prohibit payment of salary or wages to nonlawyer employees out of legal-fee revenue. The firm's revenue funds the firm's payroll in the ordinary course; the rule's "fee-sharing" concept reaches dispositional arrangements that confer a share of a particular legal fee, not the routine payment of employee compensation.</li>
+<li><strong>Estate-of-deceased-lawyer payments under 5.4(a)(1).</strong> A firm may agree, in advance, that money will be paid over a reasonable period after a lawyer's death to the deceased lawyer's estate or to specified beneficiaries. This permits practical succession planning and orderly transition arrangements.</li>
+<li><strong>Completion-of-unfinished-business payments under 5.4(a)(2).</strong> When a successor lawyer completes unfinished matters of a deceased lawyer, the successor may pay to the deceased lawyer's estate the proportion of total compensation fairly representing the services the deceased lawyer rendered. The architecture preserves the orderly winding-down of pending matters.</li>
+<li><strong>Nonlawyer profit-sharing and retirement plans under 5.4(a)(3).</strong> Nonlawyer employees may participate in compensation or retirement plans even when those plans are based in whole or in part on a profit-sharing arrangement. The rule explicitly authorizes nonlawyer participation in the firm's economic upside through plan structures.</li>
+</ul>
+<p>These four categories together describe a wide compensation envelope. The architecture's structural concern is not the existence of payments to nonlawyers from legal-fee revenue, but rather the existence of arrangements that would give a nonlawyer a financial stake in a particular matter such that the nonlawyer's interest could influence professional judgment.</p>
+
+<h2>Permitted fee-sharing exceptions under 5.4(a)</h2>
+<p>Beyond the employment-compensation envelope, subdivision (a) preserves specific fee-sharing carve-outs that serve identifiable policy interests:</p>
+<ul>
+<li><strong>5.4(a)(4) - Court-awarded fees shared with a nonprofit.</strong> A lawyer may share court-awarded legal fees with a nonprofit organization that employed, retained, or recommended employment of the lawyer in the matter. The carve-out preserves the funding model that supports public-interest representation: a nonprofit referrer or employer may receive a share of statutory or court-awarded fees, enabling sustainable provision of representation in fee-shifting matters.</li>
+<li><strong>Estate succession (a)(1).</strong> Already described above; categorically permitted by the rule architecture.</li>
+<li><strong>Completion of a deceased lawyer's matters (a)(2).</strong> Already described above; the architecture preserves continuity of representation.</li>
+<li><strong>Retirement and profit-sharing plans for nonlawyer employees (a)(3).</strong> Already described above; the architecture preserves competitive employee-benefit structures.</li>
+</ul>
+<p>The drafting choice to enumerate exceptions rather than to articulate a general "no influence" standard produces predictability: a firm administrator structuring a retirement plan, an executor of a deceased lawyer's estate, or a public-interest organization negotiating a fee-recoupment arrangement can read the rule and identify exactly which structure is preserved.</p>
+
+<h2>The practice-entity ownership framework under 5.4(b) and 5.4(d)</h2>
+<p>Subdivisions (b) and (d) together establish the entity-ownership architecture that maintains lawyer control over law-practice entities in jurisdictions that have adopted the Model Rule structure:</p>
+<ul>
+<li><strong>5.4(b) - Partnership architecture.</strong> A lawyer does not form a partnership with a nonlawyer if any of the activities of the partnership consist of the practice of law. The architecture preserves the practice-of-law partnership as a lawyer-only structure in jurisdictions that follow the Model Rule.</li>
+<li><strong>5.4(d)(1) - Ownership interest architecture.</strong> A lawyer does not practice with or in the form of a for-profit professional corporation or association authorized to practice law if a nonlawyer owns any interest in it, with the limited exception that a fiduciary representative of a deceased lawyer's estate may hold the deceased lawyer's stock or interest for a reasonable time during administration.</li>
+<li><strong>5.4(d)(2) - Governance architecture.</strong> A nonlawyer may not be a corporate director or officer of the practice entity. The architecture extends beyond ownership to governance: even if a nonlawyer holds no equity interest, the nonlawyer may not occupy a director or officer seat in the entity.</li>
+<li><strong>5.4(d)(3) - Control architecture.</strong> A nonlawyer may not have the right to direct or control the professional judgment of a lawyer. This is the doctrinal anchor of the whole subdivision: every other element exists to keep this control architecture intact.</li>
+</ul>
+<p>The cumulative design is that, in jurisdictions following the Model Rule structure, the practice-of-law entity is owned, governed, and directionally controlled by lawyers. Revenue-extraction by non-client outside investors is held out of the form, which preserves the lawyer's professional judgment as the operative input to client advice.</p>
+
+<h2>The director/officer/employee structure 5.4(d) permits and protects</h2>
+<p>Subdivision (d) is sometimes described as a closed-form restriction; it is more accurate to describe it as an architecture that preserves a specific functional layering. The architecture permits and actively protects:</p>
+<ul>
+<li><strong>Lawyer professional corporations.</strong> The professional-corporation form (PA, PC, LLC, PLLC, depending on jurisdiction) is the standard form for law practice and is fully compatible with 5.4(d). All owners are lawyers; all directors and officers are lawyers; the entity holds malpractice insurance, owns the lease, employs the staff, and contracts in the entity's name.</li>
+<li><strong>Nonlawyer professional staff in operational roles.</strong> The entity employs a wide range of nonlawyer professionals - chief operating officers, chief financial officers, chief technology officers, chief marketing officers, paralegals, legal nurse consultants, investigators, IT staff. None of these roles requires director or officer status; all of these roles can be staffed at high seniority and high compensation without any tension with 5.4(d).</li>
+<li><strong>Lawyer-managed multi-disciplinary teams.</strong> A litigation team can be a lawyer-led group that includes paralegals, investigators, e-discovery technologists, jury consultants, forensic accountants, and trial-prep specialists. The architecture preserves a lawyer at the apex of professional-judgment decisions while permitting deeply integrated multi-disciplinary teams underneath.</li>
+<li><strong>Counsel relationships across organizations.</strong> A lawyer may be employed by a nonprofit, a corporation, a government agency, or any other organization. The 5.4(d) ownership architecture limits the form of the law-practice entity itself; it does not limit the universe of organizations that may employ a lawyer in a counsel role.</li>
+</ul>
+
+<h2>How alternative-business-structures (ABS) jurisdictions handle the same architecture differently</h2>
+<p>Several jurisdictions have adopted variations on the Model Rule architecture that permit alternative business structures - law-practice entities in which nonlawyer participation, ownership, or governance is permitted under regulated frameworks. The comparative landscape is descriptive, not normative:</p>
+<ul>
+<li><strong>Arizona.</strong> Effective 2021, the Arizona Supreme Court eliminated its analogue to 5.4 and created the Alternative Business Structure framework, permitting nonlawyer ownership of law firms subject to a state-administered licensure regime. The framework requires an ABS to be approved and supervised by the state; nonlawyer participation is gated through regulatory licensure rather than through professional-conduct prohibition.</li>
+<li><strong>Utah.</strong> Beginning 2020, Utah established a regulatory sandbox under the Office of Legal Services Innovation. Sandbox participants may include entities with nonlawyer ownership or that combine legal and nonlegal services, again subject to a state-administered approval and supervision regime.</li>
+<li><strong>England and Wales.</strong> The Legal Services Act 2007 established the Alternative Business Structure framework administered through the Solicitors Regulation Authority and other approved regulators. Nonlawyer ownership has been permitted in licensed bodies for more than a decade.</li>
+</ul>
+<p>The comparative point is not which architecture is preferable but rather that the underlying professional-independence goal is portable across multiple regulatory designs. In ABS jurisdictions, the independence-protection function is shifted from a single rule of professional conduct to a layered regulatory regime that includes entity-level licensure, supervision, and prohibitions against directing a lawyer's professional judgment in any particular matter. Kansas and Missouri have, to date, retained the Model Rule architecture in 5.4; understanding the comparative landscape clarifies that the operative concern is independence of professional judgment, however that protection is structurally implemented.</p>
+
+<h2>The 5.4(c) third-party-payor architecture</h2>
+<p>Subdivision (c) addresses a common and entirely legitimate arrangement: a person or entity other than the client pays the lawyer to render services for the client. Third-party-payor arrangements arise across the practice landscape - insurance defense, employer-paid representation, parent-paid representation for an adult child, organization-paid representation for a member or employee, trust-paid representation for a beneficiary, and many others.</p>
+<p>The architecture under 5.4(c) preserves these arrangements while protecting the lawyer's professional judgment. The lawyer does not permit the payor to direct or regulate the lawyer's professional judgment in rendering services to the client. The structural features that 5.4(c) protects:</p>
+<ul>
+<li><strong>The client is the client.</strong> Even where a third party pays, the lawyer's representation runs to the client, not to the payor. Professional duties of loyalty, communication, and confidentiality run to the client.</li>
+<li><strong>Independent judgment over strategic decisions.</strong> Decisions about case strategy, settlement evaluation, motion practice, and witness selection rest on the lawyer's professional judgment exercised on behalf of the client, not on the payor's preferences about cost or outcome.</li>
+<li><strong>Settlement authority rests with the client.</strong> Settlement decisions are reserved to the client under Rule 1.2(a). The payor's interest in resolving the matter at a particular cost cannot be permitted to override the client's settlement authority.</li>
+<li><strong>Confidentiality is preserved.</strong> Communications between the lawyer and the client remain confidential under Rule 1.6. The payor's interest in monitoring the representation cannot be permitted to compromise the client-lawyer confidential relationship.</li>
+</ul>
+<p>The architecture interlocks with <a href="https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_8_current_clients_specific_rules/" rel="noopener" target="_blank">Rule 1.8(f)</a>, which conditions third-party payment on client informed consent, no interference with the lawyer-client relationship, and protection of confidential information. Read together, 5.4(c) and 1.8(f) create a complete framework: 1.8(f) governs the entry into the arrangement, and 5.4(c) governs its ongoing operation.</p>
+
+<h2>Cross-references that work with 5.4</h2>
+<p>Rule 5.4 sits in a network of related rules that together implement the professional-independence design:</p>
+<ul>
+<li><strong><a href="/krpc-1-7/">Rule 1.7</a> - Conflicts of interest.</strong> A third-party-payor arrangement can create a 1.7 material-limitation conflict if there is a significant risk that the lawyer's representation will be limited by responsibilities to the payor; conflict analysis under 1.7 runs in parallel with the 5.4(c) independence analysis.</li>
+<li><strong>Rule 1.8(f) - Third-party payment.</strong> Conditions the entry into any third-party-payor arrangement: client gives informed consent, there is no interference with the lawyer's independence of professional judgment or with the client-lawyer relationship, and confidential information is protected as required by Rule 1.6.</li>
+<li><strong><a href="/krpc-1-16/">Rule 1.16</a> - Declining or terminating representation.</strong> When an arrangement that initially satisfies 5.4(c) and 1.8(f) breaks down - for instance, when the payor attempts to direct the representation in a manner inconsistent with the client's interests - the lawyer's options include withdrawal under 1.16 and, in some cases, mandatory withdrawal if continued representation would result in a rule violation.</li>
+<li><strong>Rule 1.6 - Confidentiality.</strong> Information relating to the representation remains confidential regardless of who pays the bill; 5.4(c) prevents the payor from acquiring control over confidential information by paying for the representation.</li>
+<li><strong><a href="/krpc-5-1/">Rule 5.1</a> and Rule 5.3 - Supervision.</strong> Firm-management measures under 5.1 typically include protocols for identifying and documenting third-party-payor arrangements at intake; nonlawyer-supervision measures under 5.3 typically include protocols ensuring that nonlawyer staff understand the architecture of the client-lawyer relationship even where a payor is involved.</li>
+<li><strong>Rule 2.1 - Advisor role.</strong> The lawyer exercises independent professional judgment and renders candid advice; 5.4 protects the structural conditions under which this is possible.</li>
+</ul>
+
+<h2>Related authority</h2>
+<ul>
+<li>ABA Model Rule 5.4 - <a href="https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_4_professional_independence_of_a_lawyer/" rel="noopener" target="_blank">model rule with comment</a></li>
+<li>Kansas Rules of Professional Conduct - <a href="https://www.kscourts.org/Rules-Procedures-Forms/Supreme-Court-Rules" rel="noopener" target="_blank">Kansas Supreme Court Rules</a></li>
+<li>Missouri Rules of Professional Conduct - <a href="https://www.courts.mo.gov/courts/clerkhandbooksp2rulesonly.nsf/c0c6ffa99df4993f86256ba50057dcb8/4d8b0a26efd1aeb086256ca600521c14" rel="noopener" target="_blank">Missouri Supreme Court Rule 4</a></li>
+<li>ABA Model Rule 1.8(f) - <a href="https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_8_current_clients_specific_rules/" rel="noopener" target="_blank">third-party payment provision</a></li>
+</ul>
+
+<h2>Open Bankruptcy Project cross-references</h2>
+<div class="network-grid">
+<a href="/krpc-1-7/">KRPC 1.7 (Conflicts)</a>
+<a href="/krpc-1-16/">KRPC 1.16 (Termination)</a>
+<a href="/krpc-5-1/">KRPC 5.1 (Supervision)</a>
+<a href="/krpc-5-3/">KRPC 5.3 (Nonlawyer Asst.)</a>
+<a href="/krpc-5-5/">KRPC 5.5 (UPL)</a>
+<a href="/krpc-5-6/">KRPC 5.6 (Restrictions)</a>
+</div>
+
+<p style="color:var(--text-muted);font-size:0.85rem;margin-top:2rem">This page provides general information about Rules of Professional Conduct 5.4 (Kansas) and 4-5.4 (Missouri). It does not constitute legal advice. Specific questions about fee arrangements, practice-entity formation, third-party-payor arrangements, or alternative business structures should be evaluated by qualified counsel in the relevant jurisdiction. Last modified 2026-05-23.</p>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+<p>This site provides general information only and does not constitute legal advice.</p>
+<p>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+<p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
+</footer>
+<!-- BTN:FOOTER:END -->
+</body>
+</html>

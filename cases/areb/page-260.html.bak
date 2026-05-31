@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>E.D. Ark. Bankruptcy Cases - Page 260 of 260 - Open Bankruptcy Project</title>
+    <meta name="description" content="Index of federal bankruptcy cases in the E.D. Ark. available on the RECAP Archive. Published by the Open Bankruptcy Project. All primary-source documents are on CourtListener.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/cases/areb/page-260.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="E.D. Ark. Bankruptcy Cases - Open Bankruptcy Project">
+    <meta property="og:description" content="Index of federal bankruptcy cases in the E.D. Ark. available on the RECAP Archive.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/cases/areb/page-260.html">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- BTN:GA4:START -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+    <!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "E.D. Ark. Bankruptcy Case Index (Page 260)", "description": "Index of federal bankruptcy cases in the E.D. Ark. available on the RECAP Archive. Published by the Open Bankruptcy Project.", "url": "https://openbankruptcyproject.org/cases/areb/page-260.html", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "creator": {"@type": "NonprofitOrganization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "sourceOrganization": {"@type": "Organization", "name": "Free Law Project", "url": "https://free.law/"}, "isAccessibleForFree": true, "keywords": "bankruptcy, federal court, RECAP, CourtListener, public records, E.D. Ark."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Cases", "item": "https://openbankruptcyproject.org/cases/"}, {"@type": "ListItem", "position": 3, "name": "E.D. Ark.", "item": "https://openbankruptcyproject.org/cases/areb/"}, {"@type": "ListItem", "position": 4, "name": "Page 260", "item": "https://openbankruptcyproject.org/cases/areb/page-260.html"}]}</script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230;
+            --border: #252d38; --border-light: #2d3748;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff;
+            --green: #3fb950; --gold: #d29922;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+
+        nav.topnav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav.topnav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
+
+        .breadcrumb { padding: 16px 0; font-size: 0.85rem; color: var(--text-muted); }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb a:hover { color: var(--accent); }
+        .breadcrumb .sep { margin: 0 8px; color: var(--border-light); }
+
+        .court-header { padding: 32px 0 24px; border-bottom: 1px solid var(--border); }
+        .court-header .label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 8px; }
+        .court-header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+        .court-header p { color: var(--text-secondary); font-size: 0.95rem; max-width: 780px; }
+
+        .case-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 32px 0; }
+        .case-table th { background: var(--bg); text-align: left; padding: 14px 16px; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; border-bottom: 1px solid var(--border); }
+        .case-table td { padding: 12px 16px; font-size: 0.88rem; border-bottom: 1px solid var(--border); }
+        .case-table tr:last-child td { border-bottom: none; }
+        .case-table tr:hover td { background: var(--surface-hover); }
+
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 16px; margin: 24px 0; font-size: 0.9rem; }
+        .pagination a { color: var(--accent); font-weight: 600; padding: 6px 12px; border: 1px solid var(--border-light); border-radius: 6px; }
+        .pagination a:hover { background: var(--surface); text-decoration: none; }
+        .pagination .page-info { color: var(--text-muted); }
+
+        .attribution { padding: 20px 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-size: 0.85rem; color: var(--text-muted); margin: 32px 0; }
+        .attribution strong { color: var(--text-secondary); }
+        .attribution a { color: var(--text-secondary); }
+        .attribution a:hover { color: var(--accent); }
+
+        footer { padding: 40px 0; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; text-align: center; }
+        footer a { color: var(--text-muted); margin: 0 10px; }
+        footer a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+<nav class="topnav">
+    <div class="container">
+        <a href="/" class="nav-brand">Open Bankruptcy Project</a>
+        <div class="nav-links">
+            <a href="/#mission">Mission</a>
+            <a href="/#what-we-do">What We Do</a>
+            <a href="/cases/" class="active">Cases</a>
+            <a href="/research.html">Research</a>
+            <a href="/recap.html">RECAP</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <a href="/cases/">Cases</a><span class="sep">/</span>
+        <a href="/cases/areb/">E.D. Ark.</a><span class="sep">/</span>
+        <span>Page 260</span>
+    </div>
+</div>
+
+<header class="court-header">
+    <div class="container">
+        <div class="label">Bankruptcy Court Index</div>
+        <h1>United States Bankruptcy Court for the Eastern District of Arkansas</h1>
+        <p>United States Bankruptcy Court for the Eastern District of Arkansas is one of the US federal bankruptcy courts whose public, RECAP-archived dockets are indexed here. The Open Bankruptcy Project maintains this national case-level index for empirical research and public-records access. Every case below links to the full docket on the Free Law Project&#x27;s CourtListener.</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <div class="pagination"><a href="page-259.html">← Prev</a> <span class="page-info">Page 260 of 260</span></div>
+
+    <table class="case-table">
+        <thead>
+            <tr>
+                <th>Case Number</th>
+                <th>Caption</th>
+                <th>Chapter</th>
+                <th>Filed</th>
+                <th>Primary Source</th>
+                <th>Research</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>4:05-bk-26060</td><td>Matthew W Vernich</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38270074/matthew-w-vernich/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-26053</td><td>Lisa A Carter</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38270044/lisa-a-carter/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26059</td><td>Benny F. Crabtrey and Carolyn L. Crabtrey</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38270018/benny-f-crabtrey-and-carolyn-l-crabtrey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-26058</td><td>Paul Adrian Miller and Theresa Ann Miller</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38270008/paul-adrian-miller-and-theresa-ann-miller/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26057</td><td>Traci L Vignery</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269860/traci-l-vignery/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26039</td><td>Annette Elaine Pierce</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269732/annette-elaine-pierce/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26052</td><td>Tommy Wayne Stephens</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269666/tommy-wayne-stephens/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26055</td><td>Themanuel Williams and Velma Williams</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269664/themanuel-williams-and-velma-williams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26054</td><td>Jeffrey Deryle Glenn and Sharon Kay Glenn</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269592/jeffrey-deryle-glenn-and-sharon-kay-glenn/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-26048</td><td>Jerry Allen Brown</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269537/jerry-allen-brown/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26041</td><td>Gerald Clark Thomas and Nancy Loucendie Thomas</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269506/gerald-clark-thomas-and-nancy-loucendie-thomas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26033</td><td>Samuel C. Dundee, Jr.</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269374/samuel-c-dundee-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-26051</td><td>Patsy L Gadberry</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269361/patsy-l-gadberry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-26049</td><td>Calvin F Evans</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269288/calvin-f-evans/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-26050</td><td>Amanda Gail Miller and Eric T Miller</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269279/amanda-gail-miller-and-eric-t-miller/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-26047</td><td>Shaun R Henderson and Jayme D Henderson</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38269102/shaun-r-henderson-and-jayme-d-henderson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26046</td><td>Anthony Dorse and Amy Dorse</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38268997/anthony-dorse-and-amy-dorse/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26044</td><td>Beverly Yvonne Williams</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38268907/beverly-yvonne-williams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-26031</td><td>Ashley M. Willfond</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38268845/ashley-m-willfond/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-26043</td><td>Jacquelyn M. Fort</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38268799/jacquelyn-m-fort/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>2:05-bk-26040</td><td>Myra Works</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38268575/myra-works/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26038</td><td>Debbie P. Chung</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38268423/debbie-p-chung/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26037</td><td>Tanya Renee West</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38268308/tanya-renee-west/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>2:05-bk-26036</td><td>Charles David Rodgers and Karen Denise Rodgers</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38268307/charles-david-rodgers-and-karen-denise-rodgers/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26023</td><td>Jacob N Cary and Donna L Cary</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38268216/jacob-n-cary-and-donna-l-cary/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26035</td><td>Helen Ann Polk</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38268175/helen-ann-polk/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26034</td><td>Jonathan Keith Vick</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38268102/jonathan-keith-vick/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>2:05-bk-26032</td><td>John Clayton Mayes</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267940/john-clayton-mayes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-26030</td><td>Cherie J Williams</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267812/cherie-j-williams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26028</td><td>Nathan C Huie and Jennifer L Huie</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267806/nathan-c-huie-and-jennifer-l-huie/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26029</td><td>Ground Zero Logistics, LLC</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267795/ground-zero-logistics-llc/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26027</td><td>Wendell D Richardson</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267604/wendell-d-richardson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26026</td><td>Johnny Hadley</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267541/johnny-hadley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>2:05-bk-26025</td><td>Carlos Dale Williams</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267442/carlos-dale-williams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26024</td><td>Charles Edwin Martin and Paige H. Martin</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267390/charles-edwin-martin-and-paige-h-martin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26022</td><td>Amber Ann Nicole Grimes</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267241/amber-ann-nicole-grimes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26021</td><td>Steven R Thompson and Renita L Thompson</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267161/steven-r-thompson-and-renita-l-thompson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26020</td><td>Gregory E DeRossitte and Amanda E DeRossitte</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267104/gregory-e-derossitte-and-amanda-e-derossitte/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26019</td><td>Mary B. Barry</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38267024/mary-b-barry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-26017</td><td>Cheryl R. Gentry</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266883/cheryl-r-gentry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26016</td><td>Disheker R Webb</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266822/disheker-r-webb/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26015</td><td>Rebecca G. Spellmeyer</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266752/rebecca-g-spellmeyer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-26014</td><td>Shannon Ray Patty</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266678/shannon-ray-patty/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-25984</td><td>Verna Lee Compton</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266670/verna-lee-compton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26013</td><td>Darla R Smith</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266615/darla-r-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26012</td><td>Patti K. Tuggle</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266544/patti-k-tuggle/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26011</td><td>Tommy L. Dick and Cynthia R Dick</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266541/tommy-l-dick-and-cynthia-r-dick/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26010</td><td>Shalanda D. Webb</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266401/shalanda-d-webb/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-26009</td><td>Royce Jean Hayes</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266335/royce-jean-hayes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26006</td><td>Kathleen Louise Gore</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266281/kathleen-louise-gore/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-26008</td><td>Henry Allen Massey</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266263/henry-allen-massey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26007</td><td>Christopher M. Hubbell and Kiesha L. Hubbell</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266237/christopher-m-hubbell-and-kiesha-l-hubbell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-25992</td><td>Frances Laverne Floyd</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266128/frances-laverne-floyd/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-26005</td><td>Jason E. Giles and Rachel M. Giles</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38266077/jason-e-giles-and-rachel-m-giles/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-26004</td><td>Stevie Lee Cobb</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265989/stevie-lee-cobb/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26003</td><td>Angela M Foster</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265935/angela-m-foster/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-26002</td><td>Charles Ray Mangrum and Teresa Jean Mangrum</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265827/charles-ray-mangrum-and-teresa-jean-mangrum/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-25990</td><td>Gerald H. Breckenridge</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265778/gerald-h-breckenridge/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-26001</td><td>Onita Scales</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265764/onita-scales/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-26000</td><td>Jimmy Brooks and Vickie L Brooks</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265719/jimmy-brooks-and-vickie-l-brooks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-25999</td><td>Kelly Barber</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265627/kelly-barber/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-25998</td><td>Angela Gale Jones</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265588/angela-gale-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-25997</td><td>George D Hughes and Carolyn D Hughes</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265533/george-d-hughes-and-carolyn-d-hughes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-25987</td><td>Wanda F. Sweeten</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265515/wanda-f-sweeten/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-25996</td><td>John D Elliott</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265417/john-d-elliott/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-25995</td><td>Billy L Harvey and Billie J Harvey</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265334/billy-l-harvey-and-billie-j-harvey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-25982</td><td>Jeannie Lynn Slisher</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265298/jeannie-lynn-slisher/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-25994</td><td>Richarn D Breedlove</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265289/richarn-d-breedlove/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-25980</td><td>Jamie Leigh Duncan</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265275/jamie-leigh-duncan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-25993</td><td>James D. Lawson</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265216/james-d-lawson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-25974</td><td>Shan Creggett</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265194/shan-creggett/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-25991</td><td>Melvyn D Seyfert and Glenda J Seyfert</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265120/melvyn-d-seyfert-and-glenda-j-seyfert/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-25978</td><td>Kevin Lamar Bledsoe</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38265106/kevin-lamar-bledsoe/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-25989</td><td>Jackie Lynn Shoemaker</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38264939/jackie-lynn-shoemaker/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-25988</td><td>James W Rieathbaum and Sheila D Rieathbaum</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38264938/james-w-rieathbaum-and-sheila-d-rieathbaum/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>4:05-bk-25986</td><td>Robert A Summers</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38264667/robert-a-summers/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-25985</td><td>Teresa L. Brickey and Timmy Wade Brickey</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38264626/teresa-l-brickey-and-timmy-wade-brickey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>3:05-bk-25983</td><td>Kathy Sifford</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38264446/kathy-sifford/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>1:05-bk-25981</td><td>Dennis R Reynolds and Christina L Reynolds</td><td>Ch. 7</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38264289/dennis-r-reynolds-and-christina-l-reynolds/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>5:05-bk-25967</td><td>Fred Douglas Martin and Carolyn Jean Martin</td><td>Ch. 13</td><td>2005-10-13</td><td><a href="https://www.courtlistener.com/docket/38264147/fred-douglas-martin-and-carolyn-jean-martin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+        </tbody>
+    </table>
+
+    <div class="pagination"><a href="page-259.html">← Prev</a> <span class="page-info">Page 260 of 260</span></div>
+
+    <div class="attribution">
+        <p><strong>Data source:</strong> Case metadata on this page comes from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>, operated by the <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a>. Content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. This derived index is published under the same license.</p>
+        <p style="margin-top: 12px;"><strong>Scope note:</strong> This index covers federal bankruptcy cases in the E.D. Ark. that appear on the RECAP Archive. The Open Bankruptcy Project does not reproduce docket PDFs or filing text on this domain - all primary-source access is via CourtListener. Last updated 2026-04-21.</p>
+    </div>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/recap.html">RECAP</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a></p>
+        <p style="margin-top: 12px;">Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p style="margin-top: 8px;">Case metadata from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a> / <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>

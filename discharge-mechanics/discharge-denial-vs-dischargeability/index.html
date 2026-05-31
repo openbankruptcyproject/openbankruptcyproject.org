@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Discharge Denial vs. Nondischargeability - Section 727 vs. 523 [2026]</title>
+<meta name="description" content="The structural difference between Section 727 universal denial of discharge (Chapter 7 only) and Section 523 specific-debt nondischargeability (all chapters), including standing, deadlines, and Rule 4007(c) 60-day bar.">
+<meta name="keywords" content="section 727, section 523, discharge denial, nondischargeability, Rule 4007(c), Rule 4004, adversary proceeding, trustee standing, US Trustee">
+<link rel="canonical" href="https://openbankruptcyproject.org/discharge-mechanics/discharge-denial-vs-dischargeability/">
+<meta property="og:title" content="Discharge Denial vs. Nondischargeability - Section 727 vs. 523">
+<meta property="og:description" content="The structural difference between Section 727 universal denial of discharge and Section 523 specific-debt nondischargeability, including standing, deadlines, and Rule 4007(c) 60-day bar.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/discharge-mechanics/discharge-denial-vs-dischargeability/">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="Discharge Denial vs. Nondischargeability - Section 727 vs. 523">
+<meta name="twitter:description" content="The structural difference between Section 727 universal denial of discharge and Section 523 specific-debt nondischargeability, with standing and deadline analysis.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+<meta name="last-modified" content="2026-05-22">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Discharge Denial vs. Nondischargeability - The Structural Difference Between Section 727 and Section 523","description":"The structural difference between Section 727 universal denial of discharge (Chapter 7 only) and Section 523 specific-debt nondischargeability (all chapters), including standing, deadlines, and Rule 4007(c) 60-day bar.","datePublished":"2026-05-22","dateModified":"2026-05-22","url":"https://openbankruptcyproject.org/discharge-mechanics/discharge-denial-vs-dischargeability/","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"}}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org"},
+    {"@type": "ListItem", "position": 2, "name": "Discharge Mechanics", "item": "https://openbankruptcyproject.org/discharge-mechanics/"},
+    {"@type": "ListItem", "position": 3, "name": "Discharge Denial vs. Nondischargeability", "item": "https://openbankruptcyproject.org/discharge-mechanics/discharge-denial-vs-dischargeability/"}
+  ]
+}
+</script>
+<style>
+  :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-muted: #9eaab6; --accent: #58a6ff; --green: #3fb950; --red: #f85149; --yellow: #e3a835; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  nav .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger { display: none; background: none; border: 1px solid var(--border); color: var(--text); font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1; }
+  .breadcrumb { max-width: 760px; margin: 1rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; color: var(--text-muted); }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header { background: linear-gradient(135deg, #0d2137, #122a44); border-bottom: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+  header h1 { color: #f0f6fc; font-size: 2rem; margin-bottom: 0.75rem; }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle { color: var(--text-muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 1.5rem; }
+  .content-section h2 { color: #f0f6fc; font-size: 1.375rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .content-section h3 { color: #f0f6fc; font-size: 1.125rem; margin: 1.5rem 0 0.75rem; }
+  .content-section p { color: var(--text); margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .content-section ul, .content-section ol { margin: 0.75rem 0 0.75rem 1.5rem; color: var(--text); font-size: 0.95rem; }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box { background: #21262d; border-left: 3px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .warning-box { background: #21262d; border-left: 3px solid var(--red); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .green-box { background: #21262d; border-left: 3px solid var(--green); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .yellow-box { background: #21262d; border-left: 3px solid var(--yellow); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .network-links { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem 2rem; margin-bottom: 1.5rem; font-size: 0.85rem; color: var(--text-muted); line-height: 2; }
+  .network-links strong { color: var(--text); }
+  footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 2rem; }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a { display: block; padding: 0.6rem 0; margin: 0; font-size: 0.95rem; min-height: 44px; line-height: 2; border-bottom: 1px solid #21262d; }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+  }
+</style>
+</head>
+<body>
+<nav aria-label="Main navigation">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a>
+    <a href="/research.html">Research</a>
+    <a href="/impact.html">Impact</a>
+    <a href="/legal-aid.html">Legal Aid</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1><span class="accent">Discharge Denial</span> vs. <span class="accent">Nondischargeability</span> &mdash; The Structural Difference</h1>
+  <p class="subtitle">Section 727 erases the discharge altogether for a Chapter 7 debtor; Section 523 carves out specific debts in any chapter. The two doctrines have different remedies, different plaintiffs, different deadlines, and very different consequences for the bankruptcy estate.</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/discharge-mechanics/">Discharge Mechanics</a> &rsaquo; Discharge Denial vs. Nondischargeability
+</div>
+
+<main>
+<aside style="background:#151b23;border:1px solid #252d38;border-radius:10px;padding:20px 24px;margin:24px 0;font-size:0.92rem;">
+  <strong style="color:#58a6ff;text-transform:uppercase;letter-spacing:0.06em;font-size:0.78rem;">Empirical research on this section</strong>
+  <p style="margin-top:10px;color:#b1bac4;">For case-pattern analysis on how federal bankruptcy courts apply these provisions, including district-level patterns and primary-source dockets, see <a href="/cases/" style="color:#58a6ff;">openbankruptcyproject.org/cases/</a>. All datasets licensed CC BY-SA 4.0.</p>
+</aside>
+
+<div class="content-section">
+  <h2>Two Doctrines, One Sentence Apart</h2>
+  <p>Practitioners and pro se debtors regularly conflate two structurally distinct doctrines: <strong>denial of discharge</strong> under Section 727 and <strong>nondischargeability of a specific debt</strong> under Section 523. They appear consecutively in the Code, both involve adversary proceedings, both can result in the debtor owing money after the case, and both produce a creditor's right to continue collection. But the two doctrines differ on every other axis.</p>
+  <p>The simplest way to see the difference is to ask the right question. <em>Did the debtor do something that disqualifies the debtor from any discharge at all?</em> That is a Section 727 question. <em>Did the debtor incur this specific debt in a way that makes this specific debt nondischargeable even if the debtor is otherwise discharged?</em> That is a Section 523 question. A debtor who fails Section 727 receives no discharge of anything. A debtor who loses on Section 523 receives a discharge of every other debt but remains personally liable on the one debt at issue.</p>
+  <div class="statute-box"><p><strong>Official citations:</strong> 11 U.S.C. &sect; 727 (denial); 11 U.S.C. &sect; 523 (nondischargeability). Federal Rule of Bankruptcy Procedure 4004 (denial deadline); Rule 4007 (nondischargeability deadline).</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Section 727 &mdash; Universal Denial of Discharge</h2>
+  <p>Section 727 applies only in Chapter 7. It enumerates twelve discrete grounds on which a court may deny a debtor's discharge in its entirety. The grounds are conduct-based: they target debtor behavior that is incompatible with the honest-but-unfortunate-debtor premise of the fresh start.</p>
+
+  <h3>The Twelve Grounds</h3>
+  <ul>
+    <li><strong>727(a)(1)</strong> &mdash; The debtor is not an individual (corporations and partnerships do not receive Chapter 7 discharges).</li>
+    <li><strong>727(a)(2)</strong> &mdash; Fraudulent transfer or concealment of property within one year before filing or after filing.</li>
+    <li><strong>727(a)(3)</strong> &mdash; Failure to keep or preserve books and records sufficient to ascertain financial condition.</li>
+    <li><strong>727(a)(4)</strong> &mdash; Knowingly and fraudulently making a false oath, presenting a false claim, withholding records, or omitting from a sworn statement.</li>
+    <li><strong>727(a)(5)</strong> &mdash; Failure satisfactorily to explain loss or deficiency of assets.</li>
+    <li><strong>727(a)(6)</strong> &mdash; Refusal to obey a court order or to testify after grant of immunity.</li>
+    <li><strong>727(a)(7)</strong> &mdash; Commission of any of the above acts in a connected insider case within one year before filing.</li>
+    <li><strong>727(a)(8) and (a)(9)</strong> &mdash; Receipt of a prior Chapter 7 discharge within 8 years or a prior Chapter 13 discharge within 6 years, subject to the percentage-payment exceptions.</li>
+    <li><strong>727(a)(10)</strong> &mdash; Court-approved written waiver of discharge.</li>
+    <li><strong>727(a)(11)</strong> &mdash; Failure to complete an instructional course on personal financial management.</li>
+    <li><strong>727(a)(12)</strong> &mdash; Pending Section 522(q)(1) proceeding regarding certain criminal or civil-rights debts.</li>
+  </ul>
+
+  <h3>Standing and Deadlines</h3>
+  <p>Section 727(c) provides that the trustee, a creditor, or the United States Trustee may object to discharge. Federal Rule of Bankruptcy Procedure 4004(a) sets the deadline: a complaint objecting to discharge under Section 727(a) must be filed not later than <strong>60 days after the first date set for the meeting of creditors</strong> under Section 341(a). Extensions are available for cause under Rule 4004(b) but must be requested before the deadline expires; missing the deadline is a hard bar.</p>
+  <p>A successful Section 727 action denies the debtor a discharge in that case. The debts remain owed, the bankruptcy machinery has run, and the debtor cannot refile in Chapter 7 (or Chapter 13 for relief from the same debts) without significant restrictions. The denial does not undo asset administration: the trustee continues to liquidate and distribute the estate.</p>
+</div>
+
+<div class="content-section">
+  <h2>Section 523 &mdash; Specific-Debt Nondischargeability</h2>
+  <p>Section 523 operates differently. It identifies categories of debt that are excepted from any discharge granted under Sections 727, 1141, 1192, 1228, or 1328(b). Section 523 does not affect whether the debtor receives a discharge; it affects which debts the discharge reaches.</p>
+
+  <h3>The Self-Executing Categories</h3>
+  <p>Most Section 523(a) categories are self-executing: they apply automatically without need for the creditor to file anything. These include domestic-support obligations (523(a)(5)), most taxes (523(a)(1)), student loans absent an undue-hardship adversary (523(a)(8), discussed in the <a href="/discharge-mechanics/student-loans-brunner-test/">Brunner test deep-dive</a>), criminal restitution (523(a)(7) and (a)(13)), DUI judgments (523(a)(9)), most condominium and HOA assessments that come due after the petition (523(a)(16)), and Section 522(q)(1) categories.</p>
+
+  <h3>The Adversary-Required Categories</h3>
+  <p>Three categories require an adversary proceeding filed by the creditor within the Rule 4007(c) window or the debt is discharged by default:</p>
+  <ul>
+    <li><strong>523(a)(2)</strong> &mdash; Debts obtained by false pretenses, false representation, or actual fraud. The Supreme Court interpreted "actual fraud" in <em>Husky International Electronics, Inc. v. Ritz</em>, 578 U.S. 355 (2016), to reach fraudulent-transfer schemes even absent a false representation; and held in <em>Lamar, Archer &amp; Cofrin, LLP v. Appling</em>, 138 S. Ct. 1752 (2018), that a single-asset statement is a "statement respecting the debtor's financial condition" that must be in writing to be actionable under 523(a)(2)(B).</li>
+    <li><strong>523(a)(4)</strong> &mdash; Fraud or defalcation while acting in a fiduciary capacity, embezzlement, or larceny. <em>Bullock v. BankChampaign, N.A.</em>, 569 U.S. 267 (2013), narrowed "defalcation" to require a culpable state of mind, gross recklessness at minimum.</li>
+    <li><strong>523(a)(6)</strong> &mdash; Willful and malicious injury by the debtor to another entity or to property of another entity.</li>
+  </ul>
+
+  <h3>Rule 4007(c) &mdash; The 60-Day Hard Deadline</h3>
+  <p>Rule 4007(c) requires a creditor to file a Section 523(a)(2), (4), or (6) adversary complaint within <strong>60 days after the first date set for the Section 341(a) meeting of creditors</strong>. Extensions must be requested before the deadline expires. The deadline is jurisdictional in effect: a creditor that fails to file in time loses the right to litigate dischargeability and the debt is discharged even if the underlying conduct would have supported nondischargeability.</p>
+  <p>Pro se creditors who hold actual-fraud claims and miss the Rule 4007(c) deadline cannot resurrect the claim later in state court. The bankruptcy court has exclusive jurisdiction over Section 523(a)(2), (4), and (6) determinations, and the discharge injunction of <a href="/discharge-mechanics/section-524-discharge-injunction/">Section 524</a> bars any state-court collection on the now-discharged debt.</p>
+
+  <div class="warning-box"><p><strong>Caution:</strong> The Rule 4007(c) 60-day deadline runs from the first date set for the 341 meeting, not from the actual date the meeting occurs and not from rescheduled dates. Continuance of the 341 meeting does not extend the deadline.</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Comparing the Two Doctrines</h2>
+  <ul>
+    <li><strong>Scope:</strong> 727 denies all discharge; 523 excepts specific debts only.</li>
+    <li><strong>Chapter:</strong> 727 is Chapter 7 only; 523 applies in Chapters 7, 11, 12, 13 (under 1328(b)), and Subchapter V (under 1192).</li>
+    <li><strong>Plaintiff:</strong> 727 may be brought by the trustee, the United States Trustee, or any creditor; 523(a)(2), (4), and (6) are creditor-only.</li>
+    <li><strong>Deadline:</strong> Both governed by 60-day window after first 341 meeting date (Rule 4004 for 727; Rule 4007(c) for 523).</li>
+    <li><strong>Burden:</strong> Both require the plaintiff to prove the case by a preponderance of the evidence under <em>Grogan v. Garner</em>, 498 U.S. 279 (1991).</li>
+    <li><strong>Outcome:</strong> A successful 727 leaves the debtor with no discharge; a successful 523 leaves the debtor discharged of every other debt with one carved out.</li>
+  </ul>
+</div>
+
+<div class="content-section">
+  <h2>Related Provisions and Further Reading</h2>
+  <ul>
+    <li><a href="/section-727-discharge-chapter-7.html">Section 727 &mdash; Chapter 7 Discharge</a></li>
+    <li><a href="/section-523-dischargeability.html">Section 523 &mdash; Exceptions to Discharge</a></li>
+    <li><a href="/dischargeability-determination-procedure/">Dischargeability Determination Procedure</a></li>
+    <li><a href="/discharge-mechanics/section-524-discharge-injunction/">Deep dive: The Section 524 Discharge Injunction</a></li>
+    <li><a href="/discharge-mechanics/student-loans-brunner-test/">Deep dive: Student Loans and the Brunner Test</a></li>
+  </ul>
+</div>
+
+<div class="network-links">
+  <strong>Bankruptcy Tools Network:</strong><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Discharge Screener</a> &middot;
+  <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Research Platform</a> &middot;
+  <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Exemptions by State</a> &middot;
+  <a href="https://keepmycarinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your Car</a> &middot;
+  <a href="https://keepmyhouseinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your House</a> &middot;
+  <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Bankruptcy Cost</a>
+</div>
+</main>
+
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by <a href="/donate.html">donations</a>.</p>
+  <p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+  <p style="margin-bottom:0.5rem">
+    <a href="/">Home</a> &middot;
+    <a href="/research.html">Research</a> &middot;
+    <a href="/impact.html">Impact</a> &middot;
+    <a href="/legal-aid.html">Legal Aid</a> &middot;
+    <a href="/about.html">About</a> &middot;
+    <a href="/contact.html">Contact</a>
+  </p>
+  <p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+</footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>

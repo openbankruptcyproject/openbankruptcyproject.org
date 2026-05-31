@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>N.D. Ala. Bankruptcy Cases - Page 245 of 245 - Open Bankruptcy Project</title>
+    <meta name="description" content="Index of federal bankruptcy cases in the N.D. Ala. available on the RECAP Archive. Published by the Open Bankruptcy Project. All primary-source documents are on CourtListener.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/cases/alnb/page-245.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="N.D. Ala. Bankruptcy Cases - Open Bankruptcy Project">
+    <meta property="og:description" content="Index of federal bankruptcy cases in the N.D. Ala. available on the RECAP Archive.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/cases/alnb/page-245.html">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- BTN:GA4:START -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+    <!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "N.D. Ala. Bankruptcy Case Index (Page 245)", "description": "Index of federal bankruptcy cases in the N.D. Ala. available on the RECAP Archive. Published by the Open Bankruptcy Project.", "url": "https://openbankruptcyproject.org/cases/alnb/page-245.html", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "creator": {"@type": "NonprofitOrganization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "sourceOrganization": {"@type": "Organization", "name": "Free Law Project", "url": "https://free.law/"}, "isAccessibleForFree": true, "keywords": "bankruptcy, federal court, RECAP, CourtListener, public records, N.D. Ala."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Cases", "item": "https://openbankruptcyproject.org/cases/"}, {"@type": "ListItem", "position": 3, "name": "N.D. Ala.", "item": "https://openbankruptcyproject.org/cases/alnb/"}, {"@type": "ListItem", "position": 4, "name": "Page 245", "item": "https://openbankruptcyproject.org/cases/alnb/page-245.html"}]}</script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230;
+            --border: #252d38; --border-light: #2d3748;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff;
+            --green: #3fb950; --gold: #d29922;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+
+        nav.topnav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav.topnav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
+
+        .breadcrumb { padding: 16px 0; font-size: 0.85rem; color: var(--text-muted); }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb a:hover { color: var(--accent); }
+        .breadcrumb .sep { margin: 0 8px; color: var(--border-light); }
+
+        .court-header { padding: 32px 0 24px; border-bottom: 1px solid var(--border); }
+        .court-header .label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 8px; }
+        .court-header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+        .court-header p { color: var(--text-secondary); font-size: 0.95rem; max-width: 780px; }
+
+        .case-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 32px 0; }
+        .case-table th { background: var(--bg); text-align: left; padding: 14px 16px; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; border-bottom: 1px solid var(--border); }
+        .case-table td { padding: 12px 16px; font-size: 0.88rem; border-bottom: 1px solid var(--border); }
+        .case-table tr:last-child td { border-bottom: none; }
+        .case-table tr:hover td { background: var(--surface-hover); }
+
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 16px; margin: 24px 0; font-size: 0.9rem; }
+        .pagination a { color: var(--accent); font-weight: 600; padding: 6px 12px; border: 1px solid var(--border-light); border-radius: 6px; }
+        .pagination a:hover { background: var(--surface); text-decoration: none; }
+        .pagination .page-info { color: var(--text-muted); }
+
+        .attribution { padding: 20px 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-size: 0.85rem; color: var(--text-muted); margin: 32px 0; }
+        .attribution strong { color: var(--text-secondary); }
+        .attribution a { color: var(--text-secondary); }
+        .attribution a:hover { color: var(--accent); }
+
+        footer { padding: 40px 0; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; text-align: center; }
+        footer a { color: var(--text-muted); margin: 0 10px; }
+        footer a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+<nav class="topnav">
+    <div class="container">
+        <a href="/" class="nav-brand">Open Bankruptcy Project</a>
+        <div class="nav-links">
+            <a href="/#mission">Mission</a>
+            <a href="/#what-we-do">What We Do</a>
+            <a href="/cases/" class="active">Cases</a>
+            <a href="/research.html">Research</a>
+            <a href="/recap.html">RECAP</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <a href="/cases/">Cases</a><span class="sep">/</span>
+        <a href="/cases/alnb/">N.D. Ala.</a><span class="sep">/</span>
+        <span>Page 245</span>
+    </div>
+</div>
+
+<header class="court-header">
+    <div class="container">
+        <div class="label">Bankruptcy Court Index</div>
+        <h1>United States Bankruptcy Court for the Northern District of Alabama</h1>
+        <p>United States Bankruptcy Court for the Northern District of Alabama is one of the US federal bankruptcy courts whose public, RECAP-archived dockets are indexed here. The Open Bankruptcy Project maintains this national case-level index for empirical research and public-records access. Every case below links to the full docket on the Free Law Project&#x27;s CourtListener.</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <div class="pagination"><a href="page-244.html">← Prev</a> <span class="page-info">Page 245 of 245</span></div>
+
+    <table class="case-table">
+        <thead>
+            <tr>
+                <th>Case Number</th>
+                <th>Caption</th>
+                <th>Chapter</th>
+                <th>Filed</th>
+                <th>Primary Source</th>
+                <th>Research</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>15-81115</td><td>James B Porter and Tonia B Porter</td><td>Ch. 7</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/54037154/james-b-porter-and-tonia-b-porter/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01622</td><td>Larry Wayne Owens and Claire Nobles Owens</td><td>Ch. 7</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/54037150/larry-wayne-owens-and-claire-nobles-owens/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01624</td><td>Melanie Sue Williams</td><td>Ch. 13</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/54037114/melanie-sue-williams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81114</td><td>Kristy L Bates</td><td>Ch. 13</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/54037113/kristy-l-bates/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40676</td><td>Celesia Shirlene Kilgore</td><td>Ch. 7</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/54037106/celesia-shirlene-kilgore/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81113</td><td>Sandra G Ogle</td><td>Ch. 7</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/54037054/sandra-g-ogle/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-80032</td><td>Stone v. State of Alabama Department of Revenue</td><td>—</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/54036997/stone-v-state-of-alabama-department-of-revenue/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40675</td><td>Brandon H. Whitehead</td><td>Ch. 7</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/54036962/brandon-h-whitehead/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40674</td><td>Priscilla B. Higdon</td><td>Ch. 7</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/54036892/priscilla-b-higdon/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01619</td><td>Kimberly L Reese</td><td>Ch. 7</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/54036866/kimberly-l-reese/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70576</td><td>Brandon Jamar Webb</td><td>Ch. 13</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/54036860/brandon-jamar-webb/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81125</td><td>Geraldine W Bush</td><td>Ch. 13</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/16543907/geraldine-w-bush/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70580</td><td>Billy Jack Smith</td><td>Ch. 13</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/16337932/billy-jack-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01636</td><td>Jataun D. Hoytt</td><td>Ch. 13</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/16200963/jataun-d-hoytt/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81119</td><td>Vonda Lechetta Deloney</td><td>Ch. 13</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/15028194/vonda-lechetta-deloney/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70577</td><td>Rosie Valericia Rainey</td><td>Ch. 13</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/8388342/rosie-valericia-rainey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81116</td><td>Eugenia D Simmons</td><td>Ch. 13</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/7123581/eugenia-d-simmons/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70584</td><td>Charles Barry Weaver</td><td>Ch. 13</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/6688741/charles-barry-weaver/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01634</td><td>Habakkuk Ibrahim Gardner</td><td>Ch. 13</td><td>2015-04-23</td><td><a href="https://www.courtlistener.com/docket/6663830/habakkuk-ibrahim-gardner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40671</td><td>Debra Compton</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54038103/debra-compton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40665</td><td>Amber Leann Smith</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037990/amber-leann-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40670</td><td>Misty Louise Williams</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037608/misty-louise-williams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81106</td><td>Johnny L Allen</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037577/johnny-l-allen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70569</td><td>Willie C Taylor</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037466/willie-c-taylor/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81109</td><td>Daryl Dewayne Garrison and Valerie Elizabeth Garrison</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037379/daryl-dewayne-garrison-and-valerie-elizabeth-garrison/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01604</td><td>Samantha J Winborn</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037345/samantha-j-winborn/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70572</td><td>David Curtis Dill and Sheila Jones Dill</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037315/david-curtis-dill-and-sheila-jones-dill/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81101</td><td>Elbert A Turner</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037297/elbert-a-turner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81107</td><td>Franklin Boyd White</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037296/franklin-boyd-white/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01608</td><td>Eric Von Ford</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037193/eric-von-ford/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01611</td><td>Curtis LaMarcus Taylor and Jamesia Shantise Williams</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037121/curtis-lamarcus-taylor-and-jamesia-shantise-williams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01612</td><td>Wendy D Cockrell</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54037044/wendy-d-cockrell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40673</td><td>Bradley Allan Roberson</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036940/bradley-allan-roberson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70571</td><td>Robert Alan Richardson</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036889/robert-alan-richardson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40664</td><td>April Marie Jones</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036875/april-marie-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70573</td><td>Bruce Lowell Boswell</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036873/bruce-lowell-boswell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81110</td><td>Michael Aaron Thornton and Crystal Leigh Thornton</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036800/michael-aaron-thornton-and-crystal-leigh-thornton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40668</td><td>Stephanie Shannon Hunter</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036722/stephanie-shannon-hunter/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40672</td><td>Andrew M. Blair and Paula C Blair</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036716/andrew-m-blair-and-paula-c-blair/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81097</td><td>Roy Lord</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036706/roy-lord/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81108</td><td>Miranda C Rains</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036691/miranda-c-rains/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40663</td><td>John Wayne Jackson and Heather Marie Jackson</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036678/john-wayne-jackson-and-heather-marie-jackson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01613</td><td>Jeffrey Allen Miller</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036597/jeffrey-allen-miller/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40669</td><td>Byron Lackey</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036590/byron-lackey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40662</td><td>Jackie Brooks</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036524/jackie-brooks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01606</td><td>Kenneth Steve Owens and Beverly Kaye Owens</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036513/kenneth-steve-owens-and-beverly-kaye-owens/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70574</td><td>Kenneth James Mitchell</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036478/kenneth-james-mitchell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81104</td><td>Lisha Mary Helen Dalton</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036410/lisha-mary-helen-dalton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81102</td><td>J. D. Smith and Jo Ann Smith</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036376/j-d-smith-and-jo-ann-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01609</td><td>William W. Julius</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036313/william-w-julius/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81099</td><td>Wesley A Holloway and Toni C Holloway</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036255/wesley-a-holloway-and-toni-c-holloway/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01607</td><td>Rojai Dwayne Atmore and Ciara Lashae Wilkerson</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036229/rojai-dwayne-atmore-and-ciara-lashae-wilkerson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81096</td><td>Bobby J Jonga</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036177/bobby-j-jonga/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40661</td><td>Larry Dwight Stiles and Deannie Stiles</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036062/larry-dwight-stiles-and-deannie-stiles/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01605</td><td>Linda F. Gregory</td><td>Ch. 7</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/54036060/linda-f-gregory/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01614</td><td>Marilyn Marie Smith</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/17184162/marilyn-marie-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01617</td><td>David A. Cathey</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/17002056/david-a-cathey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81103</td><td>Mary Ellen Sill</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/16886115/mary-ellen-sill/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70570</td><td>Sheila Patton Essary</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/14893797/sheila-patton-essary/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81095</td><td>Richard David Brackin</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/14630167/richard-david-brackin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81098</td><td>Jonathan Dewayne Binford</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/8505750/jonathan-dewayne-binford/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70575</td><td>Josette Shelton</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/7976622/josette-shelton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40667</td><td>Doris Jean Keahey</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/7871398/doris-jean-keahey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01615</td><td>Jeffrey Nims and Rena Nims</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/7867118/jeffrey-nims-and-rena-nims/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01610</td><td>Roy C. Minton and Shirley Anne H. Minton</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/7833249/roy-c-minton-and-shirley-anne-h-minton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01616</td><td>Joy McDowell</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/7234724/joy-mcdowell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40666</td><td>Joyce Bolt Holland</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/6984013/joyce-bolt-holland/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81105</td><td>John C Nix</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/6951453/john-c-nix/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81100</td><td>Alesha Denise Lynch</td><td>Ch. 13</td><td>2015-04-22</td><td><a href="https://www.courtlistener.com/docket/6392486/alesha-denise-lynch/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70567</td><td>Dorothy H Wright</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54037245/dorothy-h-wright/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81089</td><td>James H. Mosley and Chiquita L. Mosley</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036434/james-h-mosley-and-chiquita-l-mosley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-00051</td><td>Veluz v. Compass Bank</td><td>—</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036426/veluz-v-compass-bank/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81094</td><td>Quenton L Nunn, Sr.</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036418/quenton-l-nunn-sr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70568</td><td>Hershel Alvin Hill and Paula Marie Hill</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036414/hershel-alvin-hill-and-paula-marie-hill/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01593</td><td>Michelle Burpo Goodgame</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036312/michelle-burpo-goodgame/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01592</td><td>Forrest W. Robbins</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036278/forrest-w-robbins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01594</td><td>Tijuana Elaine Duke and Kenneth Duke</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036269/tijuana-elaine-duke-and-kenneth-duke/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40654</td><td>Lloyd Thomas Stewart and Kimberly Dianne Stewart</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036248/lloyd-thomas-stewart-and-kimberly-dianne-stewart/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01596</td><td>Cynthia D. Gales</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036246/cynthia-d-gales/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81079</td><td>Michael Martini and Regina Martini</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036207/michael-martini-and-regina-martini/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81091</td><td>Angela C. Ramsey</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036160/angela-c-ramsey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01595</td><td>Lakeisha J. Dobyne</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036145/lakeisha-j-dobyne/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81088</td><td>Kimberly Barnett</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036105/kimberly-barnett/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81093</td><td>Elizabeth Fagan</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036101/elizabeth-fagan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81081</td><td>Freda Olson</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54036086/freda-olson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01602</td><td>Jerry Wayne Morris and Darlene Stone Morris</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035944/jerry-wayne-morris-and-darlene-stone-morris/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01601</td><td>Sean Joseph Palmer</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035915/sean-joseph-palmer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01600</td><td>Tosha H Dowdell</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035902/tosha-h-dowdell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01599</td><td>Jeremy Cowan Dana and Amanda Lee Dana</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035872/jeremy-cowan-dana-and-amanda-lee-dana/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70563</td><td>Sean B Campbell</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035865/sean-b-campbell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01598</td><td>LeShaun Roy Ridlehoover</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035852/leshaun-roy-ridlehoover/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40016</td><td>Daugherty v. Clark</td><td>—</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035816/daugherty-v-clark/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01597</td><td>Tammi P. Ware</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035812/tammi-p-ware/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70564</td><td>Dinah F. Hall</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035724/dinah-f-hall/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81090</td><td>Jeffrey K Hall</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035716/jeffrey-k-hall/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70566</td><td>Michael C Zeilner</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035668/michael-c-zeilner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40659</td><td>Karen Helms</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035608/karen-helms/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81085</td><td>Wayne T Thornton and Dana M Thornton</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035595/wayne-t-thornton-and-dana-m-thornton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40656</td><td>Clary J. Knighton</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035594/clary-j-knighton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81087</td><td>Doyle L Andrews, Jr. and Sarah L. Andrews</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035589/doyle-l-andrews-jr-and-sarah-l-andrews/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81084</td><td>Charles Rodney Rainey, III</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035519/charles-rodney-rainey-iii/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81083</td><td>David Eugene Morris</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035461/david-eugene-morris/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40657</td><td>Amie Dison</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035407/amie-dison/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81080</td><td>Wyman R. Oden and Jamiey L. Oden</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035392/wyman-r-oden-and-jamiey-l-oden/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01589</td><td>Troy M. Bearden</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035252/troy-m-bearden/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01588</td><td>Kandy Garner</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/54035246/kandy-garner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40655</td><td>Kathy Moxley</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/17097204/kathy-moxley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01590</td><td>Versie B Morrow</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/16596882/versie-b-morrow/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81082</td><td>Cheryl Denise Johnson</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/16447146/cheryl-denise-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81092</td><td>Willis Bailey</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/8471866/willis-bailey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01603</td><td>Kenya K Flakes</td><td>Ch. 7</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/8061790/kenya-k-flakes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01591</td><td>Donna W Rigg</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/8028126/donna-w-rigg/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81086</td><td>Tonia R. Graves</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/7151594/tonia-r-graves/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70565</td><td>Lewis Edward Woods, III and Mary Louise Woods</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/7036791/lewis-edward-woods-iii-and-mary-louise-woods/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40660</td><td>Erma J Cooper</td><td>Ch. 13</td><td>2015-04-21</td><td><a href="https://www.courtlistener.com/docket/6766442/erma-j-cooper/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40014</td><td>Leo v. Citi Mastercard</td><td>—</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54036704/leo-v-citi-mastercard/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40650</td><td>Daniel S. Kinney and Stacie L. Kinney</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54036342/daniel-s-kinney-and-stacie-l-kinney/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40651</td><td>Zaharias Jack Limberis</td><td>Ch. 13</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54036315/zaharias-jack-limberis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01586</td><td>Anayia C. Dorsey</td><td>Ch. 13</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54036116/anayia-c-dorsey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40647</td><td>Gerald Glen Naugher</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54036094/gerald-glen-naugher/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40648</td><td>Brandy M. Swindle</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035946/brandy-m-swindle/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40649</td><td>Jimmie Sherrell Garrett</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035891/jimmie-sherrell-garrett/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40644</td><td>George E Morris and Gwen A Morris</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035843/george-e-morris-and-gwen-a-morris/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40653</td><td>Louie Verlon McGee, Jr. and Melissa Daniele McGee</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035725/louie-verlon-mcgee-jr-and-melissa-daniele-mcgee/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70555</td><td>Beatrice Inez Styron</td><td>Ch. 13</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035711/beatrice-inez-styron/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40643</td><td>Steven P Lackey and Lauria H Lackey</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035702/steven-p-lackey-and-lauria-h-lackey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81075</td><td>Mario Devin Walton and Tiffany Michelle Walton</td><td>Ch. 13</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035634/mario-devin-walton-and-tiffany-michelle-walton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70557</td><td>Crystal L. Farris</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035465/crystal-l-farris/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01583</td><td>Lisa Pugh</td><td>Ch. 13</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035455/lisa-pugh/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40658</td><td>Jeremy Lamar Harris</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035441/jeremy-lamar-harris/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70558</td><td>Roger Devon Allred</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035228/roger-devon-allred/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40015</td><td>Leo v. Chase Bank, NA</td><td>—</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035142/leo-v-chase-bank-na/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-40652</td><td>BJ Hammond</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035131/bj-hammond/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70562</td><td>Richard Wade Poe and Audrey Kay Poe</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54035037/richard-wade-poe-and-audrey-kay-poe/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70561</td><td>Eslin Ammons and Anna McCluskey Ammons</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54034993/eslin-ammons-and-anna-mccluskey-ammons/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81077</td><td>Roger Dale Keel and Teresa Michelle Keel</td><td>Ch. 13</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54034968/roger-dale-keel-and-teresa-michelle-keel/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-81076</td><td>David N. Johns</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54034936/david-n-johns/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70560</td><td>Jessica Ellen O&#x27;Bryant</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54034930/jessica-ellen-obryant/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-01582</td><td>Sonni Monique Morning</td><td>Ch. 7</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54034849/sonni-monique-morning/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>15-70556</td><td>Daniel Raymond Wolland and Felicia Parker</td><td>Ch. 13</td><td>2015-04-20</td><td><a href="https://www.courtlistener.com/docket/54034802/daniel-raymond-wolland-and-felicia-parker/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+        </tbody>
+    </table>
+
+    <div class="pagination"><a href="page-244.html">← Prev</a> <span class="page-info">Page 245 of 245</span></div>
+
+    <div class="attribution">
+        <p><strong>Data source:</strong> Case metadata on this page comes from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>, operated by the <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a>. Content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. This derived index is published under the same license.</p>
+        <p style="margin-top: 12px;"><strong>Scope note:</strong> This index covers federal bankruptcy cases in the N.D. Ala. that appear on the RECAP Archive. The Open Bankruptcy Project does not reproduce docket PDFs or filing text on this domain - all primary-source access is via CourtListener. Last updated 2026-04-21.</p>
+    </div>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/recap.html">RECAP</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a></p>
+        <p style="margin-top: 12px;">Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p style="margin-top: 8px;">Case metadata from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a> / <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>

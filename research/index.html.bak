@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federal Rules Submissions - Open Bankruptcy Project</title>
+    <meta name="description" content="Formal suggestions submitted to the Advisory Committee on Bankruptcy Rules and the Standing Committee on Rules of Practice and Procedure by the Open Bankruptcy Project.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/research/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    <meta property="og:title" content="Federal Rules Submissions - Open Bankruptcy Project">
+    <meta property="og:description" content="Formal suggestions submitted to the Advisory Committee on Bankruptcy Rules by the Open Bankruptcy Project.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/research/">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Federal Rules Submissions - Open Bankruptcy Project">
+    <meta name="twitter:description" content="Formal suggestions submitted to the Advisory Committee on Bankruptcy Rules by the Open Bankruptcy Project.">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-053Z64N82F');
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Federal Rules Submissions",
+        "description": "Formal suggestions submitted to the Advisory Committee on Bankruptcy Rules by the Open Bankruptcy Project.",
+        "url": "https://openbankruptcyproject.org/research/",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+        },
+        "hasPart": [
+            {
+                "@type": "WebPage",
+                "name": "Suggestion 26-BK-3: Section 1328(f) Discharge Eligibility Screening",
+                "url": "https://openbankruptcyproject.org/research/26-bk-3/"
+            },
+            {
+                "@type": "WebPage",
+                "name": "Suggestion 26-BK-5: Rule 9037 and Official Forms SSN Exposure",
+                "url": "https://openbankruptcyproject.org/research/26-bk-5/"
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0d1117;
+            --bg-elevated: #0f1319;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --accent-subtle: rgba(88, 166, 255, 0.08);
+            --green: #3fb950;
+            --green-subtle: rgba(63, 185, 80, 0.08);
+            --gold: #d29922;
+            --gold-subtle: rgba(210, 153, 34, 0.08);
+            --red: #f85149;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+        a:hover { color: var(--accent-hover); }
+
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border);
+            padding: 18px 0;
+            position: sticky;
+            top: 0;
+            background: rgba(13, 17, 23, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        nav .nav-inner {
+            max-width: 1040px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header {
+            padding: 72px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+        .page-header h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 12px;
+        }
+        .page-header .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 640px;
+        }
+
+        .content { padding: 56px 0; }
+
+        .submission-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 36px;
+            margin-bottom: 24px;
+            transition: border-color 0.2s, background 0.2s;
+            display: block;
+        }
+        .submission-card:hover {
+            border-color: var(--accent);
+            background: var(--surface-hover);
+            text-decoration: none;
+        }
+        .submission-card .tracking {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .submission-card .tracking .number { color: var(--gold); }
+        .submission-card .tracking .status {
+            font-size: 0.7rem;
+            padding: 3px 10px;
+            border-radius: 20px;
+            background: var(--gold-subtle);
+            color: var(--gold);
+            font-weight: 600;
+        }
+        .submission-card h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 12px;
+            letter-spacing: -0.01em;
+        }
+        .submission-card .subject {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+            line-height: 1.6;
+        }
+        .submission-card .meta {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .submission-card .meta span {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .submission-card .arrow {
+            color: var(--accent);
+            font-size: 0.88rem;
+            font-weight: 600;
+            margin-top: 16px;
+            display: block;
+        }
+
+        .back-link {
+            display: inline-block;
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+        .back-link:hover { color: var(--text); }
+
+        footer {
+            padding: 48px 0 40px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .submission-card { padding: 24px; }
+            .submission-card h2 { font-size: 1.1rem; }
+            .submission-card .meta { gap: 12px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/impact.html">Impact</a>
+            <a href="/press.html">Press</a>
+            <a href="/contact.html">Contact</a>
+            <a href="https://github.com/openbankruptcyproject" target="_blank" rel="noopener">GitHub</a>
+        </div>
+    </div>
+</nav>
+
+<header class="page-header">
+    <div class="container">
+        <h1>Federal Rules Submissions</h1>
+        <p class="subtitle">Formal suggestions submitted to the Judicial Conference of the United States for consideration by the Advisory Committee on Bankruptcy Rules and the Standing Committee on Rules of Practice and Procedure.</p>
+    </div>
+</header>
+
+<div class="content">
+    <div class="container">
+
+        <a href="/research/26-bk-3/" class="submission-card">
+            <div class="tracking">
+                <span class="number">26-BK-3</span>
+                <span class="status">Pending Consideration</span>
+            </div>
+            <h2>Section 1328(f) Discharge Eligibility Screening</h2>
+            <p class="subject">Rule 4004 - requiring verification of discharge eligibility under 11 U.S.C. Section 1328(f). Cited in the Consumer Subcommittee memo, Tab 4C, page 125 of the April 2026 Advisory Committee agenda book.</p>
+            <div class="meta">
+                <span>Submitted: Open Bankruptcy Project</span>
+                <span>Accepted: March 23, 2026</span>
+            </div>
+            <span class="arrow">View details &rarr;</span>
+        </a>
+
+        <a href="/research/26-bk-5/" class="submission-card">
+            <div class="tracking">
+                <span class="number">26-BK-5</span>
+                <span class="status">Pending Consideration</span>
+            </div>
+            <h2>Rule 9037 and Official Forms SSN Exposure</h2>
+            <p class="subject">Rule 9037, Official Forms 121 and 309E1 - SSN exposure in filed documents. Five proposed amendments addressing systemic PII exposure across federal court filings.</p>
+            <div class="meta">
+                <span>Submitted: Open Bankruptcy Project</span>
+                <span>Accepted: April 16, 2026</span>
+            </div>
+            <span class="arrow">View details &rarr;</span>
+        </a>
+
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/contact.html">Contact</a>
+            <a href="https://github.com/openbankruptcyproject" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://ko-fi.com/openbankruptcy" target="_blank" rel="noopener">Donate</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p>All tools and data released under open source licenses.</p>
+        <p style="margin-top: 12px;">No legal advice is provided. This is educational and research information only.</p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Discharge-Eligibility Screener - Free | Open Bankruptcy Project</title>
+<meta name="description" content="Free browser-based screener that checks § 1328(f) and § 727(a) discharge-timing bars against a user-supplied prior-filing history. No login, no data collection, no referral fees."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/screener/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Discharge-Eligibility Screener - Free | Open Bankruptcy Project"/>
+<meta property="og:description" content="Free browser-based screener that checks § 1328(f) and § 727(a) discharge-timing bars against a user-supplied prior-filing history. No login, no data collection, no referral fees."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/screener/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Bankruptcy Discharge-Eligibility Screener", "description": "Free browser-based screener that checks § 1328(f) and § 727(a) discharge-timing bars against a user-supplied prior-filing history. No login, no data collection, no referral fees.", "url": "https://openbankruptcyproject.org/screener/", "datePublished": "2026-04-21", "dateModified": "2026-04-21", "author": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org", "nonprofitStatus": "Nonprofit501c3"}, "isAccessibleForFree": true}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 3, "name": "Screener", "item": "https://openbankruptcyproject.org/screener/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is § 1328(f)?", "acceptedAnswer": {"@type": "Answer", "text": "11 U.S.C. § 1328(f) imposes timing bars on Chapter 13 discharges: (f)(1) bars discharge if the debtor received a discharge in a Chapter 7, 11, or 12 case filed within 4 years before the current Chapter 13; (f)(2) bars discharge if the debtor received a discharge in a Chapter 13 case filed within 2 years before the current Chapter 13."}}, {"@type": "Question", "name": "What is the 8-year rule?", "acceptedAnswer": {"@type": "Answer", "text": "§ 727(a)(8) bars a Chapter 7 discharge if the debtor received a prior Chapter 7 discharge within the 8 years preceding the current petition filing."}}, {"@type": "Question", "name": "Is the screener a substitute for legal advice?", "acceptedAnswer": {"@type": "Answer", "text": "No. The screener performs a mechanical statutory check on two specific discharge-timing rules. It does not evaluate other eligibility criteria, chapter choice, exemptions, or case strategy. For representation in a specific matter, contact a licensed attorney admitted in the applicable district."}}, {"@type": "Question", "name": "Does the screener store my information?", "acceptedAnswer": {"@type": "Answer", "text": "No. All calculations run in the browser. No filing history or personal information is transmitted to a server or retained."}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main h3{font-size:1.05rem;font-weight:700;margin:22px 0 8px;color:var(--text)}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul,main ol{margin:10px 0 18px 22px;color:var(--text-secondary)}
+main li{margin-bottom:6px}
+main strong{color:var(--text)}
+main code{background:var(--surface);padding:2px 6px;border-radius:4px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.callout strong{color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 24px;margin:18px 0}
+.card h3{margin-top:0}
+.link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+.link-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:.15s}
+.link-card:hover{background:var(--surface-hover);border-color:var(--accent)}
+.link-card .label{font-size:.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600;margin-bottom:4px}
+.link-card h4{font-size:.98rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.link-card p{font-size:.85rem;color:var(--text-secondary);margin:0}
+.faq details{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;color:var(--text-muted);font-weight:300;font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'−'}
+.faq details[open] summary{margin-bottom:10px;color:var(--accent)}
+.faq details p{margin:10px 0 0;color:var(--text-secondary)}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Free Tool</div>
+<h1>Bankruptcy Discharge-Eligibility Screener</h1>
+<p class="lede">The Open Bankruptcy Project's discharge-eligibility screener is a free browser tool that checks the 11 U.S.C. § 1328(f) and § 727(a) timing bars - the statutory rules that can prevent a discharge when a debtor has received a prior bankruptcy discharge within a specified lookback period. No login. No email capture. No referral fees.</p>
+<div class="datastamp">Data updated <time datetime="2026-04-21">2026-04-21</time>. See <a href="/research/methodology/">methodology &amp; sources</a>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Screener</div>
+<h2>What the screener checks</h2>
+<ul><li><strong>§ 727(a)(8):</strong> bars a Chapter 7 discharge if the debtor received a prior Chapter 7 discharge within 8 years before the current petition.</li><li><strong>§ 727(a)(9):</strong> bars a Chapter 7 discharge under certain conditions when the debtor received a Chapter 12 or Chapter 13 discharge within 6 years.</li><li><strong>§ 1328(f)(1):</strong> bars a Chapter 13 discharge if the debtor received a discharge in a Chapter 7, 11, or 12 case filed within 4 years before the current petition.</li><li><strong>§ 1328(f)(2):</strong> bars a Chapter 13 discharge if the debtor received a discharge in a prior Chapter 13 case filed within 2 years before the current petition.</li></ul>
+<h2>How to use it</h2>
+<p>The screener asks for the chapter and file date of each prior bankruptcy discharge and the chapter being considered for the current filing. It returns a plain-language assessment of whether § 1328(f) or § 727(a) timing bars would apply. All calculations run entirely in the browser - nothing is sent to a server, and no history is retained.</p>
+<p>The screener does not assess eligibility beyond the timing-bar statutes. Other eligibility criteria (means test, debt caps under § 109(e), credit-counseling status) are not part of the tool.</p>
+<div class="callout"><strong>Launch the screener:</strong> <a href="https://1328f.com" rel="external">1328f.com</a>. The screener opens in the browser with no login and no data capture.</div>
+<h2>Methodology</h2>
+<p>The screener implements the statutory rules from 11 U.S.C. § 1328(f) and § 727(a). Filing-date calculations use the petition filing date, not the case-closure date, consistent with the statutory text. Where the rule depends on a condition other than the timing comparison (e.g., § 727(a)(9) plan-payment condition), the screener flags the conditional outcome and links to the controlling statutory text.</p>
+<p>For more detail on the statutory framework, see the <a href="/chapter-7-vs-13/">Chapter 7 vs Chapter 13 guide</a> and the <a href="/research/methodology/">methodology page</a>.</p>
+<h2>Related resources</h2><div class="link-grid"><a class="link-card" href="/chapter-7-vs-13/"><div class="label">Concept</div><h4>Chapter 7 vs Chapter 13</h4><p>Factual comparison relevant to chapter-choice decisions.</p></a><a class="link-card" href="/pro-se/"><div class="label">Concept</div><h4>Pro se filing</h4><p>Procedural overview for filing without an attorney.</p></a><a class="link-card" href="/cases/"><div class="label">Data</div><h4>Prior-filer rates</h4><p>Per-district prior-filer rates in the national case index.</p></a></div>
+<section class="faq"><h2>Frequently asked questions</h2><details><summary>What is § 1328(f)?</summary><p>11 U.S.C. § 1328(f) imposes timing bars on Chapter 13 discharges: (f)(1) bars discharge if the debtor received a discharge in a Chapter 7, 11, or 12 case filed within 4 years before the current Chapter 13; (f)(2) bars discharge if the debtor received a discharge in a Chapter 13 case filed within 2 years before the current Chapter 13.</p></details><details><summary>What is the 8-year rule?</summary><p>§ 727(a)(8) bars a Chapter 7 discharge if the debtor received a prior Chapter 7 discharge within the 8 years preceding the current petition filing.</p></details><details><summary>Is the screener a substitute for legal advice?</summary><p>No. The screener performs a mechanical statutory check on two specific discharge-timing rules. It does not evaluate other eligibility criteria, chapter choice, exemptions, or case strategy. For representation in a specific matter, contact a licensed attorney admitted in the applicable district.</p></details><details><summary>Does the screener store my information?</summary><p>No. All calculations run in the browser. No filing history or personal information is transmitted to a server or retained.</p></details></section>
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Empirical statistics and informational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Data sources: Federal Judicial Center Integrated Database; Free Law Project RECAP Archive via CourtListener; official US federal bankruptcy court websites. Derived content on this page is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>. See the <a href="/research/methodology/">methodology page</a> for metric definitions and sourcing.</p>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+</body></html>

@@ -1,0 +1,280 @@
+/* OBP search widget styles. Dark theme aligned with the rest of the network. */
+.obp-search-wrap {
+  position: relative;
+  max-width: 720px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+.obp-search-input {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 1rem;
+  color: #e6edf3;
+  background: #151b23;
+  border: 1px solid #252d38;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.obp-search-input::placeholder {
+  color: #7d8590;
+}
+.obp-search-input:focus {
+  border-color: #58a6ff;
+  box-shadow: 0 0 0 3px rgba(88,166,255,0.18);
+}
+.obp-search-hint {
+  margin-top: 8px;
+  font-size: 0.78rem;
+  color: #7d8590;
+  text-align: center;
+}
+.obp-search-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+  align-items: center;
+}
+.obp-search-filter {
+  font-size: 0.85rem;
+  color: #7d8590;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.obp-search-filter select {
+  background: #151b23;
+  color: #e6edf3;
+  border: 1px solid #252d38;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  outline: none;
+  cursor: pointer;
+}
+.obp-search-filter select:focus {
+  border-color: #58a6ff;
+  box-shadow: 0 0 0 2px rgba(88,166,255,0.18);
+}
+.obp-search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 8px;
+  background: #0d1117;
+  border: 1px solid #252d38;
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.45);
+  max-height: 480px;
+  overflow-y: auto;
+  z-index: 2000;
+}
+.obp-search-results[hidden] { display: none; }
+.obp-search-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "pgm name" "pgm meta";
+  gap: 4px 12px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #1a2230;
+  color: #e6edf3;
+  text-decoration: none;
+  transition: background 0.1s;
+}
+.obp-search-row:last-child { border-bottom: none; }
+.obp-search-row:hover { background: #1a2230; text-decoration: none; }
+.obp-search-pgm {
+  grid-area: pgm;
+  align-self: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  line-height: 1;
+}
+.obp-pgm-ppp { background: #0d2818; color: #3fb950; }
+.obp-pgm-eidl { background: #2a2110; color: #d29922; }
+.obp-pgm-cases { background: #0d1a2a; color: #58a6ff; }
+.obp-search-name {
+  grid-area: name;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.obp-search-meta {
+  grid-area: meta;
+  font-size: 0.82rem;
+  color: #b1bac4;
+}
+.obp-search-lender { color: #7d8590; }
+.obp-search-empty {
+  padding: 16px;
+  color: #7d8590;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.obp-search-banner {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 8px 14px;
+  background: #0d1a2a;
+  border-bottom: 1px solid #1a2230;
+  color: #b1bac4;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+.obp-search-banner-label {
+  color: #58a6ff;
+  font-weight: 600;
+}
+.obp-search-banner em {
+  color: #d6dae0;
+  font-style: italic;
+}
+.obp-search-banner a {
+  color: #58a6ff;
+  text-decoration: underline;
+  text-decoration-color: rgba(88, 166, 255, 0.4);
+}
+.obp-search-banner a:hover {
+  text-decoration-color: #58a6ff;
+}
+.obp-search-ack {
+  padding: 20px 18px;
+  background: #0d1117;
+  text-align: center;
+}
+.obp-search-ack-title {
+  margin: 0 0 8px 0;
+  color: #58a6ff;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.obp-search-ack-body {
+  margin: 0 0 14px 0;
+  color: #b1bac4;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.obp-search-ack-body em {
+  color: #d6dae0;
+  font-style: italic;
+}
+.obp-search-ack-body a {
+  color: #58a6ff;
+  text-decoration: underline;
+  text-decoration-color: rgba(88, 166, 255, 0.4);
+}
+.obp-search-ack-body a:hover {
+  text-decoration-color: #58a6ff;
+}
+.obp-search-ack-btn {
+  background: #58a6ff;
+  color: #0d1117;
+  border: 0;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.obp-search-ack-btn:hover {
+  background: #79b8ff;
+}
+
+/* Scope chip — shows the active state/program filter so the user knows their
+   search is scoped (was invisible before; cf. 5/17 Etna 60-query drill where
+   the user never realized data-state="DC" was locked on). */
+.obp-search-scope {
+  background: rgba(88, 166, 255, 0.08);
+  border: 1px solid rgba(88, 166, 255, 0.25);
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin-bottom: 8px;
+  font-size: 0.82rem;
+  color: #c9d1d9;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.obp-search-scope-label {
+  color: #8b949e;
+  font-weight: 500;
+}
+.obp-search-scope-value {
+  color: #58a6ff;
+  font-weight: 600;
+}
+.obp-search-scope-clear {
+  margin-left: auto;
+  background: transparent;
+  border: 0;
+  color: #8b949e;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0 6px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.obp-search-scope-clear:hover {
+  background: rgba(248, 81, 73, 0.12);
+  color: #f85149;
+}
+.obp-search-widen {
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.obp-search-widen:hover {
+  text-decoration: underline;
+}
+
+/* Outside-scope hint — rendered above the empty-state message when the
+   worker reports matches exist outside the active state filter. Calls
+   the user's attention strongly so they know widening will actually find
+   what they're looking for. */
+.obp-search-outside-hint {
+  background: rgba(255, 209, 102, 0.10);
+  border: 1px solid rgba(255, 209, 102, 0.35);
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  font-size: 0.86rem;
+  color: #f0d97a;
+}
+.obp-search-outside-hint strong {
+  color: #ffd166;
+  font-weight: 600;
+}
+
+/* Case-number affordance — appears when the user's query looks like a
+   partial case number (e.g. "26-0315" mid-typing, "(26-03153" pasted with
+   leading paren). Worker's exact-match short-circuit only fires on a
+   completed NN-NNNNN; this prompts the user to keep typing the full form. */
+.obp-search-casehint {
+  background: rgba(125, 195, 255, 0.08);
+  border: 1px solid rgba(125, 195, 255, 0.30);
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  font-size: 0.86rem;
+  color: #b8d6f0;
+}
+.obp-search-casehint code {
+  background: rgba(125, 195, 255, 0.14);
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.82rem;
+  color: #d8e8f6;
+}

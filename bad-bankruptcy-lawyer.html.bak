@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Problems With Your Bankruptcy Lawyer? What To Do - Open Bankruptcy Project</title>
+<meta content="What to do if your bankruptcy lawyer won't return calls, missed deadlines, or mishandled your case. How to evaluate, fire, and file complaints against a bankruptcy attorney." name="description"/>
+<link href="https://openbankruptcyproject.org/bad-bankruptcy-lawyer.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Problems With Your Bankruptcy Lawyer? What To Do" property="og:title"/>
+<meta content="How to evaluate your bankruptcy attorney, when to fire them, and how to file a bar complaint if they mishandled your case." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/bad-bankruptcy-lawyer.html" property="og:url"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+            --green: #3fb950;
+            --red: #f85149;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        .warning-box {
+            background: rgba(210,153,34,0.08); border: 1px solid rgba(210,153,34,0.3); border-radius: 10px;
+            padding: 24px; margin-bottom: 24px;
+        }
+        .warning-box p { color: var(--text); margin-bottom: 8px; }
+        .warning-box p:last-child { margin-bottom: 0; }
+
+        .step-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px;
+            margin-bottom: 16px;
+        }
+        .step-card .step-num { font-size: 0.8rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+        .step-card .step-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+        .step-card p { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0; }
+
+        .resource-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+        .resource-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .resource-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .resource-card .card-title { font-weight: 700; font-size: 1rem; margin-bottom: 8px; }
+        .resource-card .card-desc { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px; }
+        .resource-card a { font-size: 0.88rem; font-weight: 600; }
+
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+        }
+    </style>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What should I do if my bankruptcy lawyer won't return my calls?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Document every attempted contact with dates and times. Send a written communication (email or certified letter) requesting a response within a specific timeframe. If the attorney still does not respond after multiple documented attempts, you have grounds to fire them and may have grounds for a bar complaint for failure to communicate, which violates Rule 1.4 of the Rules of Professional Conduct."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I fire my bankruptcy lawyer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You have the absolute right to fire your bankruptcy attorney at any time. If you are in an active bankruptcy case, your attorney must file a motion to withdraw with the court. You can then hire a new attorney or proceed pro se (representing yourself). You may be entitled to a refund of unearned fees."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I file a complaint against a bankruptcy lawyer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "File a complaint with the attorney's state bar disciplinary authority. Every state bar has a process for handling complaints about attorney misconduct. You can also report issues to the U.S. Trustee's office, which oversees bankruptcy attorneys and can seek sanctions, disgorgement of fees, or referral for disciplinary action."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are signs of a bad bankruptcy lawyer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Warning signs include: not returning calls or emails for days or weeks, missing court deadlines, filing documents with errors, not explaining what is happening in your case, pressuring you to sign documents you do not understand, charging fees that were not disclosed upfront, and having you meet with paralegals instead of the attorney who signed your petition."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I get a refund from a bad bankruptcy lawyer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Possibly. Bankruptcy attorneys must file fee disclosures with the court. If they did not provide the services they were paid for, the court can order disgorgement (a refund) of some or all fees. You can also file a fee dispute with your state bar association or pursue a malpractice claim."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Problems With Your Bankruptcy Lawyer? What To Do",
+          "description": "What to do if your bankruptcy lawyer won't return calls, missed deadlines, or mishandled your case.",
+          "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+          "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntityOfPage": "https://openbankruptcyproject.org/bad-bankruptcy-lawyer.html"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Bad Bankruptcy Lawyer", "item": "https://openbankruptcyproject.org/bad-bankruptcy-lawyer.html" }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "name": "Problems With Your Bankruptcy Lawyer?",
+          "url": "https://openbankruptcyproject.org/bad-bankruptcy-lawyer.html",
+          "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".quick-answer", "h1", "p:first-of-type"] }
+        }
+      ]
+    }
+    </script>
+<link href="https://openbankruptcyproject.org/bad-bankruptcy-lawyer.html" hreflang="en" rel="alternate"/>
+<link href="https://openbankruptcyproject.org/bad-bankruptcy-lawyer-es.html" hreflang="es" rel="alternate"/>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="methodology.html">Methodology</a>
+<a href="citations.html">Citations</a>
+<a href="press.html">Press</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">›</span><span>Problems With Your Bankruptcy Lawyer</span></nav>
+<div class="page-header">
+<div class="container">
+<h1>Problems With Your Bankruptcy Lawyer?</h1>
+<p class="subtitle">What to do when your attorney is not communicating, missing deadlines, or mishandling your case.</p>
+</div>
+</div>
+<div class="content">
+<div class="container">
+<div class="warning-box">
+<p><strong>You are not stuck.</strong> You have the right to fire your bankruptcy attorney at any time. You also have the right to review every document filed in your case on <a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> or at the court clerk's office. Your case belongs to you, not your lawyer.</p>
+</div>
+<h2>Red Flags That Something Is Wrong</h2>
+<p>Not every frustration with an attorney means they are doing a bad job. Court processes are slow, and attorneys handle many cases. But certain patterns indicate real problems:</p>
+<ul>
+<li><strong>No communication for weeks.</strong> Your attorney should respond to calls or emails within a few business days. Weeks of silence is a red flag.</li>
+<li><strong>Missed deadlines.</strong> Bankruptcy has strict deadlines. A missed filing, a late response, or a failure to appear at a hearing can damage your case permanently.</li>
+<li><strong>Errors in your filings.</strong> Wrong asset values, incorrect creditor lists, misspelled names, or missing schedules suggest carelessness.</li>
+<li><strong>You never meet the attorney.</strong> If you always deal with paralegals and never speak to the attorney who signed your petition, your case may be getting assembly-line treatment.</li>
+<li><strong>Surprise fees.</strong> All fees must be disclosed to the court. If you are being charged for services that were not in your original agreement, that is a problem.</li>
+<li><strong>Pressure to sign quickly.</strong> Any attorney who pressures you to sign documents without explanation is not serving your interests.</li>
+</ul>
+<h2>What To Do: Step by Step</h2>
+<div class="step-card">
+<div class="step-num">Step 1</div>
+<div class="step-title">Document Everything</div>
+<p>Start keeping a written log of every call, email, and interaction. Note dates, times, what was discussed, and what was promised. If you send emails, save them. This record matters if you file a complaint or pursue a malpractice claim later.</p>
+</div>
+<div class="step-card">
+<div class="step-num">Step 2</div>
+<div class="step-title">Put It in Writing</div>
+<p>Send your attorney a written communication (email is fine) that clearly states your concerns and requests a response by a specific date. Be factual, not emotional. This creates a paper trail and gives the attorney a fair chance to respond.</p>
+</div>
+<div class="step-card">
+<div class="step-num">Step 3</div>
+<div class="step-title">Review Your Case File</div>
+<p>You have the right to a copy of your entire case file. Request it in writing. Also check your docket on PACER (pacer.uscourts.gov) or the free RECAP Archive (courtlistener.com/recap/) or browse the <a href="/cases/">OBP national case index</a> to see exactly what has been filed and whether any deadlines have been missed.</p>
+</div>
+<div class="step-card">
+<div class="step-num">Step 4</div>
+<div class="step-title">Consider Firing Your Attorney</div>
+<p>You can fire your bankruptcy attorney at any time. If your case is active, the attorney must file a motion to withdraw with the court. You may then hire new counsel or represent yourself (<a href="https://prosebankruptcy.org/" title="pro se">pro se</a>). Ask for a refund of any unearned fees - the court may order <a href="https://section329.org/" title="Section 329(b)">disgorgement</a> if fees were not earned.</p>
+</div>
+<div class="step-card">
+<div class="step-num">Step 5</div>
+<div class="step-title">File a Complaint If Warranted</div>
+<p>If your attorney's conduct was truly harmful - missed deadlines that damaged your case, fee overcharges, dishonesty, or abandonment - you have several options: file a complaint with your state bar's disciplinary authority, report the attorney to the U.S. Trustee, or consult a legal malpractice attorney.</p>
+</div>
+<h2>How to File a Bar Complaint</h2>
+<p>Every state bar has a disciplinary process for attorney misconduct. The complaint is typically free to file and can be submitted online or by mail. You will need to describe the attorney's conduct, provide dates and documentation, and explain how it affected your case. The bar will investigate and may impose sanctions ranging from a warning to disbarment.</p>
+<p>You can also report bankruptcy attorney misconduct to the <strong><a href="https://www.justice.gov/ust" rel="noopener" target="_blank">U.S. Trustee Program</a></strong>, which has independent authority to investigate and seek sanctions in bankruptcy court. The U.S. Trustee can file motions to disgorge (refund) fees and can refer attorneys for disciplinary action.</p>
+<h2>What About Bankruptcy Mills?</h2>
+<p>A "<a href="https://bankruptcymill.com/" title="bankruptcy mill">bankruptcy mill</a>" is a high-volume practice that processes cases like an assembly line. Warning signs include heavy advertising, very low upfront fees (with add-ons later), minimal attorney contact, and a focus on volume over quality. Not every high-volume practice is a mill, but if you recognize these patterns in your own experience, it may explain the problems you are having.</p>
+<p>Our research has found that attorney conduct patterns vary significantly by firm and district. Data-driven analysis of case outcomes can reveal whether a particular attorney or firm has patterns that warrant scrutiny.</p>
+<h2>Free Resources</h2>
+<div class="resource-grid">
+<div class="resource-card">
+<div class="card-title">Fired by Your Bankruptcy Lawyer</div>
+<div class="card-desc">What happens when your attorney withdraws, your rights, and how to find replacement counsel or proceed pro se.</div>
+<a href="https://firedbymybankruptcylawyer.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=topic-page&amp;utm_campaign=bad-lawyer" rel="noopener" target="_blank">firedbymybankruptcylawyer.com →</a>
+</div>
+<div class="resource-card">
+<div class="card-title">My Lawyer Won't Call Back</div>
+<div class="card-desc">Communication standards, what to do when your attorney is unresponsive, and when silence becomes misconduct.</div>
+<a href="https://mybankruptcylawyerwontcallback.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=topic-page&amp;utm_campaign=bad-lawyer" rel="noopener" target="_blank">mybankruptcylawyerwontcallback.com →</a>
+</div>
+<div class="resource-card">
+<div class="card-title">Attorney Ratings Guide</div>
+<div class="card-desc">How to evaluate bankruptcy attorneys before hiring, what to look for, and what questions to ask.</div>
+<a href="https://bankruptcyattorneyratings.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=topic-page&amp;utm_campaign=bad-lawyer" rel="noopener" target="_blank">bankruptcyattorneyratings.org →</a>
+</div>
+<div class="resource-card">
+<div class="card-title"><a href="https://bankruptcymalpractice.org/" title="bankruptcy malpractice">Bankruptcy Malpractice</a></div>
+<div class="card-desc">When attorney errors rise to the level of malpractice, how to evaluate your claim, and where to find help.</div>
+<a href="https://bankruptcymalpractice.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=topic-page&amp;utm_campaign=bad-lawyer" rel="noopener" target="_blank">bankruptcymalpractice.org →</a>
+</div>
+</div>
+</div>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+<a href="https://github.com/ilikemath9999" rel="noopener" target="_blank">GitHub</a>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+<a href="donate.html">Donate</a>
+</div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+<p>All tools and data released under open-source licenses.</p>
+</div>
+<p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

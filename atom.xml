@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Open Bankruptcy Project -- News &amp; Analysis</title>
+  <subtitle>Data-driven bankruptcy news and analysis from the Open Bankruptcy Project. Empirical research covering 8 million federal cases across all 94 judicial districts.</subtitle>
+  <link href="https://openbankruptcyproject.org/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://openbankruptcyproject.org/news/" rel="alternate" type="text/html"/>
+  <id>https://openbankruptcyproject.org/news/</id>
+  <updated>2026-04-09T12:00:00Z</updated>
+  <author>
+    <name>Open Bankruptcy Project Research Team</name>
+    <uri>https://openbankruptcyproject.org</uri>
+  </author>
+  <rights>Copyright 2026 Open Bankruptcy Project</rights>
+  <icon>https://openbankruptcyproject.org/favicon.svg</icon>
+  <logo>/og-image.svg</logo>
+
+  <entry>
+    <title>Open Bankruptcy Project Launches Free Bankruptcy Resources Nationwide</title>
+    <link href="https://openbankruptcyproject.org/news/btn-network-launch-2026.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/news/btn-network-launch-2026.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>The Open Bankruptcy Project has launched a network of free educational websites covering every major bankruptcy topic, with interactive tools, bilingual content in English and Spanish, and data from 8 million federal cases. No ads, no attorney referrals, no paywalls.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+    </author>
+    <category term="Announcement"/>
+    <category term="Network"/>
+  </entry>
+
+  <entry>
+    <title>75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them</title>
+    <link href="https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/news/estimated-1328f-violations-by-district.html</id>
+    <published>2026-04-03T12:00:00Z</published>
+    <updated>2026-04-03T12:00:00Z</updated>
+    <summary>An estimated 75,764 Section 1328(f) timing violations have occurred nationally, and no federal court is systematically screening for them. District-by-district data from 8 million cases.</summary>
+    <author>
+      <name>Open Bankruptcy Project Research Team</name>
+    </author>
+    <category term="Research"/>
+    <category term="1328(f)"/>
+  </entry>
+
+  <entry>
+    <title>Where Chapter 13 Fails: The 15 Worst Districts for Plan Completion (2020-2024)</title>
+    <link href="https://openbankruptcyproject.org/news/where-chapter-13-fails-worst-districts-2024.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/news/where-chapter-13-fails-worst-districts-2024.html</id>
+    <published>2026-04-03T11:00:00Z</published>
+    <updated>2026-04-03T11:00:00Z</updated>
+    <summary>National analysis of Chapter 13 plan completion rates reveals the 15 worst-performing federal districts from 2020-2024, with dismissal rates exceeding 60% in some courts.</summary>
+    <author>
+      <name>Open Bankruptcy Project Research Team</name>
+    </author>
+    <category term="Research"/>
+    <category term="Chapter 13"/>
+  </entry>
+
+  <entry>
+    <title>1 in 3 Chapter 13 Filers Has Filed Before: Repeat Bankruptcy by District</title>
+    <link href="https://openbankruptcyproject.org/news/repeat-bankruptcy-filers-by-district-2024.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/news/repeat-bankruptcy-filers-by-district-2024.html</id>
+    <published>2026-04-03T10:00:00Z</published>
+    <updated>2026-04-03T10:00:00Z</updated>
+    <summary>District-by-district data on repeat bankruptcy filings shows approximately one-third of Chapter 13 filers have filed previously, raising questions about system effectiveness.</summary>
+    <author>
+      <name>Open Bankruptcy Project Research Team</name>
+    </author>
+    <category term="Research"/>
+    <category term="Chapter 13"/>
+  </entry>
+
+  <entry>
+    <title>Attorney Fee Transparency in Consumer Bankruptcy: A National Analysis</title>
+    <link href="https://openbankruptcyproject.org/news/attorney-fee-transparency-bankruptcy.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/news/attorney-fee-transparency-bankruptcy.html</id>
+    <published>2026-04-02T14:00:00Z</published>
+    <updated>2026-04-02T14:00:00Z</updated>
+    <summary>Fee disclosures in consumer bankruptcy happen after retention, lack standardization, and sit behind PACER's paywall. Open Bankruptcy Project data reveals significant concentration in the consumer bankruptcy bar.</summary>
+    <author>
+      <name>Open Bankruptcy Project Research Team</name>
+    </author>
+    <category term="Research"/>
+    <category term="Attorney Fees"/>
+  </entry>
+
+  <entry>
+    <title>Bankruptcy Filings by State: 2026 National Overview</title>
+    <link href="https://openbankruptcyproject.org/news/bankruptcy-filings-by-state-2026.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/news/bankruptcy-filings-by-state-2026.html</id>
+    <published>2026-04-02T13:00:00Z</published>
+    <updated>2026-04-02T13:00:00Z</updated>
+    <summary>Comprehensive state-by-state breakdown of bankruptcy filing rates for 2026, with data on Chapter 7 and Chapter 13 distribution across all 50 states.</summary>
+    <author>
+      <name>Open Bankruptcy Project Research Team</name>
+    </author>
+    <category term="Data"/>
+    <category term="Statistics"/>
+  </entry>
+
+  <entry>
+    <title>Chapter 13 Completion Rates Vary Widely Across Federal Districts</title>
+    <link href="https://openbankruptcyproject.org/news/chapter-13-completion-rates-by-district.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/news/chapter-13-completion-rates-by-district.html</id>
+    <published>2026-04-02T12:00:00Z</published>
+    <updated>2026-04-02T12:00:00Z</updated>
+    <summary>National analysis shows Chapter 13 plan completion rates vary dramatically by federal district, ranging from under 20% to over 60%, driven by local legal culture and fee structures.</summary>
+    <author>
+      <name>Open Bankruptcy Project Research Team</name>
+    </author>
+    <category term="Research"/>
+    <category term="Chapter 13"/>
+  </entry>
+
+  <entry>
+    <title>The Means Test Gets Harder: April 2026 Median Income Increases</title>
+    <link href="https://openbankruptcyproject.org/news/means-test-april-2026-median-income.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/news/means-test-april-2026-median-income.html</id>
+    <published>2026-04-02T11:00:00Z</published>
+    <updated>2026-04-02T11:00:00Z</updated>
+    <summary>Updated median income figures for April 2026 raise the bar for the Chapter 7 means test, potentially pushing more filers toward Chapter 13.</summary>
+    <author>
+      <name>Open Bankruptcy Project Research Team</name>
+    </author>
+    <category term="Policy"/>
+    <category term="Means Test"/>
+  </entry>
+
+  <entry>
+    <title>Pro Se Bankruptcy Filings: What the Data Shows</title>
+    <link href="https://openbankruptcyproject.org/news/pro-se-bankruptcy-filings-data.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/news/pro-se-bankruptcy-filings-data.html</id>
+    <published>2026-04-02T10:00:00Z</published>
+    <updated>2026-04-02T10:00:00Z</updated>
+    <summary>Data analysis of pro se (self-represented) bankruptcy filings across federal districts reveals patterns in filing rates, outcomes, and the gap between represented and unrepresented debtors.</summary>
+    <author>
+      <name>Open Bankruptcy Project Research Team</name>
+    </author>
+    <category term="Research"/>
+    <category term="Pro Se"/>
+  </entry>
+
+
+  <entry>
+    <title>Bankruptcy Filing Statistics: April 2026 Data Roundup</title>
+    <link href="https://openbankruptcyproject.org/blog/data-roundup-april-2026.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/data-roundup-april-2026.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>Monthly data roundup covering 1,926 bankruptcy filings across 12 federal districts. Year-over-year change: -80.2%.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+    </author>
+    <category term="Data"/>
+    <category term="Statistics"/>
+  </entry>
+</feed>

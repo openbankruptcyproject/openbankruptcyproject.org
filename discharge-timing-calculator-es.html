@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag('js',new Date());gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Calculadora de Plazos de Descargo de Bancarrota (Regla 2-4-6-8) | Open Bankruptcy Project</title>
+<meta name="description" content="Calculadora gratuita de plazos de descargo de bancarrota. Ingrese el capitulo y la fecha de presentacion de su caso anterior para ver si un nuevo descargo de Capitulo 7 o Capitulo 13 esta disponible ahora, la fecha mas temprana en que la barra termina y el estatuto que controla. Cubre la regla 2-4-6-8.">
+<link rel="canonical" href="https://openbankruptcyproject.org/discharge-timing-calculator-es.html">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/discharge-timing-calculator.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/discharge-timing-calculator-es.html">
+<meta property="og:title" content="Calculadora de Plazos de Descargo de Bancarrota (Regla 2-4-6-8)">
+<meta property="og:description" content="Ingrese el capitulo y la fecha de presentacion de su caso anterior para ver si un nuevo descargo de Capitulo 7 o Capitulo 13 esta disponible ahora, la fecha mas temprana en que la barra termina y el estatuto que controla.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://openbankruptcyproject.org/discharge-timing-calculator-es.html">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="Calculadora de Plazos de Descargo de Bancarrota (Regla 2-4-6-8)">
+<meta name="twitter:description" content="Vea si un nuevo descargo de Capitulo 7 o Capitulo 13 esta disponible ahora, la fecha mas temprana en que la barra termina y el estatuto que controla.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de Plazos de Descargo de Bancarrota","description":"Calculadora gratuita que aplica las barras de tiempo de descargos sucesivos (la regla 2-4-6-8) para determinar si un nuevo descargo de Capitulo 7 o Capitulo 13 esta disponible y la fecha mas temprana en que termina una barra.","url":"https://openbankruptcyproject.org/discharge-timing-calculator-es.html","applicationCategory":"FinanceApplication","operatingSystem":"Any","inLanguage":"es","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"provider":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"es","mainEntity":[{"@type":"Question","name":"Que es la regla 2-4-6-8 en la bancarrota?","acceptedAnswer":{"@type":"Answer","text":"La regla 2-4-6-8 es la abreviatura de las cuatro barras de tiempo de descargos sucesivos. Un Capitulo 13 anterior hacia un nuevo Capitulo 13 es una barra de 2 anos (Seccion 1328(f)(2)). Un Capitulo 7, 11 o 12 anterior hacia un nuevo Capitulo 13 es una barra de 4 anos (Seccion 1328(f)(1)). Un Capitulo 13 anterior hacia un nuevo Capitulo 7 es una barra de 6 anos con una excepcion de pago (Seccion 727(a)(9)). Un Capitulo 7 u 11 anterior hacia un nuevo Capitulo 7 es una barra de 8 anos (Seccion 727(a)(8)). Cada periodo se mide desde la fecha de presentacion del caso anterior hasta la fecha de presentacion del nuevo caso."}},{"@type":"Question","name":"El reloj corre desde la fecha de presentacion o desde la fecha del descargo?","acceptedAnswer":{"@type":"Answer","text":"Las cuatro barras corren desde la fecha de presentacion del caso anterior hasta la fecha de presentacion del nuevo caso, no desde la fecha del descargo. Cada estatuto usa la frase un caso presentado bajo. Asi que si un Capitulo 7 anterior se presento el 1 de marzo de 2019, la barra de 8 anos termina el 1 de marzo de 2027, sin importar cuando se otorgo realmente el descargo."}},{"@type":"Question","name":"Puedo presentar la bancarrota durante el periodo de la barra?","acceptedAnswer":{"@type":"Answer","text":"Si. Estas son barras de descargo, no barras de presentacion. Puede presentar un nuevo caso durante el periodo de la barra y aun recibir la suspension automatica, detener una ejecucion hipotecaria y tratar las deudas a traves de un plan. Simplemente no recibira un descargo de su responsabilidad personal al final si la barra de tiempo aplica. Otros limites de presentacion, como la Seccion 109(g) despues de ciertos sobreseimientos, son aparte."}},{"@type":"Question","name":"Cual es la excepcion a la barra de 6 anos de Capitulo 13 hacia Capitulo 7?","acceptedAnswer":{"@type":"Answer","text":"Bajo la Seccion 727(a)(9), la barra de 6 anos despues de un Capitulo 13 anterior no aplica si los pagos bajo ese plan anterior totalizaron al menos el 100 por ciento de las reclamaciones no garantizadas permitidas, o al menos el 70 por ciento de esas reclamaciones bajo un plan propuesto de buena fe y que fue el mejor esfuerzo del deudor. Si se cumple cualquiera de las dos condiciones, un nuevo descargo de Capitulo 7 puede estar disponible incluso dentro de la ventana de 6 anos."}},{"@type":"Question","name":"La fecha relevante es la misma en cada distrito?","acceptedAnswer":{"@type":"Answer","text":"Los periodos del estatuto son federales y uniformes, pero la forma en que un tribunal trata los casos limite (como conversiones entre capitulos, casos vueltos a presentar o el conteo exacto de dias) puede variar. La fecha que controla su situacion puede depender de las reglas locales y la jurisprudencia. Siempre confirme la fecha exacta con un abogado de bancarrota con licencia antes de basarse en ella."}}]}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem","position": 1,"name": "Inicio","item": "https://openbankruptcyproject.org"},
+        {"@type": "ListItem","position": 2,"name": "Calculadora de Plazos de Descargo","item": "https://openbankruptcyproject.org/discharge-timing-calculator-es.html"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "Calculadora de Plazos de Descargo de Bancarrota (Regla 2-4-6-8)",
+      "url": "https://openbankruptcyproject.org/discharge-timing-calculator-es.html",
+      "inLanguage": "es",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".quick-answer","h1",".summary","p:first-of-type"]
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-muted: #9eaab6;
+    --accent: #58a6ff;
+    --green: #3fb950;
+    --red: #f85149;
+    --yellow: #e3a835;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  nav .site-name {
+    color: #f0f6fc;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger {
+    display: none; background: none; border: 1px solid var(--border); color: var(--text);
+    font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1;
+  }
+  .breadcrumb {
+    max-width: 760px;
+    margin: 1rem auto 0;
+    padding: 0 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header {
+    background: linear-gradient(135deg, #0d2137, #122a44);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  header h1 {
+    color: #f0f6fc;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .content-section h2 {
+    color: #f0f6fc;
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .content-section h3 {
+    color: #f0f6fc;
+    font-size: 1.125rem;
+    margin: 1.5rem 0 0.75rem;
+  }
+  .content-section p {
+    color: var(--text);
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+  }
+  .content-section ul, .content-section ol {
+    margin: 0.75rem 0 0.75rem 1.5rem;
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box {
+    background: #21262d;
+    border-left: 3px solid var(--accent);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .statute-box p { margin-bottom: 0.5rem; }
+  .statute-box p:last-child { margin-bottom: 0; }
+  .warning-box {
+    background: #21262d;
+    border-left: 3px solid var(--red);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .warning-box p { margin-bottom: 0.5rem; }
+  .warning-box p:last-child { margin-bottom: 0; }
+  .green-box {
+    background: #21262d;
+    border-left: 3px solid var(--green);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .green-box p { margin-bottom: 0.5rem; }
+  .green-box p:last-child { margin-bottom: 0; }
+  .yellow-box {
+    background: #21262d;
+    border-left: 3px solid var(--yellow);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .yellow-box p { margin-bottom: 0.5rem; }
+  .yellow-box p:last-child { margin-bottom: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+  th, td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid var(--border); }
+  th { color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+  .calc-box { background: var(--surface); border: 2px solid var(--accent); border-radius: 8px; padding: 2rem; margin: 0 0 1.5rem; }
+  .calc-box h2 { color: #f0f6fc; font-size: 1.3rem; margin-bottom: 1rem; text-align: center; border: none; padding: 0; }
+  .calc-field { margin-bottom: 1.25rem; }
+  .calc-field label { display: block; color: #f0f6fc; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.4rem; }
+  .calc-field input, .calc-field select { width: 100%; padding: 0.6rem 0.75rem; background: #21262d; border: 1px solid var(--border); border-radius: 6px; color: var(--text); font-size: 1rem; }
+  .calc-field input:focus, .calc-field select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .calc-help { color: var(--text-muted); font-size: 0.8rem; margin-top: 0.25rem; }
+  .calc-btn { display: block; width: 100%; padding: 0.75rem; background: #238636; color: #fff; border: none; border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer; margin-top: 1rem; }
+  .calc-btn:hover { background: #2ea043; }
+  .calc-result { margin-top: 1.25rem; padding: 1.25rem; border-radius: 6px; display: none; }
+  .calc-result.show { display: block; }
+  .calc-result.eligible { background: #21262d; border-left: 3px solid var(--green); }
+  .calc-result.barred { background: #21262d; border-left: 3px solid var(--red); }
+  .calc-result.no-bar { background: #21262d; border-left: 3px solid var(--accent); }
+  .calc-result p { margin-bottom: 0.5rem; font-size: 0.95rem; }
+  .calc-result p:last-child { margin-bottom: 0; }
+  .calc-result .result-title { font-weight: 700; font-size: 1.05rem; }
+  .calc-result .result-note { border-left: 3px solid var(--yellow); padding: 0.6rem 0.85rem; margin-top: 0.75rem; background: #1a1612; font-size: 0.85rem; color: var(--text); line-height: 1.6; }
+  details {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-bottom: 0.75rem;
+  }
+  details summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 600; color: #f0f6fc; font-size: 0.95rem; }
+  details summary:hover { color: var(--accent); }
+  details[open] summary { border-bottom: 1px solid var(--border); }
+  details .faq-answer { padding: 1rem 1.25rem; font-size: 0.95rem; color: var(--text); }
+  .network-links {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 2;
+  }
+  .network-links strong { color: var(--text); }
+  footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 2rem;
+  }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a {
+      display: block; padding: 0.6rem 0; margin: 0;
+      font-size: 0.95rem; min-height: 44px; line-height: 2;
+      border-bottom: 1px solid #21262d;
+    }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+    .calc-box { padding: 1.25rem; }
+    table { font-size: 0.8rem; }
+    th, td { padding: 0.5rem 0.6rem; }
+  }
+        .quick-answer { background: var(--surface); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 16px 20px; margin-bottom: 24px; }
+        .quick-answer p { color: var(--text); margin: 0; font-size: 0.95rem; }
+
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NonprofitOrganization",
+  "name": "Open Bankruptcy Project",
+  "alternateName": "OBP",
+  "url": "https://openbankruptcyproject.org",
+  "email": "info@openbankruptcyproject.org",
+  "taxID": "41-5159631",
+  "nonprofitStatus": "Nonprofit501c3",
+  "description": "The Open Bankruptcy Project is a 501(c)(3) nonprofit providing free tools, research, and consumer guides to help people navigate the federal bankruptcy system. We also conduct and publish empirical research on how the system actually works for consumers and share findings with rule-making bodies, regulators, and the public.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1000 W 100th St",
+    "addressLocality": "Kansas City",
+    "addressRegion": "MO",
+    "postalCode": "64114",
+    "addressCountry": "US"
+  }
+}
+</script>
+</head>
+<body>
+
+<nav aria-label="Navegacion principal">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu de navegacion">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/es.html">Inicio</a>
+    <a href="discharge-timing-calculator.html">English</a>
+    <a href="research.html">Investigacion</a>
+    <a href="about-es.html">Acerca de</a>
+    <a href="contact-es.html">Contacto</a>
+  </div>
+</nav>
+
+<div style="background:#161b22;border-bottom:1px solid #30363d;padding:8px 16px;text-align:center;font-size:0.85em"><a href="discharge-timing-calculator.html" style="color:#58a6ff;text-decoration:none">This page is also available in English</a></div>
+
+<header>
+  <h1>Calculadora de Plazos de Descargo de Bancarrota</h1>
+  <p class="subtitle">Averigue si un nuevo descargo de Capitulo 7 o Capitulo 13 esta disponible ahora, la fecha mas temprana en que termina cualquier barra de tiempo y cual estatuto controla. Aplica las reglas de descargos sucesivos (la regla 2-4-6-8). Todos los calculos se hacen en su navegador. No se envia ni se guarda nada.</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/es.html">Inicio</a> &rsaquo; Calculadora de Plazos de Descargo
+</div>
+
+<main>
+
+<div class="content-section">
+        <div class="quick-answer">
+            <p>Si usted ya recibio un descargo de bancarrota, por lo general debe esperar antes de que un nuevo descargo este disponible. El periodo de espera corre desde la fecha de presentacion de su caso anterior hasta la fecha de presentacion de su nuevo caso: 2 anos (Capitulo 13 anterior hacia un nuevo Capitulo 13), 4 anos (Capitulo 7, 11 o 12 anterior hacia un nuevo Capitulo 13), 6 anos (Capitulo 13 anterior hacia un nuevo Capitulo 7, con una excepcion de pago del 100 por ciento o del 70 por ciento), u 8 anos (Capitulo 7 u 11 anterior hacia un nuevo Capitulo 7). Esta es la regla 2-4-6-8.</p>
+        </div>
+
+  <p class="summary">Ingrese el capitulo y la fecha de presentacion de su caso de bancarrota anterior y el capitulo que piensa presentar a continuacion. La calculadora indica si un descargo esta disponible hoy y, si no, la fecha mas temprana exacta en que termina la barra y el estatuto que controla.</p>
+</div>
+
+<div class="calc-box">
+  <h2>Calculadora de Plazos de Descargo</h2>
+  <div class="calc-field">
+    <label for="prior-chapter">Capitulo del caso anterior</label>
+    <select id="prior-chapter">
+      <option value="">-- Seleccione --</option>
+      <option value="7">Capitulo 7</option>
+      <option value="11">Capitulo 11</option>
+      <option value="12">Capitulo 12</option>
+      <option value="13">Capitulo 13</option>
+    </select>
+  </div>
+  <div class="calc-field">
+    <label for="prior-date">Fecha de presentacion del caso anterior</label>
+    <input id="prior-date" type="date" aria-describedby="date-help">
+    <p id="date-help" class="calc-help">La fecha en que se presento el caso de bancarrota anterior, no la fecha en que se otorgo el descargo. El reloj corre desde la fecha de presentacion.</p>
+  </div>
+  <div class="calc-field">
+    <label for="got-discharge">Recibio un descargo en el caso anterior?</label>
+    <select id="got-discharge">
+      <option value="">-- Seleccione --</option>
+      <option value="yes">Si</option>
+      <option value="no">No o no estoy seguro</option>
+    </select>
+  </div>
+  <div class="calc-field">
+    <label for="new-chapter">Capitulo que piensa presentar a continuacion</label>
+    <select id="new-chapter">
+      <option value="">-- Seleccione --</option>
+      <option value="7">Capitulo 7</option>
+      <option value="13">Capitulo 13</option>
+    </select>
+  </div>
+  <button class="calc-btn" type="button" onclick="calcDischargeTiming()">Verificar Plazos de Descargo</button>
+  <div class="calc-result" id="calc-result" role="status" aria-live="polite"></div>
+</div>
+
+<div class="content-section">
+  <h2>Las Cuatro Barras de Descargos Sucesivos (la Regla 2-4-6-8)</h2>
+  <p>La ley federal limita que tan pronto puede recibir un segundo descargo de bancarrota despues de recibir el primero. Hay cuatro barras de tiempo distintas. Cada una se mide desde la fecha de presentacion del caso anterior hasta la fecha de presentacion del nuevo caso, salvo que se indique lo contrario. La abreviatura es la regla 2-4-6-8.</p>
+
+  <table>
+    <thead>
+      <tr><th>Caso anterior</th><th>Nuevo caso</th><th>Periodo de espera</th><th>Estatuto</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Capitulo 13</td><td>Capitulo 13</td><td>2 anos</td><td>11 U.S.C. 1328(f)(2)</td></tr>
+      <tr><td>Capitulo 7, 11 o 12</td><td>Capitulo 13</td><td>4 anos</td><td>11 U.S.C. 1328(f)(1)</td></tr>
+      <tr><td>Capitulo 13</td><td>Capitulo 7</td><td>6 anos (con excepcion)</td><td>11 U.S.C. 727(a)(9)</td></tr>
+      <tr><td>Capitulo 7 u 11</td><td>Capitulo 7</td><td>8 anos</td><td>11 U.S.C. 727(a)(8)</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Capitulo 7 u 11 anterior hacia un nuevo Capitulo 7: la barra de 8 anos</h3>
+  <p>Bajo <a href="https://www.law.cornell.edu/uscode/text/11/727" target="_blank" rel="noopener">11 U.S.C. 727(a)(8)</a>, no puede recibir un descargo de Capitulo 7 si ya recibio un descargo en un caso de Capitulo 7 o Capitulo 11 que se presento dentro de los 8 anos anteriores a la presentacion del nuevo Capitulo 7. El reloj de 8 anos corre desde la fecha de presentacion anterior hasta la fecha de presentacion del nuevo caso. Vea nuestra guia sobre <a href="section-727-discharge-chapter-7.html">la Seccion 727 y el descargo de Capitulo 7</a>.</p>
+
+  <h3>Capitulo 13 anterior hacia un nuevo Capitulo 7: la barra de 6 anos con una excepcion de pago</h3>
+  <p>Bajo <a href="https://www.law.cornell.edu/uscode/text/11/727" target="_blank" rel="noopener">11 U.S.C. 727(a)(9)</a>, si su descargo anterior fue en un caso de Capitulo 13 (o Capitulo 12) presentado dentro de los 6 anos anteriores al nuevo Capitulo 7, el nuevo descargo de Capitulo 7 generalmente esta prohibido. Hay una excepcion importante: la barra de 6 anos no aplica si los pagos bajo el plan anterior totalizaron al menos el 100 por ciento de las reclamaciones no garantizadas permitidas, o al menos el 70 por ciento de esas reclamaciones bajo un plan propuesto de buena fe y que fue su mejor esfuerzo. Si se cumple cualquiera de las dos condiciones, un descargo de Capitulo 7 puede estar disponible incluso dentro de la ventana de 6 anos.</p>
+  <div class="green-box"><p><strong>La excepcion en palabras sencillas:</strong> Un Capitulo 13 anterior que pago a los acreedores en su totalidad (100 por ciento), o que pago el 70 por ciento o mas bajo un plan de buena fe y mejor esfuerzo, puede permitirle obtener un nuevo descargo de Capitulo 7 antes de que pasen 6 anos. Si su plan anterior califica es una cuestion de hecho que depende de cuanto pago realmente el plan anterior.</p></div>
+
+  <h3>Capitulo 7, 11 o 12 anterior hacia un nuevo Capitulo 13: la barra de 4 anos</h3>
+  <p>Bajo <a href="https://www.law.cornell.edu/uscode/text/11/1328" target="_blank" rel="noopener">11 U.S.C. 1328(f)(1)</a>, no puede recibir un descargo de Capitulo 13 si recibio un descargo en un caso de Capitulo 7, Capitulo 11 o Capitulo 12 presentado dentro de los 4 anos anteriores al nuevo Capitulo 13. De nuevo, el reloj corre de fecha de presentacion a fecha de presentacion.</p>
+
+  <h3>Capitulo 13 anterior hacia un nuevo Capitulo 13: la barra de 2 anos</h3>
+  <p>Bajo <a href="https://www.law.cornell.edu/uscode/text/11/1328" target="_blank" rel="noopener">11 U.S.C. 1328(f)(2)</a>, no puede recibir un descargo de Capitulo 13 si recibio un descargo de Capitulo 13 anterior en un caso presentado dentro de los 2 anos anteriores al nuevo. Como la mayoria de los planes de Capitulo 13 duran de 3 a 5 anos, esta barra de 2 anos rara vez bloquea en la practica un descargo de Capitulo 13 posterior.</p>
+</div>
+
+<div class="content-section">
+  <h2>Dos Cosas Que La Gente Malinterpreta</h2>
+  <p><strong>El reloj corre desde la fecha de presentacion, no desde la fecha del descargo.</strong> Cada una de estas barras usa la frase un caso presentado bajo. Si su Capitulo 7 anterior se presento el 1 de marzo de 2019, la barra de 8 anos termina el 1 de marzo de 2027, aunque su descargo no se haya otorgado sino varios meses despues de presentar.</p>
+  <p><strong>Estas son barras de descargo, no barras de presentacion.</strong> Aun puede presentar un nuevo caso durante el periodo de espera. La presentacion activa la <a href="https://automaticstay.org" target="_blank" rel="noopener">suspension automatica</a>, que puede detener una ejecucion hipotecaria, un embargo de salario o una recuperacion de bienes, y un plan de Capitulo 13 puede ponerse al dia con los atrasos con el tiempo. Lo unico que la barra de tiempo le quita es el descargo de la responsabilidad personal al final del nuevo caso. Limites de presentacion aparte, como la Seccion 109(g) despues de ciertos sobreseimientos, tambien pueden aplicar.</p>
+  <div class="yellow-box"><p><strong>Sobreseido sin descargo?</strong> Estas cuatro barras aplican solo cuando usted realmente recibio un descargo en el caso anterior. Si el caso anterior fue sobreseido sin descargo, las barras 2-4-6-8 no aplican. Otras reglas todavia pueden afectar una nueva presentacion rapida.</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Herramientas y Guias Relacionadas</h2>
+  <ul>
+    <li><a href="https://1328f.com/tools/means-test-calculator.html" target="_blank" rel="noopener">Calculadora de la Prueba de Medios de Capitulo 7</a> verifica si su ingreso lo califica para el Capitulo 7 antes de considerar las barras de tiempo.</li>
+    <li><a href="means-test-presumption-of-abuse-es.html">La prueba de medios y la presuncion de abuso</a> explica el filtro de la 707(b) en lenguaje sencillo.</li>
+    <li><a href="section-727-discharge-chapter-7.html">La Seccion 727 y el descargo de Capitulo 7</a> cubre el marco completo del descargo, incluyendo las barras de 8 anos y de 6 anos.</li>
+    <li><a href="section-1328-chapter-13-discharge.html">La Seccion 1328 y el descargo de Capitulo 13</a> cubre el descargo de Capitulo 13 y las barras de 2 anos y de 4 anos.</li>
+    <li><a href="section-1228-chapter-12-discharge.html">La Seccion 1228 y el descargo de Capitulo 12</a> cubre el descargo para agricultores familiares y pescadores.</li>
+  </ul>
+</div>
+
+<div class="content-section">
+  <h2>Preguntas Frecuentes</h2>
+  <details>
+    <summary>Que es la regla 2-4-6-8 en la bancarrota?</summary>
+    <div class="faq-answer">
+      <p>La regla 2-4-6-8 es la abreviatura de las cuatro barras de tiempo de descargos sucesivos. Un Capitulo 13 anterior hacia un nuevo Capitulo 13 es una barra de 2 anos (Seccion 1328(f)(2)). Un Capitulo 7, 11 o 12 anterior hacia un nuevo Capitulo 13 es una barra de 4 anos (Seccion 1328(f)(1)). Un Capitulo 13 anterior hacia un nuevo Capitulo 7 es una barra de 6 anos con una excepcion de pago (Seccion 727(a)(9)). Un Capitulo 7 u 11 anterior hacia un nuevo Capitulo 7 es una barra de 8 anos (Seccion 727(a)(8)). Cada periodo se mide desde la fecha de presentacion del caso anterior hasta la fecha de presentacion del nuevo caso.</p>
+    </div>
+  </details>
+  <details>
+    <summary>El reloj corre desde la fecha de presentacion o desde la fecha del descargo?</summary>
+    <div class="faq-answer">
+      <p>Corre desde la fecha de presentacion del caso anterior hasta la fecha de presentacion del nuevo caso, no desde la fecha del descargo. Cada estatuto usa la frase un caso presentado bajo. Asi que si un Capitulo 7 anterior se presento el 1 de marzo de 2019, la barra de 8 anos termina el 1 de marzo de 2027, sin importar cuando se otorgo realmente el descargo.</p>
+    </div>
+  </details>
+  <details>
+    <summary>Puedo presentar la bancarrota durante el periodo de la barra?</summary>
+    <div class="faq-answer">
+      <p>Si. Estas son barras de descargo, no barras de presentacion. Puede presentar un nuevo caso durante el periodo de la barra y aun recibir la suspension automatica, detener una ejecucion hipotecaria y tratar las deudas a traves de un plan. Simplemente no recibira un descargo de su responsabilidad personal al final si la barra de tiempo aplica. Otros limites de presentacion, como la Seccion 109(g) despues de ciertos sobreseimientos, son aparte.</p>
+    </div>
+  </details>
+  <details>
+    <summary>Cual es la excepcion a la barra de 6 anos de Capitulo 13 hacia Capitulo 7?</summary>
+    <div class="faq-answer">
+      <p>Bajo la Seccion 727(a)(9), la barra de 6 anos despues de un Capitulo 13 anterior no aplica si los pagos bajo ese plan anterior totalizaron al menos el 100 por ciento de las reclamaciones no garantizadas permitidas, o al menos el 70 por ciento de esas reclamaciones bajo un plan propuesto de buena fe y que fue su mejor esfuerzo. Si se cumple cualquiera de las dos condiciones, un nuevo descargo de Capitulo 7 puede estar disponible incluso dentro de la ventana de 6 anos.</p>
+    </div>
+  </details>
+  <details>
+    <summary>La fecha relevante es la misma en cada distrito?</summary>
+    <div class="faq-answer">
+      <p>Los periodos del estatuto son federales y uniformes, pero la forma en que un tribunal trata los casos limite (como conversiones entre capitulos, casos vueltos a presentar o el conteo exacto de dias) puede variar. La fecha que controla su situacion puede depender de las reglas locales y la jurisprudencia. Siempre confirme la fecha exacta con un abogado de bancarrota con licencia antes de basarse en ella.</p>
+    </div>
+  </details>
+</div>
+
+<div class="warning-box" style="max-width:760px;margin:0 auto 1.5rem;">
+  <p><strong>Esta es informacion general, no asesoria legal.</strong> Esta calculadora aplica solo las cuatro barras de tiempo de descargos sucesivos y no toma en cuenta cada regla de elegibilidad. No crea una relacion abogado-cliente. Las reglas tienen excepciones, la fecha que controla puede variar segun la jurisdiccion y segun hechos como conversiones o nuevas presentaciones, y otros requisitos (la prueba de medios, las exenciones, las barras de presentacion de la Seccion 109(g) y el historial de pagos del caso anterior) tambien pueden aplicar. Consulte a un abogado de bancarrota con licencia antes de basarse en cualquier fecha que se muestre aqui.</p>
+</div>
+
+<div class="network-links">
+  <strong>Red de Herramientas de Bancarrota:</strong><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Filtro de Descargo</a> &middot;
+    <a href="https://1328f.com/tools/means-test-calculator.html?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Calculadora de la Prueba de Medios</a> &middot;
+    <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Plataforma de Investigacion</a> &middot;
+    <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Exenciones por Estado</a> &middot;
+    <a href="https://keepmycarinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Conserve Su Auto</a> &middot;
+    <a href="https://keepmyhouseinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Conserve Su Casa</a> &middot;
+    <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Costo de la Bancarrota</a> &middot;
+    <a href="https://filebankruptcywithoutlawyer.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Presentar Sin Abogado</a>
+</div>
+</main>
+
+<!-- BTN:FOOTER:START -->
+<footer class="network-footer" role="contentinfo">
+  <p><strong>Parte de la Red de Transparencia de Bancarrota</strong></p>
+  <p>Informacion real, sin compromisos.</p>
+  <div class="links">
+    <a href="https://1328f.com?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">Filtro de Descargo</a>
+    <a href="https://openbankruptcyproject.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">Open Bankruptcy Project</a>
+    <a href="https://chapter7vs13.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">Cap.7 vs Cap.13</a>
+    <a href="https://howmuchdoesbankruptcycost.com?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">Costo de la Bancarrota</a>
+    <a href="https://automaticstay.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">Suspension Automatica</a>
+    <a href="https://341meeting.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">Reunion 341</a>
+    <a href="https://bankruptcyexemptionsbystate.com?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">Exenciones por Estado</a>
+    <a href="https://meanstest.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">Prueba de Medios</a>
+    <a href="https://filebankruptcywithoutlawyer.com?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">Presentar Sin Abogado</a>
+    <a href="https://rebuildcreditafterbankruptcy.com?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">Reconstruir Credito</a>
+  </div>
+  <p class="disclaimer">Educacion gratuita sobre bancarrota de interes publico. No es asesoria legal.
+    Si necesita ayuda legal, comuniquese con un abogado con licencia en su estado.
+    Un proyecto del <a href="https://openbankruptcyproject.org?utm_source=openbankruptcyproject.org&utm_medium=referral&utm_campaign=btn-network">Open Bankruptcy Project</a>,
+    una organizacion sin fines de lucro 501(c)(3) (EIN 41-5159631).</p>
+  <p><a href="https://openbankruptcyproject.org/privacy.html">Privacidad</a> |
+     <a href="https://openbankruptcyproject.org/terms.html">Terminos</a></p>
+  <a href="https://buy.stripe.com/7sY7sE7qbeIZdQfclSaVa05" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Donar</a>
+<div style="text-align:center;padding:1rem 0 0;border-top:1px solid #30363d;margin-top:1.5rem">
+<p style="color:#7d8590;font-size:0.75rem">Nuestra investigacion fue citada por el poder judicial federal como <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" target="_blank" rel="noopener" style="color:#58a6ff">Sugerencia 26-BK-3</a></p>
+</div>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+
+// Suma N anos calendario a una fecha. Usa setFullYear para que el mismo mes y dia
+// coincida N anos despues (fecha de presentacion a fecha de presentacion), igual
+// que como se miden las barras de tiempo.
+function addYears(date, years) {
+  var d = new Date(date.getTime());
+  d.setFullYear(d.getFullYear() + years);
+  return d;
+}
+
+function formatDate(d) {
+  var months = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+  return d.getDate() + ' de ' + months[d.getMonth()] + ' de ' + d.getFullYear();
+}
+
+// Devuelve la configuracion de la barra para un par capitulo-anterior a capitulo-nuevo.
+// years: periodo de espera; statute: cita; exception: nota especial opcional.
+function getBar(priorChapter, newChapter) {
+  if (newChapter === '7') {
+    if (priorChapter === '7' || priorChapter === '11') {
+      return { years: 8, statute: '11 U.S.C. 727(a)(8)', label: 'Capitulo ' + priorChapter + ' anterior hacia un nuevo Capitulo 7' };
+    }
+    if (priorChapter === '13' || priorChapter === '12') {
+      return { years: 6, statute: '11 U.S.C. 727(a)(9)', label: 'Capitulo ' + priorChapter + ' anterior hacia un nuevo Capitulo 7', exception: true };
+    }
+  }
+  if (newChapter === '13') {
+    if (priorChapter === '7' || priorChapter === '11' || priorChapter === '12') {
+      return { years: 4, statute: '11 U.S.C. 1328(f)(1)', label: 'Capitulo ' + priorChapter + ' anterior hacia un nuevo Capitulo 13' };
+    }
+    if (priorChapter === '13') {
+      return { years: 2, statute: '11 U.S.C. 1328(f)(2)', label: 'Capitulo 13 anterior hacia un nuevo Capitulo 13' };
+    }
+  }
+  return null;
+}
+
+function calcDischargeTiming() {
+  var priorChapter = document.getElementById('prior-chapter').value;
+  var priorDate = document.getElementById('prior-date').value;
+  var gotDischarge = document.getElementById('got-discharge').value;
+  var newChapter = document.getElementById('new-chapter').value;
+  var resultEl = document.getElementById('calc-result');
+
+  if (!priorChapter || !priorDate || !gotDischarge || !newChapter) {
+    resultEl.className = 'calc-result show no-bar';
+    resultEl.innerHTML = '<p class="result-title">Por favor complete los cuatro campos.</p>';
+    return;
+  }
+
+  var filing = new Date(priorDate + 'T00:00:00');
+  if (isNaN(filing.getTime())) {
+    resultEl.className = 'calc-result show no-bar';
+    resultEl.innerHTML = '<p class="result-title">Por favor ingrese una fecha de presentacion anterior valida.</p>';
+    return;
+  }
+
+  if (gotDischarge === 'no') {
+    resultEl.className = 'calc-result show no-bar';
+    resultEl.innerHTML = '<p class="result-title" style="color:#58a6ff;">No aplica ninguna barra de tiempo de descargos sucesivos.</p>' +
+      '<p>Las cuatro barras de tiempo (la regla 2-4-6-8) aplican solo cuando realmente se recibio un descargo en el caso anterior. Como no se recibio ningun descargo, ninguna de estas barras aplica a su nueva presentacion de Capitulo ' + newChapter + '.</p>' +
+      '<p>Otros limites todavia pueden aplicar, como las barras de presentacion de la <a href="https://www.law.cornell.edu/uscode/text/11/109" target="_blank" rel="noopener">Seccion 109(g)</a> despues de ciertos sobreseimientos. Confirme con un abogado de bancarrota.</p>' +
+      noteHtml();
+    return;
+  }
+
+  var bar = getBar(priorChapter, newChapter);
+  if (!bar) {
+    resultEl.className = 'calc-result show no-bar';
+    resultEl.innerHTML = '<p class="result-title">Seleccion no reconocida. Por favor elija Capitulo 7 o Capitulo 13 como el nuevo caso.</p>';
+    return;
+  }
+
+  var liftDate = addYears(filing, bar.years);
+  var today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  var filingStr = formatDate(filing);
+  var liftStr = formatDate(liftDate);
+
+  var exceptionNote = '';
+  if (bar.exception) {
+    exceptionNote = '<div class="result-note"><strong>Posible excepcion (Seccion 727(a)(9)).</strong> La barra de 6 anos no aplica si el plan de Capitulo 13 anterior pago al menos el 100 por ciento de las reclamaciones no garantizadas permitidas, o al menos el 70 por ciento bajo un plan de buena fe y mejor esfuerzo. Si su plan anterior cumplio cualquiera de los dos umbrales, un nuevo descargo de Capitulo 7 puede estar disponible incluso antes del ' + liftStr + '. Si su plan califica es una cuestion de hecho que un abogado debe confirmar.</div>';
+  }
+
+  if (today >= liftDate) {
+    resultEl.className = 'calc-result show eligible';
+    resultEl.innerHTML = '<p class="result-title" style="color:#3fb950;">Segun las fechas ingresadas, la barra de tiempo de descargo parece haber expirado.</p>' +
+      '<p>Para un ' + bar.label + ', el periodo de espera es de <strong>' + bar.years + ' anos</strong> bajo <strong>' + bar.statute + '</strong>, medido desde la fecha de presentacion anterior.</p>' +
+      '<p>El caso de Capitulo ' + priorChapter + ' anterior se presento el ' + filingStr + '. La barra de ' + bar.years + ' anos alcanzo su fecha mas temprana de termino del <strong>' + liftStr + '</strong>, que ya paso. Un nuevo Capitulo ' + newChapter + ' presentado hoy no pareceria estar bloqueado por esta barra de tiempo en particular.</p>' +
+      exceptionNote +
+      noteHtml();
+  } else {
+    var diffDays = Math.ceil((liftDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
+    resultEl.className = 'calc-result show barred';
+    resultEl.innerHTML = '<p class="result-title" style="color:#f85149;">Segun las fechas ingresadas, la barra de tiempo de descargo parece estar activa.</p>' +
+      '<p>Para un ' + bar.label + ', el periodo de espera es de <strong>' + bar.years + ' anos</strong> bajo <strong>' + bar.statute + '</strong>, medido desde la fecha de presentacion anterior.</p>' +
+      '<p>El caso de Capitulo ' + priorChapter + ' anterior se presento el ' + filingStr + '. La fecha mas temprana en que un nuevo Capitulo ' + newChapter + ' podria presentarse y aun recibir un descargo bajo esta barra es el <strong>' + liftStr + '</strong>, que es dentro de <strong>' + diffDays + ' dia' + (diffDays === 1 ? '' : 's') + '</strong> a partir de hoy.</p>' +
+      '<p>Aun puede presentar un caso de Capitulo ' + newChapter + ' antes de esa fecha. Estas son barras de descargo, no barras de presentacion: la suspension automatica y el tratamiento del plan aplicarian, pero no se otorgaria un descargo si esta barra controla.</p>' +
+      exceptionNote +
+      noteHtml();
+  }
+
+  if (typeof gtag === 'function') {
+    gtag('event', 'calculator_used', {
+      tool: 'discharge_timing_calculator',
+      lang: 'es',
+      prior_chapter: priorChapter,
+      new_chapter: newChapter,
+      bar_years: bar.years,
+      bar_active: today < liftDate,
+      site: location.hostname
+    });
+  }
+}
+
+function noteHtml() {
+  return '<div class="result-note"><strong>Resultado educativo unicamente, no asesoria legal.</strong> Esto verifica solo las cuatro barras de tiempo de descargos sucesivos. Otros requisitos pueden aplicar (la prueba de medios, las exenciones, las barras de presentacion de la Seccion 109(g) y el historial de conversiones o nuevas presentaciones). La fecha que controla puede variar segun la jurisdiccion. Confirme con un abogado de bancarrota con licencia antes de presentar.</div>';
+}
+</script>
+<script src="/btn-engage.js" defer></script>
+<div style="text-align:center;padding:16px;color:#8b949e;font-size:0.8rem;border-top:1px solid #30363d;margin-top:20px"><p>Este sitio proporciona informacion general, no asesoria legal. Consulte a un abogado calificado para su situacion especifica.</p></div>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

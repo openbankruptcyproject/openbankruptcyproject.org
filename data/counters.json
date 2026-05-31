@@ -1,0 +1,43 @@
+{
+  "last_updated": "2026-05-23T00:00:00Z",
+  "domains": "210+",
+  "domains_methodology": "Registered + deployed publication domains across the Bankruptcy Transparency Network. Counts each apex domain and each functionally distinct subdomain separately. See https://openbankruptcyproject.org/network/ for the public inventory.",
+  "pages": "49,000+",
+  "pages_methodology": "Total HTML pages across the Bankruptcy Transparency Network, English + Spanish + German + Polish + French + Italian. Last full count 2026-05-23: 48,977 active pages (openbankruptcyproject.org 37,854 + statute-sites 10,339 + 1328f.com 784, excluding stale backups and not-owned mirrors). Spanish layer: 3,000+.",
+  "pages_spanish": "4,100+",
+  "languages": 6,
+  "languages_list": ["English", "Spanish", "German", "Polish", "French", "Italian"],
+  "spend_research": "$508+",
+  "recap_cases": "549+",
+  "recap_documents": "3,100+",
+  "recap_courts": "11",
+  "recap_freed": 2060,
+  "pacer_total": 37900000,
+  "supporters": 0,
+  "q1_pacer_goal": 5000,
+  "q1_pacer_donated": 0,
+  "rules_suggestions_accepted": 2,
+  "rules_accepted_list": [
+    "26-BK-3",
+    "26-BK-5"
+  ],
+  "rules_accepted_dates": {
+    "26-BK-3": "2026-03-23",
+    "26-BK-5": "2026-04-16"
+  },
+  "findings_as_of": "2026-04-11",
+  "fjc_baseline_cases": "8M",
+  "fjc_baseline_districts": 94,
+  "fjc_baseline_years": "2008-2024",
+  "national_dismissal_rate": "58.3%",
+  "national_discharge_rate": "41.7%",
+  "prior_filer_rate": "33.2%",
+  "pro_se_rate": "8.4%",
+  "repeat_filers_identified": "391,951",
+  "cases_screened": "115,291",
+  "nonprofit_status": "501(c)(3)",
+  "nonprofit_ein": "41-5159631",
+  "nonprofit_effective_date": "2026-03-27",
+  "nonprofit_determination_received": "2026-04-21",
+  "nonprofit_classification": "170(b)(1)(A)(vi) public charity"
+}

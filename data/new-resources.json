@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-05-18",
+  "_seed_note": "Initial dates for evergreen entries are approximate; refine as new entries ship and rotate evergreens off as needed.",
+  "resources": [
+    {
+      "pubdate": "2026-05-17",
+      "icon": "🏛️",
+      "label": "AI Sanctions Tracker",
+      "description": "Catalog of federal court orders sanctioning attorneys for filing AI-generated briefs containing fabricated case citations. Doctrine descends from Mata v. Avianca (S.D.N.Y. 2023) and Park v. Kim, 91 F.4th 610 (2d Cir. 2024). Eight cases verified and indexed.",
+      "url": "https://openbankruptcyproject.org/research/ai-court-tracker/",
+      "tags": ["ai-sanctions", "rule-11", "research-brief", "tracker"]
+    },
+    {
+      "pubdate": "2026-05-17",
+      "icon": "📊",
+      "label": "44,000+ pages of free bankruptcy research",
+      "description": "Network crossed 44,000 active pages across 180+ publication domains. Combined indexing layer covers 8M federal bankruptcy cases (FJC IDB), 11.5M PPP loan records, and 3.7M EIDL records, cross-searchable by debtor or borrower name.",
+      "url": "https://openbankruptcyproject.org/network/",
+      "tags": ["milestone", "scale", "datasets"]
+    },
+    {
+      "pubdate": "2026-05-17",
+      "icon": "🔍",
+      "label": "Search filters: chapter, year, district",
+      "description": "Cross-program search widget now supports filtering by Chapter (7/11/12/13), year, and district. Backwards-compatible with PPP and EIDL programs; defaults to no filter.",
+      "url": "https://openbankruptcyproject.org/lookup.html",
+      "tags": ["search", "tooling", "ux"]
+    },
+    {
+      "pubdate": "2026-05-17",
+      "icon": "📡",
+      "label": "RSS feed published",
+      "description": "Network research and news output now available via RSS at /feed.xml. Top 40 most-recent items, refreshed on each publishing pass.",
+      "url": "https://openbankruptcyproject.org/feed.xml",
+      "tags": ["rss", "syndication", "discoverability"]
+    },
+    {
+      "pubdate": "2026-05-17",
+      "icon": "📋",
+      "label": "Per-row LegalCase JSON-LD on national case index",
+      "description": "Every case row on the 4,280-page national district index now emits Schema.org LegalCase + ItemList structured data, machine-citable by search engines and legal-research databases.",
+      "url": "https://openbankruptcyproject.org/cases/",
+      "tags": ["structured-data", "schema-org", "national-index"]
+    },
+    {
+      "pubdate": "2026-05-17",
+      "icon": "🌎",
+      "label": "Spanish corpus: 17 new statute-specific topic translations",
+      "description": "Subchapter V, dischargeability, vehicle cramdown, lien stripping, tax refunds, reaffirmation, discharge-injunction violations, hardship discharge, preference actions, mortgage cure, domicile rule, claim objections, plan modification, codebtor stay, retirement accounts, wage garnishment, Rule 9037.",
+      "url": "https://openbankruptcyproject.org/section-523-dischargeability-es.html",
+      "tags": ["spanish", "topic-pages", "bilingual"]
+    },
+    {
+      "pubdate": "2026-05-17",
+      "icon": "🔎",
+      "label": "New top-of-funnel landing pages",
+      "description": "Three new search-intent landing pages: find-someone-in-bankruptcy, bankruptcy-records-lookup, free-pacer-alternative. Anchored to the cross-program name index.",
+      "url": "https://openbankruptcyproject.org/find-someone-in-bankruptcy.html",
+      "tags": ["seo", "landing-pages", "discoverability"]
+    },
+    {
+      "pubdate": "2026-04-16",
+      "icon": "📑",
+      "label": "26-BK-5 research brief",
+      "description": "Rule 9037 / Forms 121 and 309E1 SSN exposure: five amendments accepted by the Advisory Committee on Bankruptcy Rules and forwarded to the Standing Committee.",
+      "url": "https://openbankruptcyproject.org/research/26-bk-5/",
+      "tags": ["rules-committee", "rule-9037", "ssn-exposure", "research-brief"]
+    },
+    {
+      "pubdate": "2026-04-06",
+      "icon": "🏛️",
+      "label": "501(c)(3) determination letter (IRS)",
+      "description": "Internal Revenue Service determination letter dated April 6, 2026 recognizes the Open Bankruptcy Project as tax-exempt under Section 501(c)(3). EIN 41-5159631. Public charity classification 170(b)(1)(A)(vi). Contributions tax-deductible under IRC § 170.",
+      "url": "https://openbankruptcyproject.org/about.html",
+      "tags": ["nonprofit", "501c3", "milestone"]
+    },
+    {
+      "pubdate": "2026-03-23",
+      "icon": "📑",
+      "label": "26-BK-3 research brief",
+      "description": "Automated Section 1328(f) discharge-bar screening: empirical methodology accepted by the Advisory Committee on Bankruptcy Rules.",
+      "url": "https://openbankruptcyproject.org/research/26-bk-3/",
+      "tags": ["rules-committee", "section-1328f", "research-brief"]
+    },
+    {
+      "pubdate": "2026-03-15",
+      "icon": "📚",
+      "label": "Section 329(b) caselaw map (8th + 10th Circuit)",
+      "description": "Federal caselaw mapping fee-disgorgement under 11 U.S.C. § 329(b).",
+      "url": "https://section329.org/caselaw.html",
+      "tags": ["section-329b", "caselaw"]
+    },
+    {
+      "pubdate": "2026-03-12",
+      "icon": "📄",
+      "label": "Section 329(b) motion template + scaffolding",
+      "description": "Pro se motion template with scaffolded fact sections and authorities for fee-disgorgement under § 329(b).",
+      "url": "https://section329.org/motion-template.html",
+      "tags": ["section-329b", "motion-template", "pro-se"]
+    },
+    {
+      "pubdate": "2026-03-01",
+      "icon": "🧮",
+      "label": "Full Part 1 and Part 2 means test calculator",
+      "description": "Complete Chapter 7 means-test calculator covering presumption-of-abuse and disposable-income analysis.",
+      "url": "https://meanstest.org/calculator.html",
+      "tags": ["means-test", "calculator"]
+    },
+    {
+      "pubdate": "2026-02-25",
+      "icon": "📖",
+      "label": "61-term bankruptcy glossary",
+      "description": "Plain-English definitions for the 61 most common terms a pro se filer encounters.",
+      "url": "https://whathappensinbankruptcy.com/glossary/",
+      "tags": ["glossary", "education"]
+    },
+    {
+      "pubdate": "2026-02-20",
+      "icon": "🌎",
+      "label": "Guías en Español",
+      "description": "Spanish-language bankruptcy resources, state-by-state and statute-by-statute.",
+      "url": "https://howtofilebankruptcy.org/states-es/",
+      "tags": ["spanish", "guides"]
+    },
+    {
+      "pubdate": "2026-02-15",
+      "icon": "📍",
+      "label": "Bankruptcy guides for all 50 states",
+      "description": "State-by-state filing guides, exemptions, district statistics, and local procedure.",
+      "url": "https://bankruptcyexemptionsbystate.com/states/",
+      "tags": ["state-guides", "exemptions"]
+    },
+    {
+      "pubdate": "2026-02-10",
+      "icon": "📰",
+      "label": "Latest bankruptcy data analysis",
+      "description": "OBP's news index: empirical analyses of filing trends, attorney patterns, and enforcement gaps.",
+      "url": "https://openbankruptcyproject.org/news/",
+      "tags": ["news", "data-analysis"]
+    }
+  ]
+}

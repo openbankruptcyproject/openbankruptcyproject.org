@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Form 122C Chapter 13 Disposable Income and Applicable Commitment Period - Deep Dive [2026] - Open Bankruptcy Project</title>
+<meta content="A clause-by-clause walk-through of Official Forms 122C-1 and 122C-2: the Chapter 13 disposable income calculation under 11 U.S.C. Section 1325(b)(2), the applicable commitment period under Section 1325(b)(4), and the Supreme Court's forward-looking approach in Hamilton v. Lanning." name="description"/>
+<meta content="Form 122C-1, Form 122C-2, Chapter 13, projected disposable income, 1325(b)(2), applicable commitment period, 1325(b)(4), Hamilton v. Lanning, three-year plan, five-year plan, above-median Chapter 13" name="keywords"/>
+<meta content="#0d1117" name="theme-color"/>
+<link href="https://openbankruptcyproject.org/means-test-deep-dives/form-122c-chapter-13/" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Form 122C Chapter 13 Disposable Income and Applicable Commitment Period" property="og:title"/>
+<meta content="How Official Forms 122C-1 and 122C-2 implement the Section 1325(b) projected disposable income calculation: the applicable commitment period, the IRS Standards-based deduction schedule, and the forward-looking adjustment under Hamilton v. Lanning." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/means-test-deep-dives/form-122c-chapter-13/" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Form 122C Chapter 13 Disposable Income and Applicable Commitment Period" name="twitter:title"/>
+<meta content="A clause-by-clause walk-through of Official Forms 122C-1 and 122C-2." name="twitter:description"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"Article",
+ "headline":"Form 122C Chapter 13 Disposable Income and Applicable Commitment Period",
+ "description":"A clause-by-clause walk-through of Official Forms 122C-1 and 122C-2: the Section 1325(b)(2) disposable income calculation, the Section 1325(b)(4) applicable commitment period, and the Hamilton v. Lanning forward-looking adjustment.",
+ "datePublished":"2026-05-22",
+ "dateModified":"2026-05-22",
+ "inLanguage":"en",
+ "license":"https://creativecommons.org/licenses/by/4.0/",
+ "author":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},
+ "publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org","nonprofitStatus":"NonprofitType501c3","taxID":"41-5159631"},
+ "mainEntityOfPage":"https://openbankruptcyproject.org/means-test-deep-dives/form-122c-chapter-13/"
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"BreadcrumbList",
+ "itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Open Bankruptcy Project","item":"https://openbankruptcyproject.org/"},
+  {"@type":"ListItem","position":2,"name":"Means Test Deep Dives","item":"https://openbankruptcyproject.org/means-test-deep-dives/"},
+  {"@type":"ListItem","position":3,"name":"Form 122C Chapter 13","item":"https://openbankruptcyproject.org/means-test-deep-dives/form-122c-chapter-13/"}
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "Form 122C: Chapter 13 Disposable Income and the Applicable Commitment Period",
+ "description": "A clause-by-clause walk-through of Official Forms 122C-1 and 122C-2: the Chapter 13 disposable income calculation under 11 U.S.C. Section 1325(b)(2), the applicable commitment period under Section 1325(b)(4), and the Supreme Court",
+ "totalTime": "PT15M",
+ "step": [
+  {
+   "@type": "HowToStep",
+   "position": 1,
+   "name": "What the Form 122C series does",
+   "text": "Official Form 122C-1, Statement of Your Current Monthly Income and Calculation of Commitment Period, and Official Form 122C-2, Chapter 13 Calculation of Your Disposable Income, are the Chapter 13 analogues to the Chapter 7 Form 122A series. They serve two related but distinct functions in Chapter 13."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 2,
+   "name": "The statutory architecture of Section 1325(b)",
+   "text": "Section 1325(b)(1) sets the disposable-income confirmation requirement: a plan over the objection of the trustee or any unsecured creditor cannot be confirmed unless it either pays unsecured claims in full or provides that all of the debtor's \"projected disposable income\" received during the applicable commitment period will be applied to make payments to unsecured creditors."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 3,
+   "name": "The applicable commitment period",
+   "text": "Section 1325(b)(4) bifurcates the plan duration based on the state median income comparison performed on Form 122C-1. A debtor whose annualized current monthly income is at or below the applicable state median family income for the debtor's household size has an applicable commitment period of three years."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 4,
+   "name": "Form 122C-1 - the entry-point form",
+   "text": "Form 122C-1 mirrors Form 122A-1 in structure. The same six-month look-back applies."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 5,
+   "name": "Form 122C-2 - the deduction schedule",
+   "text": "For above-median debtors, Form 122C-2 implements the Section 1325(b)(3) reasonably-necessary calculation through the same four-family deduction structure that appears on Form 122A-2: IRS National Standards for food, clothing, personal care, household supplies, miscellaneous, and out-of-pocket healthcare."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 6,
+   "name": "Hamilton v. Lanning and the forward-looking adjustment",
+   "text": "The Supreme Court resolved a deep circuit split on the meaning of \"projected disposable income\" in Hamilton v. Lanning , 560 U.S."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 7,
+   "name": "The companion holding in Hall v. United States",
+   "text": "A related Supreme Court decision, Hall v. United States , 566 U.S."
+  },
+  {
+   "@type": "HowToStep",
+   "position": 8,
+   "name": "Disposable income for below-median debtors",
+   "text": "A below-median Chapter 13 debtor does not use Form 122C-2 for the disposable-income calculation. The \"reasonably necessary\" determination is performed under the court's general discretion under Section 1325(b)(2), informed by Schedules I (Income) and J (Expenses) that the debtor files with the petition."
+  }
+ ]
+}
+</script>
+
+<style>
+:root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--text:#e6edf3;--text-muted:#9eaab6;--accent:#58a6ff;--green:#238636;--red:#f85149;--yellow:#f0c14b;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh;display:flex;flex-direction:column;}
+a{color:var(--accent);text-decoration:none;}
+a:hover{text-decoration:underline;}
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:0.75rem 2rem;display:flex;align-items:center;justify-content:space-between;}
+.site-name{color:#f0f6fc;font-weight:700;font-size:1.1rem;text-decoration:none;}
+.site-name:hover{color:var(--accent);text-decoration:none;}
+.container{max-width:820px;margin:0 auto;padding:2.5rem 2rem;flex:1;}
+.breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:820px;margin:0 auto;padding-left:2rem;padding-right:2rem;}
+.breadcrumb-nav a{color:var(--accent);text-decoration:none;}
+.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58;}
+h1{color:#f0f6fc;font-size:2.25rem;margin-bottom:0.5rem;line-height:1.25;}
+.subtitle{color:var(--text-muted);font-size:1.05rem;margin-bottom:2rem;}
+h2{color:#f0f6fc;font-size:1.4rem;margin:2rem 0 0.75rem;border-bottom:1px solid var(--border);padding-bottom:0.4rem;}
+h3{color:#f0f6fc;font-size:1.1rem;margin:1.5rem 0 0.5rem;}
+p{margin-bottom:1rem;color:var(--text);}
+ul,ol{margin:0.5rem 0 1rem 1.5rem;}
+li{margin-bottom:0.4rem;}
+blockquote{background:var(--surface);border-left:3px solid var(--accent);padding:1rem 1.25rem;margin:1rem 0;color:var(--text);font-style:italic;}
+code{background:var(--surface);border:1px solid var(--border);padding:0.15rem 0.4rem;border-radius:4px;font-size:0.9em;color:var(--text);}
+.callout{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem 1.5rem;margin:1.5rem 0;}
+.callout.gov{background:#0d2847;border-color:#1f6feb;}
+.callout strong{color:#f0f6fc;}
+.callout p:last-child{margin-bottom:0;}
+.tag{display:inline-block;background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:0.1rem 0.5rem;font-size:0.75rem;color:var(--text-muted);margin-right:0.4rem;text-transform:uppercase;letter-spacing:0.03em;}
+footer{background:var(--surface);border-top:1px solid var(--border);padding:1.5rem;text-align:center;font-size:0.8rem;color:var(--text-muted);margin-top:2rem;}
+</style>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a class="site-name" href="/">Open Bankruptcy Project</a>
+<a href="/" style="color:var(--text-muted);font-size:0.9rem">Home</a>
+</nav>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="/">Home</a><span class="separator">/</span><a href="/means-test-deep-dives/">Means Test Deep Dives</a><span class="separator">/</span><span>Form 122C Chapter 13</span></nav>
+<div class="container">
+<span class="tag">11 U.S.C. Section 1325(b)</span>
+<span class="tag">Form 122C-1</span>
+<span class="tag">Form 122C-2</span>
+<h1>Form 122C: Chapter 13 Disposable Income and the Applicable Commitment Period</h1>
+<p class="subtitle">The Section 1325(b)(2) disposable-income definition, the Section 1325(b)(4) commitment period split, and the Supreme Court's forward-looking adjustment in Hamilton v. Lanning.</p>
+
+<h2>What the Form 122C series does</h2>
+<p>Official Form 122C-1, Statement of Your Current Monthly Income and Calculation of Commitment Period, and Official Form 122C-2, Chapter 13 Calculation of Your Disposable Income, are the Chapter 13 analogues to the Chapter 7 Form 122A series. They serve two related but distinct functions in Chapter 13.</p>
+<p>First, Form 122C-1 calculates current monthly income on the same statutory basis as Form 122A-1 and compares the annualized figure to the applicable state median family income. The result of this comparison sets the applicable commitment period: three years for a below-median debtor, five years for an above-median debtor, under <a href="https://www.law.cornell.edu/uscode/text/11/1325" rel="noopener" target="_blank">11 U.S.C. Section 1325(b)(4)</a>.</p>
+<p>Second, for above-median debtors only, Form 122C-2 computes monthly disposable income through a deduction schedule that closely parallels Form 122A-2. The output figure feeds into the confirmation requirement at Section 1325(b)(1)(B): an above-median debtor's plan must provide that the monthly disposable income computed by the form will be applied to make payments to unsecured creditors over the applicable commitment period.</p>
+
+<h2>The statutory architecture of Section 1325(b)</h2>
+<p>Section 1325(b)(1) sets the disposable-income confirmation requirement: a plan over the objection of the trustee or any unsecured creditor cannot be confirmed unless it either pays unsecured claims in full or provides that all of the debtor's "projected disposable income" received during the applicable commitment period will be applied to make payments to unsecured creditors. The two operative phrases are "projected disposable income" and "applicable commitment period."</p>
+<p>Section 1325(b)(2) defines "disposable income" as current monthly income (with the same Section 101(10A) source rules) less amounts reasonably necessary to be expended for maintenance or support of the debtor and dependents, for charitable contributions up to 15 percent of gross income, and for the continuation, preservation, and operation of a business if the debtor operates one. Section 1325(b)(3) then provides the bridge to the IRS-Standards regime: for above-median debtors, "amounts reasonably necessary to be expended" are determined by reference to the means-test deduction schedule at Section 707(b)(2)(A) and (B), the same schedule used on Form 122A-2.</p>
+<p>For below-median debtors, the "reasonably necessary" determination is performed under the discretion of the bankruptcy court without reference to the IRS Standards; below-median debtors complete only Form 122C-1 and report their actual budget on Schedules I and J for confirmation purposes.</p>
+
+<h2>The applicable commitment period</h2>
+<p>Section 1325(b)(4) bifurcates the plan duration based on the state median income comparison performed on Form 122C-1. A debtor whose annualized current monthly income is at or below the applicable state median family income for the debtor's household size has an applicable commitment period of three years. A debtor whose income is above median has a five-year period.</p>
+<p>The five-year period for above-median debtors is a confirmation requirement, not a debtor preference. An above-median debtor cannot propose a three-year plan over creditor or trustee objection; the plan must extend through the full sixty months unless unsecured claims are paid in full. The Supreme Court has held that the commitment period is a "temporal" requirement and not merely a "monetary" minimum, meaning that the debtor cannot satisfy the commitment-period requirement by front-loading payments and concluding early.</p>
+<p>A practical consequence of the bifurcation is that an above-median debtor whose monthly disposable income is small but positive still faces a five-year commitment with that small monthly amount applied to unsecured creditors. The cumulative payout to unsecured creditors over five years can be substantial even from a small monthly figure, and unsecured creditors who receive distributions in such cases benefit from the commitment period extension.</p>
+
+<h2>Form 122C-1 - the entry-point form</h2>
+<p>Form 122C-1 mirrors Form 122A-1 in structure. The same six-month look-back applies. The same source categories (gross wages, business income, rental income, interest and dividends, pension income, unemployment compensation, third-party contributions to household expenses, and other income) are enumerated. The same statutory exclusions apply: Social Security Act benefits, war-crime and terrorism victim payments, earned income credit, and certain veterans benefits paid for service-connected disability. The same state median income tables are referenced.</p>
+<p>The differences from Form 122A-1 are formal rather than substantive. Form 122C-1 includes the commitment-period determination as its terminal output; Form 122A-1 does not. The disposable-income calculation is in a separate companion form for Chapter 13 (Form 122C-2); for Chapter 7 it is in Form 122A-2.</p>
+
+<h2>Form 122C-2 - the deduction schedule</h2>
+<p>For above-median debtors, Form 122C-2 implements the Section 1325(b)(3) reasonably-necessary calculation through the same four-family deduction structure that appears on Form 122A-2:</p>
+<ol>
+<li><strong>IRS National Standards</strong> for food, clothing, personal care, household supplies, miscellaneous, and out-of-pocket healthcare.</li>
+<li><strong>IRS Local Standards</strong> for housing (non-mortgage and mortgage-or-rent components) and transportation (operating and ownership components), with the latter subject to <em>Ransom v. FIA Card Services, N.A.</em>, 562 U.S. 61 (2011), in the same manner as Form 122A-2.</li>
+<li><strong>Other Necessary Expenses</strong> from the closed enumeration (taxes, mandatory payroll deductions, term life insurance, court-ordered support, childcare, healthcare premiums and expenses beyond the standard allowance, telecommunications, and limited education expenses).</li>
+<li><strong>Deductions for secured and priority debts</strong>, calculated as the average monthly amount due over 60 months following the petition date.</li>
+</ol>
+<p>The Chapter 13 administrative-expense allowance that appears on Form 122A-2 does not appear on Form 122C-2; the debtor is in fact filing under Chapter 13, and actual trustee fees and other plan-administration costs are paid through the plan rather than treated as a means-test deduction.</p>
+<p>The marital adjustment is available on Form 122C-2 for a married debtor who files individually, on the same terms as on Form 122A-2.</p>
+
+<h2>Hamilton v. Lanning and the forward-looking adjustment</h2>
+<p>The Supreme Court resolved a deep circuit split on the meaning of "projected disposable income" in <em>Hamilton v. Lanning</em>, 560 U.S. 505 (2010). The question was whether the "projected" qualifier in Section 1325(b)(1)(B) permits a bankruptcy court to depart from the mechanical Form 122C-2 figure when the debtor's actual income or expenses at the time of confirmation will predictably differ from the six-month historical look-back captured by the form.</p>
+<p>The Court rejected a strictly mechanical reading. Justice Alito's opinion held that "projected disposable income" generally takes the Form 122C-2 disposable-income figure as a starting point, but the court may consider "known or virtually certain" changes to the debtor's income or expenses going forward. The mechanical figure is the presumptive output; the forward-looking adjustment is the exception, justified when the historical look-back captures income that the debtor will not in fact have during the commitment period (a debtor who lost a high-paying job before petition) or expenses that the debtor will not in fact incur (a debtor whose dependent child reaches majority during the plan, terminating childcare expenses).</p>
+<p>The Court summarized the holding as follows: "When a bankruptcy court calculates a debtor's projected disposable income, the court may account for changes in the debtor's income or expenses that are known or virtually certain at the time of confirmation." The doctrine has been applied in numerous reported decisions, generally to debtor benefit when historical income was unusually high or to creditor benefit when historical income was unusually low.</p>
+
+<h2>The companion holding in Hall v. United States</h2>
+<p>A related Supreme Court decision, <em>Hall v. United States</em>, 566 U.S. 506 (2012), addressed the treatment of post-petition tax claims arising from a Chapter 13 debtor's sale of farm property under Section 1222(a)(2)(A). The Court held that the post-petition tax was not "incurred by the estate" within the meaning of Section 503(b)(B) and was therefore not subject to discharge as an administrative expense. Although <em>Hall</em> is not a means-test case, it bears on the operation of Chapter 13 in the agricultural context that Section 1222 was enacted to address.</p>
+
+<h2>Disposable income for below-median debtors</h2>
+<p>A below-median Chapter 13 debtor does not use Form 122C-2 for the disposable-income calculation. The "reasonably necessary" determination is performed under the court's general discretion under Section 1325(b)(2), informed by Schedules I (Income) and J (Expenses) that the debtor files with the petition. Schedules I and J reflect actual current income and projected actual expenses rather than the historical six-month average; they are forward-looking by their nature.</p>
+<p>The discretionary regime gives below-median debtors substantially more flexibility than above-median debtors. A below-median debtor's monthly expenses on Schedule J can reflect actual rent, actual utility costs, actual food expenses, and actual recurring costs, even where those exceed the IRS Local Standards. The trustee may object that particular expenses are unreasonable, but the court evaluates the objection without reference to a fixed table.</p>
+
+<h2>Voluntary contributions and reasonable necessity</h2>
+<p>Section 1325(b)(2) expressly identifies charitable contributions of up to 15 percent of gross income as reasonably necessary. The text was added by the Religious Liberty and Charitable Donation Protection Act of 1998 and predates BAPCPA; the BAPCPA-era jurisprudence has integrated the provision with the Section 707(b)(2) deduction schedule for above-median debtors. Charitable contributions are unique among voluntary contributions in receiving express statutory protection.</p>
+<p>Voluntary retirement contributions present a different question. Section 541(b)(7) excludes from the estate certain retirement contributions, and bankruptcy courts have divided on whether such excluded contributions also escape the "disposable income" computation. The majority view permits a reasonable level of ongoing retirement contributions as a Schedule J expense for below-median debtors and as an Other Necessary Expense or special-circumstances item for above-median debtors, though the case law remains unsettled.</p>
+
+<h2>Confirmation and the disposable-income objection</h2>
+<p>The disposable-income requirement is enforced at confirmation. The trustee or any unsecured creditor may object to a plan that fails to commit projected disposable income to unsecured creditors. A debtor whose Form 122C-2 produces a positive disposable-income figure may avoid the objection by paying the figure to unsecured creditors, by paying unsecured claims in full, or by demonstrating through a Hamilton-type forward-looking adjustment that the actual projected figure is lower than the mechanical output.</p>
+<p>A debtor whose Form 122C-2 produces a negative or zero disposable-income figure satisfies Section 1325(b)(1)(B) on its face, but the plan must still satisfy the best-interests-of-creditors test at Section 1325(a)(4), which requires that unsecured creditors receive at least as much through the plan as they would receive in a hypothetical Chapter 7 liquidation. The two requirements operate independently.</p>
+
+<div class="callout gov">
+<p><strong>Form 122C is the same statute viewed from a different angle.</strong> The disposable-income figure that triggers presumption of abuse in Chapter 7 (Form 122A-2 output multiplied by 60) is essentially the same figure that fixes the unsecured-creditor payment obligation in Chapter 13 (Form 122C-2 output multiplied by the applicable commitment period). A debtor with substantial disposable income faces conversion or dismissal in Chapter 7 and a higher unsecured-creditor distribution in Chapter 13. The means test integrates the two chapters by design.</p>
+</div>
+
+<h2>Related statutes and authority</h2>
+<ul>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/1325" rel="noopener" target="_blank">11 U.S.C. Section 1325(b)</a> - Disposable income and commitment period</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/707" rel="noopener" target="_blank">11 U.S.C. Section 707(b)(2)(A)-(B)</a> - Deduction schedule incorporated by Section 1325(b)(3)</li>
+<li><a href="https://www.law.cornell.edu/uscode/text/11/101" rel="noopener" target="_blank">11 U.S.C. Section 101(10A)</a> - Current monthly income definition</li>
+<li><em>Hamilton v. Lanning</em>, 560 U.S. 505 (2010) - Forward-looking approach to projected disposable income</li>
+<li><em>Ransom v. FIA Card Services, N.A.</em>, 562 U.S. 61 (2011) - Vehicle ownership allowance</li>
+<li><em>Hall v. United States</em>, 566 U.S. 506 (2012) - Treatment of post-petition farm-sale tax claims</li>
+<li><a href="https://www.justice.gov/ust/means-testing" rel="noopener" target="_blank">EOUST Means Testing Information</a> - State median income tables</li>
+</ul>
+
+<h2>Open Bankruptcy Project cross-references</h2>
+<ul>
+<li><a href="/means-test-mechanics/">Means Test Mechanics Overview</a></li>
+<li><a href="/means-test-deep-dives/form-122a-1-income/">Form 122A-1 Current Monthly Income</a></li>
+<li><a href="/means-test-deep-dives/form-122a-2-deductions/">Form 122A-2 Deductions Deep Dive</a></li>
+<li><a href="/means-test-deep-dives/presumed-abuse-rebuttal/">Rebutting the Presumption of Abuse</a></li>
+<li><a href="/707b-means-test-abuse.html">Section 707(b) Abuse Overview</a></li>
+</ul>
+
+<p style="color:var(--text-muted);font-size:0.85rem;margin-top:2rem">This page provides general information about Official Forms 122C-1 and 122C-2 and the Section 1325(b) disposable-income framework. It does not constitute legal advice. The application of the forward-looking adjustment under Hamilton v. Lanning and the proper treatment of voluntary contributions are fact-intensive determinations that should be evaluated by qualified counsel.</p>
+<p style="color:var(--text-muted);font-size:0.8rem;margin-top:0.5rem">Last modified: 2026-05-22</p>
+</div>
+<footer role="contentinfo">
+<p>This site provides general information only and does not constitute legal advice.</p>
+<p>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+<p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
+</footer>
+</body>
+</html>

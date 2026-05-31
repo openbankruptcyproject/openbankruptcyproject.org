@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Open Bankruptcy Project - Empirical Research &amp; Free Tools for Bankruptcy Court Transparency</title>
+<meta content="Free bankruptcy tools and 4.9M-case research database from a 501(c)(3) nonprofit. Discharge screeners, court data, and reform advocacy." name="description"/>
+<meta content="bankruptcy research, discharge screening, 1328(f), chapter 13, chapter 7, federal courts, open source, nonprofit, court transparency, empirical analysis" name="keywords"/>
+<link href="https://openbankruptcyproject.org/" rel="canonical"/>
+<link href="https://openbankruptcyproject.org/" hreflang="en" rel="alternate"/>
+<link href="https://openbankruptcyproject.org/es.html" hreflang="es" rel="alternate"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<!-- Open Graph -->
+<meta content="Open Bankruptcy Project - Empirical Research &amp; Free Tools for Bankruptcy Court Transparency" property="og:title"/>
+<meta content="Free bankruptcy tools and 4.9M-case research database from a 501(c)(3) nonprofit. Discharge screeners, court data, and reform advocacy." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<!-- Twitter -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Open Bankruptcy Project - Empirical Research &amp; Free Tools for Bankruptcy Court Transparency" name="twitter:title"/>
+<meta content="Free bankruptcy tools and 4.9M-case research database from a 501(c)(3) nonprofit. Discharge screeners, court data, and reform advocacy." name="twitter:description"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- GA4 -->
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+<!-- Schema.org NonprofitOrganization -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NonprofitOrganization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://openbankruptcyproject.org",
+        "description": "Empirical research and free, open-source screening tools for bankruptcy court transparency. 4.9 million federal cases analyzed across all 94 judicial districts.",
+        "nonprofitStatus": "https://schema.org/NonprofitType501c3",
+        "taxID": "41-5159631",
+        "foundingDate": "2026-03-27",
+        "areaServed": {
+            "@type": "Country",
+            "name": "United States"
+        },
+        "knowsAbout": [
+            "Bankruptcy Law",
+            "Consumer Debt",
+            "Chapter 13 Bankruptcy",
+            "Chapter 7 Bankruptcy",
+            "Federal Courts",
+            "Discharge Eligibility",
+            "Section 1328(f)",
+            "Empirical Legal Research"
+        ],
+        "sameAs": [
+            "https://openbankruptcyproject.com",
+            "https://github.com/openbankruptcyproject",
+            "https://github.com/sponsors/openbankruptcyproject",
+            "https://1328f.com",
+            "https://1328f.org"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "General Inquiries",
+            "email": "info@openbankruptcyproject.org"
+        },
+        "funding": {
+            "@type": "MonetaryGrant",
+            "funder": {
+                "@type": "Organization",
+                "name": "Public Donations"
+            },
+            "description": "Funded by public donations. Volunteer-driven research and development."
+        }
+    }
+    </script>
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0d1117;
+            --bg-elevated: #0f1319;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --accent-subtle: rgba(88, 166, 255, 0.08);
+            --green: #3fb950;
+            --green-subtle: rgba(63, 185, 80, 0.08);
+            --gold: #d29922;
+            --gold-subtle: rgba(210, 153, 34, 0.08);
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+        a:hover { color: var(--accent-hover); }
+
+        .container { max-width: 1040px; margin: 0 auto; padding: 0 32px; }
+        .narrow { max-width: 760px; }
+
+        /* NAV */
+        nav {
+            border-bottom: 1px solid var(--border);
+            padding: 18px 0;
+            position: sticky;
+            top: 0;
+            background: rgba(13, 17, 23, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        nav .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .nav-brand {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text);
+            letter-spacing: -0.01em;
+        }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a {
+            color: var(--text-muted);
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: color 0.15s;
+        }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 96px 0 80px;
+            border-bottom: 1px solid var(--border);
+        }
+        .hero h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            margin-bottom: 20px;
+        }
+        .hero .tagline {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+        }
+        .hero-cta {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background 0.2s;
+        }
+        .hero-cta:hover { background: var(--accent-hover); color: #fff; }
+
+        /* MISSION */
+        .mission {
+            padding: 56px 0;
+            border-bottom: 1px solid var(--border);
+            text-align: center;
+        }
+        .mission p {
+            font-size: 1.08rem;
+            color: var(--text-secondary);
+            max-width: 720px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* STATS */
+        .stats-section {
+            padding: 64px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .stats-section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 40px;
+            text-align: center;
+            letter-spacing: -0.02em;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .stat-cell {
+            background: var(--surface);
+            padding: 32px 20px;
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: background 0.15s;
+        }
+        .stat-cell:hover { background: var(--surface-hover); text-decoration: none; }
+        .stat-number {
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--text);
+            display: block;
+            letter-spacing: -0.02em;
+            margin-bottom: 6px;
+        }
+        .stat-number.accent { color: var(--accent); }
+        .stat-number.gold { color: var(--gold); }
+        .stat-number.green { color: var(--green); }
+        .stat-label {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        /* SECTIONS */
+        section { padding: 72px 0; border-bottom: 1px solid var(--border); }
+        section:last-of-type { border-bottom: none; }
+        .section-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent);
+            margin-bottom: 12px;
+        }
+        section h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+        section > .container > p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            max-width: 680px;
+            font-size: 1.02rem;
+        }
+
+        /* PILLARS */
+        .pillars {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .pillar {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 32px 28px;
+            transition: border-color 0.2s, background 0.2s;
+        }
+        .pillar:hover { border-color: var(--border-light); background: var(--surface-hover); }
+        .pillar-label {
+            font-size: 0.72rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+            margin-bottom: 12px;
+        }
+        .pillar h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--text);
+            letter-spacing: -0.01em;
+        }
+        .pillar p {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            line-height: 1.65;
+            margin: 0;
+        }
+
+        /* RULES CITATION */
+        .rules-block {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--gold);
+            border-radius: 2px 10px 10px 2px;
+            padding: 32px;
+            margin-top: 32px;
+        }
+        .rules-block .cite-label {
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+        .rules-block .cite-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+        .rules-block p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 16px;
+        }
+        .rules-block p:last-child { margin-bottom: 0; }
+        .rules-block a {
+            font-size: 0.88rem;
+            font-weight: 500;
+        }
+
+        /* NETWORK */
+        .network-category {
+            margin-top: 36px;
+        }
+        .network-category:first-of-type { margin-top: 40px; }
+        .network-category-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+            margin-bottom: 14px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        .network-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 10px;
+        }
+        .network-item {
+            display: block;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px 18px;
+            transition: border-color 0.2s, background 0.2s;
+        }
+        .network-item:hover {
+            border-color: var(--accent);
+            background: var(--surface-hover);
+            text-decoration: none;
+        }
+        .network-item .domain {
+            font-weight: 700;
+            font-size: 0.92rem;
+            color: var(--text);
+            display: block;
+            margin-bottom: 4px;
+        }
+        .network-item .desc {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        /* OPEN SOURCE */
+        .open-source-block {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 40px;
+            margin-top: 32px;
+            text-align: center;
+        }
+        .open-source-block h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .open-source-block p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            max-width: 560px;
+            margin: 0 auto 20px;
+            line-height: 1.7;
+        }
+        .open-source-block a.gh-link {
+            display: inline-block;
+            border: 1px solid var(--border);
+            padding: 10px 28px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text);
+            transition: border-color 0.2s, background 0.2s;
+        }
+        .open-source-block a.gh-link:hover {
+            border-color: var(--accent);
+            background: var(--accent-subtle);
+            text-decoration: none;
+        }
+
+        /* ANTI-ACQUISITION */
+        .anti-acq {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 32px 40px;
+            margin-top: 32px;
+        }
+        .anti-acq h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--text);
+        }
+        .anti-acq p {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        /* DONATE */
+        .donate-section {
+            text-align: center;
+        }
+        .donate-section h2 { margin-bottom: 16px; }
+        .donate-section > .container > p {
+            max-width: 560px;
+            margin: 0 auto 28px;
+            text-align: center;
+        }
+        .donate-btn {
+            display: inline-block;
+            background: var(--green);
+            color: #fff;
+            padding: 14px 44px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: opacity 0.2s;
+        }
+        .donate-btn:hover { opacity: 0.9; text-decoration: none; color: #fff; }
+        .donate-note {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-top: 16px;
+        }
+
+        /* FOOTER */
+        footer {
+            padding: 48px 0 40px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links {
+            margin-bottom: 20px;
+        }
+        footer .footer-links a {
+            color: var(--text-muted);
+            margin: 0 12px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        /* MOBILE */
+        @media (max-width: 900px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .pillars { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .hero { padding: 56px 0 48px; }
+            .hero h1 { font-size: 2rem; }
+            .hero .tagline { font-size: 1.05rem; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .stat-cell { padding: 24px 14px; }
+            .stat-number { font-size: 1.4rem; }
+            section { padding: 48px 0; }
+            section h2 { font-size: 1.35rem; }
+            .network-grid { grid-template-columns: 1fr; }
+            .rules-block { padding: 24px; }
+            .anti-acq { padding: 24px; }
+            .open-source-block { padding: 28px 20px; }
+            nav .nav-links { gap: 16px; }
+        }
+    
+  /* Skip navigation link (accessibility) */
+  .skip-link {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background: var(--accent, #58a6ff);
+    color: #000;
+    padding: 0.5rem 1.5rem;
+    z-index: 10000;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    border-radius: 0 0 6px 0;
+  }
+  .skip-link:focus {
+    top: 0;
+  }
+</style>
+<!-- BreadcrumbList Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Open Bankruptcy Project",
+      "item": "https://openbankruptcyproject.org"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Open Bankruptcy Project",
+      "item": "https://openbankruptcyproject.org/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much does bankruptcy cost?", "acceptedAnswer": {"@type": "Answer", "text": "Filing fees are $338 for Chapter 7 and $313 for Chapter 13. Attorney fees typically range from $1,000 to $3,500 depending on the chapter and complexity. Fee waivers and installment payments are available for those who qualify."}}, {"@type": "Question", "name": "Can I file bankruptcy if I can't afford an attorney?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can file pro se (without an attorney), apply for a fee waiver to eliminate the filing fee, or pay the filing fee in installments. Some legal aid organizations also provide free bankruptcy assistance."}}, {"@type": "Question", "name": "Are there hidden fees in bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "The main costs are the filing fee, attorney fee, and credit counseling courses (about $20-50 total). Some attorneys charge extra for adversary proceedings or plan modifications, so ask for a complete fee breakdown upfront."}}, {"@type": "Question", "name": "What is the cheapest way to file bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "The cheapest option is filing pro se with a fee waiver, which costs nothing. If you hire an attorney, Chapter 7 is generally less expensive than Chapter 13. Always compare quotes from multiple attorneys."}}, {"@type": "Question", "name": "Can I pay bankruptcy attorney fees in installments?", "acceptedAnswer": {"@type": "Answer", "text": "Most bankruptcy attorneys accept payment plans. In Chapter 13, attorney fees can even be paid through your repayment plan. In Chapter 7, many attorneys require full payment before filing, but installment arrangements are common."}}]}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Open Bankruptcy Project",
+      "description": "Open Bankruptcy Project - free tools, data, and research making the bankruptcy system more transparent and accessible. A 501(c)(3) nonprofit initiative.",
+      "author": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://1328f.org"
+      },
+      "datePublished": "2026-04-05",
+      "dateModified": "2026-04-17",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Open Bankruptcy Project",
+      "url": "https://openbankruptcyproject.org/",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "name": "BTN Network",
+      "url": [
+        "https://1328f.com",
+        "https://1328f.org",
+        "https://automaticstay.org",
+        "https://341meeting.org",
+        "https://523a.org",
+        "https://109g.org",
+        "https://727a8.com",
+        "https://meanstest.org",
+        "https://chapter7vs13.org",
+        "https://howtofilebankruptcy.org"
+      ]
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "LegalService", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org", "description": "Free, open-source bankruptcy court transparency tools and empirical research. 4.9 million federal cases analyzed across all 94 judicial districts.", "serviceType": "Bankruptcy Information and Screening Tools", "areaServed": {"@type": "Country", "name": "United States"}, "provider": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "availableChannel": {"@type": "ServiceChannel", "serviceUrl": "https://1328f.com", "serviceSmsNumber": "", "servicePhone": ""}, "isAccessibleForFree": true, "audience": {"@type": "Audience", "audienceType": "Bankruptcy debtors, attorneys, researchers, judges"}}
+</script>
+<link href="/feed.xml" rel="alternate" title="Open Bankruptcy Project - News Feed (Atom)" type="application/atom+xml"/>
+<link href="/rss.xml" rel="alternate" title="Open Bankruptcy Project - News Feed (RSS)" type="application/rss+xml"/>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<!-- aggressive-interlink:lang-en -->
+<div style="background:#161b22;border-bottom:1px solid #30363d;padding:8px 16px;text-align:center;font-size:0.85em"><a href="/es.html" style="color:#58a6ff;text-decoration:none">🌐 Esta pagina esta disponible en Espanol</a></div>
+<nav aria-label="Main navigation">
+<div class="container">
+<span class="nav-brand">Open Bankruptcy Project</span>
+<div class="nav-links">
+<a href="#mission">Mission</a>
+<a href="#what-we-do">What We Do</a>
+<a href="#rules">Rules Committee</a>
+<a href="/cases/">Cases</a>
+<a href="#network">Network</a>
+<a href="statistics.html">Statistics</a>
+<a href="cities.html">Cities</a>
+<a href="states.html">States</a>
+<a href="news/">News</a>
+<a href="blog/">Blog</a>
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="methodology.html">Methodology</a>
+<a href="citations.html">Citations</a>
+<a href="contact.html">Contact</a>
+<a href="#support">Support</a>
+</div>
+</div>
+</nav>
+<header class="hero">
+<div class="container">
+<h1>Open Bankruptcy Project</h1>
+<p class="tagline">Empirical research and free tools for bankruptcy court transparency.</p>
+<a class="hero-cta" href="https://1328f.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">Try the Free Screener</a>
+</div>
+</header>
+<div class="mission" id="mission">
+<div class="container narrow">
+<p>We build free, open-source tools that screen millions of federal bankruptcy cases for statutory compliance failures. Our research has been cited by the Federal Rules Advisory Committee. We operate on volunteer labor and public donations.</p>
+</div>
+</div>
+<div class="stats-section">
+<div class="container">
+<h2>By the Numbers</h2>
+<div class="stats-grid">
+<a class="stat-cell" href="https://1328f.org/harm-map/">
+<span class="stat-number accent">4,895,163</span>
+<span class="stat-label">Cases Screened</span>
+</a>
+<a class="stat-cell" href="https://bankruptcylawyerreview.org/districts/">
+<span class="stat-number">94</span>
+<span class="stat-label">Federal Districts</span>
+</a>
+<a class="stat-cell" href="/research/26-bk-3/">
+<span class="stat-number">391,951</span>
+<span class="stat-label">Prior Filers with Zero<br/>Eligibility Verification</span>
+</a>
+<a class="stat-cell" href="#network">
+<span class="stat-number">180+</span>
+<span class="stat-label">Educational Domains</span>
+</a>
+<a class="stat-cell" href="/blog/">
+<span class="stat-number">18,000+</span>
+<span class="stat-label">Pages of Free Content</span>
+</a>
+<a class="stat-cell" href="/about.html">
+<span class="stat-number green">$0</span>
+<span class="stat-label">Cost to Users</span>
+</a>
+<a class="stat-cell" href="#rules">
+<span class="stat-number gold">2</span>
+<span class="stat-label">Federal Rules Committee<br/>Suggestions Accepted</span>
+</a>
+<a class="stat-cell" href="/about.html">
+<span class="stat-number">501(c)(3)</span>
+<span class="stat-label">Nonprofit<br/>(IRS Approved 4/6/2026)</span>
+</a>
+</div>
+</div>
+</div>
+<section id="what-we-do">
+<div class="container">
+<div class="section-label">What We Do</div>
+<h2>Three Pillars of the Project</h2>
+<div class="pillars">
+<div class="pillar">
+<div class="pillar-label">Pillar 1</div>
+<h3>Screening Tools</h3>
+<p>Automated <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> eligibility screening across all 94 federal bankruptcy districts. Our screener cross-references 4.9 million cases against statutory filing bars that courts have no systematic mechanism to check.</p>
+</div>
+<div class="pillar">
+<div class="pillar-label">Pillar 2</div>
+<h3>Empirical Research</h3>
+<p>Data-driven analysis of bankruptcy outcomes, attorney performance patterns, and enforcement gaps. Methodology validated by faculty at UC Berkeley School of Law.</p>
+</div>
+<div class="pillar">
+<div class="pillar-label">Pillar 3</div>
+<h3>Public Education</h3>
+<p>180-domain network covering every major bankruptcy statute in plain English, with calculators, guides, city-specific data, and Spanish-language resources. No ads, no intake forms, no acquisition.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- aggressive-interlink:resources -->
+<div style="background:linear-gradient(135deg,#161b22,#1c2333);border:1px solid #30363d;border-radius:8px;padding:1.25rem 1.5rem;margin:1.5rem auto;max-width:900px">
+<h3 style="color:#58a6ff;margin:0 0 0.75rem;font-size:1.1rem">🆕 New Resources</h3>
+<ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:0.5rem">
+<li><a href="https://bankruptcyexemptionsbystate.com/states/" style="color:#c9d1d9;text-decoration:none">📍 Bankruptcy guides for all 50 states</a></li>
+<li><a href="https://howtofilebankruptcy.org/states-es/" style="color:#c9d1d9;text-decoration:none">🌎 Guias en Espanol</a></li>
+<li><a href="https://whathappensinbankruptcy.com/glossary/" style="color:#c9d1d9;text-decoration:none">📖 61-term bankruptcy glossary</a></li>
+<li><a href="https://meanstest.org/calculator.html" style="color:#c9d1d9;text-decoration:none">🧮 Full Part 1 &amp; Part 2 means test calculator</a></li>
+<li><a href="https://openbankruptcyproject.org/news/" style="color:#c9d1d9;text-decoration:none">📰 Latest bankruptcy data analysis</a></li>
+<li><a href="https://section329.org/caselaw.html" style="color:#c9d1d9;text-decoration:none">📚 Section 329(b) caselaw map (8th + 10th Circuit)</a></li>
+<li><a href="https://section329.org/motion-template.html" style="color:#c9d1d9;text-decoration:none">📄 Section 329(b) motion template + scaffolding</a></li>
+</ul>
+</div>
+<section id="rules">
+<div class="container">
+<div class="section-label">Federal Rules Committee</div>
+<h2>Federal Rules Committee Acceptances</h2>
+<p>Two of our submissions to the Judicial Conference's Advisory Committee on Bankruptcy Rules have been formally accepted, resulting in proposed rule amendments under consideration.</p>
+<div class="rules-block">
+<div class="cite-label">Advisory Committee on Bankruptcy Rules</div>
+<div class="cite-title">Suggestion 26-BK-3 - Automated <a href="https://1328f.com/" title="Section 1328(f)">Section 1328(f)</a> <a href="https://dischargebar.org/" title="discharge bar">Discharge Bar</a> Screening</div>
+<p>In March 2026, the Advisory Committee on Bankruptcy Rules accepted our empirical data and screening methodology as Suggestion 26-BK-3, proposing automated <a href="https://section1328.org" rel="noopener" target="_blank" title="Section 1328 Discharge - Open Bankruptcy Project">Section 1328</a>(f) <a href="https://dischargebar.org" rel="noopener" target="_blank" title="Bankruptcy Discharge Bar - Open Bankruptcy Project">discharge bar</a> screening in federal courts. The submission demonstrated that 391,951 prior filers in the FJC dataset had no systematic eligibility verification at the point of filing, representing a structural gap in the administration of bankruptcy cases.</p>
+<a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" rel="noopener" target="_blank">View on uscourts.gov →</a>
+</div>
+<div class="rules-block">
+<div class="cite-label">Advisory Committee on Bankruptcy Rules</div>
+<div class="cite-title">Suggestion 26-BK-5 - <a href="https://www.law.cornell.edu/rules/frbp/rule_9037" rel="noopener" target="_blank">Rule 9037</a> / Forms 121 &amp; 309E1 SSN Exposure Remediation</div>
+<p>In April 2026, the Advisory Committee on Bankruptcy Rules accepted our <a href="https://www.law.cornell.edu/rules/frbp/rule_9037" rel="noopener" target="_blank">Rule 9037</a> submission as Suggestion 26-BK-5, proposing five amendments addressing systemic SSN exposure through Forms 121 and 309E1: auto-seal of unredacted filings, template audit protocol, pre-filing screening, non-cure effect of post-hoc redaction, and mandatory clerk notification procedures. The submission was forwarded to the Advisory Committee and Standing Committee for formal consideration.</p>
+<a href="https://openbankruptcyproject.org/research/26-bk-5/" rel="noopener">Read the 26-BK-5 research brief →</a>
+</div>
+</div>
+</section>
+<section id="network">
+<div class="container">
+<div class="section-label">Our Network</div>
+<h2>180+ Domains. 18,000+ Pages. All Free.</h2>
+<p>Every site in the network is free, ad-free, and open source. No attorney referral fees. No data harvesting. No intake forms.</p>
+<div class="network-category">
+<div class="network-category-label">Featured Deep Guides</div>
+<div class="network-grid">
+<a class="network-item" href="https://bankruptcytrustee.org/trustee-questions.html?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">What the Trustee Asks at 341</span>
+<span class="desc">The 10 required questions, district-by-district variation, how to prepare</span>
+</a>
+<a class="network-item" href="https://bankaccountlevy.com/bank-freeze-after-bankruptcy.html?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">Bank Account Frozen After Filing</span>
+<span class="desc">Why Wells Fargo / Chase freeze, how long it lasts, when funds are released</span>
+</a>
+<a class="network-item" href="https://bankruptcystudentloans.org/borrower-defense.html?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">Borrower Defense, Sweet, TPD</span>
+<span class="desc">Three federal student-loan discharge paths that aren't bankruptcy</span>
+</a>
+</div>
+</div>
+<div class="network-category">
+<div class="network-category-label">Screening &amp; Research</div>
+<div class="network-grid">
+<a class="network-item" href="https://1328f.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">1328f.com</span>
+<span class="desc">Discharge eligibility screener - Section 1328(f)</span>
+</a>
+<a class="network-item" href="https://1328f.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">1328f.org</span>
+<span class="desc">Research platform - attorney analytics, district statistics</span>
+</a>
+</div>
+</div>
+<div class="network-category">
+<div class="network-category-label">Statute Guides</div>
+<div class="network-grid">
+<a class="network-item" href="https://523a.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">523a.org</span>
+<span class="desc">Nondischargeable debts - Section 523(a)</span>
+</a>
+<a class="network-item" href="https://727a8.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">727a8.com</span>
+<span class="desc">Chapter 7 discharge bars - Section 727(a)(8)</span>
+</a>
+<a class="network-item" href="https://109g.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">109g.org</span>
+<span class="desc">Filing eligibility - Section 109(g)</span>
+</a>
+<a class="network-item" href="https://section1328.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">section1328.org</span>
+<span class="desc">Chapter 13 discharge - Section 1328</span>
+</a>
+<a class="network-item" href="https://section1191.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">section1191.org</span>
+<span class="desc">Subchapter V discharge - Section 1191</span>
+</a>
+<a class="network-item" href="https://section1192.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">section1192.org</span>
+<span class="desc">Subchapter V nondischargeable debts - Section 1192</span>
+</a>
+<a class="network-item" href="https://section329.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">section329.org</span>
+<span class="desc">Attorney fee disclosure - Section 329</span>
+</a>
+<a class="network-item" href="https://dischargebar.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">dischargebar.org</span>
+<span class="desc">Comprehensive guide to all discharge bars</span>
+</a>
+</div>
+</div>
+<div class="network-category">
+<div class="network-category-label">Plain English Guides</div>
+<div class="network-grid">
+<a class="network-item" href="https://automaticstay.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">automaticstay.org</span>
+<span class="desc">The automatic stay - Section 362</span>
+</a>
+<a class="network-item" href="https://341meeting.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">341meeting.org</span>
+<span class="desc">Meeting of creditors - Section 341</span>
+</a>
+<a class="network-item" href="https://meanstest.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">meanstest.org</span>
+<span class="desc">The means test - Section 707(b)</span>
+</a>
+<a class="network-item" href="https://relieffromstay.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">relieffromstay.org</span>
+<span class="desc">Relief from stay motions - Section 362(d)</span>
+</a>
+<a class="network-item" href="https://dischargeinjunction.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">dischargeinjunction.org</span>
+<span class="desc">The discharge injunction - Section 524</span>
+</a>
+<a class="network-item" href="https://dischargeinjunction.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">dischargeinjunction.com</span>
+<span class="desc">Discharge injunction guide (.com mirror)</span>
+</a>
+<a class="network-item" href="https://codebtorstay.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">codebtorstay.org</span>
+<span class="desc">The codebtor stay - Section 1301</span>
+</a>
+</div>
+</div>
+<div class="network-category">
+<div class="network-category-label">Consumer Resources</div>
+<div class="network-grid">
+<a class="network-item" href="https://whatischapter7.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">whatischapter7.com</span>
+<span class="desc">Chapter 7 overview for consumers</span>
+</a>
+<a class="network-item" href="https://whatischapter7.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">whatischapter7.org</span>
+<span class="desc">Chapter 7 overview (.org mirror)</span>
+</a>
+<a class="network-item" href="https://chapter13plan.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">chapter13plan.org</span>
+<span class="desc">Understanding the Chapter 13 plan</span>
+</a>
+<a class="network-item" href="https://lienstripping.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">lienstripping.org</span>
+<span class="desc">Lien stripping in Chapter 13</span>
+</a>
+<a class="network-item" href="https://nondischargeable.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">nondischargeable.org</span>
+<span class="desc">Guide to nondischargeable debts</span>
+</a>
+<a class="network-item" href="https://bankruptcyfreshstart.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcyfreshstart.org</span>
+<span class="desc">Fresh start after bankruptcy</span>
+</a>
+<a class="network-item" href="https://reaffirmationagreement.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">reaffirmationagreement.org</span>
+<span class="desc">Reaffirmation agreements explained</span>
+</a>
+<a class="network-item" href="https://bankruptcytaxes.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcytaxes.org</span>
+<span class="desc">Tax obligations in bankruptcy</span>
+</a>
+<a class="network-item" href="https://bankruptcyhardship.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcyhardship.org</span>
+<span class="desc">Hardship discharge - Section 1328(b)</span>
+</a>
+<a class="network-item" href="https://voluntarypetition.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">voluntarypetition.org</span>
+<span class="desc">Filing the voluntary petition</span>
+</a>
+<a class="network-item" href="https://canifileagain.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">canifileagain.org</span>
+<span class="desc">Repeat filing eligibility calculator</span>
+</a>
+<a class="network-item" href="https://howtofilebankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">howtofilebankruptcy.org</span>
+<span class="desc">Step-by-step filing guide</span>
+</a>
+<a class="network-item" href="https://garnishedwages.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">garnishedwages.org</span>
+<span class="desc">Wage garnishment and bankruptcy</span>
+</a>
+<a class="network-item" href="https://bankruptcystudentloans.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcystudentloans.org</span>
+<span class="desc">Student loans in bankruptcy</span>
+</a>
+<a class="network-item" href="https://howmuchdoesbankruptcycost.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">howmuchdoesbankruptcycost.com</span>
+<span class="desc">Bankruptcy cost breakdown</span>
+</a>
+<a class="network-item" href="https://bankruptcycost.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcycost.org</span>
+<span class="desc">Filing fees, attorney fees, total costs</span>
+</a>
+<a class="network-item" href="https://chapter7vs13.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">chapter7vs13.org</span>
+<span class="desc">Chapter 7 vs Chapter 13 comparison</span>
+</a>
+<a class="network-item" href="https://bankruptcymeanstest.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcymeanstest.org</span>
+<span class="desc">Means test guide and calculator</span>
+</a>
+<a class="network-item" href="https://524injunction.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">524injunction.com</span>
+<span class="desc">Section 524 discharge injunction</span>
+</a>
+<a class="network-item" href="https://filebankruptcyagain.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">filebankruptcyagain.com</span>
+<span class="desc">Repeat filing eligibility guide</span>
+</a>
+<a class="network-item" href="https://bankruptcydismissed.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcydismissed.com</span>
+<span class="desc">What happens when bankruptcy is dismissed</span>
+</a>
+<a class="network-item" href="https://prosequestion.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">prosequestion.com</span>
+<span class="desc">Pro se bankruptcy FAQ</span>
+</a>
+<a class="network-item" href="https://creditcarddebtbankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">creditcarddebtbankruptcy.org</span>
+<span class="desc">Credit card debt and bankruptcy</span>
+</a>
+<a class="network-item" href="https://debtconsolidationvsbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">debtconsolidationvsbankruptcy.com</span>
+<span class="desc">Debt consolidation vs bankruptcy</span>
+</a>
+<a class="network-item" href="https://debtsettlementvsbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">debtsettlementvsbankruptcy.com</span>
+<span class="desc">Debt settlement vs bankruptcy</span>
+</a>
+<a class="network-item" href="https://debtrelieforbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">debtrelieforbankruptcy.com</span>
+<span class="desc">Debt relief options compared</span>
+</a>
+<a class="network-item" href="https://debtvalidationletter.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">debtvalidationletter.org</span>
+<span class="desc">Debt validation letter guide</span>
+</a>
+<a class="network-item" href="https://debttoincomeratio.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">debttoincomeratio.org</span>
+<span class="desc">Debt-to-income ratio calculator</span>
+</a>
+<a class="network-item" href="https://creditcardforgiveness.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">creditcardforgiveness.org</span>
+<span class="desc">Credit card forgiveness options</span>
+</a>
+<a class="network-item" href="https://averagecreditcarddebt.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">averagecreditcarddebt.org</span>
+<span class="desc">Average credit card debt statistics</span>
+</a>
+<a class="network-item" href="https://rebuildcreditafterbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">rebuildcreditafterbankruptcy.com</span>
+<span class="desc">Rebuilding credit after bankruptcy</span>
+</a>
+<a class="network-item" href="https://keepmycarinbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">keepmycarinbankruptcy.com</span>
+<span class="desc">Keeping your car in bankruptcy</span>
+</a>
+<a class="network-item" href="https://keepmyhouseinbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">keepmyhouseinbankruptcy.com</span>
+<span class="desc">Keeping your house in bankruptcy</span>
+</a>
+<a class="network-item" href="https://buyacarafterbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">buyacarafterbankruptcy.com</span>
+<span class="desc">Buying a car after bankruptcy</span>
+</a>
+<a class="network-item" href="https://buyahouseafterbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">buyahouseafterbankruptcy.com</span>
+<span class="desc">Buying a house after bankruptcy</span>
+</a>
+<a class="network-item" href="https://bankruptcydenied.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcydenied.com</span>
+<span class="desc">What to do when bankruptcy is denied</span>
+</a>
+<a class="network-item" href="https://filebankruptcywithoutlawyer.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">filebankruptcywithoutlawyer.com</span>
+<span class="desc">Filing bankruptcy without a lawyer</span>
+</a>
+<a class="network-item" href="https://bankruptcyexemptionsbystate.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcyexemptionsbystate.com</span>
+<span class="desc">State-by-state exemption lookup</span>
+</a>
+</div>
+</div>
+<div class="network-category">
+<div class="network-category-label">Debt &amp; Financial Literacy</div>
+<div class="network-grid">
+<a class="network-item" href="https://debtstatuteoflimitations.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">debtstatuteoflimitations.com</span>
+<span class="desc">Statute of limitations on debt</span>
+</a>
+<a class="network-item" href="https://studentloanforgive.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">studentloanforgive.org</span>
+<span class="desc">Student loan forgiveness guide</span>
+</a>
+<a class="network-item" href="https://creditscorebankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">creditscorebankruptcy.com</span>
+<span class="desc">Credit score and bankruptcy</span>
+</a>
+<a class="network-item" href="https://judgmentproof.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">judgmentproof.org</span>
+<span class="desc">What it means to be judgment proof</span>
+</a>
+<a class="network-item" href="https://defaultjudgment.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">defaultjudgment.org</span>
+<span class="desc">Understanding default judgments</span>
+</a>
+<a class="network-item" href="https://divorceanddebt.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">divorceanddebt.org</span>
+<span class="desc">Divorce and debt obligations</span>
+</a>
+<a class="network-item" href="https://cosignerrights.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">cosignerrights.org</span>
+<span class="desc">Rights and risks of cosigning</span>
+</a>
+<a class="network-item" href="https://studentloandefault.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">studentloandefault.org</span>
+<span class="desc">Student loan default consequences</span>
+</a>
+<a class="network-item" href="https://1099cdebt.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">1099cdebt.com</span>
+<span class="desc">1099-C cancellation of debt taxes</span>
+</a>
+<a class="network-item" href="https://ceaseanddesistdebt.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">ceaseanddesistdebt.com</span>
+<span class="desc">Cease and desist for debt collectors</span>
+</a>
+<a class="network-item" href="https://behindonrent.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">behindonrent.com</span>
+<span class="desc">Behind on rent resources</span>
+</a>
+<a class="network-item" href="https://medicaldebtrights.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">medicaldebtrights.com</span>
+<span class="desc">Medical debt rights</span>
+</a>
+<a class="network-item" href="https://cantpaymybills.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">cantpaymybills.com</span>
+<span class="desc">Financial crisis resources</span>
+</a>
+<a class="network-item" href="https://medicaldebtbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">medicaldebtbankruptcy.com</span>
+<span class="desc">Medical debt and bankruptcy</span>
+</a>
+<a class="network-item" href="https://eidlloanforgiveness.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">eidlloanforgiveness.com</span>
+<span class="desc">EIDL loan forgiveness</span>
+</a>
+<a class="network-item" href="https://paydayloandebt.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">paydayloandebt.org</span>
+<span class="desc">Payday loan debt help</span>
+</a>
+<a class="network-item" href="https://disabilityanddebt.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">disabilityanddebt.org</span>
+<span class="desc">Disability and debt resources</span>
+</a>
+<a class="network-item" href="https://bankaccountlevy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankaccountlevy.com</span>
+<span class="desc">Bank account levy defense</span>
+</a>
+<a class="network-item" href="https://medicalbillbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">medicalbillbankruptcy.com</span>
+<span class="desc">Medical bill bankruptcy</span>
+</a>
+<a class="network-item" href="https://vacatejudgment.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">vacatejudgment.org</span>
+<span class="desc">Motion to vacate judgment</span>
+</a>
+<a class="network-item" href="https://deficiencybalance.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">deficiencybalance.com</span>
+<span class="desc">Deficiency balance guide</span>
+</a>
+<a class="network-item" href="https://righttocure.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">righttocure.org</span>
+<span class="desc">Right to cure notice</span>
+</a>
+<a class="network-item" href="https://eidlbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">eidlbankruptcy.com</span>
+<span class="desc">EIDL and bankruptcy</span>
+</a>
+<a class="network-item" href="https://debtbuyerrights.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">debtbuyerrights.org</span>
+<span class="desc">Debt buyer rights</span>
+</a>
+<a class="network-item" href="https://brunnertest.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">brunnertest.org</span>
+<span class="desc">Brunner test for student loans</span>
+</a>
+<a class="network-item" href="https://saborrowerbankruptcy.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">saborrowerbankruptcy.com</span>
+<span class="desc">SBA borrower bankruptcy</span>
+</a>
+</div>
+</div>
+<div class="network-category">
+<div class="network-category-label"><a href="https://prosebankruptcy.org/" title="pro se">Pro Se</a> &amp; Advocacy</div>
+<div class="network-grid">
+<a class="network-item" href="https://prosedebtors.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">prosedebtors.org</span>
+<span class="desc">Resources for pro se bankruptcy filers</span>
+</a>
+<a class="network-item" href="https://prosebankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">prosebankruptcy.org</span>
+<span class="desc">Pro se bankruptcy filing guide</span>
+</a>
+<a class="network-item" href="https://bankruptcymill.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcymill.org</span>
+<span class="desc">Consumer protection - high-volume practice identification</span>
+</a>
+<a class="network-item" href="https://bankruptcymill.com?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcymill.com</span>
+<span class="desc">Bankruptcy mill identification (.com mirror)</span>
+</a>
+<a class="network-item" href="https://bankruptcymalpractice.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">bankruptcymalpractice.org</span>
+<span class="desc">Bankruptcy malpractice resources</span>
+</a>
+</div>
+</div>
+<div class="network-category">
+<div class="network-category-label">Data &amp; Analysis</div>
+<div class="network-grid">
+<a class="network-item" href="https://dismissalrate.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">dismissalrate.org</span>
+<span class="desc">Dismissal rate data by district and attorney</span>
+</a>
+<a class="network-item" href="https://dismissedbankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">dismissedbankruptcy.org</span>
+<span class="desc">Understanding bankruptcy dismissal</span>
+</a>
+<a class="network-item" href="https://serialfiler.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">serialfiler.org</span>
+<span class="desc">Serial filing patterns and analysis</span>
+</a>
+</div>
+</div>
+<div class="network-category">
+<div class="network-category-label">City Guides</div>
+<div class="network-grid">
+<a class="network-item" href="https://houstonbankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">houstonbankruptcy.org</span>
+<span class="desc">Houston - S.D. Tex. - 65.1% dismissal rate</span>
+</a>
+<a class="network-item" href="https://miamibankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">miamibankruptcy.org</span>
+<span class="desc">Miami - S.D. Fla. - 55.7% dismissal rate</span>
+</a>
+<a class="network-item" href="https://phoenixbankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">phoenixbankruptcy.org</span>
+<span class="desc">Phoenix - D. Ariz. - 53.5% dismissal rate</span>
+</a>
+<a class="network-item" href="https://minneapolisbankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">minneapolisbankruptcy.org</span>
+<span class="desc">Minneapolis - D. Minn. - 35.4% dismissal rate</span>
+</a>
+<a class="network-item" href="https://stlouisbankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">stlouisbankruptcy.org</span>
+<span class="desc">St. Louis - E.D. Mo. - 61.9% dismissal rate</span>
+</a>
+<a class="network-item" href="https://newyorkbankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">newyorkbankruptcy.org</span>
+<span class="desc">New York - S.D.N.Y. - 59.0% dismissal rate</span>
+</a>
+<a class="network-item" href="https://newarkbankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">newarkbankruptcy.org</span>
+<span class="desc">Newark - D.N.J. - 61.2% dismissal rate</span>
+</a>
+<a class="network-item" href="https://sanantoniobankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">sanantoniobankruptcy.org</span>
+<span class="desc">San Antonio - W.D. Tex. - 62.6% dismissal rate</span>
+</a>
+<a class="network-item" href="https://kansascitybankruptcy.org?utm_source=openbankruptcyproject.org&amp;utm_medium=referral&amp;utm_campaign=btn-network" rel="noopener" target="_blank">
+<span class="domain">kansascitybankruptcy.org</span>
+<span class="desc">Kansas City - W.D. Mo. - 40.4% dismissal rate</span>
+</a>
+<a class="network-item" href="/cities.html">
+<span class="domain" style="color:#2ea043">View All Cities →</span>
+<span class="desc">14 metro areas with local data, exemptions, and guides</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section id="open-source">
+<div class="container">
+<div class="section-label">Commitment</div>
+<h2>Open Source. Open Data. Open Methodology.</h2>
+<div class="open-source-block">
+<h3>Everything We Build Is Open Source</h3>
+<p>Our code, our data, our methodology. We believe public court data belongs to the public. Every tool we build is released under open source licenses and available for inspection, replication, and improvement.</p>
+<a class="gh-link" href="https://github.com/openbankruptcyproject" rel="noopener" target="_blank">View on GitHub</a>
+</div>
+<div class="anti-acq">
+<h3>Anti-Acquisition Clause</h3>
+<p>The Open Bankruptcy Project cannot be sold, merged, or acquired. This provision is written into our articles of incorporation and is unamendable. We exist to serve the public, permanently.</p>
+</div>
+</div>
+</section>
+<section class="donate-section" id="support">
+<div class="container">
+<div class="section-label">Support</div>
+<h2>Fund Independent Research</h2>
+<p>We operate on volunteer labor and public donations. Every dollar funds <a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> access fees, infrastructure, and research operations. No corporate sponsors. No institutional backing.</p>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+<p class="donate-note">100% of donations fund <a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> fees, hosting, and domain registration.</p>
+</div>
+</section>
+<!-- OBP Contact Form - deployed by deploy_btn_contact_form.py -->
+<div id="obp-help-form" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.5rem;margin:2rem auto;max-width:600px">
+<h3 style="color:#c9d1d9;margin-top:0;margin-bottom:0.5rem">Have a Question?</h3>
+<p style="color:#8b949e;font-size:0.85rem;margin-bottom:1rem">
+    Open Bankruptcy Project provides free educational information. We are not a law firm.
+    Nothing on this site constitutes legal advice. For advice about your specific situation,
+    consult a licensed attorney.
+  </p>
+<form id="obp-help-submit" style="margin:0">
+<input name="source" type="hidden" value="openbankruptcyproject.org"/>
+<input name="topic" type="hidden" value="Site Question"/>
+<input aria-label="Name (optional)" name="name" placeholder="Name (optional)" style="width:100%;padding:0.6rem 0.75rem;background:#0d1117;border:1px solid #30363d;border-radius:6px;color:#c9d1d9;font-size:0.9rem;font-family:inherit;box-sizing:border-box;margin-bottom:0.75rem" type="text"/>
+<input aria-label="Email" name="email" placeholder="Email" required="" style="width:100%;padding:0.6rem 0.75rem;background:#0d1117;border:1px solid #30363d;border-radius:6px;color:#c9d1d9;font-size:0.9rem;font-family:inherit;box-sizing:border-box;margin-bottom:0.75rem" type="email"/>
+<select name="state" style="width:100%;padding:0.6rem 0.75rem;background:#0d1117;border:1px solid #30363d;border-radius:6px;color:#c9d1d9;font-size:0.9rem;font-family:inherit;box-sizing:border-box;margin-bottom:0.75rem;appearance:auto">
+<option value="">Select your state...</option>
+<option value="AL">Alabama</option>
+<option value="AK">Alaska</option>
+<option value="AZ">Arizona</option>
+<option value="AR">Arkansas</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DE">Delaware</option>
+<option value="DC">District of Columbia</option>
+<option value="FL">Florida</option>
+<option value="GA">Georgia</option>
+<option value="HI">Hawaii</option>
+<option value="ID">Idaho</option>
+<option value="IL">Illinois</option>
+<option value="IN">Indiana</option>
+<option value="IA">Iowa</option>
+<option value="KS">Kansas</option>
+<option value="KY">Kentucky</option>
+<option value="LA">Louisiana</option>
+<option value="ME">Maine</option>
+<option value="MD">Maryland</option>
+<option value="MA">Massachusetts</option>
+<option value="MI">Michigan</option>
+<option value="MN">Minnesota</option>
+<option value="MS">Mississippi</option>
+<option value="MO">Missouri</option>
+<option value="MT">Montana</option>
+<option value="NE">Nebraska</option>
+<option value="NV">Nevada</option>
+<option value="NH">New Hampshire</option>
+<option value="NJ">New Jersey</option>
+<option value="NM">New Mexico</option>
+<option value="NY">New York</option>
+<option value="NC">North Carolina</option>
+<option value="ND">North Dakota</option>
+<option value="OH">Ohio</option>
+<option value="OK">Oklahoma</option>
+<option value="OR">Oregon</option>
+<option value="PA">Pennsylvania</option>
+<option value="RI">Rhode Island</option>
+<option value="SC">South Carolina</option>
+<option value="SD">South Dakota</option>
+<option value="TN">Tennessee</option>
+<option value="TX">Texas</option>
+<option value="UT">Utah</option>
+<option value="VT">Vermont</option>
+<option value="VA">Virginia</option>
+<option value="WA">Washington</option>
+<option value="WV">West Virginia</option>
+<option value="WI">Wisconsin</option>
+<option value="WY">Wyoming</option>
+<option value="AS">American Samoa</option>
+<option value="GU">Guam</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="PR">Puerto Rico</option>
+<option value="VI">U.S. Virgin Islands</option>
+</select>
+<textarea name="message" placeholder="Your question..." required="" rows="4" style="width:100%;padding:0.6rem 0.75rem;background:#0d1117;border:1px solid #30363d;border-radius:6px;color:#c9d1d9;font-size:0.9rem;font-family:inherit;box-sizing:border-box;margin-bottom:0.75rem;resize:vertical"></textarea>
+<label style="color:#8b949e;font-size:0.8rem;display:flex;align-items:start;gap:0.5rem;margin:0.5rem 0 1rem;cursor:pointer">
+<input aria-label="checkbox" required="" style="margin-top:2px;accent-color:#bf3989" type="checkbox"/>
+      I understand this is educational information, not legal advice.
+    </label>
+<button onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="background:#bf3989;color:#fff;border:none;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;cursor:pointer;transition:background 0.2s" type="submit">Submit Question</button>
+</form>
+<p id="obp-help-thanks" style="display:none;color:#3fb950;font-weight:600;margin:1rem 0 0">Thank you! We typically respond within one business day.</p>
+<script>
+  document.getElementById('obp-help-submit').addEventListener('submit',function(e){
+    e.preventDefault();var f=this,b=f.querySelector('button[type=submit]');
+    b.disabled=true;b.textContent='Sending...';
+    var d={name:f.querySelector('[name=name]').value,email:f.querySelector('[name=email]').value,
+      state:f.querySelector('[name=state]').value,
+      message:f.querySelector('[name=message]').value,
+      topic:'Site Question ('+f.querySelector('[name=source]').value+')'};
+    fetch('https://script.google.com/macros/s/AKfycbwSILiwrhpiognHpMEws-j7Yc-aySqk3vDkCXFmNe-hA-tHrzGC6qid7f6ZqBy3n9sqiQ/exec',{method:'POST',body:JSON.stringify(d)})
+    .then(function(){f.style.display='none';document.getElementById('obp-help-thanks').style.display='block'})
+    .catch(function(){f.style.display='none';document.getElementById('obp-help-thanks').style.display='block'});
+  });
+  </script>
+</div>
+<!-- /OBP Contact Form -->
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;padding:1.5rem;max-width:700px;margin:2rem auto">
+<p style="color:#f0f6fc;font-weight:600;font-size:1.05rem;margin:0 0 0.75rem 0">Further Reading &amp; Resources</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0 0 1rem 0">Authority sources for deeper research on the Open Bankruptcy Project and <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> research:</p>
+<ul style="list-style:none;padding:0;margin:0">
+<li style="margin-bottom:0.5rem"><a href="https://www.law.cornell.edu/uscode/text/11/1328" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">11 U.S.C. Section 1328(f)</a><br/><span style="color:#7d8590;font-size:0.8rem">Cornell LII - <a href="https://dischargebar.org/" title="discharge bar">discharge bar</a></span></li>
+<li style="margin-bottom:0.5rem"><a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">Federal Rules Suggestions</a><br/><span style="color:#7d8590;font-size:0.8rem">26-BK-3 submission</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://www.fjc.gov/research/idb" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">FJC Integrated Database</a><br/><span style="color:#7d8590;font-size:0.8rem">Source data for this research</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://pacer.uscourts.gov/" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">PACER</a><br/><span style="color:#7d8590;font-size:0.8rem">Public Access to Court Electronic Records</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://www.courtlistener.com/recap/" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">RECAP Archive</a><br/><span style="color:#7d8590;font-size:0.8rem">Free Law Project - free PACER docs</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://commission.abi.org/" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">ABI Commission</a><br/><span style="color:#7d8590;font-size:0.8rem">American Bankruptcy Institute reform</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://scholar.google.com/scholar?q=%221328%28f%29%22+discharge+bar+bankruptcy" rel="noopener" style="color:#58a6ff;font-size:0.9rem;text-decoration:none" target="_blank">1328(f) Research</a><br/><span style="color:#7d8590;font-size:0.8rem">Google Scholar</span></li>
+</ul>
+</div>
+<!-- RELATED GUIDES - injected by inject_related_guides.py -->
+<div id="related-guides" style="max-width:900px;margin:2.5rem auto;padding:0 1rem">
+<p style="color:#f0f6fc;font-weight:700;font-size:1.2rem;margin:0 0 1rem 0;text-align:center">Related Guides</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem">
+<a class="related-card" href="https://openbankruptcyproject.org?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">Open Bankruptcy Project</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Free bankruptcy information guide</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">openbankruptcyproject.com →</p>
+</a>
+<a class="related-card" href="https://1328f.org?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">1328(f) Research Platform</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Free bankruptcy information guide</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">1328f.org →</p>
+</a>
+<a class="related-card" href="https://727a8.org?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">Section 727(a)(8) Research Hub</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Case law and circuit analysis for Section 727(a)(8)</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">727a8.org →</p>
+</a>
+<a class="related-card" href="https://whatischapter7.com?utm_source=openbankruptcyproject.org&amp;utm_medium=related-guides&amp;utm_campaign=btn-network" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">What Is Chapter 7 Bankruptcy?</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Everything you need to know about Chapter 7</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">whatischapter7.com →</p>
+</a>
+</div>
+</div>
+<style>
+.related-card:hover {border-color:#58a6ff !important;transform:translateY(-2px)}
+</style>
+<!-- USER JOURNEY CROSS-LINKS (data-driven funnel) -->
+<div style="max-width:900px;margin:1.5rem auto;padding:0 1rem">
+<p style="color:#f0f6fc;font-weight:700;font-size:1.1rem;margin:0 0 0.5rem 0;text-align:center">Your Next Questions</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0 0 1rem 0;text-align:center">Real users ask these next - we built the answers.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem">
+<a class="related-card" href="https://chapter7vs13.org?utm_source=openbankruptcyproject.org&amp;utm_medium=user-journey&amp;utm_campaign=btn-funnel" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">Chapter 7 vs Chapter 13</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">The most common first question</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">chapter7vs13.org →</p>
+</a>
+<a class="related-card" href="https://1328f.com?utm_source=openbankruptcyproject.org&amp;utm_medium=user-journey&amp;utm_campaign=btn-funnel" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">Discharge Eligibility Screener</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Free tool to check filing eligibility</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">1328f.com →</p>
+</a>
+<a class="related-card" href="https://bankruptcyexemptionsbystate.com?utm_source=openbankruptcyproject.org&amp;utm_medium=user-journey&amp;utm_campaign=btn-funnel" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">Exemptions by State</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">What you can keep, by state</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">bankruptcyexemptionsbystate.com →</p>
+</a>
+<a class="related-card" href="https://filebankruptcyagain.com/your-path.html?utm_source=openbankruptcyproject.org&amp;utm_medium=user-journey&amp;utm_campaign=btn-funnel" style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.25rem;text-decoration:none;display:block;transition:border-color 0.2s,transform 0.2s">
+<p style="color:#58a6ff;font-weight:600;font-size:1rem;margin:0 0 0.4rem 0">Filed Before? Your Path</p>
+<p style="color:#9eaab6;font-size:0.85rem;margin:0;line-height:1.4">Step-by-step guide for repeat filers</p>
+<p style="color:#58a6ff;font-size:0.8rem;margin:0.5rem 0 0 0">filebankruptcyagain.com →</p>
+</a>
+</div>
+</div>
+<!-- /USER JOURNEY -->
+<!-- /RELATED GUIDES -->
+<!-- RECAP Counter -->
+<div style="text-align:center;margin:1.5rem auto;max-width:600px">
+<a href="https://openbankruptcyproject.org/recap.html" style="display:inline-block;background:#0d1117;border:1px solid #238636;color:#3fb950;padding:0.6rem 1.5rem;border-radius:6px;font-weight:700;font-size:0.95rem;text-decoration:none;letter-spacing:-0.01em">462+ Court Documents Freed from PACER</a>
+<p style="color:#7d8590;font-size:0.78rem;margin-top:0.4rem">We buy federal court records and donate them to RECAP so no one has to pay. <a href="https://openbankruptcyproject.org/recap.html" style="color:#58a6ff;text-decoration:none">Browse the archive →</a> Browse the national case index at <a href="/cases/" style="color:#58a6ff;text-decoration:none">/cases/</a>.</p>
+</div>
+<!-- Transparency Counter -->
+<div style="text-align:center;margin:0.5rem auto 1.5rem;max-width:600px">
+<p style="color:#7d8590;font-size:0.8rem;margin:0;letter-spacing:0.02em"><strong style="color:#e6edf3">$16,500+ spent</strong> · <strong style="color:#e6edf3">$0 donated</strong> · <strong style="color:#e6edf3">$0 hosting</strong> · 105 domains · 2,000+ pages · All free, forever.</p>
+</div>
+<!-- STATE GUIDES CROSS-LINK (injected by inject_state_links.py 2026-04-01) -->
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;padding:1.25rem 1.5rem;max-width:700px;margin:2rem auto;text-align:center">
+<p style="color:#f0f6fc;font-weight:600;font-size:1rem;margin:0 0 0.5rem">State Bankruptcy Guides</p>
+<p style="color:#9eaab6;font-size:0.88rem;margin:0 0 0.75rem"><a href="https://bankruptcyexemptionsbystate.com/" title="exemptions">Exemptions</a> vary dramatically by state. Find your state's homestead, vehicle, and wildcard <a href="https://bankruptcyexemptionsbystate.com/" title="exemptions">exemptions</a>.</p>
+<p style="margin:0 0 0.75rem;font-size:0.85rem;line-height:1.8"><a href="https://bankruptcyexemptionsbystate.com/states/california.html" style="color:#58a6ff;white-space:nowrap">California</a> <span style="color:#30363d">·</span> <a href="https://bankruptcyexemptionsbystate.com/states/texas.html" style="color:#58a6ff;white-space:nowrap">Texas</a> <span style="color:#30363d">·</span> <a href="https://bankruptcyexemptionsbystate.com/states/florida.html" style="color:#58a6ff;white-space:nowrap">Florida</a> <span style="color:#30363d">·</span> <a href="https://bankruptcyexemptionsbystate.com/states/new-york.html" style="color:#58a6ff;white-space:nowrap">New York</a> <span style="color:#30363d">·</span> <a href="https://bankruptcyexemptionsbystate.com/states/illinois.html" style="color:#58a6ff;white-space:nowrap">Illinois</a> <span style="color:#30363d">·</span> <a href="https://bankruptcyexemptionsbystate.com/states/ohio.html" style="color:#58a6ff;white-space:nowrap">Ohio</a></p>
+<a href="https://bankruptcyexemptionsbystate.com/states/" style="display:inline-block;background:#238636;color:#fff;padding:0.45rem 1.25rem;border-radius:6px;font-weight:600;font-size:0.88rem;text-decoration:none">Browse All 50 State Guides →</a>
+</div>
+<!-- /STATE GUIDES CROSS-LINK -->
+<!-- BTN Cross-Links (auto-generated by crosslink_builder.py) -->
+<div class="btn-crosslinks" style="max-width:820px;margin:1.5rem auto;padding:1.5rem;background:#161b22;border:1px solid #30363d;border-radius:8px">
+<p style="color:#f0f6fc;font-weight:600;font-size:1rem;margin:0 0 0.75rem 0">Related Guides</p>
+<ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0.5rem">
+<li><a href="https://monitor.openbankruptcyproject.org" style="color:#58a6ff;text-decoration:none">Attorney Monitoring Dashboard</a></li>
+</ul>
+</div>
+<!-- aggressive-interlink:explore -->
+<div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:1.5rem;margin:2rem auto;max-width:900px">
+<h2 style="color:#f0f6fc;font-size:1.2rem;margin:0 0 1rem">🔎 Explore More</h2>
+<ul style="list-style:none;padding:0;margin:0">
+<li style="margin-bottom:0.5rem"><a href="/news/" style="color:#58a6ff;text-decoration:none;font-weight:600">Latest Bankruptcy Data Analysis</a> (6 pages)<br/><span style="color:#7d8590;font-size:0.85rem">Data-driven analysis of bankruptcy trends, court statistics, and policy developments</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://zombiedebt.org/" style="color:#58a6ff;text-decoration:none;font-weight:600">Zombie Debt Guide</a><br/><span style="color:#7d8590;font-size:0.85rem">How collectors revive old debts and what to do about it</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://suedfordebt.org/" style="color:#58a6ff;text-decoration:none;font-weight:600">Sued for Debt?</a><br/><span style="color:#7d8590;font-size:0.85rem">Your rights when a creditor files a lawsuit against you</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://whywasmybankruptcydismissed.com/" style="color:#58a6ff;text-decoration:none;font-weight:600">Why Was My Bankruptcy Dismissed?</a><br/><span style="color:#7d8590;font-size:0.85rem">Common causes of bankruptcy <a href="https://dismissedbankruptcy.org/" title="dismissal">dismissal</a> and how to prevent it</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://whatnottobeforebankruptcy.com/" style="color:#58a6ff;text-decoration:none;font-weight:600">What Not to Do Before Bankruptcy</a><br/><span style="color:#7d8590;font-size:0.85rem">Actions that can jeopardize your case if taken before filing</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://canifilebankruptcytwice.com/" style="color:#58a6ff;text-decoration:none;font-weight:600">Can I File Bankruptcy Twice?</a><br/><span style="color:#7d8590;font-size:0.85rem">Waiting periods and rules for filing a second bankruptcy</span></li>
+</ul>
+</div>
+<!-- aggressive-interlink:glossary -->
+<div style="text-align:center;padding:0.75rem 0;margin-top:1rem"><a href="https://whathappensinbankruptcy.com/glossary/" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">📖 Bankruptcy Glossary</a> <span style="color:#7d8590;font-size:0.85rem">-- 61 terms explained</span></div>
+<!-- BTN:EMAIL-SIGNUP:START -->
+<div style="max-width:600px;margin:2rem auto;padding:1.5rem;background:#161b22;border:1px solid #30363d;border-radius:8px;text-align:center">
+<h3 style="color:#e6edf3;margin:0 0 0.4rem;font-size:1.1rem;font-weight:600">Get Bankruptcy Updates</h3>
+<p style="color:#8b949e;font-size:0.85rem;margin:0 0 1rem">Free updates from the Open Bankruptcy Project. No spam, unsubscribe anytime.</p>
+<form id="obp-signup-form" style="display:flex;gap:0.5rem;justify-content:center;flex-wrap:wrap;margin:0">
+<input name="source" type="hidden" value="openbankruptcyproject.org"/>
+<input aria-label="you@example.com" name="email" placeholder="you@example.com" required="" style="padding:0.55rem 0.9rem;border-radius:6px;border:1px solid #30363d;background:#0d1117;color:#f0f6fc;font-size:0.9rem;min-width:240px;box-sizing:border-box" type="email"/>
+<button onmouseout="this.style.background='#238636'" onmouseover="this.style.background='#2ea043'" style="padding:0.55rem 1.4rem;border-radius:6px;border:none;background:#238636;color:#fff;font-weight:600;font-size:0.9rem;cursor:pointer;transition:background 0.2s" type="submit">Subscribe</button>
+</form>
+<p id="obp-signup-thanks" style="display:none;color:#3fb950;font-weight:600;margin:0.75rem 0 0">You're subscribed. Thank you!</p>
+<p style="color:#6e7681;font-size:0.75rem;margin:0.75rem 0 0">
+<a href="https://openbankruptcyproject.org/privacy.html" style="color:#6e7681;text-decoration:underline">Privacy policy</a>
+</p>
+<script>
+  (function(){
+    var f=document.getElementById('obp-signup-form');
+    if(!f)return;
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      var btn=f.querySelector('button[type=submit]');
+      btn.disabled=true;btn.textContent='Subscribing...';
+      var d={email:f.querySelector('[name=email]').value,
+        topic:'Email Signup ('+f.querySelector('[name=source]').value+')',
+        name:'',message:'Newsletter signup'};
+      fetch('https://script.google.com/macros/s/AKfycbwSILiwrhpiognHpMEws-j7Yc-aySqk3vDkCXFmNe-hA-tHrzGC6qid7f6ZqBy3n9sqiQ/exec',{method:'POST',body:JSON.stringify(d)})
+      .then(function(){f.style.display='none';document.getElementById('obp-signup-thanks').style.display='block'})
+      .catch(function(){f.style.display='none';document.getElementById('obp-signup-thanks').style.display='block'});
+    });
+  })();
+  </script>
+</div>
+<!-- BTN:EMAIL-SIGNUP:END -->
+<!-- BTN:FOOTER:START -->
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<div class="footer-links">
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="statistics.html">Statistics</a>
+<a href="network.html">Network</a>
+<a href="impact.html">Impact</a>
+<a href="press.html">Press</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+<a href="https://github.com/ilikemath9999" rel="noopener" target="_blank">GitHub</a>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+<a href="donate.html">Donate</a>
+<a href="https://openbankruptcyproject.org/rule-9037/" rel="noopener">Rule 9037 Guide</a></div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+<p>EIN available upon request. All tools and data released under open source licenses.</p>
+<p style="margin-top: 12px;">No legal advice is provided. This is educational and research information only.</p>
+</div>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+<div style="margin-top:12px;display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap"><a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" onmouseout="this.style.borderColor='#30363d'" onmouseover="this.style.borderColor='#58a6ff'" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:#1c2128;border:1px solid #30363d;color:#7d8590;padding:4px 12px;border-radius:20px;font-size:0.75rem;text-decoration:none;transition:border-color 0.2s" target="_blank"><svg fill="#3fb950" height="14" viewbox="0 0 16 16" width="14"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zm3.78 5.97l-4.5 4.5a.75.75 0 01-1.06 0l-2-2a.75.75 0 011.06-1.06l1.47 1.47 3.97-3.97a.75.75 0 011.06 1.06z"></path></svg> Cited by the Federal Rules Committee (26-BK-3)</a></div>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

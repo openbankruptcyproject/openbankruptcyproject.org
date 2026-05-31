@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>S.D. Cal. Bankruptcy Cases - Page 42 of 42 - Open Bankruptcy Project</title>
+    <meta name="description" content="Index of federal bankruptcy cases in the S.D. Cal. available on the RECAP Archive. Published by the Open Bankruptcy Project. All primary-source documents are on CourtListener.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/cases/casb/page-42.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="S.D. Cal. Bankruptcy Cases - Open Bankruptcy Project">
+    <meta property="og:description" content="Index of federal bankruptcy cases in the S.D. Cal. available on the RECAP Archive.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/cases/casb/page-42.html">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- BTN:GA4:START -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+    <!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "S.D. Cal. Bankruptcy Case Index (Page 42)", "description": "Index of federal bankruptcy cases in the S.D. Cal. available on the RECAP Archive. Published by the Open Bankruptcy Project.", "url": "https://openbankruptcyproject.org/cases/casb/page-42.html", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "creator": {"@type": "NonprofitOrganization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "sourceOrganization": {"@type": "Organization", "name": "Free Law Project", "url": "https://free.law/"}, "isAccessibleForFree": true, "keywords": "bankruptcy, federal court, RECAP, CourtListener, public records, S.D. Cal."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Cases", "item": "https://openbankruptcyproject.org/cases/"}, {"@type": "ListItem", "position": 3, "name": "S.D. Cal.", "item": "https://openbankruptcyproject.org/cases/casb/"}, {"@type": "ListItem", "position": 4, "name": "Page 42", "item": "https://openbankruptcyproject.org/cases/casb/page-42.html"}]}</script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230;
+            --border: #252d38; --border-light: #2d3748;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff;
+            --green: #3fb950; --gold: #d29922;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+
+        nav.topnav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav.topnav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
+
+        .breadcrumb { padding: 16px 0; font-size: 0.85rem; color: var(--text-muted); }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb a:hover { color: var(--accent); }
+        .breadcrumb .sep { margin: 0 8px; color: var(--border-light); }
+
+        .court-header { padding: 32px 0 24px; border-bottom: 1px solid var(--border); }
+        .court-header .label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 8px; }
+        .court-header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+        .court-header p { color: var(--text-secondary); font-size: 0.95rem; max-width: 780px; }
+
+        .case-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 32px 0; }
+        .case-table th { background: var(--bg); text-align: left; padding: 14px 16px; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; border-bottom: 1px solid var(--border); }
+        .case-table td { padding: 12px 16px; font-size: 0.88rem; border-bottom: 1px solid var(--border); }
+        .case-table tr:last-child td { border-bottom: none; }
+        .case-table tr:hover td { background: var(--surface-hover); }
+
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 16px; margin: 24px 0; font-size: 0.9rem; }
+        .pagination a { color: var(--accent); font-weight: 600; padding: 6px 12px; border: 1px solid var(--border-light); border-radius: 6px; }
+        .pagination a:hover { background: var(--surface); text-decoration: none; }
+        .pagination .page-info { color: var(--text-muted); }
+
+        .attribution { padding: 20px 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-size: 0.85rem; color: var(--text-muted); margin: 32px 0; }
+        .attribution strong { color: var(--text-secondary); }
+        .attribution a { color: var(--text-secondary); }
+        .attribution a:hover { color: var(--accent); }
+
+        footer { padding: 40px 0; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; text-align: center; }
+        footer a { color: var(--text-muted); margin: 0 10px; }
+        footer a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+<nav class="topnav">
+    <div class="container">
+        <a href="/" class="nav-brand">Open Bankruptcy Project</a>
+        <div class="nav-links">
+            <a href="/#mission">Mission</a>
+            <a href="/#what-we-do">What We Do</a>
+            <a href="/cases/" class="active">Cases</a>
+            <a href="/research.html">Research</a>
+            <a href="/recap.html">RECAP</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <a href="/cases/">Cases</a><span class="sep">/</span>
+        <a href="/cases/casb/">S.D. Cal.</a><span class="sep">/</span>
+        <span>Page 42</span>
+    </div>
+</div>
+
+<header class="court-header">
+    <div class="container">
+        <div class="label">Bankruptcy Court Index</div>
+        <h1>United States Bankruptcy Court for the Southern District of California</h1>
+        <p>United States Bankruptcy Court for the Southern District of California is one of the US federal bankruptcy courts whose public, RECAP-archived dockets are indexed here. The Open Bankruptcy Project maintains this national case-level index for empirical research and public-records access. Every case below links to the full docket on the Free Law Project&#x27;s CourtListener.</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <div class="pagination"><a href="page-41.html">← Prev</a> <span class="page-info">Page 42 of 42</span></div>
+
+    <table class="case-table">
+        <thead>
+            <tr>
+                <th>Case Number</th>
+                <th>Caption</th>
+                <th>Chapter</th>
+                <th>Filed</th>
+                <th>Primary Source</th>
+                <th>Research</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>21-04521</td><td>Pedro I. Urista</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584842/pedro-i-urista/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04519</td><td>Cathy Franco</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584841/cathy-franco/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04522</td><td>Gustavo De Paulo Romero</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584840/gustavo-de-paulo-romero/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04523</td><td>Tamara Y. Watley</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584839/tamara-y-watley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04524</td><td>Lupe Quintanilla</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584838/lupe-quintanilla/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04508</td><td>Lakonnie Mullins</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584751/lakonnie-mullins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04509</td><td>Miriam Hernandez</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584750/miriam-hernandez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04510</td><td>Katey J. Huntley</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584749/katey-j-huntley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04511</td><td>Melinda Krause</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584748/melinda-krause/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04512</td><td>Brittanny Kaylin McLaughlin and Jessica Margaret Maria McLaughlin</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584747/brittanny-kaylin-mclaughlin-and-jessica-margaret-maria-mclaughlin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04513</td><td>Abraham D. Lopez</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584746/abraham-d-lopez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04514</td><td>Lourdes Y. Lopez</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584745/lourdes-y-lopez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04515</td><td>Juan J. Martinez Badeal, Jr. and Johanna Martinez</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584744/juan-j-martinez-badeal-jr-and-johanna-martinez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04516</td><td>Antonia Luisa Hussong- Thomas</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584743/antonia-luisa-hussong-thomas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04500</td><td>Scott C. Brooks</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584593/scott-c-brooks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04501</td><td>Allan P. De Guzman</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584592/allan-p-de-guzman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04502</td><td>Wendy C. Decipulo</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584591/wendy-c-decipulo/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04503</td><td>Hector J. Diaz</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584590/hector-j-diaz/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04504</td><td>Lesley Renee Channell</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584584/lesley-renee-channell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04505</td><td>Jeffrey William Courtney and Dorothy Ann Courtney</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584583/jeffrey-william-courtney-and-dorothy-ann-courtney/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04506</td><td>Shawn Michael Chandler</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584582/shawn-michael-chandler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04507</td><td>Trenell Foster and Kyndall N Foster</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584580/trenell-foster-and-kyndall-n-foster/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04499</td><td>Jonathan M. Bianco</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584450/jonathan-m-bianco/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04497</td><td>Ricardo I Uciel</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584230/ricardo-i-uciel/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04498</td><td>Etta L Higgins</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584229/etta-l-higgins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04496</td><td>Felipe Armando Huguet</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61584017/felipe-armando-huguet/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04495</td><td>Ronald Ted Scott</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61583738/ronald-ted-scott/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04492</td><td>Rosalva Rubio</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61583219/rosalva-rubio/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04493</td><td>Silvia Vanessa Ramirez</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61583217/silvia-vanessa-ramirez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04494</td><td>Felicitas Fuentes</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61583216/felicitas-fuentes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04491</td><td>Jose James Horner and Almeda Guadalupe Horner</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61583036/jose-james-horner-and-almeda-guadalupe-horner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04490</td><td>Gustavo Carrillo Aquino and Blanca Estela Vazquez Ocampo</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61582764/gustavo-carrillo-aquino-and-blanca-estela-vazquez-ocampo/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04488</td><td>Carissa Nicole Jantz</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61582174/carissa-nicole-jantz/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04489</td><td>Keith Alex Dancy</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61582173/keith-alex-dancy/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04487</td><td>Jose R. Sanchez</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61581905/jose-r-sanchez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04486</td><td>Jacquelyn Edley Gardner</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61581635/jacquelyn-edley-gardner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04485</td><td>Blanca Pasallo Guerrero</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61581286/blanca-pasallo-guerrero/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04479</td><td>Ernesto Chavez Diaz</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61580907/ernesto-chavez-diaz/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04480</td><td>Flavio Olguin Gutierrez</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61580906/flavio-olguin-gutierrez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04481</td><td>Jose Baltazar Rios Patino</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61580905/jose-baltazar-rios-patino/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04482</td><td>Gema A. Tovar</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61580904/gema-a-tovar/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04483</td><td>Angel M. Vasquez</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61580903/angel-m-vasquez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04484</td><td>Francisco Zuzuarregui</td><td>Ch. 7</td><td>2021-11-30</td><td><a href="https://www.courtlistener.com/docket/61580902/francisco-zuzuarregui/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04478</td><td>Leslie Rocha</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580776/leslie-rocha/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04476</td><td>Christina Louise Haverty</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580724/christina-louise-haverty/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04477</td><td>Kevin Charles Keenan</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580723/kevin-charles-keenan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04475</td><td>Jose M. Pedro</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580692/jose-m-pedro/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04472</td><td>Lacie Rachelle Imhoff</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580652/lacie-rachelle-imhoff/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04473</td><td>Sean K. Stouffer</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580651/sean-k-stouffer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04474</td><td>Thomas F. Romeo and Brianne L. Romeo</td><td>Ch. 13</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580650/thomas-f-romeo-and-brianne-l-romeo/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04471</td><td>Christopher Daniel Rosalez</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580617/christopher-daniel-rosalez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04469</td><td>Marco Antonio Mendoza Ziranhua</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580587/marco-antonio-mendoza-ziranhua/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04470</td><td>JoAnne Hazel Robinson</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580586/joanne-hazel-robinson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-90100</td><td>Stadtmueller v. Hector</td><td>—</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580388/stadtmueller-v-hector/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04468</td><td>Trevor James Hooten</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580181/trevor-james-hooten/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04467</td><td>Wanda Sue Tuttle</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61580083/wanda-sue-tuttle/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04465</td><td>Monica Ruiz and Ernesto Ruiz</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61579855/monica-ruiz-and-ernesto-ruiz/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04466</td><td>Denis Noemi Sandoval</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61579854/denis-noemi-sandoval/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04464</td><td>JUAN HUITZIL</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61579393/juan-huitzil/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04463</td><td>Wida Alkass</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61579182/wida-alkass/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04462</td><td>Fred Willis Clark, Jr.</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61578213/fred-willis-clark-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04460</td><td>Shanon L Epstein</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61578058/shanon-l-epstein/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04461</td><td>Keith A Shellman</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61578057/keith-a-shellman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04459</td><td>Fe Carmen Goleta</td><td>Ch. 7</td><td>2021-11-29</td><td><a href="https://www.courtlistener.com/docket/61578053/fe-carmen-goleta/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04453</td><td>Lorand Elia</td><td>Ch. 7</td><td>2021-11-28</td><td><a href="https://www.courtlistener.com/docket/61577987/lorand-elia/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04454</td><td>Eler Gomez</td><td>Ch. 7</td><td>2021-11-28</td><td><a href="https://www.courtlistener.com/docket/61577986/eler-gomez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04455</td><td>Rene Medina Arellano and Lorena Serrano Esquivel</td><td>Ch. 7</td><td>2021-11-28</td><td><a href="https://www.courtlistener.com/docket/61577985/rene-medina-arellano-and-lorena-serrano-esquivel/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04456</td><td>Oscar M. Mejia</td><td>Ch. 7</td><td>2021-11-28</td><td><a href="https://www.courtlistener.com/docket/61577984/oscar-m-mejia/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04457</td><td>Ramon G Pineda</td><td>Ch. 7</td><td>2021-11-28</td><td><a href="https://www.courtlistener.com/docket/61577983/ramon-g-pineda/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04458</td><td>Guillermo Zavala</td><td>Ch. 7</td><td>2021-11-28</td><td><a href="https://www.courtlistener.com/docket/61577982/guillermo-zavala/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04452</td><td>Julia Teran</td><td>Ch. 7</td><td>2021-11-28</td><td><a href="https://www.courtlistener.com/docket/61577909/julia-teran/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04451</td><td>Anh Van Nguyen</td><td>Ch. 7</td><td>2021-11-26</td><td><a href="https://www.courtlistener.com/docket/61577637/anh-van-nguyen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04449</td><td>Ana Sofia Tovar Cordova</td><td>Ch. 7</td><td>2021-11-26</td><td><a href="https://www.courtlistener.com/docket/61577614/ana-sofia-tovar-cordova/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04450</td><td>Graciela Azucena Cordova/Mejia</td><td>Ch. 7</td><td>2021-11-26</td><td><a href="https://www.courtlistener.com/docket/61577613/graciela-azucena-cordovamejia/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04448</td><td>James Ashby Davis and Donna Marie Davis</td><td>Ch. 7</td><td>2021-11-24</td><td><a href="https://www.courtlistener.com/docket/61576890/james-ashby-davis-and-donna-marie-davis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04447</td><td>Sylvia D Huynh</td><td>Ch. 7</td><td>2021-11-24</td><td><a href="https://www.courtlistener.com/docket/61576872/sylvia-d-huynh/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04446</td><td>Kyle C Quirk</td><td>Ch. 7</td><td>2021-11-24</td><td><a href="https://www.courtlistener.com/docket/61576633/kyle-c-quirk/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04445</td><td>Yesenia Michel Duran</td><td>Ch. 7</td><td>2021-11-24</td><td><a href="https://www.courtlistener.com/docket/61576439/yesenia-michel-duran/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04443</td><td>Marc Edward Stevenson and Kindra Denise Moore</td><td>Ch. 7</td><td>2021-11-24</td><td><a href="https://www.courtlistener.com/docket/61575822/marc-edward-stevenson-and-kindra-denise-moore/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>21-04441</td><td>Salvador Garcia</td><td>Ch. 7</td><td>2021-11-24</td><td><a href="https://www.courtlistener.com/docket/61575529/salvador-garcia/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+        </tbody>
+    </table>
+
+    <div class="pagination"><a href="page-41.html">← Prev</a> <span class="page-info">Page 42 of 42</span></div>
+
+    <div class="attribution">
+        <p><strong>Data source:</strong> Case metadata on this page comes from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>, operated by the <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a>. Content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. This derived index is published under the same license.</p>
+        <p style="margin-top: 12px;"><strong>Scope note:</strong> This index covers federal bankruptcy cases in the S.D. Cal. that appear on the RECAP Archive. The Open Bankruptcy Project does not reproduce docket PDFs or filing text on this domain - all primary-source access is via CourtListener. Last updated 2026-04-20.</p>
+    </div>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/recap.html">RECAP</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a></p>
+        <p style="margin-top: 12px;">Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p style="margin-top: 8px;">Case metadata from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a> / <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Free Bankruptcy Resources - Legal Aid, Clinics, Official Forms | Open Bankruptcy Project</title>
+<meta name="description" content="Directory of free bankruptcy resources: official court forms, law-school clinics, legal aid organizations, US Trustee Program materials, and other nonprofits that provide free assistance to debtors."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/resources/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Free Bankruptcy Resources - Legal Aid, Clinics, Official Forms | Open Bankruptcy Project"/>
+<meta property="og:description" content="Directory of free bankruptcy resources: official court forms, law-school clinics, legal aid organizations, US Trustee Program materials, and other nonprofits that provide free assistance to debtors."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/resources/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Free Bankruptcy Resources", "description": "Directory of free bankruptcy resources: official court forms, law-school clinics, legal aid organizations, US Trustee Program materials, and other nonprofits that provide free assistance to debtors.", "url": "https://openbankruptcyproject.org/resources/", "datePublished": "2026-04-21", "dateModified": "2026-04-21", "author": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org", "nonprofitStatus": "Nonprofit501c3"}, "isAccessibleForFree": true}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 3, "name": "Resources", "item": "https://openbankruptcyproject.org/resources/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Where can I find free bankruptcy forms?", "acceptedAnswer": {"@type": "Answer", "text": "Official federal bankruptcy forms are free at uscourts.gov/forms/bankruptcy-forms. Each US bankruptcy court also publishes local forms and instructions on its website."}}, {"@type": "Question", "name": "How do I find legal aid?", "acceptedAnswer": {"@type": "Answer", "text": "The Legal Services Corporation legal-aid finder maps legal aid offices by ZIP code. Each office has its own income thresholds and priority service areas."}}, {"@type": "Question", "name": "Do law schools offer free bankruptcy help?", "acceptedAnswer": {"@type": "Answer", "text": "Many US law schools operate free consumer-bankruptcy clinics that represent qualifying low-income debtors. Clinics follow law-school academic calendars and generally have case limits. Contact the clinic at the law school nearest the debtor's district directly."}}, {"@type": "Question", "name": "What is the RECAP Archive?", "acceptedAnswer": {"@type": "Answer", "text": "The RECAP Archive, operated by the Free Law Project, is a free public archive of federal court documents that PACER otherwise charges for. See OBP's RECAP page and free.law/recap."}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main h3{font-size:1.05rem;font-weight:700;margin:22px 0 8px;color:var(--text)}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul,main ol{margin:10px 0 18px 22px;color:var(--text-secondary)}
+main li{margin-bottom:6px}
+main strong{color:var(--text)}
+main code{background:var(--surface);padding:2px 6px;border-radius:4px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.callout strong{color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 24px;margin:18px 0}
+.card h3{margin-top:0}
+.link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+.link-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:.15s}
+.link-card:hover{background:var(--surface-hover);border-color:var(--accent)}
+.link-card .label{font-size:.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600;margin-bottom:4px}
+.link-card h4{font-size:.98rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.link-card p{font-size:.85rem;color:var(--text-secondary);margin:0}
+.faq details{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;color:var(--text-muted);font-weight:300;font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'−'}
+.faq details[open] summary{margin-bottom:10px;color:var(--accent)}
+.faq details p{margin:10px 0 0;color:var(--text-secondary)}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Reference</div>
+<h1>Free Bankruptcy Resources</h1>
+<p class="lede">The federal government, state legal aid organizations, and university-based consumer-bankruptcy clinics publish substantial free resources for debtors. This page collects the most useful links in one directory, organized by source.</p>
+<div class="datastamp">Data updated <time datetime="2026-04-21">2026-04-21</time>. See <a href="/research/methodology/">methodology &amp; sources</a>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Resources</div>
+<h2>Official federal sources</h2>
+<ul><li><a href="https://www.uscourts.gov/forms/bankruptcy-forms" rel="external">Official bankruptcy forms</a> - every current form, all free to download at uscourts.gov.</li><li><a href="https://www.uscourts.gov/services-forms/bankruptcy" rel="external">uscourts.gov bankruptcy portal</a> - plain-language overview of the bankruptcy process, chapter options, and procedural requirements.</li><li><a href="https://www.justice.gov/ust" rel="external">US Trustee Program (justice.gov/ust)</a> - regional offices, means-testing data, approved credit-counseling agencies, enforcement actions.</li><li><a href="https://www.justice.gov/ust/list-credit-counseling-agencies" rel="external">Approved credit-counseling and debtor-education agencies</a> - § 109(h) and § 727(a)(11) compliance.</li><li><a href="https://www.fjc.gov/research/idb" rel="external">Federal Judicial Center Integrated Database</a> - source data for the <a href="/cases/">national district index</a>.</li><li>Each US bankruptcy court's website - local rules, forms, pro se filer guides. Linked from the <a href="/cases/">district index</a>.</li></ul>
+<h2>Free docket access</h2>
+<ul><li><a href="https://free.law/" rel="external">Free Law Project</a> - nonprofit that operates CourtListener and the RECAP Archive.</li><li><a href="https://www.courtlistener.com/recap/" rel="external">RECAP Archive</a> - free access to millions of federal court documents that PACER charges for. See the <a href="/recap.html">OBP RECAP page</a>.</li><li><a href="https://free.law/recap" rel="external">RECAP browser extension</a> - users who pay for PACER contribute documents to the public archive automatically.</li></ul>
+<h2>Law-school consumer-bankruptcy clinics</h2>
+<p>Many US law schools operate free consumer-bankruptcy clinics that represent qualifying low-income debtors. Clinics follow law-school calendars and generally have case limits, but provide direct representation where available. Each school's admission criteria and service area differ - contact the clinic directly.</p>
+<h2>State legal aid organizations</h2>
+<p>Every state has a network of legal aid organizations funded primarily by the Legal Services Corporation and state grants. Legal aid programs typically serve clients below specific income thresholds and have priority areas that vary by office. The <a href="https://www.lsc.gov/find-legal-aid" rel="external">Legal Services Corporation legal-aid finder</a> maps offices by ZIP code.</p>
+<h2>Research and academic resources</h2>
+<ul><li><a href="https://www.fjc.gov/research/idb" rel="external">FJC IDB</a> - canonical case-level federal bankruptcy data.</li><li><a href="https://www.fjc.gov/" rel="external">Federal Judicial Center publications</a> - empirical research on federal courts.</li><li><a href="https://free.law/" rel="external">Free Law Project</a> - open-access federal case law and docket data.</li><li><a href="/cases/">OBP national district index</a> - OBP's free district-level derivative data.</li><li><a href="/research/methodology/">OBP methodology</a> - source citations and metric definitions.</li></ul>
+<h2>Related resources</h2><div class="link-grid"><a class="link-card" href="/screener/"><div class="label">Tool</div><h4>Discharge screener</h4><p>Free § 1328(f) / § 727(a) timing-bar check.</p></a><a class="link-card" href="/recap.html"><div class="label">Reference</div><h4>RECAP Archive</h4><p>Free PACER alternative - public federal court documents.</p></a><a class="link-card" href="/cases/"><div class="label">Data</div><h4>District case index</h4><p>Free research data on every US federal bankruptcy court.</p></a></div>
+<section class="faq"><h2>Frequently asked questions</h2><details><summary>Where can I find free bankruptcy forms?</summary><p>Official federal bankruptcy forms are free at <a href="https://www.uscourts.gov/forms/bankruptcy-forms" rel="external">uscourts.gov/forms/bankruptcy-forms</a>. Each US bankruptcy court also publishes local forms and instructions on its website.</p></details><details><summary>How do I find legal aid?</summary><p>The <a href="https://www.lsc.gov/find-legal-aid" rel="external">Legal Services Corporation legal-aid finder</a> maps legal aid offices by ZIP code. Each office has its own income thresholds and priority service areas.</p></details><details><summary>Do law schools offer free bankruptcy help?</summary><p>Many US law schools operate free consumer-bankruptcy clinics that represent qualifying low-income debtors. Clinics follow law-school academic calendars and generally have case limits. Contact the clinic at the law school nearest the debtor's district directly.</p></details><details><summary>What is the RECAP Archive?</summary><p>The RECAP Archive, operated by the Free Law Project, is a free public archive of federal court documents that PACER otherwise charges for. See <a href="/recap.html">OBP's RECAP page</a> and <a href="https://free.law/recap" rel="external">free.law/recap</a>.</p></details></section>
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Empirical statistics and informational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Data sources: Federal Judicial Center Integrated Database; Free Law Project RECAP Archive via CourtListener; official US federal bankruptcy court websites. Derived content on this page is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>. See the <a href="/research/methodology/">methodology page</a> for metric definitions and sourcing.</p>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+</body></html>

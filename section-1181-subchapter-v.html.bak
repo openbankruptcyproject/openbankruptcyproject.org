@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>11 U.S.C. Section 1181 - Subchapter V for Small Business Debtors</title>
+<meta name="description" content="Guide to Subchapter V of Chapter 11 for small business debtors. Eligibility, streamlined process, trustee role, and plan confirmation wit...">
+<link rel="canonical" href="https://openbankruptcyproject.org/section-1181-subchapter-v.html">
+<meta property="og:title" content="11 U.S.C. Section 1181 - Subchapter V for Small Business Debtors">
+<meta property="og:description" content="Guide to Subchapter V of Chapter 11 for small business debtors. Eligibility, streamlined process, trustee role, and plan confirmation wit...">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/section-1181-subchapter-v.html">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="11 U.S.C. Section 1181 - Subchapter V for Small Business Debtors">
+<meta name="twitter:description" content="Guide to Subchapter V of Chapter 11 for small business debtors. Eligibility, streamlined process, trustee role, and plan confirmation wit...">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"11 U.S.C. Section 1181 - Subchapter V for Small Business Debtors","description":"Guide to Subchapter V of Chapter 11 for small business debtors. Eligibility, streamlined process, trustee role, and plan confirmation without creditor vote.","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://1328f.org"},"datePublished":"2026-04-02","dateModified":"2026-04-02","mainEntityOfPage":"https://openbankruptcyproject.org/section-1181-subchapter-v.html"}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "11 U.S.C. Section 1181 - Subchapter V for Small Business Debtors",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "11 U.S.C. Section 1181 - Subchapter V for Small Business Debtors",
+          "item": "https://openbankruptcyproject.org/section-1181-subchapter-v.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "11 U.S.C. Section 1181 - Subchapter V for Small Business Debtors",
+      "url": "https://openbankruptcyproject.org/section-1181-subchapter-v.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-muted: #9eaab6;
+    --accent: #58a6ff;
+    --green: #3fb950;
+    --red: #f85149;
+    --yellow: #e3a835;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  nav .site-name {
+    color: #f0f6fc;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger {
+    display: none; background: none; border: 1px solid var(--border); color: var(--text);
+    font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1;
+  }
+  .breadcrumb {
+    max-width: 760px;
+    margin: 1rem auto 0;
+    padding: 0 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header {
+    background: linear-gradient(135deg, #0d2137, #122a44);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  header h1 {
+    color: #f0f6fc;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .content-section h2 {
+    color: #f0f6fc;
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .content-section h3 {
+    color: #f0f6fc;
+    font-size: 1.125rem;
+    margin: 1.5rem 0 0.75rem;
+  }
+  .content-section p {
+    color: var(--text);
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+  }
+  .content-section ul, .content-section ol {
+    margin: 0.75rem 0 0.75rem 1.5rem;
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box {
+    background: #21262d;
+    border-left: 3px solid var(--accent);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .statute-box p { margin-bottom: 0.5rem; }
+  .statute-box p:last-child { margin-bottom: 0; }
+  .warning-box {
+    background: #21262d;
+    border-left: 3px solid var(--red);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .warning-box p { margin-bottom: 0.5rem; }
+  .warning-box p:last-child { margin-bottom: 0; }
+  .green-box {
+    background: #21262d;
+    border-left: 3px solid var(--green);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .green-box p { margin-bottom: 0.5rem; }
+  .green-box p:last-child { margin-bottom: 0; }
+  .yellow-box {
+    background: #21262d;
+    border-left: 3px solid var(--yellow);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .yellow-box p { margin-bottom: 0.5rem; }
+  .yellow-box p:last-child { margin-bottom: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+  th, td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid var(--border); }
+  th { color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+  .network-links {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 2;
+  }
+  .network-links strong { color: var(--text); }
+  footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 2rem;
+  }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a {
+      display: block; padding: 0.6rem 0; margin: 0;
+      font-size: 0.95rem; min-height: 44px; line-height: 2;
+      border-bottom: 1px solid #21262d;
+    }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+    table { font-size: 0.8rem; }
+    th, td { padding: 0.5rem 0.6rem; }
+  }
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What Is Section 1181?", "acceptedAnswer": {"@type": "Answer", "text": "Section 1181 of Title 11 of the United States Code (Subchapter V - Inapplicability of Other Sections) is a foundational provision of the Bankruptcy Code. It defines which sections of Chapter 11 apply (and which do not) in Subchapter V small business cases."}}, {"@type": "Question", "name": "How This Affects You?", "acceptedAnswer": {"@type": "Answer", "text": "Subchapter V is a game-changer for small businesses: Cost: Typical Subchapter V cases cost $15,000-$40,000 in legal fees, compared to $50,000-$200,000+ for traditional Chapter 11. Speed: Plans must be filed within 90 days."}}]}
+</script>
+
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-1181-subchapter-v.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/section-1181-subchapter-v-es.html">
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a>
+    <a href="research.html">Research</a>
+    <a href="impact.html">Impact</a>
+    <a href="legal-aid.html">Legal Aid</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>11 U.S.C. Section 1181 - Subchapter V for Small Business Debtors</h1>
+  <p class="subtitle">Guide to Subchapter V of Chapter 11 for small business debtors. Eligibility, streamlined process, trustee role, and plan confirmation without creditor vote.</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; 11 U.S.C. Section 1181 - Subchapter V for Small Business Debtors
+</div>
+
+<main>
+
+<div class="content-section">
+  <h2>What Is Section 1181?</h2>
+  
+<p>Section 1181 of Title 11 of the United States Code (<a href="https://section1191.org/" title="Subchapter V">Subchapter V</a> - Inapplicability of Other Sections) is a foundational provision of the Bankruptcy Code. It defines which sections of Chapter 11 apply (and which do not) in <a href="https://section1191.org/" title="Subchapter V">Subchapter V</a> small business cases. Subchapter V, enacted in 2019 as SBRA, dramatically simplified Chapter 11 for small businesses with debts under $7.5 million.</p>
+<div class="statute-box"><p><strong>Official citation:</strong> 11 U.S.C. &sect; 1181</p></div>
+
+</div>
+
+<div class="content-section">
+  <h2>Key Provisions of Section 1181</h2>
+  
+<p>Key features of Subchapter V via Section 1181:</p>
+<ul>
+<li><strong>No disclosure statement required:</strong> Section 1181(b) eliminates the disclosure statement under 1125, saving time and legal fees.</li>
+<li><strong>No absolute priority rule:</strong> Under standard Chapter 11, equity holders cannot retain interests unless creditors are paid in full. Subchapter V eliminates this rule, letting business owners keep their businesses.</li>
+<li><strong>Subchapter V trustee:</strong> A standing trustee facilitates the case (similar to <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a>) rather than replacing management.</li>
+<li><strong>Debtor-only plan filing:</strong> Only the debtor can file a plan (no competing creditor plans).</li>
+<li><strong>Consensual and nonconsensual confirmation:</strong> Plans can be confirmed consensually (with creditor votes) or nonconsensually (without votes) if the plan commits all projected disposable income to creditors for 3-5 years.</li>
+</ul>
+
+</div>
+
+<div class="content-section">
+  <h2>How This Affects You</h2>
+  
+<p>Subchapter V is a game-changer for small businesses:</p>
+<ul>
+<li><strong>Cost:</strong> Typical Subchapter V cases cost $15,000-$40,000 in legal fees, compared to $50,000-$200,000+ for traditional Chapter 11.</li>
+<li><strong>Speed:</strong> Plans must be filed within 90 days. Cases are typically confirmed within 4-8 months, versus 12-24 months for traditional Chapter 11.</li>
+<li><strong>Owner retention:</strong> The elimination of the absolute priority rule means business owners can keep their businesses even if unsecured creditors are not paid in full.</li>
+<li><strong>Debt limit:</strong> Originally $2.7 million, temporarily raised to $7.5 million during COVID, and made permanent. This covers the vast majority of small businesses.</li>
+</ul>
+
+</div>
+
+<div class="content-section">
+  <h2>Related Bankruptcy Code Sections</h2>
+  
+<p>Section 1181 works in conjunction with several other provisions of the Bankruptcy Code:</p>
+<ul>
+<li><a href="section-1186-property-of-estate.html">Section 1186</a> - Property of the estate in Subchapter V</li>
+<li><a href="section-1189-filing-of-plan.html">Section 1189</a> - Plan filing in Subchapter V</li>
+<li><a href="section-1190-acceptance-of-plan.html">Section 1190</a> - Plan acceptance in Subchapter V</li>
+<li><a href="section-1193-modification.html">Section 1193</a> - Plan modification in Subchapter V</li>
+</ul>
+<p>Understanding how these sections interact is critical for anyone navigating the bankruptcy process, whether as a debtor, creditor, or attorney.</p>
+
+</div>
+
+<div class="network-links">
+  <strong>Bankruptcy Tools Network:</strong><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Discharge Screener</a> &middot;
+    <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Research Platform</a> &middot;
+    <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Exemptions by State</a> &middot;
+    <a href="https://keepmycarinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your Car</a> &middot;
+    <a href="https://keepmyhouseinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your House</a> &middot;
+    <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Bankruptcy Cost</a> &middot;
+    <a href="https://filebankruptcywithoutlawyer.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">File Without a Lawyer</a> &middot;
+    <a href="https://rebuildcreditafterbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Rebuild Credit</a> &middot;
+    <a href="https://buyahouseafterbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Buy a House After</a> &middot;
+    <a href="https://buyacarafterbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Buy a Car After</a>
+</div>
+</main>
+
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+
+  <p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+  <p style="margin-bottom:0.5rem">
+    <a href="/">Home</a> &middot;
+    <a href="research.html">Research</a> &middot;
+    <a href="impact.html">Impact</a> &middot;
+    <a href="legal-aid.html">Legal Aid</a> &middot;
+    <a href="about.html">About</a> &middot;
+    <a href="contact.html">Contact</a>
+  </p>
+  <p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) nonprofit.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+<script src="/btn-engage.js" defer></script>
+<div style="text-align:center;padding:16px;color:#8b949e;font-size:0.8rem;border-top:1px solid #30363d;margin-top:20px"><p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p></div>
+<!-- BOOST-TOP10 internal links (boost_internal_links.py) -->
+<div class="boost-top10" style="max-width:820px;margin:2rem auto;padding:1.5rem;background:#0d1117;border:1px solid #238636;border-radius:8px">
+  <p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
+  <ul style="list-style:none;padding:0;margin:0">
+    <li style="margin-bottom:0.5rem"><a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Bankruptcy Means Test by State</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcymeanstest.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Chapter 7 vs. Chapter 13 Comparison</a> <span style="color:#7d8590;font-size:0.8rem">-- chapter7vs13.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://1099cdebt.com/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">1099-C Cancellation of Debt Tax Guide</a> <span style="color:#7d8590;font-size:0.8rem">-- 1099cdebt.com</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://bankruptcystudentloans.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loans in Bankruptcy</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcystudentloans.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://studentloanforgive.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loan Forgiveness Programs</a> <span style="color:#7d8590;font-size:0.8rem">-- studentloanforgive.org</span></li>
+  </ul>
+</div>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

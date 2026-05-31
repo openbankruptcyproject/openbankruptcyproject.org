@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+    <title>What Happens When Chapter 13 Is Dismissed? - Open Bankruptcy Project</title>
+    <meta name="description" content="When a Chapter 13 case is dismissed, the automatic stay ends, creditors resume collections, and payments already made may not be refunded. Learn the consequences and whether you can refile.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/blog/what-happens-when-chapter-13-is-dismissed.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/blog/what-happens-when-chapter-13-is-dismissed.html">
+
+    <meta property="og:title" content="What Happens When Chapter 13 Is Dismissed?">
+    <meta property="og:description" content="Dismissal ends bankruptcy protection and lets creditors resume collections. Learn the consequences and how Section 109(g) may affect refiling.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://openbankruptcyproject.org/blog/what-happens-when-chapter-13-is-dismissed.html">
+    <meta property="og:site_name" content="Open Bankruptcy Project">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="What Happens When Chapter 13 Is Dismissed?">
+    <meta name="twitter:description" content="Dismissal ends bankruptcy protection and lets creditors resume collections. Learn the consequences and how Section 109(g) may affect refiling.">
+    <meta name="twitter:image" content="/og-image.svg">
+
+    <!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What happens to the automatic stay when Chapter 13 is dismissed?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The automatic stay ends immediately when a Chapter 13 case is dismissed. Creditors can resume collection activity, including lawsuits, wage garnishments, foreclosure proceedings, and repossession. There is no grace period after dismissal."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I refile Chapter 13 after dismissal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Generally yes, but timing matters. If your case was dismissed for willful failure to abide by court orders or to appear, Section 109(g) imposes a 180-day bar on refiling. If your case was voluntarily dismissed at your request after a creditor sought stay relief, the same 180-day bar applies. Outside those situations, you can refile immediately, though the automatic stay may be limited to 30 days if you refile within one year of dismissal."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I get my plan payments back if Chapter 13 is dismissed?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Payments already distributed to creditors by the trustee are not returned to you. However, any funds the trustee is still holding that have not been disbursed may be returned after deducting the trustee's fees and administrative expenses. The exact amount depends on how far along your plan was."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the difference between dismissal and conversion in Chapter 13?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dismissal ends the bankruptcy case entirely. Conversion changes it from Chapter 13 to another chapter, usually Chapter 7. With conversion, you remain in bankruptcy and may receive a discharge of qualifying debts. With dismissal, you receive no discharge and creditors can pursue the full balance of your debts."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "What Happens When Chapter 13 Is Dismissed?",
+          "description": "When a Chapter 13 case is dismissed, the automatic stay ends, creditors resume collections, and payments already made may not be refunded.",
+          "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+          "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntityOfPage": "https://openbankruptcyproject.org/blog/what-happens-when-chapter-13-is-dismissed.html"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://openbankruptcyproject.org/blog/" },
+            { "@type": "ListItem", "position": 3, "name": "What Happens When Chapter 13 Is Dismissed?", "item": "https://openbankruptcyproject.org/blog/what-happens-when-chapter-13-is-dismissed.html" }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+            --green: #3fb950;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+        .page-header .meta { font-size: 0.85rem; color: var(--text-muted); margin-top: 8px; }
+
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        .callout-box {
+            background: rgba(88,166,255,0.06); border: 1px solid rgba(88,166,255,0.2); border-radius: 10px;
+            padding: 24px; margin: 24px 0;
+        }
+        .callout-box p { color: var(--text); margin-bottom: 8px; }
+        .callout-box p:last-child { margin-bottom: 0; }
+
+        .related-posts { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); }
+        .related-posts h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 16px; }
+        .related-posts a { display: block; padding: 12px 0; color: var(--accent); font-size: 0.95rem; border-bottom: 1px solid var(--border); }
+        .related-posts a:last-child { border-bottom: none; }
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/methodology.html">Methodology</a>
+            <a href="/citations.html">Citations</a>
+            <a href="/blog/">Blog</a>
+            <a href="/press.html">Press</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">&rsaquo;</span><a href="/blog/">Blog</a><span class="separator">&rsaquo;</span><span>What Happens When Chapter 13 Is Dismissed?</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>What Happens When Chapter 13 Is Dismissed?</h1>
+        <p class="subtitle"><a href="https://dismissedbankruptcy.org/" title="dismissal">Dismissal</a> ends your bankruptcy protection and puts you back where you started - minus the payments you already made.</p>
+        <p class="meta">Published April 9, 2026</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <p>A <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> dismissal means the bankruptcy court has closed your case without granting you a <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a>. This can happen because you fell behind on plan payments, failed to file required documents, or asked the court to dismiss the case yourself. Whatever the reason, the consequences are immediate and significant.</p>
+
+        <h2>The Automatic Stay Ends Immediately</h2>
+        <p>The <a href="https://automaticstay.com">automatic stay</a> is the protection that stops creditors from collecting while your bankruptcy is active. When your case is dismissed, that protection vanishes. Creditors can immediately resume lawsuits, wage garnishments, foreclosure proceedings, and repossession efforts. There is no grace period.</p>
+        <p>If you had a foreclosure or repossession on hold because of the stay, the creditor can pick up exactly where it left off. Any forbearance you had was tied to the bankruptcy, not to a separate agreement (unless you negotiated one).</p>
+
+        <h2>What Happens to Your Plan Payments</h2>
+        <p>Money the Chapter 13 trustee already distributed to your creditors is gone. You do not get it back. However, if the trustee is still holding undisbursed funds at the time of dismissal, those funds may be returned to you after the trustee deducts fees and administrative expenses.</p>
+        <p>The practical impact depends on how far along you were in your plan. If you made 40 months of payments on a 60-month plan, those 40 months of payments have been applied to your debts. But you receive no discharge, so creditors can pursue any remaining balances.</p>
+
+        <h2>Your Debts Are Not Discharged</h2>
+        <p>This is the most important consequence. A dismissed Chapter 13 case produces no discharge. Every debt you owed before filing remains fully enforceable. Interest and penalties that were paused during the case may resume accruing from the date of dismissal.</p>
+        <p>If creditors had already received partial payments through your plan, those payments reduce the balance owed, but the remainder is still collectible.</p>
+
+        <h2>Can You Refile After Dismissal?</h2>
+        <p>Usually yes, but with some restrictions.</p>
+        <p><strong>The <a href="https://109g.org/" title="Section 109(g)">109(g)</a> bar.</strong> Under <a href="https://109g.com">Section 109(g)</a>, you cannot <a href="https://canifileagain.org/" title="file bankruptcy again">refile</a> for 180 days if your case was dismissed because you willfully failed to obey court orders or failed to appear in court. The same 180-day bar applies if you voluntarily dismissed your case after a creditor filed a motion for relief from the <a href="https://automaticstay.org/" title="automatic stay">automatic stay</a>.</p>
+        <p><strong>Limited automatic stay.</strong> If you refile within one year of a dismissal, the automatic stay in your new case lasts only 30 days unless you file a motion to extend it and prove you are filing in good faith. If you have had two or more cases dismissed in the prior year, the automatic stay does not take effect at all unless you affirmatively request it.</p>
+
+        <h2>Dismissal vs. Conversion</h2>
+        <p>Dismissal and conversion are different outcomes. <a href="https://chapter7vs13.org">Conversion</a> changes your case from Chapter 13 to <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> (or another chapter), keeping you in bankruptcy with a chance at a discharge. Dismissal ends the case entirely with no discharge. If you are struggling to complete your <a href="https://chapter13plan.org/" title="Chapter 13 plan">Chapter 13 plan</a>, converting to Chapter 7 may be a better option than letting the case be dismissed - but eligibility depends on the <a href="https://707b.com">means test</a>.</p>
+
+        <h2>Common Reasons for Dismissal</h2>
+        <ul>
+            <li><strong>Missed plan payments.</strong> The most common reason. If you fall behind and cannot catch up, the trustee or a creditor may move to dismiss.</li>
+            <li><strong>Failure to file documents.</strong> Tax returns, pay stubs, financial management course certificates, and other required documents have strict deadlines.</li>
+            <li><strong>Plan not confirmable.</strong> If the court cannot confirm your proposed plan (for example, it does not meet the <a href="https://1325confirmation.com">best-interests test</a>), and you cannot fix it, the case may be dismissed.</li>
+            <li><strong>Voluntary dismissal.</strong> You can ask the court to dismiss your case, though the court has discretion and a creditor may object.</li>
+        </ul>
+
+        <h2>What You Should Do</h2>
+        <p>If you are at risk of dismissal, talk to your attorney immediately. Options may include modifying your plan, converting to Chapter 7, or negotiating with the trustee. If your case has already been dismissed, understand the refiling restrictions and consider consulting with a bankruptcy attorney about your next steps.</p>
+        <p>You can check the status of any bankruptcy case and review the full docket for free using the <a href="https://courtlistener.com/recap/">RECAP Archive</a> or through <a href="https://pacer.uscourts.gov">PACER</a>.</p>
+
+        <div class="related-posts">
+            <h3>Related Articles</h3>
+            <a href="can-you-file-bankruptcy-more-than-once.html">Can You File Bankruptcy More Than Once?</a>
+            <a href="how-much-debt-to-file-bankruptcy.html">How Much Debt Do You Need to File Bankruptcy?</a>
+            <a href="what-debts-survive-bankruptcy.html">What Debts Survive Bankruptcy?</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/privacy.html">Privacy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+            <a href="/donate.html">Donate</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p>All tools and data released under open-source licenses.</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

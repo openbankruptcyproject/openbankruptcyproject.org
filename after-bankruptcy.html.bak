@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+    <title>Just Got Your Discharge? What's Next - Open Bankruptcy Project</title>
+    <meta name="description" content="Post-bankruptcy discharge checklist: rebuild your credit, buy a car or house, monitor your credit report, and understand what happens after bankruptcy.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/after-bankruptcy.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    <meta property="og:title" content="Just Got Your Discharge? What's Next">
+    <meta property="og:description" content="Post-bankruptcy checklist: credit rebuilding timeline, buying a car or house after bankruptcy, and steps to protect your fresh start.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://openbankruptcyproject.org/after-bankruptcy.html">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/og-image.svg">
+
+    <!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+            --green: #3fb950;
+            --red: #f85149;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        .timeline-box {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px;
+            margin-bottom: 24px;
+        }
+        .timeline-box .tl-title { font-weight: 700; font-size: 1rem; margin-bottom: 16px; }
+        .tl-item { display: flex; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+        .tl-item:last-child { border-bottom: none; }
+        .tl-period { font-size: 0.85rem; font-weight: 600; color: var(--green); min-width: 110px; }
+        .tl-desc { font-size: 0.92rem; color: var(--text-secondary); }
+
+        .checklist { list-style: none; margin: 0 0 24px 0; padding: 0; }
+        .checklist li { padding: 8px 0 8px 28px; position: relative; color: var(--text-secondary); }
+        .checklist li::before { content: ''; position: absolute; left: 0; top: 14px; width: 16px; height: 16px; border: 2px solid var(--border-light); border-radius: 3px; }
+
+        .resource-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+        .resource-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .resource-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .resource-card .card-title { font-weight: 700; font-size: 1rem; margin-bottom: 8px; }
+        .resource-card .card-desc { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px; }
+        .resource-card a { font-size: 0.88rem; font-weight: 600; }
+
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+            .tl-item { flex-direction: column; gap: 4px; }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How long does bankruptcy stay on my credit report?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A Chapter 7 bankruptcy stays on your credit report for 10 years from the filing date. A Chapter 13 bankruptcy stays for 7 years from the filing date. However, the impact on your credit score diminishes significantly over time, especially if you actively rebuild credit after discharge."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "When can I buy a house after bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For FHA loans, the waiting period is 2 years after a Chapter 7 discharge or 1 year of on-time Chapter 13 plan payments with court approval. Conventional loans (Fannie Mae/Freddie Mac) require a 4-year wait after Chapter 7 or 2 years after Chapter 13 discharge. VA loans require 2 years after Chapter 7."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "When can I buy a car after bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can buy a car immediately after your discharge is entered. Many lenders specialize in post-bankruptcy auto loans. Interest rates will be higher initially but decrease as you rebuild credit. Making on-time car payments is one of the fastest ways to rebuild your credit score after bankruptcy."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the first thing I should do after getting my bankruptcy discharge?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pull your credit reports from all three bureaus (free at annualcreditreport.com) and verify that every discharged debt shows a zero balance. If any creditor is still reporting an active balance on a discharged debt, dispute it immediately. This is the most common post-discharge problem and the easiest to fix."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can creditors still contact me after my discharge?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. The discharge order permanently prohibits creditors from attempting to collect discharged debts. If a creditor contacts you about a discharged debt, they are violating the discharge injunction under 11 U.S.C. Section 524. Document the contact and consult an attorney - you may be entitled to damages."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Just Got Your Discharge? What's Next",
+          "description": "Post-bankruptcy discharge checklist: rebuild credit, buy a car or house, monitor your credit report, and protect your fresh start.",
+          "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+          "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntityOfPage": "https://openbankruptcyproject.org/after-bankruptcy.html"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "After Bankruptcy", "item": "https://openbankruptcyproject.org/after-bankruptcy.html" }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "name": "Just Got Your Discharge? What's Next",
+          "url": "https://openbankruptcyproject.org/after-bankruptcy.html",
+          "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".quick-answer", "h1", "p:first-of-type"] }
+        }
+      ]
+    }
+    </script>
+
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/after-bankruptcy.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/after-bankruptcy-es.html">
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="methodology.html">Methodology</a>
+            <a href="citations.html">Citations</a>
+            <a href="press.html">Press</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">&rsaquo;</span><span>After Bankruptcy: What's Next</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Just Got Your Discharge? What's Next</h1>
+        <p class="subtitle">Your fresh start begins now. Here is exactly what to do in the days, months, and years after bankruptcy.</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <h2>Your Post-Discharge Checklist</h2>
+        <p>Congratulations on reaching your <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a>. The hardest part is behind you. The steps below will help you protect your fresh start and rebuild faster than you might expect.</p>
+
+        <ul class="checklist">
+            <li>Pull all three credit reports at <a href="https://www.annualcreditreport.com" target="_blank" rel="noopener">annualcreditreport.com</a> (free)</li>
+            <li>Verify every discharged debt shows a zero balance</li>
+            <li>Dispute any errors with the credit bureau in writing</li>
+            <li>Save a copy of your discharge order - you will need it</li>
+            <li>Open a secured credit card to begin rebuilding credit</li>
+            <li>Set up a simple budget that prioritizes saving an emergency fund</li>
+            <li>Monitor for discharge violations (creditors who keep trying to collect)</li>
+        </ul>
+
+        <h2>Credit Rebuilding Timeline</h2>
+        <div class="timeline-box">
+            <div class="tl-title">What to expect as you rebuild</div>
+            <div class="tl-item">
+                <span class="tl-period">Month 1-3</span>
+                <span class="tl-desc">Open a secured credit card ($200-500 deposit). Use it for one small recurring charge (like a streaming service) and pay the full balance every month. Check credit reports for errors.</span>
+            </div>
+            <div class="tl-item">
+                <span class="tl-period">Month 3-6</span>
+                <span class="tl-desc">Credit score begins recovering as the debt-to-income ratio improvement registers. Many people see a 50-80 point improvement in this window.</span>
+            </div>
+            <div class="tl-item">
+                <span class="tl-period">Month 6-12</span>
+                <span class="tl-desc">Consider adding a credit-builder loan from a credit union. Keep utilization below 30% on all cards. Auto loans become available (higher rates, but manageable).</span>
+            </div>
+            <div class="tl-item">
+                <span class="tl-period">Year 1-2</span>
+                <span class="tl-desc">Unsecured credit card offers begin arriving. Continue disciplined use. FHA mortgage eligibility opens at 2 years post-Chapter 7 discharge. Score may reach 650-700 range.</span>
+            </div>
+            <div class="tl-item">
+                <span class="tl-period">Year 2-4</span>
+                <span class="tl-desc">Conventional mortgage waiting periods end. Credit score continues climbing with consistent history. Many filers reach scores above 700 by year 3-4.</span>
+            </div>
+        </div>
+
+        <h2>Buying a Car After Bankruptcy</h2>
+        <p>You can finance a car immediately after discharge. Many dealerships and lenders specialize in post-bankruptcy auto financing. Tips for getting the best deal:</p>
+        <ul>
+            <li><strong>Get pre-approved</strong> through a credit union before visiting dealerships. Credit union rates are almost always better than dealer financing.</li>
+            <li><strong>Expect higher rates</strong> initially - 8-15% is common in the first year. This will drop significantly as you build payment history.</li>
+            <li><strong>Avoid "buy here, pay here" lots.</strong> They charge extreme interest and often do not report positive payments to credit bureaus.</li>
+            <li><strong>Keep the loan term short.</strong> A 48-month loan costs less overall and builds equity faster than 72 or 84 months.</li>
+            <li><strong>On-time car payments <a href="https://rebuildcreditafterbankruptcy.com/" title="rebuild credit">rebuild credit</a> fast.</strong> An auto loan is one of the most effective credit-building tools after bankruptcy.</li>
+        </ul>
+
+        <h2>Buying a House After Bankruptcy</h2>
+        <p>Homeownership is absolutely possible after bankruptcy. The waiting periods vary by loan type:</p>
+        <ul>
+            <li><strong>FHA loans:</strong> 2 years after <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> discharge; 1 year into <a href="https://chapter13plan.org/" title="Chapter 13 plan">Chapter 13 plan</a> (with court approval)</li>
+            <li><strong>VA loans:</strong> 2 years after Chapter 7 discharge</li>
+            <li><strong>USDA loans:</strong> 3 years after Chapter 7 discharge</li>
+            <li><strong>Conventional (Fannie/Freddie):</strong> 4 years after Chapter 7 discharge; 2 years after <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> discharge</li>
+        </ul>
+        <p>Start preparing now: save for a down payment, keep all credit accounts current, and avoid taking on unnecessary new debt. A strong 12-24 month payment history after discharge is the most powerful factor in mortgage qualification.</p>
+
+        <h2>Protect Your Discharge</h2>
+        <p>Your discharge order is a permanent federal court injunction. It means creditors are permanently prohibited from trying to collect discharged debts. But violations happen. Watch for:</p>
+        <ul>
+            <li><strong>Collection calls or letters</strong> about debts that were discharged</li>
+            <li><strong>Credit report errors</strong> showing discharged debts as active or delinquent</li>
+            <li><strong>Lawsuits</strong> filed on discharged debts (rare, but it happens)</li>
+            <li><strong><a href="https://stopgarnishment.org/" title="wage garnishment">Wage garnishment</a> attempts</strong> on pre-bankruptcy debts</li>
+        </ul>
+        <p>If any of these occur, document everything and consult an attorney. Discharge violations can result in sanctions, damages, and attorney fees awarded to you.</p>
+
+        <h2>Free Resources</h2>
+        <div class="resource-grid">
+            <div class="resource-card">
+                <div class="card-title">Rebuild Credit After Bankruptcy</div>
+                <div class="card-desc">Step-by-step credit rebuilding guide with timelines, secured card recommendations, and score tracking.</div>
+                <a href="https://rebuildcreditafterbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=after-bankruptcy" target="_blank" rel="noopener">rebuildcreditafterbankruptcy.com &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Buy a Car After Bankruptcy</div>
+                <div class="card-desc">Auto financing guide: when to buy, where to get pre-approved, how to negotiate, and what to avoid.</div>
+                <a href="https://buyacarafterbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=after-bankruptcy" target="_blank" rel="noopener">buyacarafterbankruptcy.com &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Buy a House After Bankruptcy</div>
+                <div class="card-desc">Mortgage waiting periods by loan type, down payment strategies, and how to qualify faster.</div>
+                <a href="https://buyahouseafterbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=after-bankruptcy" target="_blank" rel="noopener">buyahouseafterbankruptcy.com &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Credit Score After Bankruptcy</div>
+                <div class="card-desc">How bankruptcy affects your score, realistic recovery timelines, and the factors that matter most.</div>
+                <a href="https://creditscorebankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=after-bankruptcy" target="_blank" rel="noopener">creditscorebankruptcy.com &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+            <a href="donate.html">Donate</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p>All tools and data released under open-source licenses.</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

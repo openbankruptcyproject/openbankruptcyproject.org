@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>KRPC 1.15 / MRPC 4-1.15 - Safekeeping Property + IOLTA [2026] | Open Bankruptcy Project</title>
+<meta content="Kansas Rule 1.15 and Missouri Rule 4-1.15 structure the trust-account architecture: separate-account requirement, notice and delivery duties, recordkeeping, and the IOLTA program." name="description"/>
+<meta content="KRPC 1.15, MRPC 4-1.15, trust account, IOLTA, client funds, attorney trust account, KS IOLTA, MO IOLTA, prompt notice, prompt delivery, recordkeeping, Kansas ethics, Missouri ethics" name="keywords"/>
+<meta content="#0d1117" name="theme-color"/>
+<link href="https://openbankruptcyproject.org/krpc-1-15/" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="KRPC 1.15 / MRPC 4-1.15 - Safekeeping Property + IOLTA" property="og:title"/>
+<meta content="The trust-account architecture and IOLTA program: separate accounts, prompt notice and delivery, recordkeeping, and the public-interest funding the IOLTA program supplies." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/krpc-1-15/" property="og:url"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "KRPC 1.15 / MRPC 4-1.15 - Safekeeping Property + IOLTA",
+      "about": {"@type": "Thing", "name": "Rule of Professional Conduct on Safekeeping Property"},
+      "author": {"@type": "Organization", "name": "Open Bankruptcy Project"},
+      "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+      "dateModified": "2026-05-22"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Open Bankruptcy Project", "item": "https://openbankruptcyproject.org/"},
+        {"@type": "ListItem", "position": 2, "name": "KRPC 1.15 / MRPC 4-1.15", "item": "https://openbankruptcyproject.org/krpc-1-15/"}
+      ]
+    }
+  ]
+}
+</script>
+<!-- BTN:GA4:START -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<style>
+  :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --text-muted:#9eaab6; --accent:#58a6ff; --green:#238636; --red:#f85149; --yellow:#f0c14b; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; min-height:100vh; display:flex; flex-direction:column; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  nav { background:var(--surface); border-bottom:1px solid var(--border); padding:0.75rem 2rem; display:flex; align-items:center; justify-content:space-between; }
+  .site-name { color:#f0f6fc; font-weight:700; font-size:1.1rem; text-decoration:none; }
+  .site-name:hover { color:var(--accent); text-decoration:none; }
+  .container { max-width:820px; margin:0 auto; padding:2.5rem 2rem; flex:1; }
+  h1 { color:#f0f6fc; font-size:2.25rem; margin-bottom:0.5rem; line-height:1.25; }
+  .subtitle { color:var(--text-muted); font-size:1.05rem; margin-bottom:2rem; }
+  h2 { color:#f0f6fc; font-size:1.4rem; margin:2rem 0 0.75rem; }
+  h3 { color:#f0f6fc; font-size:1.1rem; margin:1.5rem 0 0.5rem; }
+  p { margin-bottom:1rem; }
+  ul, ol { margin:0.5rem 0 1rem 1.5rem; }
+  li { margin-bottom:0.4rem; }
+  blockquote { background:var(--surface); border-left:3px solid var(--accent); padding:1rem 1.25rem; margin:1rem 0; color:var(--text); font-style:italic; }
+  code { background:var(--surface); border:1px solid var(--border); padding:0.15rem 0.4rem; border-radius:4px; font-size:0.9em; color:var(--text); }
+  .callout { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:1.25rem 1.5rem; margin:1.5rem 0; }
+  .callout.gov { background:#0d2847; border-color:#1f6feb; }
+  .callout.warn { background:#2a1a00; border-color:#bb8c3a; }
+  .callout strong { color:#f0f6fc; }
+  .callout p:last-child { margin-bottom:0; }
+  .tag { display:inline-block; background:var(--surface); border:1px solid var(--border); border-radius:4px; padding:0.1rem 0.5rem; font-size:0.75rem; color:var(--text-muted); margin-right:0.4rem; text-transform:uppercase; letter-spacing:0.03em; }
+  .two-col { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin:1rem 0; }
+  @media (max-width:640px) { .two-col { grid-template-columns:1fr; } }
+  .two-col .card { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:1.25rem; }
+  .two-col .card h3 { margin-top:0; }
+  .two-col .card p:last-child { margin-bottom:0; }
+  .network-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:0.6rem; margin:1rem 0; }
+  .network-grid a { background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:0.75rem; text-align:center; font-size:0.9rem; }
+  .network-grid a:hover { border-color:var(--accent); text-decoration:none; }
+  footer { background:var(--surface); border-top:1px solid var(--border); padding:1.5rem; text-align:center; font-size:0.8rem; color:var(--text-muted); margin-top:2rem; }
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is KRPC 1.15 / MRPC 4-1.15?", "acceptedAnswer": {"@type": "Answer", "text": "Rule 1.15 governs the safekeeping of property. A lawyer shall hold property of clients or third persons that is in a lawyer's possession in connection with a representation separate from the lawyer's own property, and shall maintain complete records of the receipt and disbursement of such property."}}, {"@type": "Question", "name": "What trust-account requirements does Rule 1.15 impose?", "acceptedAnswer": {"@type": "Answer", "text": "Funds shall be kept in a separate account maintained in the state where the lawyer's office is situated, or elsewhere with the consent of the client or third person. Records of trust-account funds and other property shall be kept by the lawyer and shall be preserved for the period required by applicable jurisdictional rule."}}, {"@type": "Question", "name": "How are disputed funds handled under Rule 1.15?", "acceptedAnswer": {"@type": "Answer", "text": "When in the course of representation a lawyer is in possession of property in which two or more persons (including the lawyer) claim interests, the property shall be kept separate by the lawyer until the dispute is resolved. The lawyer shall promptly distribute all portions of the property as to which the interests are not in dispute."}}, {"@type": "Question", "name": "What notice and accounting duties apply under Rule 1.15?", "acceptedAnswer": {"@type": "Answer", "text": "Upon receiving funds or other property in which a client or third person has an interest, the lawyer shall promptly notify the client or third person. The lawyer shall promptly deliver to the client or third person any funds or other property that the client or third person is entitled to receive, and upon request shall render a full accounting regarding such property."}}, {"@type": "Question", "name": "Is intermingling of lawyer funds with client funds permitted?", "acceptedAnswer": {"@type": "Answer", "text": "Rule 1.15(b) generally prohibits depositing or commingling the lawyer's own funds with client funds, with limited exceptions for funds reasonably sufficient to pay bank service charges. The prohibition is one of the most strictly enforced provisions of the rules of professional conduct."}}]}</script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://openbankruptcyproject.org/krpc-1-15/","name":"KRPC 1.15 / MRPC 4-1.15 - Safekeeping Property + IOLTA [2026] | Open Bankruptcy Project","speakable":{"@type":"SpeakableSpecification","cssSelector":[".speakable-summary","h1",".faq-question",".subtitle"]}}</script>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a class="site-name" href="/">Open Bankruptcy Project</a>
+<a href="/" style="color:var(--text-muted);font-size:0.9rem">Home</a>
+</nav>
+<div class="container">
+<span class="tag">Rule of Professional Conduct</span>
+<span class="tag">KRPC 1.15 / MRPC 4-1.15</span>
+<h1>KRPC 1.15 / MRPC 4-1.15: Safekeeping Property and the IOLTA Program</h1>
+<p class="subtitle speakable-summary">The trust-account architecture, the prompt-notice and prompt-delivery duties, the recordkeeping framework, and the IOLTA program structure.</p>
+
+<h2>What Rule 1.15 affirmatively does</h2>
+<p>Rule 1.15 is the architecture for handling other people's money. It tells the lawyer how to set up the trust account, how to keep client and third-party property separate from the lawyer's own, how to notify the owner when funds arrive, how to deliver funds when due, and how to maintain records that demonstrate compliance. Paired with each jurisdiction's IOLTA framework, the rule also supplies a public-interest funding source for legal-aid programs without imposing a cost on individual clients. The rule is the structural backbone of client-property handling and the access-to-justice funding mechanism the bar maintains.</p>
+
+<h2>Verbatim text of KRPC 1.15 (Kansas, abbreviated)</h2>
+<blockquote>(a) A lawyer shall hold property of clients or third persons that is in a lawyer's possession in connection with a representation separate from the lawyer's own property. Funds shall be kept in a separate account maintained in the state where the lawyer's office is situated, or elsewhere with the consent of the client or third person. Other property shall be identified as such and appropriately safeguarded. Complete records of such account funds and other property shall be kept by the lawyer and shall be preserved for a period of five years after termination of the representation.<br/><br/>
+(b) Upon receiving funds or other property in which a client or third person has an interest, a lawyer shall promptly notify the client or third person. Except as stated in this rule or otherwise permitted by law or by agreement with the client, a lawyer shall promptly deliver to the client or third person any funds or other property that the client or third person is entitled to receive and, upon request by the client or third person, shall promptly render a full accounting regarding such property.<br/><br/>
+(c) When in the course of representation a lawyer is in possession of property in which both the lawyer and another person claim interests, the property shall be kept separate by the lawyer until there is an accounting and severance of their interest. If a dispute arises concerning their respective interests, the portion in dispute shall be kept separate by the lawyer until the dispute is resolved.<br/><br/>
+(d) [Recordkeeping requirements - separate ledger for each client, monthly reconciliation, preservation of records.] Kan. Sup. Ct. R. 226, KRPC 1.15.</blockquote>
+
+<h2>Missouri Rule 4-1.15</h2>
+<p>Missouri Rule 4-1.15 tracks <a href="https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_15_safekeeping_property/" rel="noopener" target="_blank">ABA Model Rule 1.15</a> with state-specific provisions for the Missouri Lawyers' Fund for Client Protection and detailed trust-account recordkeeping requirements. Both jurisdictions require participation in the IOLTA program for funds that cannot earn net interest for the client.</p>
+
+<h2>1.15(a) - The separate-account architecture</h2>
+<p>The first structural requirement is separation. Client funds and third-party funds held in connection with a representation must be kept in a separate account from the lawyer's own funds. Other property (documents, securities, tangible items) must be identified and appropriately safeguarded.</p>
+
+<p>The separate account is typically a state-chartered or federally-insured bank account in the state where the lawyer's office is located, designated by name as an attorney trust account. The account is the lawyer's account in title but the clients' funds in substance. Cleared, identifiable client funds flow through the trust account; the lawyer's earned fees and operating funds flow through a separate business account.</p>
+
+<h2>1.15(b) - Prompt notice and prompt delivery</h2>
+<p>When a lawyer receives funds in which a client or third person has an interest, two duties trigger at the moment of receipt:</p>
+<ul>
+<li><strong>Prompt notice.</strong> The lawyer must promptly notify the client or third person that the funds have been received. The notice supplies the information the owner needs to monitor the account.</li>
+<li><strong>Prompt delivery.</strong> The lawyer must promptly deliver the funds the client or third person is entitled to receive, and on request render a full accounting.</li>
+</ul>
+<p>The "promptly" standard is functional: it means as soon as is reasonable under the circumstances, taking account of the time required to clear deposits, identify net amounts after deductions, and confirm the owner's instructions.</p>
+
+<h2>1.15(c) - The dispute-segregation rule</h2>
+<p>When the lawyer is in possession of property in which both the lawyer and another person claim interests - for example, a settlement that includes both the client's recovery and the lawyer's contingent fee - the property is held separately until an accounting and severance. If a dispute arises about the respective interests, the disputed portion is held separately until the dispute is resolved. The undisputed portion is delivered promptly.</p>
+
+<h2>1.15(d) - The recordkeeping framework</h2>
+<p>Subdivision (d) supplies the records the lawyer must maintain. The framework varies slightly by jurisdiction but the core elements are constant:</p>
+
+<div class="two-col">
+<div class="card">
+<h3>Account-level records</h3>
+<ul>
+<li>Bank statements for the trust account</li>
+<li>Canceled checks or images</li>
+<li>Deposit slips with itemization of each deposit</li>
+<li>Wire transfer records</li>
+<li>Monthly reconciliations</li>
+</ul>
+</div>
+<div class="card">
+<h3>Client-level records</h3>
+<ul>
+<li>Separate ledger for each client whose funds pass through the trust account</li>
+<li>Running balance for each client</li>
+<li>Identification of each transaction by date, source/payee, and purpose</li>
+<li>Documentation of every disbursement</li>
+<li>Settlement statements for contingent-fee matters</li>
+</ul>
+</div>
+</div>
+
+<p>The records must be preserved for five years (Kansas) or as specified by Missouri rule after the termination of each representation.</p>
+
+<h2>The IOLTA program structure</h2>
+<p>IOLTA - Interest on Lawyers' Trust Accounts - is the program by which interest earned on pooled client funds that are too small or too short-term to earn net interest for any individual client is remitted to a state-administered fund that supports legal aid and access-to-justice programs.</p>
+
+<div class="callout">
+<p><strong>IOLTA solves a coordination problem.</strong> Many client deposits are too small to justify the administrative cost of a separate interest-bearing account for each client. Before IOLTA, the interest these funds generated was either lost or accrued to the bank. IOLTA pools the interest from many such accounts and channels it to legal-services programs that serve clients who could not otherwise afford counsel.</p>
+</div>
+
+<h3>Kansas IOLTA</h3>
+<p>The Kansas IOLTA program is administered through the Kansas Bar Foundation. Trust funds that cannot earn net interest for an individual client are deposited in IOLTA accounts at participating financial institutions; the interest is remitted to the Foundation and distributed in grants to programs that provide civil legal services to low-income Kansans.</p>
+
+<h3>Missouri IOLTA</h3>
+<p>The Missouri Lawyer Trust Account Foundation administers the Missouri IOLTA program. The structure parallels the Kansas program: pooled interest from IOLTA-eligible trust funds is remitted to the Foundation and distributed as grants to legal-services providers across the state.</p>
+
+<h3>Client-specific vs. IOLTA</h3>
+<p>The threshold question for each deposit is whether the funds can practicably earn net interest for the individual client. If yes - usually because the amount is large enough or the holding period long enough - the funds are placed in a separate interest-bearing account designated for that client. If not, the funds go into the firm's IOLTA account.</p>
+
+<h2>The shape of a compliant trust-account practice</h2>
+<ul>
+<li><strong>Account setup.</strong> Trust account opened at a participating financial institution; account titled to identify it as a trust account; IOLTA designation registered with the state administrator where required.</li>
+<li><strong>Deposit discipline.</strong> Every deposit recorded in the corresponding client ledger before or contemporaneously with the deposit; source identified.</li>
+<li><strong>Disbursement discipline.</strong> No disbursement that would overdraw the client's individual ledger balance, even if the trust account as a whole has sufficient funds; each disbursement documented by purpose.</li>
+<li><strong>Monthly reconciliation.</strong> The bank balance, the book balance, and the sum of client ledger balances all reconcile to the same figure each month.</li>
+<li><strong>Annual review.</strong> An annual review of trust-account practices, including verification that earned fees have been timely transferred out and that no funds have remained dormant.</li>
+</ul>
+
+<h2>Common procedural posture</h2>
+
+<h3>Settlement deposit</h3>
+<p>A settlement check arrives. The lawyer deposits it to the trust account. Prompt notice is given to the client. After clearance, the lawyer prepares a settlement statement that shows gross recovery, contingent fee under 1.5(c), expenses deducted, and net to the client. The client's share is delivered promptly; the fee is transferred to the firm's operating account; the expense reimbursements are paid.</p>
+
+<h3>Advance fee deposit</h3>
+<p>A new client pays an advance fee for work not yet performed. The unearned portion is held in the trust account. As work is performed, the lawyer invoices and transfers earned amounts to the firm's operating account, documenting each transfer in the client ledger. If the representation ends with unearned funds remaining, the funds are refunded under Rule 1.16(d).</p>
+
+<h2>Continuing nature of the duty</h2>
+<p>Rule 1.15 imposes continuing obligations: the separate-account requirement runs throughout the representation, the records must be preserved beyond termination, and the IOLTA participation is an ongoing program enrollment rather than a one-time election. The recordkeeping discipline of monthly reconciliation is the principal operational habit that demonstrates compliance.</p>
+
+<h2>Related rules and authority</h2>
+<ul>
+<li><strong><a href="/krpc-1-4/">Rule 1.4</a></strong> - Communication; prompt notice under 1.15(b) is the property-handling instance of the 1.4 duty</li>
+<li><strong><a href="/krpc-1-5/">Rule 1.5</a></strong> - Fees; settlement statements under 1.5(c) are typically prepared from trust-account records</li>
+<li><strong><a href="/krpc-1-16/">Rule 1.16</a></strong> - Termination; unearned fees in trust are refunded on termination</li>
+<li><strong><a href="/krpc-5-1/">Rule 5.1</a></strong> - Supervisory responsibility; trust-account oversight is a typical firm-management measure</li>
+<li><strong>Rule 5.3</strong> - Supervision of nonlawyers; bookkeeping staff who maintain trust records</li>
+</ul>
+
+<h2>Practical impact</h2>
+<p>Rule 1.15 is the rule that audits the firm most directly. Three takeaways recur:</p>
+<ul>
+<li><strong>Separation is the engine.</strong> The simplest and most important act is keeping client funds in a separate account from the firm's funds, every day.</li>
+<li><strong>Reconciliation prevents shortfalls.</strong> Monthly reconciliation catches errors before they become disciplinary matters.</li>
+<li><strong>IOLTA is a public-interest contribution.</strong> Participation in IOLTA channels otherwise-stranded interest into legal-services funding without imposing cost on any individual client.</li>
+</ul>
+
+<h2>Related authority</h2>
+<ul>
+<li>ABA Model Rule 1.15 - <a href="https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_15_safekeeping_property/" rel="noopener" target="_blank">model rule with comment</a></li>
+<li>Kansas IOLTA - <a href="https://www.ksbar.org/page/iolta" rel="noopener" target="_blank">Kansas Bar Foundation IOLTA program</a></li>
+<li>Missouri IOLTA - <a href="https://www.molawyerstrust.com/" rel="noopener" target="_blank">Missouri Lawyer Trust Account Foundation</a></li>
+<li>Kansas Rules of Professional Conduct - <a href="https://www.kscourts.org/Rules-Procedures-Forms/Supreme-Court-Rules" rel="noopener" target="_blank">Kansas Supreme Court Rules</a></li>
+<li>Missouri Rules of Professional Conduct - <a href="https://www.courts.mo.gov/courts/clerkhandbooksp2rulesonly.nsf/c0c6ffa99df4993f86256ba50057dcb8/4d8b0a26efd1aeb086256ca600521c14" rel="noopener" target="_blank">Missouri Supreme Court Rule 4</a></li>
+</ul>
+
+<h2>Open Bankruptcy Project cross-references</h2>
+<div class="network-grid">
+<a href="/krpc-1-4/">KRPC 1.4 (Communication)</a>
+<a href="/krpc-1-5/">KRPC 1.5 (Fees)</a>
+<a href="/krpc-1-16/">KRPC 1.16 (Termination)</a>
+<a href="/krpc-5-1/">KRPC 5.1 (Supervision)</a>
+<a href="/krpc-5-3/">KRPC 5.3 (Nonlawyer Staff)</a>
+<a href="/krpc-8-4/">KRPC 8.4 (Misconduct)</a>
+</div>
+
+<p style="color:var(--text-muted);font-size:0.85rem;margin-top:2rem">This page provides general information about Rules of Professional Conduct 1.15 (Kansas) and 4-1.15 (Missouri). It does not constitute legal advice. Last modified 2026-05-22.</p>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+<p>This site provides general information only and does not constitute legal advice.</p>
+<p>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+<p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
+</footer>
+<!-- BTN:FOOTER:END -->
+</body>
+</html>

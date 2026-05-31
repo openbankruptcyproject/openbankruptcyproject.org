@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>11 U.S.C. Section 1325 - Confirmation of Chapter 13 Plan</title>
+<meta name="description" content="Guide to Section 1325 Chapter 13 plan confirmation. Good faith, best interests, disposable income, and secured creditor treatment.">
+<link rel="canonical" href="https://openbankruptcyproject.org/section-1325-confirmation.html">
+<meta property="og:title" content="11 U.S.C. Section 1325 - Confirmation of Chapter 13 Plan">
+<meta property="og:description" content="Guide to Section 1325 Chapter 13 plan confirmation. Good faith, best interests, disposable income, and secured creditor treatment.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/section-1325-confirmation.html">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="11 U.S.C. Section 1325 - Confirmation of Chapter 13 Plan">
+<meta name="twitter:description" content="Guide to Section 1325 Chapter 13 plan confirmation. Good faith, best interests, disposable income, and secured creditor treatment.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"11 U.S.C. Section 1325 - Confirmation of Chapter 13 Plan","description":"Guide to Section 1325 Chapter 13 plan confirmation. Good faith, best interests, disposable income, and secured creditor treatment.","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://1328f.org"},"datePublished":"2026-04-02","dateModified":"2026-04-02","mainEntityOfPage":"https://openbankruptcyproject.org/section-1325-confirmation.html"}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "11 U.S.C. Section 1325 - Confirmation of Chapter 13 Plan",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "11 U.S.C. Section 1325 - Confirmation of Chapter 13 Plan",
+          "item": "https://openbankruptcyproject.org/section-1325-confirmation.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "11 U.S.C. Section 1325 - Confirmation of Chapter 13 Plan",
+      "url": "https://openbankruptcyproject.org/section-1325-confirmation.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-muted: #9eaab6;
+    --accent: #58a6ff;
+    --green: #3fb950;
+    --red: #f85149;
+    --yellow: #e3a835;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  nav .site-name {
+    color: #f0f6fc;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger {
+    display: none; background: none; border: 1px solid var(--border); color: var(--text);
+    font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1;
+  }
+  .breadcrumb {
+    max-width: 760px;
+    margin: 1rem auto 0;
+    padding: 0 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header {
+    background: linear-gradient(135deg, #0d2137, #122a44);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  header h1 {
+    color: #f0f6fc;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .content-section h2 {
+    color: #f0f6fc;
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .content-section h3 {
+    color: #f0f6fc;
+    font-size: 1.125rem;
+    margin: 1.5rem 0 0.75rem;
+  }
+  .content-section p {
+    color: var(--text);
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+  }
+  .content-section ul, .content-section ol {
+    margin: 0.75rem 0 0.75rem 1.5rem;
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box {
+    background: #21262d;
+    border-left: 3px solid var(--accent);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .statute-box p { margin-bottom: 0.5rem; }
+  .statute-box p:last-child { margin-bottom: 0; }
+  .warning-box {
+    background: #21262d;
+    border-left: 3px solid var(--red);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .warning-box p { margin-bottom: 0.5rem; }
+  .warning-box p:last-child { margin-bottom: 0; }
+  .green-box {
+    background: #21262d;
+    border-left: 3px solid var(--green);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .green-box p { margin-bottom: 0.5rem; }
+  .green-box p:last-child { margin-bottom: 0; }
+  .yellow-box {
+    background: #21262d;
+    border-left: 3px solid var(--yellow);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .yellow-box p { margin-bottom: 0.5rem; }
+  .yellow-box p:last-child { margin-bottom: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+  th, td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid var(--border); }
+  th { color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+  .network-links {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 2;
+  }
+  .network-links strong { color: var(--text); }
+  footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 2rem;
+  }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a {
+      display: block; padding: 0.6rem 0; margin: 0;
+      font-size: 0.95rem; min-height: 44px; line-height: 2;
+      border-bottom: 1px solid #21262d;
+    }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+    table { font-size: 0.8rem; }
+    th, td { padding: 0.5rem 0.6rem; }
+  }
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What Is Section 1325?", "acceptedAnswer": {"@type": "Answer", "text": "Section 1325 of Title 11 of the United States Code (Confirmation of Plan (Chapter 13)) is a foundational provision of the Bankruptcy Code. It lists the requirements for confirming a Chapter 13 plan . The court must find the plan satisfies all of these requirements before it becomes binding."}}, {"@type": "Question", "name": "How This Affects You?", "acceptedAnswer": {"@type": "Answer", "text": "What confirmation means for your case: Best interests baseline: The trustee will calculate what your unsecured creditors would receive in a hypothetical Chapter 7 liquidation. Your plan must pay at least that much. If you have significant non-exempt assets, this raises your plan payment."}}]}
+</script>
+
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-1325-confirmation.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/section-1325-confirmation-es.html">
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a>
+    <a href="research.html">Research</a>
+    <a href="impact.html">Impact</a>
+    <a href="legal-aid.html">Legal Aid</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>11 U.S.C. Section 1325 - Confirmation of Chapter 13 Plan</h1>
+  <p class="subtitle">Guide to Section 1325 Chapter 13 plan confirmation. Good faith, best interests, disposable income, and secured creditor treatment.</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; 11 U.S.C. Section 1325 - Confirmation of Chapter 13 Plan
+</div>
+
+<main>
+
+<div class="content-section">
+  <h2>What Is Section 1325?</h2>
+  
+<p>Section 1325 of Title 11 of the United States Code (Confirmation of Plan (<a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a>)) is a foundational provision of the Bankruptcy Code. It lists the requirements for confirming a <a href="https://chapter13plan.org" title="Chapter 13 Repayment Plan - Open Bankruptcy Project" target="_blank" rel="noopener">Chapter 13 plan</a>. The court must find the plan satisfies all of these requirements before it becomes binding. Confirmation is typically the most important hearing in a <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> case.</p>
+<div class="statute-box"><p><strong>Official citation:</strong> 11 U.S.C. &sect; 1325</p></div>
+
+</div>
+
+<div class="content-section">
+  <h2>Key Provisions of Section 1325</h2>
+  
+<p>Key confirmation requirements:</p>
+<ul>
+<li><strong>1325(a)(1):</strong> The plan must comply with all applicable Bankruptcy Code provisions and rules.</li>
+<li><strong>1325(a)(3) - <a href="https://chapter13plan.org/" title="good faith">Good Faith</a>:</strong> The plan must be proposed in <a href="https://chapter13plan.org/" title="good faith">good faith</a> - not to abuse the process.</li>
+<li><strong>1325(a)(4) - Best Interests Test:</strong> Each <a href="https://creditcarddebtbankruptcy.org/" title="unsecured debt">unsecured creditor</a> must receive at least as much as they would in a <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> liquidation.</li>
+<li><strong>1325(a)(5) - Secured Creditor Treatment:</strong> Secured claims must be treated properly: the creditor accepts, the debtor surrenders collateral, or the plan pays the secured claim plus interest and the creditor retains the lien.</li>
+<li><strong>1325(a)(6) - Feasibility:</strong> The debtor must be able to make all payments under the plan and comply with the plan.</li>
+<li><strong>1325(b) - Disposable Income Test:</strong> If the trustee or <a href="https://creditcarddebtbankruptcy.org/" title="unsecured debt">unsecured creditor</a> objects, the plan must commit all projected disposable income for the applicable commitment period (3 or 5 years) to the plan.</li>
+<li><strong>Hanging Paragraph (910-day rule):</strong> The unnumbered paragraph after 1325(a)(9) prevents <a href="https://section1192.org/" title="cramdown">cramdown</a> on purchase money security interests in vehicles acquired within 910 days before filing, and on any debt secured by your primary residence.</li>
+</ul>
+
+</div>
+
+<div class="content-section">
+  <h2>How This Affects You</h2>
+  
+<p>What confirmation means for your case:</p>
+<ul>
+<li><strong>Best interests baseline:</strong> The trustee will calculate what your unsecured creditors would receive in a hypothetical <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> liquidation. Your plan must pay at least that much. If you have significant non-exempt assets, this raises your plan payment.</li>
+<li><strong>Disposable income:</strong> If an objection is filed, you must pay all disposable income into the plan. Disposable income = current monthly income minus reasonably necessary expenses (including the IRS standards used in the <a href="https://meanstest.org" title="Bankruptcy Means Test - Open Bankruptcy Project" target="_blank" rel="noopener">means test</a>).</li>
+<li><strong>Feasibility:</strong> The court will scrutinize your budget. If the plan payment leaves you no margin for unexpected expenses, the court may find the plan infeasible and deny confirmation.</li>
+<li><strong>Good faith:</strong> Filing Chapter 13 solely to strip a lien while having no intention to complete the plan, or proposing a plan that pays 0% to unsecured creditors when you have ability to pay more, may fail the good faith test.</li>
+</ul>
+
+</div>
+
+<div class="content-section">
+  <h2>Related Bankruptcy Code Sections</h2>
+  
+<p>Section 1325 works in conjunction with several other provisions of the Bankruptcy Code:</p>
+<ul>
+<li><a href="section-1322-contents-of-plan.html">Section 1322</a> - What goes into the plan</li>
+<li><a href="section-506-secured-status.html">Section 506</a> - <a href="https://section1192.org/" title="cramdown">Cramdown</a> valuation</li>
+<li><a href="https://bankruptcymeanstest.org">Means Test</a> - Disposable income calculation</li>
+</ul>
+<p>Understanding how these sections interact is critical for anyone navigating the bankruptcy process, whether as a debtor, creditor, or attorney.</p>
+
+</div>
+
+<div class="network-links">
+  <strong>Bankruptcy Tools Network:</strong><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Discharge Screener</a> &middot;
+    <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Research Platform</a> &middot;
+    <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Exemptions by State</a> &middot;
+    <a href="https://keepmycarinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your Car</a> &middot;
+    <a href="https://keepmyhouseinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your House</a> &middot;
+    <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Bankruptcy Cost</a> &middot;
+    <a href="https://filebankruptcywithoutlawyer.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">File Without a Lawyer</a> &middot;
+    <a href="https://rebuildcreditafterbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Rebuild Credit</a> &middot;
+    <a href="https://buyahouseafterbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Buy a House After</a> &middot;
+    <a href="https://buyacarafterbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Buy a Car After</a>
+</div>
+</main>
+
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+
+  <p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+  <p style="margin-bottom:0.5rem">
+    <a href="/">Home</a> &middot;
+    <a href="research.html">Research</a> &middot;
+    <a href="impact.html">Impact</a> &middot;
+    <a href="legal-aid.html">Legal Aid</a> &middot;
+    <a href="about.html">About</a> &middot;
+    <a href="contact.html">Contact</a>
+  </p>
+  <p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) nonprofit.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+<script src="/btn-engage.js" defer></script>
+<div style="text-align:center;padding:16px;color:#8b949e;font-size:0.8rem;border-top:1px solid #30363d;margin-top:20px"><p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p></div>
+<!-- BOOST-TOP10 internal links (boost_internal_links.py) -->
+<div class="boost-top10" style="max-width:820px;margin:2rem auto;padding:1.5rem;background:#0d1117;border:1px solid #238636;border-radius:8px">
+  <p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
+  <ul style="list-style:none;padding:0;margin:0">
+    <li style="margin-bottom:0.5rem"><a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Chapter 7 vs. Chapter 13 Comparison</a> <span style="color:#7d8590;font-size:0.8rem">-- chapter7vs13.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://studentloanforgive.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loan Forgiveness Programs</a> <span style="color:#7d8590;font-size:0.8rem">-- studentloanforgive.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://1099cdebt.com/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">1099-C Cancellation of Debt Tax Guide</a> <span style="color:#7d8590;font-size:0.8rem">-- 1099cdebt.com</span></li>
+  </ul>
+</div>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

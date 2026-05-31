@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+    <title>Proteger sus bienes en la bancarrota - Open Bankruptcy Project</title>
+    <meta name="description" content="Como proteger su auto, casa y propiedad en la bancarrota: exenciones por estado, protecciones de suspension automatica, defensa contra levantamiento de suspension y estrategias de preservacion de bienes. Recursos gratuitos del Open Bankruptcy Project.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/hub-protect-assets-es.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    <meta property="og:title" content="Proteger sus bienes en la bancarrota">
+    <meta property="og:description" content="Guias gratuitas para proteger su auto, casa y propiedad durante la bancarrota - exenciones, suspension automatica, levantamiento de suspension y estrategias de preservacion de bienes.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/hub-protect-assets-es.html">
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://openbankruptcyproject.org/og-image.svg">
+
+    <!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+            --green: #3fb950;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        .resource-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+            padding: 24px; margin-bottom: 16px; transition: border-color 0.2s, transform 0.2s;
+        }
+        .resource-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .resource-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; }
+        .resource-card h3 a { color: var(--text); }
+        .resource-card h3 a:hover { color: var(--accent); }
+        .resource-card .domain { font-size: 0.85rem; color: var(--accent); margin-bottom: 8px; }
+        .resource-card p { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0; line-height: 1.7; }
+
+        .hub-toc { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; margin-bottom: 32px; }
+        .hub-toc h2 { margin-top: 0; font-size: 1.1rem; margin-bottom: 12px; }
+        .hub-toc ul { list-style: none; margin: 0; padding: 0; }
+        .hub-toc li { margin-bottom: 6px; }
+        .hub-toc a { font-size: 0.95rem; }
+
+        .cta-box { background: linear-gradient(135deg, #161b22 0%, #1a2332 100%); border: 1px solid var(--green); border-radius: 10px; padding: 32px; margin: 40px 0; text-align: center; }
+        .cta-box p { color: var(--text); font-size: 1.05rem; margin-bottom: 16px; }
+        .cta-box a.btn { display: inline-block; background: var(--green); color: #fff; padding: 12px 28px; border-radius: 6px; font-weight: 600; font-size: 0.95rem; }
+        .cta-box a.btn:hover { background: #2ea043; color: #fff; }
+
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "name": "Proteger sus bienes en la bancarrota",
+          "description": "Coleccion completa de recursos gratuitos para proteger propiedad durante la bancarrota, incluyendo guias para conservar auto y casa, busqueda de exenciones, protecciones de suspension automatica y defensa contra levantamiento de suspension.",
+          "url": "https://openbankruptcyproject.org/hub-protect-assets-es.html",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+          },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Conservar mi auto en la bancarrota", "url": "https://keepmycarinbankruptcy.com"},
+              {"@type": "ListItem", "position": 2, "name": "Conservar mi casa en la bancarrota", "url": "https://keepmyhouseinbankruptcy.com"},
+              {"@type": "ListItem", "position": 3, "name": "Exenciones de bancarrota por estado", "url": "https://bankruptcyexemptionsbystate.com"},
+              {"@type": "ListItem", "position": 4, "name": "Suspension automatica", "url": "https://automaticstay.org"},
+              {"@type": "ListItem", "position": 5, "name": "Levantamiento de suspension", "url": "https://relieffromstay.org"}
+            ]
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://openbankruptcyproject.org"},
+            {"@type": "ListItem", "position": 2, "name": "Centros de recursos", "item": "https://openbankruptcyproject.org/hub-protect-assets-es.html"},
+            {"@type": "ListItem", "position": 3, "name": "Proteger sus bienes en la bancarrota"}
+          ]
+        }
+      ]
+    }
+    </script>
+
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/hub-protect-assets.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/hub-protect-assets-es.html">
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Inicio</a>
+            <a href="about-es.html">Acerca de</a>
+            <a href="research-es.html">Investigacion</a>
+            <a href="methodology-es.html">Metodologia</a>
+            <a href="citations.html">Citas</a>
+            <a href="press-es.html">Prensa</a>
+            <a href="contact-es.html">Contacto</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Inicio</a><span class="separator">&rsaquo;</span><span>Proteger sus bienes en la bancarrota</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Proteger sus bienes en la bancarrota</h1>
+        <p class="subtitle">El miedo a perder todo impide que muchas personas declaren bancarrota. La realidad es que la mayoria de los declarantes conservan la mayor parte o todos sus bienes. Aprenda como las exenciones y la suspension automatica funcionan para proteger lo que posee.</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <div class="hub-toc">
+            <h2>En esta pagina</h2>
+            <ul>
+                <li><a href="#resumen">Resumen de proteccion de bienes</a></li>
+                <li><a href="#auto">Conservar su auto</a></li>
+                <li><a href="#casa">Conservar su casa</a></li>
+                <li><a href="#exenciones">Exenciones por estado</a></li>
+                <li><a href="#suspension-automatica">La suspension automatica</a></li>
+                <li><a href="#levantamiento">Levantamiento de suspension</a></li>
+            </ul>
+        </div>
+
+        <h2 id="resumen">Como funciona la proteccion de bienes en la bancarrota</h2>
+        <p>Uno de los conceptos erroneos mas grandes sobre la bancarrota es que usted pierde todo. En realidad, la ley de bancarrota esta disenada para darle un nuevo comienzo mientras le permite conservar los bienes que necesita para vivir y trabajar. Las herramientas para proteger sus bienes se llaman exenciones - leyes federales y estatales que ponen tipos y cantidades especificos de propiedad mas alla del alcance de los acreedores y del fideicomisario de bancarrota.</p>
+        <p>En un caso del Capitulo 7, las exenciones determinan que propiedad puede vender el fideicomisario para pagar a los acreedores. Si toda su propiedad esta exenta, usted conserva todo. En un caso del Capitulo 13, las exenciones determinan el monto minimo que debe pagar a los acreedores no garantizados a traves de su plan de pago. De cualquier manera, entender sus exenciones antes de declarar es esencial para proteger sus bienes.</p>
+        <p>Este centro de recursos recopila las mejores guias gratuitas de la Red de Transparencia en Bancarrota que cubren estrategias de proteccion de bienes por tipo de propiedad. Cada recurso es mantenido por el Open Bankruptcy Project sin anuncios, sin tarifas de referencia de abogados y sin ofertas de venta.</p>
+
+        <h2 id="auto">Conservar su auto en la bancarrota</h2>
+        <p>Para la mayoria de las personas, perder un vehiculo significaria perder la capacidad de ir al trabajo. La ley de bancarrota ofrece varias vias para conservar su auto, dependiendo del capitulo que declare y cuanta equidad tenga. Las opciones incluyen reclamar la exencion de vehiculo, reafirmar el prestamo, redimir el vehiculo a valor justo de mercado, o incluir los pagos del auto en un plan del Capitulo 13 - a veces a una tasa de interes reducida.</p>
+        <div class="resource-card">
+            <h3><a href="https://keepmycarinbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets-es&utm_campaign=btn-hub" target="_blank" rel="noopener">Conservar mi auto en la bancarrota: Guia completa</a></h3>
+            <div class="domain">keepmycarinbankruptcy.com</div>
+            <p>Todo lo que necesita saber sobre conservar su vehiculo durante la bancarrota. Cubre montos de exencion de vehiculos estado por estado, la diferencia entre reafirmacion y redencion, como el Capitulo 13 puede reducir el pago de su auto, que pasa si esta atrasado en los pagos y como manejar situaciones donde debe mas de lo que vale el auto. Incluye orientacion sobre vehiculos arrendados y hogares con multiples vehiculos.</p>
+        </div>
+
+        <h2 id="casa">Conservar su casa en la bancarrota</h2>
+        <p>Su casa es probablemente su bien mas valioso y del que mas se preocupa. Si puede conservar su casa depende de su equidad, la exencion de vivienda de su estado y el capitulo que declare. El Capitulo 13 es particularmente poderoso para propietarios porque le permite ponerse al dia con los atrasos hipotecarios durante 3-5 anos mientras conserva su casa - algo que el Capitulo 7 no puede hacer.</p>
+        <div class="resource-card">
+            <h3><a href="https://keepmyhouseinbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets-es&utm_campaign=btn-hub" target="_blank" rel="noopener">Conservar mi casa en la bancarrota: Guia para propietarios</a></h3>
+            <div class="domain">keepmyhouseinbankruptcy.com</div>
+            <p>Una guia completa para proteger su casa en la bancarrota. Cubre exenciones de vivienda por estado, como calcular la equidad de su casa para propositos de bancarrota, el proceso de ponerse al dia con atrasos hipotecarios en el Capitulo 13, como manejar segundas hipotecas y lineas de credito con garantia hipotecaria, y que pasa con su casa si declara Capitulo 7 con equidad no exenta. Incluye situaciones especiales como propiedad heredada, transferencias por divorcio y casas con copropietarios que no estan declarando.</p>
+        </div>
+
+        <h2 id="exenciones">Exenciones por estado</h2>
+        <div class="resource-card">
+            <h3><a href="https://bankruptcyexemptionsbystate.com/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets-es&utm_campaign=btn-hub" target="_blank" rel="noopener">Exenciones de bancarrota por estado</a></h3>
+            <div class="domain">bankruptcyexemptionsbystate.com</div>
+            <p>Un desglose estado por estado de las exenciones de bancarrota que cubre vivienda, vehiculo, propiedad personal, cuentas de jubilacion y exenciones comodin. Explica que estados permiten el conjunto de exenciones federales, como calcular la equidad para propositos de exencion y estrategias comunes de planificacion de exenciones. Incluye montos en dolares actuales, citas estatutarias e informacion sobre estados que han actualizado recientemente sus niveles de exencion.</p>
+        </div>
+
+        <h2 id="suspension-automatica">La suspension automatica</h2>
+        <p>En el momento en que presenta una peticion de bancarrota, una suspension automatica entra en efecto bajo 11 U.S.C. seccion 362. Esta es una orden del tribunal federal que detiene inmediatamente la mayoria de las acciones de cobro - demandas, embargos de salario, ejecuciones hipotecarias, reposesiones, llamadas telefonicas y cartas. Cualquier acreedor que viole la suspension puede ser declarado en desacato y se le puede ordenar pagar danos.</p>
+        <div class="resource-card">
+            <h3><a href="https://automaticstay.org/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets-es&utm_campaign=btn-hub" target="_blank" rel="noopener">La suspension automatica: Su proteccion inmediata</a></h3>
+            <div class="domain">automaticstay.org</div>
+            <p>Una guia completa sobre la suspension automatica en la bancarrota. Cubre que acciones se detienen, que acciones no se detienen (ciertos procedimientos fiscales, casos penales, manutencion), cuanto tiempo dura la suspension, que hacer si un acreedor viola la suspension, y las reglas especiales para declarantes repetidos que limitan la duracion de la suspension. Incluye informacion sobre como buscar una declaracion de emergencia cuando la reposesion o ejecucion hipotecaria es inminente.</p>
+        </div>
+
+        <h2 id="levantamiento">Levantamiento de suspension</h2>
+        <p>Los acreedores pueden pedir al tribunal que levante la suspension automatica para poder proceder con el cobro - tipicamente para reponer un vehiculo o ejecutar una hipoteca. Entender el proceso de levantamiento de suspension y como defenderse contra el es fundamental para proteger sus bienes durante su caso.</p>
+        <div class="resource-card">
+            <h3><a href="https://relieffromstay.org/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets-es&utm_campaign=btn-hub" target="_blank" rel="noopener">Levantamiento de suspension: Defendiendo sus bienes</a></h3>
+            <div class="domain">relieffromstay.org</div>
+            <p>Explica el proceso de levantamiento de suspension desde la perspectiva del deudor. Cubre los motivos que los acreedores usan para buscar el levantamiento (falta de proteccion adecuada, sin equidad, propiedad no necesaria para reorganizacion), como responder a una mocion de levantamiento, que evidencia necesita y el cronograma de las audiencias. Incluye estrategias para derrotar mociones de levantamiento e informacion sobre ordenes condicionales que le permiten conservar la propiedad mientras realiza pagos de proteccion adecuada.</p>
+        </div>
+
+        <div class="cta-box">
+            <p><strong>Necesita verificar si es elegible para una descarga de bancarrota?</strong><br>Nuestra herramienta gratuita verifica su historial de declaraciones contra las prohibiciones federales de descarga en segundos.</p>
+            <a href="https://1328f.com/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets-es&utm_campaign=btn-cta" class="btn" target="_blank" rel="noopener">Probar el verificador gratuito</a>
+        </div>
+
+        <h2>Centros de recursos relacionados</h2>
+        <ul>
+            <li><a href="hub-filing.html">Como declarar bancarrota</a> - Guias paso a paso para la declaracion</li>
+            <li><a href="hub-debt-types.html">Bancarrota por tipo de deuda</a> - Orientacion especifica para su tipo de deuda</li>
+            <li><a href="hub-after-bankruptcy-es.html">La vida despues de la bancarrota</a> - Reconstruir credito y avanzar</li>
+            <li><a href="hub-attorney-quality-es.html">Su abogado de bancarrota esta haciendo un buen trabajo?</a> - Evalue el desempeno de su abogado</li>
+        </ul>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Transparencia en bancarrota gratuita y de codigo abierto. Sin anuncios. Sin enlaces de afiliados. Apoyado por donaciones.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Inicio</a>
+            <a href="about-es.html">Acerca de</a>
+            <a href="research-es.html">Investigacion</a>
+            <a href="contact-es.html">Contacto</a>
+            <a href="privacy-es.html">Privacidad</a>
+            <a href="terms-es.html">Terminos</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Patrocinar</a>
+            <a href="donate-es.html">Donar</a>
+        </div>
+        <p>Open Bankruptcy Project es una organizacion sin fines de lucro 501(c)(3) (determinacion pendiente).</p>
+        <p>Todas las herramientas y datos publicados bajo licencias de codigo abierto.</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No se proporciona asesoria legal. Esta es informacion educativa unicamente.</p>
+<p>Este sitio proporciona informacion general, no asesoria legal. Consulte a un abogado calificado para su situacion especifica.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>N.D. Fla. Bankruptcy Cases - Page 131 of 131 - Open Bankruptcy Project</title>
+    <meta name="description" content="Index of federal bankruptcy cases in the N.D. Fla. available on the RECAP Archive. Published by the Open Bankruptcy Project. All primary-source documents are on CourtListener.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/cases/flnb/page-131.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="N.D. Fla. Bankruptcy Cases - Open Bankruptcy Project">
+    <meta property="og:description" content="Index of federal bankruptcy cases in the N.D. Fla. available on the RECAP Archive.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/cases/flnb/page-131.html">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- BTN:GA4:START -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+    <!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "N.D. Fla. Bankruptcy Case Index (Page 131)", "description": "Index of federal bankruptcy cases in the N.D. Fla. available on the RECAP Archive. Published by the Open Bankruptcy Project.", "url": "https://openbankruptcyproject.org/cases/flnb/page-131.html", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "creator": {"@type": "NonprofitOrganization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "sourceOrganization": {"@type": "Organization", "name": "Free Law Project", "url": "https://free.law/"}, "isAccessibleForFree": true, "keywords": "bankruptcy, federal court, RECAP, CourtListener, public records, N.D. Fla."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Cases", "item": "https://openbankruptcyproject.org/cases/"}, {"@type": "ListItem", "position": 3, "name": "N.D. Fla.", "item": "https://openbankruptcyproject.org/cases/flnb/"}, {"@type": "ListItem", "position": 4, "name": "Page 131", "item": "https://openbankruptcyproject.org/cases/flnb/page-131.html"}]}</script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230;
+            --border: #252d38; --border-light: #2d3748;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff;
+            --green: #3fb950; --gold: #d29922;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+
+        nav.topnav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav.topnav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
+
+        .breadcrumb { padding: 16px 0; font-size: 0.85rem; color: var(--text-muted); }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb a:hover { color: var(--accent); }
+        .breadcrumb .sep { margin: 0 8px; color: var(--border-light); }
+
+        .court-header { padding: 32px 0 24px; border-bottom: 1px solid var(--border); }
+        .court-header .label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 8px; }
+        .court-header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+        .court-header p { color: var(--text-secondary); font-size: 0.95rem; max-width: 780px; }
+
+        .case-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 32px 0; }
+        .case-table th { background: var(--bg); text-align: left; padding: 14px 16px; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; border-bottom: 1px solid var(--border); }
+        .case-table td { padding: 12px 16px; font-size: 0.88rem; border-bottom: 1px solid var(--border); }
+        .case-table tr:last-child td { border-bottom: none; }
+        .case-table tr:hover td { background: var(--surface-hover); }
+
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 16px; margin: 24px 0; font-size: 0.9rem; }
+        .pagination a { color: var(--accent); font-weight: 600; padding: 6px 12px; border: 1px solid var(--border-light); border-radius: 6px; }
+        .pagination a:hover { background: var(--surface); text-decoration: none; }
+        .pagination .page-info { color: var(--text-muted); }
+
+        .attribution { padding: 20px 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-size: 0.85rem; color: var(--text-muted); margin: 32px 0; }
+        .attribution strong { color: var(--text-secondary); }
+        .attribution a { color: var(--text-secondary); }
+        .attribution a:hover { color: var(--accent); }
+
+        footer { padding: 40px 0; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; text-align: center; }
+        footer a { color: var(--text-muted); margin: 0 10px; }
+        footer a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+<nav class="topnav">
+    <div class="container">
+        <a href="/" class="nav-brand">Open Bankruptcy Project</a>
+        <div class="nav-links">
+            <a href="/#mission">Mission</a>
+            <a href="/#what-we-do">What We Do</a>
+            <a href="/cases/" class="active">Cases</a>
+            <a href="/research.html">Research</a>
+            <a href="/recap.html">RECAP</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <a href="/cases/">Cases</a><span class="sep">/</span>
+        <a href="/cases/flnb/">N.D. Fla.</a><span class="sep">/</span>
+        <span>Page 131</span>
+    </div>
+</div>
+
+<header class="court-header">
+    <div class="container">
+        <div class="label">Bankruptcy Court Index</div>
+        <h1>United States Bankruptcy Court for the Northern District of Florida</h1>
+        <p>United States Bankruptcy Court for the Northern District of Florida is one of the US federal bankruptcy courts whose public, RECAP-archived dockets are indexed here. The Open Bankruptcy Project maintains this national case-level index for empirical research and public-records access. Every case below links to the full docket on the Free Law Project&#x27;s CourtListener.</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <div class="pagination"><a href="page-130.html">← Prev</a> <span class="page-info">Page 131 of 131</span></div>
+
+    <table class="case-table">
+        <thead>
+            <tr>
+                <th>Case Number</th>
+                <th>Caption</th>
+                <th>Chapter</th>
+                <th>Filed</th>
+                <th>Primary Source</th>
+                <th>Research</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>05-31143</td><td>Maree J. Carver</td><td>Ch. 13</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28900387/maree-j-carver/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50380</td><td>Kathy Avis Saarinen</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28900127/kathy-avis-saarinen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31144</td><td>Joni A. Martin</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28900093/joni-a-martin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31140</td><td>Susan T. Howe</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28899923/susan-t-howe/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31135</td><td>Lacy McQueen, Jr. and Evelyn W McQueen</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28899550/lacy-mcqueen-jr-and-evelyn-w-mcqueen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31138</td><td>John Francis Hardin</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28899548/john-francis-hardin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31137</td><td>Hulan David Nowling, Jr.</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28899450/hulan-david-nowling-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10326</td><td>Willard Wilson Butz</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28899424/willard-wilson-butz/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31139</td><td>Sharon Deann Ridgedell</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28899289/sharon-deann-ridgedell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31134</td><td>Frank Edward Randall and Carolyn Diane Randall</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28899100/frank-edward-randall-and-carolyn-diane-randall/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31136</td><td>Roscoe Lee McCartney</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28898919/roscoe-lee-mccartney/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31132</td><td>Charles Owens and Rhonda Owens</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28898758/charles-owens-and-rhonda-owens/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31130</td><td>Charles Herbert Holt, III</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28898489/charles-herbert-holt-iii/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31133</td><td>Amanda Marie Mulay</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28898271/amanda-marie-mulay/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31129</td><td>Connie Faye Scott</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28898257/connie-faye-scott/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40626</td><td>Raymond L. Anderson, Jr. and Sandra A. Anderson</td><td>Ch. 13</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28898181/raymond-l-anderson-jr-and-sandra-a-anderson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31131</td><td>Nicole Jennifer Navrisky</td><td>Ch. 7</td><td>2005-05-17</td><td><a href="https://www.courtlistener.com/docket/28897912/nicole-jennifer-navrisky/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31125</td><td>Robert Elwood Edwards and Patsy Sanders Edwards</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28897647/robert-elwood-edwards-and-patsy-sanders-edwards/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40625</td><td>Virginia Richardson</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28897633/virginia-richardson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40624</td><td>Richard J Bishop</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28897584/richard-j-bishop/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10325</td><td>James Allen Mutz and Diane Carroll McCoy Mutz</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28897351/james-allen-mutz-and-diane-carroll-mccoy-mutz/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40623</td><td>Debra C. Boatman</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28897117/debra-c-boatman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10324</td><td>James Henry Latson, Jr.</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28897045/james-henry-latson-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31127</td><td>William L. Edwards and Catherine Y. Edwards</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28896949/william-l-edwards-and-catherine-y-edwards/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40622</td><td>Patricia Lyn Freeman</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28896940/patricia-lyn-freeman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40621</td><td>Ralph Thomas Roberson and Patricia Mae Roberson</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28896711/ralph-thomas-roberson-and-patricia-mae-roberson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31128</td><td>Susan Marie Gessler</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28896644/susan-marie-gessler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10323</td><td>Earl Mitchell Reames and Jean Neely Reames</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28896605/earl-mitchell-reames-and-jean-neely-reames/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31126</td><td>Charles Edward Brewer, Jr.</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28896497/charles-edward-brewer-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31124</td><td>Rosie Washington Madison and John H. Madison, Sr.</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28896362/rosie-washington-madison-and-john-h-madison-sr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31123</td><td>John B. Horton and June R. Horton</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28896288/john-b-horton-and-june-r-horton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50378</td><td>Robert Rose and Lois Rose</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28895736/robert-rose-and-lois-rose/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50375</td><td>Lo v. Nguyen</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28895721/lo-v-nguyen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40620</td><td>Jimmy C. McVicker and Sandra M. McVicker</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28895580/jimmy-c-mcvicker-and-sandra-m-mcvicker/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50377</td><td>John v. Dacey and Faye M. Dacey</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28895335/john-v-dacey-and-faye-m-dacey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50379</td><td>Isaac Addison</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28895274/isaac-addison/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50376</td><td>Susan L. Larko</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28895180/susan-l-larko/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10322</td><td>Richard H. Hurtt and Diana Rae Hurtt</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28895116/richard-h-hurtt-and-diana-rae-hurtt/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10321</td><td>Donald Allen Bryan and Lori Denise Tucker-Bryan</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28894832/donald-allen-bryan-and-lori-denise-tucker-bryan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10320</td><td>Arthur Dean Brooks</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28894488/arthur-dean-brooks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40619</td><td>Stephanie Rolanda Scott</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28894459/stephanie-rolanda-scott/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31122</td><td>Melissa Annette Shoemoe and Carlton Andrew Shoemoe</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28894320/melissa-annette-shoemoe-and-carlton-andrew-shoemoe/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40618</td><td>Agnes Denson and James Denson</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28894264/agnes-denson-and-james-denson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31121</td><td>Charles Maurice Miller</td><td>Ch. 7</td><td>2005-05-16</td><td><a href="https://www.courtlistener.com/docket/28893811/charles-maurice-miller/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31119</td><td>John David Horton</td><td>Ch. 7</td><td>2005-05-14</td><td><a href="https://www.courtlistener.com/docket/28894522/john-david-horton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31118</td><td>Jennifer Bisera Djerlek</td><td>Ch. 7</td><td>2005-05-14</td><td><a href="https://www.courtlistener.com/docket/28894452/jennifer-bisera-djerlek/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31120</td><td>Geoffrey Michael Geer and Wanda Michell Barrows Geer</td><td>Ch. 7</td><td>2005-05-14</td><td><a href="https://www.courtlistener.com/docket/28893904/geoffrey-michael-geer-and-wanda-michell-barrows-geer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31117</td><td>Shannon Marie Lane</td><td>Ch. 7</td><td>2005-05-14</td><td><a href="https://www.courtlistener.com/docket/28893790/shannon-marie-lane/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31116</td><td>James Michael Garrett and Patricia Lynn Garrett</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28893965/james-michael-garrett-and-patricia-lynn-garrett/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10319</td><td>Karen Frances Tyler</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28893596/karen-frances-tyler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31115</td><td>Todd Blake Carter</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28893349/todd-blake-carter/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31112</td><td>Jane O. Painter</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28893329/jane-o-painter/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31113</td><td>Lawrence Coe and Annie R. Coe</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28892907/lawrence-coe-and-annie-r-coe/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31114</td><td>Martye Fredrick Beck</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28892800/martye-fredrick-beck/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31109</td><td>Joseph Gerard Morgan</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28892716/joseph-gerard-morgan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31111</td><td>Samuel Delma Caldwell</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28892714/samuel-delma-caldwell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31108</td><td>Anthony Ricordal Taylor and Bonnie Ann Taylor</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28892642/anthony-ricordal-taylor-and-bonnie-ann-taylor/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31110</td><td>Jimmie C. Hall and Arvetta Hall</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28892365/jimmie-c-hall-and-arvetta-hall/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31104</td><td>Peter Paul Hine and Mary Louise Hine</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28892324/peter-paul-hine-and-mary-louise-hine/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31107</td><td>James Michael Lance, Sr.</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28892125/james-michael-lance-sr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31106</td><td>Linda Elaine Hurst</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28892071/linda-elaine-hurst/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50374</td><td>Anthony Joseph Romiti and Ouida Nell Romiti</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28891982/anthony-joseph-romiti-and-ouida-nell-romiti/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31103</td><td>Albert Dewayne Dietle and Velma Elizabeth Dietle</td><td>Ch. 13</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28891860/albert-dewayne-dietle-and-velma-elizabeth-dietle/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31105</td><td>Stacy Mary Massaro</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28891826/stacy-mary-massaro/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40617</td><td>Memory Benton McCarley and Clarice Kay McCarley</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28891451/memory-benton-mccarley-and-clarice-kay-mccarley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50371</td><td>Cynthia M. Kirkpatrick</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28891226/cynthia-m-kirkpatrick/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50372</td><td>Janet E. Newsome</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28891170/janet-e-newsome/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50373</td><td>Roy L. Causey, Jr. and Susan R. Causey</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28891065/roy-l-causey-jr-and-susan-r-causey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50366</td><td>Clarence L Davis Jr.</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28890432/clarence-l-davis-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50370</td><td>James Arden Williford</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28890407/james-arden-williford/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50368</td><td>Kathy Inez Elrod</td><td>Ch. 13</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28890388/kathy-inez-elrod/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31101</td><td>Jennifer Ann McDowell and George W. McDowell, Jr.</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28890381/jennifer-ann-mcdowell-and-george-w-mcdowell-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50369</td><td>Mark E. Bell and Lisa Bell</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28890280/mark-e-bell-and-lisa-bell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50367</td><td>Johnnie L. Barry</td><td>Ch. 13</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28890176/johnnie-l-barry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31102</td><td>China Laynette Watson-Ball</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28890126/china-laynette-watson-ball/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40614</td><td>Kevin Howard Doar</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28889984/kevin-howard-doar/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40615</td><td>Michael Bruce Montgomery</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28889757/michael-bruce-montgomery/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40616</td><td>Barbara M. Austin</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28889517/barbara-m-austin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40613</td><td>Felicia K. Blitch</td><td>Ch. 13</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28889380/felicia-k-blitch/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40612</td><td>Althea Willets</td><td>Ch. 13</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28889186/althea-willets/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31099</td><td>Scott Matthew Price, Sr. and Kimberly Tyus Price</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28889153/scott-matthew-price-sr-and-kimberly-tyus-price/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31100</td><td>Jonathan L. Whitaker</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28889148/jonathan-l-whitaker/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10318</td><td>Regina M. Rossi</td><td>Ch. 13</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28889036/regina-m-rossi/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31098</td><td>Evelyn Annette Taylor</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28888461/evelyn-annette-taylor/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50365</td><td>John William Marchi</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28888423/john-william-marchi/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50364</td><td>Sandra Marie Morgan and Lewis Dayton Morgan</td><td>Ch. 7</td><td>2005-05-13</td><td><a href="https://www.courtlistener.com/docket/28888418/sandra-marie-morgan-and-lewis-dayton-morgan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40611</td><td>James N. Daniels and Judy G. Daniels</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28888564/james-n-daniels-and-judy-g-daniels/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10317</td><td>Kathy Lynn Larson</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28888465/kathy-lynn-larson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50361</td><td>Edward T. McSwain</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28888281/edward-t-mcswain/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40610</td><td>Clarethea Cambric Graham</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28888232/clarethea-cambric-graham/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50363</td><td>Ann Estelle Russell</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28887916/ann-estelle-russell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31097</td><td>Robbie Stephanie Warren</td><td>Ch. 13</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28887750/robbie-stephanie-warren/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31096</td><td>Robert J. Joseph</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28887332/robert-j-joseph/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50362</td><td>Tisha Lynn Gilbert</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28887185/tisha-lynn-gilbert/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50360</td><td>Melanie Smoker</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28887069/melanie-smoker/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40609</td><td>Gloria A. Howell Fiffia</td><td>Ch. 13</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28886842/gloria-a-howell-fiffia/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10314</td><td>Rebecca Simpson</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28886422/rebecca-simpson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10315</td><td>Phillip Arthur James and Dorothy Anne James</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28886386/phillip-arthur-james-and-dorothy-anne-james/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10316</td><td>Calvin Dean Moore</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28886260/calvin-dean-moore/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10313</td><td>Betty Ann Magargel</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28886119/betty-ann-magargel/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10312</td><td>Michael Joseph Kearney and Candy Lu Kearney</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28885983/michael-joseph-kearney-and-candy-lu-kearney/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31093</td><td>Mercedita Q. Mayberry</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28885902/mercedita-q-mayberry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31094</td><td>Belinda Marie Lewis</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28885803/belinda-marie-lewis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31095</td><td>Jennifer v. Westbrook</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28885636/jennifer-v-westbrook/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50359</td><td>Ismael Nunez</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28885536/ismael-nunez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31092</td><td>Derreck Daniel Nash</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28885514/derreck-daniel-nash/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40608</td><td>Angela Demetrius Maclin</td><td>Ch. 13</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28885426/angela-demetrius-maclin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31091</td><td>Marvin Bullock and Norma Bullock</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28885413/marvin-bullock-and-norma-bullock/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31090</td><td>Daniel Lawrence Kosteff</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28885304/daniel-lawrence-kosteff/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31088</td><td>Pranee Sobhondiloke Adams</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28884898/pranee-sobhondiloke-adams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31089</td><td>Suzette Register Kearns</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28884512/suzette-register-kearns/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31084</td><td>Rebecca Lynn Majors</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28884341/rebecca-lynn-majors/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31083</td><td>Tonetta Rose Kitchen</td><td>Ch. 13</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28884274/tonetta-rose-kitchen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31087</td><td>Diedra Adele Hendrix</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28884241/diedra-adele-hendrix/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10311</td><td>Kenneth Gotay</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28884221/kenneth-gotay/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31086</td><td>Lakevia Lache McQueen</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28884104/lakevia-lache-mcqueen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40607</td><td>Carol W. Smith</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28884045/carol-w-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31085</td><td>Nelson Delacruz, III and Tiffanie Melaine Delacruz</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28883692/nelson-delacruz-iii-and-tiffanie-melaine-delacruz/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40606</td><td>Wyatt Peters and Tammy Jo Peters</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28883654/wyatt-peters-and-tammy-jo-peters/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50358</td><td>Patricia Lynn Tharrington</td><td>Ch. 7</td><td>2005-05-12</td><td><a href="https://www.courtlistener.com/docket/28883196/patricia-lynn-tharrington/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31081</td><td>Jesse Adams and Doris Adams</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28884343/jesse-adams-and-doris-adams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40605</td><td>Barbara Lamar</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28883325/barbara-lamar/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31082</td><td>CarriAnn M. Radil</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28883239/carriann-m-radil/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31079</td><td>Antwone Elrod</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28883014/antwone-elrod/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31080</td><td>Scott Walker Douglas</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28882955/scott-walker-douglas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40604</td><td>Pamela Marie Rollings</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28882688/pamela-marie-rollings/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31078</td><td>Frank Roger Jones and Lakecia Malden Jones</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28882314/frank-roger-jones-and-lakecia-malden-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40602</td><td>Alicia Latoya Thompson</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28882307/alicia-latoya-thompson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31076</td><td>Elaine Marie Tauzin</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28882221/elaine-marie-tauzin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10310</td><td>Sharon Wynell Estep</td><td>Ch. 13</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28882211/sharon-wynell-estep/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40603</td><td>Daniel E. Lewis</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28882070/daniel-e-lewis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31073</td><td>Brook Allen Daugherity</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28881898/brook-allen-daugherity/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-04007</td><td>Miller v. Clayton</td><td>—</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28881819/miller-v-clayton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31077</td><td>James Andrew Booth</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28881771/james-andrew-booth/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40601</td><td>Angelena Kaye McGuire</td><td>Ch. 13</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28881578/angelena-kaye-mcguire/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10309</td><td>Betty M. Whitesides</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28881526/betty-m-whitesides/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31075</td><td>Annalisa Marie McBroom</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28881520/annalisa-marie-mcbroom/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40600</td><td>Luke F. Starling and Dena Kay Starling</td><td>Ch. 13</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28881252/luke-f-starling-and-dena-kay-starling/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31072</td><td>Lynn M Wendel</td><td>Ch. 13</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28881114/lynn-m-wendel/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31074</td><td>Cheryle Ann Butterworth</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28880962/cheryle-ann-butterworth/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31071</td><td>Cindy Lee Harvey</td><td>Ch. 7</td><td>2005-05-11</td><td><a href="https://www.courtlistener.com/docket/28880726/cindy-lee-harvey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31069</td><td>James David Peek</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28881180/james-david-peek/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31070</td><td>Retha Mae Crimbley</td><td>Ch. 13</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28880464/retha-mae-crimbley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50357</td><td>Candice Louise Blackann</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28880423/candice-louise-blackann/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40599</td><td>Renee&#x27; Marie Adomaitis</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28880381/renee-marie-adomaitis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50355</td><td>Carlton Adron Denard</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28880310/carlton-adron-denard/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50354</td><td>Mary Jane Sherman</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28880140/mary-jane-sherman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50356</td><td>Wilma Jean Smith</td><td>Ch. 13</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28880088/wilma-jean-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40598</td><td>Alice Louise Willis</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28879782/alice-louise-willis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31068</td><td>Joshua Ryan Kelly and Stephanie Ann Wilson</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28879775/joshua-ryan-kelly-and-stephanie-ann-wilson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31067</td><td>Edward L. Gross</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28879551/edward-l-gross/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31066</td><td>Ronald Earl Coe</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28879516/ronald-earl-coe/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40596</td><td>Tabitha Regina Massengale</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28879433/tabitha-regina-massengale/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40597</td><td>Lela Copeland Black</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28879293/lela-copeland-black/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40590</td><td>Kyle Frederick Hassfurder</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28879286/kyle-frederick-hassfurder/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40595</td><td>Robert J Vandebrake and Deanna M Vandebrake</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28879278/robert-j-vandebrake-and-deanna-m-vandebrake/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40594</td><td>Courtney Sanabria Woodfaulk</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28879060/courtney-sanabria-woodfaulk/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40593</td><td>Michael Batten</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28878872/michael-batten/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10308</td><td>Thirlise Monae Martinez</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28878850/thirlise-monae-martinez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40592</td><td>Dina S. Knight</td><td>Ch. 13</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28878694/dina-s-knight/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40588</td><td>Lorenzo Thomas</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28878521/lorenzo-thomas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40591</td><td>Neil Owen Shotton</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28878516/neil-owen-shotton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50353</td><td>Sarah A. Blakeney</td><td>Ch. 13</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28878312/sarah-a-blakeney/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40589</td><td>Vienna F Pozniak</td><td>Ch. 13</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28878195/vienna-f-pozniak/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40586</td><td>William Michael Kunkle</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28878158/william-michael-kunkle/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50352</td><td>Ruby N. Marlow</td><td>Ch. 13</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28878153/ruby-n-marlow/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40587</td><td>Robert C. Sweet and Betty A. Sweet</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28878052/robert-c-sweet-and-betty-a-sweet/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50351</td><td>Ardie Perry Ebert</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28877734/ardie-perry-ebert/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50350</td><td>Donald Lloyd Cox</td><td>Ch. 7</td><td>2005-05-10</td><td><a href="https://www.courtlistener.com/docket/28877614/donald-lloyd-cox/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10307</td><td>Wayne H Williams</td><td>Ch. 7</td><td>2005-05-09</td><td><a href="https://www.courtlistener.com/docket/28877693/wayne-h-williams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-10306</td><td>Angelia Y. Perry</td><td>Ch. 7</td><td>2005-05-09</td><td><a href="https://www.courtlistener.com/docket/28877418/angelia-y-perry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40584</td><td>Recycled Bicycles of Tallahassee, Inc.</td><td>Ch. 7</td><td>2005-05-09</td><td><a href="https://www.courtlistener.com/docket/28877212/recycled-bicycles-of-tallahassee-inc/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40585</td><td>Tec Arthur Thomas</td><td>Ch. 7</td><td>2005-05-09</td><td><a href="https://www.courtlistener.com/docket/28877157/tec-arthur-thomas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50349</td><td>Christopher Shane Bennett</td><td>Ch. 13</td><td>2005-05-09</td><td><a href="https://www.courtlistener.com/docket/28877005/christopher-shane-bennett/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40583</td><td>Jeffrey L. Washington and Belinda Washington</td><td>Ch. 7</td><td>2005-05-09</td><td><a href="https://www.courtlistener.com/docket/28876995/jeffrey-l-washington-and-belinda-washington/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50347</td><td>Elvin S. Phipps and Audri Elizabeth Phipps</td><td>Ch. 7</td><td>2005-05-09</td><td><a href="https://www.courtlistener.com/docket/28876820/elvin-s-phipps-and-audri-elizabeth-phipps/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50348</td><td>Raymond Leo Desrochers</td><td>Ch. 7</td><td>2005-05-09</td><td><a href="https://www.courtlistener.com/docket/28876797/raymond-leo-desrochers/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-31065</td><td>Jay Turner and Joan Y. Turner</td><td>Ch. 7</td><td>2005-05-09</td><td><a href="https://www.courtlistener.com/docket/28876545/jay-turner-and-joan-y-turner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-50346</td><td>Beverly Florence Brooks</td><td>Ch. 7</td><td>2005-05-09</td><td><a href="https://www.courtlistener.com/docket/28876521/beverly-florence-brooks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>05-40581</td><td>Harold Matthew Henderson</td><td>Ch. 13</td><td>2005-05-09</td><td><a href="https://www.courtlistener.com/docket/28876391/harold-matthew-henderson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+        </tbody>
+    </table>
+
+    <div class="pagination"><a href="page-130.html">← Prev</a> <span class="page-info">Page 131 of 131</span></div>
+
+    <div class="attribution">
+        <p><strong>Data source:</strong> Case metadata on this page comes from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>, operated by the <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a>. Content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. This derived index is published under the same license.</p>
+        <p style="margin-top: 12px;"><strong>Scope note:</strong> This index covers federal bankruptcy cases in the N.D. Fla. that appear on the RECAP Archive. The Open Bankruptcy Project does not reproduce docket PDFs or filing text on this domain - all primary-source access is via CourtListener. Last updated 2026-04-20.</p>
+    </div>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/recap.html">RECAP</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a></p>
+        <p style="margin-top: 12px;">Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p style="margin-top: 8px;">Case metadata from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a> / <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>

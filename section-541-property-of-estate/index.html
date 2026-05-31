@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>11 USC 541 Deep Dive - Property of the Estate, ERISA, Tax Refunds [2026]</title>
+<meta name="description" content="Deep-dive guide to 11 U.S.C. Section 541. The broad sweep of 541(a)(1), the 180-day window of 541(a)(5), the Chapter 7 earnings exception, ERISA exclusion under Patterson v. Shumate, and pro-rata tax refunds under Kokoszka v. Belford.">
+<meta name="keywords" content="property of the estate, 11 USC 541, 541(a)(1), 541(a)(5), 541(a)(6), 541(c)(2), Patterson v Shumate, ERISA, tax refund, Kokoszka v Belford, Segal v Rochelle, spendthrift trust, 180-day window">
+<link rel="canonical" href="https://openbankruptcyproject.org/section-541-property-of-estate/">
+<meta property="og:title" content="11 USC 541 Deep Dive - Property of the Estate, ERISA, Tax Refunds">
+<meta property="og:description" content="Deep-dive guide to 11 U.S.C. Section 541. The 180-day post-petition window, ERISA exclusion under Patterson v. Shumate, and pro-rata tax refunds under Kokoszka v. Belford.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/section-541-property-of-estate/">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="11 USC 541 Deep Dive - Property of the Estate">
+<meta name="twitter:description" content="Deep-dive guide to 11 U.S.C. Section 541 covering 541(a)(1) sweep, 180-day windfalls, ERISA exclusion, and tax refund pro-ration.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+<meta name="last-modified" content="2026-05-22">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"11 U.S.C. Section 541 - Property of the Estate: Deep Dive","description":"Deep-dive guide to 11 U.S.C. Section 541. The 180-day post-petition window, ERISA exclusion under Patterson v. Shumate, and pro-rata tax refunds under Kokoszka v. Belford.","datePublished":"2026-05-22","dateModified":"2026-05-22","url":"https://openbankruptcyproject.org/section-541-property-of-estate/","author":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"}}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem","position": 1,"name": "Home","item": "https://openbankruptcyproject.org"},
+        {"@type": "ListItem","position": 2,"name": "Statutes","item": "https://openbankruptcyproject.org/#statutes"},
+        {"@type": "ListItem","position": 3,"name": "Section 541 Deep Dive - Property of the Estate","item": "https://openbankruptcyproject.org/section-541-property-of-estate/"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "11 U.S.C. Section 541 Deep Dive - Property of the Estate",
+      "url": "https://openbankruptcyproject.org/section-541-property-of-estate/",
+      "speakable": {"@type": "SpeakableSpecification","cssSelector": [".quick-answer","h1",".summary","p:first-of-type"]}
+    }
+  ]
+}
+</script>
+<style>
+  :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-muted: #9eaab6; --accent: #58a6ff; --green: #3fb950; --red: #f85149; --yellow: #e3a835; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  nav .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger { display: none; background: none; border: 1px solid var(--border); color: var(--text); font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1; }
+  .breadcrumb { max-width: 760px; margin: 1rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; color: var(--text-muted); }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header { background: linear-gradient(135deg, #0d2137, #122a44); border-bottom: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+  header h1 { color: #f0f6fc; font-size: 2rem; margin-bottom: 0.75rem; }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle { color: var(--text-muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 1.5rem; }
+  .content-section h2 { color: #f0f6fc; font-size: 1.375rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .content-section h3 { color: #f0f6fc; font-size: 1.125rem; margin: 1.5rem 0 0.75rem; }
+  .content-section p { color: var(--text); margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .content-section ul, .content-section ol { margin: 0.75rem 0 0.75rem 1.5rem; color: var(--text); font-size: 0.95rem; }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box { background: #21262d; border-left: 3px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .statute-box p { margin-bottom: 0.5rem; }
+  .statute-box p:last-child { margin-bottom: 0; }
+  .warning-box { background: #21262d; border-left: 3px solid var(--red); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .warning-box p { margin-bottom: 0.5rem; }
+  .green-box { background: #21262d; border-left: 3px solid var(--green); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .yellow-box { background: #21262d; border-left: 3px solid var(--yellow); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .network-links { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem 2rem; margin-bottom: 1.5rem; font-size: 0.85rem; color: var(--text-muted); line-height: 2; }
+  .network-links strong { color: var(--text); }
+  footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 2rem; }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a { display: block; padding: 0.6rem 0; margin: 0; font-size: 0.95rem; min-height: 44px; line-height: 2; border-bottom: 1px solid #21262d; }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+  }
+</style>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LegalCase","name":"Patterson v. Shumate","alternateName":"Patterson v. Shumate, 504 U.S. 753 (1992)","url":"https://openbankruptcyproject.org/citations/patterson-v-shumate/","datePublished":"1992-06-15","court":"Supreme Court of the United States"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LegalCase","name":"Begier v. IRS","alternateName":"Begier v. IRS, 496 U.S. 53 (1990)","url":"https://openbankruptcyproject.org/citations/begier-v-irs/","datePublished":"1990-06-04","court":"Supreme Court of the United States"}</script>
+</head>
+<body>
+<nav aria-label="Main navigation">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a>
+    <a href="/research.html">Research</a>
+    <a href="/impact.html">Impact</a>
+    <a href="/legal-aid.html">Legal Aid</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>11 U.S.C. <a href="https://www.law.cornell.edu/uscode/text/11/541" rel="noopener" target="_blank">Section 541</a> Deep Dive - Property of the Estate</h1>
+  <p class="subtitle">The broad sweep of 541(a)(1), the 180-day post-petition windfall window, the Chapter 7 earnings exception, ERISA exclusion under Patterson v. Shumate, and pro-rata treatment of tax refunds under Kokoszka v. Belford.</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; Statutes &rsaquo; Section 541 Deep Dive - Property of the Estate
+</div>
+
+<main>
+<aside style="background:#151b23;border:1px solid #252d38;border-radius:10px;padding:20px 24px;margin:24px 0;font-size:0.92rem;">
+  <strong style="color:#58a6ff;text-transform:uppercase;letter-spacing:0.06em;font-size:0.78rem;">Empirical research on this section</strong>
+  <p style="margin-top:10px;color:#b1bac4;">For case-pattern analysis on how federal bankruptcy courts apply Section 541, including district-level patterns and primary-source dockets, see <a href="/cases/" style="color:#58a6ff;">openbankruptcyproject.org/cases/</a>. All datasets licensed CC BY-SA 4.0.</p>
+</aside>
+
+<div class="content-section">
+  <h2>The Single Most Important Section in the Code</h2>
+  <p>Section 541 answers the most fundamental question in any bankruptcy case: what does the trustee actually take control of? The estate created at filing under Section 541(a) is the legal device through which every other Code provision operates. The trustee's avoidance powers, the automatic stay, exemptions, the means test, and discharge all presuppose an estate. Without a properly defined estate, none of those machinery works.</p>
+  <p>The drafters of the 1978 Bankruptcy Code wrote Section 541 to be deliberately broad. The legislative history describes it as "all-encompassing." Courts have consistently honored that breadth, with two principal exceptions: an express statutory exclusion in 541(b) and the implicit exclusion of property the debtor never had a legal or equitable interest in to begin with.</p>
+  <div class="statute-box"><p><strong>Official citation:</strong> 11 U.S.C. &sect; 541</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Section 541(a)(1): The Universal Sweep</h2>
+  <p>Section 541(a)(1) is the workhorse subsection. It pulls into the estate "all legal or equitable interests of the debtor in property as of the commencement of the case." The phrase is deliberately tautological in its inclusiveness. Whatever the debtor owned (in law or in equity, in possession or not, tangible or intangible) becomes estate property at the moment the petition is filed.</p>
+  <p>The Supreme Court's foundational gloss on this language comes from <em>Segal v. Rochelle</em>, 382 U.S. 375 (1966), decided under the prior Bankruptcy Act. <em>Segal</em> held that loss-carryback tax refund rights, even though contingent on post-petition events (filing a loss return), were "property" of the estate because they were "sufficiently rooted in the pre-bankruptcy past." Congress codified the <em>Segal</em> approach when it drafted Section 541(a)(1), and modern courts continue to apply the "sufficiently rooted" test for contingent and inchoate rights.</p>
+  <p>The breadth captures:</p>
+  <ul>
+    <li>Causes of action that accrued pre-petition (whether or not yet asserted)</li>
+    <li>Commercial tort claims and personal-injury claims</li>
+    <li>Pre-petition wages earned but not yet paid</li>
+    <li>Accounts receivable</li>
+    <li>Contingent contractual rights</li>
+    <li>Beneficial interests in trusts (subject to 541(c)(2))</li>
+    <li>Intellectual property, licenses, and franchise rights</li>
+    <li>Equitable interests such as resulting and constructive trusts</li>
+  </ul>
+  <p>Because the inclusion is automatic and self-executing at filing, a trustee's failure to discover or schedule an asset does not remove it from the estate. Concealment can be remedied later (and may also support denial of discharge under Section 727(a)).</p>
+</div>
+
+<div class="content-section">
+  <h2>Section 541(a)(5): The 180-Day Windfall Window</h2>
+  <p>Section 541(a)(5) brings in three categories of property that the debtor becomes entitled to acquire within 180 days after the petition date:</p>
+  <ul>
+    <li><strong>541(a)(5)(A):</strong> Property acquired by bequest, devise, or inheritance</li>
+    <li><strong>541(a)(5)(B):</strong> Property received as a result of a property-settlement agreement with the debtor's spouse, or of an interlocutory or final divorce decree</li>
+    <li><strong>541(a)(5)(C):</strong> Property received as a beneficiary of a life insurance policy or of a death benefit plan</li>
+  </ul>
+  <p>The 180-day clock runs from the petition date, not from the date of the triggering event. The relevant moment for inheritance is the decedent's date of death (when the debtor's right vests), not the date probate distributes the asset. A debtor whose parent dies on day 179 has an inheritance that belongs to the estate; a debtor whose parent dies on day 181 keeps the inheritance.</p>
+  <div class="warning-box">
+    <p><strong>Practical trap:</strong> A debtor cannot escape Section 541(a)(5) by disclaiming the inheritance. Most circuits hold that a post-petition disclaimer of a 541(a)(5) inheritance is a transfer of estate property that the trustee can avoid under Section 549. The decision to disclaim must be made (or have occurred) before the bankruptcy filing, and even then can raise fraudulent-transfer issues.</p>
+  </div>
+  <p>The 541(a)(5) windfall provisions apply equally in Chapter 7 and Chapter 11. In Chapter 13 the rule is different and broader, because Section 1306 captures all post-petition acquisitions during the case.</p>
+</div>
+
+<div class="content-section">
+  <h2>Section 541(a)(6): The Earnings Exception</h2>
+  <p>Section 541(a)(6) captures "proceeds, product, offspring, rents, or profits of or from property of the estate" but excludes "earnings from services performed by an individual debtor after the commencement of the case." That exclusion is the structural reason Chapter 7 functions as a true "fresh start" for individual debtors: post-petition wages do not belong to the trustee.</p>
+  <p>Three categories of dispute regularly arise under 541(a)(6):</p>
+  <h3>Pre-petition versus post-petition earnings</h3>
+  <p>Wages earned (in the labor sense) before the petition belong to the estate, even if paid afterward. Wages earned afterward belong to the debtor. The cut is when the services were rendered, not when the payroll deposit cleared.</p>
+  <h3>Commissions and bonuses</h3>
+  <p>Courts apply a pro-ration approach when a payment depends on services that straddle the petition date. A year-end bonus earned for performance January 1 to December 31 with a June 1 petition belongs roughly 5/12 to the estate and 7/12 to the debtor. Allocation methodology varies by circuit.</p>
+  <h3>Single-member LLC and sole-proprietor revenue</h3>
+  <p>Where an individual debtor operates a pass-through entity, post-petition revenue may be a mix of return on estate property (the business itself, which entered the estate at filing) and post-petition earnings from the debtor's services. Disentangling the two is fact-intensive and frequently litigated in Chapter 7 conversions and trustee disgorgement actions.</p>
+</div>
+
+<div class="content-section">
+  <h2>Section 541(c)(2): ERISA Exclusion and Patterson v. Shumate</h2>
+  <p>Section 541(c)(2) is the most consequential exclusion in the statute. It provides that "[a] restriction on the transfer of a beneficial interest of the debtor in a trust that is enforceable under applicable nonbankruptcy law is enforceable in a case under this title."</p>
+  <p>For decades after enactment, lower courts split on whether ERISA-qualified pension plans qualified as "applicable nonbankruptcy law." The Supreme Court resolved the question in <em>Patterson v. Shumate</em>, 504 U.S. 753 (1992), holding that ERISA's anti-alienation provision (29 U.S.C. Section 1056(d)(1)) is "applicable nonbankruptcy law" within the meaning of 541(c)(2). The result: a debtor's beneficial interest in an ERISA-qualified pension plan is excluded from the bankruptcy estate altogether. The trustee never takes title; the asset does not need to be exempted because it never enters in the first place.</p>
+  <div class="green-box">
+    <p><strong>The Patterson rule in one line:</strong> If the plan is ERISA-qualified and contains a transfer-restriction provision enforceable under ERISA, the beneficial interest is excluded from the estate by operation of Section 541(c)(2).</p>
+  </div>
+  <p>The Patterson rule is limited to ERISA-qualified plans. Non-qualified deferred-compensation plans, top-hat plans, and most state and local government plans (which are exempt from ERISA) require separate analysis. For IRAs, Section 522(d)(12) (in opt-in states) and BAPCPA's Section 522(n) provide an exemption, not an exclusion. The distinction matters because exclusions are absolute and unlimited in amount; exemptions are subject to caps and to objection.</p>
+  <h3>Traditional spendthrift trusts</h3>
+  <p>Section 541(c)(2) also preserves the bankruptcy effect of traditional spendthrift trusts where the trust instrument contains an anti-alienation clause that is enforceable under the relevant state law. Self-settled spendthrift trusts (where the debtor is both the settlor and the beneficiary) are generally not enforceable against creditors under non-bankruptcy law, and so do not qualify under 541(c)(2). A handful of "asset protection trust" states (Nevada, Delaware, Alaska, and others) have enacted statutes attempting to enforce self-settled spendthrift restraints, but Section 548(e) imposes a 10-year reach-back for transfers to self-settled trusts made with actual fraudulent intent.</p>
+</div>
+
+<div class="content-section">
+  <h2>Tax Refunds: Kokoszka v. Belford and Pro-Ration</h2>
+  <p>Tax refunds are one of the most reliably contested asset classes in consumer Chapter 7. The doctrinal foundation is <em>Kokoszka v. Belford</em>, 417 U.S. 642 (1974), where the Supreme Court held that a federal income tax refund attributable to pre-petition tax years was "property" within the meaning of the prior Bankruptcy Act and belonged to the trustee. Although decided under the pre-Code statute, <em>Kokoszka</em>'s reasoning carried directly into Section 541 analysis.</p>
+  <p>The modern rule (consistent across circuits) is pro-ration based on the petition date. A debtor who files Chapter 7 on July 1 and later receives a refund attributable to the entire calendar tax year is treated as holding the refund approximately 50% for the estate (representing the January-through-June tax overpayment, which had become a contingent receivable as of the petition date) and 50% for the debtor (representing the July-through-December overpayment that accrued post-petition through wage withholding on post-petition earnings excluded by 541(a)(6)).</p>
+  <h3>The Earned Income Tax Credit problem</h3>
+  <p>The Earned Income Tax Credit (EITC) component of a refund is treated separately in many jurisdictions. Several state exemptions specifically protect the EITC, and some courts have held that the EITC is functionally a public-assistance benefit not subject to the same pro-ration analysis. The treatment varies by state and is one of the most common subjects of trustee objection and exemption litigation.</p>
+  <h3>NOL carrybacks after Segal v. Rochelle</h3>
+  <p>The interaction of <em>Segal</em> with modern tax law remains important for business debtors. A pre-petition operating loss creates a right to carry the loss back against earlier years' taxable income. That contingent refund right enters the estate under <em>Segal</em>'s "sufficiently rooted" test, even though the cash refund does not arrive until after filing.</p>
+</div>
+
+<div class="content-section">
+  <h2>Section 541(b): Express Exclusions</h2>
+  <p>Section 541(b) catalogs assets that do not enter the estate even though the debtor holds a present interest. The most important categories include:</p>
+  <ul>
+    <li><strong>541(b)(1):</strong> Powers exercisable solely for the benefit of an entity other than the debtor</li>
+    <li><strong>541(b)(2):</strong> An interest in nonresidential real property leases that have terminated pre-petition</li>
+    <li><strong>541(b)(4):</strong> Certain interests in liquid or gaseous hydrocarbons subject to farmout agreements</li>
+    <li><strong>541(b)(7):</strong> Funds withheld from wages for contribution to certain retirement plans (specifically including ERISA plans), enacted in BAPCPA</li>
+    <li><strong>541(b)(8):</strong> Tangible personal property pledged to a licensed pawnbroker, where redemption has not occurred and the contract has been timely surrendered</li>
+    <li><strong>541(b)(9):</strong> Funds in an Education IRA and certain Section 529 plans, subject to specific timing and contributor limitations</li>
+  </ul>
+  <p>Each subsection has a specific factual predicate. The 541(b)(7) exclusion for wage-deduction retirement contributions is particularly important post-BAPCPA because it operates alongside the Patterson exclusion to insulate retirement assets at multiple stages: the contribution stream is excluded under 541(b)(7), and the plan corpus is excluded under 541(c)(2).</p>
+</div>
+
+<div class="content-section">
+  <h2>Property the Debtor Never Had</h2>
+  <p>Section 541 reaches only what the debtor owned at filing. It does not enlarge state-law property rights. Three corollaries follow:</p>
+  <ul>
+    <li>Property the debtor holds in constructive trust for another never enters the estate, although fact disputes over whether a constructive trust exists are frequently resolved post-petition.</li>
+    <li>Customer deposits and trust funds held by the debtor as a fiduciary are not estate property to the extent they remain identifiable and have not been commingled beyond tracing.</li>
+    <li>Property leased to or licensed to the debtor remains the property of the lessor or licensor, subject to the executory-contract rules of Section 365.</li>
+  </ul>
+  <p>The Supreme Court reinforced the limit in <em>Begier v. IRS</em>, 496 U.S. 53 (1990), holding that withholding taxes the debtor collected from employees were not property of the debtor (and therefore not "property of the debtor" for preference purposes under Section 547(b)) because they were held in statutory trust for the United States. The reasoning is structurally relevant to 541 analysis as well: amounts the debtor never beneficially owned never become estate property in the first place.</p>
+</div>
+
+<div class="content-section">
+  <h2>Chapter Differences</h2>
+  <p>Section 541 itself does not vary by chapter, but the operation of the estate does:</p>
+  <ul>
+    <li><strong>Chapter 7:</strong> The estate is fixed essentially at the petition date. Section 541(a)(5) windfalls are added; post-petition earnings of individual debtors are not.</li>
+    <li><strong>Chapter 11:</strong> The estate is fixed at filing, but a debtor in possession continues to operate, so post-petition receivables and revenue generated by estate assets remain in the estate.</li>
+    <li><strong>Chapter 12 and Chapter 13:</strong> Section 1207 and Section 1306 broaden the estate to include post-petition earnings and post-petition acquisitions during the plan period.</li>
+    <li><strong>Subchapter V:</strong> The estate functions like a Chapter 11 estate for property purposes; see <a href="/section-1186-property-of-estate.html">Section 1186</a>.</li>
+  </ul>
+</div>
+
+<div class="content-section">
+  <h2>Related Bankruptcy Code Sections</h2>
+  <p>Section 541 interlocks with most of the rest of the Code:</p>
+  <ul>
+    <li><a href="/section-541-property-of-estate.html">Section 541 (overview)</a> - the original plain-English page for this section</li>
+    <li><a href="/section-542-turnover.html">Section 542</a> - turnover by entity</li>
+    <li><a href="/section-543-turnover-custodian.html">Section 543</a> - turnover by custodian</li>
+    <li><a href="/section-522-exemptions.html">Section 522</a> - exemptions removed from the estate</li>
+    <li><a href="/section-549-post-petition.html">Section 549</a> - avoidance of unauthorized post-petition transfers of estate property</li>
+    <li><a href="/section-727-discharge-chapter-7.html">Section 727</a> - denial of discharge for concealment of estate property</li>
+  </ul>
+</div>
+
+<div class="network-links">
+  <strong>Bankruptcy Tools Network:</strong><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Discharge Screener</a> &middot;
+  <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Research Platform</a> &middot;
+  <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Exemptions by State</a> &middot;
+  <a href="https://keepmycarinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your Car</a> &middot;
+  <a href="https://keepmyhouseinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your House</a> &middot;
+  <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Bankruptcy Cost</a>
+</div>
+</main>
+
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by <a href="https://openbankruptcyproject.org/donate.html">donations</a>.</p>
+  <p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+  <p style="margin-bottom:0.5rem">
+    <a href="/">Home</a> &middot;
+    <a href="/research.html">Research</a> &middot;
+    <a href="/impact.html">Impact</a> &middot;
+    <a href="/legal-aid.html">Legal Aid</a> &middot;
+    <a href="/about.html">About</a> &middot;
+    <a href="/contact.html">Contact</a>
+  </p>
+  <p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+</footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>

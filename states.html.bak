@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Bankruptcy by State - Free State Guides</title>
+<meta content="Free bankruptcy guides for 14 U.S. states with homestead exemption data, district counts, and filing information." name="description"/>
+<meta content="bankruptcy by state, state bankruptcy guide, homestead exemption, bankruptcy exemptions, unlimited homestead, bankruptcy districts, chapter 7 bankruptcy, chapter 13 bankruptcy, state bankruptcy laws" name="keywords"/>
+<link href="https://openbankruptcyproject.org/states.html" rel="canonical"/>
+<link href="https://openbankruptcyproject.org/states.html" hreflang="en" rel="alternate"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<!-- Open Graph -->
+<meta content="Bankruptcy by State - Free State Guides" property="og:title"/>
+<meta content="Free bankruptcy guides for 14 U.S. states with homestead exemption data, district counts, and filing information." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/states.html" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Bankruptcy by State - Free State Guides" name="twitter:title"/>
+<meta content="Free bankruptcy guides for 14 U.S. states with homestead exemption data, district counts, and filing information." name="twitter:description"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- GA4 -->
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+<!-- Schema.org BreadcrumbList -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Open Bankruptcy Project",
+          "item": "https://openbankruptcyproject.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Bankruptcy by State",
+          "item": "https://openbankruptcyproject.org/states.html"
+        }
+      ]
+    }
+    </script>
+<!-- Schema.org CollectionPage -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Bankruptcy by State - Free State Guides",
+      "description": "A directory of state bankruptcy guides covering 14 U.S. states with homestead exemption data, district information, and federal court statistics.",
+      "url": "https://openbankruptcyproject.org/states.html",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://openbankruptcyproject.org"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Alaska Bankruptcy Guide", "url": "https://alaskabankruptcy.org"},
+          {"@type": "ListItem", "position": 2, "name": "Arkansas Bankruptcy Guide", "url": "https://arkansasbankruptcy.org"},
+          {"@type": "ListItem", "position": 3, "name": "Colorado Bankruptcy Guide", "url": "https://coloradobankruptcy.org"},
+          {"@type": "ListItem", "position": 4, "name": "Delaware Bankruptcy Guide", "url": "https://delawarebankruptcy.org"},
+          {"@type": "ListItem", "position": 5, "name": "Georgia Bankruptcy Guide", "url": "https://georgiabankruptcy.org"},
+          {"@type": "ListItem", "position": 6, "name": "Illinois Bankruptcy Guide", "url": "https://illinoisbankruptcy.org"},
+          {"@type": "ListItem", "position": 7, "name": "Iowa Bankruptcy Guide", "url": "https://iowabankruptcy.org"},
+          {"@type": "ListItem", "position": 8, "name": "Maryland Bankruptcy Guide", "url": "https://marylandbankruptcy.org"},
+          {"@type": "ListItem", "position": 9, "name": "Minnesota Bankruptcy Guide", "url": "https://minnesotabankruptcy.org"},
+          {"@type": "ListItem", "position": 10, "name": "Missouri Bankruptcy Guide", "url": "https://missouribankruptcy.org"},
+          {"@type": "ListItem", "position": 11, "name": "Ohio Bankruptcy Guide", "url": "https://ohiobankruptcy.org"},
+          {"@type": "ListItem", "position": 12, "name": "Rhode Island Bankruptcy Guide", "url": "https://rhodeislandbankruptcy.org"},
+          {"@type": "ListItem", "position": 13, "name": "Tennessee Bankruptcy Guide", "url": "https://tennesseebankruptcy.org"},
+          {"@type": "ListItem", "position": 14, "name": "Vermont Bankruptcy Guide", "url": "https://vermontbankruptcy.org"}
+        ]
+      }
+    }
+    </script>
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "Which states have unlimited homestead exemptions in bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "Iowa and Arkansas offer unlimited homestead exemptions in bankruptcy. In Iowa, the homestead exemption has no dollar cap regardless of property value. In Arkansas, the exemption is unlimited for married filers or heads of household. These states allow debtors to protect their primary residence from creditors in bankruptcy regardless of the home's value, though federal exemptions may apply differently."}},
+      {"@type": "Question", "name": "Which state has the highest Chapter 13 dismissal rate?", "acceptedAnswer": {"@type": "Answer", "text": "Tennessee has the highest Chapter 13 dismissal rate in the Open Bankruptcy Project's state guide network, with Memphis (Western District of Tennessee) reaching 79.6% based on Federal Judicial Center data. Georgia follows closely, with the Northern District of Georgia (Atlanta) at 72.9%. Both states have three federal judicial districts each."}},
+      {"@type": "Question", "name": "How many federal judicial districts does each state have?", "acceptedAnswer": {"@type": "Answer", "text": "The number of federal judicial districts varies by state. Among the 14 states in our guide network: Georgia, Illinois, and Tennessee each have 3 districts. Arkansas, Iowa, Missouri, and Ohio each have 2 districts. Alaska, Colorado, Delaware, Maryland, Minnesota, Rhode Island, and Vermont each have 1 district. More districts generally means more variation in local court practices."}},
+      {"@type": "Question", "name": "What is a homestead exemption in bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "A homestead exemption protects equity in your primary residence from creditors during bankruptcy. Each state sets its own exemption amount - ranging from as low as $5,000 in Tennessee to unlimited in Iowa and Arkansas. The exemption determines how much home equity you can keep. If your equity exceeds the exemption, a Chapter 7 trustee could sell the home and pay you the exempt amount. States with higher exemptions offer more protection for homeowners filing bankruptcy."}},
+      {"@type": "Question", "name": "Where does the state bankruptcy data come from?", "acceptedAnswer": {"@type": "Answer", "text": "All data comes from the Federal Judicial Center's Integrated Database (FJC IDB), which contains records for every federal bankruptcy case filed in the United States. The Open Bankruptcy Project has screened 4.9 million cases across all 94 federal judicial districts. Homestead exemption amounts are based on current state statutes and are updated periodically."}}
+    ]}
+    </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Bankruptcy by State",
+      "description": "Free bankruptcy guides for 14 U.S. states with homestead exemption data, district counts, and filing information. Real data from the Federal Judicial Center cov",
+      "author": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://1328f.org"
+      },
+      "datePublished": "2026-04-05",
+      "dateModified": "2026-04-05",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/states.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Bankruptcy by State",
+      "url": "https://openbankruptcyproject.org/states.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
+    }
+  ]
+}
+</script>
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0d1117;
+            --bg-elevated: #0f1319;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --accent-subtle: rgba(88, 166, 255, 0.08);
+            --green: #3fb950;
+            --green-subtle: rgba(63, 185, 80, 0.08);
+            --gold: #d29922;
+            --gold-subtle: rgba(210, 153, 34, 0.08);
+            --red: #f85149;
+            --red-subtle: rgba(248, 81, 73, 0.08);
+            --purple: #a371f7;
+            --purple-subtle: rgba(163, 113, 247, 0.08);
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+        a:hover { color: var(--accent-hover); }
+
+        .container { max-width: 1040px; margin: 0 auto; padding: 0 32px; }
+
+        /* NAV */
+        nav {
+            border-bottom: 1px solid var(--border);
+            padding: 18px 0;
+            position: sticky;
+            top: 0;
+            background: rgba(13, 17, 23, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        nav .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .nav-brand {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text);
+            letter-spacing: -0.01em;
+        }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a {
+            color: var(--text-muted);
+            font-size: 0.88rem;
+            font-weight: 500;
+            transition: color 0.15s;
+        }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 80px 0 64px;
+            border-bottom: 1px solid var(--border);
+        }
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            margin-bottom: 20px;
+        }
+        .hero .tagline {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            max-width: 680px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hero .source {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* SUMMARY STATS */
+        .summary-stats {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+        }
+        .summary-stat {
+            text-align: center;
+        }
+        .summary-stat .num {
+            font-size: 1.75rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            display: block;
+            margin-bottom: 4px;
+        }
+        .summary-stat .num.red { color: var(--red); }
+        .summary-stat .num.accent { color: var(--accent); }
+        .summary-stat .num.gold { color: var(--gold); }
+        .summary-stat .num.green { color: var(--green); }
+        .summary-stat .num.purple { color: var(--purple); }
+        .summary-stat .label {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            font-weight: 500;
+        }
+
+        /* STATE GRID */
+        .states-section {
+            padding: 64px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .states-section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+        .states-section > .container > p {
+            color: var(--text-secondary);
+            margin-bottom: 36px;
+            font-size: 1rem;
+        }
+
+        .state-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 16px;
+        }
+
+        .state-card {
+            display: block;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 28px 24px;
+            transition: border-color 0.2s, background 0.2s, transform 0.15s;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+        }
+        .state-card:hover {
+            border-color: var(--accent);
+            background: var(--surface-hover);
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+        .state-card .state-badge {
+            position: absolute;
+            top: 14px;
+            right: 16px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 3px 10px;
+            border-radius: 4px;
+        }
+        .state-card .state-badge.unlimited {
+            background: var(--purple-subtle);
+            color: var(--purple);
+        }
+        .state-card .state-badge.high-dismiss {
+            background: var(--red-subtle);
+            color: var(--red);
+        }
+        .state-card .state-badge.high-exempt {
+            background: var(--green-subtle);
+            color: var(--green);
+        }
+        .state-card .state-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 4px;
+            display: block;
+        }
+        .state-card .state-notable {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+            display: block;
+        }
+        .state-card .state-stats {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 14px;
+        }
+        .state-card .state-stat {
+            display: flex;
+            flex-direction: column;
+        }
+        .state-card .state-stat-value {
+            font-size: 1.3rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+        .state-card .state-stat-value.red { color: var(--red); }
+        .state-card .state-stat-value.gold { color: var(--gold); }
+        .state-card .state-stat-value.accent { color: var(--accent); }
+        .state-card .state-stat-value.green { color: var(--green); }
+        .state-card .state-stat-value.purple { color: var(--purple); }
+        .state-card .state-stat-label {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 500;
+        }
+        .state-card .state-domain {
+            font-size: 0.82rem;
+            color: var(--accent);
+            font-weight: 600;
+        }
+        .state-card .state-domain::after {
+            content: ' \2192';
+        }
+
+        /* METHODOLOGY */
+        .methodology {
+            padding: 64px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .methodology h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+        .methodology p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            max-width: 720px;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        /* FAQ */
+        .faq-section {
+            padding: 64px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .faq-section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 32px;
+            letter-spacing: -0.02em;
+        }
+        .faq-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 24px 28px;
+            margin-bottom: 12px;
+        }
+        .faq-item h3 {
+            font-size: 1.02rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 10px;
+        }
+        .faq-item p {
+            font-size: 0.92rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        /* CTA */
+        .cta-section {
+            padding: 64px 0;
+            text-align: center;
+        }
+        .cta-section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        .cta-section p {
+            color: var(--text-secondary);
+            max-width: 560px;
+            margin: 0 auto 28px;
+            font-size: 1rem;
+        }
+        .cta-btn {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: background 0.2s;
+            margin: 0 8px 12px;
+        }
+        .cta-btn:hover { background: var(--accent-hover); color: #fff; }
+        .cta-btn.secondary {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+        .cta-btn.secondary:hover { background: var(--surface-hover); border-color: var(--accent); color: var(--text); }
+
+        /* FOOTER */
+        footer {
+            padding: 48px 0 40px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links {
+            margin-bottom: 20px;
+        }
+        footer .footer-links a {
+            color: var(--text-muted);
+            margin: 0 12px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        /* MOBILE */
+        @media (max-width: 900px) {
+            .state-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .hero { padding: 56px 0 48px; }
+            .hero h1 { font-size: 1.85rem; }
+            .hero .tagline { font-size: 1.02rem; }
+            .summary-stats { gap: 24px; }
+            .summary-stat .num { font-size: 1.4rem; }
+            .state-grid { grid-template-columns: 1fr; }
+            .state-card { padding: 24px 20px; }
+            .faq-item { padding: 20px; }
+            nav .nav-links { gap: 16px; }
+        }
+    
+.breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+</style>
+<link href="https://openbankruptcyproject.org/states-es.html" hreflang="es" rel="alternate"/>
+</head>
+<body>
+<nav>
+<div class="container">
+<a class="nav-brand" href="/" style="text-decoration:none">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/#mission">Mission</a>
+<a href="/#network">Network</a>
+<a href="cities.html">Cities</a>
+<a class="active" href="states.html">States</a>
+<a href="network.html">Network</a>
+<a href="news/">News</a>
+<a href="research.html">Research</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<header class="hero">
+<div class="container">
+<h1>Bankruptcy by State</h1>
+<p class="tagline">Free state-by-state bankruptcy guides with homestead exemption data, district information, and real statistics from the <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a> covering 4.9 million cases.</p>
+<p class="source">Sorted alphabetically. Badges highlight extreme homestead <a href="https://bankruptcyexemptionsbystate.com/" title="exemptions">exemptions</a> and <a href="https://dismissedbankruptcy.org/" title="dismissal">dismissal</a> rates.</p>
+</div>
+</header>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://openbankruptcyproject.org/">Open Bankruptcy Project</a><span class="separator">›</span><span>Bankruptcy by State</span></nav>
+<div class="summary-stats">
+<div class="summary-stat">
+<span class="num accent">14</span>
+<span class="label">States Covered</span>
+</div>
+<div class="summary-stat">
+<span class="num purple">2</span>
+<span class="label">Unlimited Homestead</span>
+</div>
+<div class="summary-stat">
+<span class="num gold">28</span>
+<span class="label">Federal Districts</span>
+</div>
+<div class="summary-stat">
+<span class="num red">79.6%</span>
+<span class="label">Worst <a href="https://dismissalrate.org/" title="dismissal rate">Dismissal Rate</a></span>
+</div>
+</div>
+<section class="states-section">
+<div class="container">
+<h2>State Directory</h2>
+<p>Every guide includes your state's homestead exemption, federal judicial districts, local <a href="https://dismissedbankruptcy.org/" title="dismissal">dismissal</a> rates, and educational resources. All free, all backed by federal court data.</p>
+<div class="state-grid">
+<!-- Alaska -->
+<a class="state-card" href="https://alaskabankruptcy.org" rel="noopener" target="_blank">
+<span class="state-name">Alaska</span>
+<span class="state-notable">Single district</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value accent">$72,900</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">1</span>
+<span class="state-stat-label">District</span>
+</div>
+</div>
+<span class="state-domain">alaskabankruptcy.org</span>
+</a>
+<!-- Arkansas -->
+<a class="state-card" href="https://arkansasbankruptcy.org" rel="noopener" target="_blank">
+<span class="state-badge unlimited">Unlimited</span>
+<span class="state-name">Arkansas</span>
+<span class="state-notable">2 districts - unlimited if married/HoH</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value purple">Unlimited</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">2</span>
+<span class="state-stat-label">Districts</span>
+</div>
+</div>
+<span class="state-domain">arkansasbankruptcy.org</span>
+</a>
+<!-- Colorado -->
+<a class="state-card" href="https://coloradobankruptcy.org" rel="noopener" target="_blank">
+<span class="state-badge high-exempt">$250K</span>
+<span class="state-name">Colorado</span>
+<span class="state-notable">Single district</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value green">$250,000</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">1</span>
+<span class="state-stat-label">District</span>
+</div>
+</div>
+<span class="state-domain">coloradobankruptcy.org</span>
+</a>
+<!-- Delaware -->
+<a class="state-card" href="https://delawarebankruptcy.org" rel="noopener" target="_blank">
+<span class="state-name">Delaware</span>
+<span class="state-notable">Single district - corporate bankruptcy hub</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value accent">$125,000</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">1</span>
+<span class="state-stat-label">District</span>
+</div>
+</div>
+<span class="state-domain">delawarebankruptcy.org</span>
+</a>
+<!-- Georgia -->
+<a class="state-card" href="https://georgiabankruptcy.org" rel="noopener" target="_blank">
+<span class="state-badge high-dismiss">72.9% N.D. Ga.</span>
+<span class="state-name">Georgia</span>
+<span class="state-notable">3 districts - 72.9% dismiss rate in N.D. Ga.</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value gold">$21,500</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">3</span>
+<span class="state-stat-label">Districts</span>
+</div>
+</div>
+<span class="state-domain">georgiabankruptcy.org</span>
+</a>
+<!-- Illinois -->
+<a class="state-card" href="https://illinoisbankruptcy.org" rel="noopener" target="_blank">
+<span class="state-name">Illinois</span>
+<span class="state-notable">3 districts - Chicago market</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value gold">$15,000</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">3</span>
+<span class="state-stat-label">Districts</span>
+</div>
+</div>
+<span class="state-domain">illinoisbankruptcy.org</span>
+</a>
+<!-- Iowa -->
+<a class="state-card" href="https://iowabankruptcy.org" rel="noopener" target="_blank">
+<span class="state-badge unlimited">Unlimited</span>
+<span class="state-name">Iowa</span>
+<span class="state-notable">2 districts - unlimited homestead</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value purple">Unlimited</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">2</span>
+<span class="state-stat-label">Districts</span>
+</div>
+</div>
+<span class="state-domain">iowabankruptcy.org</span>
+</a>
+<!-- Maryland -->
+<a class="state-card" href="https://marylandbankruptcy.org" rel="noopener" target="_blank">
+<span class="state-name">Maryland</span>
+<span class="state-notable">Single district</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value accent">$25,150</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">1</span>
+<span class="state-stat-label">District</span>
+</div>
+</div>
+<span class="state-domain">marylandbankruptcy.org</span>
+</a>
+<!-- Minnesota -->
+<a class="state-card" href="https://minnesotabankruptcy.org" rel="noopener" target="_blank">
+<span class="state-badge high-exempt">$450K</span>
+<span class="state-name">Minnesota</span>
+<span class="state-notable">Single district</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value green">$450,000</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">1</span>
+<span class="state-stat-label">District</span>
+</div>
+</div>
+<span class="state-domain">minnesotabankruptcy.org</span>
+</a>
+<!-- Missouri -->
+<a class="state-card" href="https://missouribankruptcy.org" rel="noopener" target="_blank">
+<span class="state-name">Missouri</span>
+<span class="state-notable">2 districts - KC + StL metros</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value gold">$15,000</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">2</span>
+<span class="state-stat-label">Districts</span>
+</div>
+</div>
+<span class="state-domain">missouribankruptcy.org</span>
+</a>
+<!-- Ohio -->
+<a class="state-card" href="https://ohiobankruptcy.org" rel="noopener" target="_blank">
+<span class="state-badge high-exempt">$145K</span>
+<span class="state-name">Ohio</span>
+<span class="state-notable">2 districts - 3 major metros</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value green">$145,425</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">2</span>
+<span class="state-stat-label">Districts</span>
+</div>
+</div>
+<span class="state-domain">ohiobankruptcy.org</span>
+</a>
+<!-- Rhode Island -->
+<a class="state-card" href="https://rhodeislandbankruptcy.org" rel="noopener" target="_blank">
+<span class="state-badge high-exempt">$500K</span>
+<span class="state-name">Rhode Island</span>
+<span class="state-notable">Smallest state - single district</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value green">$500,000</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">1</span>
+<span class="state-stat-label">District</span>
+</div>
+</div>
+<span class="state-domain">rhodeislandbankruptcy.org</span>
+</a>
+<!-- Tennessee -->
+<a class="state-card" href="https://tennesseebankruptcy.org" rel="noopener" target="_blank">
+<span class="state-badge high-dismiss">79.6% Memphis</span>
+<span class="state-name">Tennessee</span>
+<span class="state-notable">3 districts - Memphis 79.6% dismissal</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value red">$5,000</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">3</span>
+<span class="state-stat-label">Districts</span>
+</div>
+</div>
+<span class="state-domain">tennesseebankruptcy.org</span>
+</a>
+<!-- Vermont -->
+<a class="state-card" href="https://vermontbankruptcy.org" rel="noopener" target="_blank">
+<span class="state-name">Vermont</span>
+<span class="state-notable">Single district</span>
+<div class="state-stats">
+<div class="state-stat">
+<span class="state-stat-value accent">$125,000</span>
+<span class="state-stat-label">Homestead Exemption</span>
+</div>
+<div class="state-stat">
+<span class="state-stat-value">1</span>
+<span class="state-stat-label">District</span>
+</div>
+</div>
+<span class="state-domain">vermontbankruptcy.org</span>
+</a>
+</div>
+</div>
+</section>
+<section class="methodology">
+<div class="container">
+<h2>About Homestead Exemptions</h2>
+<p>A homestead exemption determines how much equity in your primary residence is protected from creditors in bankruptcy. Each state sets its own exemption amount. Some states - like Iowa and Arkansas - offer unlimited protection, meaning no creditor can force the sale of your home regardless of its value.</p>
+<p>States with low homestead <a href="https://bankruptcyexemptionsbystate.com/" title="exemptions">exemptions</a> (like Tennessee at $5,000 or Illinois and Missouri at $15,000) leave homeowners with significant equity at risk in <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> bankruptcy. In these states, a trustee could sell your home if your equity exceeds the exempt amount.</p>
+<p>The number of federal judicial districts in a state affects where you file and which local rules apply. States with multiple districts - like Georgia (3), Tennessee (3), and Ohio (2) - can have dramatically different court cultures, trustee practices, and dismissal rates depending on which district handles your case.</p>
+</div>
+</section>
+<section class="faq-section">
+<div class="container">
+<h2>Frequently Asked Questions</h2>
+<div class="faq-item">
+<h3>Which states have unlimited homestead exemptions in bankruptcy?</h3>
+<p>Iowa and Arkansas offer unlimited homestead exemptions in bankruptcy. In Iowa, the homestead exemption has no dollar cap regardless of property value. In Arkansas, the exemption is unlimited for married filers or heads of household. These states allow debtors to protect their primary residence from creditors in bankruptcy regardless of the home's value, though federal exemptions may apply differently.</p>
+</div>
+<div class="faq-item">
+<h3>Which state has the highest Chapter 13 dismissal rate?</h3>
+<p>Tennessee has the highest <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> <a href="https://dismissalrate.org" rel="noopener" target="_blank" title="Bankruptcy Dismissal Rates - Open Bankruptcy Project">dismissal rate</a> in our state guide network, with Memphis (Western District of Tennessee) reaching 79.6% based on <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a> data. Georgia follows closely, with the Northern District of Georgia (Atlanta) at 72.9%. Both states have three federal judicial districts each.</p>
+</div>
+<div class="faq-item">
+<h3>How many federal judicial districts does each state have?</h3>
+<p>The number of federal judicial districts varies by state. Among the 14 states in our guide network: Georgia, Illinois, and Tennessee each have 3 districts. Arkansas, Iowa, Missouri, and Ohio each have 2 districts. Alaska, Colorado, Delaware, Maryland, Minnesota, Rhode Island, and Vermont each have 1 district. More districts generally means more variation in local court practices.</p>
+</div>
+<div class="faq-item">
+<h3>What is a homestead exemption in bankruptcy?</h3>
+<p>A homestead exemption protects equity in your primary residence from creditors during bankruptcy. Each state sets its own exemption amount - ranging from as low as $5,000 in Tennessee to unlimited in Iowa and Arkansas. The exemption determines how much home equity you can keep. If your equity exceeds the exemption, a <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> trustee could sell the home and pay you the exempt amount. States with higher exemptions offer more protection for homeowners filing bankruptcy.</p>
+</div>
+<div class="faq-item">
+<h3>Where does the state bankruptcy data come from?</h3>
+<p>All data comes from the Federal Judicial Center's Integrated Database (FJC IDB), which contains records for every federal bankruptcy case filed in the United States. The Open Bankruptcy Project has screened 4.9 million cases across all 94 federal judicial districts. Homestead exemption amounts are based on current state statutes and are updated periodically.</p>
+</div>
+</div>
+</section>
+<section class="cta-section">
+<div class="container">
+<h2>Explore More Bankruptcy Data</h2>
+<p>Check your <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> eligibility or browse local guides by city.</p>
+<a class="cta-btn" href="https://1328f.com?utm_source=openbankruptcyproject.org&amp;utm_medium=states-hub&amp;utm_campaign=btn-network" rel="noopener" target="_blank">Try the Free Screener</a>
+<a class="cta-btn secondary" href="cities.html">Browse by City</a>
+</div>
+</section>
+<!-- BTN:FOOTER:START -->
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<div class="footer-links">
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="network.html">Network</a>
+<a href="impact.html">Impact</a>
+<a href="press.html">Press</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+<a href="https://github.com/ilikemath9999" rel="noopener" target="_blank">GitHub</a>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+<a href="donate.html">Donate</a>
+</div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+<p>EIN available upon request. All tools and data released under open source licenses.</p>
+<p style="margin-top: 12px;">No legal advice is provided. This is educational and research information only.</p>
+</div>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
+<!-- BOOST-TOP10 internal links (boost_internal_links.py) -->
+<div class="boost-top10" style="max-width:820px;margin:2rem auto;padding:1.5rem;background:#0d1117;border:1px solid #238636;border-radius:8px">
+<p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
+<ul style="list-style:none;padding:0;margin:0">
+<li style="margin-bottom:0.5rem"><a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Bankruptcy Means Test by State</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcymeanstest.org</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Chapter 7 vs. Chapter 13 Comparison</a> <span style="color:#7d8590;font-size:0.8rem">-- chapter7vs13.org</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://1099cdebt.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">1099-C Cancellation of Debt Tax Guide</a> <span style="color:#7d8590;font-size:0.8rem">-- 1099cdebt.com</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://bankruptcystudentloans.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loans in Bankruptcy</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcystudentloans.org</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://ceaseanddesistdebt.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Cease and Desist Letters for Debt Collectors</a> <span style="color:#7d8590;font-size:0.8rem">-- ceaseanddesistdebt.com</span></li>
+</ul>
+</div>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

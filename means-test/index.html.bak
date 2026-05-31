@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>The Chapter 7 Means Test (11 U.S.C. § 707(b)) - Guide | Open Bankruptcy Project</title>
+<meta name="description" content="How the Chapter 7 means test under 11 U.S.C. § 707(b) works: income measurement, median-income comparison by state, Form 122A calculations, and the presumption of abuse."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/means-test/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="The Chapter 7 Means Test (11 U.S.C. § 707(b)) - Guide | Open Bankruptcy Project"/>
+<meta property="og:description" content="How the Chapter 7 means test under 11 U.S.C. § 707(b) works: income measurement, median-income comparison by state, Form 122A calculations, and the presumption of abuse."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/means-test/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "The Chapter 7 Means Test", "description": "How the Chapter 7 means test under 11 U.S.C. § 707(b) works: income measurement, median-income comparison by state, Form 122A calculations, and the presumption of abuse.", "url": "https://openbankruptcyproject.org/means-test/", "datePublished": "2026-04-21", "dateModified": "2026-04-21", "author": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org", "nonprofitStatus": "Nonprofit501c3"}, "isAccessibleForFree": true}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 3, "name": "Means Test", "item": "https://openbankruptcyproject.org/means-test/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the Chapter 7 means test?", "acceptedAnswer": {"@type": "Answer", "text": "The means test is a two-step calculation under 11 U.S.C. § 707(b) that screens Chapter 7 eligibility. Step one compares the debtor's current monthly income to the applicable state median. Step two, if needed, calculates monthly disposable income and creates a presumption of abuse if the disposable-income threshold is exceeded."}}, {"@type": "Question", "name": "What is \"current monthly income\" for the means test?", "acceptedAnswer": {"@type": "Answer", "text": "11 U.S.C. § 101(10A) defines CMI as the debtor's average monthly income over the six-month period ending the last day of the calendar month before the petition. It includes nearly all sources of income, with specific statutory exclusions."}}, {"@type": "Question", "name": "Where do the median-income numbers come from?", "acceptedAnswer": {"@type": "Answer", "text": "The US Trustee Program publishes median-income figures at justice.gov/ust/means-testing based on US Census Bureau data. The figures are updated approximately every six months."}}, {"@type": "Question", "name": "Am I required to take the means test?", "acceptedAnswer": {"@type": "Answer", "text": "Every Chapter 7 consumer debtor must complete Form 122A-1, and above-median debtors must complete Form 122A-2. Debtors whose debts are primarily non-consumer are exempt from § 707(b) presumption-of-abuse analysis."}}, {"@type": "Question", "name": "What happens if the presumption of abuse is triggered?", "acceptedAnswer": {"@type": "Answer", "text": "The US Trustee or any party in interest may move to dismiss the case or convert it to Chapter 13 under § 707(b). The debtor may rebut the presumption by showing special circumstances under § 707(b)(2)(B)."}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main h3{font-size:1.05rem;font-weight:700;margin:22px 0 8px;color:var(--text)}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul,main ol{margin:10px 0 18px 22px;color:var(--text-secondary)}
+main li{margin-bottom:6px}
+main strong{color:var(--text)}
+main code{background:var(--surface);padding:2px 6px;border-radius:4px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.callout strong{color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 24px;margin:18px 0}
+.card h3{margin-top:0}
+.link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+.link-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:.15s}
+.link-card:hover{background:var(--surface-hover);border-color:var(--accent)}
+.link-card .label{font-size:.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600;margin-bottom:4px}
+.link-card h4{font-size:.98rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.link-card p{font-size:.85rem;color:var(--text-secondary);margin:0}
+.faq details{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;color:var(--text-muted);font-weight:300;font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'−'}
+.faq details[open] summary{margin-bottom:10px;color:var(--accent)}
+.faq details p{margin:10px 0 0;color:var(--text-secondary)}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Research Guide</div>
+<h1>The Chapter 7 Means Test</h1>
+<p class="lede">The Chapter 7 means test under 11 U.S.C. § 707(b) screens higher-income debtors out of Chapter 7 liquidation and into Chapter 13 repayment plans. This page explains the two-step calculation, the Official Forms involved, where the median-income figures come from, and how the presumption of abuse operates.</p>
+<div class="datastamp">Data updated <time datetime="2026-04-21">2026-04-21</time>. See <a href="/research/methodology/">methodology &amp; sources</a>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Means Test</div>
+<h2>Where the means test came from</h2>
+<p>The means test was added to the Bankruptcy Code by the Bankruptcy Abuse Prevention and Consumer Protection Act (BAPCPA) of 2005. Congress enacted the test to restrict Chapter 7 relief for debtors presumed to have the means to pay a meaningful portion of their debts in a Chapter 13 plan.</p>
+<p>The test has two stages: first, comparison of the debtor's current monthly income to the applicable state median; and second, if income exceeds median, a deduction-based calculation that generates a presumption of abuse if monthly disposable income exceeds specified thresholds.</p>
+<h2>Current monthly income</h2>
+<p>Section 101(10A) defines "current monthly income" (CMI) as the average monthly income the debtor received during the six-month period ending on the last day of the calendar month before the petition date. CMI includes nearly all sources - wages, business income, rental income, interest, and most regular household contributions - with limited statutory exclusions (Social Security, certain military payments, victim-of-crime payments).</p>
+<h2>Median-income comparison</h2>
+<p>The debtor's annualized CMI is compared to the applicable state's median family income for a household of the same size, as published by the US Census Bureau and adjusted by the US Trustee Program. If CMI falls at or below median, the means test is completed on Official Form 122A-1 and the debtor qualifies for Chapter 7 without further calculation.</p>
+<div class="callout"><strong>Where the numbers come from:</strong> median-income figures and IRS-based expense allowances are published at <a href="https://www.justice.gov/ust/means-testing" rel="external">justice.gov/ust/means-testing</a>. The US Trustee Program updates the figures approximately every six months.</div>
+<h2>Form 122A-2 deduction calculation</h2>
+<p>Above-median debtors complete Form 122A-2, which subtracts allowable expenses from CMI to arrive at monthly disposable income over 60 months. Categories of allowed deductions include IRS-derived national and local standards for food, housing, and transportation; actual deductions for secured debt payments over the next 60 months; priority debt; and certain additional expenses documented by the debtor.</p>
+<h2>The presumption of abuse</h2>
+<p>§ 707(b)(2) establishes a presumption of abuse if monthly disposable income multiplied by 60 exceeds the greater of 25% of non-priority unsecured claims or a statutory floor amount (adjusted periodically under § 104). A triggered presumption results in dismissal or conversion to Chapter 13, subject to rebuttal by the debtor for special circumstances.</p>
+<ul><li>If the means test shows no presumption of abuse, the Chapter 7 case proceeds.</li><li>If the presumption is triggered, the US Trustee or any party in interest may move to dismiss or convert under § 707(b).</li><li>Special-circumstances rebuttal under § 707(b)(2)(B) requires documented unavoidable expenses or reduced income not otherwise accounted for.</li><li>Debtors whose debts are primarily non-consumer (business) are exempt from § 707(b).</li></ul>
+<h2>Post-BAPCPA empirical observations</h2>
+<p>Published research on BAPCPA's effects has found that the means test did shift some filings from Chapter 7 to Chapter 13, while also imposing substantial compliance costs. The Federal Judicial Center's Integrated Database shows filing volume in both chapters has moved with broader economic cycles in ways not easily separable from the test's effect.</p>
+<p>The <a href="/cases/">national district index</a> publishes chapter-mix ratios for every US federal bankruptcy district, which lets readers compare post-BAPCPA chapter distributions across jurisdictions.</p>
+<h2>Related resources</h2><div class="link-grid"><a class="link-card" href="/chapter-7-vs-13/"><div class="label">Concept</div><h4>Chapter 7 vs Chapter 13</h4><p>Factual comparison of the two chapters and their eligibility differences.</p></a><a class="link-card" href="/fee-guide/"><div class="label">Concept</div><h4>Fee guide</h4><p>Filing fees, fee waivers, and § 329 attorney compensation review.</p></a><a class="link-card" href="/cases/"><div class="label">Data</div><h4>District case index</h4><p>Chapter mix and filing trend data for every US bankruptcy district.</p></a></div>
+<section class="faq"><h2>Frequently asked questions</h2><details><summary>What is the Chapter 7 means test?</summary><p>The means test is a two-step calculation under 11 U.S.C. § 707(b) that screens Chapter 7 eligibility. Step one compares the debtor's current monthly income to the applicable state median. Step two, if needed, calculates monthly disposable income and creates a presumption of abuse if the disposable-income threshold is exceeded.</p></details><details><summary>What is &quot;current monthly income&quot; for the means test?</summary><p>11 U.S.C. § 101(10A) defines CMI as the debtor's average monthly income over the six-month period ending the last day of the calendar month before the petition. It includes nearly all sources of income, with specific statutory exclusions.</p></details><details><summary>Where do the median-income numbers come from?</summary><p>The US Trustee Program publishes median-income figures at justice.gov/ust/means-testing based on US Census Bureau data. The figures are updated approximately every six months.</p></details><details><summary>Am I required to take the means test?</summary><p>Every Chapter 7 consumer debtor must complete Form 122A-1, and above-median debtors must complete Form 122A-2. Debtors whose debts are primarily non-consumer are exempt from § 707(b) presumption-of-abuse analysis.</p></details><details><summary>What happens if the presumption of abuse is triggered?</summary><p>The US Trustee or any party in interest may move to dismiss the case or convert it to Chapter 13 under § 707(b). The debtor may rebut the presumption by showing special circumstances under § 707(b)(2)(B).</p></details></section>
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Empirical statistics and informational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Data sources: Federal Judicial Center Integrated Database; Free Law Project RECAP Archive via CourtListener; official US federal bankruptcy court websites. Derived content on this page is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>. See the <a href="/research/methodology/">methodology page</a> for metric definitions and sourcing.</p>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+</body></html>

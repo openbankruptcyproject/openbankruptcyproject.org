@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Subchapter V Deep-Dives - Open Bankruptcy Project</title>
+<meta name="description" content="Subchapter V of Chapter 11 deep-dive guides covering SBRA overview, section 1182 eligibility, plan confirmation, trustee role, and discharge mechanics."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/subchapter-v/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Subchapter V Deep-Dives - Open Bankruptcy Project"/>
+<meta property="og:description" content="Subchapter V of Chapter 11 deep-dive guides covering SBRA overview, section 1182 eligibility, plan confirmation, trustee role, and discharge mechanics."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/subchapter-v/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Subchapter V Deep-Dives","description":"Five Subchapter V deep-dive guides covering SBRA, eligibility, plan confirmation, the trustee role, and discharge mechanics.","url":"https://openbankruptcyproject.org/subchapter-v/","isPartOf":{"@type":"WebSite","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org/"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Subchapter V: Discharge Mechanics","url":"https://openbankruptcyproject.org/subchapter-v/discharge-mechanics/"},{"@type":"ListItem","position":2,"name":"Subchapter V: Eligibility under Section 1182","url":"https://openbankruptcyproject.org/subchapter-v/eligibility-section-1182/"},{"@type":"ListItem","position":3,"name":"Subchapter V: Plan Confirmation Strategy","url":"https://openbankruptcyproject.org/subchapter-v/plan-confirmation-strategy/"},{"@type":"ListItem","position":4,"name":"Subchapter V: SBRA Overview","url":"https://openbankruptcyproject.org/subchapter-v/sbra-overview/"},{"@type":"ListItem","position":5,"name":"Subchapter V: Trustee Role Expanded","url":"https://openbankruptcyproject.org/subchapter-v/trustee-role-expanded/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://openbankruptcyproject.org/"},{"@type":"ListItem","position":2,"name":"Subchapter V","item":"https://openbankruptcyproject.org/subchapter-v/"}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul{margin:10px 0 18px 0;color:var(--text-secondary);list-style:none}
+main li{margin-bottom:14px}
+.child-list{margin:18px 0}
+.child-list a{font-weight:700;font-size:1.02rem}
+.child-list .desc{display:block;color:var(--text-secondary);font-size:.93rem;margin-top:4px}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Small-Business Reorganization Deep-Dives</div>
+<h1>Subchapter V Deep-Dives</h1>
+<p class="lede">Subchapter V of Chapter 11 was added to the Bankruptcy Code in 2019 by the Small Business Reorganization Act. It supplies a streamlined, debtor-friendly reorganization path for small business debtors that retains the substantive flexibility of Chapter 11 while eliminating much of its procedural cost. These deep-dives cover the statutory architecture, eligibility, plan confirmation, the Subchapter V trustee role, and the unique discharge mechanism.</p>
+<div class="datastamp">Last modified <time datetime="2026-05-22">2026-05-22</time>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Subchapter V</div>
+
+<h2>About SBRA and sections 1181 through 1195</h2>
+<p>The Small Business Reorganization Act of 2019 (SBRA) took effect on February 19, 2020. It added a new Subchapter V to Chapter 11, codified at 11 U.S.C. §§ 1181 through 1195. Subchapter V is available only to small business debtors meeting the debt-cap and conduct requirements of section 1182, who must elect it on the petition or by amendment within a short statutory window.</p>
+<p>The principal benefits relative to a traditional Chapter 11 include no creditors' committee absent court order, no separate disclosure statement, exclusive plan-proposal rights for the debtor throughout the case, a relaxed absolute-priority rule under section 1191(b), a Subchapter V trustee who facilitates rather than displaces the debtor, and a debtor-friendly section 1192 discharge that applies after plan payments are completed under a nonconsensual plan.</p>
+<p>SBRA's original $2,725,625 aggregate debt cap was temporarily raised to $7,500,000 by the CARES Act and subsequent reauthorizations. The current cap should be verified against the most recent enabling legislation before relying on eligibility analysis.</p>
+
+<h2>Subchapter V deep-dives</h2>
+<ul class="child-list">
+<li><a href="/subchapter-v/sbra-overview/">SBRA Overview</a><span class="desc">Statutory architecture of sections 1181-1195, legislative history, the relationship to traditional Chapter 11, and an orientation for first-time Subchapter V practitioners.</span></li>
+<li><a href="/subchapter-v/eligibility-section-1182/">Eligibility under Section 1182</a><span class="desc">The aggregate-debt cap, the engaged-in-commercial-or-business-activities requirement, the affiliate-aggregation rules, and disqualifying debtor types.</span></li>
+<li><a href="/subchapter-v/plan-confirmation-strategy/">Plan Confirmation Strategy</a><span class="desc">Consensual confirmation under section 1191(a), nonconsensual cramdown under section 1191(b), the projected-disposable-income standard, and the fair-and-equitable test.</span></li>
+<li><a href="/subchapter-v/trustee-role-expanded/">Trustee Role Expanded</a><span class="desc">Section 1183 duties, the status-conference and report obligations, the trustee's role facilitating a consensual plan, and the SBRA compensation framework.</span></li>
+<li><a href="/subchapter-v/discharge-mechanics/">Discharge Mechanics</a><span class="desc">Section 1192 discharge upon completion of plan payments under a nonconsensual plan, the 1141(d) discharge upon confirmation under a consensual plan, and section 523(a) carve-outs.</span></li>
+</ul>
+
+<div class="callout"><strong>Verify the current debt cap:</strong> Subchapter V's debt-cap threshold has been adjusted by multiple temporary statutes since 2020. Confirm current figures against the most recent congressional action before relying on eligibility analysis here.</div>
+
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Educational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+</body></html>

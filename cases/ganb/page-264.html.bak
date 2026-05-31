@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>N.D. Ga. Bankruptcy Cases - Page 264 of 264 - Open Bankruptcy Project</title>
+    <meta name="description" content="Index of federal bankruptcy cases in the N.D. Ga. available on the RECAP Archive. Published by the Open Bankruptcy Project. All primary-source documents are on CourtListener.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/cases/ganb/page-264.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="N.D. Ga. Bankruptcy Cases - Open Bankruptcy Project">
+    <meta property="og:description" content="Index of federal bankruptcy cases in the N.D. Ga. available on the RECAP Archive.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/cases/ganb/page-264.html">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- BTN:GA4:START -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+    <!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "N.D. Ga. Bankruptcy Case Index (Page 264)", "description": "Index of federal bankruptcy cases in the N.D. Ga. available on the RECAP Archive. Published by the Open Bankruptcy Project.", "url": "https://openbankruptcyproject.org/cases/ganb/page-264.html", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "creator": {"@type": "NonprofitOrganization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "sourceOrganization": {"@type": "Organization", "name": "Free Law Project", "url": "https://free.law/"}, "isAccessibleForFree": true, "keywords": "bankruptcy, federal court, RECAP, CourtListener, public records, N.D. Ga."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Cases", "item": "https://openbankruptcyproject.org/cases/"}, {"@type": "ListItem", "position": 3, "name": "N.D. Ga.", "item": "https://openbankruptcyproject.org/cases/ganb/"}, {"@type": "ListItem", "position": 4, "name": "Page 264", "item": "https://openbankruptcyproject.org/cases/ganb/page-264.html"}]}</script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230;
+            --border: #252d38; --border-light: #2d3748;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff;
+            --green: #3fb950; --gold: #d29922;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+
+        nav.topnav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav.topnav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
+
+        .breadcrumb { padding: 16px 0; font-size: 0.85rem; color: var(--text-muted); }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb a:hover { color: var(--accent); }
+        .breadcrumb .sep { margin: 0 8px; color: var(--border-light); }
+
+        .court-header { padding: 32px 0 24px; border-bottom: 1px solid var(--border); }
+        .court-header .label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 8px; }
+        .court-header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+        .court-header p { color: var(--text-secondary); font-size: 0.95rem; max-width: 780px; }
+
+        .case-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 32px 0; }
+        .case-table th { background: var(--bg); text-align: left; padding: 14px 16px; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; border-bottom: 1px solid var(--border); }
+        .case-table td { padding: 12px 16px; font-size: 0.88rem; border-bottom: 1px solid var(--border); }
+        .case-table tr:last-child td { border-bottom: none; }
+        .case-table tr:hover td { background: var(--surface-hover); }
+
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 16px; margin: 24px 0; font-size: 0.9rem; }
+        .pagination a { color: var(--accent); font-weight: 600; padding: 6px 12px; border: 1px solid var(--border-light); border-radius: 6px; }
+        .pagination a:hover { background: var(--surface); text-decoration: none; }
+        .pagination .page-info { color: var(--text-muted); }
+
+        .attribution { padding: 20px 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-size: 0.85rem; color: var(--text-muted); margin: 32px 0; }
+        .attribution strong { color: var(--text-secondary); }
+        .attribution a { color: var(--text-secondary); }
+        .attribution a:hover { color: var(--accent); }
+
+        footer { padding: 40px 0; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; text-align: center; }
+        footer a { color: var(--text-muted); margin: 0 10px; }
+        footer a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+<nav class="topnav">
+    <div class="container">
+        <a href="/" class="nav-brand">Open Bankruptcy Project</a>
+        <div class="nav-links">
+            <a href="/#mission">Mission</a>
+            <a href="/#what-we-do">What We Do</a>
+            <a href="/cases/" class="active">Cases</a>
+            <a href="/research.html">Research</a>
+            <a href="/recap.html">RECAP</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <a href="/cases/">Cases</a><span class="sep">/</span>
+        <a href="/cases/ganb/">N.D. Ga.</a><span class="sep">/</span>
+        <span>Page 264</span>
+    </div>
+</div>
+
+<header class="court-header">
+    <div class="container">
+        <div class="label">Bankruptcy Court Index</div>
+        <h1>United States Bankruptcy Court for the Northern District of Georgia</h1>
+        <p>United States Bankruptcy Court for the Northern District of Georgia is one of the US federal bankruptcy courts whose public, RECAP-archived dockets are indexed here. The Open Bankruptcy Project maintains this national case-level index for empirical research and public-records access. Every case below links to the full docket on the Free Law Project&#x27;s CourtListener.</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <div class="pagination"><a href="page-263.html">← Prev</a> <span class="page-info">Page 264 of 264</span></div>
+
+    <table class="case-table">
+        <thead>
+            <tr>
+                <th>Case Number</th>
+                <th>Caption</th>
+                <th>Chapter</th>
+                <th>Filed</th>
+                <th>Primary Source</th>
+                <th>Research</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>19-58508</td><td>John Lee Mack</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714897/john-lee-mack/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58509</td><td>Audrey Lasharn Freeman</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714896/audrey-lasharn-freeman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-04029</td><td>Montz v. Margeson</td><td>—</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714895/montz-v-margeson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58510</td><td>Shawnetta Michelle Duff</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714894/shawnetta-michelle-duff/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58511</td><td>Anthony Robbins</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714893/anthony-robbins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58512</td><td>Michael Anthony Gooden Jr.</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714892/michael-anthony-gooden-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-21092</td><td>Carolyn Vanessa Maxwell</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714891/carolyn-vanessa-maxwell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58515</td><td>Joyce Hlavac</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714890/joyce-hlavac/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-21093</td><td>Shakir Uranus Cooke</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714889/shakir-uranus-cooke/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58514</td><td>Keith Emmanuel Landry</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714888/keith-emmanuel-landry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58513</td><td>Alvin Copeland</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714887/alvin-copeland/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58517</td><td>Ezidilim Amanda Ede</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714886/ezidilim-amanda-ede/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58516</td><td>Termaine Derrick Johnson and Deshanta Rae Johnson</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714885/termaine-derrick-johnson-and-deshanta-rae-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58505</td><td>Andrew W. Dean</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714422/andrew-w-dean/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58506</td><td>Luisa Margarita Ayes</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714421/luisa-margarita-ayes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58507</td><td>Andrea D. Winfrey</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714420/andrea-d-winfrey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-41277</td><td>Elliott Brooks Buggs and Shawna Patrice Buggs</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714419/elliott-brooks-buggs-and-shawna-patrice-buggs/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-11058</td><td>Stacy Lynn Schneck</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714418/stacy-lynn-schneck/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58504</td><td>Lorie Michelle Johnson</td><td>Ch. 7</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714417/lorie-michelle-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58498</td><td>Cornelius Arnet Williams</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714208/cornelius-arnet-williams/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58499</td><td>Cynthia Varner Hendricks</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714207/cynthia-varner-hendricks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58501</td><td>Florence Erukpeme Agalaba</td><td>Ch. 7</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714206/florence-erukpeme-agalaba/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-41276</td><td>Joan E. Burns</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714204/joan-e-burns/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58502</td><td>Curtis James Watkins</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714202/curtis-james-watkins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58500</td><td>Dennise Elaine Cruickshank</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714200/dennise-elaine-cruickshank/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58503</td><td>Shenika Latresse Hobson</td><td>Ch. 7</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714198/shenika-latresse-hobson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58497</td><td>Patrice Clarence Bentley</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714017/patrice-clarence-bentley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58496</td><td>Mallie Eric Preston</td><td>Ch. 13</td><td>2019-06-03</td><td><a href="https://www.courtlistener.com/docket/15714013/mallie-eric-preston/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58495</td><td>David Lopez and Quenby Aileen Perez</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713794/david-lopez-and-quenby-aileen-perez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-11057</td><td>Cody D Thomas and Keon S Thomas</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713774/cody-d-thomas-and-keon-s-thomas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58494</td><td>Jorge Oswaldo Giraldo</td><td>Ch. 7</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713746/jorge-oswaldo-giraldo/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58493</td><td>Brenda D. Dudley</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713710/brenda-d-dudley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58492</td><td>Wendy Morie Chamblee</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713630/wendy-morie-chamblee/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58490</td><td>Lakeyshia Minniefield</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713587/lakeyshia-minniefield/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58491</td><td>Maria Camacho</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713586/maria-camacho/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58488</td><td>Freda Charisse Lyde</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713566/freda-charisse-lyde/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58489</td><td>Jennifer R. Taylor</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713565/jennifer-r-taylor/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58486</td><td>Susanne Renee Ignazito</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713520/susanne-renee-ignazito/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-41275</td><td>Nicole Miller Bentley</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713519/nicole-miller-bentley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-21091</td><td>Christopher Leon Glass</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713518/christopher-leon-glass/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58487</td><td>Patrice Denise Alexander</td><td>Ch. 7</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713517/patrice-denise-alexander/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-41274</td><td>Jennifer Elizabeth Srybnik</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713481/jennifer-elizabeth-srybnik/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58484</td><td>Shanda Marie McFalls</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713480/shanda-marie-mcfalls/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-21090</td><td>Lorne Howard Cragg and Derenda Crawford Cragg</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713479/lorne-howard-cragg-and-derenda-crawford-cragg/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58485</td><td>Jacqueline Anita Rogers</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713478/jacqueline-anita-rogers/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58483</td><td>Anthony Charles Bernard, Jr.</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713463/anthony-charles-bernard-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58482</td><td>Monica Hicks Crossfield</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713456/monica-hicks-crossfield/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58481</td><td>Shaunt&#x27;e Rena Young</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713449/shaunte-rena-young/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58480</td><td>Phillip DeLeon Hayes, Sr and Constance Gilliam Hayes</td><td>Ch. 13</td><td>2019-06-02</td><td><a href="https://www.courtlistener.com/docket/15713430/phillip-deleon-hayes-sr-and-constance-gilliam-hayes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58479</td><td>Stephanie Travis Brooks and Jerry Todd Brooks</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713327/stephanie-travis-brooks-and-jerry-todd-brooks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58478</td><td>Latonji Shunita White</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713305/latonji-shunita-white/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58477</td><td>Litonya Anderson</td><td>Ch. 7</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713279/litonya-anderson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58474</td><td>Dawn Robin Bobb</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713237/dawn-robin-bobb/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58475</td><td>Jervy Oneal Bingley</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713236/jervy-oneal-bingley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58476</td><td>Jenille Ramey Sanders</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713235/jenille-ramey-sanders/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58471</td><td>Kevin Jermone David, Sr.</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713204/kevin-jermone-david-sr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58473</td><td>Lee Antoine Jarrett and Lauren Keonda Nicole Jarrett</td><td>Ch. 7</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713198/lee-antoine-jarrett-and-lauren-keonda-nicole-jarrett/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58472</td><td>Ronnell Dupree King</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713196/ronnell-dupree-king/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58469</td><td>Alfreda Camesha Johnson</td><td>Ch. 7</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713157/alfreda-camesha-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58470</td><td>Darla Coman</td><td>Ch. 7</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713156/darla-coman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58462</td><td>Jimmy Lee Roseberry, Jr.</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713074/jimmy-lee-roseberry-jr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58463</td><td>Brenita Naomi Glover</td><td>Ch. 7</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713073/brenita-naomi-glover/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58464</td><td>Ronald Durham</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713072/ronald-durham/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58465</td><td>Gregory Ewel Ford and Celina Mae Ford</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713071/gregory-ewel-ford-and-celina-mae-ford/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58467</td><td>Samantha Soroya Hendrickson</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713070/samantha-soroya-hendrickson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58468</td><td>Mable Delores Levingston</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713069/mable-delores-levingston/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58466</td><td>Neville Smith</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713068/neville-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-11056</td><td>Kimberly Elizabeth Boyd</td><td>Ch. 7</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15713066/kimberly-elizabeth-boyd/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58451</td><td>Earl Neeley Butler</td><td>Ch. 7</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15712531/earl-neeley-butler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58452</td><td>Larilyn Lasonia Robinson</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15712059/larilyn-lasonia-robinson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58453</td><td>Khalid Kidari</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15712053/khalid-kidari/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58454</td><td>Cassandra Denise Vass</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15712045/cassandra-denise-vass/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58455</td><td>Lisa Lewis Nelson</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15712041/lisa-lewis-nelson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58456</td><td>Sheryle Kitina Yarbrough</td><td>Ch. 7</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15712036/sheryle-kitina-yarbrough/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58457</td><td>Charles Eugene Davis</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15712029/charles-eugene-davis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58458</td><td>Timothy Gregory Harvey</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15712024/timothy-gregory-harvey/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58459</td><td>Paula Octalien</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15712015/paula-octalien/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58460</td><td>Linda LeShell Baker</td><td>Ch. 13</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15712009/linda-leshell-baker/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58461</td><td>Kawanis Denise Miller</td><td>Ch. 7</td><td>2019-06-01</td><td><a href="https://www.courtlistener.com/docket/15712003/kawanis-denise-miller/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58433</td><td>Van Keith Jakes</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712708/van-keith-jakes/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58434</td><td>Jamorris Ramirez Brice</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712707/jamorris-ramirez-brice/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58435</td><td>David Michael Hall and Amanda Rachel Hall</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712699/david-michael-hall-and-amanda-rachel-hall/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58436</td><td>Mehboob Alibhai Lokhandwala</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712662/mehboob-alibhai-lokhandwala/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58437</td><td>Edward Eugene Beavers, Sr.</td><td>Ch. 13</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712648/edward-eugene-beavers-sr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58438</td><td>Alice Arnold Russell</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712645/alice-arnold-russell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58441</td><td>Yolanda Marie Jordan and Edward Jordan</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712643/yolanda-marie-jordan-and-edward-jordan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58439</td><td>Eddie Bodnar</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712638/eddie-bodnar/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58440</td><td>Jennifer Elizabeth Nolan</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712633/jennifer-elizabeth-nolan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58442</td><td>Tanjaneka Kensha Jordan</td><td>Ch. 13</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712629/tanjaneka-kensha-jordan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58444</td><td>Eliaikashose Martha Mongi-Strickland</td><td>Ch. 13</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712619/eliaikashose-martha-mongi-strickland/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58446</td><td>Alanna Chad&#x27;e Browne</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712595/alanna-chade-browne/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58443</td><td>Lawrence Franklin</td><td>Ch. 13</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712593/lawrence-franklin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58447</td><td>Michael Brian Green</td><td>Ch. 13</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712590/michael-brian-green/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58445</td><td>LaShanda N. Battle</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712586/lashanda-n-battle/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58448</td><td>Phirath Khiev</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712584/phirath-khiev/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-11055</td><td>Jacobey McCune Miller</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712577/jacobey-mccune-miller/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58449</td><td>Enessa Mikhaliants</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712570/enessa-mikhaliants/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-21088</td><td>Fahad Abbas</td><td>Ch. 13</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712563/fahad-abbas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-58450</td><td>Eunice Nita White</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712557/eunice-nita-white/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>19-21089</td><td>Israel Cardenas Torres and Laura Elena Cardenas</td><td>Ch. 7</td><td>2019-05-31</td><td><a href="https://www.courtlistener.com/docket/15712535/israel-cardenas-torres-and-laura-elena-cardenas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+        </tbody>
+    </table>
+
+    <div class="pagination"><a href="page-263.html">← Prev</a> <span class="page-info">Page 264 of 264</span></div>
+
+    <div class="attribution">
+        <p><strong>Data source:</strong> Case metadata on this page comes from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>, operated by the <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a>. Content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. This derived index is published under the same license.</p>
+        <p style="margin-top: 12px;"><strong>Scope note:</strong> This index covers federal bankruptcy cases in the N.D. Ga. that appear on the RECAP Archive. The Open Bankruptcy Project does not reproduce docket PDFs or filing text on this domain - all primary-source access is via CourtListener. Last updated 2026-04-20.</p>
+    </div>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/recap.html">RECAP</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a></p>
+        <p style="margin-top: 12px;">Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p style="margin-top: 8px;">Case metadata from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a> / <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>

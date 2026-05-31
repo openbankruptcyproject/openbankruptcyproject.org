@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>11 U.S.C. Section 365 - Executory Contracts and Unexpired Leases</title>
+<meta name="description" content="Guide to Section 365 of the Bankruptcy Code. Assumption, rejection, and assignment of executory contracts and unexpired leases in bankruptcy.">
+<link rel="canonical" href="https://openbankruptcyproject.org/section-365-executory-contracts.html">
+<meta property="og:title" content="11 U.S.C. Section 365 - Executory Contracts and Unexpired Leases">
+<meta property="og:description" content="Guide to Section 365 of the Bankruptcy Code. Assumption, rejection, and assignment of executory contracts and unexpired leases in bankruptcy.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/section-365-executory-contracts.html">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="11 U.S.C. Section 365 - Executory Contracts and Unexpired Leases">
+<meta name="twitter:description" content="Guide to Section 365 of the Bankruptcy Code. Assumption, rejection, and assignment of executory contracts and unexpired leases in bankruptcy.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"11 U.S.C. Section 365 - Executory Contracts and Unexpired Leases","description":"Guide to Section 365 of the Bankruptcy Code. Assumption, rejection, and assignment of executory contracts and unexpired leases in bankruptcy.","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://1328f.org"},"datePublished":"2026-04-02","dateModified":"2026-04-02","mainEntityOfPage":"https://openbankruptcyproject.org/section-365-executory-contracts.html"}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "11 U.S.C. Section 365 - Executory Contracts and Unexpired Leases",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "11 U.S.C. Section 365 - Executory Contracts and Unexpired Leases",
+          "item": "https://openbankruptcyproject.org/section-365-executory-contracts.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "11 U.S.C. Section 365 - Executory Contracts and Unexpired Leases",
+      "url": "https://openbankruptcyproject.org/section-365-executory-contracts.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-muted: #9eaab6;
+    --accent: #58a6ff;
+    --green: #3fb950;
+    --red: #f85149;
+    --yellow: #e3a835;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  nav .site-name {
+    color: #f0f6fc;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger {
+    display: none; background: none; border: 1px solid var(--border); color: var(--text);
+    font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1;
+  }
+  .breadcrumb {
+    max-width: 760px;
+    margin: 1rem auto 0;
+    padding: 0 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header {
+    background: linear-gradient(135deg, #0d2137, #122a44);
+    border-bottom: 1px solid var(--border);
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  header h1 {
+    color: #f0f6fc;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .content-section h2 {
+    color: #f0f6fc;
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .content-section h3 {
+    color: #f0f6fc;
+    font-size: 1.125rem;
+    margin: 1.5rem 0 0.75rem;
+  }
+  .content-section p {
+    color: var(--text);
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+  }
+  .content-section ul, .content-section ol {
+    margin: 0.75rem 0 0.75rem 1.5rem;
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box {
+    background: #21262d;
+    border-left: 3px solid var(--accent);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .statute-box p { margin-bottom: 0.5rem; }
+  .statute-box p:last-child { margin-bottom: 0; }
+  .warning-box {
+    background: #21262d;
+    border-left: 3px solid var(--red);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .warning-box p { margin-bottom: 0.5rem; }
+  .warning-box p:last-child { margin-bottom: 0; }
+  .green-box {
+    background: #21262d;
+    border-left: 3px solid var(--green);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .green-box p { margin-bottom: 0.5rem; }
+  .green-box p:last-child { margin-bottom: 0; }
+  .yellow-box {
+    background: #21262d;
+    border-left: 3px solid var(--yellow);
+    padding: 1rem 1.25rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+  }
+  .yellow-box p { margin-bottom: 0.5rem; }
+  .yellow-box p:last-child { margin-bottom: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+  th, td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid var(--border); }
+  th { color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+  .network-links {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 2;
+  }
+  .network-links strong { color: var(--text); }
+  footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 2rem;
+  }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a {
+      display: block; padding: 0.6rem 0; margin: 0;
+      font-size: 0.95rem; min-height: 44px; line-height: 2;
+      border-bottom: 1px solid #21262d;
+    }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+    table { font-size: 0.8rem; }
+    th, td { padding: 0.5rem 0.6rem; }
+  }
+</style>
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What Is Section 365?", "acceptedAnswer": {"@type": "Answer", "text": "Section 365 of Title 11 of the United States Code (Executory Contracts and Unexpired Leases) is a foundational provision of the Bankruptcy Code."}}, {"@type": "Question", "name": "How This Affects You?", "acceptedAnswer": {"@type": "Answer", "text": "Practical applications of Section 365: Residential leases: If you are renting and file Chapter 7, the trustee will almost always reject your residential lease (keeping it provides no value to the estate). You can typically remain in the apartment by continuing to pay rent directly to the landlord."}}]}
+</script>
+
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-365-executory-contracts.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/section-365-executory-contracts-es.html">
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a>
+    <a href="research.html">Research</a>
+    <a href="impact.html">Impact</a>
+    <a href="legal-aid.html">Legal Aid</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>11 U.S.C. Section 365 - Executory Contracts and Unexpired Leases</h1>
+  <p class="subtitle">Guide to Section 365 of the Bankruptcy Code. Assumption, rejection, and assignment of executory contracts and unexpired leases in bankruptcy.</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; 11 U.S.C. Section 365 - Executory Contracts and Unexpired Leases
+</div>
+
+<main>
+
+<div class="content-section">
+  <h2>What Is Section 365?</h2>
+  
+<p>Section 365 of Title 11 of the United States Code (Executory Contracts and Unexpired Leases) is a foundational provision of the Bankruptcy Code. It gives the trustee or <a href="https://section1191.org/" title="debtor in possession">debtor in possession</a> the power to assume (keep), reject (walk away from), or assign (transfer to a third party) executory contracts and unexpired leases. This is one of the most powerful tools in bankruptcy.</p>
+<div class="statute-box"><p><strong>Official citation:</strong> 11 U.S.C. &sect; 365</p></div>
+
+</div>
+
+<div class="content-section">
+  <h2>Key Provisions of Section 365</h2>
+  
+<p>Key provisions include:</p>
+<ul>
+<li><strong>365(a) - Power to Assume or Reject:</strong> Subject to court approval, the trustee may assume or reject any executory contract or unexpired lease. An executory contract is one where material obligations remain on both sides.</li>
+<li><strong>365(b) - Cure Requirements:</strong> To assume a contract, the debtor must cure any existing defaults, compensate the other party for actual losses, and provide adequate assurance of future performance.</li>
+<li><strong>365(c) - Anti-Assignment Provisions:</strong> Certain contracts cannot be assumed if applicable law excuses the other party from accepting performance from someone other than the debtor (personal service contracts, most government contracts).</li>
+<li><strong>365(d) - Timing:</strong> In <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a>, the trustee must assume or reject within 60 days of the order for relief (extendable by court). For nonresidential real property leases in <a href="https://section1191.org/" title="Chapter 11">Chapter 11</a>, the deadline is 120 days (extendable to 210 days).</li>
+<li><strong>365(f) - Assignment:</strong> The trustee may assign an executory contract or unexpired lease regardless of anti-assignment clauses, as long as defaults are cured and the assignee provides adequate assurance of future performance.</li>
+<li><strong>365(h)-(i) - Protections for Tenants and Licensees:</strong> If the debtor-landlord rejects a lease, the tenant can stay and continue paying rent. Similar protections exist for intellectual property licensees under 365(n).</li>
+</ul>
+
+</div>
+
+<div class="content-section">
+  <h2>How This Affects You</h2>
+  
+<p>Practical applications of Section 365:</p>
+<ul>
+<li><strong>Residential leases:</strong> If you are renting and file <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a>, the trustee will almost always reject your residential lease (keeping it provides no value to the estate). You can typically remain in the apartment by continuing to pay rent directly to the landlord.</li>
+<li><strong>Commercial leases:</strong> Business debtors in Chapter 11 often reject unprofitable leases to shed excess locations. Rejection caps the landlord's damage claim at the greater of one year's rent or 15% of the remaining term (up to 3 years).</li>
+<li><strong>Vehicle leases:</strong> You must decide within 60 days of filing (Chapter 7) whether to assume or reject. If you are current on payments and want to keep the car, you assume. If not, you reject and return the vehicle.</li>
+<li><strong>Service contracts:</strong> Cell phone contracts, gym memberships, and similar executory contracts can be rejected, treating any termination fee as a pre-petition unsecured claim.</li>
+</ul>
+<div class="green-box"><p><strong>Key insight:</strong> Rejection of an executory contract is treated as a pre-petition breach, making the resulting damage claim an unsecured claim dischargeable in bankruptcy. This converts potentially expensive ongoing obligations into pennies-on-the-dollar claims.</p></div>
+
+</div>
+
+<div class="content-section">
+  <h2>Related Bankruptcy Code Sections</h2>
+  
+<p>Section 365 works in conjunction with several other provisions of the Bankruptcy Code:</p>
+<ul>
+<li><a href="section-363-use-sale-lease-property.html">Section 363</a> - Use, sale, or lease of property</li>
+<li><a href="section-521-debtor-duties.html">Section 521</a> - Debtor duties (statement of intention for leases)</li>
+<li><a href="section-1322-contents-of-plan.html">Section 1322</a> - <a href="https://chapter13plan.org" title="Chapter 13 Repayment Plan - Open Bankruptcy Project" target="_blank" rel="noopener">Chapter 13 plan</a> treatment of contracts</li>
+</ul>
+<p>Understanding how these sections interact is critical for anyone navigating the bankruptcy process, whether as a debtor, creditor, or attorney.</p>
+
+</div>
+
+<div class="network-links">
+  <strong>Bankruptcy Tools Network:</strong><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Discharge Screener</a> &middot;
+    <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Research Platform</a> &middot;
+    <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Exemptions by State</a> &middot;
+    <a href="https://keepmycarinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your Car</a> &middot;
+    <a href="https://keepmyhouseinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your House</a> &middot;
+    <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Bankruptcy Cost</a> &middot;
+    <a href="https://filebankruptcywithoutlawyer.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">File Without a Lawyer</a> &middot;
+    <a href="https://rebuildcreditafterbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Rebuild Credit</a> &middot;
+    <a href="https://buyahouseafterbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Buy a House After</a> &middot;
+    <a href="https://buyacarafterbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Buy a Car After</a>
+</div>
+</main>
+
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+
+  <p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+  <p style="margin-bottom:0.5rem">
+    <a href="/">Home</a> &middot;
+    <a href="research.html">Research</a> &middot;
+    <a href="impact.html">Impact</a> &middot;
+    <a href="legal-aid.html">Legal Aid</a> &middot;
+    <a href="about.html">About</a> &middot;
+    <a href="contact.html">Contact</a>
+  </p>
+  <p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) nonprofit.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+<script src="/btn-engage.js" defer></script>
+<div style="text-align:center;padding:16px;color:#8b949e;font-size:0.8rem;border-top:1px solid #30363d;margin-top:20px"><p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p></div>
+<!-- BOOST-TOP10 internal links (boost_internal_links.py) -->
+<div class="boost-top10" style="max-width:820px;margin:2rem auto;padding:1.5rem;background:#0d1117;border:1px solid #238636;border-radius:8px">
+  <p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
+  <ul style="list-style:none;padding:0;margin:0">
+    <li style="margin-bottom:0.5rem"><a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Chapter 7 vs. Chapter 13 Comparison</a> <span style="color:#7d8590;font-size:0.8rem">-- chapter7vs13.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Bankruptcy Means Test by State</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcymeanstest.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://studentloanforgive.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loan Forgiveness Programs</a> <span style="color:#7d8590;font-size:0.8rem">-- studentloanforgive.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://1099cdebt.com/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">1099-C Cancellation of Debt Tax Guide</a> <span style="color:#7d8590;font-size:0.8rem">-- 1099cdebt.com</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://bankruptcystudentloans.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loans in Bankruptcy</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcystudentloans.org</span></li>
+  </ul>
+</div>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Is Your Bankruptcy Lawyer Doing a Good Job? - Open Bankruptcy Project</title>
+<meta content="How to evaluate your bankruptcy attorney: red flags, quality benchmarks, what to do if your lawyer is not performing, and where to report problems. Free resources from the Open Bankruptcy Project." name="description"/>
+<link href="https://openbankruptcyproject.org/hub-attorney-quality.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Is Your Bankruptcy Lawyer Doing a Good Job?" property="og:title"/>
+<meta content="Free guides to help you evaluate your bankruptcy attorney's performance - red flags, quality benchmarks, fee transparency, and what to do if things go wrong." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/hub-attorney-quality.html" property="og:url"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+            --green: #3fb950;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        .resource-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+            padding: 24px; margin-bottom: 16px; transition: border-color 0.2s, transform 0.2s;
+        }
+        .resource-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .resource-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; }
+        .resource-card h3 a { color: var(--text); }
+        .resource-card h3 a:hover { color: var(--accent); }
+        .resource-card .domain { font-size: 0.85rem; color: var(--accent); margin-bottom: 8px; }
+        .resource-card p { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0; line-height: 1.7; }
+
+        .hub-toc { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; margin-bottom: 32px; }
+        .hub-toc h2 { margin-top: 0; font-size: 1.1rem; margin-bottom: 12px; }
+        .hub-toc ul { list-style: none; margin: 0; padding: 0; }
+        .hub-toc li { margin-bottom: 6px; }
+        .hub-toc a { font-size: 0.95rem; }
+
+        .cta-box { background: linear-gradient(135deg, #161b22 0%, #1a2332 100%); border: 1px solid var(--green); border-radius: 10px; padding: 32px; margin: 40px 0; text-align: center; }
+        .cta-box p { color: var(--text); font-size: 1.05rem; margin-bottom: 16px; }
+        .cta-box a.btn { display: inline-block; background: var(--green); color: #fff; padding: 12px 28px; border-radius: 6px; font-weight: 600; font-size: 0.95rem; }
+        .cta-box a.btn:hover { background: #2ea043; color: #fff; }
+
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+        }
+    </style>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "name": "Is Your Bankruptcy Lawyer Doing a Good Job?",
+          "description": "Resources for evaluating bankruptcy attorney quality, identifying red flags, understanding fee transparency, and taking action when representation falls short.",
+          "url": "https://openbankruptcyproject.org/hub-attorney-quality.html",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+          },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Bankruptcy Attorney Ratings", "url": "https://bankruptcyattorneyratings.org"},
+              {"@type": "ListItem", "position": 2, "name": "Bankruptcy Lawyer Reviews", "url": "https://bankruptcylawyerreview.org"},
+              {"@type": "ListItem", "position": 3, "name": "Bankruptcy Mill Warning Signs", "url": "https://bankruptcymill.org"},
+              {"@type": "ListItem", "position": 4, "name": "Fired By My Bankruptcy Lawyer", "url": "https://firedbymybankruptcylawyer.com"},
+              {"@type": "ListItem", "position": 5, "name": "My Bankruptcy Lawyer Won't Call Back", "url": "https://mybankruptcylawyerwontcallback.com"},
+              {"@type": "ListItem", "position": 6, "name": "Bankruptcy Malpractice", "url": "https://bankruptcymalpractice.org"},
+              {"@type": "ListItem", "position": 7, "name": "Section 329 Fee Disclosure", "url": "https://section329.org"}
+            ]
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org"},
+            {"@type": "ListItem", "position": 2, "name": "Resource Hubs", "item": "https://openbankruptcyproject.org/hub-attorney-quality.html"},
+            {"@type": "ListItem", "position": 3, "name": "Is Your Bankruptcy Lawyer Doing a Good Job?"}
+          ]
+        }
+      ]
+    }
+    </script>
+<link href="https://openbankruptcyproject.org/hub-attorney-quality.html" hreflang="en" rel="alternate"/>
+<link href="https://openbankruptcyproject.org/hub-attorney-quality-es.html" hreflang="es" rel="alternate"/>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="methodology.html">Methodology</a>
+<a href="citations.html">Citations</a>
+<a href="press.html">Press</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">›</span><span>Is Your Bankruptcy Lawyer Doing a Good Job?</span></nav>
+<div class="page-header">
+<div class="container">
+<h1>Is Your Bankruptcy Lawyer Doing a Good Job?</h1>
+<p class="subtitle">How to evaluate your bankruptcy attorney's performance, spot red flags early, and know what to do if your representation is falling short.</p>
+</div>
+</div>
+<div class="content">
+<div class="container">
+<div class="hub-toc">
+<h2>On This Page</h2>
+<ul>
+<li><a href="#overview">Evaluating Your Attorney</a></li>
+<li><a href="#ratings">Attorney Ratings and Research</a></li>
+<li><a href="#reviews">Reading Lawyer Reviews</a></li>
+<li><a href="#mill-warning">Bankruptcy Mill Warning Signs</a></li>
+<li><a href="#fired">When Your Lawyer Drops You</a></li>
+<li><a href="#communication">When Your Lawyer Won't Respond</a></li>
+<li><a href="#malpractice">Bankruptcy Malpractice</a></li>
+<li><a href="#fees">Fee Transparency Under Section 329</a></li>
+</ul>
+</div>
+<h2 id="overview">How to Evaluate Your Bankruptcy Attorney</h2>
+<p>Hiring a bankruptcy attorney is one of the most important decisions in your case, but most people have no framework for evaluating whether their lawyer is actually doing a good job. Bankruptcy is a specialized area of law, and the quality of representation varies enormously. Some attorneys handle hundreds of cases per year with assembly-line efficiency, while others provide individualized attention to each client. If cost is your primary concern, our guide to finding a <a href="https://cheapbankruptcylawyer.org/" title="affordable bankruptcy lawyer">low-cost bankruptcy lawyer</a> explains how to find quality representation at an affordable price without sacrificing service.</p>
+<p>This resource hub collects free guides from the Bankruptcy Transparency Network to help you evaluate your attorney's performance, identify warning signs, understand your rights as a client, and take action if something goes wrong. These resources are maintained by the Open Bankruptcy Project with no ads, no attorney referral fees, and no conflicts of interest.</p>
+<p>The red flags to watch for include: your attorney does not return calls within 48 hours, you have never met the attorney who signed your petition, your case was filed with errors you were not asked to review, deadlines are being missed, or you feel pressured to sign documents you do not understand.</p>
+<h2 id="ratings">Researching Attorney Quality</h2>
+<div class="resource-card">
+<h3><a href="https://bankruptcyattorneyratings.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=hub-attorney-quality&amp;utm_campaign=btn-hub" rel="noopener" target="_blank">How to Research Bankruptcy Attorney Quality</a></h3>
+<div class="domain">bankruptcyattorneyratings.org</div>
+<p>A guide to researching bankruptcy attorneys before you hire one and evaluating the one you already have. Covers how to check bar standing, disciplinary history, court filing records, and case outcomes. Explains what attorney ratings actually measure, which rating systems are reliable, and how to use public court records to evaluate an attorney's track record in your specific district.</p>
+</div>
+<h2 id="reviews">Reading Bankruptcy Lawyer Reviews</h2>
+<div class="resource-card">
+<h3><a href="https://bankruptcylawyerreview.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=hub-attorney-quality&amp;utm_campaign=btn-hub" rel="noopener" target="_blank">Bankruptcy Lawyer Reviews: What to Look For</a></h3>
+<div class="domain">bankruptcylawyerreview.org</div>
+<p>How to read and interpret bankruptcy lawyer reviews effectively. Covers the difference between paid review platforms and organic reviews, how to spot fake or incentivized reviews, what specific complaints signal real problems versus normal client frustration, and how to use reviews alongside public court data to get an accurate picture of an attorney's practice quality.</p>
+</div>
+<h2 id="mill-warning">Bankruptcy Mill Warning Signs</h2>
+<p>A "<a href="https://bankruptcymill.com/" title="bankruptcy mill">bankruptcy mill</a>" is a high-volume law firm that processes cases on an assembly line with minimal attorney involvement. Mill clients often never meet the attorney who signs their petition, receive no individualized legal analysis, and experience higher rates of <a href="https://dismissedbankruptcy.org/" title="dismissal">case dismissal</a>. Recognizing the signs early can prevent serious harm to your case. Mill practices have been documented in cities across the country, including <a href="https://clevelandbankruptcymill.com/" title="Cleveland bankruptcy mill">Cleveland</a>, <a href="https://milwaukeebankruptcymill.com/" title="Milwaukee bankruptcy mill">Milwaukee</a>, <a href="https://lasvegasbankruptcymill.com/" title="Las Vegas bankruptcy mill">Las Vegas</a>, and <a href="https://memphisbankruptcymill.com/" title="Memphis bankruptcy mill">Memphis</a>. To understand <a href="https://whatmilllaw.org/" title="what is mill law">what mill law means</a> and how courts define these practices, see our dedicated guide.</p>
+<div class="resource-card">
+<h3><a href="https://bankruptcymill.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=hub-attorney-quality&amp;utm_campaign=btn-hub" rel="noopener" target="_blank">Bankruptcy Mills: What They Are and How to Spot Them</a></h3>
+<div class="domain">bankruptcymill.org</div>
+<p>An educational guide to high-volume bankruptcy practices and the risks they pose to clients. Covers the structural characteristics of mill operations, how to check an attorney's case volume using public records, what the <a href="https://www.justice.gov/ust" rel="noopener" target="_blank">U.S. Trustee Program</a> looks for when investigating mill practices, and the connection between high volume and elevated <a href="https://dismissedbankruptcy.org/" title="dismissal">dismissal rates</a>. Includes information on how courts have addressed mill conduct under <a href="https://section329.org/" title="Section 329">11 U.S.C. section 329</a>.</p>
+</div>
+<h2 id="fired">When Your Lawyer Drops Your Case</h2>
+<div class="resource-card">
+<h3><a href="https://firedbymybankruptcylawyer.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=hub-attorney-quality&amp;utm_campaign=btn-hub" rel="noopener" target="_blank">Fired By My Bankruptcy Lawyer: What to Do Next</a></h3>
+<div class="domain">firedbymybankruptcylawyer.com</div>
+<p>If your bankruptcy attorney has moved to withdraw from your case, you need to act quickly. This guide explains the withdrawal process, your rights when an attorney seeks to withdraw mid-case, how to respond to the court, and what options you have - including finding new counsel, proceeding <a href="https://prosebankruptcy.org/" title="pro se">pro se</a>, or objecting to the withdrawal. Covers the critical deadlines you face when your attorney exits and how to protect your case from dismissal.</p>
+</div>
+<h2 id="communication">When Your Lawyer Won't Call Back</h2>
+<div class="resource-card">
+<h3><a href="https://mybankruptcylawyerwontcallback.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=hub-attorney-quality&amp;utm_campaign=btn-hub" rel="noopener" target="_blank">My Bankruptcy Lawyer Won't Call Back: Your Options</a></h3>
+<div class="domain">mybankruptcylawyerwontcallback.com</div>
+<p>Communication breakdown is the most common complaint against bankruptcy attorneys. This guide explains what level of communication you should expect, how to document failed attempts to reach your attorney, when lack of communication crosses the line into an ethics violation, and the formal steps you can take - from written demand letters to bar complaints. Includes state-by-state links to attorney disciplinary authorities.</p>
+</div>
+<h2 id="malpractice">Bankruptcy Malpractice</h2>
+<div class="resource-card">
+<h3><a href="https://bankruptcymalpractice.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=hub-attorney-quality&amp;utm_campaign=btn-hub" rel="noopener" target="_blank">Bankruptcy Malpractice: When Attorney Errors Cause Harm</a></h3>
+<div class="domain">bankruptcymalpractice.org</div>
+<p>When a bankruptcy attorney's errors cause you to lose property, miss <a href="https://bankruptcyexemptionsbystate.com/" title="exemptions">exemptions</a>, or have your <a href="https://dismissedbankruptcy.org/" title="dismissal">case dismissed</a>, you may have a malpractice claim. This guide explains the elements of legal malpractice in bankruptcy, common forms of attorney negligence (missed deadlines, incorrect schedules, failure to claim exemptions), how to find a legal malpractice attorney, and the statutes of limitations that apply. Covers both individual claims and patterns of firm-wide negligence.</p>
+</div>
+<h2 id="fees">Fee Transparency Under <a href="https://www.law.cornell.edu/uscode/text/11/329" rel="noopener" target="_blank">Section 329</a></h2>
+<p>Federal law requires bankruptcy attorneys to disclose their fees and the services those fees cover. Under <a href="https://section329.org/" title="Section 329">11 U.S.C. section 329</a>, the court has the power to review attorney fee agreements and order refunds of excessive fees. If you believe your attorney charged too much or did not deliver the services promised, the bankruptcy court itself can intervene.</p>
+<div class="resource-card">
+<h3><a href="https://section329.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=hub-attorney-quality&amp;utm_campaign=btn-hub" rel="noopener" target="_blank">Section 329: Attorney Fee Disclosure in Bankruptcy</a></h3>
+<div class="domain">section329.org</div>
+<p>A detailed explanation of the federal fee disclosure requirements for bankruptcy attorneys. Covers what information must be disclosed in the <a href="https://www.law.cornell.edu/rules/frbp/rule_2016" rel="noopener" target="_blank">Rule 2016(b)</a> statement, how courts evaluate whether fees are reasonable, the <a href="https://section329.org/" title="Section 329(b)">disgorgement</a> process for excessive fees, and how the U.S. Trustee monitors attorney fee practices. Includes case examples of courts ordering fee refunds and the standards used to evaluate fee reasonableness in different districts.</p>
+</div>
+<div class="cta-box">
+<p><strong>Need to check if you are eligible for a bankruptcy <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a>?</strong><br/>Our free screening tool checks your filing history against federal discharge bars in seconds.</p>
+<a class="btn" href="https://1328f.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=hub-attorney-quality&amp;utm_campaign=btn-cta" rel="noopener" target="_blank">Try the Free Screener</a>
+</div>
+<h2>Related Resource Hubs</h2>
+<ul>
+<li><a href="hub-filing.html">How to File Bankruptcy</a> - Step-by-step filing guides</li>
+<li><a href="hub-debt-types.html">Bankruptcy by Debt Type</a> - Find guidance specific to your type of debt</li>
+<li><a href="hub-protect-assets.html">Protecting Your Assets</a> - Keep your car, home, and property</li>
+<li><a href="hub-after-bankruptcy.html">Life After Bankruptcy</a> - Rebuilding credit and moving forward</li>
+</ul>
+</div>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="about.html">About</a>
+<a href="research.html">Research</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+<a href="https://github.com/ilikemath9999" rel="noopener" target="_blank">GitHub</a>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+<a href="donate.html">Donate</a>
+</div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+<p>All tools and data released under open-source licenses.</p>
+</div>
+<p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

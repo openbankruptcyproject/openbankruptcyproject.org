@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Credit Bid Mechanics Under Section 363(k) - Open Bankruptcy Project</title>
+<meta name="description" content="Deep-dive on credit bid mechanics under 11 U.S.C. Section 363(k) and RadLAX Gateway Hotel v. Amalgamated Bank: secured creditor right to credit bid, modification for cause, debt as bid currency.">
+<link rel="canonical" href="https://openbankruptcyproject.org/section-363-asset-sales/credit-bid-mechanics/">
+<meta property="og:title" content="Credit Bid Mechanics Under Section 363(k)">
+<meta property="og:description" content="Deep-dive on credit bid mechanics under 11 U.S.C. Section 363(k) and RadLAX Gateway Hotel v. Amalgamated Bank: secured creditor right to credit bid, modification for cause, debt as bid currency.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/section-363-asset-sales/credit-bid-mechanics/">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="Credit Bid Mechanics Under Section 363(k)">
+<meta name="twitter:description" content="Deep-dive on credit bid mechanics under 11 U.S.C. Section 363(k) and RadLAX Gateway Hotel v. Amalgamated Bank: secured creditor right to credit bid, modification for cause, debt as bid currency.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Credit Bid Mechanics Under Section 363(k)","description":"Deep-dive on credit bid mechanics under 11 U.S.C. Section 363(k) and RadLAX Gateway Hotel v. Amalgamated Bank: secured creditor right to credit bid, modification for cause, debt as bid currency.","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},"datePublished":"2026-05-22","dateModified":"2026-05-22","mainEntityOfPage":"https://openbankruptcyproject.org/section-363-asset-sales/credit-bid-mechanics/"}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem","position": 1,"name": "Home","item": "https://openbankruptcyproject.org"},
+        {"@type": "ListItem","position": 2,"name": "Section 363 Asset Sales","item": "https://openbankruptcyproject.org/section-363-use-sale-lease-property.html"},
+        {"@type": "ListItem","position": 3,"name": "Credit Bid Mechanics","item": "https://openbankruptcyproject.org/section-363-asset-sales/credit-bid-mechanics/"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "Credit Bid Mechanics Under Section 363(k)",
+      "url": "https://openbankruptcyproject.org/section-363-asset-sales/credit-bid-mechanics/",
+      "speakable": {"@type": "SpeakableSpecification","cssSelector": [".quick-answer","h1",".summary","p:first-of-type"]}
+    }
+  ]
+}
+</script>
+<style>
+  :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-muted: #9eaab6; --accent: #58a6ff; --green: #3fb950; --red: #f85149; --yellow: #e3a835; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  nav .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger { display: none; background: none; border: 1px solid var(--border); color: var(--text); font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1; }
+  .breadcrumb { max-width: 760px; margin: 1rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; color: var(--text-muted); }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header { background: linear-gradient(135deg, #0d2137, #122a44); border-bottom: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+  header h1 { color: #f0f6fc; font-size: 2rem; margin-bottom: 0.75rem; }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle { color: var(--text-muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 1.5rem; }
+  .content-section h2 { color: #f0f6fc; font-size: 1.375rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .content-section h3 { color: #f0f6fc; font-size: 1.125rem; margin: 1.5rem 0 0.75rem; }
+  .content-section p { color: var(--text); margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .content-section ul, .content-section ol { margin: 0.75rem 0 0.75rem 1.5rem; color: var(--text); font-size: 0.95rem; }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box { background: #21262d; border-left: 3px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .warning-box { background: #21262d; border-left: 3px solid var(--red); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .green-box { background: #21262d; border-left: 3px solid var(--green); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .yellow-box { background: #21262d; border-left: 3px solid var(--yellow); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+  th, td { padding: 0.6rem 1rem; text-align: left; border-bottom: 1px solid var(--border); }
+  th { color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+  footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 2rem; }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a { display: block; padding: 0.6rem 0; margin: 0; font-size: 0.95rem; min-height: 44px; line-height: 2; border-bottom: 1px solid #21262d; }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+    table { font-size: 0.8rem; }
+    th, td { padding: 0.5rem 0.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a>
+    <a href="/research.html">Research</a>
+    <a href="/impact.html">Impact</a>
+    <a href="/legal-aid.html">Legal Aid</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Credit Bid Mechanics Under <span class="accent">Section 363(k)</span></h1>
+  <p class="subtitle">The secured creditor's right to credit bid; modification for cause; debt as bid currency; the RadLAX rule.</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/section-363-use-sale-lease-property.html">Section 363</a> &rsaquo; Credit Bid Mechanics
+</div>
+
+<main>
+
+<div class="content-section">
+  <h2>What a Credit Bid Is</h2>
+  <p>A credit bid is the secured creditor's right to offset its allowed secured claim against the purchase price at a Section 363 sale of its collateral. Instead of paying cash and then receiving cash back as distribution on its claim, the secured creditor simply tenders its debt &mdash; up to the full amount of the allowed claim &mdash; as currency for the asset. The mechanic is grounded in Section 363(k), one of the most consequential single sentences in Chapter 11 practice.</p>
+  <div class="statute-box"><p><strong>Statutory text &mdash; 11 U.S.C. &sect; 363(k):</strong> "At a sale under subsection (b) of this section of property that is subject to a lien that secures an allowed claim, unless the court for cause orders otherwise the holder of such claim may bid at such sale, and, if the holder of such claim purchases such property, such holder may offset such claim against the purchase price of such property."</p></div>
+  <p>The text establishes three propositions: (1) the secured creditor has a presumptive right to bid; (2) the right may be denied only "for cause"; and (3) where the secured creditor is the successful bidder, it may offset its claim against the purchase price &mdash; the credit bid mechanic itself.</p>
+</div>
+
+<div class="content-section">
+  <h2>The Economic Logic</h2>
+  <p>The credit-bid right exists because the secured creditor already owns the economic value of its collateral up to the amount of its allowed secured claim under Section 506(a). Requiring the creditor to bid cash and then receive cash distributions would impose a wasteful round-trip. More importantly, credit bidding protects the secured creditor against sale at a price that does not reflect the asset's intrinsic value. If the auction process produces a low cash bid, the secured creditor can take the asset itself rather than be cashed out at the depressed price.</p>
+  <p>This protection is what makes secured lending in distressed contexts viable. Without credit-bid rights, a debtor or junior stakeholder could orchestrate a sale at a fire-sale price, distribute the proceeds, and leave the secured creditor with a depressed recovery even though the underlying asset value supported a fuller payment. Credit bidding gives the secured creditor an inside option: accept the cash bid (and the implied valuation) or take the asset and find its own buyer at a price the creditor believes is fair.</p>
+</div>
+
+<div class="content-section">
+  <h2>The RadLAX Rule</h2>
+  <p>The Supreme Court's 2012 decision in <em>RadLAX Gateway Hotel, LLC v. Amalgamated Bank</em>, 566 U.S. 639 (2012), resolved a circuit split over whether a Chapter 11 plan could be confirmed under the cramdown provisions of Section 1129(b)(2)(A)(iii) by selling the secured creditor's collateral free and clear of liens without permitting the secured creditor to credit bid. The Court held unanimously that it could not.</p>
+  <p>The Court reasoned that Section 1129(b)(2)(A) sets out three alternatives for cramming down a secured creditor: (i) leaving the lien in place and providing deferred cash payments with present value at least equal to the secured claim; (ii) selling the collateral free and clear with the lien attaching to the proceeds, subject to Section 363(k); or (iii) providing the "indubitable equivalent." The debtors in RadLAX attempted to use clause (iii) &mdash; the indubitable-equivalent route &mdash; to sell collateral without permitting credit bidding, on the theory that all-cash proceeds were the indubitable equivalent. The Court rejected this as an end-run around clause (ii)'s explicit cross-reference to Section 363(k).</p>
+  <div class="green-box"><p><strong>The doctrinal holding:</strong> When a Chapter 11 plan proposes to sell encumbered collateral free and clear of the secured creditor's lien, the plan must permit the secured creditor to credit bid under Section 363(k). The "indubitable equivalent" alternative cannot be used to circumvent this requirement. <em>RadLAX</em> establishes that the credit-bid right is a structural feature of secured-creditor protection that cannot be drafted around in plan formulation.</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Modification "For Cause"</h2>
+  <p>Section 363(k)'s "unless the court for cause orders otherwise" clause permits modification or denial of credit-bid rights in appropriate cases. Courts have identified a non-exhaustive list of circumstances in which "cause" may exist:</p>
+  <ul>
+    <li><strong>Disputed claim or lien validity:</strong> Where the secured creditor's claim or lien is in bona fide dispute and a credit bid would prejudice the estate by foreclosing resolution of the dispute.</li>
+    <li><strong>Chilling effect on the auction:</strong> Where the credit-bid right would deter other bidders from participating, depressing the price the estate ultimately realizes.</li>
+    <li><strong>Inequitable conduct:</strong> Where the secured creditor has engaged in conduct that would warrant equitable subordination or other relief.</li>
+    <li><strong>Strategic acquisition for non-bona-fide purpose:</strong> Where the credit bid is being used to acquire collateral for an improper purpose unrelated to maximizing recovery on the secured claim.</li>
+    <li><strong>Lender-debtor misconduct:</strong> Where the secured creditor has acted in concert with insiders to undermine the sale process.</li>
+  </ul>
+  <p>The leading articulation of the chilling-effect rationale appears in <em>In re Fisker Automotive Holdings, Inc.</em>, 510 B.R. 55 (Bankr. D. Del. 2014), where the court capped the secured creditor's credit-bid right at the price the creditor had paid for the underlying debt &mdash; finding that an uncapped credit bid would chill the auction and frustrate the sale process. The decision remains controversial but is widely cited in cause-based modification disputes.</p>
+  <div class="warning-box"><p><strong>The burden of proof:</strong> Cause to deny or modify credit-bid rights is on the party seeking modification. The default under Section 363(k) is that credit bidding is permitted; the proponent of modification must establish cause by competent evidence, not mere conjecture about possible chilling effects.</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Mechanics of Tendering a Credit Bid</h2>
+  <p>Court-approved bidding procedures typically address credit-bid mechanics explicitly. Standard provisions include:</p>
+  <ul>
+    <li><strong>Bid increment treatment:</strong> Whether the secured creditor is required to credit bid only in cash-equivalent overbid increments, or whether the credit bid can be matched cent-for-cent against a cash overbid.</li>
+    <li><strong>Cash component for non-collateral assets:</strong> Where the sale includes both collateral and non-collateral assets, the secured creditor is generally required to bid cash for the value attributable to non-collateral assets.</li>
+    <li><strong>Cash component for administrative claims:</strong> Many sale orders require the secured creditor to fund administrative claims, cure costs for assumed contracts, and other estate expenses in cash, regardless of credit-bid rights against the asset value.</li>
+    <li><strong>Allocation of credit bid against multiple assets:</strong> In multi-asset sales, the secured creditor's credit bid may be allocated among the assets, with overbids permitted on individual lots.</li>
+    <li><strong>Stalking horse credit bids:</strong> Secured creditors increasingly serve as stalking-horse bidders with credit-bid components, entitled to a break-up fee if outbid in cash.</li>
+  </ul>
+</div>
+
+<div class="content-section">
+  <h2>The Allowed-Claim Limitation</h2>
+  <p>Section 363(k) speaks of "an allowed claim." Where the allowance of the underlying secured claim is disputed &mdash; whether on validity, priority, extent, or amount &mdash; a credit bid cannot exceed the amount of the claim ultimately allowed. Practitioners often address this by requiring the credit bidder to post a cash reserve in the amount of the disputed portion, or by structuring the bid as contingent on subsequent allowance.</p>
+  <p>The allowed-claim limitation also caps the credit bid at the allowed secured amount under Section 506(a). A claim that is undersecured produces a bifurcated treatment: the secured portion may be credit-bid; the unsecured deficiency portion cannot. In single-asset cases, this distinction usually does not matter (because the asset value sets the secured amount), but in multi-asset sales the allocation is consequential.</p>
+</div>
+
+<div class="content-section">
+  <h2>Related Provisions and Deep Dives</h2>
+  <ul>
+    <li><a href="/section-363-asset-sales/asset-purchase-mechanics/">Asset purchase mechanics under Section 363(b)</a>.</li>
+    <li><a href="/section-363-asset-sales/free-and-clear/">Free-and-clear sales under Section 363(f)</a>.</li>
+    <li><a href="/section-363-asset-sales/stalking-horse-auction/">Stalking horse and auction procedure</a> &mdash; how credit bids interact with auction structure.</li>
+    <li><a href="/section-363-asset-sales/court-approval-standards/">Court approval standards</a>.</li>
+    <li><a href="/section-506-secured-status.html">Section 506</a> &mdash; secured status and valuation, which determines credit-bid cap.</li>
+  </ul>
+</div>
+
+<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;margin:1rem 0">Last modified: 2026-05-22</p>
+
+</main>
+
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by <a href="/donate.html">donations</a>.</p>
+  <p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+  <p style="margin-bottom:0.5rem">
+    <a href="/">Home</a> &middot;
+    <a href="/research.html">Research</a> &middot;
+    <a href="/impact.html">Impact</a> &middot;
+    <a href="/legal-aid.html">Legal Aid</a> &middot;
+    <a href="/about.html">About</a> &middot;
+    <a href="/contact.html">Contact</a>
+  </p>
+  <p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+</footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>

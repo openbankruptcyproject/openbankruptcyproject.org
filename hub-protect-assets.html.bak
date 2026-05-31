@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+    <title>Protecting Your Assets in Bankruptcy - Open Bankruptcy Project</title>
+    <meta name="description" content="How to protect your car, home, and property in bankruptcy: exemptions by state, automatic stay protections, relief from stay defense, and asset preservation strategies. Free resources from the Open Bankruptcy Project.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/hub-protect-assets.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    <meta property="og:title" content="Protecting Your Assets in Bankruptcy">
+    <meta property="og:description" content="Free guides to protecting your car, home, and property during bankruptcy - exemptions, automatic stay, relief from stay, and asset preservation strategies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/hub-protect-assets.html">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/og-image.svg">
+
+    <!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+            --green: #3fb950;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        .resource-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+            padding: 24px; margin-bottom: 16px; transition: border-color 0.2s, transform 0.2s;
+        }
+        .resource-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .resource-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; }
+        .resource-card h3 a { color: var(--text); }
+        .resource-card h3 a:hover { color: var(--accent); }
+        .resource-card .domain { font-size: 0.85rem; color: var(--accent); margin-bottom: 8px; }
+        .resource-card p { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0; line-height: 1.7; }
+
+        .hub-toc { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; margin-bottom: 32px; }
+        .hub-toc h2 { margin-top: 0; font-size: 1.1rem; margin-bottom: 12px; }
+        .hub-toc ul { list-style: none; margin: 0; padding: 0; }
+        .hub-toc li { margin-bottom: 6px; }
+        .hub-toc a { font-size: 0.95rem; }
+
+        .cta-box { background: linear-gradient(135deg, #161b22 0%, #1a2332 100%); border: 1px solid var(--green); border-radius: 10px; padding: 32px; margin: 40px 0; text-align: center; }
+        .cta-box p { color: var(--text); font-size: 1.05rem; margin-bottom: 16px; }
+        .cta-box a.btn { display: inline-block; background: var(--green); color: #fff; padding: 12px 28px; border-radius: 6px; font-weight: 600; font-size: 0.95rem; }
+        .cta-box a.btn:hover { background: #2ea043; color: #fff; }
+
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "name": "Protecting Your Assets in Bankruptcy",
+          "description": "Comprehensive collection of free resources for protecting property during bankruptcy, including car and home retention guides, exemption lookups, automatic stay protections, and relief from stay defense.",
+          "url": "https://openbankruptcyproject.org/hub-protect-assets.html",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+          },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Keep My Car in Bankruptcy", "url": "https://keepmycarinbankruptcy.com"},
+              {"@type": "ListItem", "position": 2, "name": "Keep My House in Bankruptcy", "url": "https://keepmyhouseinbankruptcy.com"},
+              {"@type": "ListItem", "position": 3, "name": "Bankruptcy Exemptions by State", "url": "https://bankruptcyexemptionsbystate.com"},
+              {"@type": "ListItem", "position": 4, "name": "Automatic Stay", "url": "https://automaticstay.org"},
+              {"@type": "ListItem", "position": 5, "name": "Relief From Stay", "url": "https://relieffromstay.org"}
+            ]
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org"},
+            {"@type": "ListItem", "position": 2, "name": "Resource Hubs", "item": "https://openbankruptcyproject.org/hub-protect-assets.html"},
+            {"@type": "ListItem", "position": 3, "name": "Protecting Your Assets in Bankruptcy"}
+          ]
+        }
+      ]
+    }
+    </script>
+
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/hub-protect-assets.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/hub-protect-assets-es.html">
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="methodology.html">Methodology</a>
+            <a href="citations.html">Citations</a>
+            <a href="press.html">Press</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">&rsaquo;</span><span>Protecting Your Assets in Bankruptcy</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Protecting Your Assets in Bankruptcy</h1>
+        <p class="subtitle">The fear of losing everything keeps many people from filing bankruptcy. The reality is that most filers keep most or all of their property. Learn how <a href="https://bankruptcyexemptionsbystate.com/" title="exemptions">exemptions</a> and the <a href="https://automaticstay.org/" title="automatic stay">automatic stay</a> work to protect what you own.</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <div class="hub-toc">
+            <h2>On This Page</h2>
+            <ul>
+                <li><a href="#overview">Asset Protection Overview</a></li>
+                <li><a href="#car">Keeping Your Car</a></li>
+                <li><a href="#house">Keeping Your House</a></li>
+                <li><a href="#exemptions">Exemptions by State</a></li>
+                <li><a href="#automatic-stay">The Automatic Stay</a></li>
+                <li><a href="#relief-from-stay">Relief From Stay</a></li>
+            </ul>
+        </div>
+
+        <h2 id="overview">How Asset Protection Works in Bankruptcy</h2>
+        <p>One of the biggest misconceptions about bankruptcy is that you lose everything. In reality, bankruptcy law is designed to give you a fresh start while letting you keep the property you need to live and work. The tools for protecting your assets are called exemptions - federal and state laws that put specific types and amounts of property beyond the reach of creditors and the <a href="https://bankruptcytrustee.org/" title="trustee">bankruptcy trustee</a>. Before filing, review our guide on <a href="https://whatnottobeforebankruptcy.com/" title="what not to do before bankruptcy">what not to do before bankruptcy</a> to avoid actions that could jeopardize your exemptions.</p>
+        <p>In a <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> case, exemptions determine which property the <a href="https://bankruptcytrustee.org/" title="trustee">trustee</a> can sell to pay creditors. If all your property is exempt, you keep everything. In a <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> case, exemptions determine the minimum amount you must pay unsecured creditors through your repayment plan. Either way, understanding your exemptions before filing is essential to protecting your property.</p>
+        <p>This resource hub collects the best free guides from the Bankruptcy Transparency Network covering asset protection strategies by property type. Each resource is maintained by the Open Bankruptcy Project with no ads, no attorney referral fees, and no sales pitches.</p>
+
+        <h2 id="car">Keeping Your Car in Bankruptcy</h2>
+        <p>For most people, losing a vehicle would mean losing the ability to get to work. Bankruptcy law provides several paths to keeping your car, depending on which chapter you file and how much equity you have. Options include claiming the vehicle exemption, <a href="https://reaffirmationagreement.com/" title="reaffirmation">reaffirming</a> the loan, redeeming the vehicle at fair market value, or including car payments in a <a href="https://chapter13plan.org/" title="Chapter 13 plan">Chapter 13 plan</a> - sometimes at a reduced interest rate through <a href="https://cramdown.org/" title="cramdown">cramdown</a>. If you are behind on payments, you may also have a <a href="https://righttocure.org/" title="right to cure default">right to cure the default</a> under state law before the lender can repossess.</p>
+        <div class="resource-card">
+            <h3><a href="https://keepmycarinbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets&utm_campaign=btn-hub" target="_blank" rel="noopener">Keep My Car in Bankruptcy: Complete Guide</a></h3>
+            <div class="domain">keepmycarinbankruptcy.com</div>
+            <p>Everything you need to know about keeping your vehicle through bankruptcy. Covers state-by-state vehicle exemption amounts, the difference between <a href="https://reaffirmationagreement.org/" title="reaffirmation agreement">reaffirmation</a> and redemption, how <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> can lower your car payment through <a href="https://section1192.org/" title="cramdown">cramdown</a>, what happens if you are behind on payments, and how to handle situations where you owe more than the car is worth. Includes guidance on leased vehicles and multi-vehicle households.</p>
+        </div>
+
+        <h2 id="house">Keeping Your House in Bankruptcy</h2>
+        <p>Your home is likely your most valuable asset and the one you are most worried about. Whether you can keep your home depends on your equity, your state's homestead exemption, and which chapter you file. <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> is particularly powerful for homeowners because it allows you to cure mortgage arrears over 3-5 years while keeping your home - something <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> cannot do.</p>
+        <div class="resource-card">
+            <h3><a href="https://keepmyhouseinbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets&utm_campaign=btn-hub" target="_blank" rel="noopener">Keep My House in Bankruptcy: Homeowner's Guide</a></h3>
+            <div class="domain">keepmyhouseinbankruptcy.com</div>
+            <p>A comprehensive guide to protecting your home in bankruptcy. Covers homestead exemptions by state, how to calculate your home equity for bankruptcy purposes, the mortgage arrears cure process in Chapter 13, how to handle second mortgages and home equity lines, and what happens to your home if you file Chapter 7 with non-exempt equity. Includes special situations like inherited property, divorce transfers, and homes with co-owners who are not filing.</p>
+        </div>
+
+        <h2 id="exemptions">Exemptions by State</h2>
+        <div class="resource-card">
+            <h3><a href="https://bankruptcyexemptionsbystate.com/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets&utm_campaign=btn-hub" target="_blank" rel="noopener">Bankruptcy Exemptions by State</a></h3>
+            <div class="domain">bankruptcyexemptionsbystate.com</div>
+            <p>A state-by-state breakdown of <a href="https://bankruptcyexemptionsbystate.com/" title="exemptions">bankruptcy exemptions</a> covering homestead, vehicle, personal property, retirement accounts, and wildcard exemptions. Explains which states allow the federal exemption set, how to calculate equity for exemption purposes, and common exemption planning strategies. Includes current dollar amounts, statutory citations, and information on states that have recently updated their exemption levels.</p>
+        </div>
+
+        <h2 id="automatic-stay">The Automatic Stay</h2>
+        <p>The moment you file a bankruptcy petition, an <a href="https://automaticstay.org/" title="automatic stay">automatic stay</a> goes into effect under <a href="https://automaticstay.org/" title="Section 362">11 U.S.C. section 362</a>. This is a federal court order that immediately stops most collection actions - lawsuits, wage garnishments, <a href="https://foreclosurebankruptcy.com/" title="foreclosure">foreclosures</a>, repossessions, phone calls, and letters. If you are currently <a href="https://suedfordebt.org/" title="sued for debt">being sued for a debt</a>, the automatic stay halts that lawsuit the moment you file. Any creditor who violates the stay can be held in contempt and ordered to pay damages.</p>
+        <div class="resource-card">
+            <h3><a href="https://automaticstay.org/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets&utm_campaign=btn-hub" target="_blank" rel="noopener">The Automatic Stay: Your Immediate Protection</a></h3>
+            <div class="domain">automaticstay.org</div>
+            <p>A complete guide to the automatic stay in bankruptcy. Covers what actions are stopped, what actions are not stopped (certain tax proceedings, criminal cases, domestic support), how long the stay lasts, what to do if a creditor violates the stay, and the special rules for repeat filers that limit the stay's duration. Includes information on how to seek emergency bankruptcy filing when repossession or foreclosure is imminent.</p>
+        </div>
+
+        <h2 id="relief-from-stay">Relief From Stay</h2>
+        <p>Creditors can ask the court to lift the automatic stay so they can proceed with collection - typically to repossess a vehicle or foreclose on a home. Understanding the <a href="https://relieffromstay.org/" title="relief from stay">relief from stay</a> process and how to defend against it is critical to protecting your property during your case.</p>
+        <div class="resource-card">
+            <h3><a href="https://relieffromstay.org/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets&utm_campaign=btn-hub" target="_blank" rel="noopener">Relief From Stay: Defending Your Property</a></h3>
+            <div class="domain">relieffromstay.org</div>
+            <p>Explains the relief from stay process from the debtor's perspective. Covers the grounds creditors use to seek stay relief (lack of <a href="https://relieffromstay.org/" title="adequate protection">adequate protection</a>, no equity, property not necessary for reorganization), how to respond to a relief from stay motion, what evidence you need, and the timeline for hearings. Includes strategies for defeating stay relief motions and information on conditional orders that allow you to keep property while making adequate protection payments.</p>
+        </div>
+
+        <div class="cta-box">
+            <p><strong>Need to check if you are eligible for a bankruptcy <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a>?</strong><br>Our free screening tool checks your filing history against federal discharge bars in seconds.</p>
+            <a href="https://1328f.com/?utm_source=openbankruptcyproject.org&utm_medium=hub-protect-assets&utm_campaign=btn-cta" class="btn" target="_blank" rel="noopener">Try the Free Screener</a>
+        </div>
+
+        <h2>Related Resource Hubs</h2>
+        <ul>
+            <li><a href="hub-filing.html">How to File Bankruptcy</a> - Step-by-step filing guides</li>
+            <li><a href="hub-debt-types.html">Bankruptcy by Debt Type</a> - Find guidance specific to your type of debt</li>
+            <li><a href="hub-after-bankruptcy.html">Life After Bankruptcy</a> - Rebuilding credit and moving forward</li>
+            <li><a href="hub-attorney-quality.html">Is Your Bankruptcy Lawyer Doing a Good Job?</a> - Evaluate your attorney's performance</li>
+        </ul>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+            <a href="donate.html">Donate</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p>All tools and data released under open-source licenses.</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

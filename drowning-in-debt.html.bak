@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+    <title>Drowning in Debt? Understand Your Options - Open Bankruptcy Project</title>
+    <meta name="description" content="Overwhelmed by debt? Learn when bankruptcy makes sense, how it compares to alternatives like debt settlement and consolidation, and free tools to evaluate your options.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/drowning-in-debt.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    <meta property="og:title" content="Drowning in Debt? Understand Your Options">
+    <meta property="og:description" content="Free guide to evaluating debt relief options. When bankruptcy makes sense, when it does not, and how to decide.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://openbankruptcyproject.org/drowning-in-debt.html">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/og-image.svg">
+
+    <!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+            --green: #3fb950;
+            --red: #f85149;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content h2 + .quick-answer { margin-top: -8px; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        .quick-answer {
+            background: var(--surface); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0;
+            padding: 16px 20px; margin-bottom: 24px;
+        }
+        .quick-answer p { color: var(--text); margin: 0; font-size: 0.95rem; }
+
+        .compare-table { width: 100%; border-collapse: collapse; margin: 24px 0; }
+        .compare-table th, .compare-table td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.92rem; }
+        .compare-table th { color: var(--text); font-weight: 600; background: var(--surface); }
+        .compare-table td { color: var(--text-secondary); }
+
+        .resource-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+        .resource-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .resource-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .resource-card .card-title { font-weight: 700; font-size: 1rem; margin-bottom: 8px; }
+        .resource-card .card-desc { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px; }
+        .resource-card a { font-size: 0.88rem; font-weight: 600; }
+
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+            .compare-table { font-size: 0.85rem; }
+            .compare-table th, .compare-table td { padding: 8px 10px; }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How do I know if I should file bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Consider bankruptcy if your total unsecured debt exceeds what you could pay off in 5 years, you are facing lawsuits or garnishments, or you are using credit cards to pay for basic necessities. A free consultation with a bankruptcy attorney can help you evaluate whether filing is the right step."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the difference between debt settlement and bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Debt settlement involves negotiating with creditors to accept less than the full balance. It can take years, damages your credit, and creditors are not required to participate. Bankruptcy is a federal court process that legally eliminates qualifying debts. Chapter 7 typically takes 3-4 months and provides a complete fresh start for qualifying debts."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Will bankruptcy ruin my credit forever?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. A Chapter 7 bankruptcy stays on your credit report for 10 years and Chapter 13 for 7 years, but the impact fades over time. Many people see credit score improvements within 12-18 months of filing because the discharge eliminates the debt-to-income ratio that was dragging their score down."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What debts can bankruptcy not eliminate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bankruptcy generally cannot discharge recent tax debts (less than 3 years old), most student loans (without proving undue hardship), child support, alimony, court-ordered restitution, and debts incurred through fraud. Most credit card debt, medical bills, personal loans, and old utility bills can be discharged."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I file bankruptcy if I have a job?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Having a job does not disqualify you. For Chapter 7, you must pass the means test, which compares your income to the state median. If your income is too high for Chapter 7, you may still qualify for Chapter 13, which sets up a repayment plan based on your disposable income."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "Drowning in Debt? Understand Your Options",
+          "description": "Free guide to evaluating debt relief options including bankruptcy, debt settlement, and consolidation.",
+          "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+          "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntityOfPage": "https://openbankruptcyproject.org/drowning-in-debt.html"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Drowning in Debt", "item": "https://openbankruptcyproject.org/drowning-in-debt.html" }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "name": "Drowning in Debt? Understand Your Options",
+          "url": "https://openbankruptcyproject.org/drowning-in-debt.html",
+          "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".quick-answer", "h1", "p:first-of-type"] }
+        }
+      ]
+    }
+    </script>
+
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/drowning-in-debt.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/drowning-in-debt-es.html">
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="methodology.html">Methodology</a>
+            <a href="citations.html">Citations</a>
+            <a href="press.html">Press</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">&rsaquo;</span><span>Drowning in Debt? Understand Your Options</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Drowning in Debt? Understand Your Options</h1>
+        <p class="subtitle">A free, unbiased guide to evaluating whether bankruptcy, debt settlement, or another path is right for you.</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <h2>You Are Not Alone</h2>
+        <p>If you are losing sleep over bills, dodging calls from collectors, or using one credit card to pay another, you are in a situation that millions of Americans face every year. The feeling of being trapped is real - but the situation is not permanent. There are concrete legal tools designed to help people in exactly your position.</p>
+        <p>This page will help you understand your options clearly, without trying to sell you anything. We do not accept attorney advertising, referral fees, or affiliate commissions. The information here is free.</p>
+
+        <h2>When Does Bankruptcy Make Sense?</h2>
+        <div class="quick-answer">
+            <p>Bankruptcy may be the right choice if your <a href="https://creditcarddebtbankruptcy.org/" title="unsecured debt">unsecured debt</a> is more than you could realistically pay off in 5 years, creditors are suing you or garnishing your wages, or the stress of debt is affecting your health and daily life.</p>
+        </div>
+        <p>Bankruptcy is not a failure - it is a legal right established in the U.S. Constitution (Article I, Section 8). It exists because Congress recognized that people and businesses sometimes need a fresh start. Consider these signals:</p>
+        <ul>
+            <li>You are paying only minimums and balances are not going down</li>
+            <li>You have been sued, or a judgment or <a href="https://stopgarnishment.org/" title="wage garnishment">garnishment</a> has been entered</li>
+            <li>You are borrowing from retirement accounts to pay current bills</li>
+            <li><a href="https://medicaldebtbankruptcy.com/" title="medical debt">Medical debt</a> has made your financial situation unrecoverable</li>
+            <li>You owe more on your house or car than it is worth</li>
+        </ul>
+
+        <h2>Bankruptcy vs. Alternatives</h2>
+        <table class="compare-table">
+            <tr><th>Option</th><th>Pros</th><th>Cons</th></tr>
+            <tr>
+                <td><strong><a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> Bankruptcy</strong></td>
+                <td>Eliminates most unsecured debt in 3-4 months. Stops lawsuits and garnishments immediately.</td>
+                <td>Must pass <a href="https://meanstest.org/" title="means test">means test</a>. On credit report 10 years. May lose non-exempt assets.</td>
+            </tr>
+            <tr>
+                <td><strong><a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> Bankruptcy</strong></td>
+                <td>Keep all assets. Cure mortgage/car arrears. 3-5 year plan, then <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> remaining qualifying debts.</td>
+                <td>Requires regular income. 3-5 year commitment. On credit report 7 years.</td>
+            </tr>
+            <tr>
+                <td><strong>Debt Settlement</strong></td>
+                <td>May reduce total amount owed. No court filing required.</td>
+                <td>Creditors can refuse. Forgiven debt may be taxable. Can take 2-4 years. No legal protection from lawsuits during process.</td>
+            </tr>
+            <tr>
+                <td><strong>Debt Consolidation</strong></td>
+                <td>One monthly payment. May lower interest rate.</td>
+                <td>Does not reduce principal. Requires qualifying credit. Secured versions risk your home.</td>
+            </tr>
+            <tr>
+                <td><strong>Do Nothing</strong></td>
+                <td>No cost. Statute of limitations may expire on old debts.</td>
+                <td>Lawsuits, garnishments, and collection calls continue. Stress compounds.</td>
+            </tr>
+        </table>
+
+        <h2>The Means Test</h2>
+        <p>To file Chapter 7, your household income must be below your state's median income, or you must pass a calculation showing you lack enough disposable income to fund a <a href="https://chapter13plan.org/" title="Chapter 13 plan">repayment plan</a>. If your income is above the median, Chapter 13 is usually still available. The <a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=drowning-in-debt" target="_blank" rel="noopener">means test guide</a> explains the calculation in detail.</p>
+
+        <h2>What Bankruptcy Cannot Do</h2>
+        <p>Bankruptcy is powerful but not unlimited. It generally cannot eliminate:</p>
+        <ul>
+            <li>Child support and alimony</li>
+            <li>Most <a href="https://bankruptcystudentloans.org/" title="student loans">student loans</a> (unless you prove undue <a href="https://bankruptcyhardship.org/" title="hardship discharge">hardship</a>)</li>
+            <li>Recent tax debts (generally less than 3 years old)</li>
+            <li>Debts from fraud, DUI judgments, or criminal restitution</li>
+            <li>Secured debt if you want to keep the collateral (you must keep paying)</li>
+        </ul>
+
+        <h2>Watch Out for Debt Relief Scams</h2>
+        <p>If a company promises to make your debt disappear without filing bankruptcy, be skeptical. Common red flags:</p>
+        <ul>
+            <li>Upfront fees before any work is done</li>
+            <li>Guarantees to settle debts for "pennies on the dollar"</li>
+            <li>Telling you to stop paying creditors and send money to them instead</li>
+            <li>No clear explanation of risks, including tax consequences of forgiven debt</li>
+        </ul>
+        <p>The FTC provides <a href="https://consumer.ftc.gov/articles/settling-credit-card-debt" target="_blank" rel="noopener">guidance on evaluating debt relief companies</a>.</p>
+
+        <h2>Free Resources</h2>
+        <div class="resource-grid">
+            <div class="resource-card">
+                <div class="card-title">Debt Relief or Bankruptcy?</div>
+                <div class="card-desc">In-depth comparison of debt relief options vs. bankruptcy, including tax implications and timeline.</div>
+                <a href="https://debtrelieforbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=drowning-in-debt" target="_blank" rel="noopener">debtrelieforbankruptcy.com &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Can't Pay My Bills</div>
+                <div class="card-desc">Emergency steps when you cannot make this month's payments. Prioritization guide and creditor communication templates.</div>
+                <a href="https://cantpaymybills.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=drowning-in-debt" target="_blank" rel="noopener">cantpaymybills.com &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Chapter 7 vs. Chapter 13</div>
+                <div class="card-desc">Side-by-side comparison of both chapters, including costs, timeline, asset protection, and eligibility.</div>
+                <a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=drowning-in-debt" target="_blank" rel="noopener">chapter7vs13.org &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Bankruptcy Means Test</div>
+                <div class="card-desc">Understand whether you qualify for Chapter 7 based on your income and state median thresholds.</div>
+                <a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=drowning-in-debt" target="_blank" rel="noopener">bankruptcymeanstest.org &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+            <a href="donate.html">Donate</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p>All tools and data released under open-source licenses.</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

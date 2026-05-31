@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+    <title>What Happens to Your Bank Account in Bankruptcy? - Open Bankruptcy Project</title>
+    <meta name="description" content="Your bank accounts are not automatically frozen in bankruptcy, but the trustee can access non-exempt funds. Learn about exemptions, set-off risk, and practical tips to protect your money.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/blog/what-happens-to-your-bank-account-in-bankruptcy.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/blog/what-happens-to-your-bank-account-in-bankruptcy.html">
+
+    <meta property="og:title" content="What Happens to Your Bank Account in Bankruptcy?">
+    <meta property="og:description" content="Exemptions, trustee access, set-off risk, and practical tips to protect your bank account in bankruptcy.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://openbankruptcyproject.org/blog/what-happens-to-your-bank-account-in-bankruptcy.html">
+    <meta property="og:site_name" content="Open Bankruptcy Project">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="What Happens to Your Bank Account in Bankruptcy?">
+    <meta name="twitter:description" content="Exemptions, set-off risk, and practical tips to protect your money.">
+    <meta name="twitter:image" content="/og-image.svg">
+
+    <!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Will my bank account be frozen when I file bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Not automatically. Filing bankruptcy does not trigger an automatic freeze on your bank accounts. However, if you owe money to the same bank where you have an account, the bank may freeze the account to exercise its right of set-off. Some banks freeze accounts temporarily when they receive the bankruptcy notice as a precautionary measure."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can the bankruptcy trustee take money from my bank account?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Chapter 7, the trustee can claim non-exempt funds in your bank account as of the filing date. The balance on the day you file is what matters. Wages deposited after filing are generally not part of the estate. Many states have exemptions that protect a reasonable amount of cash in bank accounts."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is bank set-off in bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Set-off is the right of a bank to apply funds in your deposit account against a debt you owe to that same bank. For example, if you have a checking account and a credit card with the same bank, the bank may freeze your account and apply your balance toward the credit card debt. The automatic stay limits but does not always prevent set-off."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I switch banks before filing bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "If you owe money to your bank (credit card, personal loan, overdraft), it is generally a good idea to open an account at a different bank before filing to avoid set-off risk. Do this well before filing and do not transfer large sums in a way that looks like you are hiding assets. Consult your attorney about the best approach."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens to joint bank accounts in bankruptcy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "If you file individually and have a joint bank account, the trustee may claim your share of the funds. In practice, determining what portion belongs to the filing spouse can be complicated. Some couples choose to separate accounts before filing, but this should be done carefully and transparently - hiding assets is fraud."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Article",
+          "headline": "What Happens to Your Bank Account in Bankruptcy?",
+          "description": "Your bank accounts are not automatically frozen, but the trustee can access non-exempt funds. Learn about exemptions, set-off, and practical tips.",
+          "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+          "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+          "datePublished": "2026-04-09",
+          "dateModified": "2026-04-09",
+          "mainEntityOfPage": "https://openbankruptcyproject.org/blog/what-happens-to-your-bank-account-in-bankruptcy.html"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://openbankruptcyproject.org/blog/" },
+            { "@type": "ListItem", "position": 3, "name": "What Happens to Your Bank Account in Bankruptcy?", "item": "https://openbankruptcyproject.org/blog/what-happens-to-your-bank-account-in-bankruptcy.html" }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230; --border: #252d38; --border-light: #2d3748; --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; --gold: #d29922; --green: #3fb950; }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; } a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); } .nav-brand a { color: var(--text); } .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; } .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; } .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); } .page-header .meta { font-size: 0.85rem; color: var(--text-muted); margin-top: 8px; }
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; } .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; } .content li { margin-bottom: 8px; }
+        .warning-box { background: rgba(210,153,34,0.08); border: 1px solid rgba(210,153,34,0.3); border-radius: 10px; padding: 24px; margin: 24px 0; }
+        .warning-box p { color: var(--text); margin-bottom: 8px; } .warning-box p:last-child { margin-bottom: 0; }
+        .related-posts { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); }
+        .related-posts h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 16px; }
+        .related-posts a { display: block; padding: 12px 0; color: var(--accent); font-size: 0.95rem; border-bottom: 1px solid var(--border); } .related-posts a:last-child { border-bottom: none; }
+        footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+        footer .footer-links { margin-bottom: 20px; } footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; } footer .footer-links a:hover { color: var(--text); } footer p { margin-bottom: 6px; line-height: 1.6; }
+        @media (max-width: 600px) { .container { padding: 0 20px; } .page-header { padding: 48px 0 32px; } .page-header h1 { font-size: 1.8rem; } .content { padding: 40px 0; } }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/methodology.html">Methodology</a>
+            <a href="/citations.html">Citations</a>
+            <a href="/blog/">Blog</a>
+            <a href="/press.html">Press</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Home</a><span class="separator">&rsaquo;</span><a href="/blog/">Blog</a><span class="separator">&rsaquo;</span><span>What Happens to Your Bank Account in Bankruptcy?</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>What Happens to Your Bank Account in Bankruptcy?</h1>
+        <p class="subtitle">Your accounts are not frozen automatically, but there are real risks you need to understand before filing.</p>
+        <p class="meta">Published April 9, 2026</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <p>One of the biggest fears people have about bankruptcy is losing access to their bank account. The good news: filing bankruptcy does not automatically freeze your accounts or drain your balance. But there are specific scenarios where your bank account can be affected, and understanding them before you file can save you real trouble.</p>
+
+        <h2>Your Account Is Not Automatically Frozen</h2>
+        <p>When you file bankruptcy, the court sends a notice to all your creditors. Your bank will receive this notice, but simply being notified does not trigger a freeze. You can continue to use your bank account for normal transactions - depositing paychecks, paying bills, buying groceries.</p>
+        <p>However, some banks do freeze accounts temporarily (usually for a few days) when they receive a bankruptcy notice, especially if you owe the bank money. This is not universal, but it happens often enough that you should be prepared for it.</p>
+
+        <h2>The Set-Off Risk</h2>
+
+        <div class="warning-box">
+            <p><strong>This is the biggest risk.</strong> If you owe money to the same bank where you keep your checking or savings account, the bank may exercise its "right of set-off" - meaning it takes money from your deposit account and applies it to your debt with the bank.</p>
+            <p>Common scenarios: you have a credit card and a checking account at the same bank, or a personal loan and a savings account at the same bank. The bank may freeze your account and apply the balance to the outstanding debt.</p>
+        </div>
+
+        <p>The <a href="https://automaticstay.com">automatic stay</a> generally prevents creditors from collecting debts after you file, but the law on bank set-off is nuanced. Some courts allow banks to place an administrative hold on funds (without actually taking them) pending court resolution. Others have ruled that set-off requires court permission after filing. The safest approach is to avoid the issue entirely.</p>
+
+        <h2>How to Protect Your Bank Account</h2>
+        <ul>
+            <li><strong>If you owe your bank money, open an account at a different bank before filing.</strong> Do this weeks or months in advance, not the day before. Move your direct deposits and automatic payments to the new account. This is the single most important step.</li>
+            <li><strong>Keep your balance at a level you can exempt.</strong> The lower the balance on filing day, the less the trustee can claim. Do not let large sums accumulate in the account before filing.</li>
+            <li><strong>Do not hide money.</strong> Moving funds to a relative's account or hiding cash is fraud. The trustee will find out, and it can result in your <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> being denied entirely.</li>
+            <li><strong>Use <a href="https://bankruptcyexemptionsbystate.com/" title="exemptions">exemptions</a> strategically.</strong> The federal wildcard exemption and many state exemptions can protect a reasonable amount of cash. Know your <a href="https://bankruptcyexemptionsbystate.com">state's exemption limits</a> before filing.</li>
+        </ul>
+
+        <h2>What the Trustee Looks At</h2>
+        <p>In <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a>, the trustee will review your bank statements (typically 2-6 months before filing). They are looking for:</p>
+        <ul>
+            <li>The balance on the date of filing (this is the amount that is part of the estate)</li>
+            <li>Large or unusual transfers before filing (potential fraudulent transfers)</li>
+            <li>Payments to specific creditors before filing (potential preferences)</li>
+            <li>Deposits that suggest unreported income</li>
+        </ul>
+        <p>In <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a>, your bank account is generally not at risk because you are not liquidating assets. You keep your money and make plan payments from it. The trustee monitors your income and expenses through the plan, but your bank account remains yours to use.</p>
+
+        <h2>Joint Accounts</h2>
+        <p>If you have a joint bank account with your <a href="does-bankruptcy-affect-your-spouse.html">spouse</a> or someone else and only you file bankruptcy, the trustee may claim your share of the account balance. Proving which portion belongs to the non-filing account holder can be complicated. In practice, courts often look at the source of deposits to determine ownership.</p>
+
+        <h2>Wages After Filing</h2>
+        <p>In Chapter 7, wages earned after the filing date are generally not part of the <a href="https://1328f.com/glossary.html#estate" title="estate">bankruptcy estate</a>. Your paycheck deposited after filing belongs to you, not the trustee. The estate is a snapshot of your assets as of the filing date. In Chapter 13, post-filing income funds your plan payments, so the trustee has an ongoing interest in your income throughout the plan period.</p>
+
+        <h2>Practical Checklist Before Filing</h2>
+        <ol>
+            <li>Review all bank accounts and identify any debts you owe to those banks</li>
+            <li>If set-off risk exists, open a new account at a bank you do not owe money to</li>
+            <li>Transfer direct deposits and autopayments to the new account</li>
+            <li>Know your exemption amounts for cash and bank deposits</li>
+            <li>Keep bank balances reasonable - do not stockpile large sums</li>
+            <li>Have at least 6 months of bank statements ready for the trustee</li>
+            <li>Do not make any large withdrawals, transfers, or unusual transactions right before filing</li>
+        </ol>
+
+        <div class="related-posts">
+            <h3>Related Articles</h3>
+            <a href="does-bankruptcy-affect-your-spouse.html">Does Bankruptcy Affect Your Spouse?</a>
+            <a href="can-i-keep-my-tax-refund-in-bankruptcy.html">Can I Keep My Tax Refund in Bankruptcy?</a>
+            <a href="what-is-a-bankruptcy-trustee.html">What Is a Bankruptcy Trustee?</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/privacy.html">Privacy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Sponsor</a>
+            <a href="/donate.html">Donate</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p>All tools and data released under open-source licenses.</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

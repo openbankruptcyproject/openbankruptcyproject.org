@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>Enfrentando una Ejecucion Hipotecaria? Recursos Gratuitos - Open Bankruptcy Project</title>
+<meta name="description" content="Pasos de emergencia si enfrenta una ejecucion hipotecaria. Como la suspension automatica detiene la ejecucion, como el Capitulo 13 puede curar los atrasos hipotecarios, y recursos gratuitos.">
+<link rel="canonical" href="https://openbankruptcyproject.org/facing-foreclosure-es.html">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/facing-foreclosure.html">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/facing-foreclosure-es.html">
+
+<meta property="og:title" content="Enfrentando una Ejecucion Hipotecaria? Recursos Gratuitos">
+<meta property="og:description" content="Pasos de emergencia para proteger su hogar. Suspension automatica, plan de cura del Capitulo 13, y herramientas gratuitas.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/facing-foreclosure-es.html">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://openbankruptcyproject.org/og-image.svg">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg: #0d1117; --surface: #151b23; --border: #252d38; --border-light: #2d3748; --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590; --accent: #58a6ff; --accent-hover: #79b8ff; --green: #3fb950; --red: #f85149; }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; } a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; } .nav-brand a { color: var(--text); } .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; } .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; } .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; } .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul, .content ol { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; } .content li { margin-bottom: 8px; }
+        .alert-box { background: rgba(248,81,73,0.08); border: 1px solid rgba(248,81,73,0.3); border-radius: 10px; padding: 24px; margin-bottom: 24px; }
+        .alert-box p { color: var(--text); font-weight: 600; margin-bottom: 8px; }
+        .resource-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+        .resource-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; transition: border-color 0.2s, transform 0.2s; }
+        .resource-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .resource-card .card-title { font-weight: 700; font-size: 1rem; margin-bottom: 8px; }
+        .resource-card .card-desc { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px; }
+        .resource-card a { font-size: 0.88rem; font-weight: 600; }
+        .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
+        .lang-switch { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 8px 16px; display: inline-block; margin: 16px 0; font-size: 0.88rem; }
+        footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+        footer .footer-links { margin-bottom: 20px; } footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; } footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+        @media (max-width: 600px) { .container { padding: 0 20px; } .page-header { padding: 48px 0 32px; } .page-header h1 { font-size: 1.8rem; } .content { padding: 40px 0; } }
+    </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Puede la bancarrota detener una ejecucion hipotecaria?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si. Presentar una solicitud de bancarrota activa una suspension automatica bajo 11 U.S.C. Seccion 362, que detiene inmediatamente todas las acciones de cobro incluyendo ventas de ejecucion hipotecaria. En el Capitulo 13, puede proponer un plan para curar los atrasos hipotecarios en 3 a 5 anos mientras conserva su hogar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que tan rapido actua la suspension automatica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La suspension automatica toma efecto en el momento en que presenta su peticion de bancarrota ante el tribunal. Si hay una venta de ejecucion programada, debe detenerse inmediatamente una vez registrada la presentacion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que es un plan de cura del Capitulo 13?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bajo 11 U.S.C. Seccion 1322(b)(5), un plan del Capitulo 13 puede curar pagos hipotecarios atrasados durante la vida del plan (3 a 5 anos) mientras usted continua haciendo pagos mensuales regulares. Esto le permite conservar su hogar y poner la hipoteca al dia con el tiempo."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "headline": "Enfrentando una Ejecucion Hipotecaria? Recursos Gratuitos",
+      "description": "Pasos de emergencia si enfrenta una ejecucion hipotecaria. Suspension automatica, plan de cura del Capitulo 13, y recursos gratuitos.",
+      "author": { "@type": "Organization", "name": "Open Bankruptcy Project" },
+      "publisher": { "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org" },
+      "datePublished": "2026-04-09",
+      "dateModified": "2026-04-09",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/facing-foreclosure-es.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://openbankruptcyproject.org" },
+        { "@type": "ListItem", "position": 2, "name": "Ejecucion Hipotecaria", "item": "https://openbankruptcyproject.org/facing-foreclosure-es.html" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Inicio</a>
+            <a href="about-es.html">Acerca de</a>
+            <a href="contact-es.html">Contacto</a>
+            <a href="facing-foreclosure.html">English</a>
+        </div>
+    </div>
+</nav>
+<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org">Inicio</a><span class="separator">&rsaquo;</span><span>Ejecucion Hipotecaria: Recursos Gratuitos</span></nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Enfrentando una Ejecucion Hipotecaria?</h1>
+        <p class="subtitle">Pasos de emergencia, protecciones legales y herramientas gratuitas para proteger su hogar.</p>
+        <div class="lang-switch"><a href="facing-foreclosure.html">Read this page in English</a></div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <div class="alert-box">
+            <p>Si hay una venta de ejecucion hipotecaria programada dentro de dias, el tiempo es critico.</p>
+            <ul>
+                <li>Presentar una peticion de bancarrota activa una <strong>suspension automatica</strong> que detiene la ejecucion inmediatamente.</li>
+                <li>Puede presentar sin abogado (pro se) en una emergencia, pero consulte a un abogado de bancarrota lo antes posible.</li>
+                <li>Contacte la oficina del secretario de su tribunal de bancarrota local - le diran que necesita presentar hoy.</li>
+            </ul>
+        </div>
+
+        <h2>Paso 1: Entienda la Suspension Automatica</h2>
+        <p>En el momento en que presenta una peticion de bancarrota, la ley federal impone una <a href="https://automaticstay.org/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=facing-foreclosure-es" target="_blank" rel="noopener">suspension automatica</a> bajo 11 U.S.C. Seccion 362. Esta orden judicial detiene toda actividad de cobro, incluyendo ventas de ejecucion hipotecaria, embargos de salario, demandas y llamadas de cobranza. La suspension toma efecto en el instante en que se presenta su caso.</p>
+
+        <h2>Paso 2: Evalue Capitulo 13 vs. Capitulo 7</h2>
+        <p>Si salvar su hogar es la prioridad, el <strong>Capitulo 13</strong> es casi siempre la opcion correcta. Bajo la Seccion 1322(b)(5), un plan del Capitulo 13 le permite curar pagos hipotecarios atrasados en 3 a 5 anos mientras continua haciendo pagos mensuales regulares. Usted conserva su hogar y pone el prestamo al dia en un calendario aprobado por el tribunal.</p>
+        <p>El <strong>Capitulo 7</strong> elimina deudas no garantizadas rapidamente pero no proporciona un mecanismo para ponerse al dia con los pagos hipotecarios atrasados. Si ya esta atrasado, el Capitulo 13 es el camino para conservar la casa.</p>
+        <p>No esta seguro de cual capitulo le conviene? La <a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=facing-foreclosure-es" target="_blank" rel="noopener">guia de comparacion Capitulo 7 vs. Capitulo 13</a> explica las diferencias en lenguaje sencillo.</p>
+
+        <h2>Paso 3: Conozca los Limites</h2>
+        <p>La suspension automatica es poderosa, pero tiene limites que debe entender:</p>
+        <ul>
+            <li><strong>Presentaciones repetidas:</strong> Si un caso anterior fue desestimado dentro del ultimo ano, la suspension puede durar solo 30 dias o puede no tomar efecto en absoluto.</li>
+            <li><strong>Levantamiento de la suspension:</strong> Su prestamista puede pedir al tribunal que levante la suspension si no tiene equidad en la propiedad.</li>
+            <li><strong>Gravamenes de HOA e impuestos:</strong> Los impuestos sobre la propiedad y las evaluaciones de HOA generalmente deben pagarse en su totalidad.</li>
+        </ul>
+
+        <h2>Paso 4: Reuna Sus Documentos</h2>
+        <p>Ya sea que presente con un abogado o por su cuenta, necesitara:</p>
+        <ol>
+            <li>Su estado de cuenta hipotecario mas reciente (mostrando el monto atrasado)</li>
+            <li>Cualquier aviso de ejecucion o fechas de venta que haya recibido</li>
+            <li>Comprobantes de pago o prueba de ingresos de los ultimos 6 meses</li>
+            <li>Declaraciones de impuestos de los ultimos 2 anos</li>
+            <li>Una lista de todas las deudas, activos, ingresos y gastos</li>
+        </ol>
+
+        <h2>Paso 5: Explore Todas las Opciones</h2>
+        <p>La bancarrota es una herramienta, pero no la unica. Antes o junto con la presentacion, considere:</p>
+        <ul>
+            <li><strong>Modificacion de prestamo:</strong> Contacte el departamento de mitigacion de perdidas de su administrador.</li>
+            <li><strong>Tolerancia:</strong> Una pausa o reduccion temporal en los pagos.</li>
+            <li><strong>Mediacion de ejecucion estatal:</strong> Muchos estados requieren que los prestamistas participen en mediacion.</li>
+            <li><strong>Consejeros de vivienda aprobados por HUD:</strong> Consejeria gratuita en <a href="https://www.hud.gov/findacounselor" target="_blank" rel="noopener">hud.gov/findacounselor</a>.</li>
+        </ul>
+
+        <h2>Recursos Gratuitos</h2>
+        <div class="resource-grid">
+            <div class="resource-card">
+                <div class="card-title">Guia de Suspension Automatica</div>
+                <div class="card-desc">Como la Seccion 362 le protege desde el momento de la presentacion.</div>
+                <a href="https://automaticstay.org/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=facing-foreclosure-es" target="_blank" rel="noopener">automaticstay.org &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Conserve Su Casa en la Bancarrota</div>
+                <div class="card-desc">Exenciones de vivienda por estado, planes de cura del Capitulo 13, y estrategias de proteccion.</div>
+                <a href="https://keepmyhouseinbankruptcy.com/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=facing-foreclosure-es" target="_blank" rel="noopener">keepmyhouseinbankruptcy.com &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Capitulo 7 vs. Capitulo 13</div>
+                <div class="card-desc">Comparacion lado a lado para decidir cual capitulo es correcto para usted.</div>
+                <a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=facing-foreclosure-es" target="_blank" rel="noopener">chapter7vs13.org &rarr;</a>
+            </div>
+            <div class="resource-card">
+                <div class="card-title">Como Presentar Bancarrota</div>
+                <div class="card-desc">Guia paso a paso, formularios requeridos, costos y que esperar.</div>
+                <a href="https://howtofilebankruptcy.org/?utm_source=openbankruptcyproject.org&utm_medium=topic-page&utm_campaign=facing-foreclosure-es" target="_blank" rel="noopener">howtofilebankruptcy.org &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- BTN:FOOTER:START -->
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Transparencia de bancarrota gratuita y de codigo abierto. Sin anuncios. Sin enlaces de afiliados.</p>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Inicio</a>
+            <a href="about-es.html">Acerca de</a>
+            <a href="contact-es.html">Contacto</a>
+            <a href="privacy.html">Privacidad</a>
+            <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&#9829; Patrocinar</a>
+        </div>
+        <p>Open Bankruptcy Project es una organizacion sin fines de lucro 501(c)(3) (determinacion pendiente).</p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No se proporciona asesoramiento legal. Esta es informacion educativa solamente.</p>
+<p>Este sitio proporciona informacion general, no asesoramiento legal. Consulte a un abogado calificado para su situacion especifica.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+
+<script src="/btn-engage.js" defer></script>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

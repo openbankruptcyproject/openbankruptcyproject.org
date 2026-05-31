@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Sealed Records vs. Privacy Redaction - Rule 9018 vs. Rule 9037 Side-by-Side | Open Bankruptcy Project</title>
+<meta content="Comparison of Rule 9018 sealing and Rule 9037 privacy redaction in federal bankruptcy: different standards, different procedures, different remedies. Redaction is mandatory and auto-correctable; sealing is exceptional and court-ordered." name="description"/>
+<meta content="#0d1117" name="theme-color"/>
+<link href="https://openbankruptcyproject.org/sealed-records-vs-privacy-redaction/" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Sealed Records vs. Privacy Redaction" property="og:title"/>
+<meta content="Side-by-side comparison of Rule 9018 sealing and Rule 9037 privacy redaction in federal bankruptcy cases." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/sealed-records-vs-privacy-redaction/" property="og:url"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Sealed Records vs. Privacy Redaction: Rule 9018 vs. Rule 9037 Side-by-Side",
+      "description": "Comparison of two structurally different mechanisms for limiting public access to information in federal bankruptcy filings.",
+      "datePublished": "2026-05-22",
+      "dateModified": "2026-05-22",
+      "author": {"@type": "Organization", "name": "Open Bankruptcy Project"},
+      "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Open Bankruptcy Project", "item": "https://openbankruptcyproject.org/"},
+        {"@type": "ListItem", "position": 2, "name": "Sealing vs. Redaction", "item": "https://openbankruptcyproject.org/sealed-records-vs-privacy-redaction/"}
+      ]
+    }
+  ]
+}
+</script>
+<!-- BTN:GA4:START -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-muted: #9eaab6;
+    --accent: #58a6ff;
+    --green: #238636;
+    --red: #f85149;
+    --yellow: #f0c14b;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  .site-name:hover { color: var(--accent); text-decoration: none; }
+  .container { max-width: 820px; margin: 0 auto; padding: 2.5rem 2rem; flex: 1; }
+  h1 { color: #f0f6fc; font-size: 2.25rem; margin-bottom: 0.5rem; line-height: 1.25; }
+  .subtitle { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 2rem; }
+  h2 { color: #f0f6fc; font-size: 1.4rem; margin: 2rem 0 0.75rem; }
+  h3 { color: #f0f6fc; font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+  p { margin-bottom: 1rem; }
+  ul, ol { margin: 0.5rem 0 1rem 1.5rem; }
+  li { margin-bottom: 0.4rem; }
+  code {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: var(--text);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 0.92rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.7rem 0.85rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th { background: #0d2847; color: #f0f6fc; font-weight: 600; }
+  tr:last-child td { border-bottom: none; }
+  .col-axis { font-weight: 600; color: #f0f6fc; width: 22%; }
+  .callout {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .callout.gov { background: #0d2847; border-color: #1f6feb; }
+  .callout.warn { background: #2a1a00; border-color: #bb8c3a; }
+  .callout strong { color: #f0f6fc; }
+  .callout p:last-child { margin-bottom: 0; }
+  .tag {
+    display: inline-block;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.1rem 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-right: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  @media (max-width: 640px) {
+    .two-col { grid-template-columns: 1fr; }
+  }
+  .two-col .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+  .two-col .card h3 { margin-top: 0; }
+  .two-col .card p:last-child { margin-bottom: 0; }
+  .network-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.6rem;
+    margin: 1rem 0;
+  }
+  .network-grid a {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .network-grid a:hover { border-color: var(--accent); text-decoration: none; }
+  footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 2rem;
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NonprofitOrganization",
+  "name": "Open Bankruptcy Project",
+  "alternateName": "OBP",
+  "url": "https://openbankruptcyproject.org",
+  "email": "info@openbankruptcyproject.org",
+  "taxID": "41-5159631",
+  "nonprofitStatus": "Nonprofit501c3",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1000 W 100th St",
+    "addressLocality": "Kansas City",
+    "addressRegion": "MO",
+    "postalCode": "64114",
+    "addressCountry": "US"
+  }
+}
+</script>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a class="site-name" href="/">Open Bankruptcy Project</a>
+<a href="/" style="color:var(--text-muted);font-size:0.9rem">Home</a>
+</nav>
+<div class="container">
+<span class="tag">Federal Rules of Bankruptcy Procedure</span>
+<span class="tag">9018 vs 9037</span>
+<h1>Sealed Records vs. Privacy Redaction</h1>
+<p class="subtitle">Rule 9018 and Rule 9037 are structurally different mechanisms for limiting public access. Understanding the difference is the difference between a remedy that fits the violation and one that does not.</p>
+<div class="callout gov">
+<p><strong>Two rules, two structures, two remedies.</strong></p>
+<p><a href="https://www.law.cornell.edu/rules/frbp/rule_9018" rel="noopener" target="_blank">Rule 9018</a> is the procedural vehicle for sealing under <a href="https://www.law.cornell.edu/uscode/text/11/107" rel="noopener" target="_blank">11 U.S.C. Section 107</a>. Sealing is exceptional, fits narrow statutory categories, and requires court order.</p>
+<p><a href="https://www.law.cornell.edu/rules/frbp/rule_9037" rel="noopener" target="_blank">Rule 9037</a> is the mandatory redaction floor. Redaction is automatic in the sense that the obligation attaches at filing without any showing, and auto-correctable in the sense that a violation is mechanically curable on the court's docket through a motion under Rule 9037(h).</p>
+</div>
+<h2>Side-by-side comparison</h2>
+<table>
+<thead>
+<tr><th class="col-axis">Axis</th><th>Rule 9018 (sealing)</th><th>Rule 9037 (redaction)</th></tr>
+</thead>
+<tbody>
+<tr>
+<td class="col-axis">Statutory anchor</td>
+<td>11 U.S.C. Section 107(b) and (c)</td>
+<td>E-Government Act of 2002, Section 205(c)(3); parallel to Fed. R. Civ. P. 5.2</td>
+</tr>
+<tr>
+<td class="col-axis">Default posture</td>
+<td>Public access is the default; sealing is the exception</td>
+<td>Redaction is the default; full disclosure is the exception</td>
+</tr>
+<tr>
+<td class="col-axis">Trigger</td>
+<td>Motion or sua sponte court action</td>
+<td>The act of filing itself triggers the obligation</td>
+</tr>
+<tr>
+<td class="col-axis">Standard</td>
+<td>Categorical fit under Section 107(b) (trade secret / commercial information; scandalous / defamatory matter) or Section 107(c) (undue identity-theft risk); discretionary under common-law access; heightened under First Amendment access where applicable</td>
+<td>Mandatory; no showing required; the rule prescribes the permitted form (last four, year only, initials only)</td>
+</tr>
+<tr>
+<td class="col-axis">Scope</td>
+<td>Documents, exhibits, or specific portions; can extend to entire filings in narrow cases</td>
+<td>Specific identifiers within otherwise-public filings</td>
+</tr>
+<tr>
+<td class="col-axis">Remedy structure</td>
+<td>Court-ordered restriction of access; can be revisited on motion to unseal</td>
+<td>Substitution of a redacted version on the court's docket via Rule 9037(h)</td>
+</tr>
+<tr>
+<td class="col-axis">Common-law access</td>
+<td><em>Nixon v. Warner Communications, Inc.</em>, 435 U.S. 589 (1978), supplies the discretionary balancing for documents not covered by Section 107(b)</td>
+<td>Not implicated; the rule operates as a floor that conditions the public version of the filing rather than withholding the filing</td>
+</tr>
+<tr>
+<td class="col-axis">First Amendment access</td>
+<td>Where the experience-and-logic test of <em>Globe Newspaper Co. v. Superior Court</em>, 457 U.S. 596 (1982), applies, sealing requires specific findings and narrow tailoring</td>
+<td>Not implicated; redaction of the enumerated identifiers does not impair the public's access to the substantive content of the filing</td>
+</tr>
+<tr>
+<td class="col-axis">Press intervention</td>
+<td>Routine; intervenors have standing to challenge sealing orders</td>
+<td>Rare; the public copy with the identifier redacted ordinarily suffices for press access</td>
+</tr>
+<tr>
+<td class="col-axis">Cure of prior disclosure</td>
+<td>Order restricting access prevents future public retrieval; prior external copies persist</td>
+<td>Motion under (h) substitutes a redacted version; prior external copies persist</td>
+</tr>
+<tr>
+<td class="col-axis">Sanctions architecture</td>
+<td>Inherent authority; contempt for violation of a sealing order</td>
+<td>Inherent authority, Rule 9011, local rules, external statutory schemes (Privacy Act, FCRA, state identity-theft statutes)</td>
+</tr>
+</tbody>
+</table>
+<h2>When sealing is the right instrument</h2>
+<p>Sealing is the right instrument when the matter at issue falls within one of the Section 107(b) categories and the harm from public disclosure cannot be mitigated by redacting specific lines within an otherwise-public document. Typical sealing fact patterns include:</p>
+<ul>
+<li>A trade-secret formula or process attached as an exhibit to a sale motion in a Chapter 11.</li>
+<li>Customer or supplier pricing terms whose disclosure would impair competitive position.</li>
+<li>Scandalous matter alleged in a pleading whose only function is reputational harm and whose excision would not impair the court's ability to adjudicate the underlying dispute.</li>
+<li>Personal-identification information whose disclosure would create undue risk of identity theft beyond the routine privacy interest already covered by Rule 9037(a) (Section 107(c)).</li>
+</ul>
+<h2>When redaction is the right instrument</h2>
+<p>Redaction is the right instrument whenever the concern is one of the enumerated personal identifiers in Rule 9037(a): SSN, taxpayer-ID, date of birth, minor's name, or financial-account number. The rule does its work without any showing and without a court order. The substantive content of the filing remains publicly accessible; only the identifier is masked.</p>
+<p>Redaction is also the right instrument for inadvertent identifier disclosure. Where an unredacted SSN appears on a publicly-filed document, the appropriate response is not to seal the filing (which would obscure substantive content the public has a legitimate interest in seeing) but to invoke Rule 9037(h) and substitute a redacted version. Sealing in that posture is overbroad and obscures the procedural record needed for downstream remediation.</p>
+<h2>The common case where the two interact</h2>
+<p>The two rules interact most commonly when a filing contains both substantive matter that the public has an interest in seeing and a personal identifier that should never have appeared. The clean approach is layered:</p>
+<ol>
+<li><strong>Provisionally restrict access</strong> to the existing publicly-filed document via clerk notification while remediation is pending.</li>
+<li><strong>File a motion under Rule 9037(h)</strong> to substitute a redacted version that preserves the substantive content but masks the identifier.</li>
+<li><strong>Consider an auxiliary Section 107(c) order</strong> if the affected individual's exposure on third-party systems creates an undue identity-theft risk that justifies further restriction.</li>
+<li><strong>Notify the affected individual</strong>, where the filer is not the affected individual, so that the individual can pursue independent remediation with credit-reporting agencies and other parties as warranted.</li>
+</ol>
+<div class="callout warn">
+<p><strong>The distinction matters for remediation strategy.</strong> Reflexively moving to seal a document that contains an inadvertent SSN treats the violation as if it were extraordinary. It is not extraordinary. It is a Rule 9037(a) violation, the response is mandatory and standardized, and the appropriate procedural posture is a motion under subsection (h). Sealing in that posture invites the court to characterize the matter as discretionary when it is not, and obscures the systemic pattern that the Rules Committee has been asked to address.</p>
+</div>
+<h2>What neither rule does</h2>
+<p>Neither rule retrieves copies of an unredacted filing that have been captured by third-party systems during the period the filing was publicly available. Commercial docket-monitoring services, the RECAP archive, academic researchers, and private aggregators commonly retain copies. The court's docket reflects the corrected version. Third-party systems may or may not, depending on each operator's policies and the existence of an enforceable order.</p>
+<p>Neither rule, by its own force, creates a cause of action for the affected individual. Where the unredacted disclosure causes identifiable harm, the affected individual may have remedies under the Privacy Act, the Fair Credit Reporting Act, state identity-theft statutes, or common-law privacy doctrines. Those remedies operate independent of Rule 9018 and Rule 9037.</p>
+<h2>Procedural posture, burden, and review</h2>
+<p>The procedural posture for the two rules diverges in ways that matter for litigation strategy. A Rule 9018 motion to seal is a substantive request that invokes the court's discretionary authority. The movant carries the burden of demonstrating categorical fit under Section 107(b) or (c) and, where applicable, satisfying the higher showing the First Amendment access overlay imposes. The court's order is reviewable on the standard applicable to discretionary rulings, and an order granting sealing without specific findings is vulnerable on appeal.</p>
+<p>A Rule 9037(h) motion to redact, by contrast, is a remedial request that invokes a non-discretionary cure. The movant's burden is essentially to identify the violation by docket location and identifier type. The court is not asked to weigh equities, and an order granting substitution is not vulnerable to the same appellate scrutiny because the underlying obligation is mandatory rather than discretionary. The two motions implicate different judicial postures and different standards of review even when both are filed in the same case.</p>
+<h2>Notice obligations diverge</h2>
+<p>Rule 9018 expressly permits the court to proceed with or without notice. In practice, motions affecting public access are routinely served on the United States Trustee and parties in interest, and press intervention is procedurally available. The notice posture reflects the substantive significance of restricting public access to court records: stakeholders beyond the immediate parties have a recognized interest in the question.</p>
+<p>Rule 9037(h) is structurally different. The motion is essentially administrative, the relief is mechanical, and the universe of interested parties is narrower. Standard service on parties in interest is appropriate, but the rule does not contemplate the kind of public-interest intervention that sealing motions invite. The contrast underscores that the two rules operate in different registers even when they appear in the same docket entry.</p>
+<h2>Practical decision frame</h2>
+<div class="two-col">
+<div class="card">
+<h3>If the matter is an enumerated identifier</h3>
+<p>The remedy is redaction under Rule 9037. The obligation is mandatory and the cure is mechanical. Do not seal the entire filing to suppress an identifier when redaction is sufficient.</p>
+</div>
+<div class="card">
+<h3>If the matter is a Section 107(b) category</h3>
+<p>The remedy is a Rule 9018 motion to seal, supported by specific evidence of categorical fit. Boilerplate assertions will not carry the burden, and on-the-record findings are typically required.</p>
+</div>
+</div>
+<h2>Open Bankruptcy Project cross-references</h2>
+<div class="network-grid">
+<a href="/rule-9018-sealed-records/">Rule 9018 Sealed Records</a>
+<a href="/rule-9037/">Rule 9037 Overview</a>
+<a href="/rule-9037-privacy-deep-dive/">Rule 9037 Deep-Dive</a>
+<a href="/rule-9037/remediation/">Remediation Workflow</a>
+<a href="/rule-9037/forms-121-309e1/">Forms 121 &amp; 309E1</a>
+<a href="/rule-9037/clerk-notification/">Clerk Notification Templates</a>
+<a href="https://openbankruptcyproject.org">Open Bankruptcy Project</a>
+</div>
+<h2>Further reading</h2>
+<ul>
+<li>Federal Rule of Bankruptcy Procedure 9018 - <a href="https://www.law.cornell.edu/rules/frbp/rule_9018" rel="noopener" target="_blank">Cornell LII</a></li>
+<li>Federal Rule of Bankruptcy Procedure 9037 - <a href="https://www.law.cornell.edu/rules/frbp/rule_9037" rel="noopener" target="_blank">Cornell LII</a></li>
+<li>11 U.S.C. Section 107 - <a href="https://www.law.cornell.edu/uscode/text/11/107" rel="noopener" target="_blank">Cornell LII</a></li>
+<li><em>Nixon v. Warner Communications, Inc.</em>, 435 U.S. 589 (1978) - <a href="https://supreme.justia.com/cases/federal/us/435/589/" rel="noopener" target="_blank">Justia</a></li>
+<li><em>Globe Newspaper Co. v. Superior Court</em>, 457 U.S. 596 (1982) - <a href="https://supreme.justia.com/cases/federal/us/457/596/" rel="noopener" target="_blank">Justia</a></li>
+<li><em>In re Orion Pictures Corp.</em>, 21 F.3d 24 (2d Cir. 1994)</li>
+<li><em>In re Gitto Global Corp.</em>, 422 F.3d 1 (1st Cir. 2005)</li>
+<li><em>Father M v. Various Tort Claimants</em>, 661 F.3d 417 (9th Cir. 2011)</li>
+</ul>
+<p style="color:var(--text-muted);font-size:0.85rem;margin-top:2rem">This page provides general information about the distinction between sealing under Rule 9018 and redaction under Rule 9037. It does not constitute legal advice.</p>
+<p style="color:var(--text-muted);font-size:0.8rem;margin-top:1rem">Last modified: 2026-05-22.</p>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+<p>This site provides general information only and does not constitute legal advice.</p>
+<p>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+<p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
+</footer>
+<!-- BTN:FOOTER:END -->
+</body>
+</html>

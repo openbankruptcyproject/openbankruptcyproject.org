@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-053Z64N82F');
+  gtag('config', 'G-FTWLM223G7');
+</script>
+<!-- BTN:GA4:END -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<title>11 USC 543 Deep Dive - Turnover by Custodian, Receivers, Assignees [2026]</title>
+<meta name="description" content="Deep-dive guide to 11 U.S.C. Section 543. Custodian defined under Section 101(11) (receivers, assignees for benefit of creditors, agents administering property), the 543(b) absolute turnover duty, the 543(c) excuse, and the 543(d) limitations and good-faith protection.">
+<meta name="keywords" content="11 USC 543, custodian, receiver, assignee for benefit of creditors, 101(11), turnover, 543(b), 543(c), 543(d), ABC, state court receiver">
+<link rel="canonical" href="https://openbankruptcyproject.org/section-543-turnover-by-custodian/">
+<meta property="og:title" content="11 USC 543 Deep Dive - Turnover by Custodian">
+<meta property="og:description" content="Deep-dive guide to Section 543 turnover by custodian: receivers, assignees for benefit of creditors, and agents administering property.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://openbankruptcyproject.org/section-543-turnover-by-custodian/">
+<meta property="og:site_name" content="openbankruptcyproject.org">
+<meta name="twitter:card" content="summary">
+<meta property="og:image" content="/og-image.svg">
+<meta name="twitter:image" content="/og-image.svg">
+<meta name="twitter:title" content="11 USC 543 Deep Dive - Turnover by Custodian">
+<meta name="twitter:description" content="Section 543 turnover by custodian: receivers, assignees, and agents charged with administering property.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<meta name="theme-color" content="#0d1117">
+<meta name="last-modified" content="2026-05-22">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"11 U.S.C. Section 543 - Turnover by Custodian: Deep Dive","description":"Deep-dive guide to 11 U.S.C. Section 543. Custodian defined, absolute turnover duty, judicial excuse, and limitations and good-faith protection.","datePublished":"2026-05-22","dateModified":"2026-05-22","url":"https://openbankruptcyproject.org/section-543-turnover-by-custodian/","author":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"}}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem","position": 1,"name": "Home","item": "https://openbankruptcyproject.org"},
+        {"@type": "ListItem","position": 2,"name": "Statutes","item": "https://openbankruptcyproject.org/#statutes"},
+        {"@type": "ListItem","position": 3,"name": "Section 543 Deep Dive - Turnover by Custodian","item": "https://openbankruptcyproject.org/section-543-turnover-by-custodian/"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "11 U.S.C. Section 543 Deep Dive - Turnover by Custodian",
+      "url": "https://openbankruptcyproject.org/section-543-turnover-by-custodian/",
+      "speakable": {"@type": "SpeakableSpecification","cssSelector": [".quick-answer","h1",".summary","p:first-of-type"]}
+    }
+  ]
+}
+</script>
+<style>
+  :root { --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #e6edf3; --text-muted: #9eaab6; --accent: #58a6ff; --green: #3fb950; --red: #f85149; --yellow: #e3a835; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+  nav .site-name { color: #f0f6fc; font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+  nav .site-name:hover { text-decoration: none; color: var(--accent); }
+  .nav-links { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: center; }
+  .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  .hamburger { display: none; background: none; border: 1px solid var(--border); color: var(--text); font-size: 1.3rem; cursor: pointer; padding: 0.3rem 0.6rem; border-radius: 4px; line-height: 1; }
+  .breadcrumb { max-width: 760px; margin: 1rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; color: var(--text-muted); }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  header { background: linear-gradient(135deg, #0d2137, #122a44); border-bottom: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+  header h1 { color: #f0f6fc; font-size: 2rem; margin-bottom: 0.75rem; }
+  header h1 .accent { color: var(--accent); }
+  header .subtitle { color: var(--text-muted); font-size: 1.05rem; max-width: 700px; margin: 0 auto; }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .content-section { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 1.5rem; }
+  .content-section h2 { color: #f0f6fc; font-size: 1.375rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .content-section h3 { color: #f0f6fc; font-size: 1.125rem; margin: 1.5rem 0 0.75rem; }
+  .content-section p { color: var(--text); margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .content-section ul, .content-section ol { margin: 0.75rem 0 0.75rem 1.5rem; color: var(--text); font-size: 0.95rem; }
+  .content-section li { margin-bottom: 0.4rem; }
+  .statute-box { background: #21262d; border-left: 3px solid var(--accent); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .statute-box p { margin-bottom: 0.5rem; }
+  .statute-box p:last-child { margin-bottom: 0; }
+  .warning-box { background: #21262d; border-left: 3px solid var(--red); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .warning-box p { margin-bottom: 0.5rem; }
+  .green-box { background: #21262d; border-left: 3px solid var(--green); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .yellow-box { background: #21262d; border-left: 3px solid var(--yellow); padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin: 1rem 0; }
+  .network-links { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem 2rem; margin-bottom: 1.5rem; font-size: 0.85rem; color: var(--text-muted); line-height: 2; }
+  .network-links strong { color: var(--text); }
+  footer { background: var(--surface); border-top: 1px solid var(--border); padding: 2rem; text-align: center; font-size: 0.85rem; color: var(--text-muted); margin-top: 2rem; }
+  footer a { color: var(--accent); }
+  @media (max-width: 768px) {
+    .hamburger { display: inline-block; }
+    .nav-links { display: none; width: 100%; flex-direction: column; gap: 0; }
+    .nav-links.open { display: flex; }
+    .nav-links a { display: block; padding: 0.6rem 0; margin: 0; font-size: 0.95rem; min-height: 44px; line-height: 2; border-bottom: 1px solid #21262d; }
+    header { padding: 2rem 1rem; }
+    header h1 { font-size: 1.5rem; }
+    main { padding: 1.5rem 1rem; }
+    .content-section { padding: 1.25rem; }
+  }
+</style>
+</head>
+<body>
+<nav aria-label="Main navigation">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a>
+    <a href="/research.html">Research</a>
+    <a href="/impact.html">Impact</a>
+    <a href="/legal-aid.html">Legal Aid</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>11 U.S.C. <a href="https://www.law.cornell.edu/uscode/text/11/543" rel="noopener" target="_blank">Section 543</a> Deep Dive - Turnover by Custodian</h1>
+  <p class="subtitle">Custodian defined under Section 101(11): receivers, assignees for benefit of creditors, and agents charged with administering the debtor's property. The 543(b) absolute turnover duty, the 543(c) judicial excuse, and the 543(d) limitations and good-faith protection.</p>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; Statutes &rsaquo; Section 543 Deep Dive - Turnover by Custodian
+</div>
+
+<main>
+<aside style="background:#151b23;border:1px solid #252d38;border-radius:10px;padding:20px 24px;margin:24px 0;font-size:0.92rem;">
+  <strong style="color:#58a6ff;text-transform:uppercase;letter-spacing:0.06em;font-size:0.78rem;">Empirical research on this section</strong>
+  <p style="margin-top:10px;color:#b1bac4;">For case-pattern analysis on how federal bankruptcy courts apply Section 543, including district-level patterns and primary-source dockets, see <a href="/cases/" style="color:#58a6ff;">openbankruptcyproject.org/cases/</a>. All datasets licensed CC BY-SA 4.0.</p>
+</aside>
+
+<div class="content-section">
+  <h2>The Separate Turnover Regime for Pre-Filing Insolvency Administrators</h2>
+  <p>Section 543 governs turnover by "custodians" rather than ordinary third parties. The distinction matters because custodians, by definition, have been formally charged with administering the debtor's property under a non-bankruptcy proceeding when the bankruptcy petition is filed. They are not innocent holders of estate property; they are pre-existing insolvency administrators whose authority is displaced by the filing of the federal case.</p>
+  <p>The statutory premise of Section 543 is supremacy: bankruptcy is a federal collective proceeding, and a non-bankruptcy collective proceeding (such as a state-court receivership or an assignment for the benefit of creditors) cannot continue to administer the same debtor's assets in parallel. The custodian must step aside and deliver the estate to the federal trustee or debtor in possession.</p>
+  <div class="statute-box"><p><strong>Official citation:</strong> 11 U.S.C. &sect; 543</p></div>
+</div>
+
+<div class="content-section">
+  <h2>Custodian Defined: Section 101(11)</h2>
+  <p>"Custodian" is defined in Section 101(11) and the definition controls the scope of Section 543. It includes three categories:</p>
+  <ul>
+    <li><strong>101(11)(A):</strong> A receiver or trustee of any of the property of the debtor, appointed in a case or proceeding not under this title</li>
+    <li><strong>101(11)(B):</strong> An assignee under a general assignment for the benefit of the debtor's creditors</li>
+    <li><strong>101(11)(C):</strong> A trustee, receiver, or agent under applicable law, or under a contract, that is appointed or authorized to take charge of property of the debtor for the purpose of enforcing a lien against such property, or for the purpose of general administration of such property for the benefit of the debtor's creditors</li>
+  </ul>
+  <h3>State-court receivers</h3>
+  <p>The most common custodian in modern practice is a state-court receiver. State receivership statutes vary widely, but the receiver appointed to take possession and control of a debtor's business in a state-court collection or shareholder action is the paradigm 101(11)(A) custodian. The receiver's authority terminates by operation of Section 543 the moment the bankruptcy petition is filed.</p>
+  <h3>Assignees for benefit of creditors</h3>
+  <p>An assignment for the benefit of creditors (ABC) is a state-law liquidation device, particularly common in California, Delaware, Illinois, and a handful of other states with developed ABC infrastructure. The assignee is a 101(11)(B) custodian. If the assigned entity (or a creditor) later files a bankruptcy petition, the ABC assignee must turn over the assigned assets under Section 543.</p>
+  <h3>Agents administering property under law or contract</h3>
+  <p>The 101(11)(C) category is the broadest. It captures any agent appointed or authorized to take charge of property for the purpose of enforcing a lien or general creditor administration. Examples include sequestered-asset administrators under specialized statutes, certain financial-institution receivers, and (less commonly) collateral managers operating under intercreditor agreements who have taken affirmative control of debtor assets.</p>
+  <div class="yellow-box">
+    <p><strong>Who is not a custodian:</strong> A secured creditor that has merely repossessed its own collateral pre-petition is not a "custodian" in the Section 101(11) sense; it is a creditor in possession of the collateral. The proper turnover mechanism against such a holder is <a href="/section-542-turnover-by-entity/">Section 542</a>, not Section 543.</p>
+  </div>
+</div>
+
+<div class="content-section">
+  <h2>Section 543(a) and 543(b): The Absolute Turnover Duty</h2>
+  <p>Section 543(a) imposes an immediate freeze on the custodian's actions: "A custodian with knowledge of the commencement of a case under this title concerning the debtor may not make any disbursement from, or take any action in the administration of, property of the debtor, proceeds, product, offspring, rents, or profits of such property, or property of the estate, in the possession, custody, or control of such custodian, except such action as is necessary to preserve such property."</p>
+  <p>Section 543(b) then sets forth the affirmative duties of a custodian:</p>
+  <ol>
+    <li><strong>543(b)(1):</strong> Deliver to the trustee any property of the debtor held by or transferred to such custodian, or proceeds, product, offspring, rents, or profits of such property, that is in such custodian's possession, custody, or control on the date that such custodian acquires knowledge of the commencement of the case</li>
+    <li><strong>543(b)(2):</strong> File an accounting of any property of the debtor, or proceeds, product, offspring, rents, or profits of such property, that, at any time, came into the possession, custody, or control of such custodian</li>
+  </ol>
+  <p>The duty under 543(b)(1) is triggered by knowledge of the filing, not by formal service of process. A receiver who learns of the bankruptcy through the trade press, an email from counsel, or a phone call from the trustee is on notice and must act accordingly.</p>
+  <p>The duty under 543(b)(2) imposes an accounting obligation that survives turnover. The custodian must give the trustee a full record of what came in, what went out, and what remains, so the trustee can determine whether prior dispositions were proper and whether any pre-turnover transactions might be subject to recovery.</p>
+</div>
+
+<div class="content-section">
+  <h2>Section 543(c): Judicial Excuse</h2>
+  <p>Section 543(c) authorizes the bankruptcy court to excuse some or all of the custodian's turnover and accounting obligations. The provision requires the court to "protect all entities to which the custodian has become obligated with respect to such property" and authorizes the court to:</p>
+  <ul>
+    <li>Provide for the payment of reasonable compensation for services rendered and costs and expenses incurred by such custodian; and</li>
+    <li>Surcharge such custodian, other than an assignee for the benefit of the debtor's creditors that was appointed or took possession more than 120 days before the date of the filing of the petition, for any improper or excessive disbursement, other than a disbursement that has been made in accordance with applicable law or that has been approved, after notice and a hearing, by a court of competent jurisdiction before the commencement of the case under this title.</li>
+  </ul>
+  <p>The court has additional discretion under Section 543(d)(1) to excuse compliance entirely "if the interests of creditors and, if the debtor is not insolvent, of equity security holders, would be better served by permitting a custodian to continue in possession, custody, or control of such property."</p>
+  <p>This excuse provision is most often invoked where a state-court receiver is nearing completion of a lengthy sale or restructuring process and substituting the bankruptcy trustee mid-stream would destroy value. Courts have granted 543(d)(1) excuses in cases where the receiver had a pending closing on a real-estate sale, a partially-completed asset-disposition program, or specialized regulatory authority that the bankruptcy trustee would lack.</p>
+  <div class="green-box">
+    <p><strong>Strategic note for receivers:</strong> A custodian who wants to retain authority post-petition should move promptly for excuse under Section 543(d)(1). The motion should specify the estimated incremental value to creditors from continued custodian administration, the timeline to completion, and the alternative cost of trustee transition. Delay weakens the motion and increases the likelihood of mandatory turnover.</p>
+  </div>
+</div>
+
+<div class="content-section">
+  <h2>Section 543(d): Limitations and Good-Faith Protection</h2>
+  <p>Section 543(d) consolidates two important limitations:</p>
+  <h3>Section 543(d)(1): Court discretion to excuse</h3>
+  <p>As discussed above, the court may, after notice and a hearing, excuse compliance where the interests of creditors (and, if solvent, equity holders) would be better served by continued custodian control. The provision uses the conjunction "may" rather than "shall," signaling broad judicial discretion. Factors courts weigh include:</p>
+  <ul>
+    <li>The probability of greater creditor recovery under continued custodian management</li>
+    <li>The length of time the custodian has been administering the property</li>
+    <li>The custodian's specialized expertise or regulatory authority</li>
+    <li>The cost and delay of trustee transition</li>
+    <li>The proximity to completion of any pending sale or restructuring transaction</li>
+  </ul>
+  <h3>Section 543(d)(2): Statutory exception for federally-regulated entities</h3>
+  <p>Section 543(d)(2) provides that the bankruptcy court "shall excuse" compliance by a "trustee or receiver" appointed or authorized "to take charge of property of the debtor for the purpose of enforcing a lien against such property by a Federal, State, or local governmental unit, not for the purpose of general administration of such property for the benefit of the debtor's creditors." This is the mandatory-excuse path for certain government-appointed lien-enforcement receivers, including specialized statutory receivers under regulatory regimes that operate independently of general insolvency administration.</p>
+</div>
+
+<div class="content-section">
+  <h2>The 120-Day Surcharge Carve-Out for ABC Assignees</h2>
+  <p>The surcharge provision in Section 543(c)(2) contains a notable exception for assignees for the benefit of creditors who were appointed or took possession more than 120 days before the petition. The carve-out reflects a Congressional policy judgment that an ABC assignee operating in good faith for several months before a bankruptcy filing should not face after-the-fact monetary surcharge for disbursements made in the regular course of administering the assignment.</p>
+  <p>The carve-out has two practical consequences:</p>
+  <ul>
+    <li>It encourages early ABC administration as a legitimate alternative to bankruptcy in marginal cases where a quick out-of-court liquidation may produce a better creditor outcome than a full bankruptcy proceeding</li>
+    <li>It pressures creditors who are dissatisfied with the progress of an ABC to file an involuntary bankruptcy petition within the 120-day window if they want the option of surcharging the assignee</li>
+  </ul>
+  <p>For assignees appointed within the 120-day window, surcharge remains available for improper or excessive disbursements (excluding those made in accordance with applicable law or pre-approved by a court of competent jurisdiction before the bankruptcy filing).</p>
+</div>
+
+<div class="content-section">
+  <h2>Section 543 Versus Section 542: The Choice of Vehicle</h2>
+  <p>The distinction between Section 542 and Section 543 turnover is structural and procedural:</p>
+  <ul>
+    <li><strong>Who is the holder?</strong> A custodian (formally appointed insolvency administrator) is governed by Section 543. Any other entity is governed by <a href="/section-542-turnover-by-entity/">Section 542</a>.</li>
+    <li><strong>What triggers the duty?</strong> Section 543 is triggered by the custodian's knowledge of the filing. Section 542 is triggered by demand or court order (post-Fulton).</li>
+    <li><strong>Is there an automatic accounting duty?</strong> Section 543(b)(2) imposes an automatic accounting duty. Section 542 does not.</li>
+    <li><strong>Is excuse available?</strong> Section 543(c) and 543(d)(1) permit judicial excuse. Section 542 has no parallel.</li>
+    <li><strong>How is compliance enforced?</strong> Section 543 enforcement typically proceeds by motion in the main case. Section 542 typically requires an adversary proceeding under Bankruptcy Rule 7001(1).</li>
+  </ul>
+  <p>Where a holder might be either (for example, an agent under a complex intercreditor arrangement whose status is contested), parties often plead both sections in the alternative to preserve all available recovery theories.</p>
+</div>
+
+<div class="content-section">
+  <h2>Practical Considerations for Custodians</h2>
+  <p>A custodian who learns of a bankruptcy filing concerning property under its administration should take four immediate steps:</p>
+  <ol>
+    <li><strong>Freeze administrative activity:</strong> Stop all disbursements and dispositions except those strictly necessary to preserve property (Section 543(a))</li>
+    <li><strong>Open communications with the trustee or debtor in possession:</strong> Identify the property under custodian control and confirm the trustee's intentions regarding turnover or possible excuse</li>
+    <li><strong>Document the accounting:</strong> Begin preparing the Section 543(b)(2) accounting from intake to present, including all receipts, disbursements, and current asset positions</li>
+    <li><strong>File a Section 543(d)(1) motion if continued custodian administration would benefit creditors:</strong> Move promptly to preserve the value of any in-flight transaction; do not wait for the trustee to move for turnover</li>
+  </ol>
+  <p>Failure to act within a reasonable time after knowledge of the filing exposes the custodian to surcharge for improper disbursements and to personal liability for actions taken in derogation of the trustee's right to take control.</p>
+</div>
+
+<div class="content-section">
+  <h2>Related Bankruptcy Code Sections</h2>
+  <p>Section 543 sits at the intersection of the federal bankruptcy estate and state-law insolvency procedures:</p>
+  <ul>
+    <li><a href="/section-543-turnover-custodian.html">Section 543 (overview)</a> - the original plain-English page</li>
+    <li><a href="/section-541-property-of-estate/">Section 541 Deep Dive</a> - what enters the estate</li>
+    <li><a href="/section-542-turnover-by-entity/">Section 542 Deep Dive</a> - turnover by non-custodian entities</li>
+    <li><a href="/section-305-abstention.html">Section 305</a> - abstention by the bankruptcy court (alternative path where state proceeding should continue)</li>
+    <li><a href="/automatic-stay-scope-exceptions/">Section 362</a> - automatic stay implications for custodian conduct</li>
+  </ul>
+</div>
+
+<div class="network-links">
+  <strong>Bankruptcy Tools Network:</strong><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Discharge Screener</a> &middot;
+  <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Research Platform</a> &middot;
+  <a href="https://bankruptcyexemptionsbystate.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Exemptions by State</a> &middot;
+  <a href="https://keepmycarinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your Car</a> &middot;
+  <a href="https://keepmyhouseinbankruptcy.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Keep Your House</a> &middot;
+  <a href="https://howmuchdoesbankruptcycost.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Bankruptcy Cost</a>
+</div>
+</main>
+
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by <a href="https://openbankruptcyproject.org/donate.html">donations</a>.</p>
+  <p style="margin-bottom:0.5rem">Free bankruptcy education. Not legal advice.</p>
+  <p style="margin-bottom:0.5rem">
+    <a href="/">Home</a> &middot;
+    <a href="/research.html">Research</a> &middot;
+    <a href="/impact.html">Impact</a> &middot;
+    <a href="/legal-aid.html">Legal Aid</a> &middot;
+    <a href="/about.html">About</a> &middot;
+    <a href="/contact.html">Contact</a>
+  </p>
+  <p style="font-size:0.75rem">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created by using this site. Consult a licensed attorney for advice on your specific situation.<br>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+</footer>
+<script>
+document.querySelector('.hamburger').addEventListener('click', function() {
+  var nav = document.getElementById('nav-links');
+  var open = nav.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+});
+</script>
+</body>
+</html>

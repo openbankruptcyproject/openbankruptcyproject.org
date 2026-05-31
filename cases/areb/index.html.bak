@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>E.D. Ark. Bankruptcy Cases - Open Bankruptcy Project</title>
+    <meta name="description" content="Index of 129,580 federal bankruptcy cases in the E.D. Ark. from the RECAP Archive. Free public-record access. Every case links to the full docket on CourtListener.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/cases/areb/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    <!-- BTN:GA4:START -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+    <!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "E.D. Ark. Bankruptcy Case Index", "description": "Full index of 129,580 federal bankruptcy cases in the E.D. Ark. available on the RECAP Archive. Free public-record access published by the Open Bankruptcy Project.", "url": "https://openbankruptcyproject.org/cases/areb/", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "creator": {"@type": "NonprofitOrganization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "sourceOrganization": {"@type": "Organization", "name": "Free Law Project", "url": "https://free.law/"}, "isAccessibleForFree": true, "keywords": "bankruptcy, federal court, RECAP, CourtListener, public records, E.D. Ark.", "variableMeasured": ["case number", "caption", "chapter", "date filed"], "size": {"@type": "QuantitativeValue", "value": 129580, "unitText": "cases"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Cases", "item": "https://openbankruptcyproject.org/cases/"}, {"@type": "ListItem", "position": 3, "name": "E.D. Ark.", "item": "https://openbankruptcyproject.org/cases/areb/"}]}</script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg:#0d1117; --surface:#151b23; --border:#252d38; --text:#e6edf3; --text-secondary:#b1bac4; --text-muted:#7d8590; --accent:#58a6ff; --green:#3fb950; --gold:#d29922; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .container { max-width: 1040px; margin: 0 auto; padding: 0 32px; }
+        nav.topnav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav.topnav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a.active { color: var(--text); }
+        .breadcrumb { padding: 16px 0; font-size: 0.85rem; color: var(--text-muted); }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb .sep { margin: 0 8px; color: var(--border); }
+        .hero { padding: 48px 0 32px; border-bottom: 1px solid var(--border); }
+        .hero .label { font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 10px; }
+        .hero h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 14px; line-height: 1.2; }
+        .hero p { color: var(--text-secondary); font-size: 1rem; max-width: 760px; }
+        .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 32px 0; }
+        .stat-cell { background: var(--surface); padding: 28px 16px; text-align: center; }
+        .stat-number { font-size: 1.75rem; font-weight: 800; display: block; letter-spacing: -0.02em; margin-bottom: 4px; }
+        .stat-number.accent { color: var(--accent); }
+        .stat-number.green { color: var(--green); }
+        .stat-number.gold { color: var(--gold); }
+        .stat-label { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 500; }
+        .section { padding: 40px 0; border-bottom: 1px solid var(--border); }
+        .section h2 { font-size: 1.4rem; font-weight: 700; margin-bottom: 12px; }
+        .section p { color: var(--text-secondary); margin-bottom: 16px; }
+        .page-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin-top: 20px; }
+        .page-list a { background: var(--surface); border: 1px solid var(--border); padding: 14px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 500; text-align: center; }
+        .page-list a:hover { background: rgba(88,166,255,0.1); text-decoration: none; }
+        .page-list a.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+        .chapter-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-top: 20px; }
+        .chapter-stat { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 22px 20px; text-align: center; }
+        .chapter-stat .ch-num { display: block; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 8px; }
+        .chapter-stat .ch-count { display: block; font-size: 1.5rem; font-weight: 800; color: var(--accent); letter-spacing: -0.02em; margin-bottom: 4px; }
+        .chapter-stat .ch-pct { display: block; font-size: 0.82rem; color: var(--text-muted); margin-bottom: 10px; }
+        .chapter-stat .ch-bar-track { height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; }
+        .chapter-stat .ch-bar-fill { height: 100%; background: var(--accent); border-radius: 2px; }
+        .year-bars { display: flex; gap: 10px; align-items: flex-end; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px 20px 14px; margin-top: 20px; overflow-x: auto; }
+        .yr-bar-wrap { flex: 1 1 0; min-width: 42px; display: flex; flex-direction: column; align-items: center; }
+        .yr-bar { width: 100%; max-width: 34px; background: linear-gradient(180deg, var(--accent), #1f6feb); border-radius: 3px 3px 0 0; min-height: 6px; }
+        .yr-label { display: block; font-size: 0.72rem; color: var(--text-muted); margin-top: 6px; font-weight: 600; }
+        .yr-count { display: block; font-size: 0.68rem; color: var(--text-muted); margin-top: 2px; }
+        .recent-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-top: 20px; }
+        .recent-table th { background: var(--bg); text-align: left; padding: 12px 16px; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; border-bottom: 1px solid var(--border); }
+        .recent-table td { padding: 12px 16px; font-size: 0.88rem; border-bottom: 1px solid var(--border); }
+        .recent-table tr:last-child td { border-bottom: none; }
+        .attribution { padding: 20px 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-size: 0.85rem; color: var(--text-muted); margin: 32px 0; }
+        .attribution strong { color: var(--text-secondary); }
+        .attribution a { color: var(--text-secondary); }
+        footer { padding: 40px 0; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; text-align: center; }
+        footer a { color: var(--text-muted); margin: 0 10px; }
+    </style>
+</head>
+<body>
+<nav class="topnav">
+    <div class="container">
+        <a href="/" class="nav-brand">Open Bankruptcy Project</a>
+        <div class="nav-links">
+            <a href="/#mission">Mission</a>
+            <a href="/#what-we-do">What We Do</a>
+            <a href="/cases/" class="active">Cases</a>
+            <a href="/research.html">Research</a>
+            <a href="/recap.html">RECAP</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <a href="/cases/">Cases</a><span class="sep">/</span>
+        <span>E.D. Ark.</span>
+    </div>
+</div>
+<header class="hero">
+    <div class="container">
+        <div class="label">Bankruptcy Court Index</div>
+        <h1>United States Bankruptcy Court for the Eastern District of Arkansas</h1>
+        <p>United States Bankruptcy Court for the Eastern District of Arkansas is one of the US federal bankruptcy courts whose public, RECAP-archived dockets are indexed here. The Open Bankruptcy Project maintains this national case-level index for empirical research and public-records access. Every case below links to the full docket on the Free Law Project&#x27;s CourtListener.</p>
+    </div>
+</header>
+<main class="container">
+    <div class="stats">
+        <div class="stat-cell"><span class="stat-number green">129,580</span><span class="stat-label">Cases Indexed</span></div>
+        <div class="stat-cell"><span class="stat-number accent">260</span><span class="stat-label">Catalog Pages</span></div>
+        <div class="stat-cell"><span class="stat-number gold">$0</span><span class="stat-label">Cost to Access</span></div>
+    </div>
+    
+    <section class="section">
+        <div class="label" style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 10px;">Filing Breakdown</div>
+        <h2>Cases by Chapter</h2>
+        <p>Distribution of cases in this district by bankruptcy chapter. Source: CourtListener docket metadata. Cases with no chapter value on the docket record are grouped as "Other / Unspecified".</p>
+        <div class="chapter-grid">
+            <div class="chapter-stat"><span class="ch-num">Ch. 7</span><span class="ch-count">60,261</span><span class="ch-pct">46.5%</span><div class="ch-bar-track"><div class="ch-bar-fill" style="width:47%"></div></div></div><div class="chapter-stat"><span class="ch-num">Ch. 11</span><span class="ch-count">327</span><span class="ch-pct">0.3%</span><div class="ch-bar-track"><div class="ch-bar-fill" style="width:1%"></div></div></div><div class="chapter-stat"><span class="ch-num">Ch. 13</span><span class="ch-count">65,437</span><span class="ch-pct">50.5%</span><div class="ch-bar-track"><div class="ch-bar-fill" style="width:50%"></div></div></div><div class="chapter-stat"><span class="ch-num">Ch. 12</span><span class="ch-count">148</span><span class="ch-pct">0.1%</span><div class="ch-bar-track"><div class="ch-bar-fill" style="width:1%"></div></div></div><div class="chapter-stat"><span class="ch-num">Ch. 15</span><span class="ch-count">1</span><span class="ch-pct">0.0%</span><div class="ch-bar-track"><div class="ch-bar-fill" style="width:1%"></div></div></div><div class="chapter-stat"><span class="ch-num">Ch. 9</span><span class="ch-count">5</span><span class="ch-pct">0.0%</span><div class="ch-bar-track"><div class="ch-bar-fill" style="width:1%"></div></div></div><div class="chapter-stat"><span class="ch-num">Other / Unspecified</span><span class="ch-count">3,401</span><span class="ch-pct">2.6%</span><div class="ch-bar-track"><div class="ch-bar-fill" style="width:3%"></div></div></div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="label" style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 10px;">Temporal Coverage</div>
+        <h2>Filing Years: 2005 - 2026</h2>
+        <p>Cases per year across the most recent ten calendar years in this index. Height scaled to the busiest year in the window.</p>
+        <div class="year-bars"><div class="yr-bar-wrap" title="2017: 7,052 cases"><div class="yr-bar" style="height:60px"></div><span class="yr-label">17</span><span class="yr-count">7,052</span></div><div class="yr-bar-wrap" title="2018: 7,089 cases"><div class="yr-bar" style="height:60px"></div><span class="yr-label">18</span><span class="yr-count">7,089</span></div><div class="yr-bar-wrap" title="2019: 7,009 cases"><div class="yr-bar" style="height:59px"></div><span class="yr-label">19</span><span class="yr-count">7,009</span></div><div class="yr-bar-wrap" title="2020: 4,763 cases"><div class="yr-bar" style="height:42px"></div><span class="yr-label">20</span><span class="yr-count">4,763</span></div><div class="yr-bar-wrap" title="2021: 3,549 cases"><div class="yr-bar" style="height:33px"></div><span class="yr-label">21</span><span class="yr-count">3,549</span></div><div class="yr-bar-wrap" title="2022: 3,750 cases"><div class="yr-bar" style="height:35px"></div><span class="yr-label">22</span><span class="yr-count">3,750</span></div><div class="yr-bar-wrap" title="2023: 4,166 cases"><div class="yr-bar" style="height:38px"></div><span class="yr-label">23</span><span class="yr-count">4,166</span></div><div class="yr-bar-wrap" title="2024: 4,297 cases"><div class="yr-bar" style="height:39px"></div><span class="yr-label">24</span><span class="yr-count">4,297</span></div><div class="yr-bar-wrap" title="2025: 4,620 cases"><div class="yr-bar" style="height:41px"></div><span class="yr-label">25</span><span class="yr-count">4,620</span></div><div class="yr-bar-wrap" title="2026: 1,591 cases"><div class="yr-bar" style="height:18px"></div><span class="yr-label">26</span><span class="yr-count">1,591</span></div></div>
+    </section>
+    
+    <section class="section">
+        <div class="label" style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 10px;">Latest Activity</div>
+        <h2>Five Most Recent Filings</h2>
+        <p>Most recent bankruptcy filings in this district that appear on the RECAP Archive. Each row links to the full docket on CourtListener.</p>
+        <table class="recent-table">
+            <thead>
+                <tr><th>Case Number</th><th>Caption</th><th>Filed</th><th>Primary Source</th></tr>
+            </thead>
+            <tbody>
+                <tr><td style="white-space:nowrap;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:0.82rem">4:26-bk-11576</td><td>Autumn Hopper</td><td style="white-space:nowrap;color:var(--text-muted);font-size:0.82rem">2026-04-21</td><td><a href="https://www.courtlistener.com/docket/73221102/autumn-hopper/" target="_blank" rel="noopener">CourtListener -&gt;</a></td></tr><tr><td style="white-space:nowrap;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:0.82rem">4:26-bk-11575</td><td>Cherkita Henderson</td><td style="white-space:nowrap;color:var(--text-muted);font-size:0.82rem">2026-04-21</td><td><a href="https://www.courtlistener.com/docket/73220520/cherkita-henderson/" target="_blank" rel="noopener">CourtListener -&gt;</a></td></tr><tr><td style="white-space:nowrap;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:0.82rem">4:26-bk-11574</td><td>Kimberly G. London</td><td style="white-space:nowrap;color:var(--text-muted);font-size:0.82rem">2026-04-21</td><td><a href="https://www.courtlistener.com/docket/73220422/kimberly-g-london/" target="_blank" rel="noopener">CourtListener -&gt;</a></td></tr><tr><td style="white-space:nowrap;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:0.82rem">4:26-bk-11573</td><td>Brandy N. Linker</td><td style="white-space:nowrap;color:var(--text-muted);font-size:0.82rem">2026-04-21</td><td><a href="https://www.courtlistener.com/docket/73220175/brandy-n-linker/" target="_blank" rel="noopener">CourtListener -&gt;</a></td></tr><tr><td style="white-space:nowrap;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:0.82rem">4:26-bk-11572</td><td>Anthony Ryan Jarrett</td><td style="white-space:nowrap;color:var(--text-muted);font-size:0.82rem">2026-04-21</td><td><a href="https://www.courtlistener.com/docket/73220088/anthony-ryan-jarrett/" target="_blank" rel="noopener">CourtListener -&gt;</a></td></tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="section">
+        <h2>Browse the Index</h2>
+        <p>Every case below links directly to the full docket on CourtListener. 500 cases per page, sorted by filing date (most recent first).</p>
+        <div class="page-list">
+            <a href="index.html" class="active">Start here →</a> <a href="page-2.html">Page 2</a> <a href="page-3.html">Page 3</a> <a href="page-4.html">Page 4</a> <a href="page-5.html">Page 5</a> <a href="page-6.html">Page 6</a> <a href="page-7.html">Page 7</a> <a href="page-8.html">Page 8</a> <a href="page-9.html">Page 9</a> <a href="page-10.html">Page 10</a>
+        </div>
+    </section>
+    <section class="section">
+        <h2>About This Court</h2>
+        <p>The United States Bankruptcy Court for the Eastern District of Arkansas handles bankruptcy filings for its federal judicial district. Case records are available on PACER for $0.10 per page, or for free on the <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener RECAP Archive</a> when contributed by RECAP users or purchased and donated by organizations like the Open Bankruptcy Project.</p>
+        <p>This index lists <strong>129,580 cases</strong> from the E.D. Ark. that appear on RECAP. Cases are sorted by filing date (most recent first) and paginated at 500 cases per page. Each row links directly to the full docket on CourtListener - no fee, no login, no paywall.</p>
+    </section>
+    <div class="attribution">
+        <p><strong>Data source:</strong> Case metadata from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>, operated by the <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a>. Content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. This derived index is published under the same license. Last updated 2026-04-21.</p>
+        <p style="margin-top: 12px;">The Open Bankruptcy Project does not reproduce docket PDFs or filing text on this domain - all primary-source access is via CourtListener.</p>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <p><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/recap.html">RECAP</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a></p>
+        <p style="margin-top: 12px;">Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p style="margin-top: 8px;">Case metadata from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a> / <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    </div>
+</footer>
+</body>
+</html>

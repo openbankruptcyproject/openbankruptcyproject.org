@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Bankruptcy Filing Statistics: April 2026 Data Roundup - Open Bankruptcy Project</title>
+<meta content="Monthly bankruptcy filing statistics from the Open Bankruptcy Project: 1,926 filings in 2026, dismissal rates by district, Chapter 7 vs 13 trends, prior filer analysis, and more." name="description"/>
+<link href="https://openbankruptcyproject.org/blog/data-roundup-april-2026.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://openbankruptcyproject.org/blog/data-roundup-april-2026.html" hreflang="en" rel="alternate"/>
+<meta content="Bankruptcy Filing Statistics: April 2026 Data Roundup" property="og:title"/>
+<meta content="Monthly bankruptcy data roundup: 1,926 filings tracked, dismissal rates, prior filer analysis, pro se rates, and year-over-year trends." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/blog/data-roundup-april-2026.html" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="2026-04-14T12:00:00Z" property="article:published_time"/>
+<meta content="Data" property="article:section"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Bankruptcy Filing Statistics: April 2026 Data Roundup" name="twitter:title"/>
+<meta content="Monthly bankruptcy data roundup from the Open Bankruptcy Project." name="twitter:description"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- BTN:GA4:START -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": "Bankruptcy Filing Statistics: April 2026 Data Roundup",
+          "datePublished": "2026-04-14T12:00:00Z",
+          "dateModified": "2026-04-14T12:00:00Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+          },
+          "mainEntityOfPage": "https://openbankruptcyproject.org/blog/data-roundup-april-2026.html",
+          "description": "Monthly bankruptcy filing statistics covering 1,926 cases across 12 federal districts.",
+          "image": "/og-image.svg"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [{"@type": "Question", "name": "How many bankruptcy cases were filed in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "Based on data tracked by the Open Bankruptcy Project, 1,926 Chapter 7, 11, 12, and 13 cases were filed in 2026 across the districts in our database."}},
+{"@type": "Question", "name": "What is the bankruptcy dismissal rate?", "acceptedAnswer": {"@type": "Answer", "text": "Dismissal rates vary widely by district. In 2026, the highest observed rate was 8.1% (D. New Jersey) and many districts had 0% dismissals among resolved cases."}},
+{"@type": "Question", "name": "What percentage of bankruptcy filers are repeat filers?", "acceptedAnswer": {"@type": "Answer", "text": "In 2026, approximately 4.3% of debtors in the tracked districts had at least one prior bankruptcy filing in the same court."}},
+{"@type": "Question", "name": "What percentage of bankruptcy filers represent themselves?", "acceptedAnswer": {"@type": "Answer", "text": "About 23.0% of bankruptcy filers in 2026 appeared without an attorney (pro se)."}}]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://openbankruptcyproject.org/blog/" },
+            { "@type": "ListItem", "position": 3, "name": "Bankruptcy Filing Statistics: April 2026 Data Roundup", "item": "https://openbankruptcyproject.org/blog/data-roundup-april-2026.html" }
+          ]
+        }
+      ]
+    }
+    </script>
+<style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230;
+            --border: #252d38; --border-light: #2d3748;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff;
+            --gold: #d29922; --green: #3fb950; --red: #f85149;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        .wide-container { max-width: 1040px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .breadcrumb-nav { font-size:0.85rem; color:#8b949e; padding:0.5rem 32px; max-width:1040px; margin:0 auto; }
+        .breadcrumb-nav a { color:#58a6ff; text-decoration:none; }
+        .breadcrumb-nav a:hover { text-decoration:underline; }
+        .breadcrumb-nav .separator { margin:0 0.5rem; color:#484f58; }
+
+        .article-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .article-header h1 { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .article-header .meta { font-size: 0.9rem; color: var(--text-muted); }
+
+        .article-body { padding: 48px 0 64px; }
+        .article-body h2 { font-size: 1.5rem; font-weight: 700; margin: 48px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+        .article-body h3 { font-size: 1.15rem; font-weight: 600; margin: 32px 0 12px; }
+        .article-body p { margin-bottom: 16px; color: var(--text-secondary); }
+        .article-body ul, .article-body ol { margin: 0 0 16px 24px; color: var(--text-secondary); }
+        .article-body li { margin-bottom: 6px; }
+
+        .stat-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px; margin: 24px 0 32px;
+        }
+        .stat-card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+            padding: 20px 24px; text-align: center;
+        }
+        .stat-card .stat-value { font-size: 1.8rem; font-weight: 800; color: var(--text); }
+        .stat-card .stat-label { font-size: 0.82rem; color: var(--text-muted); margin-top: 4px; }
+
+        table {
+            width: 100%; border-collapse: collapse; margin: 16px 0 24px;
+            background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+        th { background: rgba(88,166,255,0.08); color: var(--text); font-weight: 600; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em; }
+        td { color: var(--text-secondary); }
+        tr:last-child td { border-bottom: none; }
+
+        .callout {
+            background: rgba(88,166,255,0.06); border: 1px solid rgba(88,166,255,0.2);
+            border-radius: 8px; padding: 16px 20px; margin: 20px 0; font-size: 0.92rem;
+        }
+        .callout strong { color: var(--accent); }
+
+        .faq-item {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+            margin-bottom: 12px; overflow: hidden;
+        }
+        .faq-item summary {
+            padding: 14px 20px; cursor: pointer; font-weight: 600; font-size: 0.95rem;
+            color: var(--text); list-style: none;
+        }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-item summary::before { content: "+ "; color: var(--accent); font-weight: 700; }
+        .faq-item[open] summary::before { content: "- "; }
+        .faq-item p { padding: 0 20px 14px; color: var(--text-secondary); font-size: 0.9rem; margin: 0; }
+
+        .cross-links {
+            display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;
+        }
+        .cross-links a {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 6px;
+            padding: 8px 16px; font-size: 0.85rem; font-weight: 500; transition: border-color 0.2s;
+        }
+        .cross-links a:hover { border-color: var(--accent); }
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container, .wide-container { padding: 0 20px; }
+            .article-header { padding: 48px 0 32px; }
+            .article-header h1 { font-size: 1.6rem; }
+            .stat-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a href="/methodology.html">Methodology</a>
+<a href="/citations.html">Citations</a>
+<a href="/blog/">Blog</a>
+<a href="/press.html">Press</a>
+<a href="/contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav">
+<a href="https://openbankruptcyproject.org">Home</a><span class="separator">›</span>
+<a href="https://openbankruptcyproject.org/blog/">Blog</a><span class="separator">›</span>
+<span>Bankruptcy Filing Statistics: April 2026 Data Roundup</span>
+</nav>
+<div class="article-header">
+<div class="container">
+<h1>Bankruptcy Filing Statistics: April 2026 Data Roundup</h1>
+<div class="meta">Published 2026-04-14 by Open Bankruptcy Project Research Team</div>
+</div>
+</div>
+<div class="article-body">
+<div class="container">
+<h2>National Overview</h2>
+<p>The Open Bankruptcy Project tracked <strong>1,926</strong> Chapter 7, 11, 12, and 13 bankruptcy filings in 2026 across 12 federal judicial districts in our database. Compared to 2025, total filings changed by <strong style="color:#f85149">-80.2%</strong>.</p>
+<div class="stat-grid">
+<div class="stat-card">
+<div class="stat-value">1,926</div>
+<div class="stat-label">Total Filings (2026)</div>
+</div>
+<div class="stat-card">
+<div class="stat-value" style="color:#f85149">-80.2%</div>
+<div class="stat-label">Year-over-Year Change</div>
+</div>
+<div class="stat-card">
+<div class="stat-value">23.0%</div>
+<div class="stat-label">Pro Se Rate</div>
+</div>
+<div class="stat-card">
+<div class="stat-value">4.3%</div>
+<div class="stat-label">Prior Filer Rate</div>
+</div>
+</div>
+<div class="callout">
+<strong>Data note:</strong> These statistics reflect cases tracked in the Open Bankruptcy Project database (1,926 cases across 12 districts for 2026). The full federal system processes substantially more filings annually across all 94 districts. Our data is drawn from the <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a>'s Integrated Database and supplemented with PACER/RSS monitoring.
+        </div>
+<h2>Chapter Breakdown</h2>
+<p>Chapter 7 and Chapter 13 continue to dominate consumer bankruptcy filings. Here is how each chapter performed in 2026 vs. 2025:</p>
+<table>
+<thead>
+<tr><th>Chapter</th><th style="text-align:right">2026</th><th style="text-align:right">2025</th><th style="text-align:right">Change</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Chapter 7</td>
+<td style="text-align:right">898</td>
+<td style="text-align:right">4,125</td>
+<td style="text-align:right;color:#f85149">-78.2%</td>
+</tr>
+<tr>
+<td>Chapter 11</td>
+<td style="text-align:right">161</td>
+<td style="text-align:right">1,125</td>
+<td style="text-align:right;color:#f85149">-85.7%</td>
+</tr>
+<tr>
+<td>Chapter 12</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right;color:#f85149">-90.0%</td>
+</tr>
+<tr>
+<td>Chapter 13</td>
+<td style="text-align:right">866</td>
+<td style="text-align:right">4,454</td>
+<td style="text-align:right;color:#f85149">-80.6%</td>
+</tr>
+</tbody>
+</table>
+<p>For a detailed comparison of Chapter 7 and Chapter 13, visit <a href="https://chapter7vs13.org">chapter7vs13.org</a>. If you are wondering whether you qualify, try the <a href="https://bankruptcymeanstest.org">means test calculator</a>.</p>
+<h2>District Spotlight</h2>
+<h3>Highest Dismissal Rates</h3>
+<p>These districts had the highest percentage of cases ending in dismissal in 2026. High dismissal rates can signal systemic issues - debtors failing to complete plan payments, inadequate pre-filing counseling, or <a href="https://bankruptcydismissed.com">other factors</a>.</p>
+<table>
+<thead>
+<tr><th>District</th><th style="text-align:right">Total</th><th style="text-align:right">Dismissed</th><th style="text-align:right">Rate</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>D. New Jersey</td>
+<td style="text-align:right">111</td>
+<td style="text-align:right">9</td>
+<td style="text-align:right;color:#f85149">8.1%</td>
+</tr>
+<tr>
+<td>M.D. Florida</td>
+<td style="text-align:right">213</td>
+<td style="text-align:right">2</td>
+<td style="text-align:right;color:#f85149">0.9%</td>
+</tr>
+<tr>
+<td>S.D. Florida</td>
+<td style="text-align:right">136</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right;color:#f85149">0.7%</td>
+</tr>
+<tr>
+<td>S.D. Texas</td>
+<td style="text-align:right">171</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#f85149">0.0%</td>
+</tr>
+<tr>
+<td>N.D. Texas</td>
+<td style="text-align:right">64</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#f85149">0.0%</td>
+</tr>
+<tr>
+<td>E.D. Pennsylvania</td>
+<td style="text-align:right">56</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#f85149">0.0%</td>
+</tr>
+<tr>
+<td>M.D. North Carolina</td>
+<td style="text-align:right">42</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#f85149">0.0%</td>
+</tr>
+<tr>
+<td>W.D. Missouri</td>
+<td style="text-align:right">274</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#f85149">0.0%</td>
+</tr>
+<tr>
+<td>E.D. Missouri</td>
+<td style="text-align:right">293</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#f85149">0.0%</td>
+</tr>
+<tr>
+<td>D. Kansas</td>
+<td style="text-align:right">382</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#f85149">0.0%</td>
+</tr>
+</tbody>
+</table>
+<h3>Lowest Dismissal Rates</h3>
+<p>These districts had the lowest dismissal rates among districts with at least 20 cases:</p>
+<table>
+<thead>
+<tr><th>District</th><th style="text-align:right">Total</th><th style="text-align:right">Dismissed</th><th style="text-align:right">Rate</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>N.D. Georgia</td>
+<td style="text-align:right">36</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#3fb950">0.0%</td>
+</tr>
+<tr>
+<td>N.D. Illinois</td>
+<td style="text-align:right">20</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#3fb950">0.0%</td>
+</tr>
+<tr>
+<td>D. Kansas</td>
+<td style="text-align:right">382</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#3fb950">0.0%</td>
+</tr>
+<tr>
+<td>E.D. Missouri</td>
+<td style="text-align:right">293</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#3fb950">0.0%</td>
+</tr>
+<tr>
+<td>W.D. Missouri</td>
+<td style="text-align:right">274</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#3fb950">0.0%</td>
+</tr>
+<tr>
+<td>M.D. North Carolina</td>
+<td style="text-align:right">42</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#3fb950">0.0%</td>
+</tr>
+<tr>
+<td>E.D. Pennsylvania</td>
+<td style="text-align:right">56</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#3fb950">0.0%</td>
+</tr>
+<tr>
+<td>N.D. Texas</td>
+<td style="text-align:right">64</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#3fb950">0.0%</td>
+</tr>
+<tr>
+<td>S.D. Texas</td>
+<td style="text-align:right">171</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right;color:#3fb950">0.0%</td>
+</tr>
+<tr>
+<td>S.D. Florida</td>
+<td style="text-align:right">136</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right;color:#3fb950">0.7%</td>
+</tr>
+</tbody>
+</table>
+<h3>Busiest Districts</h3>
+<table>
+<thead>
+<tr><th>District</th><th style="text-align:right">Filings</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>D. Kansas</td>
+<td style="text-align:right">382</td>
+</tr>
+<tr>
+<td>E.D. Missouri</td>
+<td style="text-align:right">293</td>
+</tr>
+<tr>
+<td>W.D. Missouri</td>
+<td style="text-align:right">274</td>
+</tr>
+<tr>
+<td>M.D. Florida</td>
+<td style="text-align:right">213</td>
+</tr>
+<tr>
+<td>S.D. Texas</td>
+<td style="text-align:right">171</td>
+</tr>
+<tr>
+<td>S.D. Florida</td>
+<td style="text-align:right">136</td>
+</tr>
+<tr>
+<td>D. New Jersey</td>
+<td style="text-align:right">111</td>
+</tr>
+<tr>
+<td>N.D. Texas</td>
+<td style="text-align:right">64</td>
+</tr>
+<tr>
+<td>E.D. Pennsylvania</td>
+<td style="text-align:right">56</td>
+</tr>
+<tr>
+<td>M.D. North Carolina</td>
+<td style="text-align:right">42</td>
+</tr>
+</tbody>
+</table>
+<h2>Year-over-Year Trends</h2>
+<p>Total filings went from <strong>9,714</strong> in 2025 to <strong>1,926</strong> in 2026, a change of <strong style="color:#f85149">-80.2%</strong>.</p>
+<ul>
+<li><strong>Chapter 7:</strong> 898 filings (-78.2% vs 2025)</li>
+<li><strong>Chapter 13:</strong> 866 filings (-80.6% vs 2025)</li>
+<li><strong>Chapter 11:</strong> 161 filings (-85.7% vs 2025)</li>
+</ul>
+<h2>Prior Filer Analysis</h2>
+<p>Of the 1,926 cases filed in 2026, <strong>82</strong> debtors (4.3%) had at least one prior bankruptcy filing in the same court. Repeat filings raise important questions about <a href="https://1328f.com">discharge eligibility under Section 1328(f)</a> and the effectiveness of the bankruptcy system.</p>
+<div class="stat-grid">
+<div class="stat-card">
+<div class="stat-value">82</div>
+<div class="stat-label">Prior Filers</div>
+</div>
+<div class="stat-card">
+<div class="stat-value">4.3%</div>
+<div class="stat-label">Prior Filer Rate</div>
+</div>
+<div class="stat-card">
+<div class="stat-value">23.0%</div>
+<div class="stat-label">Pro Se Filers</div>
+</div>
+<div class="stat-card">
+<div class="stat-value">7.9%</div>
+<div class="stat-label">Joint Filings</div>
+</div>
+</div>
+<p>The <a href="https://1328f.com/screener.html">1328(f) screener tool</a> can help determine whether a prior filer is eligible for discharge in a new case. For those considering filing again, see <a href="https://bankruptcyfreshstart.org">bankruptcyfreshstart.org</a>.</p>
+<h2>Frequently Asked Questions</h2>
+<details class="faq-item">
+<summary>How many bankruptcy cases were filed in 2026?</summary>
+<p>Based on data tracked by the Open Bankruptcy Project, 1,926 Chapter 7, 11, 12, and 13 cases were filed in 2026 across the districts in our database.</p>
+</details>
+<details class="faq-item">
+<summary>What is the bankruptcy dismissal rate?</summary>
+<p>Dismissal rates vary widely by district. In 2026, the highest observed rate was 8.1% (D. New Jersey) and many districts had 0% dismissals among resolved cases.</p>
+</details>
+<details class="faq-item">
+<summary>What percentage of bankruptcy filers are repeat filers?</summary>
+<p>In 2026, approximately 4.3% of debtors in the tracked districts had at least one prior bankruptcy filing in the same court.</p>
+</details>
+<details class="faq-item">
+<summary>What percentage of bankruptcy filers represent themselves?</summary>
+<p>About 23.0% of bankruptcy filers in 2026 appeared without an attorney (pro se).</p>
+</details>
+<h2>Explore More</h2>
+<p>The Open Bankruptcy Project provides free, open-source tools for understanding bankruptcy data:</p>
+<div class="cross-links">
+<a href="https://openbankruptcyproject.org">Open Bankruptcy Project</a>
+<a href="https://chapter7vs13.org">Chapter 7 vs 13</a>
+<a href="https://1328f.com">1328(f) Screener</a>
+<a href="https://bankruptcymeanstest.org">Means Test</a>
+<a href="https://bankruptcydischarge.org">Discharge Guide</a>
+<a href="https://prosequestion.com">Pro Se Resources</a>
+<a href="https://howmuchdoesbankruptcycost.com">Filing Costs</a>
+<a href="https://bankruptcydismissed.com">Dismissal Guide</a>
+</div>
+<h2>Methodology Note</h2>
+<p>Statistics in this roundup are drawn from the Open Bankruptcy Project database, which integrates data from the <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a>'s Integrated Database (IDB) with ongoing PACER and RSS monitoring across participating districts. Case counts reflect individual bankruptcy petitions (Chapters 7, 11, 12, and 13). Adversary proceedings are excluded. Dismissal rates are calculated against all cases with a recorded disposition. Prior filer status is determined by matching debtor names within the same court across filing years. For full methodology details, see our <a href="https://openbankruptcyproject.org/methodology.html">methodology page</a>.</p>
+</div>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a href="/contact.html">Contact</a>
+<a href="/privacy.html">Privacy</a>
+<a href="/terms.html">Terms</a>
+<a href="https://github.com/ilikemath9999" rel="noopener" target="_blank">GitHub</a>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+<a href="/donate.html">Donate</a>
+</div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+<p>All tools and data released under open-source licenses.</p>
+</div>
+<p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+<!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+</body>
+</html>

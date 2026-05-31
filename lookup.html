@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>Free Bankruptcy Case Lookup — Search Public Filings by Name | Open Bankruptcy Project</title>
+<meta content="Free public-records search for federal bankruptcy filings. Type a name; find the case. 8 million federal bankruptcy cases indexed across all 94 U.S. judicial districts. No account, no credit card, no fees. From a 501(c)(3) nonprofit." name="description"/>
+<meta content="free bankruptcy lookup, find bankruptcy filing, bankruptcy case search, public bankruptcy records, search bankruptcy by name, free PACER alternative, federal court bankruptcy index, look up bankruptcy case, did someone file bankruptcy" name="keywords"/>
+<link href="https://openbankruptcyproject.org/lookup.html" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<!-- Open Graph -->
+<meta content="Free Bankruptcy Case Lookup — Open Bankruptcy Project" property="og:title"/>
+<meta content="Free public-records search for federal bankruptcy filings. 8M cases across all 94 districts. No account required. From a 501(c)(3) nonprofit." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/lookup.html" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Free Bankruptcy Case Lookup — Open Bankruptcy Project" name="twitter:title"/>
+<meta content="Free public-records search for federal bankruptcy filings. 8M cases across all 94 districts. No account required. From a 501(c)(3) nonprofit." name="twitter:description"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<!-- GA4 -->
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- Schema.org WebSite + SearchAction (tells Google we have a site-wide search) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Open Bankruptcy Project",
+  "url": "https://openbankruptcyproject.org",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://openbankruptcyproject.org/lookup.html?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<!-- Schema.org GovernmentService (free public-records search) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Free Bankruptcy Case Lookup",
+  "url": "https://openbankruptcyproject.org/lookup.html",
+  "description": "Free public-records search for federal bankruptcy filings indexed from PACER across all 94 U.S. judicial districts.",
+  "provider": {
+    "@type": "NonprofitOrganization",
+    "name": "Open Bankruptcy Project",
+    "taxID": "41-5159631",
+    "nonprofitStatus": "https://schema.org/NonprofitType501c3",
+    "url": "https://openbankruptcyproject.org"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "isAccessibleForFree": true,
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "general public, researchers, attorneys, journalists, due-diligence reviewers"
+  }
+}
+</script>
+<!-- Schema.org FAQPage (rich results) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are bankruptcy filings public records?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Federal bankruptcy filings are public records under 11 U.S.C. § 107 and are accessible through the PACER electronic-records system maintained by the U.S. Courts. The U.S. Supreme Court has repeatedly affirmed that publication of lawfully-obtained public-record information is constitutionally protected speech (Florida Star v. B.J.F., 491 U.S. 524; Cox Broadcasting v. Cohn, 420 U.S. 469)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Open Bankruptcy Project a paid service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Open Bankruptcy Project is a 501(c)(3) nonprofit (EIN 41-5159631). All search and indexing is free. There is no paywall, no account requirement, and no ads. The project is supported entirely by donations and volunteer labor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What information does this lookup return?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The lookup returns case-level metadata only: debtor name, case number, district, chapter, and date filed. It does not return Social Security numbers, addresses, financial schedules, or other personal identifiers. For the full underlying docket, follow the linked CourtListener / RECAP reference."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can employers, landlords, or creditors use this for background checks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open Bankruptcy Project is an information index of public records — not a consumer reporting agency (CRA) under the Fair Credit Reporting Act. Anyone using the lookup for employment, tenancy, credit, or insurance decisions about a specific person should consult counsel about FCRA compliance and consider procuring a CRA-issued consumer report, which provides notice and accuracy guarantees the FCRA requires."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why might I not find someone who filed bankruptcy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three reasons. First, sealed records (rare) do not appear. Second, very recent filings (within the last 24-72 hours) may not yet be indexed. Third, name spellings may differ from those in the court record; try variations including hyphenated last names, middle names or initials, and suffixes (Jr./Sr.)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if the public record contains an error?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Errors should be corrected at the source. Contact the clerk of the issuing bankruptcy court to request a correction or motion to seal. Open Bankruptcy Project mirrors PACER and CourtListener and propagates corrections within 24-48 hours of upstream updates."
+      }
+    }
+  ]
+}
+</script>
+<style>
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --surface-elev: #21262d;
+  --border: #30363d;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --link: #58a6ff;
+  --accent: #3fb950;
+  --warning: #d29922;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+}
+.skip-link { position: absolute; left: -9999px; top: auto; }
+.skip-link:focus { left: 1rem; top: 1rem; padding: 0.5rem 1rem; background: var(--surface); color: var(--text); border-radius: 4px; z-index: 1000; }
+nav[aria-label="Main navigation"] {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 0;
+}
+.container { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+.container.narrow { max-width: 760px; }
+nav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.nav-brand { font-weight: 700; color: var(--text); font-size: 1.05rem; }
+.nav-links { display: flex; flex-wrap: wrap; gap: 14px; }
+.nav-links a { color: var(--text-muted); text-decoration: none; font-size: 0.88rem; }
+.nav-links a:hover { color: var(--link); }
+header.hero {
+  background: linear-gradient(135deg, #0d2818 0%, #0d1f2a 100%);
+  border-bottom: 1px solid var(--accent);
+  padding: 56px 0 36px;
+  text-align: center;
+}
+header.hero h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.8rem, 4.2vw, 2.6rem);
+  color: var(--text);
+  font-weight: 700;
+}
+header.hero p.tagline {
+  margin: 0 auto 1.4rem;
+  color: var(--text-muted);
+  max-width: 640px;
+  font-size: 1.05rem;
+}
+header.hero .meta-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #0d1117;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+section.search-band {
+  background: linear-gradient(180deg, var(--surface) 0%, var(--bg) 100%);
+  padding: 36px 0 48px;
+  border-bottom: 1px solid var(--border);
+}
+section.search-band .container { max-width: 820px; }
+.search-band h2 { margin: 0 0 0.5rem; color: var(--text); font-size: 1.25rem; }
+.search-band p.search-help { color: var(--text-muted); margin: 0 0 1.2rem; font-size: 0.95rem; }
+section.content { padding: 40px 0; }
+section.content + section.content { border-top: 1px solid var(--border); }
+section.content h2 { color: var(--text); font-size: 1.55rem; margin: 0 0 1rem; }
+section.content h3 { color: var(--text); font-size: 1.1rem; margin: 1.4rem 0 0.5rem; }
+section.content p, section.content li { color: var(--text); font-size: 0.98rem; }
+section.content ul { padding-left: 1.4rem; }
+.callout {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  margin: 1.4rem 0;
+  color: var(--text);
+}
+.callout strong { color: var(--accent); }
+.legal-note {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--warning);
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  margin: 1.4rem 0;
+  color: var(--text);
+  font-size: 0.92rem;
+}
+.legal-note strong { color: var(--warning); }
+.faq-q { font-weight: 600; color: var(--text); margin: 1.2rem 0 0.35rem; }
+.faq-a { color: var(--text); font-size: 0.95rem; }
+.district-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.6rem; margin: 1.2rem 0; }
+.district-grid a {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.55rem 0.85rem;
+  color: var(--link);
+  text-decoration: none;
+  font-size: 0.88rem;
+}
+.district-grid a:hover { border-color: var(--link); background: var(--surface-elev); }
+footer {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  padding: 30px 0 24px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.86rem;
+  margin-top: 40px;
+}
+footer a { color: var(--link); text-decoration: none; }
+footer .footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin: 0.8rem 0; }
+@media (max-width: 720px) {
+  nav .container { flex-direction: column; align-items: flex-start; }
+  .nav-links { gap: 10px; font-size: 0.82rem; }
+  header.hero { padding: 40px 0 28px; }
+}
+</style>
+<link rel="stylesheet" href="/assets/obp-search.css?v=20260519d">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<nav aria-label="Main navigation">
+<div class="container">
+<a href="/" class="nav-brand" style="color:#e6edf3;text-decoration:none">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/lookup.html" aria-current="page" style="color:#3fb950">Lookup</a>
+<a href="/cases/">Court Index</a>
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a href="/contact.html">Contact</a>
+</div>
+</div>
+</nav>
+
+<header class="hero">
+<div class="container">
+<span class="meta-badge">Free Public-Records Search</span>
+<h1>Free Bankruptcy Case Lookup</h1>
+<p class="tagline">Type a name. Find the federal bankruptcy filing. 8 million U.S. cases indexed across all 94 judicial districts. No account. No credit card. No paywall.</p>
+</div>
+</header>
+
+<section class="search-band" id="main">
+<div class="container">
+<h2>Search by debtor name</h2>
+<p class="search-help">Enter a first and last name, or a business name. Partial matches and middle initials work. Hyphenated surnames are supported.</p>
+<div class="obp-search" data-program="cases"></div>
+</div>
+</section>
+
+<section class="content">
+<div class="container narrow">
+<h2>What this tool does</h2>
+<p>Open Bankruptcy Project indexes every federal bankruptcy filing publicly available through PACER and the CourtListener / RECAP archive. The lookup above searches that index by debtor name and returns case-level metadata — case number, court, chapter, and date filed — with a link to the underlying public docket.</p>
+
+<div class="callout">
+<strong>What you get:</strong> case number, court, chapter (7 / 11 / 12 / 13), date filed, and a link to the full docket on CourtListener.<br/>
+<strong>What you don't get:</strong> Social Security numbers, home addresses, financial schedules, or any other personal identifier. This is an index of case existence, not a copy of the underlying file.
+</div>
+
+<h2>Who uses bankruptcy public-records lookups</h2>
+<ul>
+  <li><strong>Researchers and journalists</strong> studying consumer-debt patterns, district-level filing trends, and outcomes</li>
+  <li><strong>Attorneys</strong> verifying whether a party in another matter has filed bankruptcy</li>
+  <li><strong>Pro-se debtors</strong> looking up their own case number, district, or filing date</li>
+  <li><strong>Trustees and administrators</strong> confirming case status across districts</li>
+  <li><strong>Family members and estate administrators</strong> identifying filings by a deceased relative</li>
+  <li><strong>Counterparties</strong> in due-diligence (employers, landlords, lenders, business partners) — see legal note below</li>
+</ul>
+
+<div class="legal-note">
+<strong>Note on due-diligence use:</strong> Open Bankruptcy Project is an <em>information index</em>, not a consumer reporting agency (CRA) under the Fair Credit Reporting Act. If you are using this lookup to make an employment, tenancy, credit, or insurance decision about a specific person, you should consult counsel and consider procuring a CRA-issued consumer report — which provides notice, accuracy procedures, and dispute rights that the FCRA requires for those uses. This site provides general information, not legal advice.
+</div>
+
+<h2>Why this is free</h2>
+<p>Federal bankruptcy filings are public records under <a href="https://www.law.cornell.edu/uscode/text/11/107" rel="noopener" target="_blank">11 U.S.C. § 107</a>. Access through PACER costs $0.10 per page, which adds friction even for legitimate research uses. Open Bankruptcy Project is a 501(c)(3) public charity (<abbr title="Employer Identification Number">EIN</abbr> 41-5159631) whose mission is to make these records searchable at no cost to the public.</p>
+
+<p>The U.S. Supreme Court has held twice that publication of lawfully-obtained public-record information is constitutionally protected speech: <a href="https://supreme.justia.com/cases/federal/us/491/524/" rel="noopener" target="_blank"><em>Florida Star v. B.J.F.</em>, 491 U.S. 524 (1989)</a> and <a href="https://supreme.justia.com/cases/federal/us/420/469/" rel="noopener" target="_blank"><em>Cox Broadcasting v. Cohn</em>, 420 U.S. 469 (1975)</a>. We rely on those holdings — and on the public-charity mandate of court-system transparency — to keep this lookup open.</p>
+
+<h2>Frequently asked questions</h2>
+
+<p class="faq-q">Are bankruptcy filings public records?</p>
+<p class="faq-a">Yes. Federal bankruptcy cases are public records under 11 U.S.C. § 107, accessible through PACER. Some narrow categories (sealed records, certain juvenile dependents) are excluded, but the vast majority of filings are public from the moment the petition is docketed.</p>
+
+<p class="faq-q">Is this site a paid service?</p>
+<p class="faq-a">No. Free, no account, no ads, no affiliate links. The project is operated by a 501(c)(3) nonprofit on volunteer labor and public donations.</p>
+
+<p class="faq-q">What information does the lookup return?</p>
+<p class="faq-a">Case-level metadata only: debtor name (as filed), case number, court, chapter, date filed. No SSN, no DOB, no address, no financial schedules. For the underlying detail, follow the linked CourtListener / RECAP reference.</p>
+
+<p class="faq-q">Can I use this for an employment or rental background check?</p>
+<p class="faq-a">The lookup is an information index — not a CRA-issued consumer report. If you are making employment, tenancy, credit, or insurance decisions about a specific person based on a bankruptcy record, the Fair Credit Reporting Act probably applies; consult counsel and consider procuring a CRA-issued report.</p>
+
+<p class="faq-q">Why might I not find someone who actually filed?</p>
+<p class="faq-a">Sealed filings (rare); very-recent filings not yet indexed (typically 24-72 hours); spelling variants in the court record (hyphens, middle initials, suffixes like Jr./Sr.). Try the search with different spellings if the first attempt is empty.</p>
+
+<p class="faq-q">What if the public record contains an error?</p>
+<p class="faq-a">Corrections must be made at the source court. Contact the clerk of the issuing bankruptcy court to request a correction or motion to seal. We mirror upstream sources (PACER / CourtListener) and propagate corrections within 24-48 hours.</p>
+
+<h2>Browse by court district</h2>
+<p>Prefer to browse rather than search? OBP indexes all 94 federal judicial districts. A few high-volume starting points:</p>
+<div class="district-grid">
+  <a href="/cases/cacb/">C.D. Cal. (Los Angeles)</a>
+  <a href="/cases/nysb/">S.D.N.Y.</a>
+  <a href="/cases/txsb/">S.D. Tex. (Houston)</a>
+  <a href="/cases/flmb/">M.D. Fla. (Tampa)</a>
+  <a href="/cases/ilnb/">N.D. Ill. (Chicago)</a>
+  <a href="/cases/ganb/">N.D. Ga. (Atlanta)</a>
+  <a href="/cases/ksb/">D. Kan.</a>
+  <a href="/cases/mowb/">W.D. Mo. (Kansas City)</a>
+  <a href="/cases/njb/">D. N.J.</a>
+  <a href="/cases/azb/">D. Ariz.</a>
+  <a href="/cases/areb/">E.D. Ark.</a>
+  <a href="/cases/">All 94 districts →</a>
+</div>
+
+<h2>Citations and reach</h2>
+<p>Open Bankruptcy Project research has been cited by the federal judiciary in <a href="https://openbankruptcyproject.org/research/" rel="noopener" target="_blank">Suggestions 26-BK-3 and 26-BK-5</a> to the Advisory Committee on Bankruptcy Rules. Our methodology is described on the <a href="/methodology.html">Methodology</a> page; the dataset behind this lookup is summarized in <a href="/statistics.html">Statistics</a>.</p>
+
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by <a href="/donate.html">donations</a>.</p>
+<div class="footer-links">
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a href="/methodology.html">Methodology</a>
+<a href="/network/">Network</a>
+<a href="/press.html">Press</a>
+<a href="/contact.html">Contact</a>
+<a href="/privacy.html">Privacy</a>
+<a href="/terms.html">Terms</a>
+<a href="/donate.html">Donate</a>
+</div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+<p>EIN 41-5159631. All tools and data released under open source licenses.</p>
+<p>No legal advice is provided. This is educational and research information only.</p>
+</div>
+</footer>
+
+<script src="/assets/obp-search.js?v=20260519d" defer></script>
+<!-- Auto-fill search from ?q= URL parameter (Schema.org SearchAction target) -->
+<script>
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  var q = params.get('q');
+  if (!q) return;
+  // Wait for obp-search widget to mount, then trigger its input.
+  var attempts = 0;
+  var timer = setInterval(function () {
+    attempts++;
+    var input = document.querySelector('.obp-search input[type="search"], .obp-search input[type="text"]');
+    if (input) {
+      input.value = q;
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+      clearInterval(timer);
+    }
+    if (attempts > 40) clearInterval(timer);
+  }, 100);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>News & Analysis - Open Bankruptcy Project</title>
+    <meta name="description" content="Learn about news & analysis - open bankruptcy project in our free 2026 guide. Clear explanations, real data, and practical steps. Part o...">
+    <link rel="canonical" href="https://openbankruptcyproject.org/news/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="alternate" type="application/rss+xml" title="Open Bankruptcy Project - News Feed (RSS)" href="/rss.xml">
+    <link rel="alternate" type="application/atom+xml" title="Open Bankruptcy Project - News Feed (Atom)" href="/feed.xml">
+
+    <meta property="og:title" content="News & Analysis - Open Bankruptcy Project">
+    <meta property="og:description" content="Learn about news & analysis - open bankruptcy project in our free 2026 guide. Clear explanations, real data, and practical steps. Part o...">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/news/">
+    <meta property="og:site_name" content="Open Bankruptcy Project">
+
+    <!-- GA4 -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "News & Analysis",
+        "description": "Data-driven bankruptcy news and analysis from the Open Bankruptcy Project.",
+        "url": "https://openbankruptcyproject.org/news/",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
+        }
+    }
+    </script>
+
+    <style>
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0d1117;
+            --bg-elevated: #0f1319;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --accent-subtle: rgba(88, 166, 255, 0.08);
+            --green: #3fb950;
+            --green-subtle: rgba(63, 185, 80, 0.08);
+            --gold: #d29922;
+            --gold-subtle: rgba(210, 153, 34, 0.08);
+            --red: #f85149;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+        a:hover { color: var(--accent-hover); }
+
+        .container { max-width: 1040px; margin: 0 auto; padding: 0 32px; }
+        .narrow { max-width: 760px; }
+
+        nav {
+            border-bottom: 1px solid var(--border);
+            padding: 18px 0;
+            position: sticky; top: 0;
+            background: rgba(13, 17, 23, 0.95);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        nav .container {
+            display: flex; align-items: center; justify-content: space-between;
+            flex-wrap: wrap; gap: 12px;
+        }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 40px 0;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        footer a { color: var(--text-muted); }
+        footer a:hover { color: var(--accent); }
+
+        /* Article styles */
+        .article-header {
+            padding: 64px 0 32px;
+            border-bottom: 1px solid var(--border);
+        }
+        .article-header h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .dateline {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        .byline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+        .article-body {
+            padding: 40px 0 64px;
+        }
+        .article-body h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 40px 0 16px;
+            letter-spacing: -0.02em;
+            color: var(--text);
+        }
+        .article-body h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin: 32px 0 12px;
+            color: var(--text);
+        }
+        .article-body p {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            line-height: 1.8;
+        }
+        .article-body ul, .article-body ol {
+            margin: 0 0 16px 24px;
+            color: var(--text-secondary);
+        }
+        .article-body li { margin-bottom: 8px; line-height: 1.6; }
+
+        /* Data table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+            font-size: 0.92rem;
+        }
+        .data-table th {
+            background: var(--surface);
+            color: var(--text);
+            font-weight: 600;
+            text-align: left;
+            padding: 12px 16px;
+            border-bottom: 2px solid var(--border);
+        }
+        .data-table td {
+            padding: 10px 16px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+        .data-table tr:hover td { background: var(--surface); }
+        .data-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+
+        /* Highlight box */
+        .highlight-box {
+            background: var(--accent-subtle);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent);
+            padding: 20px 24px;
+            border-radius: 6px;
+            margin: 24px 0;
+        }
+        .highlight-box p { color: var(--text); margin-bottom: 8px; }
+        .highlight-box p:last-child { margin-bottom: 0; }
+
+        .warning-box {
+            background: rgba(248, 81, 73, 0.06);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--red);
+            padding: 20px 24px;
+            border-radius: 6px;
+            margin: 24px 0;
+        }
+        .warning-box p { color: var(--text); margin-bottom: 8px; }
+        .warning-box p:last-child { margin-bottom: 0; }
+
+        .methodology {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 20px 24px;
+            border-radius: 6px;
+            margin: 32px 0;
+            font-size: 0.9rem;
+        }
+        .methodology p { color: var(--text-muted); font-size: 0.9rem; }
+        .methodology strong { color: var(--text-secondary); }
+
+        /* News index */
+        .news-list { list-style: none; padding: 0; }
+        .news-item {
+            border-bottom: 1px solid var(--border);
+            padding: 28px 0;
+        }
+        .news-item:first-child { padding-top: 0; }
+        .news-item h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .news-item h3 a { color: var(--text); }
+        .news-item h3 a:hover { color: var(--accent); }
+        .news-item .meta {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        .news-item .excerpt {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .article-header h1 { font-size: 1.7rem; }
+            .data-table { font-size: 0.82rem; }
+            .data-table th, .data-table td { padding: 8px 10px; }
+        }
+
+    </style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a bankruptcy mill?", "acceptedAnswer": {"@type": "Answer", "text": "A bankruptcy mill is a high-volume law firm that processes large numbers of bankruptcy cases with minimal attorney involvement. Cases are often handled by paralegals or software, leading to errors, missed deadlines, and poor outcomes for clients."}}, {"@type": "Question", "name": "How do I know if my bankruptcy attorney is a mill?", "acceptedAnswer": {"@type": "Answer", "text": "Warning signs include: you rarely speak with an actual attorney, your case is one of hundreds filed monthly, communications come only from paralegals, hearings are attended by attorneys you have never met, and billing entries are generic or duplicated."}}, {"@type": "Question", "name": "What problems do bankruptcy mills cause?", "acceptedAnswer": {"@type": "Answer", "text": "Common issues include missed deadlines, incorrect schedules, failure to claim available exemptions, dismissed cases, unnecessary fees, and lack of personalized legal advice. Clients may lose assets they could have protected with competent counsel."}}, {"@type": "Question", "name": "Can I fire my bankruptcy attorney if they are a mill?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can substitute counsel or proceed pro se at any time. File a motion to substitute counsel with the court. You may also be entitled to a refund of fees for work not performed or performed negligently."}}, {"@type": "Question", "name": "How many cases should a bankruptcy attorney handle?", "acceptedAnswer": {"@type": "Answer", "text": "There is no hard limit, but attorneys filing more than 20-30 cases per month may struggle to provide adequate individual attention. Quality representation requires reviewing each client's unique financial situation, assets, and exemptions."}}]}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "News & Analysis",
+      "description": "Data-driven news and analysis from the Open Bankruptcy Project. National bankruptcy filing trends, court outcome data, and policy analysis based on 4.9 million ",
+      "author": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://1328f.org"
+      },
+      "datePublished": "2026-04-05",
+      "dateModified": "2026-04-05",
+      "mainEntityOfPage": "https://openbankruptcyproject.org/news/index.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://openbankruptcyproject.org"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "News & Analysis - Open Bankruptcy Project",
+          "item": "https://openbankruptcyproject.org"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "News & Analysis",
+      "url": "https://openbankruptcyproject.org/news/index.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "name": "BTN Network",
+      "url": [
+        "https://1328f.com",
+        "https://1328f.org",
+        "https://automaticstay.org",
+        "https://341meeting.org",
+        "https://523a.org",
+        "https://109g.org",
+        "https://727a8.com",
+        "https://meanstest.org",
+        "https://chapter7vs13.org",
+        "https://howtofilebankruptcy.org"
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <a href="/" class="nav-brand">Open Bankruptcy Project</a>
+        <div class="nav-links">
+            <a href="/news/">News</a>
+            <a href="/research.html">Research</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container narrow">
+    <header class="article-header">
+        <h1>News & Analysis</h1>
+        <p class="byline" style="margin-top: 8px;">Data-driven reporting on the U.S. bankruptcy system, powered by analysis of 4.9 million federal cases.</p>
+        <p style="margin-top: 12px; font-size: 0.85rem; color: var(--text-muted);">Subscribe: <a href="/rss.xml" title="RSS Feed">RSS</a> &middot; <a href="/feed.xml" title="Atom Feed">Atom</a></p>
+    </header>
+
+    <section style="padding: 40px 0 64px;">
+        <ul class="news-list">
+
+        <li class="news-item">
+            <div class="meta">April 9, 2026 &middot; Open Bankruptcy Project</div>
+            <h3><a href="btn-network-launch-2026.html">Open Bankruptcy Project Launches 160+ Free Bankruptcy Resources Nationwide</a></h3>
+            <p class="excerpt">OBP has launched a network of more than 160 free educational websites covering every major bankruptcy topic - with interactive tools, bilingual content in English and Spanish, and data from 4.9 million federal cases. No ads, no attorney referrals, no paywalls. <a href="btn-network-launch-2026-es.html">Leer en espanol</a></p>
+        </li>
+        <li class="news-item">
+            <div class="meta">April 3, 2026 &middot; Open Bankruptcy Project Research Team</div>
+            <h3><a href="estimated-1328f-violations-by-district.html">75,764 Estimated Section 1328(f) Violations: No Court Is Screening for Them</a></h3>
+            <p class="excerpt">FJC data shows an estimated 75,764 bankruptcy discharges may have been granted in violation of the <a href="https://section1328.org" title="Section 1328 Discharge - Open Bankruptcy Project" target="_blank" rel="noopener">Section 1328</a>(f) waiting period. N.D. Ill. leads with 822 estimated violations. No automated screening exists in any federal court.</p>
+        </li>
+        <li class="news-item">
+            <div class="meta">April 3, 2026 &middot; Open Bankruptcy Project Research Team</div>
+            <h3><a href="repeat-bankruptcy-filers-by-district-2024.html">1 in 3 Chapter 13 Filers Has Filed Before: Repeat Bankruptcy by District</a></h3>
+            <p class="excerpt">37.7% of <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> filers nationally are prior filers. In Utah, the rate hits 54.4%. Prior filers get discharged at just 23.9% - the system is failing them twice.</p>
+        </li>
+        <li class="news-item">
+            <div class="meta">April 3, 2026 &middot; Open Bankruptcy Project Research Team</div>
+            <h3><a href="where-chapter-13-fails-worst-districts-2024.html">Where Chapter 13 Fails: The 15 Worst Districts for Plan Completion</a></h3>
+            <p class="excerpt">E.D.N.Y. dismisses 96.4% of <a href="https://chapter7vs13.org/" title="Chapter 13">Chapter 13</a> cases. Analysis of 2.3 million FJC filings across 94 districts exposes a 48-point gap between the worst and best performing courts.</p>
+        </li>
+        <li class="news-item">
+            <div class="meta">April 2, 2026 &middot; Open Bankruptcy Project Research Team</div>
+            <h3><a href="bankruptcy-filings-by-state-2026.html">Bankruptcy Filings by State: 2026 National Overview</a></h3>
+            <p class="excerpt">Analysis of 16,568 consumer bankruptcy filings across 85 federal courts reveals significant geographic concentration. Florida, Kansas, Missouri, and Texas lead the nation.</p>
+        </li>
+        <li class="news-item">
+            <div class="meta">April 2, 2026 &middot; Open Bankruptcy Project Research Team</div>
+            <h3><a href="chapter-13-completion-rates-by-district.html">Chapter 13 Completion Rates Vary Widely Across Federal Districts</a></h3>
+            <p class="excerpt">Analysis of 18,462 Chapter 13 cases reveals a national <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> rate of 41.2%, with rates ranging from near zero to over 60% depending on the district.</p>
+        </li>
+        <li class="news-item">
+            <div class="meta">April 2, 2026 &middot; Open Bankruptcy Project Research Team</div>
+            <h3><a href="means-test-april-2026-median-income.html">The Means Test Gets Harder: April 2026 Median Income Increases</a></h3>
+            <p class="excerpt">Updated Census Bureau median income figures for April 2026 raise <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> <a href="https://meanstest.org" title="Bankruptcy Means Test - Open Bankruptcy Project" target="_blank" rel="noopener">means test</a> thresholds by 3-5%, potentially pushing more middle-income families into Chapter 13 repayment plans.</p>
+        </li>
+        <li class="news-item">
+            <div class="meta">April 2, 2026 &middot; Open Bankruptcy Project Research Team</div>
+            <h3><a href="pro-se-bankruptcy-filings-data.html">Pro Se Bankruptcy Filings: What the Data Shows</a></h3>
+            <p class="excerpt"><a href="https://prosebankruptcy.org" title="Pro Se Bankruptcy Filing - Open Bankruptcy Project" target="_blank" rel="noopener">Pro se bankruptcy</a> filers face <a href="https://dismissedbankruptcy.org/" title="dismissal">dismissal</a> rates 2-3x higher than represented debtors. As attorney fees rise, more consumers attempt to navigate federal bankruptcy without counsel.</p>
+        </li>
+        <li class="news-item">
+            <div class="meta">April 2, 2026 &middot; Open Bankruptcy Project Research Team</div>
+            <h3><a href="attorney-fee-transparency-bankruptcy.html">Attorney Fee Transparency in Consumer Bankruptcy: A National Analysis</a></h3>
+            <p class="excerpt">Fee disclosures in consumer bankruptcy happen after retention, lack standardization, and sit behind <a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a>'s paywall. Open Bankruptcy Project data reveals significant concentration in the consumer bankruptcy bar.</p>
+        </li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+
+    <div class="container">
+        <p>&copy; 2026 Open Bankruptcy Project &middot; 501(c)(3) Nonprofit &middot;
+        <a href="/privacy.html">Privacy</a> &middot; <a href="/terms.html">Terms</a></p>
+    </div>
+    <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+<p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+</footer>
+
+<!-- BOOST-TOP10 internal links (boost_internal_links.py) -->
+<div class="boost-top10" style="max-width:820px;margin:2rem auto;padding:1.5rem;background:#0d1117;border:1px solid #238636;border-radius:8px">
+  <p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
+  <ul style="list-style:none;padding:0;margin:0">
+    <li style="margin-bottom:0.5rem"><a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Bankruptcy Means Test by State</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcymeanstest.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://studentloanforgive.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loan Forgiveness Programs</a> <span style="color:#7d8590;font-size:0.8rem">-- studentloanforgive.org</span></li>
+    <li style="margin-bottom:0.5rem"><a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Chapter 7 vs. Chapter 13 Comparison</a> <span style="color:#7d8590;font-size:0.8rem">-- chapter7vs13.org</span></li>
+  </ul>
+</div>
+<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+</body>
+</html>

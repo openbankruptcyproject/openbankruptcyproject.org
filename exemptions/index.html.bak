@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Bankruptcy Exemptions - Federal vs State Schemes | Open Bankruptcy Project</title>
+<meta name="description" content="Overview of federal and state bankruptcy exemption schemes under 11 U.S.C. § 522: which debtors can choose federal exemptions, how domicile is determined, and where to find state-specific exemption amounts."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/exemptions/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Bankruptcy Exemptions - Federal vs State Schemes | Open Bankruptcy Project"/>
+<meta property="og:description" content="Overview of federal and state bankruptcy exemption schemes under 11 U.S.C. § 522: which debtors can choose federal exemptions, how domicile is determined, and where to find state-specific exemption amounts."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/exemptions/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Bankruptcy Exemptions", "description": "Overview of federal and state bankruptcy exemption schemes under 11 U.S.C. § 522: which debtors can choose federal exemptions, how domicile is determined, and where to find state-specific exemption amounts.", "url": "https://openbankruptcyproject.org/exemptions/", "datePublished": "2026-04-21", "dateModified": "2026-04-21", "author": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org", "nonprofitStatus": "Nonprofit501c3"}, "isAccessibleForFree": true}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 3, "name": "Exemptions", "item": "https://openbankruptcyproject.org/exemptions/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use federal bankruptcy exemptions?", "acceptedAnswer": {"@type": "Answer", "text": "§ 522(b)(2) permits states to bar their domiciliaries from claiming the federal § 522(d) exemptions. A majority of states have opted out. In opt-out states, debtors must use the state exemption scheme plus certain federal non-bankruptcy exemptions."}}, {"@type": "Question", "name": "Which state's exemptions apply if I recently moved?", "acceptedAnswer": {"@type": "Answer", "text": "§ 522(b)(3)(A) provides the rule: the state of domicile for the 730 days immediately before filing, or — if the debtor did not continuously reside in a single state for that period — the state of domicile for the majority of the 180 days preceding the 730-day period."}}, {"@type": "Question", "name": "Are retirement accounts protected in bankruptcy?", "acceptedAnswer": {"@type": "Answer", "text": "ERISA-qualified employer retirement plans are excluded from the bankruptcy estate under Patterson v. Shumate, 504 U.S. 753 (1992). Most IRAs are protected under § 522(b)(3)(C) and § 522(d)(12), with a specific cap for non-rollover IRAs under § 522(n)."}}, {"@type": "Question", "name": "How do homestead exemptions work?", "acceptedAnswer": {"@type": "Answer", "text": "Homestead exemptions protect equity in a principal residence and vary widely by state. § 522(p) caps state homestead amounts when the home was acquired within 1,215 days of filing. Federal § 522(d)(1) protects a fixed dollar amount subject to periodic adjustment."}}]}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main h3{font-size:1.05rem;font-weight:700;margin:22px 0 8px;color:var(--text)}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul,main ol{margin:10px 0 18px 22px;color:var(--text-secondary)}
+main li{margin-bottom:6px}
+main strong{color:var(--text)}
+main code{background:var(--surface);padding:2px 6px;border-radius:4px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.callout strong{color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 24px;margin:18px 0}
+.card h3{margin-top:0}
+.link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+.link-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:.15s}
+.link-card:hover{background:var(--surface-hover);border-color:var(--accent)}
+.link-card .label{font-size:.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600;margin-bottom:4px}
+.link-card h4{font-size:.98rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.link-card p{font-size:.85rem;color:var(--text-secondary);margin:0}
+.faq details{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;color:var(--text-muted);font-weight:300;font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'−'}
+.faq details[open] summary{margin-bottom:10px;color:var(--accent)}
+.faq details p{margin:10px 0 0;color:var(--text-secondary)}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Research Guide</div>
+<h1>Bankruptcy Exemptions</h1>
+<p class="lede">Bankruptcy exemptions determine which property a debtor keeps and which the trustee can administer. Section 522 of the Bankruptcy Code creates a federal exemption scheme but permits states to opt out of it. This page explains how federal and state exemptions interact, how domicile is determined under § 522(b)(3)(A), and where to find current amounts.</p>
+<div class="datastamp">Data updated <time datetime="2026-04-21">2026-04-21</time>. See <a href="/research/methodology/">methodology &amp; sources</a>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Exemptions</div>
+<h2>Federal exemptions (§ 522(d))</h2>
+<p>§ 522(d) lists federal bankruptcy exemptions that cover homestead interests, motor vehicles, household goods, tools of the trade, certain retirement accounts, insurance proceeds, and others. The dollar amounts are adjusted every three years under § 104. Current figures are published in the Federal Register and on the US Trustee Program website.</p>
+<h2>State opt-out states</h2>
+<p>§ 522(b)(2) permits a state to bar its domiciliaries from claiming the federal exemptions. A majority of US states have exercised this opt-out. In opt-out states, debtors must use the state exemption scheme plus certain federal non-bankruptcy exemptions (e.g., ERISA-qualified retirement-plan protections and certain federal benefits).</p>
+<p>In opt-in states, debtors may choose between the federal exemption scheme (§ 522(d)) and the state exemption scheme - the choice is typically made between spouses in joint cases (both must pick the same scheme).</p>
+<h2>Domicile determination</h2>
+<p>§ 522(b)(3)(A) identifies the applicable state whose exemption law a debtor must use. The rule is: the state in which the debtor's domicile was located for the 730 days immediately preceding filing, or - if the debtor did not continuously reside in a single state for that period - the state in which the debtor's domicile was located for the majority of the 180 days immediately preceding the 730-day period.</p>
+<div class="callout"><strong>The 730-day rule traps recent movers.</strong> A debtor who recently moved to a state with generous exemptions may still be stuck with the exemption scheme of the prior state. Conversely, a debtor who moved from a generous-exemption state to an opt-out state may preserve the prior state's exemption scheme for a period.</div>
+<h2>Homestead exemptions</h2>
+<p>Homestead exemptions vary more than any other category. Federal § 522(d)(1) currently protects a fixed dollar amount of equity in a principal residence. State homesteads range from under $10,000 to unlimited in some states. § 522(p) imposes a cap on state homestead amounts when the debtor acquired the property within 1,215 days of filing.</p>
+<h2>Retirement account protections</h2>
+<p>§ 522(b)(3)(C) and § 522(d)(12) protect most tax-qualified retirement accounts. ERISA-qualified employer retirement plans are excluded from the estate altogether under <em>Patterson v. Shumate</em>, 504 U.S. 753 (1992). IRAs are protected up to a specific statutory cap under § 522(n), with inflation adjustments.</p>
+<h2>Finding state-specific amounts</h2>
+<p>State exemption statutes and amounts are updated legislatively and change frequently. The most reliable source is the relevant state's codified statutes. The Open Bankruptcy Project indexes federal bankruptcy filings by district on the <a href="/cases/">national district index</a>; state-by-state exemption details are at <a href="https://bankruptcyexemptionsbystate.com" rel="external">bankruptcyexemptionsbystate.com</a>.</p>
+<h2>Related resources</h2><div class="link-grid"><a class="link-card" href="/chapter-7-vs-13/"><div class="label">Concept</div><h4>Chapter 7 vs Chapter 13</h4><p>Why exemptions matter differently in each chapter.</p></a><a class="link-card" href="/pro-se/"><div class="label">Concept</div><h4>Pro se filing</h4><p>Exemption claims are a common pitfall for pro se filers.</p></a><a class="link-card" href="/cases/"><div class="label">Data</div><h4>District case index</h4><p>Filing volume by state - useful for understanding state-specific filing patterns.</p></a></div>
+<section class="faq"><h2>Frequently asked questions</h2><details><summary>Can I use federal bankruptcy exemptions?</summary><p>§ 522(b)(2) permits states to bar their domiciliaries from claiming the federal § 522(d) exemptions. A majority of states have opted out. In opt-out states, debtors must use the state exemption scheme plus certain federal non-bankruptcy exemptions.</p></details><details><summary>Which state&#x27;s exemptions apply if I recently moved?</summary><p>§ 522(b)(3)(A) provides the rule: the state of domicile for the 730 days immediately before filing, or - if the debtor did not continuously reside in a single state for that period - the state of domicile for the majority of the 180 days preceding the 730-day period.</p></details><details><summary>Are retirement accounts protected in bankruptcy?</summary><p>ERISA-qualified employer retirement plans are excluded from the bankruptcy estate under <em>Patterson v. Shumate</em>, 504 U.S. 753 (1992). Most IRAs are protected under § 522(b)(3)(C) and § 522(d)(12), with a specific cap for non-rollover IRAs under § 522(n).</p></details><details><summary>How do homestead exemptions work?</summary><p>Homestead exemptions protect equity in a principal residence and vary widely by state. § 522(p) caps state homestead amounts when the home was acquired within 1,215 days of filing. Federal § 522(d)(1) protects a fixed dollar amount subject to periodic adjustment.</p></details></section>
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Empirical statistics and informational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Data sources: Federal Judicial Center Integrated Database; Free Law Project RECAP Archive via CourtListener; official US federal bankruptcy court websites. Derived content on this page is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>. See the <a href="/research/methodology/">methodology page</a> for metric definitions and sourcing.</p>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+</body></html>

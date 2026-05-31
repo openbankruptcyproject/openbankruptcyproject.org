@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<title>KRPC 5.6: The Client-Choice + Lawyer-Mobility Architecture [2026] | Open Bankruptcy Project</title>
+<meta content="Kansas Rule 5.6 and Missouri Rule 4-5.6 establish the architecture protecting client choice of counsel and lawyer mobility, with a retirement-arrangement carve-out and a settlement-restriction limit." name="description"/>
+<meta content="KRPC 5.6, MRPC 4-5.6, client choice, lawyer mobility, retirement carve-out, settlement restriction, restrictions on practice, Kansas ethics, Missouri ethics" name="keywords"/>
+<meta content="#0d1117" name="theme-color"/>
+<link href="https://openbankruptcyproject.org/krpc-5-6/" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="KRPC 5.6: The Client-Choice + Lawyer-Mobility Architecture" property="og:title"/>
+<meta content="The architecture protecting client choice of counsel and lawyer mobility, with retirement-arrangement safe harbor under 5.6(a) and settlement-restriction limit under 5.6(b)." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/krpc-5-6/" property="og:url"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "KRPC 5.6: The Client-Choice + Lawyer-Mobility Architecture",
+      "about": {"@type": "Thing", "name": "Rule of Professional Conduct on Restrictions Affecting Right to Practice"},
+      "author": {"@type": "Organization", "name": "Open Bankruptcy Project"},
+      "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+      "dateModified": "2026-05-23"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Open Bankruptcy Project", "item": "https://openbankruptcyproject.org/"},
+        {"@type": "ListItem", "position": 2, "name": "KRPC 5.6 / MRPC 4-5.6", "item": "https://openbankruptcyproject.org/krpc-5-6/"}
+      ]
+    }
+  ]
+}
+</script>
+<!-- BTN:GA4:START -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', 'allow_ad_personalization_signals', false);
+  gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<style>
+  :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --text-muted:#9eaab6; --accent:#58a6ff; --green:#238636; --red:#f85149; --yellow:#f0c14b; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; min-height:100vh; display:flex; flex-direction:column; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  nav { background:var(--surface); border-bottom:1px solid var(--border); padding:0.75rem 2rem; display:flex; align-items:center; justify-content:space-between; }
+  .site-name { color:#f0f6fc; font-weight:700; font-size:1.1rem; text-decoration:none; }
+  .site-name:hover { color:var(--accent); text-decoration:none; }
+  .container { max-width:820px; margin:0 auto; padding:2.5rem 2rem; flex:1; }
+  h1 { color:#f0f6fc; font-size:2.25rem; margin-bottom:0.5rem; line-height:1.25; }
+  .subtitle { color:var(--text-muted); font-size:1.05rem; margin-bottom:2rem; }
+  h2 { color:#f0f6fc; font-size:1.4rem; margin:2rem 0 0.75rem; }
+  h3 { color:#f0f6fc; font-size:1.1rem; margin:1.5rem 0 0.5rem; }
+  p { margin-bottom:1rem; }
+  ul, ol { margin:0.5rem 0 1rem 1.5rem; }
+  li { margin-bottom:0.4rem; }
+  blockquote { background:var(--surface); border-left:3px solid var(--accent); padding:1rem 1.25rem; margin:1rem 0; color:var(--text); font-style:italic; }
+  code { background:var(--surface); border:1px solid var(--border); padding:0.15rem 0.4rem; border-radius:4px; font-size:0.9em; color:var(--text); }
+  .callout { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:1.25rem 1.5rem; margin:1.5rem 0; }
+  .callout.gov { background:#0d2847; border-color:#1f6feb; }
+  .callout.warn { background:#2a1a00; border-color:#bb8c3a; }
+  .callout strong { color:#f0f6fc; }
+  .callout p:last-child { margin-bottom:0; }
+  .tag { display:inline-block; background:var(--surface); border:1px solid var(--border); border-radius:4px; padding:0.1rem 0.5rem; font-size:0.75rem; color:var(--text-muted); margin-right:0.4rem; text-transform:uppercase; letter-spacing:0.03em; }
+  .two-col { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin:1rem 0; }
+  @media (max-width:640px) { .two-col { grid-template-columns:1fr; } }
+  .two-col .card { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:1.25rem; }
+  .two-col .card h3 { margin-top:0; }
+  .two-col .card p:last-child { margin-bottom:0; }
+  .network-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:0.6rem; margin:1rem 0; }
+  .network-grid a { background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:0.75rem; text-align:center; font-size:0.9rem; }
+  .network-grid a:hover { border-color:var(--accent); text-decoration:none; }
+  footer { background:var(--surface); border-top:1px solid var(--border); padding:1.5rem; text-align:center; font-size:0.8rem; color:var(--text-muted); margin-top:2rem; }
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is KRPC 5.6 / MRPC 4-5.6?", "acceptedAnswer": {"@type": "Answer", "text": "Rule 5.6 governs restrictions on the right to practice. A lawyer shall not participate in offering or making a partnership, shareholders, operating, employment, or other similar type of agreement that restricts the right of a lawyer to practice after termination of the relationship, except in connection with retirement benefits, or an agreement in which a restriction on the lawyer's right to practice is part of the settlement of a client controversy."}}, {"@type": "Question", "name": "What is the principal Rule 5.6(a) prohibition?", "acceptedAnswer": {"@type": "Answer", "text": "A lawyer shall not participate in offering or making a partnership, shareholders, operating, employment, or other similar type of agreement that restricts the right of a lawyer to practice after termination of the relationship. The rule reflects the concern that non-compete restrictions limit client choice and undermine the lawyer's professional independence."}}, {"@type": "Question", "name": "What is the retirement-benefit exception?", "acceptedAnswer": {"@type": "Answer", "text": "Rule 5.6(a) excepts restrictions concerning benefits upon retirement. An agreement may condition retirement benefits on the retiring lawyer's compliance with a restriction on practice, even though a direct restriction on practice would otherwise be impermissible."}}, {"@type": "Question", "name": "What does Rule 5.6(b) prohibit?", "acceptedAnswer": {"@type": "Answer", "text": "Rule 5.6(b) prohibits offering or making an agreement in which a restriction on the lawyer's right to practice is part of the settlement of a client controversy. The prohibition prevents settlement of a particular controversy from being conditioned on the lawyer's withdrawal from representation of other actual or potential clients in similar matters."}}, {"@type": "Question", "name": "Why does Rule 5.6 take this restrictive approach?", "acceptedAnswer": {"@type": "Answer", "text": "The rule is rooted in two complementary concerns: protecting client choice in the selection of counsel, and protecting the professional independence of the lawyer. Restrictions on the right to practice limit both interests; the rule treats those limitations as generally impermissible regardless of the form of agreement in which they appear."}}]}</script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","url":"https://openbankruptcyproject.org/krpc-5-6/","name":"KRPC 5.6: The Client-Choice + Lawyer-Mobility Architecture [2026] | Open Bankruptcy Project","speakable":{"@type":"SpeakableSpecification","cssSelector":[".speakable-summary","h1",".faq-question",".subtitle"]}}</script>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a class="site-name" href="/">Open Bankruptcy Project</a>
+<a href="/" style="color:var(--text-muted);font-size:0.9rem">Home</a>
+</nav>
+<div class="container">
+<span class="tag">Rule of Professional Conduct</span>
+<span class="tag">KRPC 5.6 / MRPC 4-5.6</span>
+<h1>KRPC 5.6: The Client-Choice + Lawyer-Mobility Architecture</h1>
+<p class="subtitle speakable-summary">The rule architecture that preserves a client's right to choose counsel and a lawyer's right to move, with a retirement-arrangement safe harbor and a settlement-restriction limit.</p>
+
+<h2>Verbatim text of KRPC 5.6 (Kansas)</h2>
+<blockquote>A lawyer shall not participate in offering or making:<br/><br/>
+(a) a partnership, shareholders, operating, employment, or other similar type of agreement that restricts the right of a lawyer to practice after termination of the relationship, except an agreement concerning benefits upon retirement; or<br/><br/>
+(b) an agreement in which a restriction on the lawyer's right to practice is part of the settlement of a client controversy. Kan. Sup. Ct. R. 226, KRPC 5.6.</blockquote>
+
+<h2>Missouri Rule 4-5.6</h2>
+<p>Missouri Rule 4-5.6 is substantively identical to KRPC 5.6 and tracks <a href="https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_6_restrictions_on_rights_to_practice/" rel="noopener" target="_blank">ABA Model Rule 5.6</a>. The rule operates as a two-part architectural commitment: subdivision (a) preserves lawyer mobility against firm-side restraints, and subdivision (b) preserves future client access against litigation-side restraints. A defined retirement-arrangement carve-out lives inside subdivision (a).</p>
+
+<h2>1. The client-autonomy architecture 5.6 establishes</h2>
+<p>Rule 5.6 is most usefully read as a client-protective rule that happens to operate through restrictions on lawyer-to-lawyer and lawyer-to-litigant agreements. The protected interest is not the lawyer's freedom of contract; it is the client's freedom to choose counsel of the client's preference. The Comment to Model Rule 5.6 makes the linkage explicit: an agreement restricting the right of a lawyer to practice "not only limits their professional autonomy but also limits the freedom of clients to choose a lawyer."</p>
+<p>The architecture works in three interlocking pieces. First, by forbidding agreements that restrict a lawyer's practice after departing a firm, subdivision (a) ensures that when a firm reorganizes, a partner retires, or an associate moves, the client base of that firm or that lawyer remains free to follow whichever lawyer they choose. Second, by forbidding settlement provisions that restrict a lawyer's future practice, subdivision (b) ensures that the litigation system cannot be used to purchase the elimination of effective counsel from a future field of representation. Third, by defining a single specific safe harbor for retirement-benefit arrangements, the rule signals that the architectural commitment to mobility is the default and any departure from it must fit a defined exception.</p>
+<p>The downstream effect is that the rule preserves a competitive market for legal services in which the binding choice of counsel sits with the client. The client-choice priority is the through-line that connects subdivision (a) and subdivision (b); both subdivisions are addressed to lawyers, but both are designed to keep an option open for someone who is not a party to the agreement at all - the client, or the future client, who will need counsel later.</p>
+
+<h2>2. The retirement-arrangement safe harbor under 5.6(a)</h2>
+<p>Subdivision (a) contains a single defined exception: "an agreement concerning benefits upon retirement." A partnership agreement, shareholders agreement, operating agreement, or employment agreement may condition the payment of retirement benefits on the retired lawyer's agreement not to compete for some period or in some geographic area. The carve-out exists because retirement-benefit funding requires predictability: a firm that is funding retirement obligations from ongoing revenue has a legitimate interest in not having those obligations matched by an immediate departure of clients with the retiring lawyer.</p>
+<p>The safe harbor is bounded in important ways:</p>
+<ul>
+<li><strong>The restriction must be tied to retirement benefits, not to all forms of departure.</strong> A "retirement" provision that operates whenever a lawyer leaves the firm, regardless of age, length of service, or actual retirement from practice, is not within the carve-out. Courts and bar opinions have consistently treated the question as one of substance over label.</li>
+<li><strong>The restriction must be reasonable in scope.</strong> Although the rule does not on its face impose a reasonableness limit, the Comment and a substantial body of state authority treat duration and geographic scope as relevant to whether the agreement is genuinely "concerning benefits upon retirement" or is functioning as a general non-compete.</li>
+<li><strong>The carve-out does not authorize restrictions on representation of specific clients.</strong> A retirement agreement that bars the retiring lawyer from representing identified former clients of the firm runs into the client-choice principle that animates the rule even within the safe harbor.</li>
+</ul>
+<p>The architecturally significant feature of the carve-out is that it exists at all. By creating one defined exception, the rule signals that the prohibition is not absolute but also is not balanceable against generalized firm-interest arguments. Firms that want to restrict departing-lawyer practice for reasons other than retirement-benefit funding must do so without participating in any agreement of the kind 5.6(a) forbids.</p>
+
+<h2>3. The settlement-restriction limit under 5.6(b)</h2>
+<p>Subdivision (b) addresses a different problem with the same client-choice rationale. In some litigation contexts, particularly mass-tort and high-stakes commercial disputes, a defendant may have a strong interest in preventing plaintiffs' counsel from representing future plaintiffs against the same defendant. Subdivision (b) forecloses any settlement that incorporates such a restriction.</p>
+<p>The rule operates against the lawyer on both sides of the table. A defendant's lawyer who "offers" such a settlement violates the rule; a plaintiff's lawyer who "makes" such an agreement violates the rule. The mutual application is structural - the rule is not protecting either side's lawyer from the other, it is protecting people not in the room, namely the future clients who will need counsel knowledgeable about the defendant's conduct.</p>
+<p>The Comment to Model Rule 5.6 explains the rationale: "Paragraph (b) prohibits a lawyer from agreeing not to represent other persons in connection with settling a claim on behalf of a client. This provision involves an unacceptable bargain: the public interest in lawyers who are available to represent clients is sold for the private interest of the litigants in the settlement."</p>
+<p>State bar opinions interpreting analogues to 5.6(b) have consistently reached the same outcomes on a recurring set of fact patterns:</p>
+<ul>
+<li>An agreement that the settling plaintiffs' lawyer will not represent any other person against the same defendant is prohibited.</li>
+<li>An agreement that the settling plaintiffs' lawyer will return or destroy litigation work product, when the practical effect would be to prevent representation of future clients, is treated as a 5.6(b) restriction.</li>
+<li>An agreement that the settling lawyer will refer future inquiries to the defendant or to specific counsel is treated as a 5.6(b) restriction when its effect is to deflect representation.</li>
+<li>An agreement that the settling lawyer will be hired by the defendant as a consultant in a manner that creates conflicts foreclosing future representation is treated as a 5.6(b) workaround.</li>
+</ul>
+<p>The pattern of bar opinions reflects the architectural commitment: the rule prohibits the substance, not the form, of restrictions on future representation arrived at through settlement.</p>
+
+<h2>4. Other permitted arrangements that work within 5.6's architecture</h2>
+<p>The architecture leaves room for several categories of agreement that do not impair the protected mobility:</p>
+
+<h3>Limited-time covenants protecting trade secrets and proprietary information</h3>
+<p>A departing lawyer's obligations with respect to firm trade secrets, client lists treated as confidential business information, and proprietary firm processes are governed by state trade-secret and contract law and are not displaced by Rule 5.6. The line between a trade-secret protection and a practice restriction is fact-specific; agreements that operate functionally as practice restrictions but are labeled as trade-secret protections receive substance-over-form treatment.</p>
+
+<h3>Non-solicitation and notice provisions</h3>
+<p>Provisions requiring a departing lawyer to give notice to the firm before departure, to participate in an orderly transition, or to refrain from soliciting firm employees are generally treated as outside the 5.6 prohibition because they do not restrict the lawyer's practice. Provisions that restrict client solicitation come closer to the 5.6 line and are evaluated by their practical effect on client choice.</p>
+
+<h3>Of-counsel and contract arrangements</h3>
+<p>Of-counsel relationships, contract-lawyer engagements, and similar non-partnership arrangements may include reasonable provisions about the relationship's termination without running into 5.6 if those provisions do not restrict the lawyer's right to practice after termination.</p>
+
+<h3>Comparative jurisdictional treatments</h3>
+<p>State enforcement of 5.6 varies in detail. Some jurisdictions have read the retirement carve-out narrowly; others have permitted reasonable financial disincentives (forfeiture of certain benefits) on departing lawyers while drawing the line at outright practice restrictions. The architectural commitment is uniform across jurisdictions following the Model Rule; the marginal cases differ.</p>
+
+<h2>5. The interaction between 5.6 and partnership/employment law generally</h2>
+<p>Rule 5.6 establishes the floor of the architecture, not the ceiling. State contract law, state non-compete statutes, and federal employment law all overlay the rule. The relationship works in several directions:</p>
+<ul>
+<li><strong>State non-compete enforceability is downstream of 5.6 in legal-services contexts.</strong> Even in jurisdictions that broadly enforce non-competes in commercial settings, lawyer non-competes that would otherwise be enforceable as a matter of contract law are unenforceable to the extent they conflict with 5.6.</li>
+<li><strong>Federal employment law does not generally displace 5.6.</strong> The rule is an ethics-discipline rule and applies to the lawyer's conduct in offering or making the agreement, independent of whether the agreement is otherwise lawful as an employment contract.</li>
+<li><strong>State variation operates at the margins.</strong> States differ in their treatment of forfeiture-for-competition provisions, in their definition of "retirement," and in their approach to settlement-related practice restrictions. The architectural commitment to client choice and lawyer mobility is uniform; the boundary cases are not.</li>
+<li><strong>The rule is a discipline rule, not just a contract-validity rule.</strong> A lawyer who participates in offering or making a prohibited agreement can be subject to discipline even if the agreement itself is unenforceable as a matter of contract law and even if no client is in fact deprived of preferred counsel.</li>
+</ul>
+<p>The architecture preserves the floor in a way that does not preempt legitimate firm-economic interests, employer interests, or settlement structures - it forecloses only those structures that would conflict with the client-choice and lawyer-mobility commitments.</p>
+
+<h2>6. Cross-references that work with 5.6</h2>
+<div class="two-col">
+<div class="card">
+<h3>Rule 1.7 - Concurrent conflicts</h3>
+<p>The interaction with Rule 1.7 is structural. When a lawyer moves between firms, the conflict analysis under 1.7 (and the imputation analysis under 1.10) determines whether the lawyer can represent particular clients at the new firm. Rule 5.6 ensures that those conflict analyses are conducted in real disputes about real clients, not foreclosed in advance by a contractual restriction on practice.</p>
+</div>
+<div class="card">
+<h3>Rule 1.10 - Imputation</h3>
+<p>Rule 1.10 governs how conflicts move with lawyers between firms. The interaction with 5.6 is that 1.10 supplies the substantive doctrine for evaluating any post-move conflict, while 5.6 ensures that the move itself is not contractually foreclosed. Together, the two rules create a system in which lawyers can move and clients can choose, with conflicts addressed case by case.</p>
+</div>
+</div>
+<div class="two-col">
+<div class="card">
+<h3>Rule 5.4 - Professional independence</h3>
+<p>Rule 5.4 protects professional independence from non-lawyer ownership and control. Rule 5.6 protects professional independence from contractual restraints on practice. The two rules together define a substantive commitment that the lawyer's professional judgment, and the client's choice of lawyer, are not subject to outside structural constraints.</p>
+</div>
+<div class="card">
+<h3>Rule 1.16 - Termination</h3>
+<p>When a lawyer-client relationship terminates, Rule 1.16 governs the lawyer's duties on withdrawal. Rule 5.6 ensures that the lawyer's future ability to practice is not contractually restricted in a way that would limit the client's downstream choice of counsel. The two rules together address the front end (termination duties) and the back end (future-practice freedom) of the same departure event.</p>
+</div>
+</div>
+
+<h2>Practical impact</h2>
+<p>Rule 5.6 is one of the small set of ethics rules whose primary effect is to keep options open for non-parties. Three recurring features deserve emphasis:</p>
+<ul>
+<li><strong>The protected interest is the client's, not the lawyer's.</strong> Lawyer mobility is the mechanism; client choice is the goal. Reading the rule as a lawyer-protective rule misses the architecture.</li>
+<li><strong>The retirement-benefits carve-out is narrow and defined.</strong> It is not a general balancing test; it is a single exception for one defined kind of arrangement, and substance-over-form review governs whether any given agreement fits it.</li>
+<li><strong>Substance, not form, governs settlement-restriction analysis.</strong> Provisions that operate as future-practice restrictions are treated as 5.6(b) violations regardless of how they are labeled - work-product return, consulting arrangements, referral obligations, and similar mechanisms have all been treated as 5.6(b) workarounds when their effect is to restrict representation of future clients.</li>
+</ul>
+
+<h2>Related authority</h2>
+<ul>
+<li>ABA Model Rule 5.6 - <a href="https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_6_restrictions_on_rights_to_practice/" rel="noopener" target="_blank">model rule with comment</a></li>
+<li>Kansas Rules of Professional Conduct - <a href="https://www.kscourts.org/Rules-Procedures-Forms/Supreme-Court-Rules" rel="noopener" target="_blank">Kansas Supreme Court Rules</a></li>
+<li>Missouri Rules of Professional Conduct - <a href="https://www.courts.mo.gov/courts/clerkhandbooksp2rulesonly.nsf/c0c6ffa99df4993f86256ba50057dcb8/4d8b0a26efd1aeb086256ca600521c14" rel="noopener" target="_blank">Missouri Supreme Court Rule 4</a></li>
+</ul>
+
+<h2>Open Bankruptcy Project cross-references</h2>
+<div class="network-grid">
+<a href="/krpc-1-7/">KRPC 1.7 (Conflicts)</a>
+<a href="/krpc-1-10/">KRPC 1.10 (Imputation)</a>
+<a href="/krpc-1-16/">KRPC 1.16 (Termination)</a>
+<a href="/krpc-5-1/">KRPC 5.1 (Supervisory)</a>
+<a href="/krpc-5-4/">KRPC 5.4 (Independence)</a>
+<a href="/krpc-8-4/">KRPC 8.4 (Misconduct)</a>
+</div>
+
+<p style="color:var(--text-muted);font-size:0.85rem;margin-top:2rem">Last modified 2026-05-23. This page provides general information about Rules of Professional Conduct 5.6 (Kansas) and 4-5.6 (Missouri). It does not constitute legal advice. Specific questions about partnership, employment, or settlement agreements involving restrictions on lawyer practice should be evaluated by qualified counsel.</p>
+</div>
+<!-- BTN:FOOTER:START -->
+<footer role="contentinfo">
+<p>This site provides general information only and does not constitute legal advice.</p>
+<p>A project of the <strong>Open Bankruptcy Project</strong>, a 501(c)(3) public charity (EIN 41-5159631).</p>
+<p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
+</footer>
+<!-- BTN:FOOTER:END -->
+</body>
+</html>

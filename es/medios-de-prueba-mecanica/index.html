@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-053Z64N82F');gtag('config','G-FTWLM223G7');</script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="format-detection" content="telephone=no"><meta name="color-scheme" content="dark light"><meta name="referrer" content="no-referrer-when-downgrade">
+<title>Mecánica de la Prueba de Medios (Means Test) - Section 707(b) [2026]</title>
+<meta name="description" content="Guía a fondo de la prueba de medios bajo 11 U.S.C. § 707(b): definición de ingreso mensual actual (CMI), estándares nacionales y locales del IRS, fórmula de presunción de abuso, y variables regionales.">
+<meta name="keywords" content="prueba de medios, means test, 707(b), current monthly income, CMI, IRS standards, presunción de abuso, BAPCPA, Chapter 7">
+<link rel="canonical" href="https://openbankruptcyproject.org/es/medios-de-prueba-mecanica/">
+<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/means-test-mechanics/">
+<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/medios-de-prueba-mecanica/">
+<link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/means-test-mechanics/">
+<meta property="og:title" content="Mecánica de la Prueba de Medios - Section 707(b)"><meta property="og:type" content="article"><meta property="og:url" content="https://openbankruptcyproject.org/es/medios-de-prueba-mecanica/"><meta property="og:locale" content="es_MX">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="theme-color" content="#0d1117"><meta name="last-modified" content="2026-05-23">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","inLanguage":"es","headline":"Mecánica de la Prueba de Medios (Means Test) bajo la Section 707(b)","author":{"@type":"Organization","name":"Open Bankruptcy Project"},"publisher":{"@type":"Organization","name":"Open Bankruptcy Project","url":"https://openbankruptcyproject.org"},"datePublished":"2026-05-23","dateModified":"2026-05-23","mainEntityOfPage":"https://openbankruptcyproject.org/es/medios-de-prueba-mecanica/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://openbankruptcyproject.org/"},{"@type":"ListItem","position":2,"name":"Prueba de Medios","item":"https://openbankruptcyproject.org/es/medios-de-prueba-mecanica/"}]}</script>
+<style>
+  :root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--text:#e6edf3;--text-muted:#9eaab6;--accent:#58a6ff;--green:#3fb950;--red:#f85149;--yellow:#e3a835;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;}
+  a{color:var(--accent);text-decoration:none;}a:hover{text-decoration:underline;}
+  nav{background:var(--surface);border-bottom:1px solid var(--border);padding:0.75rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;}
+  nav .site-name{color:#f0f6fc;font-weight:700;font-size:1.1rem;text-decoration:none;}
+  .nav-links{display:flex;gap:1.25rem;flex-wrap:wrap;align-items:center;}.nav-links a{color:var(--text-muted);font-size:0.9rem;}
+  .hamburger{display:none;background:none;border:1px solid var(--border);color:var(--text);font-size:1.3rem;cursor:pointer;padding:0.3rem 0.6rem;border-radius:4px;line-height:1;}
+  .breadcrumb{max-width:760px;margin:1rem auto 0;padding:0 1.5rem;font-size:0.85rem;color:var(--text-muted);}.breadcrumb a{color:var(--text-muted);}
+  header{background:linear-gradient(135deg,#0d2137,#122a44);border-bottom:1px solid var(--border);padding:3rem 2rem;text-align:center;}
+  header h1{color:#f0f6fc;font-size:2rem;margin-bottom:0.75rem;}header .subtitle{color:var(--text-muted);font-size:1.05rem;max-width:700px;margin:0 auto;}
+  main{max-width:760px;margin:0 auto;padding:2rem 1.5rem;}
+  .content-section{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:2rem;margin-bottom:1.5rem;}
+  .content-section h2{color:#f0f6fc;font-size:1.375rem;margin-bottom:1rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border);}
+  .content-section h3{color:#f0f6fc;font-size:1.125rem;margin:1.5rem 0 0.75rem;}
+  .content-section p{color:var(--text);margin-bottom:0.75rem;font-size:0.95rem;}
+  .content-section ul,.content-section ol{margin:0.75rem 0 0.75rem 1.5rem;color:var(--text);font-size:0.95rem;}.content-section li{margin-bottom:0.4rem;}
+  blockquote{background:#21262d;border-left:3px solid var(--accent);padding:1rem 1.25rem;margin:1rem 0;font-style:italic;}
+  .statute-box{background:#21262d;border-left:3px solid var(--accent);padding:1rem 1.25rem;border-radius:0 6px 6px 0;margin:1rem 0;}
+  .network-links{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:1.5rem 2rem;margin-bottom:1.5rem;font-size:0.85rem;color:var(--text-muted);line-height:2;}
+  footer{background:var(--surface);border-top:1px solid var(--border);padding:2rem;text-align:center;font-size:0.85rem;color:var(--text-muted);margin-top:2rem;}footer a{color:var(--accent);}
+  @media (max-width:768px){.hamburger{display:inline-block;}.nav-links{display:none;width:100%;flex-direction:column;gap:0;}.nav-links.open{display:flex;}.nav-links a{display:block;padding:0.6rem 0;margin:0;font-size:0.95rem;min-height:44px;line-height:2;border-bottom:1px solid #21262d;}header{padding:2rem 1rem;}header h1{font-size:1.5rem;}main{padding:1.5rem 1rem;}.content-section{padding:1.25rem;}}
+</style>
+</head>
+<body>
+<nav aria-label="Navegación principal">
+  <a href="/" class="site-name">openbankruptcyproject.org</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú de navegación">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Inicio</a><a href="/research.html">Investigación</a><a href="/impact.html">Impacto</a><a href="/legal-aid.html">Asistencia Legal</a><a href="/about.html">Acerca de</a><a href="/contact.html">Contacto</a>
+    <a href="/means-test-mechanics/" lang="en" hreflang="en">English</a>
+  </div>
+</nav>
+<header>
+  <h1>Mecánica de la Prueba de Medios (Means Test): Cómo Calcula la Section 707(b)</h1>
+  <p class="subtitle">Ingreso mensual actual (CMI), estándares nacionales y locales del IRS, fórmula de presunción de abuso, y las variables regionales de costo de vida que determinan los resultados.</p>
+</header>
+<div class="breadcrumb"><a href="/">Inicio</a> &rsaquo; Prueba de Medios</div>
+<main>
+
+<div class="content-section">
+  <h2>Qué es y qué no es la prueba de medios</h2>
+  <p>La prueba de medios (means test) es el filtro de elegibilidad promulgado por la Bankruptcy Abuse Prevention and Consumer Protection Act de 2005 (BAPCPA) y codificado en <a href="https://www.law.cornell.edu/uscode/text/11/707" rel="noopener" target="_blank">11 U.S.C. § 707(b)</a>. Su función es identificar a deudores individuales consumidores cuyos ingresos están por encima de la mediana y cuyas presentaciones del Chapter 7 deberían presumirse abusivas del proceso de quiebra. La prueba no adjudica los méritos de una presentación; produce un resultado numérico que determina cuál postura procesal aplica (Chapter 7 sin presunción, Chapter 7 con presunción rebatible por circunstancias especiales, o conversión o desestimación).</p>
+  <p>La prueba de medios aplica solo a deudores individuales cuyas deudas sean <em>primordialmente deudas de consumo</em>. Un deudor cuyas deudas sean primordialmente comerciales está exento de la prueba de medios en su totalidad, sin importar el ingreso. Si las deudas son primordialmente de consumo depende de la clasificación ponderada en dólares, no del recuento de cuentas.</p>
+</div>
+
+<div class="content-section">
+  <h2>Paso uno — ingreso mensual actual (CMI)</h2>
+  <p>El ingreso mensual actual (current monthly income, CMI) se define en <a href="https://www.law.cornell.edu/uscode/text/11/101" rel="noopener" target="_blank">11 U.S.C. § 101(10A)</a> como el ingreso mensual promedio de todas las fuentes recibido por el deudor durante el período de seis meses que termina el último día del mes calendario inmediatamente anterior a la fecha de la petición. La definición es mecánica y retrospectiva. Un deudor que perdió el empleo en el mes de la presentación aún incluye los salarios del período previo en el CMI; un deudor cuyo ingreso aumentó durante el período de mirada hacia atrás no excluye nada.</p>
+  <p>El CMI es el promedio de los seis meses calendario pre-petición. Las fuentes incluidas son salarios brutos, salarios, propinas, bonos, horas extras, comisiones; ingresos de operación de un negocio, profesión o granja; intereses, dividendos y regalías; ingresos por renta; ingresos por pensión y jubilación; compensación por desempleo; contribuciones regulares al hogar por no deudores; y montos pagados por un tercero por los gastos del hogar del deudor. Los beneficios del Seguro Social están expresamente excluidos por estatuto. Las devoluciones de impuestos no son CMI; reflejan ingresos de período previo ya contados como salarios.</p>
+  <p>El CMI anualizado (multiplicado por doce) se compara entonces con el ingreso familiar mediano estatal aplicable para un hogar del tamaño del deudor. Las cifras de la mediana estatal las publica la U.S. Census Bureau y las actualiza el U.S. Trustee Program. Un deudor en o por debajo de la mediana sale de la prueba de medios en este punto; no se requiere más cálculo y no hay presunción de abuso.</p>
+</div>
+
+<div class="content-section">
+  <h2>Paso dos — el cálculo por encima de la mediana</h2>
+  <p>Un deudor por encima de la mediana procede al cálculo de ingreso disponible. Las deducciones permitidas del CMI se organizan en tres categorías: (1) <strong>Estándares Nacionales del IRS</strong> para alimentos, ropa, suministros del hogar, cuidado personal y misceláneos; (2) <strong>Estándares Locales del IRS</strong> para vivienda (dividido en un componente sin hipoteca y un componente de hipoteca o renta, ambos específicos del condado) y transporte (dividido en costos de propiedad y costos operativos, también específicos de la localidad); y (3) <strong>Otros Gastos Necesarios</strong>, que incluyen impuestos, deducciones obligatorias de nómina, seguro de vida a plazo, pagos de manutención ordenados por el tribunal, cuidado infantil, atención médica no cubierta por seguro, servicio de telecomunicaciones y gastos educativos para un curso requerido por el empleo o para un hijo menor de dieciocho años.</p>
+  <p>Los Estándares del IRS no son opcionales ni negociables. Son cifras fijas nacionales o locales publicadas por el Internal Revenue Service para uso en el propio programa de estándares financieros de cobranza del Servicio. El uso en quiebra es un préstamo de ese itinerario; los tribunales han rechazado los desafíos a los Estándares del IRS como la medida incorrecta de gastos necesarios, observando que el Congreso los incorporó por referencia y que la sustitución judicial de un itinerario diferente derrotaría el diseño estatutario.</p>
+  <p>Los deudores por encima de la mediana también deducen (a) los pagos mensuales promedio en deudas garantizadas que venzan dentro de los 60 meses siguientes a la fecha de la petición, calculados como el total de los pagos contractuales de los siguientes 60 meses dividido entre 60; (b) las obligaciones de deuda prioritaria divididas entre 60; (c) los gastos administrativos proyectados de un plan del Chapter 13, limitados al porcentaje publicado del U.S. Trustee; y (d) ciertos otros gastos categóricos identificados en la <a href="https://www.law.cornell.edu/uscode/text/11/707" rel="noopener" target="_blank">Section 707(b)(2)(A)(ii)</a> hasta (iv).</p>
+</div>
+
+<div class="content-section">
+  <h2>Paso tres — la presunción</h2>
+  <p>La salida del paso dos es el ingreso mensual disponible. La presunción de abuso surge si el ingreso mensual disponible, multiplicado por 60, es (a) al menos $16,675 (la cifra indexada en dólares 2024-2025; la cifra se ajusta trienalmente bajo la <a href="https://www.law.cornell.edu/uscode/text/11/104" rel="noopener" target="_blank">Section 104</a>), o (b) al menos $10,000 <em>y</em> al menos el 25 por ciento de la deuda no prioritaria no garantizada del deudor. Un deudor cuyo ingreso disponible a 60 meses cae por debajo de ambos umbrales no se presume abusivo; uno por encima de cualquier umbral se presume abusivo. Los umbrales en dólares no son guías de política; son líneas claras estatutarias.</p>
+  <p>La presunción es rebatible solo mediante demostración de <strong>circunstancias especiales</strong> (special circumstances) que justifiquen gastos adicionales o ajustes de ingreso y produzcan un ingreso disponible recalculado por debajo del umbral. La <a href="https://www.law.cornell.edu/uscode/text/11/707" rel="noopener" target="_blank">Section 707(b)(2)(B)</a> identifica "una condición médica grave o una convocatoria u orden a servicio activo en las Fuerzas Armadas" como ilustrativas; los tribunales han leído la categoría estrechamente, exigiendo al deudor desglosar cada gasto adicional y proveer documentación.</p>
+</div>
+
+<div class="content-section">
+  <h2>El papel del costo de vida regional</h2>
+  <p>BAPCPA delega la calibración de los gastos necesarios a los Estándares del IRS, que son ellos mismos específicos del condado para vivienda y transporte. El efecto práctico es una dispersión geográfica sustancial en los resultados de la prueba de medios para deudores con ingresos y perfiles de hogar idénticos. Un hogar que gane el mismo ingreso bruto en una zona metropolitana costera de alto costo y en un condado interior de bajo costo producirá diferentes salidas de ingreso disponible porque sus asignaciones locales de vivienda y transporte difieren.</p>
+  <p>La cifra de costo operativo de transporte es regional en vez de específica del condado; la cifra del costo de propiedad depende del número de vehículos en posesión (limitado a dos para un hogar casado). La Suprema Corte resolvió la cuestión para fines del Chapter 13 en <em>Ransom v. FIA Card Services, N.A.</em>, 562 U.S. 61 (2011), sosteniendo que la asignación de propiedad no está disponible para un deudor sin una obligación actual de préstamo o arrendamiento; ese fallo generalmente se aplica también al análisis de la prueba de medios en el Chapter 7.</p>
+</div>
+
+<div class="content-section">
+  <h2>Exclusiones de ingreso especiales</h2>
+  <p>Más allá de la exclusión del Seguro Social, el CMI también excluye:</p>
+  <ul>
+    <li>Pagos a víctimas de crímenes de guerra o crímenes contra la humanidad</li>
+    <li>Pagos a víctimas de terrorismo internacional o doméstico, por su estatus de víctimas</li>
+    <li>Reembolso a ciertos deudores bajo la National Guard and Reservists Debt Relief Act por ingreso relacionado con período de servicio (cuando aplique)</li>
+  </ul>
+  <p>Los beneficios de discapacidad pagados bajo una póliza privada de discapacidad de largo plazo son CMI; solo los beneficios de discapacidad del Seguro Social están excluidos. Los beneficios de veteranos están excluidos solo si se pagan por una discapacidad conectada al servicio.</p>
+</div>
+
+<div class="content-section">
+  <h2>Tamaño del hogar</h2>
+  <p>El tamaño del hogar determina qué cifra mediana estatal aplica, qué nivel del Estándar Nacional del IRS aplica, y (en algunos distritos) qué nivel del estándar local aplica. Los distritos se dividen sobre la medida apropiada: el enfoque de "cabezas en camas" (heads on beds) cuenta a cada persona que comparte la residencia del deudor; el enfoque de "dependientes para fines de impuestos" cuenta solo personas que el deudor podría reclamar como dependientes bajo el Internal Revenue Code; el enfoque de "unidad económica" pregunta si la persona adicional contribuye o se beneficia de la economía del hogar. La elección puede determinar si el deudor está por encima o por debajo de la mediana.</p>
+</div>
+
+<div class="content-section">
+  <h2>Form 122A y los formularios oficiales</h2>
+  <p>La prueba de medios se implementa a través de las Official Forms 122A-1 (Statement of Your Current Monthly Income), 122A-1Supp (Statement of Exemption from Presumption of Abuse) y 122A-2 (Chapter 7 Means Test Calculation). La Administrative Office of the United States Courts actualiza los formularios periódicamente. Los formularios se reproducen en el <a href="https://www.uscourts.gov/forms-rules/forms/bankruptcy-forms" rel="noopener" target="_blank">sitio web de United States Courts</a>. Los errores en los formularios — particularmente en cálculo de CMI, tamaño del hogar o documentación de gastos permitidos — son la fuente más común de objeción del síndico en casos del Chapter 7 de deudores por encima de la mediana.</p>
+</div>
+
+<div class="content-section">
+  <h2>Estatutos y autoridad relacionada</h2>
+  <ul>
+    <li><a href="https://www.law.cornell.edu/uscode/text/11/707" rel="noopener" target="_blank">11 U.S.C. § 707</a> — Desestimación de un caso o conversión al Chapter 11 o 13</li>
+    <li><a href="https://www.law.cornell.edu/uscode/text/11/101" rel="noopener" target="_blank">11 U.S.C. § 101(10A)</a> — Definición de ingreso mensual actual</li>
+    <li><a href="https://www.law.cornell.edu/uscode/text/11/104" rel="noopener" target="_blank">11 U.S.C. § 104</a> — Ajuste de montos en dólares</li>
+    <li><a href="/es/section-1325-confirmacion-del-plan/">11 U.S.C. § 1325(b)</a> — Ingreso disponible proyectado del Chapter 13 (marco relacionado)</li>
+    <li><a href="https://www.justice.gov/ust/means-testing" rel="noopener" target="_blank">EOUST Means Testing Information</a> — Tablas oficiales de ingreso mediano y gastos</li>
+    <li><em>Ransom v. FIA Card Services, N.A.</em>, 562 U.S. 61 (2011) — Disponibilidad de la asignación de propiedad de vehículo</li>
+    <li><em>Hamilton v. Lanning</em>, 560 U.S. 505 (2010) — Cálculo de ingreso disponible proyectado (paralelo del Chapter 13)</li>
+  </ul>
+</div>
+
+<div class="content-section">
+  <h2>Referencias cruzadas del Open Bankruptcy Project</h2>
+  <ul>
+    <li><a href="/es/section-707b-prueba-de-medios/">Visión general de abuso bajo Section 707(b)</a></li>
+    <li><a href="/es/section-522-exenciones/">Visión general de exenciones</a></li>
+  </ul>
+</div>
+
+<div class="network-links">
+  <strong>Bankruptcy Tools Network:</strong><br>
+  <span style="color:var(--text-muted)">Herramientas relacionadas (en inglés):</span><br>
+  <a href="https://1328f.com?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Discharge Screener</a> &middot;
+  <a href="https://1328f.org?utm_source=btn&utm_medium=crosslink&utm_campaign=openbankruptcyproject.org">Research Platform</a>
+</div>
+</main>
+<footer role="contentinfo">
+  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Transparencia gratuita y de código abierto sobre quiebras. Sin publicidad. Sin enlaces de afiliados. Apoyado por <a href="https://openbankruptcyproject.org/donate.html">donaciones</a>.</p>
+  <p style="margin-bottom:0.5rem">Educación gratuita sobre quiebras. No constituye asesoría legal.</p>
+  <p style="margin-bottom:0.5rem"><a href="/">Inicio</a> &middot; <a href="/research.html">Investigación</a> &middot; <a href="/impact.html">Impacto</a> &middot; <a href="/legal-aid.html">Asistencia Legal</a> &middot; <a href="/about.html">Acerca de</a> &middot; <a href="/contact.html">Contacto</a></p>
+  <p style="font-size:0.75rem">Este sitio proporciona únicamente información de carácter general y no constituye asesoría legal. El uso del sitio no crea una relación abogado-cliente. Consulte a un abogado licenciado sobre su situación específica.<br>Un proyecto del <strong>Open Bankruptcy Project</strong>, organización benéfica pública 501(c)(3) (EIN 41-5159631).</p>
+</footer>
+<script>document.querySelector('.hamburger').addEventListener('click',function(){var nav=document.getElementById('nav-links');var open=nav.classList.toggle('open');this.setAttribute('aria-expanded',open);});</script>
+</body>
+</html>

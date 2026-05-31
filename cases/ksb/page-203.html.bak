@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>D. Kan. Bankruptcy Cases - Page 203 of 203 - Open Bankruptcy Project</title>
+    <meta name="description" content="Index of federal bankruptcy cases in the D. Kan. available on the RECAP Archive. Published by the Open Bankruptcy Project. All primary-source documents are on CourtListener.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/cases/ksb/page-203.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="D. Kan. Bankruptcy Cases - Open Bankruptcy Project">
+    <meta property="og:description" content="Index of federal bankruptcy cases in the D. Kan. available on the RECAP Archive.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/cases/ksb/page-203.html">
+    <meta property="og:image" content="/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- BTN:GA4:START -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('set', 'allow_ad_personalization_signals', false);
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+    <!-- BTN:GA4:END -->
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "D. Kan. Bankruptcy Case Index (Page 203)", "description": "Index of federal bankruptcy cases in the D. Kan. available on the RECAP Archive. Published by the Open Bankruptcy Project.", "url": "https://openbankruptcyproject.org/cases/ksb/page-203.html", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "creator": {"@type": "NonprofitOrganization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"}, "sourceOrganization": {"@type": "Organization", "name": "Free Law Project", "url": "https://free.law/"}, "isAccessibleForFree": true, "keywords": "bankruptcy, federal court, RECAP, CourtListener, public records, D. Kan."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://openbankruptcyproject.org/"}, {"@type": "ListItem", "position": 2, "name": "Cases", "item": "https://openbankruptcyproject.org/cases/"}, {"@type": "ListItem", "position": 3, "name": "D. Kan.", "item": "https://openbankruptcyproject.org/cases/ksb/"}, {"@type": "ListItem", "position": 4, "name": "Page 203", "item": "https://openbankruptcyproject.org/cases/ksb/page-203.html"}]}</script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117; --surface: #151b23; --surface-hover: #1a2230;
+            --border: #252d38; --border-light: #2d3748;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff;
+            --green: #3fb950; --gold: #d29922;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+
+        nav.topnav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0; background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav.topnav .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
+
+        .breadcrumb { padding: 16px 0; font-size: 0.85rem; color: var(--text-muted); }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb a:hover { color: var(--accent); }
+        .breadcrumb .sep { margin: 0 8px; color: var(--border-light); }
+
+        .court-header { padding: 32px 0 24px; border-bottom: 1px solid var(--border); }
+        .court-header .label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-bottom: 8px; }
+        .court-header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 12px; }
+        .court-header p { color: var(--text-secondary); font-size: 0.95rem; max-width: 780px; }
+
+        .case-table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 32px 0; }
+        .case-table th { background: var(--bg); text-align: left; padding: 14px 16px; font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; border-bottom: 1px solid var(--border); }
+        .case-table td { padding: 12px 16px; font-size: 0.88rem; border-bottom: 1px solid var(--border); }
+        .case-table tr:last-child td { border-bottom: none; }
+        .case-table tr:hover td { background: var(--surface-hover); }
+
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 16px; margin: 24px 0; font-size: 0.9rem; }
+        .pagination a { color: var(--accent); font-weight: 600; padding: 6px 12px; border: 1px solid var(--border-light); border-radius: 6px; }
+        .pagination a:hover { background: var(--surface); text-decoration: none; }
+        .pagination .page-info { color: var(--text-muted); }
+
+        .attribution { padding: 20px 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; font-size: 0.85rem; color: var(--text-muted); margin: 32px 0; }
+        .attribution strong { color: var(--text-secondary); }
+        .attribution a { color: var(--text-secondary); }
+        .attribution a:hover { color: var(--accent); }
+
+        footer { padding: 40px 0; border-top: 1px solid var(--border); color: var(--text-muted); font-size: 0.85rem; text-align: center; }
+        footer a { color: var(--text-muted); margin: 0 10px; }
+        footer a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+<nav class="topnav">
+    <div class="container">
+        <a href="/" class="nav-brand">Open Bankruptcy Project</a>
+        <div class="nav-links">
+            <a href="/#mission">Mission</a>
+            <a href="/#what-we-do">What We Do</a>
+            <a href="/cases/" class="active">Cases</a>
+            <a href="/research.html">Research</a>
+            <a href="/recap.html">RECAP</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <a href="/cases/">Cases</a><span class="sep">/</span>
+        <a href="/cases/ksb/">D. Kan.</a><span class="sep">/</span>
+        <span>Page 203</span>
+    </div>
+</div>
+
+<header class="court-header">
+    <div class="container">
+        <div class="label">Bankruptcy Court Index</div>
+        <h1>United States Bankruptcy Court for the District of Kansas</h1>
+        <p>United States Bankruptcy Court for the District of Kansas is one of the US federal bankruptcy courts whose public, RECAP-archived dockets are indexed here. The Open Bankruptcy Project maintains this national case-level index for empirical research and public-records access. Every case below links to the full docket on the Free Law Project&#x27;s CourtListener.</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <div class="pagination"><a href="page-202.html">← Prev</a> <span class="page-info">Page 203 of 203</span></div>
+
+    <table class="case-table">
+        <thead>
+            <tr>
+                <th>Case Number</th>
+                <th>Caption</th>
+                <th>Chapter</th>
+                <th>Filed</th>
+                <th>Primary Source</th>
+                <th>Research</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>10-12463</td><td>Daniel Lee Galleher and Dana Renee Galleher</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38657453/daniel-lee-galleher-and-dana-renee-galleher/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22498</td><td>David Harold Cohen</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38657396/david-harold-cohen/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12468</td><td>Mohammad A Awadeljied and Nagla A Abdelmalik</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38657349/mohammad-a-awadeljied-and-nagla-a-abdelmalik/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12467</td><td>Teri Lea File</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38657345/teri-lea-file/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12466</td><td>Rodney Scott Starcher and Travene Elaine Ware</td><td>Ch. 13</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38657280/rodney-scott-starcher-and-travene-elaine-ware/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-05144</td><td>Speth v. Capital One</td><td>—</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38657187/speth-v-capital-one/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22497</td><td>Tristan Gregory Smith and Antoinette Evangeline Smith</td><td>Ch. 13</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38657154/tristan-gregory-smith-and-antoinette-evangeline-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12465</td><td>Paula J Webster</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38657131/paula-j-webster/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12460</td><td>Victor R Balderas</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38657109/victor-r-balderas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12464</td><td>James Duane Elwick and Debra Kay Elwick</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656970/james-duane-elwick-and-debra-kay-elwick/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22495</td><td>Richard Lee Payne and Joyce Eulah Payne</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656776/richard-lee-payne-and-joyce-eulah-payne/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12462</td><td>Yusuph A Faki and Suhayla S Mohamed</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656718/yusuph-a-faki-and-suhayla-s-mohamed/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22491</td><td>Antonino Quinonez and Cesarea Quinonez</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656693/antonino-quinonez-and-cesarea-quinonez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41276</td><td>Anthony Charles Eck</td><td>Ch. 13</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656621/anthony-charles-eck/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-05145</td><td>Speth v. Credit Alliance Group</td><td>—</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656550/speth-v-credit-alliance-group/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41275</td><td>Kelly Mark Glaze and Kelly Marie Glaze</td><td>Ch. 13</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656417/kelly-mark-glaze-and-kelly-marie-glaze/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22494</td><td>Douglas Thompson Porter and Cynthia Sue Porter</td><td>Ch. 13</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656344/douglas-thompson-porter-and-cynthia-sue-porter/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-06125</td><td>Willis v. Xpress Loan Servicing</td><td>—</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656296/willis-v-xpress-loan-servicing/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12461</td><td>Darren Dean Tinkler and Dana Celeste Tinkler</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656264/darren-dean-tinkler-and-dana-celeste-tinkler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22493</td><td>Teresa M Lynch</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656246/teresa-m-lynch/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22492</td><td>Warren Dale Jones and Helen Elizabeth Jones</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656159/warren-dale-jones-and-helen-elizabeth-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22490</td><td>Bipin Shah and Uma B. Shah</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38656009/bipin-shah-and-uma-b-shah/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22489</td><td>Estel R Whiteside</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38655817/estel-r-whiteside/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22488</td><td>Mark Allen Davis</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38655733/mark-allen-davis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12455</td><td>Laveta Sue Henrickson</td><td>Ch. 13</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38655701/laveta-sue-henrickson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22487</td><td>Ojetta May Glynn</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38655503/ojetta-may-glynn/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12459</td><td>Sherri Lee Pierson</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38655417/sherri-lee-pierson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12458</td><td>James L Novak</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38655386/james-l-novak/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12457</td><td>Fawn Nicole Depew</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38655278/fawn-nicole-depew/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12456</td><td>Paula Fern Smith</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38655191/paula-fern-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12454</td><td>Timothy Lee Patrick</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38655117/timothy-lee-patrick/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12453</td><td>David LaBrant Spencer and Roberta Kae Spencer</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38654999/david-labrant-spencer-and-roberta-kae-spencer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12452</td><td>Donald Gene Kliewer and Karen Melitta Kliewer</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38654913/donald-gene-kliewer-and-karen-melitta-kliewer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-05143</td><td>Speth v. Ellis</td><td>—</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38654851/speth-v-ellis/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41272</td><td>Orval Scott Weeks and Julia Lynn Weeks</td><td>Ch. 13</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38654776/orval-scott-weeks-and-julia-lynn-weeks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12451</td><td>James Lee Weaver</td><td>Ch. 13</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38654706/james-lee-weaver/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22486</td><td>Raquel Renee Flowers</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38654702/raquel-renee-flowers/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22485</td><td>Steven D Bartel and Janet G Bartel</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38654628/steven-d-bartel-and-janet-g-bartel/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12450</td><td>Connie Lynn Diggs</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38654571/connie-lynn-diggs/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22484</td><td>Brian L Plowman and Hollie L Plowman</td><td>Ch. 7</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38654437/brian-l-plowman-and-hollie-l-plowman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41271</td><td>Kim Michelle Cousin</td><td>Ch. 13</td><td>2010-07-21</td><td><a href="https://www.courtlistener.com/docket/38654343/kim-michelle-cousin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22469</td><td>Earl H Fantroy</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38658942/earl-h-fantroy/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12445</td><td>Kevin E Croyle</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38654620/kevin-e-croyle/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41270</td><td>Robert Joseph Baker and Crystal Lynn Baker</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38654534/robert-joseph-baker-and-crystal-lynn-baker/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41267</td><td>Deborah Gail Mills</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38654411/deborah-gail-mills/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41269</td><td>Harland Francis Kistler and Martha Sue Kistler</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38654214/harland-francis-kistler-and-martha-sue-kistler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41268</td><td>Billy Ray Hardin</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38654194/billy-ray-hardin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12449</td><td>Delorese Lucas Smith and S T Smith</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38654052/delorese-lucas-smith-and-s-t-smith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12448</td><td>Toni Renae Parker</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38654009/toni-renae-parker/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12447</td><td>Katherine Nadene Hutchings</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653925/katherine-nadene-hutchings/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12446</td><td>Sean Casey Carver and Christine Michelle Carver</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653898/sean-casey-carver-and-christine-michelle-carver/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12441</td><td>Efrain G Lazaro and Raquel Lazaro</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653878/efrain-g-lazaro-and-raquel-lazaro/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22483</td><td>Trent Edward Freeman</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653766/trent-edward-freeman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22482</td><td>Viola Dee McHardie</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653657/viola-dee-mchardie/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22480</td><td>Randy Alvin Stringer and Deborah Kay Stringer</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653626/randy-alvin-stringer-and-deborah-kay-stringer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22481</td><td>Catherine Jane Fiehler</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653576/catherine-jane-fiehler/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12442</td><td>Cecilia M Rogers</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653547/cecilia-m-rogers/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22479</td><td>Floyd Ivan Craig and Beverly Sue Craig</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653417/floyd-ivan-craig-and-beverly-sue-craig/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12438</td><td>Aaron M Croft and Tina M Croft</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653398/aaron-m-croft-and-tina-m-croft/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22478</td><td>Tommy Lee North and Juanita Jean North</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653337/tommy-lee-north-and-juanita-jean-north/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12444</td><td>Stanley G Richardson and Laura D Richardson</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653288/stanley-g-richardson-and-laura-d-richardson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22471</td><td>Thomas Edwin Watson and Joyce Ann Watson</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653121/thomas-edwin-watson-and-joyce-ann-watson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41266</td><td>Allen Earnest Chase</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653118/allen-earnest-chase/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22475</td><td>Brett James Hale</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653104/brett-james-hale/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12443</td><td>Richard Allen Wolfe and Diane Michele Wolfe</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38653050/richard-allen-wolfe-and-diane-michele-wolfe/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22477</td><td>Jackie Diane Feuerborn</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652997/jackie-diane-feuerborn/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22476</td><td>RaDonna Lynn Roland</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652884/radonna-lynn-roland/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12440</td><td>Glenda L Medley</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652739/glenda-l-medley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12439</td><td>Ira T Miller and Amanda M Miller</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652689/ira-t-miller-and-amanda-m-miller/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41265</td><td>Duke Rodney Long</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652438/duke-rodney-long/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12437</td><td>Christopher Michael Belveal</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652430/christopher-michael-belveal/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22470</td><td>Melissa Lynn Sidwell</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652312/melissa-lynn-sidwell/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12436</td><td>Terrill L Graber and Susan A Graber</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652289/terrill-l-graber-and-susan-a-graber/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22474</td><td>Santina Kay Sutton and Joshua Lee Sutton</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652263/santina-kay-sutton-and-joshua-lee-sutton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12433</td><td>Candy Leigh Pierce</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652194/candy-leigh-pierce/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12428</td><td>Cindy L Heyland</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652177/cindy-l-heyland/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12435</td><td>Tamara Georgette Perry</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652173/tamara-georgette-perry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12429</td><td>Daniel Pedro Garcia and Linda Frances Garcia</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652093/daniel-pedro-garcia-and-linda-frances-garcia/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12434</td><td>Dale Wayne Dodd</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38652082/dale-wayne-dodd/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22472</td><td>Melissa Anne Quigley</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651964/melissa-anne-quigley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22473</td><td>Kirk Lee Johnson</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651960/kirk-lee-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12432</td><td>Isaac Rod Ferguson and Amie Nicole Ferguson</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651863/isaac-rod-ferguson-and-amie-nicole-ferguson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12425</td><td>Franklin Leroy Roeder and Jennifer Lynn Roeder</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651858/franklin-leroy-roeder-and-jennifer-lynn-roeder/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12431</td><td>Matthew Burr and Lindsey A Burr</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651757/matthew-burr-and-lindsey-a-burr/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-07039</td><td>Baer v. Darveaux</td><td>—</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651720/baer-v-darveaux/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41264</td><td>Marc Aaron Wachsnicht and Shonna Rae Wachsnicht</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651600/marc-aaron-wachsnicht-and-shonna-rae-wachsnicht/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22464</td><td>Russell Earl Wesley and Nai-Ying Wesley</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651451/russell-earl-wesley-and-nai-ying-wesley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12430</td><td>John Earl Robertson and Winnie Gayle Robertson</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651432/john-earl-robertson-and-winnie-gayle-robertson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22468</td><td>William Lester Garton, III and Tammera Lynn Garton</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651402/william-lester-garton-iii-and-tammera-lynn-garton/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-05142</td><td>Friesen v. Seacoast Capital Partners II, L.P.</td><td>—</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651335/friesen-v-seacoast-capital-partners-ii-lp/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41263</td><td>John Edward Robinson and Lisa Kay Robinson</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651207/john-edward-robinson-and-lisa-kay-robinson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22467</td><td>Jason Earl Blakely and Cathy Jean Martin</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651201/jason-earl-blakely-and-cathy-jean-martin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22466</td><td>Johnny Dwayne McCombs and Channon Leanne McCombs</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651074/johnny-dwayne-mccombs-and-channon-leanne-mccombs/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22465</td><td>Say Nhingsavath and Kathy Nhingsavath</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38651066/say-nhingsavath-and-kathy-nhingsavath/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12427</td><td>Michael Ray Gingerich and Ann Marie Gingerich</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38650838/michael-ray-gingerich-and-ann-marie-gingerich/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12426</td><td>Lynn Aubrey Galloway</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38650692/lynn-aubrey-galloway/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12424</td><td>Suzanne Kay Welden</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38650669/suzanne-kay-welden/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12423</td><td>Miguel Agustin Casas</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38650326/miguel-agustin-casas/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22463</td><td>Edward Ryan Looney</td><td>Ch. 13</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38650249/edward-ryan-looney/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22462</td><td>Jeffrey Eldon Summers</td><td>Ch. 7</td><td>2010-07-20</td><td><a href="https://www.courtlistener.com/docket/38650141/jeffrey-eldon-summers/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22459</td><td>Mayo E. Johns and Sandra D. Johns</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38651904/mayo-e-johns-and-sandra-d-johns/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22455</td><td>Julie Kay Portenier</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38650886/julie-kay-portenier/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22458</td><td>David Laten Clark and Michelle Louise Clark</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38650418/david-laten-clark-and-michelle-louise-clark/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41262</td><td>Melody Marie Knepper</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38650104/melody-marie-knepper/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22461</td><td>Michael J. Perry and Dawn J. Perry</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38650088/michael-j-perry-and-dawn-j-perry/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12411</td><td>Steven Jack Scott</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38650013/steven-jack-scott/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12422</td><td>Michael Warren Owens</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38650010/michael-warren-owens/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12421</td><td>Ben Christopher Franklin and Jennifer Marie Franklin</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649931/ben-christopher-franklin-and-jennifer-marie-franklin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12420</td><td>Anna Marie Martinez</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649862/anna-marie-martinez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12409</td><td>Karen Rae Marsh</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649857/karen-rae-marsh/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-06124</td><td>Besonen v. CitiMortgage, Inc.</td><td>—</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649814/besonen-v-citimortgage-inc/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22460</td><td>Michael E Coleman and Janice M Coleman</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649711/michael-e-coleman-and-janice-m-coleman/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41259</td><td>John Leroy Summerville and Melody Rose Summerville</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649705/john-leroy-summerville-and-melody-rose-summerville/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12415</td><td>Robert Joseph Grant and Rozanne Marie Grant</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649544/robert-joseph-grant-and-rozanne-marie-grant/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12419</td><td>Gary Clayton Bickel</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649484/gary-clayton-bickel/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41261</td><td>Matthew Douglas Ungehuer</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649355/matthew-douglas-ungehuer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12418</td><td>Brian K Grier and Melissa M Grier</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649318/brian-k-grier-and-melissa-m-grier/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41260</td><td>Cindi Rae Renyer</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649286/cindi-rae-renyer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-05141</td><td>Haynes v. United States of America (IRS)</td><td>—</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649151/haynes-v-united-states-of-america-irs/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22457</td><td>Jeffrey David Elkins and Susan Louise Elkins</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38649011/jeffrey-david-elkins-and-susan-louise-elkins/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41258</td><td>Gail Yvonne McDaniel</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648925/gail-yvonne-mcdaniel/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12417</td><td>Ora Lee King</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648923/ora-lee-king/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12416</td><td>Heather N Nelson</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648787/heather-n-nelson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22456</td><td>Thomas Edward Ruff and Nancy Jane Ruff</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648718/thomas-edward-ruff-and-nancy-jane-ruff/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22454</td><td>Melody Conreux-Goller</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648570/melody-conreux-goller/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41256</td><td>Izell Brown and Colette Yvonne Johnson</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648552/izell-brown-and-colette-yvonne-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12410</td><td>Robert L Wamsley and Mary C Wamsley</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648544/robert-l-wamsley-and-mary-c-wamsley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12414</td><td>Samuel De La Rosa and Matilde De La Rosa</td><td>Ch. 11</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648427/samuel-de-la-rosa-and-matilde-de-la-rosa/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12413</td><td>Charles Schoenberger</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648356/charles-schoenberger/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12412</td><td>Debby Schoenberger</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648315/debby-schoenberger/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22453</td><td>Lisa Dianne Bush</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648128/lisa-dianne-bush/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22452</td><td>Cynthia Lu Blake</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38648123/cynthia-lu-blake/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22451</td><td>Roger Lee Hall and Amanda Marie Hall</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38647997/roger-lee-hall-and-amanda-marie-hall/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12404</td><td>Janet Kay Bishop</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38647716/janet-kay-bishop/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12408</td><td>Marie Ann Burns</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38647638/marie-ann-burns/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41255</td><td>Jonathan Patrick Edwards and Renee Doreen Edwards</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38647578/jonathan-patrick-edwards-and-renee-doreen-edwards/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41254</td><td>Jeffrey Jay Tappan and Karen Kaye Tappan</td><td>Ch. 13</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38647510/jeffrey-jay-tappan-and-karen-kaye-tappan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12405</td><td>Angela Dawn Griffith</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38647476/angela-dawn-griffith/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12407</td><td>Timothy C Jones</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38647433/timothy-c-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12406</td><td>Roger Eugene Dannebohm and Leoma Jean Dannebohm</td><td>Ch. 7</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/38647358/roger-eugene-dannebohm-and-leoma-jean-dannebohm/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41257</td><td>Hayhook Cattle Company LLC</td><td>Ch. 12</td><td>2010-07-19</td><td><a href="https://www.courtlistener.com/docket/4866015/hayhook-cattle-company-llc/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41253</td><td>Marshall Dean Stephens and Angela Marie Stephens</td><td>Ch. 13</td><td>2010-07-18</td><td><a href="https://www.courtlistener.com/docket/38647581/marshall-dean-stephens-and-angela-marie-stephens/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22448</td><td>Marie Christine Dunsworth</td><td>Ch. 7</td><td>2010-07-18</td><td><a href="https://www.courtlistener.com/docket/38647529/marie-christine-dunsworth/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12403</td><td>Jerald L Scarbrough and Cindy L Scarbrough</td><td>Ch. 13</td><td>2010-07-18</td><td><a href="https://www.courtlistener.com/docket/38647155/jerald-l-scarbrough-and-cindy-l-scarbrough/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12402</td><td>Phylis Susan Loy</td><td>Ch. 13</td><td>2010-07-18</td><td><a href="https://www.courtlistener.com/docket/38647125/phylis-susan-loy/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12401</td><td>Manuel Amezcua Marquez</td><td>Ch. 7</td><td>2010-07-18</td><td><a href="https://www.courtlistener.com/docket/38647009/manuel-amezcua-marquez/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22450</td><td>Melissa Christine Hickox</td><td>Ch. 7</td><td>2010-07-18</td><td><a href="https://www.courtlistener.com/docket/38646934/melissa-christine-hickox/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22449</td><td>David K Vogts and Andrea L. Vogts</td><td>Ch. 7</td><td>2010-07-18</td><td><a href="https://www.courtlistener.com/docket/38646891/david-k-vogts-and-andrea-l-vogts/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22447</td><td>Karen Elizabeth Jones</td><td>Ch. 7</td><td>2010-07-18</td><td><a href="https://www.courtlistener.com/docket/38646770/karen-elizabeth-jones/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22446</td><td>Susan Elaine Hicks</td><td>Ch. 7</td><td>2010-07-17</td><td><a href="https://www.courtlistener.com/docket/38647284/susan-elaine-hicks/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22445</td><td>Michael Jeffry Shumway and Janet Charlene Shumway</td><td>Ch. 7</td><td>2010-07-17</td><td><a href="https://www.courtlistener.com/docket/38646531/michael-jeffry-shumway-and-janet-charlene-shumway/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41251</td><td>Scott Owen Oliver</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38646950/scott-owen-oliver/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-07038</td><td>Williamson TR v. Palmer</td><td>—</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38646586/williamson-tr-v-palmer/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12388</td><td>Janice Elaine Gaug</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38646558/janice-elaine-gaug/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-05140</td><td>Nazar v. Mawhirter</td><td>—</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38646457/nazar-v-mawhirter/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12396</td><td>William S Eller and Norma J Eller</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38646398/william-s-eller-and-norma-j-eller/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12400</td><td>Ann Margo Burcham</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38646365/ann-margo-burcham/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22444</td><td>Randall James Shuck and Margaret Anne Shuck</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38646306/randall-james-shuck-and-margaret-anne-shuck/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22443</td><td>Jody Ray Owens</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38646222/jody-ray-owens/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22442</td><td>Sherry Lynn Moore</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38646221/sherry-lynn-moore/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41252</td><td>Jennifer Shay Kern</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38646040/jennifer-shay-kern/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12399</td><td>Bennie Capron and Holly Capron</td><td>Ch. 12</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645950/bennie-capron-and-holly-capron/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12398</td><td>Jerry L Brawner</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645939/jerry-l-brawner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22441</td><td>Cindy Lynn Chambers</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645757/cindy-lynn-chambers/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12392</td><td>George L Blythe</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645631/george-l-blythe/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12395</td><td>Jennifer Lynette Richardson</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645508/jennifer-lynette-richardson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12394</td><td>Taarnna Michelle Renner</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645479/taarnna-michelle-renner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12393</td><td>Marsha K Crawford</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645393/marsha-k-crawford/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12391</td><td>Fredrick Allen Cox</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645299/fredrick-allen-cox/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12384</td><td>David Lee Shipley and Kathleen Gayle Shipley</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645242/david-lee-shipley-and-kathleen-gayle-shipley/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22440</td><td>Austin Wayne Knight</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645174/austin-wayne-knight/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12390</td><td>Amanda C West</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645149/amanda-c-west/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22439</td><td>Marco Polo Hernandez-Reisner and Erin Marie Hernandez-Reisner</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38645048/marco-polo-hernandez-reisner-and-erin-marie-hernandez-reisner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12389</td><td>Lyle E Hall and Teresa A Hall</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644976/lyle-e-hall-and-teresa-a-hall/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12387</td><td>Kyle A Fisher and Christin N Fisher</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644884/kyle-a-fisher-and-christin-n-fisher/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41248</td><td>Lona Ethel Duncan</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644810/lona-ethel-duncan/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12386</td><td>Brandy J Braya</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644762/brandy-j-braya/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41250</td><td>Lori Lee Flippin</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644663/lori-lee-flippin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12385</td><td>Nell Y Johnson</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644604/nell-y-johnson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41249</td><td>Fredrick Daniel Fast and Donna Louise Fast</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644536/fredrick-daniel-fast-and-donna-louise-fast/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12383</td><td>George Leo Cash and Lucinda Kay Cash</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644330/george-leo-cash-and-lucinda-kay-cash/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41247</td><td>Ashley A Kelly</td><td>Ch. 7</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644262/ashley-a-kelly/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41246</td><td>Cherie Renee Jellison</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644214/cherie-renee-jellison/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41245</td><td>Brian Alan Carver</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644193/brian-alan-carver/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-07037</td><td>Williamson TR v. Guerin</td><td>—</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644054/williamson-tr-v-guerin/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12382</td><td>Ginger Ann Soliz</td><td>Ch. 13</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/38644005/ginger-ann-soliz/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12397</td><td>Gary A Woods and Karen E Woods</td><td>Ch. 11</td><td>2010-07-16</td><td><a href="https://www.courtlistener.com/docket/4878320/gary-a-woods-and-karen-e-woods/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>11-10430</td><td>Susan Diane North</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/39117586/susan-diane-north/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12378</td><td>Brian L Cunningham and Kristy Cunningham</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38649934/brian-l-cunningham-and-kristy-cunningham/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22431</td><td>William Dean Wilner and Natalie Roberts Wilner</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38644417/william-dean-wilner-and-natalie-roberts-wilner/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22433</td><td>Judith Elaine Dame</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38644327/judith-elaine-dame/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12375</td><td>Kristeen Edith Jackson</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38644077/kristeen-edith-jackson/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-41244</td><td>Jeffery Dean Fultz and Letisha Kaye Fultz</td><td>Ch. 13</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38643920/jeffery-dean-fultz-and-letisha-kaye-fultz/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12381</td><td>Randall L Kuhn</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38643901/randall-l-kuhn/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22438</td><td>Todd A Kennedy and Sheri K. Kennedy</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38643863/todd-a-kennedy-and-sheri-k-kennedy/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12380</td><td>Veronica Lynn Romero</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38643722/veronica-lynn-romero/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-22437</td><td>Brian Wade Pace</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38643657/brian-wade-pace/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12369</td><td>Gail Lynn Shotts</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38643607/gail-lynn-shotts/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12379</td><td>Felicia R Hammans</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38643587/felicia-r-hammans/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+                <tr><td>10-12377</td><td>Ronald V Horn, II</td><td>Ch. 7</td><td>2010-07-15</td><td><a href="https://www.courtlistener.com/docket/38643503/ronald-v-horn-ii/" target="_blank" rel="noopener">View on CourtListener →</a></td><td>—</td></tr>
+        </tbody>
+    </table>
+
+    <div class="pagination"><a href="page-202.html">← Prev</a> <span class="page-info">Page 203 of 203</span></div>
+
+    <div class="attribution">
+        <p><strong>Data source:</strong> Case metadata on this page comes from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>, operated by the <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a>. Content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. This derived index is published under the same license.</p>
+        <p style="margin-top: 12px;"><strong>Scope note:</strong> This index covers federal bankruptcy cases in the D. Kan. that appear on the RECAP Archive. The Open Bankruptcy Project does not reproduce docket PDFs or filing text on this domain - all primary-source access is via CourtListener. Last updated 2026-04-19.</p>
+    </div>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/recap.html">RECAP</a><a href="/contact.html">Contact</a><a href="/privacy.html">Privacy</a><a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a></p>
+        <p style="margin-top: 12px;">Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p style="margin-top: 8px;">Case metadata from <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a> / <a href="https://free.law/" target="_blank" rel="noopener">Free Law Project</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    </div>
+</footer>
+
+</body>
+</html>
