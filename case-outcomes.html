@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<title>Bankruptcy Outcomes: What Happens to Cases Like Mine? [2026] - Open Bankruptcy Project</title>
+<meta name="description" content="Real outcomes from 37.9 million federal bankruptcy cases (FJC database, 2008-2024). See discharge, dismissal, and time-to-discharge rates by district, chapter, representation, and debt level. Free, no signup.">
+<link rel="canonical" href="https://openbankruptcyproject.org/case-outcomes.html">
+<!-- BTN:GA4:START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag('js',new Date());gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');
+</script>
+<!-- BTN:GA4:END -->
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{--bg:#0d1117;--surface:#151b23;--surface2:#1a2230;--border:#252d38;--text:#e6edf3;--muted:#8b949e;--accent:#58a6ff;--green:#3fb950;--red:#f85149;--gold:#d29922}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px}
+  h1{font-size:1.9rem;font-weight:800;letter-spacing:-.02em;margin-bottom:8px}
+  .sub{color:var(--muted);font-size:1rem;margin-bottom:28px}
+  .controls{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:24px}
+  .controls .full{grid-column:1/-1}
+  label{display:block;font-size:.8rem;color:var(--muted);font-weight:600;margin-bottom:5px;text-transform:uppercase;letter-spacing:.04em}
+  select{width:100%;background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-size:.98rem;cursor:pointer}
+  select:focus{outline:none;border-color:var(--accent)}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:26px;margin-bottom:18px}
+  .card h2{font-size:1.05rem;font-weight:600;color:var(--muted);margin-bottom:18px;line-height:1.4}
+  .card h2 b{color:var(--text);font-weight:700}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:18px}
+  .stat{background:var(--surface2);border-radius:10px;padding:16px 12px;text-align:center}
+  .stat .pct{font-size:1.8rem;font-weight:800;line-height:1}
+  .stat .lbl{font-size:.78rem;color:var(--muted);margin-top:6px}
+  .pct.disch{color:var(--green)} .pct.dism{color:var(--red)} .pct.pend{color:var(--gold)}
+  .bar{height:10px;border-radius:6px;overflow:hidden;display:flex;margin-bottom:18px;background:var(--surface2)}
+  .bar i{display:block;height:100%}
+  .row{display:flex;justify-content:space-between;align-items:baseline;padding:11px 0;border-top:1px solid var(--border);font-size:.95rem}
+  .row .k{color:var(--muted)} .row .v{font-weight:700;font-variant-numeric:tabular-nums}
+  .compare{background:var(--surface2);border-radius:10px;padding:14px 16px;margin-top:16px;font-size:.92rem}
+  .compare .ct{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:8px}
+  .compare .cr{display:flex;justify-content:space-between;padding:4px 0}
+  .compare .cr b{font-variant-numeric:tabular-nums}
+  .note{font-size:.82rem;color:var(--muted);margin-top:14px;padding:10px 14px;background:var(--surface2);border-left:3px solid var(--gold);border-radius:0 8px 8px 0}
+  .n{font-variant-numeric:tabular-nums}
+  footer{margin-top:30px;font-size:.8rem;color:var(--muted);line-height:1.7;border-top:1px solid var(--border);padding-top:20px}
+  footer a{color:var(--accent);text-decoration:none}
+  .hl{color:var(--accent);font-weight:700}
+  @media(max-width:560px){.controls{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.stat .pct{font-size:1.5rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>What happens to cases like mine?</h1>
+  <p class="sub">Real outcomes from <b>37.9 million</b> federal bankruptcy cases (FJC Integrated Database, 2008&ndash;2024). Pick your court and chapter.</p>
+
+  <div class="controls">
+    <div>
+      <label for="district">Bankruptcy court (district)</label>
+      <select id="district"></select>
+    </div>
+    <div>
+      <label for="chapter">Chapter</label>
+      <select id="chapter">
+        <option value="7">Chapter 7 (liquidation)</option>
+        <option value="13" selected>Chapter 13 (repayment plan)</option>
+      </select>
+    </div>
+    <div>
+      <label for="rep">Representation (optional)</label>
+      <select id="rep">
+        <option value="">Any</option>
+        <option value="represented">With an attorney</option>
+        <option value="pro_se">Without an attorney (pro se)</option>
+      </select>
+    </div>
+    <div>
+      <label for="debt">Total debt level (optional)</label>
+      <select id="debt">
+        <option value="">Any</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="card" id="out"></div>
+
+  <footer>
+    <p><b>How we know this.</b> Figures are drawn from the Federal Judicial Center Integrated Database, the official case-level record of U.S. bankruptcy filings, for filing fiscal years 2008&ndash;2024, deduplicated to one record per case. "Discharged" and "dismissed" are the court's recorded disposition. A cell with fewer than 30 cases falls back to the national figure and is labeled.</p>
+    <p>These are <b>historical outcomes, not predictions</b>, and this is <b>not legal advice</b>. Your case depends on facts a chart cannot capture. If you need help, consult a licensed attorney in your state. A project of the <a href="https://openbankruptcyproject.org">Open Bankruptcy Project</a>, a 501(c)(3) nonprofit.</p>
+  </footer>
+</div>
+
+<script>
+let DATA=null;
+const elD=document.getElementById('district'),elC=document.getElementById('chapter'),
+      elR=document.getElementById('rep'),elB=document.getElementById('debt'),out=document.getElementById('out');
+
+function fmt(n){return n.toLocaleString('en-US')}
+function pct(x){return (Math.round(x*10)/10).toFixed(1)}
+
+fetch('base_rates_data.json').then(r=>r.json()).then(d=>{
+  DATA=d;
+  d.districts.forEach(x=>{const o=document.createElement('option');o.value=x.code;o.textContent=x.name;elD.appendChild(o)});
+  // default to a populous district if present
+  const def=d.districts.find(x=>x.code==='canb')||d.districts[0];
+  if(def) elD.value=def.code;
+  d.debtBuckets.forEach(b=>{const o=document.createElement('option');o.value=b;o.textContent=b;elB.appendChild(o)});
+  [elD,elC,elR,elB].forEach(e=>e.addEventListener('change',render));
+  render();
+}).catch(e=>{out.innerHTML='<h2>Could not load data file.</h2>'});
+
+function cell(code,chp){return (DATA.byDistrict[code]||{})[chp]||{}}
+
+function pickDisp(code,chp,rep,debt){
+  // returns {obj, scope:'district'|'national', dim}
+  const dc=cell(code,chp), nc=DATA.national[chp]||{};
+  if(debt){
+    const dd=(dc.debt||{})[debt], nd=(nc.debt||{})[debt];
+    if(dd&&dd.total>=DATA.meta.min_n) return {obj:dd,scope:'district',dim:'debt'};
+    if(nd) return {obj:nd,scope:'national',dim:'debt'};
+  }
+  if(rep){
+    const dr=(dc.prose||{})[rep], nr=(nc.prose||{})[rep];
+    if(dr&&dr.total>=DATA.meta.min_n) return {obj:dr,scope:'district',dim:'rep'};
+    if(nr) return {obj:nr,scope:'national',dim:'rep'};
+  }
+  if(dc.disp&&dc.disp.total>=DATA.meta.min_n) return {obj:dc.disp,scope:'district',dim:'base'};
+  if(nc.disp) return {obj:nc.disp,scope:'national',dim:'base'};
+  return null;
+}
+
+function render(){
+  const code=elD.value, chp=elC.value, rep=elR.value, debt=elB.value;
+  const dname=(DATA.districts.find(x=>x.code===code)||{}).name||code;
+  const chpName=chp==='7'?'Chapter 7':'Chapter 13';
+  const picked=pickDisp(code,chp,rep,debt);
+  if(!picked){out.innerHTML='<h2>No data for this selection.</h2>';return}
+  const o=picked.obj;
+  const otherPend=Math.max(0,100-o.dischAll-o.dismAll);
+  const refine=[];
+  if(rep) refine.push(rep==='pro_se'?'without an attorney':'with an attorney');
+  if(debt) refine.push('total debt '+debt);
+  const refTxt=refine.length?' <b>'+refine.join(', ')+'</b>':'';
+  const scopeNote=picked.scope==='national'
+    ? `<div class="note">Your district has fewer than ${DATA.meta.min_n} ${refine.length?'matching ':''}${chpName} cases, so this shows the <b>national</b> figure.</div>`:'';
+
+  // pro-se compare (always informative)
+  const dc=cell(code,chp), nc=DATA.national[chp]||{};
+  const ps=(dc.prose&&dc.prose.pro_se&&dc.prose.pro_se.total>=DATA.meta.min_n)?dc.prose.pro_se:(nc.prose||{}).pro_se;
+  const rp=(dc.prose&&dc.prose.represented&&dc.prose.represented.total>=DATA.meta.min_n)?dc.prose.represented:(nc.prose||{}).represented;
+  const dur=(dc.duration&&dc.duration.n>=DATA.meta.min_n)?dc.duration:(nc.duration||{});
+
+  let html=`<h2>Of <b class="n">${fmt(o.total)}</b> <b>${chpName}</b> cases${refTxt} in <b>${dname}</b> (2008&ndash;2024):</h2>`;
+  html+=`<div class="stats">
+    <div class="stat"><div class="pct disch">${pct(o.dischAll)}%</div><div class="lbl">discharged<br>(debt wiped)</div></div>
+    <div class="stat"><div class="pct dism">${pct(o.dismAll)}%</div><div class="lbl">dismissed<br>(case ended, no relief)</div></div>
+    <div class="stat"><div class="pct pend">${pct(otherPend)}%</div><div class="lbl">pending /<br>other</div></div>
+  </div>`;
+  html+=`<div class="bar"><i style="width:${o.dischAll}%;background:var(--green)"></i><i style="width:${o.dismAll}%;background:var(--red)"></i><i style="width:${otherPend}%;background:var(--gold)"></i></div>`;
+  html+=`<div class="row"><span class="k">Of cases that reached a final outcome, share discharged</span><span class="v">${pct(o.dischClosed)}%</span></div>`;
+  if(dur&&dur.median_months) html+=`<div class="row"><span class="k">Median time to discharge</span><span class="v">${dur.median_months} months</span></div>`;
+
+  if(ps&&rp){
+    html+=`<div class="compare"><div class="ct">Does having a lawyer matter? (${chpName} discharge rate)</div>
+      <div class="cr"><span>With an attorney</span><b class="hl">${pct(rp.dischAll)}%</b></div>
+      <div class="cr"><span>Without an attorney (pro se)</span><b>${pct(ps.dischAll)}%</b></div></div>`;
+  }
+  html+=scopeNote;
+  out.innerHTML=html;
+}
+</script>
+</body>
+</html>
