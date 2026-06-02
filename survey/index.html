@@ -712,6 +712,19 @@
       form.style.display = 'none';
       thankYou.style.display = 'block';
       window.scrollTo({ top: 0, behavior: 'smooth' });
+      // Ad Grants conversion: attorney-accountability intake. report_submit is the
+      // GA4 Key Event to mark + import to Google Ads; generate_lead is the standard
+      // high-value conversion Google Ads recognizes natively.
+      if (typeof gtag === 'function') {
+        var conv = {
+          court_district: data.courtDistrict || '',
+          willing_declaration: data.declaration || '',
+          willing_journalist: data.journalist || '',
+          site: location.hostname
+        };
+        gtag('event', 'report_submit', conv);
+        gtag('event', 'generate_lead', conv);
+      }
     }).catch(function() {
       errorEl.textContent = 'There was a problem submitting the form. Please try again.';
       errorEl.style.display = 'block';
