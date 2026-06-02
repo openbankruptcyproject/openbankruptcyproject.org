@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Bankruptcy Deadline Calculator [2026]: Key Dates From Your Petition &amp; 341 Meeting</title>
+<meta name="description" content="Free bankruptcy deadline calculator. Enter your petition date, chapter, and 341 meeting date to compute the standard federal deadlines: objection to discharge, proof of claim, exemption objections, plan payments, and more, under the Federal Rules of Bankruptcy Procedure and Rule 9006(a)."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/deadline-calculator/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Bankruptcy Deadline Calculator [2026] | Open Bankruptcy Project"/>
+<meta property="og:description" content="Compute the standard federal bankruptcy deadlines from your petition date and 341 meeting date. Free, private, runs entirely in your browser."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/deadline-calculator/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","name":"How to calculate your federal bankruptcy deadlines","description":"Compute the standard federal bankruptcy deadlines from the petition date, chapter, and 341 meeting date using the Federal Rules of Bankruptcy Procedure and the Rule 9006(a) day-counting method.","totalTime":"PT2M","isAccessibleForFree":true,"step":[{"@type":"HowToStep","name":"Enter the petition date","text":"Enter the date the bankruptcy petition was filed. In a voluntary case this is also the order-for-relief date."},{"@type":"HowToStep","name":"Choose the chapter","text":"Select Chapter 7 or Chapter 13. The applicable deadline set differs by chapter."},{"@type":"HowToStep","name":"Enter the 341 meeting date","text":"Enter the date of the meeting of creditors from your 341 notice. Meeting-based deadlines such as the objection-to-discharge bar date are computed from the first date set."},{"@type":"HowToStep","name":"Review the computed deadlines","text":"The calculator applies each rule's day count and rolls any deadline that lands on a weekend or federal holiday to the next business day under Rule 9006(a)."}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How are bankruptcy deadlines counted?","acceptedAnswer":{"@type":"Answer","text":"Federal Rule of Bankruptcy Procedure 9006(a) governs the count. You exclude the triggering day, count every calendar day including intervening weekends and holidays, and include the last day. If the last day is a Saturday, Sunday, or legal holiday, the period runs to the next day that is none of those."}},{"@type":"Question","name":"What is the deadline to object to discharge or dischargeability?","acceptedAnswer":{"@type":"Answer","text":"Under Rules 4004(a) and 4007(c), a complaint objecting to discharge under Section 727 or to the dischargeability of a debt under Section 523(c) must generally be filed within 60 days after the first date set for the meeting of creditors."}},{"@type":"Question","name":"When is the proof of claim deadline?","acceptedAnswer":{"@type":"Answer","text":"Under Rule 3002(c), most non-governmental creditors must file a proof of claim within 70 days after the petition date. Governmental units have 180 days after the order for relief."}},{"@type":"Question","name":"Is this calculator legal advice?","acceptedAnswer":{"@type":"Answer","text":"No. It computes the standard federal default deadlines. Courts can shorten or extend deadlines for cause, the 341 meeting can be continued, and some districts have local-rule variations. Always confirm against your own court notices and the local rules of your district."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://openbankruptcyproject.org/"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://openbankruptcyproject.org/"},{"@type":"ListItem","position":3,"name":"Deadline Calculator","item":"https://openbankruptcyproject.org/deadline-calculator/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NonprofitOrganization","name":"Open Bankruptcy Project","alternateName":"OBP","url":"https://openbankruptcyproject.org","email":"info@openbankruptcyproject.org","taxID":"41-5159631","nonprofitStatus":"Nonprofit501c3","description":"The Open Bankruptcy Project is a 501(c)(3) nonprofit providing free tools, research, and consumer guides to help people navigate the federal bankruptcy system."}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main h3{font-size:1.05rem;font-weight:700;margin:22px 0 8px;color:var(--text)}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul,main ol{margin:10px 0 18px 22px;color:var(--text-secondary)}
+main li{margin-bottom:6px}
+main strong{color:var(--text)}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.callout.warn{border-left-color:var(--amber)}
+.callout strong{color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 24px;margin:18px 0}
+.card h3{margin-top:0}
+/* form */
+.calc-form{display:grid;grid-template-columns:1fr 1fr;gap:16px 20px}
+.calc-form .full{grid-column:1/-1}
+.field label{display:block;font-size:.82rem;font-weight:600;color:var(--text);margin-bottom:6px}
+.field .hint{font-size:.76rem;color:var(--text-muted);margin-top:4px}
+input[type=date],select{width:100%;background:var(--bg);border:1px solid var(--border-light);border-radius:7px;color:var(--text);padding:9px 11px;font-size:.95rem;font-family:inherit}
+input[type=date]:focus,select:focus{outline:none;border-color:var(--accent)}
+.chk{display:flex;align-items:center;gap:9px}
+.chk input{width:16px;height:16px;accent-color:var(--accent)}
+.chk label{margin:0;font-weight:500;color:var(--text-secondary)}
+.btn-row{display:flex;gap:12px;margin-top:6px;flex-wrap:wrap}
+button.calc-btn{background:var(--accent);color:#08101c;border:none;border-radius:7px;padding:11px 22px;font-size:.95rem;font-weight:700;cursor:pointer;font-family:inherit}
+button.calc-btn:hover{background:var(--accent-hover)}
+button.ghost{background:transparent;color:var(--text-secondary);border:1px solid var(--border-light);border-radius:7px;padding:11px 18px;font-size:.9rem;font-weight:600;cursor:pointer;font-family:inherit}
+button.ghost:hover{border-color:var(--accent);color:var(--text)}
+.err{color:#f85149;font-size:.85rem;margin-top:10px}
+/* results */
+#results{margin-top:8px}
+.res-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin:8px 0 4px}
+.res-head h3{margin:0}
+table.dl{width:100%;border-collapse:collapse;margin:10px 0 6px;font-size:.92rem}
+table.dl th{text-align:left;color:var(--text-muted);font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600;padding:8px 10px;border-bottom:1px solid var(--border)}
+table.dl td{padding:10px;border-bottom:1px solid var(--border);color:var(--text-secondary);vertical-align:top}
+table.dl td.date{white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--text);font-weight:600}
+table.dl td.auth{white-space:nowrap;color:var(--text-muted);font-size:.82rem}
+.tag{display:inline-block;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:1px 7px;border-radius:10px;margin-left:6px;vertical-align:middle}
+.tag.prelim{background:rgba(210,153,34,.16);color:var(--amber)}
+.rownote{display:block;font-size:.8rem;color:var(--text-muted);margin-top:3px}
+.faq details{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;color:var(--text-muted);font-weight:300;font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'\2212'}
+.faq details[open] summary{margin-bottom:10px;color:var(--accent)}
+.faq details p{margin:10px 0 0;color:var(--text-secondary)}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}.calc-form{grid-template-columns:1fr}}
+@media print{nav.topnav,.calc-card,.hero p.lede,.faq,.site-footer,.intro-copy,.most-read{display:none!important}body{background:#fff;color:#000}table.dl td,table.dl th{color:#000}.container{max-width:100%}}
+</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Free Tool</div>
+<h1>Bankruptcy Deadline Calculator</h1>
+<p class="lede">Enter your petition date, chapter, and 341 meeting date to compute the standard federal bankruptcy deadlines. The calculator applies each rule's day count and rolls any deadline that lands on a weekend or federal holiday to the next business day under Rule 9006(a). Everything runs in your browser. No data leaves your device.</p>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Deadline Calculator</div>
+
+<div class="card calc-card">
+<h3>Your case</h3>
+<form class="calc-form" id="dlform" autocomplete="off">
+  <div class="field">
+    <label for="petition">Petition / filing date *</label>
+    <input type="date" id="petition" required/>
+    <div class="hint">In a voluntary case this is also the order-for-relief date.</div>
+  </div>
+  <div class="field">
+    <label for="chapter">Chapter *</label>
+    <select id="chapter">
+      <option value="7">Chapter 7</option>
+      <option value="13">Chapter 13</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="m341">341 meeting date</label>
+    <input type="date" id="m341"/>
+    <div class="hint">From your meeting-of-creditors notice. Needed for meeting-based deadlines.</div>
+  </div>
+  <div class="field">
+    <label for="m341end">341 conclusion date</label>
+    <input type="date" id="m341end"/>
+    <div class="hint">Optional. Used for the exemption-objection deadline (Rule 4003(b)).</div>
+  </div>
+  <div class="field full chk" id="amrow">
+    <input type="checkbox" id="abovemed"/>
+    <label for="abovemed">Above-median income (Chapter 7) &mdash; show UST abuse-statement &amp; &sect; 707(b) deadlines</label>
+  </div>
+  <div class="field full">
+    <label for="cccert">Credit-counseling certificate date</label>
+    <input type="date" id="cccert"/>
+    <div class="hint">Optional. Checks the &sect; 109(h) 180-day pre-filing window.</div>
+  </div>
+  <div class="field full btn-row">
+    <button type="submit" class="calc-btn">Calculate deadlines</button>
+    <button type="button" class="ghost" id="printbtn">Print / save</button>
+  </div>
+</form>
+<div class="err" id="err" hidden></div>
+</div>
+
+<div id="results"></div>
+
+<div class="intro-copy">
+<h2>How the count works</h2>
+<p>Federal Rule of Bankruptcy Procedure 9006(a) governs how every period is counted. You exclude the day of the triggering event, count each calendar day after it (including intervening weekends and holidays), and include the last day. If that last day is a Saturday, Sunday, or legal holiday, the deadline runs to the next day that is none of those. Periods measured <em>before</em> an event, such as the deadline to give the trustee a tax return, count backward and roll to the prior business day.</p>
+<h2>What this tool covers</h2>
+<p>The calculator returns the standard deadlines that flow from two dates: the petition date and the first date set for the 341 meeting of creditors. These include the proof-of-claim bar dates, the objection-to-discharge and dischargeability deadlines, the exemption-objection deadline, the statement of intention, Chapter 13 plan and first-payment deadlines, and the Chapter 13 confirmation-hearing window. Each result lists the rule or statute it comes from so you can verify it.</p>
+<div class="callout warn"><strong>These are default deadlines, not advice.</strong> Courts can shorten or extend deadlines for cause, the 341 meeting can be continued, and a number of districts modify these periods by local rule. This tool assumes a voluntary case. Always confirm each date against your own court notices and your district's local rules.</div>
+<h2>Related resources</h2>
+<p>See the <a href="/means-test/">Chapter 7 means test</a> guide, the <a href="/chapter-7-vs-13/">Chapter 7 vs Chapter 13</a> comparison, and the <a href="/fee-guide/">fee guide</a>.</p>
+</div>
+
+<section class="faq"><h2>Frequently asked questions</h2>
+<details><summary>How are bankruptcy deadlines counted?</summary><p>Rule 9006(a) governs. Exclude the triggering day, count every calendar day including intervening weekends and holidays, and include the last day. If the last day is a Saturday, Sunday, or legal holiday, the period runs to the next day that is none of those.</p></details>
+<details><summary>What is the deadline to object to discharge or dischargeability?</summary><p>Under Rules 4004(a) and 4007(c), a complaint objecting to discharge under &sect; 727 or to the dischargeability of a debt under &sect; 523(c) must generally be filed within 60 days after the first date set for the meeting of creditors.</p></details>
+<details><summary>When is the proof of claim deadline?</summary><p>Under Rule 3002(c), most non-governmental creditors must file within 70 days after the petition date. Governmental units have 180 days after the order for relief.</p></details>
+<details><summary>Is this calculator legal advice?</summary><p>No. It computes the standard federal default deadlines. Courts can shorten or extend deadlines for cause, the 341 meeting can be continued, and some districts vary by local rule. Always confirm against your own court notices and local rules.</p></details>
+</section>
+
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Informational tool published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. Computes standard federal default deadlines only; confirm against your court notices and local rules. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Method: Federal Rules of Bankruptcy Procedure (Rules 1007, 1017, 2003, 3002, 3015, 4003, 4004, 4007) and 11 U.S.C. &sect;&sect; 521, 704, 707, 1324, 1326, with day counting under Rule 9006(a) and federal holidays per 5 U.S.C. &sect; 6103. Derived content published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>.</p>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+
+<script>
+/* ===== OBP deadline engine (inlined; mirrors tools/deadline-calculator/deadline_engine.js) ===== */
+(function(){
+'use strict';
+function parseISO(s){var p=String(s).split('-');return new Date(Date.UTC(+p[0],+p[1]-1,+p[2]));}
+function fmtISO(d){var y=d.getUTCFullYear(),m=d.getUTCMonth()+1,day=d.getUTCDate();return y+'-'+(m<10?'0'+m:m)+'-'+(day<10?'0'+day:day);}
+function addDays(d,n){return new Date(d.getTime()+n*86400000);}
+function nthWeekdayOfMonth(year,month,weekday,n){var first=new Date(Date.UTC(year,month,1)).getUTCDay();var day=1+((weekday-first+7)%7)+(n-1)*7;return new Date(Date.UTC(year,month,day));}
+function lastWeekdayOfMonth(year,month,weekday){var lastDay=new Date(Date.UTC(year,month+1,0));var last=lastDay.getUTCDay();var day=lastDay.getUTCDate()-((last-weekday+7)%7);return new Date(Date.UTC(year,month,day));}
+var _hc={};
+function holidaysForYear(year){if(_hc[year])return _hc[year];var set={};function add(d){set[fmtISO(d)]=true;}function addObserved(d){add(d);var wd=d.getUTCDay();if(wd===6)add(addDays(d,-1));else if(wd===0)add(addDays(d,1));}
+addObserved(new Date(Date.UTC(year,0,1)));addObserved(new Date(Date.UTC(year,5,19)));addObserved(new Date(Date.UTC(year,6,4)));addObserved(new Date(Date.UTC(year,10,11)));addObserved(new Date(Date.UTC(year,11,25)));
+add(nthWeekdayOfMonth(year,0,1,3));add(nthWeekdayOfMonth(year,1,1,3));add(lastWeekdayOfMonth(year,4,1));add(nthWeekdayOfMonth(year,8,1,1));add(nthWeekdayOfMonth(year,9,1,2));add(nthWeekdayOfMonth(year,10,4,4));
+_hc[year]=set;return set;}
+function isHoliday(d){var iso=fmtISO(d),y=d.getUTCFullYear();return !!(holidaysForYear(y)[iso]||holidaysForYear(y+1)[iso]||holidaysForYear(y-1)[iso]);}
+function isBusinessDay(d){var wd=d.getUTCDay();return wd!==0&&wd!==6&&!isHoliday(d);}
+function rule9006Roll(d,direction){var step=direction==='backward'?-1:1;var cur=d;while(!isBusinessDay(cur))cur=addDays(cur,step);return cur;}
+function deadlineFrom(start,n,direction){return rule9006Roll(addDays(start,n),direction||'forward');}
+function computeDeadlines(input){var out=[];var petition=input.petition?parseISO(input.petition):null;var chapter=String(input.chapter);var m341=input.firstMeeting?parseISO(input.firstMeeting):null;var m341end=input.meetingConclusion?parseISO(input.meetingConclusion):m341;var aboveMedian=!!input.aboveMedian;
+function push(label,authority,date,opts){opts=opts||{};out.push({label:label,authority:authority,date:date?fmtISO(date):null,window:opts.window||null,note:opts.note||null,preliminary:!!opts.preliminary});}
+if(!petition)return out;
+push('Schedules & SOFA (if not filed with petition)','Rule 1007(c)',deadlineFrom(petition,14));
+if(chapter==='13'){push('Chapter 13 plan filing','Rule 3015(b)',deadlineFrom(petition,14));push('First Chapter 13 plan payment','11 U.S.C. § 1326(a)(1)(A)',deadlineFrom(petition,30),{note:'Or within 30 days of plan filing, whichever is earlier.'});}
+if(chapter==='7'){push('Statement of intention (filing)','11 U.S.C. § 521(a)(2)(A)',deadlineFrom(petition,30),{note:'Petition + 30 days, or before the 341 meeting, whichever is earlier.'});}
+push('Proof of claim — non-governmental creditors','Rule 3002(c)',deadlineFrom(petition,70));
+push('Proof of claim — governmental unit','Rule 3002(c)(1)',deadlineFrom(petition,180),{note:'Order for relief + 180 days (= petition date in a voluntary case).'});
+if(m341){
+push('Tax return to trustee (pre-341)','11 U.S.C. § 521(e)(2)(A)(i)',deadlineFrom(m341,-7,'backward'),{note:'At least 7 days before the first date set for the 341 meeting.'});
+if(chapter==='7'&&aboveMedian){push('UST statement on presumption of abuse','11 U.S.C. § 704(b)(1)(A)',deadlineFrom(m341,10));}
+push('Objection to claimed exemptions','Rule 4003(b)(1)',deadlineFrom(m341end,30),{note:input.meetingConclusion?'Runs from the conclusion of the meeting.':'Runs from the CONCLUSION of the 341; using the first-set date as a proxy. Confirm the actual conclusion date.'});
+if(chapter==='7'){push('Objection to discharge (§ 727)','Rule 4004(a)',deadlineFrom(m341,60));}
+push('Complaint to determine dischargeability (§ 523(c))','Rule 4007(c)',deadlineFrom(m341,60));
+if(chapter==='7'){push('Motion to dismiss for abuse (§ 707(b)/(c))','Rule 1017(e)(1)',deadlineFrom(m341,60));push('Financial management course (Form 423)','Rule 1007(c)',deadlineFrom(m341,60));push('Estimated discharge (if no objections)','Rule 4004(c)',deadlineFrom(m341,60),{note:'Estimate. Discharge typically enters after the §727/§523 bar date passes.'});}
+if(chapter==='13'){push('Confirmation hearing window','11 U.S.C. § 1324(b)',null,{window:[fmtISO(deadlineFrom(m341,20)),fmtISO(deadlineFrom(m341,45))],note:'Not earlier than 20 nor later than 45 days after the 341 meeting (absent cause).'});}
+}else{var lo=21,hi=chapter==='13'?50:40;push('341 meeting of creditors (window)','Rule 2003(a)',null,{window:[fmtISO(deadlineFrom(petition,lo)),fmtISO(deadlineFrom(petition,hi))],preliminary:true,note:'Estimated window. Enter the actual 341 date from your notice to compute the meeting-based deadlines.'});}
+if(input.counselingCertDate){var cert=parseISO(input.counselingCertDate);var earliest=addDays(petition,-180);var status;if(cert.getTime()>petition.getTime())status='INVALID — certificate is dated after the petition.';else if(cert.getTime()<earliest.getTime())status='STALE — older than 180 days before filing.';else status='OK — within the 180-day pre-filing window.';push('Credit-counseling certificate currency','11 U.S.C. § 109(h)(1)',cert,{note:status});}
+return out;}
+
+/* ===== UI wiring ===== */
+function esc(s){return String(s).replace(/[&<>]/g,function(c){return c==='&'?'&amp;':c==='<'?'&lt;':'&gt;';});}
+function longDate(iso){if(!iso)return '';var d=parseISO(iso);var mo=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return mo[d.getUTCMonth()]+' '+d.getUTCDate()+', '+d.getUTCFullYear();}
+function render(rows,meta){
+  var h='<div class="card"><div class="res-head"><h3>Computed deadlines</h3><span style="color:var(--text-muted);font-size:.82rem">Chapter '+esc(meta.chapter)+' &middot; petition '+esc(longDate(meta.petition))+(meta.m341?' &middot; 341 '+esc(longDate(meta.m341)):'')+'</span></div>';
+  h+='<table class="dl"><thead><tr><th>Date</th><th>Deadline</th><th>Authority</th></tr></thead><tbody>';
+  rows.forEach(function(r){
+    var dcell=r.window?(longDate(r.window[0])+' – '+longDate(r.window[1])):longDate(r.date);
+    h+='<tr><td class="date">'+esc(dcell)+(r.preliminary?'<span class="tag prelim">prelim</span>':'')+'</td><td>'+esc(r.label)+(r.note?'<span class="rownote">'+esc(r.note)+'</span>':'')+'</td><td class="auth">'+esc(r.authority)+'</td></tr>';
+  });
+  h+='</tbody></table><p style="font-size:.8rem;color:var(--text-muted);margin:6px 0 0">Dates that fell on a weekend or federal holiday have been rolled under Rule 9006(a). Verify against your court notices.</p></div>';
+  document.getElementById('results').innerHTML=h;
+}
+var form=document.getElementById('dlform');
+var errEl=document.getElementById('err');
+form.addEventListener('submit',function(e){
+  e.preventDefault();
+  errEl.hidden=true;
+  var petition=document.getElementById('petition').value;
+  var chapter=document.getElementById('chapter').value;
+  if(!petition){errEl.textContent='Please enter a petition date.';errEl.hidden=false;return;}
+  var input={petition:petition,chapter:chapter,
+    firstMeeting:document.getElementById('m341').value||null,
+    meetingConclusion:document.getElementById('m341end').value||null,
+    aboveMedian:document.getElementById('abovemed').checked,
+    counselingCertDate:document.getElementById('cccert').value||null};
+  var rows=computeDeadlines(input);
+  render(rows,{chapter:chapter,petition:petition,m341:input.firstMeeting});
+  if(typeof gtag==='function'){
+    gtag('event','generate_lead',{event_category:'tool',event_label:'deadline_calculator',chapter:chapter});
+    gtag('event','deadline_calculate',{chapter:chapter,has_341:!!input.firstMeeting});
+  }
+  document.getElementById('results').scrollIntoView({behavior:'smooth',block:'start'});
+});
+document.getElementById('printbtn').addEventListener('click',function(){window.print();});
+})();
+</script>
+<script defer="" src="/btn-engage.js"></script>
+</body></html>
