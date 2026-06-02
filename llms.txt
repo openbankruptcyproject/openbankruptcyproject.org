@@ -81,6 +81,8 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization that builds fr
 - https://openbankruptcyproject.org/ -- Homepage
 - https://openbankruptcyproject.org/about.html -- About: mission, history, methodology, governance
 - https://openbankruptcyproject.org/research.html -- Research: methodology, 26-BK-3, key findings, collaboration
+- https://openbankruptcyproject.org/statistics.html -- National Bankruptcy Statistics: discharge/dismissal rates, district geography, Chapter 13 outcomes (FJC 2008-2024)
+- https://openbankruptcyproject.org/case-outcomes.html -- "What Happens to Cases Like Mine?" interactive tool: discharge, dismissal, and time-to-discharge rates by district, chapter, attorney-vs-pro-se, and debt level, from 37.9M FJC cases. Key findings: Chapter 7 ~95% discharge vs Chapter 13 ~41%; with an attorney ~42% vs ~2% pro se in Chapter 13; median time to discharge ~3-4 months (Ch7) / ~5 years (Ch13). (Spanish: /case-outcomes-es.html)
 - https://openbankruptcyproject.org/contact.html -- Contact: general, press, research collaboration
 
 ## Contact

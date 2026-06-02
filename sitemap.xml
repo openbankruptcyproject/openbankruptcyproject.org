@@ -3961,4 +3961,22 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/discharge-timing-calculator-es.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/discharge-timing-calculator.html"/>
   </url>
+  <url>
+    <loc>https://openbankruptcyproject.org/case-outcomes.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/case-outcomes.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/case-outcomes-es.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/case-outcomes.html"/>
+  </url>
+  <url>
+    <loc>https://openbankruptcyproject.org/case-outcomes-es.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/case-outcomes.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/case-outcomes-es.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/case-outcomes.html"/>
+  </url>
 </urlset>
