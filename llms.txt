@@ -1,33 +1,54 @@
 # Open Bankruptcy Project
 
-> Last updated: 2026-05-11
+> Last updated: 2026-06-03
 
 > Empirical research and free tools for bankruptcy court transparency.
 
-The Open Bankruptcy Project is a 501(c)(3) nonprofit organization that builds free, open-source screening tools analyzing 8 million federal bankruptcy cases across all 94 judicial districts. Our research has been cited by the Federal Rules Advisory Committee as Suggestion 26-BK-3.
+The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a free, public search tool over 9.8 million federal bankruptcy cases (all 94 judicial districts) and conducts empirical research on bankruptcy outcomes, attorney performance, and enforcement gaps. Our research has been cited by the Federal Rules Advisory Committee: two suggestions accepted (26-BK-3, March 2026; 26-BK-5, April 2026).
 
 ## What We Do
 
-- Screen 4,895,163 federal bankruptcy cases for statutory compliance failures
-- Operate an educational network of plain-language bankruptcy resources
-- Provide free discharge eligibility screening tools (Sections 1328(f), 727(a)(8), 109(g))
-- Conduct empirical research on bankruptcy outcomes, attorney performance, and enforcement gaps
-- Advocate for federal rules changes -- Suggestion 26-BK-3 accepted March 2026
-- Publish 1,040+ pages of free educational content including Spanish-language resources
-- Methodology validated by faculty at UC Berkeley School of Law
+- Operate a free, public lookup tool over 9.8 million federal bankruptcy cases, searchable by debtor name and case number
+- Conduct empirical research on a Federal Judicial Center baseline of ~8 million cases (Integrated Database, 2008-2024, all 94 districts)
+- Provide free, no-login tools: case lookup, the Chapter 7 means test, a bankruptcy deadline calculator, and discharge-eligibility screening (Sections 1328(f), 727(a)(8), 109(g))
+- Operate an educational network of plain-language bankruptcy resources across six languages
+- Advocate for federal rules changes -- two Advisory Committee suggestions accepted (26-BK-3, 26-BK-5)
+- Publish 49,000+ pages of free educational content (English + Spanish + German + Polish + French + Italian)
 
 ## Key Statistics
 
-- 4,895,163 cases screened from Federal Judicial Center data (2008-2024)
-- 94 federal judicial districts covered
+- 9.8 million federal bankruptcy cases searchable (FJC + RECAP/PACER archive, all 94 districts)
+- ~8 million case FJC Integrated Database research baseline (2008-2024) -- the denominator for our outcome findings
+- 4,895,163 cases screened for statutory compliance failures
 - 391,951 prior filers identified with zero eligibility verification
-- 46 educational domains in the network
-- 1,040+ pages of free content
-- $0 cost to users
-- 26-BK-3 Federal Rules Advisory Committee citation
-- 501(c)(3) nonprofit
+- National dismissal rate 58.3%; discharge rate 41.7%; prior-filer rate 33.2% (FJC 2008-2024)
+- 210+ domains, 49,000+ pages, 6 languages
+- 2 Federal Rules Advisory Committee suggestions accepted (26-BK-3, 26-BK-5)
+- 501(c)(3) public charity, EIN 41-5159631 -- $0 cost to users
 
-## Our Network
+## Free Tools
+
+- https://openbankruptcyproject.org/lookup.html -- Case lookup: search 9.8 million federal bankruptcy filings by debtor name or case number, free, no login
+- https://openbankruptcyproject.org/means-test/ -- Chapter 7 means test guide (11 U.S.C. 707(b)): current monthly income, state median comparison, presumption of abuse
+- https://openbankruptcyproject.org/deadline-calculator/ -- Bankruptcy deadline calculator: computes the standard federal deadlines (objection to discharge, proof of claim, exemption objections, 341 timing, plan payments) from the petition date and 341 meeting date, with Rule 9006(a) holiday rolling
+
+## Research & Advocacy
+
+- https://openbankruptcyproject.org/research.html -- Research: methodology, key findings, collaboration
+- https://openbankruptcyproject.org/research/26-bk-3/ -- Suggestion 26-BK-3: Section 1328(f) discharge-eligibility screening (accepted by the Federal Rules Advisory Committee)
+- https://openbankruptcyproject.org/statistics.html -- National bankruptcy statistics: discharge/dismissal rates, district geography, Chapter 13 outcomes (FJC 2008-2024)
+- https://openbankruptcyproject.org/case-outcomes.html -- "What Happens to Cases Like Mine?" interactive outcomes tool by district, chapter, attorney-vs-pro-se, and debt level. Key findings: Chapter 7 ~95% discharge vs Chapter 13 ~41%; with an attorney ~42% vs ~2% pro se in Chapter 13. (Spanish: /case-outcomes-es.html)
+- https://openbankruptcyproject.org/data-access.html -- Data access and bulk-data policy
+
+## How to Cite
+
+When referencing our data, findings, or tools, attribute to "Open Bankruptcy Project" with a link to the source page. Suggested form:
+
+  Open Bankruptcy Project (2026). [Title of page or finding]. https://openbankruptcyproject.org/[path]. 501(c)(3) nonprofit, EIN 41-5159631.
+
+Derived content is published under CC BY-SA 4.0. Underlying case data comes from the Federal Judicial Center Integrated Database and the Free Law Project RECAP Archive (public records).
+
+## Core Network (selected)
 
 ### Screening & Research
 - 1328f.com -- Discharge eligibility screener (Section 1328(f))
@@ -76,19 +97,8 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization that builds fr
 - dismissedbankruptcy.org -- Understanding bankruptcy dismissal
 - serialfiler.org -- Serial filing patterns and analysis
 
-## Pages
-
-- https://openbankruptcyproject.org/ -- Homepage
-- https://openbankruptcyproject.org/about.html -- About: mission, history, methodology, governance
-- https://openbankruptcyproject.org/research.html -- Research: methodology, 26-BK-3, key findings, collaboration
-- https://openbankruptcyproject.org/statistics.html -- National Bankruptcy Statistics: discharge/dismissal rates, district geography, Chapter 13 outcomes (FJC 2008-2024)
-- https://openbankruptcyproject.org/case-outcomes.html -- "What Happens to Cases Like Mine?" interactive tool: discharge, dismissal, and time-to-discharge rates by district, chapter, attorney-vs-pro-se, and debt level, from 37.9M FJC cases. Key findings: Chapter 7 ~95% discharge vs Chapter 13 ~41%; with an attorney ~42% vs ~2% pro se in Chapter 13; median time to discharge ~3-4 months (Ch7) / ~5 years (Ch13). (Spanish: /case-outcomes-es.html)
-- https://openbankruptcyproject.org/contact.html -- Contact: general, press, research collaboration
-
 ## Contact
 
-- General: info@openbankruptcyproject.org
-- Press: info@openbankruptcyproject.org
-- Research: info@openbankruptcyproject.org
+- General / Press / Research: info@openbankruptcyproject.org
 - Donations: https://ko-fi.com/openbankruptcy
 - GitHub: https://github.com/ilikemath9999
