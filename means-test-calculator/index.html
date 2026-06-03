@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Chapter 7 Means Test Calculator [2026]: Are You Below Your State's Median Income?</title>
+<meta name="description" content="Free Chapter 7 means test calculator. Enter your state, household size, and last-6-months income to see whether your annualized current monthly income is at or below your state's median family income under the official April 2026 U.S. Trustee figures, and what that means for Chapter 7 eligibility and the presumption of abuse under 11 U.S.C. 707(b)(2)."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/means-test-calculator/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Chapter 7 Means Test Calculator [2026] | Open Bankruptcy Project"/>
+<meta property="og:description" content="Check whether your annualized income is at or below your state's median for the bankruptcy means test. Official April 2026 UST median-income figures. Free, private, runs entirely in your browser."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/means-test-calculator/"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","name":"How to check the Chapter 7 bankruptcy means test median-income step","description":"Compare your annualized current monthly income to your state's median family income for your household size, using the official U.S. Trustee Program figures, to see whether the presumption of abuse arises under 11 U.S.C. 707(b)(2).","totalTime":"PT2M","isAccessibleForFree":true,"step":[{"@type":"HowToStep","name":"Select your state","text":"Choose the state or U.S. territory where the bankruptcy case is filed."},{"@type":"HowToStep","name":"Enter your household size","text":"Enter the number of people in your household as counted for the means test."},{"@type":"HowToStep","name":"Enter your last six months of income","text":"Enter your total gross income for the six full calendar months before filing. The tool averages it to a current monthly income and annualizes it."},{"@type":"HowToStep","name":"Read the result","text":"The calculator compares your annualized income to the state median. At or below the median means no presumption of abuse on the means test; above the median means the full Form 122A-2 deduction test applies."}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the bankruptcy means test?","acceptedAnswer":{"@type":"Answer","text":"The means test under 11 U.S.C. 707(b) determines whether a Chapter 7 filing is presumed abusive. The first step compares your annualized current monthly income to the median family income for your state and household size. If you are at or below the median, the presumption of abuse does not arise and you have passed the means test. If you are above the median, you complete the second part (Form 122A-2), which subtracts allowed expenses to determine disposable income."}},{"@type":"Question","name":"What is current monthly income?","acceptedAnswer":{"@type":"Answer","text":"Current monthly income (CMI) is your average monthly gross income from almost all sources during the six full calendar months before the bankruptcy is filed. It is multiplied by 12 to annualize it for the median-income comparison. Social Security benefits are generally excluded."}},{"@type":"Question","name":"Which median-income figures does this use?","acceptedAnswer":{"@type":"Answer","text":"It uses the U.S. Trustee Program's Census Bureau Median Family Income By Family Size table for cases filed on or after April 1, 2026. The U.S. Trustee updates these figures twice a year, effective April 1 and November 1, so confirm the set that matches your filing date."}},{"@type":"Question","name":"Is this calculator legal advice?","acceptedAnswer":{"@type":"Answer","text":"No. It computes only the median-income step of the means test using the official UST figures. Household-size counting, income inclusions and exclusions, and the second-part deduction test involve judgment. Confirm your situation with the official forms and a licensed attorney."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://openbankruptcyproject.org/"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://openbankruptcyproject.org/"},{"@type":"ListItem","position":3,"name":"Means Test Calculator","item":"https://openbankruptcyproject.org/means-test-calculator/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NonprofitOrganization","name":"Open Bankruptcy Project","alternateName":"OBP","url":"https://openbankruptcyproject.org","email":"info@openbankruptcyproject.org","taxID":"41-5159631","nonprofitStatus":"Nonprofit501c3","description":"The Open Bankruptcy Project is a 501(c)(3) nonprofit providing free tools, research, and consumer guides to help people navigate the federal bankruptcy system."}</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922;--red:#f85149}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main h3{font-size:1.05rem;font-weight:700;margin:22px 0 8px;color:var(--text)}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul,main ol{margin:10px 0 18px 22px;color:var(--text-secondary)}
+main li{margin-bottom:6px}
+main strong{color:var(--text)}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.callout.warn{border-left-color:var(--amber)}
+.callout strong{color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 24px;margin:18px 0}
+.card h3{margin-top:0}
+.calc-form{display:grid;grid-template-columns:1fr 1fr;gap:16px 20px}
+.calc-form .full{grid-column:1/-1}
+.field label{display:block;font-size:.82rem;font-weight:600;color:var(--text);margin-bottom:6px}
+.field .hint{font-size:.76rem;color:var(--text-muted);margin-top:4px}
+input[type=number],input[type=text],select{width:100%;background:var(--bg);border:1px solid var(--border-light);border-radius:7px;color:var(--text);padding:9px 11px;font-size:.95rem;font-family:inherit}
+input:focus,select:focus{outline:none;border-color:var(--accent)}
+.seg{display:flex;gap:8px;flex-wrap:wrap}
+.seg label{display:flex;align-items:center;gap:7px;font-weight:500;color:var(--text-secondary);font-size:.9rem}
+.seg input{width:15px;height:15px;accent-color:var(--accent)}
+.months{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.months .field label{font-size:.76rem}
+.btn-row{display:flex;gap:12px;margin-top:6px;flex-wrap:wrap}
+button.calc-btn{background:var(--accent);color:#08101c;border:none;border-radius:7px;padding:11px 22px;font-size:.95rem;font-weight:700;cursor:pointer;font-family:inherit}
+button.calc-btn:hover{background:var(--accent-hover)}
+button.ghost{background:transparent;color:var(--text-secondary);border:1px solid var(--border-light);border-radius:7px;padding:11px 18px;font-size:.9rem;font-weight:600;cursor:pointer;font-family:inherit}
+button.ghost:hover{border-color:var(--accent);color:var(--text)}
+.err{color:var(--red);font-size:.85rem;margin-top:10px}
+#results{margin-top:8px}
+.verdict{border-radius:10px;padding:20px 24px;margin:8px 0 16px;border:1px solid var(--border)}
+.verdict.pass{background:rgba(63,185,80,.08);border-color:rgba(63,185,80,.4)}
+.verdict.above{background:rgba(210,153,34,.08);border-color:rgba(210,153,34,.4)}
+.verdict h3{margin:0 0 6px;font-size:1.2rem}
+.verdict.pass h3{color:var(--green)}
+.verdict.above h3{color:var(--amber)}
+.figs{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0 4px}
+.fig{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px 14px}
+.fig .k{font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);font-weight:600}
+.fig .v{font-size:1.3rem;font-weight:800;color:var(--text);font-variant-numeric:tabular-nums;margin-top:3px}
+.delta{font-size:.9rem;color:var(--text-secondary);margin-top:6px}
+.faq details{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;color:var(--text-muted);font-weight:300;font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'\2212'}
+.faq details[open] summary{margin-bottom:10px;color:var(--accent)}
+.faq details p{margin:10px 0 0;color:var(--text-secondary)}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}.calc-form{grid-template-columns:1fr}.figs{grid-template-columns:1fr}.months{grid-template-columns:repeat(2,1fr)}}
+@media print{nav.topnav,.hero p.lede,.faq,.site-footer,.intro-copy{display:none!important}body{background:#fff;color:#000}.container{max-width:100%}}
+</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Free Tool</div>
+<h1>Chapter 7 Means Test Calculator</h1>
+<p class="lede">Check the first and most important step of the bankruptcy means test: whether your annualized income is at or below your state's median family income. Uses the official U.S. Trustee Program figures for cases filed on or after April 1, 2026. Everything runs in your browser. No data leaves your device.</p>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>Means Test Calculator</div>
+
+<div class="card">
+<h3>Your household</h3>
+<form class="calc-form" id="mtform" autocomplete="off">
+  <div class="field">
+    <label for="state">State / territory where you file *</label>
+    <select id="state"><option value="">Select…</option></select>
+  </div>
+  <div class="field">
+    <label for="hh">Household size *</label>
+    <input type="number" id="hh" min="1" max="15" step="1" value="1"/>
+    <div class="hint">People in your household as counted for the means test.</div>
+  </div>
+  <div class="field full">
+    <label>How do you want to enter income?</label>
+    <div class="seg">
+      <label><input type="radio" name="mode" value="total" checked/> One 6-month total</label>
+      <label><input type="radio" name="mode" value="monthly"/> Six monthly amounts</label>
+    </div>
+  </div>
+  <div class="field full" id="totalrow">
+    <label for="sixtotal">Total gross income, last 6 full months *</label>
+    <input type="number" id="sixtotal" min="0" step="100" placeholder="e.g. 24000"/>
+    <div class="hint">Gross income from nearly all sources for the six full calendar months before filing. Social Security is generally excluded.</div>
+  </div>
+  <div class="field full" id="monthlyrow" hidden>
+    <label>Gross income for each of the last 6 full months</label>
+    <div class="months">
+      <div class="field"><label for="m1">Month 1</label><input type="number" id="m1" min="0" step="50"/></div>
+      <div class="field"><label for="m2">Month 2</label><input type="number" id="m2" min="0" step="50"/></div>
+      <div class="field"><label for="m3">Month 3</label><input type="number" id="m3" min="0" step="50"/></div>
+      <div class="field"><label for="m4">Month 4</label><input type="number" id="m4" min="0" step="50"/></div>
+      <div class="field"><label for="m5">Month 5</label><input type="number" id="m5" min="0" step="50"/></div>
+      <div class="field"><label for="m6">Month 6</label><input type="number" id="m6" min="0" step="50"/></div>
+    </div>
+  </div>
+  <div class="field full btn-row">
+    <button type="submit" class="calc-btn">Check the means test</button>
+    <button type="button" class="ghost" id="printbtn">Print / save</button>
+  </div>
+</form>
+<div class="err" id="err" hidden></div>
+</div>
+
+<div id="results"></div>
+
+<div class="intro-copy">
+<h2>What this checks</h2>
+<p>The means test under <strong>11 U.S.C. &sect; 707(b)</strong> decides whether a Chapter 7 case is presumed to be an abuse of the system. The first step &mdash; the part this tool computes &mdash; compares your <strong>annualized current monthly income</strong> to the <strong>median family income</strong> for your state and household size. If you are at or below the median, no presumption of abuse arises and you have passed the means test (Form 122A-1 ends there). If you are above the median, you move on to the second part (Form 122A-2), which subtracts allowed living expenses to determine disposable income.</p>
+<h2>How current monthly income works</h2>
+<p>Current monthly income (CMI) is the average of your gross income over the <strong>six full calendar months before filing</strong>, multiplied by 12. It includes wages, business and rental income, interest, dividends, and regular contributions to household expenses; it generally <strong>excludes Social Security benefits</strong>. Household-size counting and a few income inclusions involve judgment, so treat the result as a strong indicator, not a final determination.</p>
+<div class="callout warn"><strong>Median-income step only.</strong> This tool computes the income-vs-median screen. Being above the median does not mean you cannot file Chapter 7 &mdash; it means the second-part deduction test applies, and many above-median filers still qualify. The figures are the official UST set effective for cases filed on or after April 1, 2026; the UST updates them every April 1 and November 1, so confirm the set that matches your filing date.</p>
+<h2>Related resources</h2>
+<p>See the <a href="/means-test/">Chapter 7 means test</a> guide, the <a href="/means-test-deep-dives/form-122a-2-deductions/">Form 122A-2 deductions</a> deep dive, the <a href="/chapter-7-vs-13/">Chapter 7 vs Chapter 13</a> comparison, and the <a href="/deadline-calculator/">deadline calculator</a>.</p>
+</div>
+
+<section class="faq"><h2>Frequently asked questions</h2>
+<details><summary>What is the bankruptcy means test?</summary><p>The means test under 11 U.S.C. &sect; 707(b) determines whether a Chapter 7 filing is presumed abusive. The first step compares your annualized current monthly income to the median family income for your state and household size. At or below the median, the presumption does not arise; above it, you complete Form 122A-2, which subtracts allowed expenses to find disposable income.</p></details>
+<details><summary>What is current monthly income?</summary><p>Current monthly income (CMI) is your average monthly gross income from almost all sources during the six full calendar months before filing, multiplied by 12 to annualize it. Social Security benefits are generally excluded.</p></details>
+<details><summary>Which median-income figures does this use?</summary><p>The U.S. Trustee Program's Census Bureau Median Family Income By Family Size table for cases filed on or after April 1, 2026. The UST updates the figures twice a year, effective April 1 and November 1, so confirm the set that matches your filing date.</p></details>
+<details><summary>Is this calculator legal advice?</summary><p>No. It computes only the median-income step using the official UST figures. Household-size counting, income inclusions and exclusions, and the second-part deduction test involve judgment. Confirm with the official forms and a licensed attorney.</p></details>
+</section>
+
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Informational tool published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. Computes only the median-income step of the means test using the official UST figures for cases filed on or after April 1, 2026; it does not perform the Form 122A-2 deduction test. Confirm against the official forms and your district's rules. For representation in a specific matter, contact a licensed attorney.
+</div>
+<p>Method: 11 U.S.C. &sect; 707(b)(2) and Official Forms 122A-1 / 122A-2, using the U.S. Trustee Program's <a href="https://www.justice.gov/ust/eo/bapcpa/20260401/bci_data/median_income_table.htm" rel="external">Census Bureau Median Family Income By Family Size</a> table for cases filed on or after April 1, 2026 (add $11,100 for each person over 4). Derived content published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>.</p>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+
+<script>
+/* ===== Means-test median-income engine =====
+   Data: UST Census Bureau Median Family Income By Family Size,
+   cases filed on or after 2026-04-01.
+   https://www.justice.gov/ust/eo/bapcpa/20260401/bci_data/median_income_table.htm
+   Columns = [1 earner, 2 people, 3 people, 4 people]; add $11,100 per person over 4. */
+(function(){
+'use strict';
+var ADD_OVER_4=11100;
+var MED={
+"Alabama":[64321,77451,92698,106740],"Alaska":[85817,112548,112548,142136],"Arizona":[73935,89027,104965,121174],
+"Arkansas":[58421,73630,82329,97054],"California":[79253,102797,116541,139071],"Colorado":[87940,109497,130850,153501],
+"Connecticut":[84302,106224,134470,159934],"Delaware":[69515,94877,111273,132244],"District of Columbia":[85391,161397,161397,166598],
+"Florida":[69876,86523,97540,114761],"Georgia":[68478,84965,101479,123481],"Hawaii":[85254,106202,123454,142181],
+"Idaho":[73413,86160,98381,119662],"Illinois":[73180,93934,113625,137902],"Indiana":[64461,81986,95627,115656],
+"Iowa":[67617,88800,104133,126058],"Kansas":[69197,87441,103852,125971],"Kentucky":[61652,73892,85212,109443],
+"Louisiana":[59447,72348,84602,103628],"Maine":[75892,90445,106822,131577],"Maryland":[86928,114611,135949,166173],
+"Massachusetts":[88202,112708,139411,178524],"Michigan":[67352,83432,103449,123010],"Minnesota":[77696,98328,126487,149882],
+"Mississippi":[53978,70328,82846,97464],"Missouri":[64972,82075,100228,118530],"Montana":[71310,91452,103285,121698],
+"Nebraska":[66922,90728,103405,125074],"Nevada":[72222,87914,101638,114110],"New Hampshire":[87287,109324,141531,155203],
+"New Jersey":[87173,106876,137136,168127],"New Mexico":[66235,79574,88041,98602],"New York":[73272,92902,115579,139040],
+"North Carolina":[67117,84384,101535,116737],"North Dakota":[73549,96352,106686,137817],"Ohio":[66239,83725,102504,123702],
+"Oklahoma":[61180,77208,86845,101798],"Oregon":[79089,93670,116729,140024],"Pennsylvania":[72230,87534,110151,135862],
+"Rhode Island":[77653,98736,119419,137479],"South Carolina":[64808,83761,95672,116314],"South Dakota":[69190,89809,100883,130738],
+"Tennessee":[63979,82846,97511,109585],"Texas":[66837,86714,99273,117962],"Utah":[87898,95757,112751,131741],
+"Vermont":[72461,96963,114075,137583],"Virginia":[78491,101171,123159,144826],"Washington":[88585,107100,131737,156567],
+"West Virginia":[63908,68592,92050,93672],"Wisconsin":[71168,90252,108516,133384],"Wyoming":[71745,91502,98476,110297],
+"Guam":[53859,64399,73385,88805],"Northern Mariana Islands":[36168,36168,42080,61891],"Puerto Rico":[30665,30665,40976,50543],
+"Virgin Islands":[42734,51360,54760,59995]
+};
+function medianFor(state,hh){var row=MED[state];if(!row)return null;hh=Math.max(1,Math.floor(hh));if(hh<=4)return row[hh-1];return row[3]+(hh-4)*ADD_OVER_4;}
+function usd(n){return '$'+Math.round(n).toLocaleString('en-US');}
+
+/* populate state dropdown */
+var sel=document.getElementById('state');
+Object.keys(MED).forEach(function(s){var o=document.createElement('option');o.value=s;o.textContent=s;sel.appendChild(o);});
+
+/* income mode toggle */
+var totalrow=document.getElementById('totalrow'),monthlyrow=document.getElementById('monthlyrow');
+Array.prototype.forEach.call(document.getElementsByName('mode'),function(r){r.addEventListener('change',function(){
+  var monthly=document.querySelector('input[name=mode]:checked').value==='monthly';
+  totalrow.hidden=monthly;monthlyrow.hidden=!monthly;});});
+
+function sixMonthTotal(){
+  if(document.querySelector('input[name=mode]:checked').value==='total'){
+    var v=parseFloat(document.getElementById('sixtotal').value);return isNaN(v)?null:v;
+  }
+  var sum=0,any=false;
+  for(var i=1;i<=6;i++){var x=parseFloat(document.getElementById('m'+i).value);if(!isNaN(x)){sum+=x;any=true;}}
+  return any?sum:null;
+}
+
+function render(state,hh,sixtot){
+  var median=medianFor(state,hh);
+  var cmi=sixtot/6;            // current monthly income
+  var annual=cmi*12;          // annualized
+  var pass=annual<=median;
+  var diff=Math.abs(annual-median);
+  var cls=pass?'pass':'above';
+  var head=pass?'At or below median — presumption of abuse does not arise':'Above median — second-part test applies';
+  var body=pass
+    ? 'Your annualized income is at or below the '+state+' median for a household of '+hh+'. On the means test you have passed the income step (Form 122A-1 ends here) and the presumption of abuse under &sect; 707(b)(2) does not arise. You generally qualify to file Chapter 7 on the means test. (In Chapter 13, below-median income sets a 3-year applicable commitment period.)'
+    : 'Your annualized income is above the '+state+' median for a household of '+hh+'. That does not bar Chapter 7 &mdash; it means you complete the second part (Form 122A-2), which subtracts allowed national and local expense standards to determine disposable income. Many above-median filers still qualify after deductions.';
+  var h='<div class="verdict '+cls+'">'
+    +'<h3>'+head+'</h3>'
+    +'<p style="margin:0;color:var(--text-secondary)">'+body+'</p>'
+    +'<div class="figs">'
+    +'<div class="fig"><div class="k">Your annualized income</div><div class="v">'+usd(annual)+'</div></div>'
+    +'<div class="fig"><div class="k">'+state+' median (household of '+hh+')</div><div class="v">'+usd(median)+'</div></div>'
+    +'</div>'
+    +'<div class="delta">'+(pass?'You are ':'You are ')+'<strong>'+usd(diff)+'</strong> '+(pass?'below':'above')+' the median &middot; current monthly income '+usd(cmi)+' &times; 12.</div>'
+    +'</div>'
+    +'<p style="font-size:.8rem;color:var(--text-muted);margin:0 0 8px">Figures: UST median family income, cases filed on or after April 1, 2026. For households over 4, $11,100 is added per additional person. Confirm the UST set matching your filing date.</p>';
+  document.getElementById('results').innerHTML=h;
+}
+
+var form=document.getElementById('mtform'),errEl=document.getElementById('err');
+form.addEventListener('submit',function(e){
+  e.preventDefault();errEl.hidden=true;
+  var state=document.getElementById('state').value;
+  var hh=parseInt(document.getElementById('hh').value,10);
+  if(!state){errEl.textContent='Please select a state.';errEl.hidden=false;return;}
+  if(!hh||hh<1){errEl.textContent='Please enter a household size of 1 or more.';errEl.hidden=false;return;}
+  var sixtot=sixMonthTotal();
+  if(sixtot===null||sixtot<0){errEl.textContent='Please enter your income for the last 6 months.';errEl.hidden=false;return;}
+  render(state,hh,sixtot);
+  if(typeof gtag==='function'){
+    var median=medianFor(state,hh),annual=(sixtot/6)*12;
+    gtag('event','generate_lead',{event_category:'tool',event_label:'means_test_calculator',state:state});
+    gtag('event','means_test_calculate',{state:state,household:hh,below_median:annual<=median});
+  }
+  document.getElementById('results').scrollIntoView({behavior:'smooth',block:'start'});
+});
+document.getElementById('printbtn').addEventListener('click',function(){window.print();});
+})();
+</script>
+<script defer="" src="/btn-engage.js"></script>
+</body></html>
