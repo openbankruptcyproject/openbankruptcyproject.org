@@ -164,10 +164,10 @@ footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(-
 
 <div class="intro-copy">
 <h2>What this checks</h2>
-<p>The means test under <strong>11 U.S.C. &sect; 707(b)</strong> decides whether a Chapter 7 case is presumed to be an abuse of the system. The first step &mdash; the part this tool computes &mdash; compares your <strong>annualized current monthly income</strong> to the <strong>median family income</strong> for your state and household size. If you are at or below the median, no presumption of abuse arises and you have passed the means test (Form 122A-1 ends there). If you are above the median, you move on to the second part (Form 122A-2), which subtracts allowed living expenses to determine disposable income.</p>
+<p>The means test under <strong>11 U.S.C. &sect; 707(b)</strong> decides whether a Chapter 7 case is presumed to be an abuse of the system. The first step, which is the part this tool computes, compares your <strong>annualized current monthly income</strong> to the <strong>median family income</strong> for your state and household size. If you are at or below the median, no presumption of abuse arises and you have passed the means test (Form 122A-1 ends there). If you are above the median, you move on to the second part (Form 122A-2), which subtracts allowed living expenses to determine disposable income.</p>
 <h2>How current monthly income works</h2>
 <p>Current monthly income (CMI) is the average of your gross income over the <strong>six full calendar months before filing</strong>, multiplied by 12. It includes wages, business and rental income, interest, dividends, and regular contributions to household expenses; it generally <strong>excludes Social Security benefits</strong>. Household-size counting and a few income inclusions involve judgment, so treat the result as a strong indicator, not a final determination.</p>
-<div class="callout warn"><strong>Median-income step only.</strong> This tool computes the income-vs-median screen. Being above the median does not mean you cannot file Chapter 7 &mdash; it means the second-part deduction test applies, and many above-median filers still qualify. The figures are the official UST set effective for cases filed on or after April 1, 2026; the UST updates them every April 1 and November 1, so confirm the set that matches your filing date.</p>
+<div class="callout warn"><strong>Median-income step only.</strong> This tool computes the income-vs-median screen. Being above the median does not mean you cannot file Chapter 7. It means the second-part deduction test applies, and many above-median filers still qualify. The figures are the official UST set effective for cases filed on or after April 1, 2026; the UST updates them every April 1 and November 1, so confirm the set that matches your filing date.</p>
 <h2>Related resources</h2>
 <p>See the <a href="/means-test/">Chapter 7 means test</a> guide, the <a href="/means-test-deep-dives/form-122a-2-deductions/">Form 122A-2 deductions</a> deep dive, the <a href="/chapter-7-vs-13/">Chapter 7 vs Chapter 13</a> comparison, and the <a href="/deadline-calculator/">deadline calculator</a>.</p>
 </div>
@@ -187,7 +187,7 @@ footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(-
 <p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
 </section>
 </main>
-<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project. Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631.</div></footer>
 
 <script>
 /* ===== Means-test median-income engine =====
@@ -248,10 +248,10 @@ function render(state,hh,sixtot){
   var pass=annual<=median;
   var diff=Math.abs(annual-median);
   var cls=pass?'pass':'above';
-  var head=pass?'At or below median — presumption of abuse does not arise':'Above median — second-part test applies';
+  var head=pass?'At or below median: presumption of abuse does not arise':'Above median: second-part test applies';
   var body=pass
     ? 'Your annualized income is at or below the '+state+' median for a household of '+hh+'. On the means test you have passed the income step (Form 122A-1 ends here) and the presumption of abuse under &sect; 707(b)(2) does not arise. You generally qualify to file Chapter 7 on the means test. (In Chapter 13, below-median income sets a 3-year applicable commitment period.)'
-    : 'Your annualized income is above the '+state+' median for a household of '+hh+'. That does not bar Chapter 7 &mdash; it means you complete the second part (Form 122A-2), which subtracts allowed national and local expense standards to determine disposable income. Many above-median filers still qualify after deductions.';
+    : 'Your annualized income is above the '+state+' median for a household of '+hh+'. That does not bar Chapter 7; it means you complete the second part (Form 122A-2), which subtracts allowed national and local expense standards to determine disposable income. Many above-median filers still qualify after deductions.';
   var h='<div class="verdict '+cls+'">'
     +'<h3>'+head+'</h3>'
     +'<p style="margin:0;color:var(--text-secondary)">'+body+'</p>'
