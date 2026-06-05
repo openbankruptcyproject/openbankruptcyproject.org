@@ -183,9 +183,22 @@
     container.innerHTML = html;
   }
 
+  // Derive a two-letter state from a district case-index URL (/cases/{slug}/...).
+  // The cases index filters on the district code's leading two chars, which equal
+  // the URL slug's first two (scb -> SC, ilnb -> IL, cacb -> CA, gub -> GU). The
+  // /cases/ hub itself ("/cases/" or "/cases/index.html") has no slug segment and
+  // returns "". Lets a visitor browsing one state's filings get that state first.
+  function stateFromPath() {
+    var m = (location.pathname || "").match(/\/cases\/([a-z]{2,5})(?:\/|$)/i);
+    return (m && m[1].length >= 2) ? m[1].slice(0, 2).toUpperCase() : "";
+  }
+
   function attach(el) {
     var program = el.getAttribute("data-program") || "all";
-    var state = el.getAttribute("data-state") || "";
+    // Explicit data-state always wins; otherwise auto-scope district pages to
+    // their own state. The built-in scope chip + "Try all states" link let the
+    // user widen to national in one click, so this never traps a search.
+    var state = el.getAttribute("data-state") || stateFromPath() || "";
     var placeholder = el.getAttribute("data-placeholder");
     if (!placeholder) {
       if (program === "cases") {
