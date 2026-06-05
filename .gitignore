@@ -1,3 +1,4 @@
 .git.broken-*/
 .tmp_*
 *.swp
+*.bak
