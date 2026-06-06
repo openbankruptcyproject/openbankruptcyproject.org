@@ -152,7 +152,7 @@
       "docket_no": "[pending opinion pull]",
       "disclosure_required": "n/a",
       "disclosure_scope": "n/a",
-      "sanctions_imposed": "$2,000 total. Court established a per-infraction rate framework: $500 per fabricated citation \u00d7 2 citations = $1,000; plus $1,000 per fabricated quotation \u00d7 1 quotation = $1,000.",
+      "sanctions_imposed": "$2,000 total. Court established a per-infraction rate framework: $500 per fabricated citation × 2 citations = $1,000; plus $1,000 per fabricated quotation × 1 quotation = $1,000.",
       "triggering_conduct": "Portland attorney Gabriel A. Watson filed brief citing two nonexistent cases and one fabricated quotation. Watson initially attempted to attribute the error to his assistant having mistakenly filed a 'draft/placeholder' brief; later acknowledged and apologized for the AI-generated errors. Court rejected the explanation as not constituting a 'clear explanation' of how the errors occurred.",
       "holding_summary": "Oregon Court of Appeals characterized the proliferation of AI-generated sketchy legal documents as 'a very grave situation' and established a per-infraction sanctions framework: $500 per fabricated citation, $1,000 per fabricated quotation. The framework has been cited in subsequent federal sanctions orders adopting analogous per-infraction calculation.",
       "source_url": "https://www.chronline.com/stories/very-grave-situation-oregon-court-slaps-attorney-with-2000-fine-for-ai-errors,392197",
@@ -757,7 +757,7 @@
       "branch": "executive",
       "jurisdiction_level": "federal",
       "subject_matter": "consumer_protection, ai_bias, facial_recognition, retail",
-      "bankruptcy_relevance": "primary",
+      "bankruptcy_relevance": "none",
       "framework_tag": "ftc_ai_bias_unfair_practice",
       "internal_corpus_use": "federal_ai_enforcement_baseline, bankruptcy_intersection_with_ai_enforcement, rite_aid_bankruptcy_overlap"
     },
@@ -815,5 +815,7 @@
       "framework_tag": "ai_consumer_finance_validation",
       "internal_corpus_use": "federal_ai_consumer_finance_baseline, mortgage_ai_compliance_pattern"
     }
-  ]
+  ],
+  "last_updated": "2026-06-06",
+  "entry_count": 30
 }
