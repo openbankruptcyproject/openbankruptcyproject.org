@@ -1,8 +1,16 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-05-18",
+  "last_updated": "2026-06-07",
   "_seed_note": "Initial dates for evergreen entries are approximate; refine as new entries ship and rotate evergreens off as needed.",
   "resources": [
+    {
+      "pubdate": "2026-06-07",
+      "icon": "⚖️",
+      "label": "Citation Check",
+      "description": "Free tool: paste a brief and verify every case citation against a real reporter database. Each cite is marked verified, suspect (resolves to a different case than named), or unconfirmed. Deterministic lookups, no AI in the loop, nothing stored. Pairs with the AI Sanctions Tracker.",
+      "url": "https://check.openbankruptcyproject.org",
+      "tags": ["citation-check", "ai-sanctions", "tool", "free"]
+    },
     {
       "pubdate": "2026-05-17",
       "icon": "🏛️",
