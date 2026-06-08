@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d1117">
+<meta name="format-detection" content="telephone=no">
+<meta name="color-scheme" content="dark light">
+    <title>Directory Accuracy, Sources &amp; Corrections - Open Bankruptcy Project</title>
+    <meta name="description" content="How the Open Bankruptcy Project sources, verifies, and keeps its bankruptcy trustee and judge directory accurate and current, and how to submit a sourced correction.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/accuracy.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="Directory Accuracy, Sources &amp; Corrections - Open Bankruptcy Project">
+    <meta property="og:description" content="Our sources, update cadence, privacy handling, and correction process for the trustee and judge directory.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/accuracy.html">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-053Z64N82F');
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117; --surface: #151b23; --border: #252d38;
+            --text: #e6edf3; --text-secondary: #b1bac4; --text-muted: #7d8590;
+            --accent: #58a6ff; --accent-hover: #79b8ff;
+        }
+        html { scroll-behavior: smooth; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+        nav { border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100; }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 40px 0 14px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul { color: var(--text-secondary); margin: 0 0 16px 22px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+        .content strong { color: var(--text); }
+        .callout { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+            border-radius: 8px; padding: 22px 24px; margin: 28px 0; }
+        .callout p { margin: 0; font-size: 0.95rem; color: var(--text-secondary); }
+        .btn { display: inline-block; background: var(--accent); color: #0d1117; font-weight: 600;
+            padding: 12px 22px; border-radius: 8px; margin-top: 8px; font-size: 0.95rem; }
+        .btn:hover { background: var(--accent-hover); color: #0d1117; text-decoration: none; }
+        footer { padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid var(--border); }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+        }
+    </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NonprofitOrganization",
+  "name": "Open Bankruptcy Project",
+  "alternateName": "OBP",
+  "url": "https://openbankruptcyproject.org",
+  "email": "info@openbankruptcyproject.org",
+  "taxID": "41-5159631",
+  "nonprofitStatus": "Nonprofit501c3"
+}
+</script>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/accuracy.html">Accuracy</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>Directory Accuracy, Sources &amp; Corrections</h1>
+        <p class="subtitle">How we source, verify, and keep the trustee and judge directory accurate and current, and how to help us correct it.</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <p>The Open Bankruptcy Project aims to be the most accurate and most current public reference for the people and offices that administer the United States bankruptcy system. This page explains where our directory data comes from, how often we re-verify it, how we handle privacy, and how anyone (including the listed trustees, clerks, and court staff) can submit a sourced correction.</p>
+
+        <div class="callout">
+            <p><strong>Are you a trustee, clerk, or staff member in a district we list?</strong> You are the most authoritative source for your own entry. If anything is out of date or incorrect, please <a href="/contact.html">submit a sourced correction</a>. We verify and apply confirmed corrections promptly.</p>
+        </div>
+
+        <h2>1. What this page covers</h2>
+        <p>This policy covers the <strong>factual directory</strong>: the names, statutory roles (United States Trustee, Chapter 7 panel, standing Chapter 13, Chapter 12, Subchapter V), districts, and supervising offices listed for bankruptcy trustees and judges. The directory is descriptive public-record information. It is separate from our empirical research and analysis, which is documented on our <a href="/methodology.html">Research Methodology</a> page.</p>
+
+        <h2>2. Where the data comes from</h2>
+        <p>Directory entries are built from official public sources, not informal scrapes:</p>
+        <ul>
+            <li><strong>United States Trustee Program (EOUST / DOJ) rosters</strong>: the national Chapter 7 panel, standing Chapter 13, Chapter 12, and Subchapter V trustee lists.</li>
+            <li><strong>Bankruptcy Administrator court sites</strong> for Alabama and North Carolina, which administer trustees outside the U.S. Trustee Program and publish their own rosters on their <code>uscourts.gov</code> sites.</li>
+            <li><strong>Each U.S. Bankruptcy Court</strong> for judge listings, chambers information, and local procedures.</li>
+            <li><strong>CourtListener and PACER</strong> for the underlying public case dockets.</li>
+        </ul>
+        <p>Statutory role descriptions cite Title 11 of the United States Code and 28 U.S.C. sections 581 to 589a.</p>
+
+        <h2>3. How we keep it current</h2>
+        <p>Rosters change as trustees are appointed, retire, change roles, or move districts. We keep the directory current in three ways:</p>
+        <ul>
+            <li><strong>Recurring re-verification</strong> against the authoritative rosters above, with the directory rebuilt from the official lists rather than carried forward indefinitely.</li>
+            <li><strong>A "Last reviewed" date on every page</strong>, which reflects when that entry was last checked against its source. We only advance that date when the entry is actually re-verified.</li>
+            <li><strong>Sourced corrections from the public</strong>, especially from the listed individuals and their offices, which are our fastest signal that something has changed.</li>
+        </ul>
+        <p>Where our records show a person who previously appeared in the public record but who is not on a current official roster, we label the page as a <strong>historical public-record reference</strong> and state plainly that it is not a current-roster designation.</p>
+
+        <h2>4. Privacy</h2>
+        <p>The directory publishes only public-record information drawn from the sources above. We do not publish Social Security numbers, financial account numbers, dates of birth, or other identifiers protected by Federal Rule of Bankruptcy Procedure 9037, and we do not publish per-trustee compensation figures. If you believe a protected identifier of that kind appears anywhere on the site, please tell us specifically and we will remove it right away.</p>
+
+        <h2>5. Submitting a correction</h2>
+        <p>If an entry is inaccurate or out of date, please <a href="/contact.html">contact us</a> and include:</p>
+        <ul>
+            <li>the page URL,</li>
+            <li>what is incorrect,</li>
+            <li>the correct information, and</li>
+            <li>a source we can verify it against (an official roster, a docket, or a <code>.gov</code> page).</li>
+        </ul>
+        <p>We verify every correction against an authoritative source before applying it, and we update the page's "Last reviewed" date when we do.</p>
+
+        <div class="callout">
+            <p><strong>One limit, applied evenly:</strong> we correct inaccuracies, but we do not remove accurate public-record information on request. Bankruptcy filings and trustee rosters are public records under federal law. If your concern is the underlying court record itself, that is addressed by the court where the case was filed.</p>
+        </div>
+
+        <h2>6. Licensing</h2>
+        <p>The Open Bankruptcy Project is a 501(c)(3) nonprofit (EIN 41-5159631). Derived directory data is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>.</p>
+
+        <p style="margin-top:32px;"><a class="btn" href="/contact.html">Submit a correction</a></p>
+
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/methodology.html">Methodology</a>
+            <a href="/accuracy.html">Accuracy</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
+        <p>EIN 41-5159631. All tools and data released under open source licenses.</p>
+    </div>
+</footer>
+
+</body>
+</html>
