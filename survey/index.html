@@ -333,15 +333,7 @@
   "email": "info@openbankruptcyproject.org",
   "taxID": "41-5159631",
   "nonprofitStatus": "Nonprofit501c3",
-  "description": "The Open Bankruptcy Project is a 501(c)(3) nonprofit providing free tools, research, and consumer guides to help people navigate the federal bankruptcy system. We also conduct and publish empirical research on how the system actually works for consumers and share findings with rule-making bodies, regulators, and the public.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "1000 W 100th St",
-    "addressLocality": "Kansas City",
-    "addressRegion": "MO",
-    "postalCode": "64114",
-    "addressCountry": "US"
-  }
+  "description": "The Open Bankruptcy Project is a 501(c)(3) nonprofit providing free tools, research, and consumer guides to help people navigate the federal bankruptcy system. We also conduct and publish empirical research on how the system actually works for consumers and share findings with rule-making bodies, regulators, and the public."
 }
 </script>
 </head>
@@ -669,6 +661,20 @@
     if (!comm || !comp) {
       errorEl.textContent = 'Please rate your attorney\'s communication and competence.';
       errorEl.style.display = 'block';
+      return;
+    }
+
+    // Intake endpoint not yet deployed: do NOT fake success. A no-cors POST to
+    // the placeholder resolves "successfully", which would show the thank-you
+    // screen + fire the conversion while the report silently vanishes. Until the
+    // real Apps Script /exec URL is pasted into ENDPOINT, fail honestly so the
+    // user can reach us another way (and we don't record a phantom conversion).
+    if (ENDPOINT.indexOf('PLACEHOLDER') !== -1) {
+      errorEl.innerHTML = 'Our intake form is being set up and cannot accept submissions yet. ' +
+        'Please email your report to <a href="mailto:info@openbankruptcyproject.org">info@openbankruptcyproject.org</a> ' +
+        'and we will follow up. We are sorry for the inconvenience.';
+      errorEl.style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       return;
     }
 
