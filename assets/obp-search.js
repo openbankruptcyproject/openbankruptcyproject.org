@@ -99,6 +99,35 @@
     } catch (_) {}
   }
 
+  // --- obp_search_empty settle gate -------------------------------------
+  // The widget renders results live as the user types (200ms debounce), so a
+  // name like "john smith" passes through several transient 0-hit renders
+  // ("joh", "john", "john s"...) before it resolves. Firing obp_search_empty
+  // on each of those counted keystrokes, not failed searches — inflating the
+  // metric ~80x (859 events vs 11 real submitted queries over 28d, 6/11 crawl)
+  // and making the GA4 search funnel useless. Gate the event behind a settle
+  // window the next keystroke cancels, and dedupe identical settled queries,
+  // so one truly-stopped-on empty search fires exactly once.
+  var EMPTY_SETTLE_MS = 1400;
+  var emptyEventTimer = null;
+  var lastFiredEmptyQ = null;
+
+  function cancelEmptyEvent() {
+    if (emptyEventTimer) { clearTimeout(emptyEventTimer); emptyEventTimer = null; }
+  }
+
+  function scheduleEmptyEvent(params) {
+    cancelEmptyEvent();
+    var q = params._q || "";
+    delete params._q; // never log the raw query to GA4 — only q_len ships
+    emptyEventTimer = setTimeout(function () {
+      emptyEventTimer = null;
+      if (q && q === lastFiredEmptyQ) return; // same settled query — don't double-count
+      lastFiredEmptyQ = q;
+      fireGtag("obp_search_empty", params);
+    }, EMPTY_SETTLE_MS);
+  }
+
   function renderResults(results, container, ctx) {
     ctx = ctx || {};
     if (!results || results.length === 0) {
@@ -142,14 +171,15 @@
       container.innerHTML = BANNER_HTML + hint + caseHint + '<div class="obp-search-empty">' + emptyMsg + '</div>';
       // Instrumentation: log what the user was offered on this 0-hit. Lets us
       // measure widen-link impressions vs clicks separately from server logs.
-      fireGtag("obp_search_empty", {
+      scheduleEmptyEvent({
         program: ctx.program || "all",
         state: ctx.state || "",
         outside_scope_hits: outside,
         widen_state_shown: ctx.state ? 1 : 0,
         widen_program_shown: (ctx.program && ctx.program !== "all") ? 1 : 0,
         case_hint_shown: caseHint ? 1 : 0,
-        q_len: qstr.length
+        q_len: qstr.length,
+        _q: qstr
       });
       return;
     }
@@ -302,6 +332,8 @@
     }
 
     function runFetch(q) {
+      // A new search supersedes any pending 0-hit event from the prior keystroke.
+      cancelEmptyEvent();
       var params = new URLSearchParams({ q: q, program: activeProgram, limit: "12" });
       if (activeState) params.set("state", activeState);
       if (chapterSel && chapterSel.value) params.set("chapter", chapterSel.value);
@@ -361,6 +393,7 @@
     var doSearch = debounce(function () {
       var q = input.value.trim();
       if (q.length < MIN_CHARS) {
+        cancelEmptyEvent();
         results.hidden = true;
         results.innerHTML = "";
         return;
