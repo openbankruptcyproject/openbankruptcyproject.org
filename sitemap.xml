@@ -324,18 +324,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://openbankruptcyproject.org/briefing/6f353a79549e585e/methodology/</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://openbankruptcyproject.org/briefing/6f353a79549e585e/methodology/interactive_demo.html</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  
   <url>
     <loc>https://openbankruptcyproject.org/briefing/scales/</loc>
     <lastmod>2026-05-18</lastmod>
@@ -1724,12 +1713,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://openbankruptcyproject.org/methodology.html</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://openbankruptcyproject.org/network.html</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -2829,12 +2812,6 @@
   </url>
   <url>
     <loc>https://openbankruptcyproject.org/research/26-bk-5/</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://openbankruptcyproject.org/research/methodology/</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
