@@ -22,8 +22,8 @@
     {
       "pubdate": "2026-05-17",
       "icon": "📊",
-      "label": "44,000+ pages of free bankruptcy research",
-      "description": "Network crossed 44,000 active pages across 180+ publication domains. Combined indexing layer covers 8M federal bankruptcy cases (FJC IDB), 11.5M PPP loan records, and 3.7M EIDL records, cross-searchable by debtor or borrower name.",
+      "label": "49,000+ pages of free bankruptcy research",
+      "description": "Network crossed 49,000 active pages across 210+ publication domains. Combined indexing layer covers 9.8M federal bankruptcy cases, 11.5M PPP loan records, and 3.7M EIDL records, cross-searchable by debtor or borrower name.",
       "url": "https://openbankruptcyproject.org/network/",
       "tags": ["milestone", "scale", "datasets"]
     },
