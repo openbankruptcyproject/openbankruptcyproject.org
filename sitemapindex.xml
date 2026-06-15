@@ -25,4 +25,8 @@
     <loc>https://openbankruptcyproject.org/sitemap-judges.xml</loc>
     <lastmod>2026-06-14</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://openbankruptcyproject.org/sitemap-reference.xml</loc>
+    <lastmod>2026-06-14</lastmod>
+  </sitemap>
 </sitemapindex>
