@@ -4,7 +4,7 @@
 
 > Empirical research and free tools for bankruptcy court transparency.
 
-The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a free, public search tool over 9.8 million federal bankruptcy cases (all 94 judicial districts) and conducts empirical research on bankruptcy outcomes, attorney performance, and enforcement gaps. Our research has been cited by the Federal Rules Advisory Committee: two suggestions accepted (26-BK-3, March 2026; 26-BK-5, April 2026).
+The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a free, public search tool over 9.8 million federal bankruptcy cases (all 94 judicial districts) and conducts empirical research on bankruptcy outcomes, attorney performance, and enforcement gaps. Our research has been cited by the Federal Rules Advisory Committee: two suggestions docketed (26-BK-3, March 2026; 26-BK-5, April 2026).
 
 ## What We Do
 
@@ -12,7 +12,7 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a
 - Conduct empirical research on a Federal Judicial Center baseline of ~8 million cases (Integrated Database, 2008-2025, all 94 districts)
 - Provide free, no-login tools: case lookup, the Chapter 7 means test, a bankruptcy deadline calculator, and discharge-eligibility screening (Sections 1328(f), 727(a)(8), 109(g))
 - Operate an educational network of plain-language bankruptcy resources across six languages
-- Advocate for federal rules changes -- two Advisory Committee suggestions accepted (26-BK-3, 26-BK-5)
+- Advocate for federal rules changes -- two Advisory Committee suggestions docketed (26-BK-3, 26-BK-5)
 - Publish 49,000+ pages of free educational content (English + Spanish + German + Polish + French + Italian)
 
 ## Key Statistics
@@ -23,7 +23,7 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a
 - 392,412 prior filers identified with zero eligibility verification
 - National dismissal rate 58.3%; discharge rate 41.7%; prior-filer rate 33.2% (FJC 2008-2025)
 - 210+ domains, 49,000+ pages, 6 languages
-- 2 Federal Rules Advisory Committee suggestions accepted (26-BK-3, 26-BK-5)
+- 2 Federal Rules Advisory Committee suggestions docketed (26-BK-3, 26-BK-5)
 - 501(c)(3) public charity, EIN 41-5159631 -- $0 cost to users
 
 ## Free Tools
@@ -35,7 +35,7 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a
 ## Research & Advocacy
 
 - https://openbankruptcyproject.org/research.html -- Research: methodology, key findings, collaboration
-- https://openbankruptcyproject.org/research/26-bk-3/ -- Suggestion 26-BK-3: Section 1328(f) discharge-eligibility screening (accepted by the Federal Rules Advisory Committee)
+- https://openbankruptcyproject.org/research/26-bk-3/ -- Suggestion 26-BK-3: Section 1328(f) discharge-eligibility screening (docketed by the Advisory Committee on Bankruptcy Rules)
 - https://openbankruptcyproject.org/statistics.html -- National bankruptcy statistics: discharge/dismissal rates, district geography, Chapter 13 outcomes (FJC 2008-2025)
 - https://openbankruptcyproject.org/case-outcomes.html -- "What Happens to Cases Like Mine?" interactive outcomes tool by district, chapter, attorney-vs-pro-se, and debt level. Key findings: Chapter 7 ~95% discharge vs Chapter 13 ~41%; with an attorney ~42% vs ~2% pro se in Chapter 13. (Spanish: /case-outcomes-es.html)
 - https://openbankruptcyproject.org/data-access.html -- Data access and bulk-data policy
