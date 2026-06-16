@@ -4,11 +4,11 @@
 
 > Empirical research and free tools for bankruptcy court transparency.
 
-The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a free, public search tool over 9.8 million federal bankruptcy cases (all 94 judicial districts) and conducts empirical research on bankruptcy outcomes, attorney performance, and enforcement gaps. Our research has been cited by the Federal Rules Advisory Committee: two suggestions docketed (26-BK-3, March 2026; 26-BK-5, April 2026).
+The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a free, public search tool over 7.9 million federal bankruptcy cases (all 94 judicial districts) and conducts empirical research on bankruptcy outcomes, attorney performance, and enforcement gaps. Our research has been cited by the Federal Rules Advisory Committee: two suggestions docketed (26-BK-3, March 2026; 26-BK-5, April 2026).
 
 ## What We Do
 
-- Operate a free, public lookup tool over 9.8 million federal bankruptcy cases, searchable by debtor name and case number
+- Operate a free, public lookup tool over 7.9 million federal bankruptcy cases, searchable by debtor name and case number
 - Conduct empirical research on a Federal Judicial Center baseline of ~8 million cases (Integrated Database, 2008-2025, all 94 districts)
 - Provide free, no-login tools: case lookup, the Chapter 7 means test, a bankruptcy deadline calculator, and discharge-eligibility screening (Sections 1328(f), 727(a)(8), 109(g))
 - Operate an educational network of plain-language bankruptcy resources across six languages
@@ -17,7 +17,7 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a
 
 ## Key Statistics
 
-- 9.8 million federal bankruptcy cases searchable (FJC + RECAP/PACER archive, all 94 districts)
+- 7.9 million federal bankruptcy cases searchable (FJC + RECAP/PACER archive, all 94 districts)
 - ~8 million case FJC Integrated Database research baseline (2008-2025) -- the denominator for our outcome findings
 - 5,097,521 cases screened for statutory compliance failures
 - 392,412 prior filers identified with zero eligibility verification
@@ -28,7 +28,7 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a
 
 ## Free Tools
 
-- https://openbankruptcyproject.org/lookup.html -- Case lookup: search 9.8 million federal bankruptcy filings by debtor name or case number, free, no login
+- https://openbankruptcyproject.org/lookup.html -- Case lookup: search 7.9 million federal bankruptcy filings by debtor name or case number, free, no login
 - https://openbankruptcyproject.org/means-test/ -- Chapter 7 means test guide (11 U.S.C. 707(b)): current monthly income, state median comparison, presumption of abuse
 - https://openbankruptcyproject.org/deadline-calculator/ -- Bankruptcy deadline calculator: computes the standard federal deadlines (objection to discharge, proof of claim, exemption objections, 341 timing, plan payments) from the petition date and 341 meeting date, with Rule 9006(a) holiday rolling
 
