@@ -8,13 +8,10 @@
     <loc>https://openbankruptcyproject.org/sitemap-guides.xml</loc>
     <lastmod>2026-05-21</lastmod>
   </sitemap>
-  <sitemap>
-    <loc>https://openbankruptcyproject.org/sitemap-index.xml</loc>
-    <lastmod>2026-05-21</lastmod>
-  </sitemap>
+  <!-- sitemap-index.xml (BTN 180-domain network master) removed 2026-06-25: OBP-proper sitemap must list only openbankruptcyproject.org URLs, not the external network, to avoid the Ad Grants "primarily drives traffic to other sites" signal. -->
   <sitemap>
     <loc>https://openbankruptcyproject.org/sitemap.xml</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </sitemap>
   <sitemap><loc>https://openbankruptcyproject.org/sitemap-methodology.xml</loc></sitemap>
   <sitemap>
