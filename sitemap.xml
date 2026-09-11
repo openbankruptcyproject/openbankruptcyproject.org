@@ -325,19 +325,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://openbankruptcyproject.org/briefing/6f353a79549e585e/</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://openbankruptcyproject.org/briefing/scales/</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://openbankruptcyproject.org/business-owner-personal-liability.html</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -3925,12 +3912,6 @@
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://openbankruptcyproject.org/states.html</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://openbankruptcyproject.org/statistics.html</loc>
