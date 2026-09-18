@@ -369,6 +369,114 @@ def faq_schema(faq):
                                        "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]},
                       ensure_ascii=False)
 
+RECORDS = {
+    "slug": "find-bankruptcy-case",
+    "title": "How to Look Up a Bankruptcy Case for Free [2026]",
+    "h1": "How to Look Up a Bankruptcy Case",
+    "label": "Public Records Guide",
+    "description": (
+        "How to find a bankruptcy case and read its docket without paying: PACER and its fee waiver, the free "
+        "RECAP archive, CourtListener, the court's own phone system, and what each source does and does not "
+        "show. Free 501(c)(3) guide, not legal advice."
+    ),
+    "lede": (
+        "Bankruptcy filings are public records. Anyone can look up a case, read the docket, and in many "
+        "instances download the documents, and a large share of that can be done for nothing. The catch is "
+        "that no single free source is complete: each covers a different slice of the record. This page "
+        "explains what each source holds, what it costs, and the order to try them in."
+    ),
+    "updated": "2026-09-18",
+    "faq": [
+        ("Are bankruptcy filings public?",
+         "Yes. Bankruptcy cases are filed in federal court and the docket is a public record under 11 U.S.C. "
+         "section 107(a), which provides that papers filed in a case are public records open to examination. "
+         "A court may seal trade secrets, scandalous matter, or information that would create an undue risk of "
+         "identity theft under section 107(b) and (c), and Bankruptcy Rule 9037 requires personal identifiers "
+         "such as full Social Security numbers, birth dates, and minors' names to be redacted in public filings."),
+        ("Can I look up a bankruptcy case for free?",
+         "Partly. Searching whether a case exists and reading its docket costs money on PACER, the courts' own "
+         "system, but PACER waives the bill for any quarter in which the account owes 30 dollars or less, so "
+         "light users typically pay nothing. Documents that somebody has already purchased and contributed to "
+         "the RECAP archive are free to read on CourtListener, with no account at all."),
+        ("What does PACER cost?",
+         "Ten cents per page, with a three-dollar cap per document, and search results are billed by the page of "
+         "results. Fees are waived automatically for any quarter in which the total is 30 dollars or less. "
+         "Audio recordings are 2.40 dollars each. Courts can also grant a fee exemption on application for "
+         "reasons such as indigence or academic research, and that exemption is granted court by court."),
+        ("How do I find a case if I do not know the case number?",
+         "Use the PACER Case Locator, which searches every federal court at once by party name, or check "
+         "CourtListener, which indexes millions of dockets and can be searched free by debtor name. Names are "
+         "recorded exactly as filed, so try spelling variants, and remember that a business may be listed under "
+         "a legal name that differs from the name on its sign."),
+        ("What is RECAP and how is it free?",
+         "RECAP is a free archive of federal court records run by the nonprofit Free Law Project. When someone "
+         "using the RECAP browser extension buys a document on PACER, a copy is contributed to the archive, so "
+         "the next person can read it for nothing on CourtListener. Coverage is therefore uneven: a document is "
+         "in RECAP because somebody bought it once. Its absence means nobody did, not that it does not exist."),
+        ("Can I get case documents without a computer?",
+         "Yes. Every bankruptcy court runs a free automated phone line, the Multi-Court Voice Case Information "
+         "System, that reads basic case information aloud, and the clerk's office will look up a case at the "
+         "public terminal in the courthouse, where viewing is free. Printing at the courthouse is charged per page."),
+    ],
+}
+
+
+def records_main():
+    return """
+<h2 id="what-is-public">What is public, and what is not</h2>
+<p>A bankruptcy case is a federal court case, and its papers are public records. Section 107(a) of the Bankruptcy Code states the rule directly: papers filed in a case under the Code are public records open to examination by an entity at reasonable times without charge. That covers the petition, the schedules of assets and debts, the statement of financial affairs, the list of creditors, every motion and order, and the docket that lists them all in order.</p>
+<p>Three limits apply. Under section 107(b) the court may seal a trade secret or confidential research, or matter that is scandalous or defamatory. Under section 107(c) the court may protect information that would create an undue risk of identity theft or other unlawful injury. And Bankruptcy Rule 9037 requires that filings show only the last four digits of a Social Security number, only the year of a birth date, only the initials of a minor, and only the last four digits of a financial account number. What you will see, then, is the full substance of a case with a narrow band of personal identifiers stripped out.</p>
+<div class="callout"><strong>A docket is not the documents.</strong> The docket is the numbered index of what was filed and when. Reading it is often enough to answer a question. Downloading the underlying document is a separate step, and a separate charge on PACER.</div>
+
+<h2 id="pacer">PACER, the courts' own system</h2>
+<p>PACER, Public Access to Court Electronic Records, is the official source. It holds every federal bankruptcy, district, and appellate case, and it is the only source guaranteed to be complete and current. Registration is free and requires a name, address, and email; a credit card is requested to verify identity but is not charged unless fees accrue.</p>
+<p>Charges are ten cents per page, with a cap of three dollars on any single document, which works out to thirty pages. Search result screens are billed the same way, by the page of results. Audio recordings cost 2.40 dollars each. The figure that matters most to an occasional user is the waiver: <strong>if an account accrues 30 dollars or less in a quarter, the fees are waived automatically</strong>. Someone checking a handful of cases will typically never pay.</p>
+<p>Two other reductions exist. Courts grant fee exemptions on written application for reasons such as indigence, academic research, or nonprofit work, and that decision is made court by court rather than centrally. And some documents are free to all: a case's docket is free to the debtor and to counsel of record in that case, and each court posts certain opinions free of charge.</p>
+<h3 id="case-locator">Finding a case when you do not know the number</h3>
+<p>The PACER Case Locator searches every federal court at once. Search by party name, and narrow by court, case type, and date filed. Names are indexed exactly as they were filed, so a middle initial, a suffix, or a former name can decide whether a case appears. Businesses are listed by legal name, which is often not the name on the storefront.</p>
+
+<h2 id="free-sources">The free sources</h2>
+<h3 id="recap">RECAP and CourtListener</h3>
+<p>The Free Law Project, a nonprofit, runs CourtListener and the RECAP archive. When a person using the RECAP browser extension buys a document on PACER, a copy is donated to the archive. The result is millions of dockets and documents readable free, with no account and no fee.</p>
+<p>The strength of this source is that it is genuinely free and permanently available. Its weakness is coverage. A document sits in RECAP because somebody once paid for it; absence from the archive says nothing about whether the document exists. For a heavily litigated case the archive is often close to complete, and for a quiet consumer case it may hold only the docket. Install the extension if you use PACER at all: it shows you when a free copy already exists, and contributes what you buy.</p>
+<h3 id="phone">The court's phone line and public terminals</h3>
+<p>Every bankruptcy court runs a free automated line, the Multi-Court Voice Case Information System, that reads case information aloud: whether a case exists, the chapter, the filing date, the trustee, the judge, and the meeting of creditors date. It answers the common questions without a computer.</p>
+<p>Each courthouse also has a public terminal in the clerk's office where viewing records is free. Printing there is charged per page. Clerk's office staff will look up a case and tell you what the docket says; they cannot give legal advice or tell you what a filing means for you.</p>
+<h3 id="notices">If you are a creditor or a party</h3>
+<p>Parties on a case's mailing list receive court notices by mail at no cost, and can switch to free email delivery through the Bankruptcy Noticing Center. A debtor in a participating court can enroll in Debtor Electronic Bankruptcy Noticing and receive court-generated notices by email the day they issue. Both are free, and both carry court notices only, not the filings of other parties.</p>
+
+<h2 id="which-source">Which source answers which question</h2>
+<table class="obp-table">
+<thead><tr><th>Question</th><th>Best source</th><th>Cost</th></tr></thead>
+<tbody>
+<tr><td>Did this person or business file?</td><td>PACER Case Locator, or CourtListener search</td><td>Ten cents per results page; free on CourtListener</td></tr>
+<tr><td>What is the case number, chapter, and filing date?</td><td>Court's automated phone line</td><td>Free</td></tr>
+<tr><td>What has happened in the case?</td><td>PACER docket, or the docket on CourtListener</td><td>Ten cents per page; free where archived</td></tr>
+<tr><td>What does a specific filing say?</td><td>RECAP first, then PACER</td><td>Free if archived, otherwise up to three dollars</td></tr>
+<tr><td>Who is the trustee, and when is the creditors' meeting?</td><td>Phone line or docket</td><td>Free</td></tr>
+<tr><td>Was a debt discharged?</td><td>The discharge order on the docket</td><td>Ten cents per page, usually one or two pages</td></tr>
+</tbody>
+</table>
+
+<h2 id="reading">Reading what you find</h2>
+<p>A docket sheet opens with the case caption, the case number, the chapter, the assigned judge, the trustee, the filing date, and the debtor's attorney if there is one. Below that, numbered entries run in order, each with a date and a short description written by the clerk. The numbers are the document numbers; a citation like ECF No. 42 refers to that entry.</p>
+<p>A handful of entries carry most of the meaning. The petition is entry one. The schedules list assets, debts, income, and expenses. The meeting of creditors notice sets the date the debtor answers questions under oath. A discharge order ends the debtor's personal liability for the debts it covers. A dismissal order ends the case without a discharge, which is a different outcome entirely; our page on <a href="/screener/">what bankruptcy discharges</a> explains the difference. A case being closed is not the same as a debt being discharged.</p>
+<div class="callout"><strong>Scanned paper is not searchable.</strong> A document filed on paper is scanned as an image, so its text cannot be searched or copied. The clerk's one-line docket description is the only searchable trace of it.</div>
+
+<h2 id="limits">What none of these sources will tell you</h2>
+<p>Public records show what was filed, not what it means. A docket does not say whether a debt of yours was covered, whether a claim was paid, or whether a filing was accurate. It does not show what was said at a hearing unless a transcript was ordered and filed. It does not show settlement talks, which happen off the record. And a case appearing in a search is not a judgment about anyone: filing is a legal right that millions of people and businesses exercise.</p>
+<p>Open Bankruptcy Project publishes this guide as public information. It is not legal advice, and we cannot tell you what a particular filing means for your situation. For that, a bankruptcy attorney in the district where the case is pending is the right stop.</p>
+
+<h2 id="next">Next steps</h2>
+<ul>
+<li>Trying to work out whether bankruptcy would reach your debts: the <a href="/screener/">discharge screener</a>.</li>
+<li>Wondering which chapter applies: <a href="/chapter-7-guide/">Chapter 7</a>, <a href="/chapter-13-guide/">Chapter 13</a>, or the <a href="/chapter-7-vs-13/">comparison</a>.</li>
+<li>Filing without a lawyer: the <a href="/pro-se/">pro se guide</a> and the <a href="/forms/">forms index</a>.</li>
+<li>More on the free archive: <a href="/recap.html">RECAP and CourtListener</a>.</li>
+</ul>
+"""
+
+
 def build(page, main_html):
     t = open(TEMPLATE, encoding="utf-8").read()
     url = f"{SITE}/{page['slug']}/"
@@ -406,7 +514,7 @@ def build(page, main_html):
     return t
 
 def main():
-    for page, body in ((CH7, ch7_main()), (CH13, ch13_main())):
+    for page, body in ((CH7, ch7_main()), (CH13, ch13_main()), (RECORDS, records_main())):
         out = build(page, body)
         if "--check" in sys.argv:
             sys.stdout.write(out[:1500]); continue
