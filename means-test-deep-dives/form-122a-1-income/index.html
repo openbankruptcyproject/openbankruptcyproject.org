@@ -142,6 +142,8 @@ code{background:var(--surface);border:1px solid var(--border);padding:0.15rem 0.
 footer{background:var(--surface);border-top:1px solid var(--border);padding:1.5rem;text-align:center;font-size:0.8rem;color:var(--text-muted);margin-top:2rem;}
 </style>
 <style id="btn-a11y">:where(p,li,dd,td,th,blockquote,h1,h2,h3,h4,h5,h6,figcaption,small) a{text-decoration:underline}</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is current monthly income on Form 122A-1?", "acceptedAnswer": {"@type": "Answer", "text": "Current monthly income is the average monthly income the debtor received during the six-month period ending on the last day of the calendar month before the petition date, as defined in 11 U.S.C. section 101(10A). Form 122A-1 totals the receipts in each category over that period and divides by six."}}, {"@type": "Question", "name": "Which six months count?", "acceptedAnswer": {"@type": "Answer", "text": "The six full calendar months before the month in which the petition is filed. The filing month itself is excluded, so the look-back window shifts by a month depending on whether the case is filed on the last day of a month or the first day of the next."}}, {"@type": "Question", "name": "What income is excluded from current monthly income?", "acceptedAnswer": {"@type": "Answer", "text": "Section 101(10A)(B) excludes certain receipts regardless of amount, including benefits received under the Social Security Act, payments to victims of war crimes or terrorism, and certain veterans' disability and death-related benefits. The form captures these on a deduction line, but the substance is a statutory exclusion."}}, {"@type": "Question", "name": "How does household size change the result?", "acceptedAnswer": {"@type": "Answer", "text": "The state median comparison is made against a table indexed by state and household size. Two debtors with identical current monthly income can land on opposite sides of the median line because their household sizes place them on different rows of the table."}}, {"@type": "Question", "name": "What documents will the trustee ask for?", "acceptedAnswer": {"@type": "Answer", "text": "Standard requests are the six most recent pay statements for each wage earner, six months of bank statements showing deposits, and profit-and-loss statements for any self-employment income. The trustee uses them to test the figures entered on the form."}}, {"@type": "Question", "name": "Who is exempt from the presumption of abuse regardless of income?", "acceptedAnswer": {"@type": "Answer", "text": "Debtors whose debts are primarily non-consumer debts, certain disabled veterans, and reservists or National Guard members called to active duty file Form 122A-1Supp and are not subject to the presumption under section 707(b)(2), whatever their current monthly income."}}]}</script>
+<style id="obp-faq-style">.obp-faq{margin:2rem 0}.obp-faq h2{font-size:1.35rem;margin:0 0 .75rem}.obp-faq details{border:1px solid #30363d;border-radius:8px;padding:.85rem 1.1rem;margin:0 0 .6rem;background:#161b22}.obp-faq summary{cursor:pointer;font-weight:600}.obp-faq details p{margin:.6rem 0 0;color:#c9d1d9}</style>
 </head>
 <body>
 <nav aria-label="Main navigation">
@@ -157,16 +159,16 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:1.5r
 <h1>Form 122A-1: Current Monthly Income and the State Median Comparison</h1>
 <p class="subtitle">The six-month look-back, the statutory exclusions for Social Security, victim payments, and certain veterans benefits, and the threshold that routes a debtor to Form 122A-2 or out of the means test entirely.</p>
 
-<h2>What Form 122A-1 does</h2>
+<h2 id="what-form-122a-1-does">What Form 122A-1 does</h2>
 <p>Official Form 122A-1, Statement of Your Current Monthly Income, is the entry point of the Chapter 7 means test. It computes current monthly income (CMI) as defined at <a href="https://www.law.cornell.edu/uscode/text/11/101" rel="noopener" target="_blank">11 U.S.C. Section 101(10A)</a>, annualizes it, compares it to the applicable state median family income for the debtor's household size, and produces a binary routing decision: a debtor at or below the median completes Form 122A-1 only and need not perform the deduction calculation; a debtor above the median must continue to Form 122A-2.</p>
 <p>The form is mechanical in design. Each line corresponds to a category of receipts during the six-month look-back. The arithmetic is averaging, multiplication by twelve, and comparison to a published table. The contests, when they arise, are over classification of receipts and over household size, not over the arithmetic itself.</p>
 
-<h2>The look-back period</h2>
+<h2 id="the-look-back-period">The look-back period</h2>
 <p>Section 101(10A)(A)(i) defines CMI as the average monthly income received by the debtor during the six-month period ending on the last day of the calendar month immediately preceding the petition date. The look-back period is exclusive of the petition month. A debtor filing on April 15 calculates CMI from October 1 through March 31; a debtor filing on April 1 calculates from October 1 through March 31 as well, because the calendar-month rule rounds back regardless of the day within the petition month.</p>
 <p>The period is fixed in number (six calendar months) and in endpoint (the month immediately preceding petition). It does not adjust for unusual circumstances during the look-back. A debtor who received a one-time severance payment in November still includes one-sixth of that payment in CMI for an April filing. A debtor whose income terminated entirely in January still averages the prior receipts. This rigidity is a feature, not a defect, of the statutory design: Congress chose a backward-looking mechanical metric to prevent strategic timing of filings.</p>
 <p>Where the rigidity produces unjust outcomes for above-median debtors, the relief valve is at the deduction stage (Form 122A-2 special circumstances) or at the totality-of-circumstances inquiry under Section 707(b)(3). The look-back itself does not bend.</p>
 
-<h2>Sources of income included in CMI</h2>
+<h2 id="sources-of-income-included-in-cmi">Sources of income included in CMI</h2>
 <p>Form 122A-1 enumerates eight categories of receipts in lines 2 through 9. Each line asks for the total dollar amount received during the six-month look-back, divided by six to produce a monthly average.</p>
 <ul>
 <li><strong>Gross wages, salary, tips, bonuses, overtime, commissions.</strong> Gross figures, not net. Voluntary retirement contributions and union dues are subtracted at the deduction stage on Form 122A-2, not at the income stage on Form 122A-1.</li>
@@ -179,7 +181,7 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:1.5r
 <li><strong>Any other income.</strong> A catchall. Common entries are lottery and gambling winnings, prize winnings, life-insurance death-benefit proceeds (where not excluded), trust distributions, and one-time settlement payments.</li>
 </ul>
 
-<h2>Statutory exclusions from CMI</h2>
+<h2 id="statutory-exclusions-from-cmi">Statutory exclusions from CMI</h2>
 <p>Section 101(10A)(B) excludes four categories of receipts from CMI, regardless of amount or frequency. The form captures these as a deduction line, but the substance is exclusion at the statutory level.</p>
 <p><strong>Social Security Act benefits.</strong> All benefits received under the Social Security Act are excluded. This covers Old-Age, Survivors, and Disability Insurance (OASDI) benefits, Supplemental Security Income (SSI), and Social Security retirement benefits. The exclusion is categorical and does not depend on the debtor's age or disability status. A retired debtor whose only income is Social Security has CMI of zero for means-test purposes, regardless of the actual dollar amount of benefits.</p>
 <p>The Social Security exclusion has produced some of the most extensively litigated means-test interpretive disputes. The exclusion's reach extends to all benefits paid under the Social Security Act, which means SSI and Title II benefits are both out; however, private long-term disability benefits and employer-sponsored pension benefits are not Social Security Act benefits and remain in CMI. The form does not invite the debtor to identify the source program, but the underlying classification matters: misidentifying a private disability benefit as a Social Security benefit is a common error that the trustee will flag.</p>
@@ -191,7 +193,7 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:1.5r
 <p><strong>Exclusion is at the source, not by category of recipient.</strong> A debtor who receives a payment from a multi-purpose government program must identify the statutory authority for that specific payment to determine whether it qualifies for exclusion. A program label is not enough; the question is whether the particular payment is one of the four enumerated exclusions.</p>
 </div>
 
-<h2>Household size and marital adjustment</h2>
+<h2 id="household-size-and-marital-adjustment">Household size and marital adjustment</h2>
 <p>The state median comparison is performed against a table indexed by state and household size. Household size determines which row of the table applies. Two debtors with identical CMI may produce different above- or below-median routings if their household sizes differ.</p>
 <p>The Bankruptcy Code does not define "household." Districts have adopted three competing approaches:</p>
 <ol>
@@ -202,12 +204,12 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:1.5r
 <p>The choice can determine whether the debtor is above or below median. In a marginal case, the household-size dispute is the single most outcome-determinative input. The form does not instruct the debtor on which approach to apply; the answer depends on the practice of the district.</p>
 <p>For a debtor who files jointly with a spouse, both incomes are included and the household includes both spouses. For a married debtor who files individually, the non-filing spouse's income is included in CMI for the eligibility comparison, but Form 122A-2 then permits a "marital adjustment" deduction for income the non-filing spouse does not contribute to household expenses. The marital adjustment is documented and often contested.</p>
 
-<h2>The state median comparison</h2>
+<h2 id="the-state-median-comparison">The state median comparison</h2>
 <p>CMI multiplied by twelve produces annualized current monthly income. That figure is compared to the applicable state median family income for the debtor's household size, as published by the U.S. Trustee Program. The tables are updated approximately twice per year. The <a href="https://www.justice.gov/ust/means-testing" rel="noopener" target="_blank">EOUST Means Testing website</a> publishes the operative tables.</p>
 <p>The comparison is performed in line 13 of Form 122A-1. If annualized CMI is at or below the applicable median, the form directs the debtor to skip Form 122A-2 entirely. There is no presumption of abuse. The trustee may still investigate under Section 707(b)(3) totality-of-circumstances, but the presumption framework of Section 707(b)(2) does not apply.</p>
 <p>If annualized CMI exceeds the applicable median, the debtor must complete Form 122A-2 to determine whether the presumption of abuse arises. The above-median routing is not itself a finding of abuse; it is a finding that the deduction calculation must be performed.</p>
 
-<h2>Form 122A-1Supp - the exemption forms</h2>
+<h2 id="form-122a-1supp-the-exemption-forms">Form 122A-1Supp - the exemption forms</h2>
 <p>A separate companion form, 122A-1Supp (Statement of Exemption from Presumption of Abuse Under Section 707(b)(2)), is filed by debtors whose circumstances exempt them from the presumption regardless of CMI. The two principal categories of exemption are:</p>
 <ul>
 <li><strong>Disabled veterans.</strong> A disabled veteran (as defined under the relevant veterans statute) whose debt was incurred primarily during active duty or a period of homeland defense is exempt from the presumption under Section 707(b)(2)(D)(i).</li>
@@ -215,7 +217,7 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:1.5r
 </ul>
 <p>The Form 122A-1Supp is not a substitute for Form 122A-1; both are filed where applicable. The exemption removes only the Section 707(b)(2) presumption framework; Section 707(b)(3) totality-of-circumstances and Section 707(a) general abuse review remain available to the trustee.</p>
 
-<h2>Documentation</h2>
+<h2 id="documentation">Documentation</h2>
 <p>The trustee will request supporting documentation for CMI inputs. Standard requests include the six most recent pay statements for each wage earner, six months of bank statements showing deposits, business profit-and-loss statements for any self-employment income, and 1099 statements for interest, dividend, royalty, and pension income. Discrepancies between Form 122A-1 figures and supporting documentation are the most common source of trustee objection at the initial meeting of creditors.</p>
 <p>A pay-statement reconciliation that produces a different CMI figure than the form is not itself a basis for amendment; the controlling input is "amount received during the six-month period," which can diverge from year-to-date or annualized figures shown on pay statements. Care in the reconciliation prevents later argument that the form was inaccurate as filed.</p>
 
@@ -223,7 +225,7 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:1.5r
 <p><strong>Form 122A-1 produces a binary outcome but reflects layered determinations.</strong> The arithmetic of the form is uncontroversial; the classification of receipts and the household-size determination are not. A debtor who appears above-median on a first pass may be below-median after correct application of exclusions and the appropriate household-size methodology, or vice versa. The form's outputs should be tested against alternative classification assumptions before filing.</p>
 </div>
 
-<h2>Related statutes and authority</h2>
+<h2 id="related-statutes-and-authority">Related statutes and authority</h2>
 <ul>
 <li><a href="https://www.law.cornell.edu/uscode/text/11/101" rel="noopener" target="_blank">11 U.S.C. Section 101(10A)</a> - Definition of current monthly income</li>
 <li><a href="https://www.law.cornell.edu/uscode/text/11/707" rel="noopener" target="_blank">11 U.S.C. Section 707(b)(7)</a> - Above-median income threshold</li>
@@ -232,7 +234,8 @@ footer{background:var(--surface);border-top:1px solid var(--border);padding:1.5r
 <li><a href="https://www.uscourts.gov/forms-rules/forms/bankruptcy-forms" rel="noopener" target="_blank">Official Bankruptcy Forms</a> - Current versions of Form 122A-1, 122A-1Supp, and 122A-2</li>
 </ul>
 
-<h2>Open Bankruptcy Project cross-references</h2>
+<section class="obp-faq" id="faq"><h2>Frequently asked questions</h2><details><summary>What is current monthly income on Form 122A-1?</summary><p>Current monthly income is the average monthly income the debtor received during the six-month period ending on the last day of the calendar month before the petition date, as defined in 11 U.S.C. section 101(10A). Form 122A-1 totals the receipts in each category over that period and divides by six.</p></details><details><summary>Which six months count?</summary><p>The six full calendar months before the month in which the petition is filed. The filing month itself is excluded, so the look-back window shifts by a month depending on whether the case is filed on the last day of a month or the first day of the next.</p></details><details><summary>What income is excluded from current monthly income?</summary><p>Section 101(10A)(B) excludes certain receipts regardless of amount, including benefits received under the Social Security Act, payments to victims of war crimes or terrorism, and certain veterans&#x27; disability and death-related benefits. The form captures these on a deduction line, but the substance is a statutory exclusion.</p></details><details><summary>How does household size change the result?</summary><p>The state median comparison is made against a table indexed by state and household size. Two debtors with identical current monthly income can land on opposite sides of the median line because their household sizes place them on different rows of the table.</p></details><details><summary>What documents will the trustee ask for?</summary><p>Standard requests are the six most recent pay statements for each wage earner, six months of bank statements showing deposits, and profit-and-loss statements for any self-employment income. The trustee uses them to test the figures entered on the form.</p></details><details><summary>Who is exempt from the presumption of abuse regardless of income?</summary><p>Debtors whose debts are primarily non-consumer debts, certain disabled veterans, and reservists or National Guard members called to active duty file Form 122A-1Supp and are not subject to the presumption under section 707(b)(2), whatever their current monthly income.</p></details></section>
+<h2 id="open-bankruptcy-project-cross-references">Open Bankruptcy Project cross-references</h2>
 <ul>
 <li><a href="/means-test-mechanics/">Means Test Mechanics Overview</a></li>
 <li><a href="/means-test-deep-dives/form-122a-2-deductions/">Form 122A-2 Deductions Deep Dive</a></li>
