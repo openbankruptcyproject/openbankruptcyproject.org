@@ -178,9 +178,180 @@ def ch7_main():
 <a class="link-card" href="/exemptions/"><div class="label">Guide</div><h4>Exemptions</h4><p>Federal versus state schemes, and what each protects.</p></a>
 <a class="link-card" href="/states/"><div class="label">Guide</div><h4>Your state</h4><p>Exemption amounts, income limits, and courts by state.</p></a>
 <a class="link-card" href="/chapter-7-vs-13/"><div class="label">Guide</div><h4>Chapter 7 vs Chapter 13</h4><p>Which chapter fits: eligibility, timing, what you keep.</p></a>
+<a class="link-card" href="/chapter-13-guide/"><div class="label">Guide</div><h4>Chapter 13, step by step</h4><p>The repayment plan: who qualifies, how the payment is set, why plans fail.</p></a>
 <a class="link-card" href="/pro-se/"><div class="label">Guide</div><h4>Filing without a lawyer</h4><p>What the court expects from a self-represented filer.</p></a>
 <a class="link-card" href="/forms/"><div class="label">Reference</div><h4>Bankruptcy forms</h4><p>What each Official Form asks for.</p></a>
 <a class="link-card" href="/deadline-calculator/"><div class="label">Tool</div><h4>Deadline calculator</h4><p>Key dates from your petition date.</p></a>
+</div>
+"""
+
+CH13 = {
+    "slug": "chapter-13-guide",
+    "title": "Chapter 13 Bankruptcy: How the Repayment Plan Works, Step by Step [2026]",
+    "h1": "Chapter 13 Bankruptcy: How It Works",
+    "label": "Consumer Guide",
+    "description": (
+        "Chapter 13 bankruptcy explained in plain English: who qualifies, how the three-to-five-year plan is "
+        "built, what it can do that Chapter 7 cannot, the process from filing to discharge, costs, forms, and "
+        "why so many plans fail. Free 501(c)(3) guide, not legal advice."
+    ),
+    "lede": (
+        "Chapter 13 is the repayment chapter for individuals with regular income. Instead of selling property, "
+        "the debtor proposes a plan to pay creditors from future income over three to five years, keeps what "
+        "they own, and receives a discharge when the plan is complete. It is the chapter people use to stop a "
+        "foreclosure and catch up on a mortgage, to keep property Chapter 7 would take, or to pay taxes and "
+        "support arrears on a schedule. It is also the chapter with the highest failure rate, and this page "
+        "explains why."
+    ),
+    "updated": "2026-09-18",
+    "faq": [
+        ("How long does a Chapter 13 plan last?",
+         "Three years if the debtor's household income is below the state median, five years if it is above, "
+         "and never more than five. A below-median debtor can propose a longer plan, up to five years, when a "
+         "shorter one cannot fund the payments the Code requires. The discharge enters only after the last "
+         "plan payment."),
+        ("Who qualifies for Chapter 13?",
+         "An individual, or a married couple, with regular income and debts under the limits in 11 U.S.C. "
+         "section 109(e). Corporations and partnerships cannot file Chapter 13. The debtor must have completed "
+         "credit counseling within 180 days before filing and must have filed federal tax returns for the four "
+         "years before the case. A Chapter 7 discharge in a case filed within the past four years, or a Chapter "
+         "13 discharge within the past two, bars the discharge but not the case itself."),
+        ("How is the monthly payment set?",
+         "By Form 122C. Below-median debtors pay what Schedule I income minus Schedule J expenses leaves each "
+         "month. Above-median debtors pay their disposable income as calculated under the means test expense "
+         "standards. Whatever the number, the plan must pay priority claims such as support and recent taxes in "
+         "full, must cure secured arrears the debtor wants to keep, and must give unsecured creditors at least "
+         "what they would have received in a Chapter 7 liquidation."),
+        ("Can Chapter 13 stop a foreclosure?",
+         "Yes, as long as the case is filed before the foreclosure sale. The automatic stay stops the sale, the "
+         "arrears are spread across the plan, and the regular mortgage payment continues. The lender can ask "
+         "the court to lift the stay if post-filing payments are missed, so the plan only works if the ongoing "
+         "payment is affordable."),
+        ("What does Chapter 13 discharge that Chapter 7 does not?",
+         "The Chapter 13 discharge under section 1328(a) reaches a few debts the Chapter 7 discharge excepts: "
+         "property-settlement obligations from a divorce that are not support, and debts for willful and "
+         "malicious injury to property. It does not reach support, student loans absent undue hardship, "
+         "recent taxes, drunk-driving injury debts, criminal restitution, or long-term debts like a mortgage "
+         "that run past the plan."),
+        ("Why do so many Chapter 13 cases fail?",
+         "Nationally, of Chapter 13 cases that reached termination in the Federal Judicial Center data this "
+         "site uses, 58.3 percent were dismissed and 41.7 percent ended in discharge. The usual causes are a "
+         "plan payment built on an optimistic budget, a job loss or medical event mid-plan, and missed "
+         "trustee payments with no modification filed in time. A dismissed case returns the debtor to where "
+         "they started, minus the payments made."),
+        ("How much does Chapter 13 cost?",
+         "The court filing fee is $313, payable in installments but not waivable. The trustee keeps a "
+         "percentage of each plan payment, set by the United States Trustee for the district and capped at "
+         "ten percent, to fund the trustee's office. Attorney fees are usually paid through the plan rather "
+         "than up front, in amounts many districts set by local rule; every fee must be disclosed to the court."),
+    ],
+}
+
+def ch13_main():
+    return """
+<h2 id="what-it-is">What Chapter 13 is</h2>
+<p>Chapter 13 is a reorganization for an individual with regular income. The debtor keeps all property, proposes a plan to pay creditors out of future income for three to five years, and makes one payment a month to a standing trustee, who distributes it to creditors in the order the plan and the Code set. When the last payment is made, the court enters a discharge of the debts the plan covered. The <a href="/automatic-stay/">automatic stay</a> protects the debtor for the life of the case, and a separate co-debtor stay under § 1301 protects anyone who co-signed a consumer debt.</p>
+<p>The trade is time for control. A Chapter 7 case is over in months and takes any non-exempt property; a Chapter 13 case lasts years and takes none, but every one of those months has a payment in it. The <a href="/chapter-7-vs-13/">comparison guide</a> sets the two side by side. This page covers Chapter 13 on its own terms.</p>
+
+<h2 id="who-qualifies">Who qualifies</h2>
+<ol>
+<li><strong>Individuals only.</strong> Section 109(e) admits individuals, including sole proprietors, with regular income. Corporations, LLCs, and partnerships cannot file Chapter 13; they use Chapter 11 or Chapter 7.</li>
+<li><strong>Debt limits.</strong> Section 109(e) caps the debts a Chapter 13 debtor can carry. The figures are adjusted every three years; as adjusted April 1, 2025, they are $526,700 in noncontingent, liquidated unsecured debt and $1,580,125 in noncontingent, liquidated secured debt. A debtor above either limit looks to Chapter 11, including its Subchapter V.</li>
+<li><strong>Regular income.</strong> Wages, self-employment, retirement, benefits, or support, in any combination steady enough to fund a plan. The court looks at whether the budget is credible, not at the source.</li>
+<li><strong>Tax returns.</strong> Section 1308 requires the debtor to have filed all federal returns for the four tax years before the petition by the day before the meeting of creditors. Unfiled returns are one of the most common reasons a case stalls.</li>
+<li><strong>Credit counseling.</strong> As in every consumer chapter, a briefing from an approved agency within 180 days before filing.</li>
+<li><strong>Prior discharges.</strong> Under § 1328(f), a Chapter 7 discharge in a case filed within four years, or a Chapter 13 discharge in a case filed within two years, bars a discharge in the new case. The case can still be filed to use the stay and cure arrears, but it ends without a discharge. The <a href="/screener/">discharge screener</a> checks the dates.</li>
+</ol>
+
+<h2 id="what-it-does">What Chapter 13 can do that Chapter 7 cannot</h2>
+<ul>
+<li><strong>Cure a mortgage default.</strong> Missed payments are added to the plan and paid over its term while the regular payment resumes; the lender must accept the cure under § 1322(b)(5).</li>
+<li><strong>Keep non-exempt property.</strong> Instead of surrendering property to a trustee, the debtor pays unsecured creditors at least the property's non-exempt value through the plan, the "best interests" test of § 1325(a)(4).</li>
+<li><strong>Reduce some car loans to the car's value.</strong> A vehicle loan taken more than 910 days before filing, or a loan on other personal property taken more than a year before, can be "crammed down" to the collateral's value, with the rest treated as unsecured.</li>
+<li><strong>Remove a wholly unsecured junior mortgage.</strong> Where the home is worth less than the first mortgage, a second mortgage or HELOC can be stripped and paid as unsecured, in the circuits that allow it in Chapter 13.</li>
+<li><strong>Pay taxes and support arrears on a schedule.</strong> Priority claims must be paid in full, but over up to five years and, for most taxes, without further penalties.</li>
+<li><strong>Protect co-signers.</strong> The § 1301 co-debtor stay stops collection against a co-signer of a consumer debt while the plan pays it.</li>
+<li><strong>Discharge a few debts Chapter 7 excepts.</strong> Divorce property-settlement obligations that are not support, and willful and malicious injury to property, are discharged under § 1328(a).</li>
+</ul>
+
+<h2 id="the-plan">How the plan is built</h2>
+<p>The plan is a short document, on Official Form 113 or the district's own form, that says how much the debtor pays each month, for how long, and who gets it. Three rules fix the shape:</p>
+<ol>
+<li><strong>The commitment period.</strong> Form 122C-1 compares household income to the state median. Below the median, the plan runs at least three years; above it, five. Nothing runs past five.</li>
+<li><strong>The payment.</strong> A below-median debtor pays what Schedule I income leaves after Schedule J expenses. An above-median debtor's disposable income is computed on Form 122C-2 using the means-test expense standards, and all of it goes to the plan. The <a href="/means-test-deep-dives/form-122c-chapter-13/">Form 122C deep dive</a> walks the calculation.</li>
+<li><strong>The floors.</strong> Priority claims (support, recent taxes, administrative expenses) are paid in full. Secured creditors whose collateral the debtor keeps receive the arrears cure or the crammed-down value, with interest. Unsecured creditors receive at least what a Chapter 7 liquidation would have paid them, and, if the debtor is above median, all disposable income for the full commitment period. Everything left after those floors is what unsecured creditors actually receive, and in many plans it is a small percentage of what they are owed.</li>
+</ol>
+<div class="callout"><strong>The number that decides everything</strong> is the monthly payment. A plan the debtor cannot actually pay confirms just as easily as one they can, and it fails in month eight instead of month one. The budget on Schedule J should be the real one.</div>
+
+<h2 id="process">The process, step by step</h2>
+<ol>
+<li><strong>Credit counseling</strong> within 180 days before filing.</li>
+<li><strong>Gather the record</strong>: six months of income proof, four years of filed tax returns, every creditor with balance and address, mortgage and vehicle statements showing arrears, and a realistic monthly budget.</li>
+<li><strong>Complete the forms</strong>: the petition and schedules, the statement of financial affairs, Forms 122C-1 and 122C-2, and the plan. The <a href="#forms">forms section</a> lists them.</li>
+<li><strong>File and pay the fee.</strong> The filing fee is $313. It may be paid in installments under Rule 1006 but, unlike Chapter 7, cannot be waived. The plan is due with the petition or within 14 days (Rule 3015(b)).</li>
+<li><strong>The automatic stay begins.</strong> Foreclosure, repossession, garnishment, and collection stop. A repeat filer within a year gets a 30-day stay unless the court extends it on motion.</li>
+<li><strong>The first payment.</strong> Section 1326(a)(1) requires the first plan payment within 30 days of filing, before confirmation and before the meeting of creditors. Missing it is the fastest route to dismissal.</li>
+<li><strong>The meeting of creditors.</strong> Held 21 to 50 days after filing under Rule 2003. The trustee reviews the budget, the plan, and the tax returns, and asks questions under oath.</li>
+<li><strong>Objections and confirmation.</strong> The trustee and creditors may object to the plan. The confirmation hearing is set no earlier than 20 and no later than 45 days after the meeting of creditors (§ 1324). Plans are often amended once or twice before confirmation to satisfy the trustee.</li>
+<li><strong>Payments for 36 to 60 months.</strong> By payroll deduction in many districts, or by the debtor directly. The trustee distributes to creditors, files reports, and watches for missed payments.</li>
+<li><strong>Changes along the way.</strong> A plan can be modified after confirmation under § 1329 when income or expenses change. New debt during the plan needs trustee or court approval. If completing the plan becomes impossible for reasons beyond the debtor's control, a hardship discharge under § 1328(b) may be available.</li>
+<li><strong>Debtor education</strong> at any point before the last payment, certified on Form 423.</li>
+<li><strong>Discharge and closing.</strong> After the final payment, the trustee audits the case, the debtor certifies that support obligations are current, and the court enters the discharge under § 1328(a).</li>
+</ol>
+
+<h2 id="discharge">What is discharged, and what is not</h2>
+<p>The Chapter 13 discharge covers the unsecured debts the plan provided for, whether they were paid in full, in part, or not at all, plus the two categories noted above that Chapter 7 excepts. It does not cover support, student loans absent a finding of undue hardship, taxes for which returns were not filed or that involved fraud, criminal restitution and fines, drunk-driving injury debts, and debts incurred by fraud if the creditor objects. Long-term secured debts that run past the plan, a mortgage above all, survive and continue on their original terms. The <a href="/debt-relief/">debt dischargeability guide</a> goes debt type by debt type.</p>
+
+<h2 id="why-plans-fail">Why plans fail</h2>
+<p>Of Chapter 13 cases that reached termination in the Federal Judicial Center data this site uses, 58.3 percent were dismissed and 41.7 percent ended in discharge. The denominator is cases that reached an outcome, not cases filed. The pattern behind the number is consistent:</p>
+<ul>
+<li>A payment set from a budget that had no room for a car repair, a medical bill, or a month of reduced hours.</li>
+<li>A job change or income loss with no modification filed before payments were missed.</li>
+<li>Tax returns not filed by the meeting of creditors, or a refund the plan required that was spent.</li>
+<li>Post-filing mortgage or car payments missed, giving the lender grounds to lift the stay.</li>
+<li>New debt taken without approval, or a mid-plan sale of property without court permission.</li>
+</ul>
+<p>A dismissed case leaves the debtor where they started, minus the payments made, and with the arrears the plan was curing now larger. Many dismissed cases are refiled; the second case gets a shorter automatic stay unless the court extends it. The <a href="/chapter-13/">Chapter 13 statistics page</a> shows outcomes by district.</p>
+
+<h2 id="costs">Costs</h2>
+<ul>
+<li><strong>Filing fee:</strong> $313, in installments if needed, never waived.</li>
+<li><strong>Trustee commission:</strong> a percentage of every plan payment, set by the United States Trustee for the district and capped at ten percent under 28 U.S.C. § 586(e). It funds the trustee's office and comes out of what creditors receive.</li>
+<li><strong>Attorney fees:</strong> commonly paid through the plan in monthly installments rather than up front. Many districts set a presumptively reasonable flat fee by local rule; a fee above it requires an itemized application. Every payment to counsel must be disclosed to the court, and the <a href="/fee-guide/">fee guide</a> explains how fee applications and reviews work.</li>
+<li><strong>Courses:</strong> the counseling and education courses each carry a small provider fee, waivable for those who cannot pay.</li>
+</ul>
+
+<h2 id="forms">The forms</h2>
+<ul>
+<li><strong>Form 101</strong>, the petition, with Form 121 for the Social Security number.</li>
+<li><strong>Form 106</strong> summary and Schedules A/B through J, and <strong>Form 107</strong>, the statement of financial affairs, as in Chapter 7.</li>
+<li><strong>Forms 122C-1 and 122C-2</strong>, the commitment period and disposable income calculation.</li>
+<li><strong>Form 113</strong>, the national Chapter 13 plan, or the district's local plan form where one is required.</li>
+<li><strong>Tax returns</strong> for the four years before filing, provided to the trustee, and the most recent return to any creditor who asks.</li>
+<li><strong>The creditor matrix</strong>, the counseling certificate, and <strong>Form 423</strong> before discharge.</li>
+<li><strong>Local forms</strong>, which in Chapter 13 often include a payroll deduction order and a trustee questionnaire. The <a href="/forms/">forms reference</a> explains each Official Form.</li>
+</ul>
+
+<h2 id="mistakes">Mistakes that end cases</h2>
+<ul>
+<li>Filing before the last four years of tax returns are in.</li>
+<li>Missing the first payment, which is due within 30 days of filing whether or not the plan is confirmed yet.</li>
+<li>A Schedule J budget written to make the plan confirm rather than to match real spending.</li>
+<li>Letting the ongoing mortgage or car payment slip while the plan cures the old arrears.</li>
+<li>Waiting until payments are already missed to tell anyone that income changed.</li>
+<li>Spending a tax refund or a bonus the plan committed to creditors.</li>
+</ul>
+<div class="callout"><strong>This page is education, not advice.</strong> It describes how the Code and Rules work in general. Whether Chapter 13 fits a particular situation, and what a plan should say, depends on facts this page cannot see. A consultation with a bankruptcy attorney admitted in your district, or a legal aid office, is the place to apply it to your case.</div>
+
+<h2>Related resources</h2><div class="link-grid">
+<a class="link-card" href="/chapter-7-guide/"><div class="label">Guide</div><h4>Chapter 7, step by step</h4><p>The liquidation chapter: who qualifies, the process, what you keep.</p></a>
+<a class="link-card" href="/chapter-7-vs-13/"><div class="label">Guide</div><h4>Chapter 7 vs Chapter 13</h4><p>Which chapter fits: eligibility, timing, what you keep.</p></a>
+<a class="link-card" href="/means-test-deep-dives/form-122c-chapter-13/"><div class="label">Deep dive</div><h4>Form 122C</h4><p>Commitment period and disposable income, line by line.</p></a>
+<a class="link-card" href="/screener/"><div class="label">Tool</div><h4>Discharge screener</h4><p>Check the four-year and two-year bars before filing.</p></a>
+<a class="link-card" href="/automatic-stay/"><div class="label">Guide</div><h4>The automatic stay</h4><p>What stops on filing, and what does not.</p></a>
+<a class="link-card" href="/chapter-13/"><div class="label">Data</div><h4>Chapter 13 outcomes by district</h4><p>Dismissal and discharge rates from the FJC data.</p></a>
+<a class="link-card" href="/fee-guide/"><div class="label">Guide</div><h4>Fees and fee review</h4><p>Filing fees, attorney fees, and how the court reviews them.</p></a>
+<a class="link-card" href="/forms/"><div class="label">Reference</div><h4>Bankruptcy forms</h4><p>What each Official Form asks for.</p></a>
 </div>
 """
 
@@ -235,14 +406,15 @@ def build(page, main_html):
     return t
 
 def main():
-    out = build(CH7, ch7_main())
-    if "--check" in sys.argv:
-        sys.stdout.write(out[:3000]); return
-    d = os.path.join(ROOT, CH7["slug"]); os.makedirs(d, exist_ok=True)
-    p = os.path.join(d, "index.html")
-    open(p, "w", encoding="utf-8", newline="\n").write(out)
-    words = len(re.sub(r"<[^>]+>", " ", re.sub(r"<script.*?</script>|<style.*?</style>", " ", out, flags=re.S)).split())
-    print("wrote", p, len(out), "bytes,", words, "words")
+    for page, body in ((CH7, ch7_main()), (CH13, ch13_main())):
+        out = build(page, body)
+        if "--check" in sys.argv:
+            sys.stdout.write(out[:1500]); continue
+        d = os.path.join(ROOT, page["slug"]); os.makedirs(d, exist_ok=True)
+        p = os.path.join(d, "index.html")
+        open(p, "w", encoding="utf-8", newline="\n").write(out)
+        words = len(re.sub(r"<[^>]+>", " ", re.sub(r"<script.*?</script>|<style.*?</style>", " ", out, flags=re.S)).split())
+        print("wrote", p, len(out), "bytes,", words, "words")
 
 if __name__ == "__main__":
     main()
