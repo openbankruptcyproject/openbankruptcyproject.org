@@ -4585,12 +4585,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://openbankruptcyproject.org/trustees/ksb/robbin-messerli/</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://openbankruptcyproject.org/trustees/ksb/stephen-e-robison/</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -6674,12 +6668,6 @@
   </url>
   <url>
     <loc>https://openbankruptcyproject.org/trustees/mowb/richard-v-fink/</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://openbankruptcyproject.org/trustees/mowb/robbin-messerli/</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
