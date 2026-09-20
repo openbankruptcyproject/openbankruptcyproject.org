@@ -279,7 +279,7 @@ form.addEventListener('submit',function(e){
   render(state,hh,sixtot);
   if(typeof gtag==='function'){
     var median=medianFor(state,hh),annual=(sixtot/6)*12;
-    gtag('event','generate_lead',{event_category:'tool',event_label:'means_test_calculator',state:state});
+    gtag('event','calculator_used',{event_category:'tool',event_label:'means_test_calculator',state:state});
     gtag('event','means_test_calculate',{state:state,household:hh,below_median:annual<=median});
   }
   document.getElementById('results').scrollIntoView({behavior:'smooth',block:'start'});

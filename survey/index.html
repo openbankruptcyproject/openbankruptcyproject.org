@@ -631,11 +631,13 @@
   var errorEl = document.getElementById('formError');
   var thankYou = document.getElementById('thankYou');
 
-  // DEPLOYMENT: After deploying the Google Apps Script as a web app,
-  // paste the URL here. It will look like:
-  // https://script.google.com/macros/s/AKfycbx.../exec
-  // See scripts/obp_survey_apps_script.js for full setup instructions.
-  var ENDPOINT = 'https://script.google.com/macros/s/PLACEHOLDER/exec';
+  // Intake endpoint: Cloudflare Worker `obp-survey-intake` (source:
+  // D:\Bankruptcy\cloudflare\survey-intake). Stores each report in the
+  // obp-search D1 table `survey_reports` and returns JSON {ok:true,id}.
+  var ENDPOINT = 'https://obp-survey-intake.openbankruptcyproject.workers.dev/submit';
+  var FALLBACK_HTML = 'Our intake form could not accept your report just now. ' +
+    'Please email it to <a href="mailto:info@openbankruptcyproject.org">info@openbankruptcyproject.org</a> ' +
+    'and we will follow up. We are sorry for the inconvenience.';
 
   form.addEventListener('submit', function(e) {
     e.preventDefault();
@@ -665,29 +667,10 @@
       return;
     }
 
-    // Intake endpoint not yet deployed: do NOT fake success. A no-cors POST to
-    // the placeholder resolves "successfully", which would show the thank-you
-    // screen + fire the conversion while the report silently vanishes. Until the
-    // real Apps Script /exec URL is pasted into ENDPOINT, fail honestly so the
-    // user can reach us another way (and we don't record a phantom conversion).
-    if (ENDPOINT.indexOf('PLACEHOLDER') !== -1) {
-      errorEl.innerHTML = 'Our intake form is being set up and cannot accept submissions yet. ' +
-        'Please email your report to <a href="mailto:info@openbankruptcyproject.org">info@openbankruptcyproject.org</a> ' +
-        'and we will follow up. We are sorry for the inconvenience.';
-      errorEl.style.display = 'block';
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      return;
-    }
-
     btn.disabled = true;
     btn.textContent = 'Submitting...';
 
-    // Field names here must match the Apps Script mapping in obp_survey_apps_script.js.
-    // Apps Script columns:
-    //   timestamp (server-side), full_name, case_number, court_district, attorney_name,
-    //   law_firm, case_outcome, communication_rating, competence_rating, aware_of_errors,
-    //   experience_description, informed_of_options, willing_declaration, willing_journalist,
-    //   email, phone
+    // Field names here must match the Worker's column mapping (survey-intake/src/index.js).
     var data = {
       fullName: name,
       caseNumber: form.caseNumber.value.trim(),
@@ -706,15 +689,29 @@
       phone: form.phone.value.trim()
     };
 
-    // mode: 'no-cors' because the Apps Script web app does not support
-    // custom CORS headers. The POST still arrives and gets processed;
-    // we just can't read the response body. The form shows the thank-you
-    // screen on any non-error fetch completion.
+    // The Worker answers with CORS headers, so the response is readable:
+    // the thank-you screen and the conversion events fire ONLY on a 2xx with
+    // {ok:true}. Anything else (network failure, Worker down, validation
+    // rejection) falls through to the honest email fallback. Never fake success.
+    function fail(msg) {
+      errorEl.innerHTML = msg || FALLBACK_HTML;
+      errorEl.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = 'Submit Survey';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
     fetch(ENDPOINT, {
       method: 'POST',
-      mode: 'no-cors',
+      mode: 'cors',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
+    }).then(function(res) {
+      return res.json().catch(function() { return {}; }).then(function(body) {
+        if (!res.ok || !body || body.ok !== true) {
+          throw new Error(body && body.error ? body.error : ('HTTP ' + res.status));
+        }
+        return body;
+      });
     }).then(function() {
       form.style.display = 'none';
       thankYou.style.display = 'block';
@@ -733,10 +730,7 @@
         gtag('event', 'generate_lead', conv);
       }
     }).catch(function() {
-      errorEl.textContent = 'There was a problem submitting the form. Please try again.';
-      errorEl.style.display = 'block';
-      btn.disabled = false;
-      btn.textContent = 'Submit Survey';
+      fail();
     });
   });
 })();
