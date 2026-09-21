@@ -954,9 +954,9 @@ gtag('js',new Date());gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F'
       state:f.querySelector('[name=state]').value,
       message:f.querySelector('[name=message]').value,
       topic:'Site Question ('+f.querySelector('[name=source]').value+')'};
-    fetch('https://script.google.com/macros/s/AKfycbwSILiwrhpiognHpMEws-j7Yc-aySqk3vDkCXFmNe-hA-tHrzGC6qid7f6ZqBy3n9sqiQ/exec',{method:'POST',body:JSON.stringify(d)})
+    fetch('https://script.google.com/macros/s/AKfycbwSILiwrhpiognHpMEws-j7Yc-aySqk3vDkCXFmNe-hA-tHrzGC6qid7f6ZqBy3n9sqiQ/exec',{method:'POST',mode:'no-cors',body:JSON.stringify(d)})
     .then(function(){try{if(typeof gtag==='function'){gtag('event','generate_lead',{form_id:'obp-help-submit',source:d.topic,value:1});}}catch(_){};f.style.display='none';document.getElementById('obp-help-thanks').style.display='block'})
-    .catch(function(){try{if(typeof gtag==='function'){gtag('event','generate_lead',{form_id:'obp-help-submit',source:d.topic,value:1,outcome:'fetch_error'});}}catch(_){};f.style.display='none';document.getElementById('obp-help-thanks').style.display='block'});
+    .catch(function(){b.disabled=false;b.textContent='Send';var t=document.getElementById('obp-help-thanks');t.style.color='#f85149';t.innerHTML='We could not send that just now. Please email <a href="mailto:info@openbankruptcyproject.org" style="color:#f85149;text-decoration:underline">info@openbankruptcyproject.org</a>.';t.style.display='block';});
   });
   </script>
 </div>
@@ -1113,9 +1113,9 @@ gtag('js',new Date());gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F'
       var d={email:f.querySelector('[name=email]').value,
         topic:'Email Signup ('+f.querySelector('[name=source]').value+')',
         name:'',message:'Newsletter signup'};
-      fetch('https://script.google.com/macros/s/AKfycbwSILiwrhpiognHpMEws-j7Yc-aySqk3vDkCXFmNe-hA-tHrzGC6qid7f6ZqBy3n9sqiQ/exec',{method:'POST',body:JSON.stringify(d)})
+      fetch('https://script.google.com/macros/s/AKfycbwSILiwrhpiognHpMEws-j7Yc-aySqk3vDkCXFmNe-hA-tHrzGC6qid7f6ZqBy3n9sqiQ/exec',{method:'POST',mode:'no-cors',body:JSON.stringify(d)})
       .then(function(){try{if(typeof gtag==='function'){gtag('event','subscribe',{form_id:'obp-signup-form',source:d.topic,value:1});}}catch(_){};f.style.display='none';document.getElementById('obp-signup-thanks').style.display='block'})
-      .catch(function(){try{if(typeof gtag==='function'){gtag('event','subscribe',{form_id:'obp-signup-form',source:d.topic,value:1,outcome:'fetch_error'});}}catch(_){};f.style.display='none';document.getElementById('obp-signup-thanks').style.display='block'});
+      .catch(function(){btn.disabled=false;btn.textContent='Subscribe';var t=document.getElementById('obp-signup-thanks');t.style.color='#f85149';t.innerHTML='We could not sign you up just now. Please email <a href="mailto:info@openbankruptcyproject.org" style="color:#f85149;text-decoration:underline">info@openbankruptcyproject.org</a>.';t.style.display='block';});
     });
   })();
   </script>

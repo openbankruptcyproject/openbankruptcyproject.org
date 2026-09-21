@@ -256,7 +256,7 @@ form.addEventListener('submit',function(e){
   var rows=computeDeadlines(input);
   render(rows,{chapter:chapter,petition:petition,m341:input.firstMeeting});
   if(typeof gtag==='function'){
-    gtag('event','generate_lead',{event_category:'tool',event_label:'deadline_calculator',chapter:chapter});
+    gtag('event','calculator_used',{event_category:'tool',event_label:'deadline_calculator',chapter:chapter});
     gtag('event','deadline_calculate',{chapter:chapter,has_341:!!input.firstMeeting});
   }
   document.getElementById('results').scrollIntoView({behavior:'smooth',block:'start'});

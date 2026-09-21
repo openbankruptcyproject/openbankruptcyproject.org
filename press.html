@@ -338,9 +338,9 @@ document.getElementById('obp-press-form').addEventListener('submit',function(e){
   var f=this,b=f.querySelector('button[type=submit]');
   b.disabled=true;b.textContent='Sending...';
   var d={name:f.querySelector('[name=name]').value,email:f.querySelector('[name=email]').value,state:'',message:f.querySelector('[name=message]').value,topic:'Press Inquiry ('+f.querySelector('[name=source]').value+')'};
-  fetch('https://script.google.com/macros/s/AKfycbwSILiwrhpiognHpMEws-j7Yc-aySqk3vDkCXFmNe-hA-tHrzGC6qid7f6ZqBy3n9sqiQ/exec',{method:'POST',body:JSON.stringify(d)})
+  fetch('https://script.google.com/macros/s/AKfycbwSILiwrhpiognHpMEws-j7Yc-aySqk3vDkCXFmNe-hA-tHrzGC6qid7f6ZqBy3n9sqiQ/exec',{method:'POST',mode:'no-cors',body:JSON.stringify(d)})
   .then(function(){try{if(typeof gtag==='function'){gtag('event','generate_lead',{form_id:'obp-press-form',source:d.topic,value:1});}}catch(_){};f.style.display='none';document.getElementById('obp-press-thanks').style.display='block';})
-  .catch(function(){try{if(typeof gtag==='function'){gtag('event','generate_lead',{form_id:'obp-press-form',source:d.topic,value:1,outcome:'fetch_error'});}}catch(_){};b.disabled=false;b.textContent='Send Press Inquiry';document.getElementById('obp-press-error').style.display='block';});
+  .catch(function(){b.disabled=false;b.textContent='Send Press Inquiry';document.getElementById('obp-press-error').style.display='block';});
 });
 </script>
 </div>
