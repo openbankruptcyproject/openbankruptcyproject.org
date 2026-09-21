@@ -228,6 +228,9 @@ gtag('js',new Date());gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F'
         <h2>Contact Form</h2>
         <p>When you submit our contact form, we receive your name, email address, topic selection, and message. This data is processed through Google Apps Script and delivered to our Gmail inbox. We do not share, sell, or distribute contact form submissions to any third party.</p>
 
+        <h2>Attorney Accountability Survey</h2>
+        <p>When you submit the attorney accountability survey, we receive the fields you fill in: your name, case number, court, attorney and firm names, your ratings and answers, your description of your experience, and, if you choose to provide them, your email address and phone number. Submissions are received by an Open Bankruptcy Project service hosted on Cloudflare and stored in a Cloudflare D1 database accessible only to project administrators, together with the request's approximate geographic region and user-agent string. The form is protected by Cloudflare Turnstile, which checks that the submission comes from a person rather than an automated script. We use survey submissions only for the accountability research described on the survey page and to follow up with you if you said we may. We do not share, sell, or distribute survey submissions to any third party, and we do not share them with attorneys, law firms, or legal service providers.</p>
+
         <h2>Email Subscriptions</h2>
         <p>Some sites in our network include an optional email subscription form (powered by Formspree). Subscribing requires only an email address. We use this solely to send research updates. You can unsubscribe at any time.</p>
 
@@ -246,7 +249,8 @@ gtag('js',new Date());gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F'
             <li><strong>Formspree</strong> - email subscriptions</li>
             <li><strong>GitHub Sponsors</strong> - donations (processed entirely on GitHub's platform)</li>
             <li><strong>GitHub Pages</strong> - hosting</li>
-            <li><strong>Cloudflare Workers + D1</strong> - search service (query handling + audit log of queries + request context)</li>
+            <li><strong>Cloudflare Workers + D1</strong> - search service (query handling + audit log of queries + request context) and attorney accountability survey intake (submission storage)</li>
+            <li><strong>Cloudflare Turnstile</strong> - bot check on the attorney accountability survey</li>
         </ul>
         <p><em>We do NOT use Google Signals, Google Ads integration, User-ID collection, or any cross-device tracking feature. Google Analytics operates in aggregate-traffic-measurement mode only.</em></p>
 

@@ -577,6 +577,11 @@
 
             <p id="formError" class="error-msg" style="margin-bottom:8px; text-align:center;"></p>
 
+            <!-- Cloudflare Turnstile: bot check before a report can be stored. The
+                 Worker re-verifies the token server-side. -->
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAAE-Te29Hk-sLv06F" data-theme="dark" style="margin:0 auto 12px; display:flex; justify-content:center;"></div>
+            <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
             <button type="submit" class="btn-submit" id="submitBtn">Submit Survey</button>
 
         </form>
@@ -667,6 +672,14 @@
       return;
     }
 
+    var tsField = form.querySelector('input[name="cf-turnstile-response"]');
+    var tsToken = tsField ? tsField.value : '';
+    if (!tsToken) {
+      errorEl.textContent = 'Please wait for the verification check below the form to finish, then submit again.';
+      errorEl.style.display = 'block';
+      return;
+    }
+
     btn.disabled = true;
     btn.textContent = 'Submitting...';
 
@@ -686,7 +699,8 @@
       declaration: (form.querySelector('input[name="declaration"]:checked') || {}).value || '',
       journalist: (form.querySelector('input[name="journalist"]:checked') || {}).value || '',
       email: form.email.value.trim(),
-      phone: form.phone.value.trim()
+      phone: form.phone.value.trim(),
+      turnstileToken: tsToken
     };
 
     // The Worker answers with CORS headers, so the response is readable:
@@ -698,6 +712,10 @@
       errorEl.style.display = 'block';
       btn.disabled = false;
       btn.textContent = 'Submit Survey';
+      // A Turnstile token is single-use; issue a fresh one for the retry.
+      if (window.turnstile && typeof window.turnstile.reset === 'function') {
+        try { window.turnstile.reset(); } catch (e) {}
+      }
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     fetch(ENDPOINT, {
