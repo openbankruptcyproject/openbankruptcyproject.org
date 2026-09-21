@@ -1,6 +1,6 @@
 # Open Bankruptcy Project
 
-> Last updated: 2026-06-27
+> Last updated: 2026-09-20
 
 > Empirical research and free tools for bankruptcy court transparency.
 
@@ -13,7 +13,7 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a
 - Provide free, no-login tools: case lookup, the Chapter 7 means test, a bankruptcy deadline calculator, and discharge-eligibility screening (Sections 1328(f), 727(a)(8), 109(g))
 - Operate an educational network of plain-language bankruptcy resources across six languages
 - Advocate for federal rules changes -- two Advisory Committee suggestions docketed (26-BK-3, 26-BK-5)
-- Publish 49,000+ pages of free educational content (English + Spanish + German + Polish + French + Italian)
+- Publish free educational content across 153 live domains (English + Spanish + German + Polish + French + Italian); this site lists 2,512 pages in its sitemaps
 
 ## Key Statistics
 
@@ -22,7 +22,7 @@ The Open Bankruptcy Project is a 501(c)(3) nonprofit organization. It operates a
 - 5,097,521 cases screened for statutory compliance failures
 - 392,412 prior filers identified with zero eligibility verification
 - National dismissal rate 58.3%; discharge rate 41.7%; prior-filer rate 33.2% (FJC 2008-2025)
-- 210+ domains, 49,000+ pages, 6 languages
+- 153 live domains (inventory 2026-08-22); 2,512 pages in this site's sitemaps; 6 languages
 - 2 Federal Rules Advisory Committee suggestions docketed (26-BK-3, 26-BK-5)
 - 501(c)(3) public charity, EIN 41-5159631 -- $0 cost to users
 
