@@ -111,6 +111,17 @@
 }
 </script>
 <style id="btn-a11y">:where(p,li,dd,td,th,blockquote,h1,h2,h3,h4,h5,h6,figcaption,small) a{text-decoration:underline}</style>
+<style id="obp-dl">
+  .dl-box { background:#0d2847; border:1px solid #1f6feb; border-radius:8px; padding:1.25rem 1.5rem; margin:1.5rem 0; }
+  .dl-btn { display:inline-block; background:var(--green); color:#fff; font-weight:700; padding:0.7rem 1.3rem; border-radius:6px; text-decoration:none; }
+  .dl-btn:hover { background:#2ea043; color:#fff; text-decoration:none; }
+  .dl-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:0.5rem; }
+  .dl-grid .dl-btn { font-size:0.9rem; padding:0.6rem 0.9rem; }
+  .dl-meta { color:var(--text-muted); font-size:0.88rem; margin:0.6rem 0 0; }
+  .dl-local { color:var(--text); font-size:0.92rem; margin:0.6rem 0 0; }
+  .faq dt { color:#f0f6fc; font-weight:700; margin-top:1rem; }
+  .faq dd { margin:0.25rem 0 0.75rem; }
+</style>
 </head>
 <body>
 <nav aria-label="Main navigation">
@@ -124,6 +135,13 @@
 <span class="tag">B101</span>
 <h1>Form B101: Voluntary Petition for Individuals Filing for Bankruptcy</h1>
 <p class="subtitle">The opening document of an individual bankruptcy case, with required variants B101A (Initial Statement About Eviction Judgment) and B101B (Statement About Payment of Eviction Judgment).</p>
+<div class="dl-box">
+<div>
+<a class="dl-btn" href="https://www.uscourts.gov/sites/default/files/form_b_101_0624_fillable_clean.pdf" data-form-id="101" rel="noopener" target="_blank">Download Official Form 101 (PDF, uscourts.gov)</a>
+</div>
+<p class="dl-meta">Current version: effective June 22, 2024, from uscourts.gov. <a href="https://www.uscourts.gov/forms-rules/forms/voluntary-petition-individuals-filing-bankruptcy" rel="noopener" target="_blank">Official form page</a>.</p>
+<p class="dl-local"><strong>Your court may also require local forms. Check your bankruptcy court's website before filing.</strong></p>
+</div>
 
 <h2>Purpose and statutory authority</h2>
 <p>Official Form B101 is the Voluntary Petition that an individual files to commence a case under <a href="https://www.law.cornell.edu/uscode/text/11/301" rel="noopener" target="_blank">11 U.S.C. Section 301</a>. The filing of the petition is the act that creates the bankruptcy estate under <a href="https://www.law.cornell.edu/uscode/text/11/541" rel="noopener" target="_blank">11 U.S.C. Section 541</a> and triggers the automatic stay under <a href="https://www.law.cornell.edu/uscode/text/11/362" rel="noopener" target="_blank">11 U.S.C. Section 362</a>. The form is promulgated under the rulemaking authority of <a href="https://www.law.cornell.edu/uscode/text/28/2075" rel="noopener" target="_blank">28 U.S.C. Section 2075</a> and the Federal Rules of Bankruptcy Procedure, and is prescribed by the Judicial Conference of the United States.</p>
@@ -221,5 +239,6 @@
 <p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
 </footer>
 <!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
 </body>
 </html>

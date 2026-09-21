@@ -135,10 +135,23 @@
     }
   });
 
+  // 6b. Official form downloads -- any a[data-form-id] (uscourts.gov PDFs on /forms/ pages).
+  // Fires form_download only; the file_download and complaint_link_click handlers below skip these links.
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest('a[data-form-id]');
+    if (!a) return;
+    gtag('event', 'form_download', {
+      form_id: a.getAttribute('data-form-id'),
+      page_path: path,
+      link_url: (a.href || '').substring(0, 200)
+    });
+  });
+
   // 7. PDF / file download tracking
   document.addEventListener('click', function(e) {
     var a = e.target.closest('a[href]');
     if (!a) return;
+    if (a.hasAttribute('data-form-id')) return; // counted as form_download (6b)
     var href = a.href || '';
     if (/\.(pdf|doc|docx|xls|xlsx|csv|zip)(\?|$)/i.test(href)) {
       gtag('event', 'file_download', {
@@ -237,6 +250,7 @@
     // (state bars, OCDC, the U.S. Trustee Program, the federal courts) or an explicit
     // data-complaint attribute. Link text is not consulted.
     var COMPLAINT_ALLOW = /^https?:\/\/([a-z0-9-]+\.)*(justice\.gov\/ust|usdoj\.gov\/ust|uscourts\.gov|ocdc\.[a-z]+|mo-legal-ethics\.org|iardc\.org|[a-z-]*bar\.(org|com|net|gov)|[a-z-]*bar\.[a-z]{2}\.(gov|us)|attorneydiscipline\.[a-z]+|lawyerdiscipline\.[a-z]+)/i;
+    if (a.hasAttribute('data-form-id')) return; // official form download, not a regulator link (6b)
     if (a.hasAttribute('data-complaint') || COMPLAINT_ALLOW.test(href)) {
       gtag('event', 'complaint_link_click', {
         destination: href.substring(0, 100),

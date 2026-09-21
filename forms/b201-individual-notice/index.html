@@ -111,6 +111,17 @@
 }
 </script>
 <style id="btn-a11y">:where(p,li,dd,td,th,blockquote,h1,h2,h3,h4,h5,h6,figcaption,small) a{text-decoration:underline}</style>
+<style id="obp-dl">
+  .dl-box { background:#0d2847; border:1px solid #1f6feb; border-radius:8px; padding:1.25rem 1.5rem; margin:1.5rem 0; }
+  .dl-btn { display:inline-block; background:var(--green); color:#fff; font-weight:700; padding:0.7rem 1.3rem; border-radius:6px; text-decoration:none; }
+  .dl-btn:hover { background:#2ea043; color:#fff; text-decoration:none; }
+  .dl-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:0.5rem; }
+  .dl-grid .dl-btn { font-size:0.9rem; padding:0.6rem 0.9rem; }
+  .dl-meta { color:var(--text-muted); font-size:0.88rem; margin:0.6rem 0 0; }
+  .dl-local { color:var(--text); font-size:0.92rem; margin:0.6rem 0 0; }
+  .faq dt { color:#f0f6fc; font-weight:700; margin-top:1rem; }
+  .faq dd { margin:0.25rem 0 0.75rem; }
+</style>
 </head>
 <body>
 <nav aria-label="Main navigation">
@@ -124,6 +135,13 @@
 <span class="tag">B201A</span>
 <h1>Form B201A: Notice Required by 11 U.S.C. Section 342(b) for Individuals Filing for Bankruptcy</h1>
 <p class="subtitle">The mandatory written notice that must be given to a consumer debtor before the petition is filed, summarizing the chapters and the consequences of bankruptcy.</p>
+<div class="dl-box">
+<div>
+<a class="dl-btn" href="https://www.uscourts.gov/sites/default/files/form_b2010.pdf" data-form-id="2010" rel="noopener" target="_blank">Download Form 2010, the Section 342(b) Notice (PDF, uscourts.gov)</a>
+</div>
+<p class="dl-meta">uscourts.gov lists this notice as Director's Form B 2010, derived from Form 201A. Current version: effective December 1, 2020, from uscourts.gov. <a href="https://www.uscourts.gov/forms-rules/forms/notice-required-11-usc-ss-342b-individuals-filing-bankruptcy" rel="noopener" target="_blank">Official form page</a>.</p>
+<p class="dl-local"><strong>Your court may also require local forms. Check your bankruptcy court's website before filing.</strong></p>
+</div>
 
 <h2>Purpose and statutory authority</h2>
 <p>Official Form B201A is the standardized written notice that <a href="https://www.law.cornell.edu/uscode/text/11/342" rel="noopener" target="_blank">11 U.S.C. Section 342(b)</a> requires a clerk of court (and, when an attorney is involved, the attorney) to give to an individual consumer debtor before a petition is filed. The notice describes the four chapters under which an individual may file, summarizes the services available from credit-counseling agencies, advises about debt-relief-agency disclosures, and warns about bankruptcy crimes under <a href="https://www.law.cornell.edu/uscode/text/18/152" rel="noopener" target="_blank">18 U.S.C. Section 152</a> and related provisions.</p>
@@ -171,7 +189,7 @@
 <ul>
 <li><strong>Notice not given pre-filing.</strong> Where the debtor is represented, the attorney's intake checklist should document delivery of B201A before petition signature.</li>
 <li><strong>Acknowledgment box on B101 left unchecked.</strong> An incomplete acknowledgment on the petition produces a clerk's deficiency notice and may delay docketing.</li>
-<li><strong>Wrong notice used for non-consumer-debt debtor.</strong> An individual whose debts are primarily non-consumer is not strictly subject to Section 342(b), but most practitioners deliver the notice anyway to support a clean record.</li>
+<li><strong>Wrong notice used for non-consumer-debt debtor.</strong> Section 342(b) by its terms covers an individual whose debts are primarily consumer debts. Many practitioners still deliver the notice to a debtor with primarily non-consumer debts to support a clean record.</li>
 </ul>
 
 <h2>Related rules and forms</h2>
@@ -207,5 +225,6 @@
 <p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
 </footer>
 <!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
 </body>
 </html>

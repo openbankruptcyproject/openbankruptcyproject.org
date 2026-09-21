@@ -111,6 +111,17 @@
 }
 </script>
 <style id="btn-a11y">:where(p,li,dd,td,th,blockquote,h1,h2,h3,h4,h5,h6,figcaption,small) a{text-decoration:underline}</style>
+<style id="obp-dl">
+  .dl-box { background:#0d2847; border:1px solid #1f6feb; border-radius:8px; padding:1.25rem 1.5rem; margin:1.5rem 0; }
+  .dl-btn { display:inline-block; background:var(--green); color:#fff; font-weight:700; padding:0.7rem 1.3rem; border-radius:6px; text-decoration:none; }
+  .dl-btn:hover { background:#2ea043; color:#fff; text-decoration:none; }
+  .dl-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:0.5rem; }
+  .dl-grid .dl-btn { font-size:0.9rem; padding:0.6rem 0.9rem; }
+  .dl-meta { color:var(--text-muted); font-size:0.88rem; margin:0.6rem 0 0; }
+  .dl-local { color:var(--text); font-size:0.92rem; margin:0.6rem 0 0; }
+  .faq dt { color:#f0f6fc; font-weight:700; margin-top:1rem; }
+  .faq dd { margin:0.25rem 0 0.75rem; }
+</style>
 </head>
 <body>
 <nav aria-label="Main navigation">
@@ -124,6 +135,13 @@
 <span class="tag">B121</span>
 <h1>Form B121: Statement About Your Social Security Numbers</h1>
 <p class="subtitle">The non-public form that carries the debtor's full SSN or ITIN, used by the court for identity verification and creditor notice while keeping the number off the public docket.</p>
+<div class="dl-box">
+<div>
+<a class="dl-btn" href="https://www.uscourts.gov/sites/default/files/form_b121.pdf" data-form-id="121" rel="noopener" target="_blank">Download Official Form 121 (PDF, uscourts.gov)</a>
+</div>
+<p class="dl-meta">Current version: effective December 1, 2015, from uscourts.gov. <a href="https://www.uscourts.gov/forms-rules/forms/your-statement-about-your-social-security-numbers" rel="noopener" target="_blank">Official form page</a>.</p>
+<p class="dl-local"><strong>Your court may also require local forms. Check your bankruptcy court's website before filing.</strong></p>
+</div>
 
 <h2>Purpose and statutory authority</h2>
 <p>Official Form B121 is the means by which an individual debtor provides the court with the debtor's full Social Security Number (or Individual Taxpayer Identification Number, or statement that no SSN/ITIN has been issued). The form supports identity verification by the trustee, accurate creditor notice, and credit-bureau reporting of the bankruptcy filing. It is treated as a non-public record under <a href="https://www.law.cornell.edu/rules/frbp/rule_1007" rel="noopener" target="_blank">Fed. R. Bankr. P. 1007(f)</a> and is not posted to the public docket on PACER.</p>
@@ -190,5 +208,6 @@
 <p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
 </footer>
 <!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
 </body>
 </html>

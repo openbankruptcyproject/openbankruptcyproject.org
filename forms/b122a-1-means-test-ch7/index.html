@@ -111,6 +111,17 @@
 }
 </script>
 <style id="btn-a11y">:where(p,li,dd,td,th,blockquote,h1,h2,h3,h4,h5,h6,figcaption,small) a{text-decoration:underline}</style>
+<style id="obp-dl">
+  .dl-box { background:#0d2847; border:1px solid #1f6feb; border-radius:8px; padding:1.25rem 1.5rem; margin:1.5rem 0; }
+  .dl-btn { display:inline-block; background:var(--green); color:#fff; font-weight:700; padding:0.7rem 1.3rem; border-radius:6px; text-decoration:none; }
+  .dl-btn:hover { background:#2ea043; color:#fff; text-decoration:none; }
+  .dl-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:0.5rem; }
+  .dl-grid .dl-btn { font-size:0.9rem; padding:0.6rem 0.9rem; }
+  .dl-meta { color:var(--text-muted); font-size:0.88rem; margin:0.6rem 0 0; }
+  .dl-local { color:var(--text); font-size:0.92rem; margin:0.6rem 0 0; }
+  .faq dt { color:#f0f6fc; font-weight:700; margin-top:1rem; }
+  .faq dd { margin:0.25rem 0 0.75rem; }
+</style>
 </head>
 <body>
 <nav aria-label="Main navigation">
@@ -124,6 +135,14 @@
 <span class="tag">B122A-1</span>
 <h1>Form B122A-1: Chapter 7 Statement of Your Current Monthly Income</h1>
 <p class="subtitle">The means-test entry point: compute current monthly income, annualize, and compare to the state median to determine whether Form B122A-2 must also be filed.</p>
+<div class="dl-box">
+<div>
+<a class="dl-btn" href="https://www.uscourts.gov/sites/default/files/b_122a-1.pdf" data-form-id="122A-1" rel="noopener" target="_blank">Download Official Form 122A-1 (PDF, uscourts.gov)</a>
+<a class="dl-btn" href="https://www.uscourts.gov/sites/default/files/form_b122a-1supp.pdf" data-form-id="122A-1Supp" rel="noopener" target="_blank">Download Official Form 122A-1Supp (PDF, uscourts.gov)</a>
+</div>
+<p class="dl-meta">Current versions, from uscourts.gov: Form 122A-1 effective December 1, 2019; Form 122A-1Supp effective December 1, 2015. <a href="https://www.uscourts.gov/forms-rules/forms/chapter-7-statement-your-current-monthly-income-0" rel="noopener" target="_blank">Official form page</a>. Filers whose income is above the state median also file <a href="/forms/b122a-2-means-test-calculation/">Form 122A-2</a>.</p>
+<p class="dl-local"><strong>Your court may also require local forms. Check your bankruptcy court's website before filing.</strong></p>
+</div>
 
 <h2>Purpose and statutory authority</h2>
 <p>Official Form B122A-1 implements the income-side calculation of the Chapter 7 means test under <a href="https://www.law.cornell.edu/uscode/text/11/707" rel="noopener" target="_blank">11 U.S.C. Section 707(b)(2)</a> and the definition of "current monthly income" in <a href="https://www.law.cornell.edu/uscode/text/11/101" rel="noopener" target="_blank">Section 101(10A)</a>. The form computes the debtor's average monthly income from all sources during the six full calendar months preceding the filing month, annualizes the figure, and compares it to the median family income for the debtor's household size in the debtor's state of residence (as published by the United States Trustee Program).</p>
@@ -194,5 +213,6 @@
 <p style="margin-top:0.5rem"><a href="https://openbankruptcyproject.org/privacy.html" style="color:#7d8590">Privacy</a> | <a href="https://openbankruptcyproject.org/terms.html" style="color:#7d8590">Terms</a> | <a href="https://openbankruptcyproject.org" style="color:#7d8590">Open Bankruptcy Project</a></p>
 </footer>
 <!-- BTN:FOOTER:END -->
+<script defer="" src="/btn-engage.js"></script>
 </body>
 </html>
