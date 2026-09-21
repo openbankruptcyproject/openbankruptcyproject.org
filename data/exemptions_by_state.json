@@ -1782,22 +1782,22 @@
    "federal_exemptions_allowed": true,
    "opt_out_statute": null,
    "opt_out_source_url": "https://www.hib.uscourts.gov/court-info/faq/debtor",
-   "doubling": null,
-   "doubling_note": "HRS §§ 651-92 and 651-121 are silent on joint filers; § 651-92 allows only one homestead exemption per parcel regardless of how many residents.",
-   "doubling_source_url": "https://codes.findlaw.com/hi/division-4-courts-and-judicial-proceedings/hi-rev-st-sect-651-92/",
+   "doubling": "partial",
+   "doubling_note": "The homestead does not double. § 651-92(a) allows 'not more than one exemption … on any one parcel,' § 651-91 treats a married couple as one head of a family, and § 651-93 allows separate claims only after a separate-maintenance or interlocutory divorce decree. The § 651-121 personal-property exemptions belong to 'an individual' and the statute is silent on joint cases.",
+   "doubling_source_url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/HRS_0651-0092.htm",
    "effective_date": null,
-   "effective_date_note": "FindLaw copies are marked 'Current as of January 01, 2025'; no session-law effective date located on a primary site.",
+   "effective_date_note": "Official HRS on data.capitol.hawaii.gov, directory dated 1/5/2026. § 651-92 last amended L 1978, c 46; § 651-121 L 1999, c 37; § 651-124 L 2016, c 55. No indexing.",
    "scheduled_change": null,
    "exemptions": {
     "homestead": {
      "amount": 30000,
      "amount_text": "$30,000 (head of family or age 65+); $20,000 (all others)",
      "statute": "HRS § 651-92(a)",
-     "notes": "Fair market value of an interest in one parcel of real property, over prior liens; one exemption per parcel. Secondary copy only (capitol.hawaii.gov returned 403/404).",
-     "source_url": "https://codes.findlaw.com/hi/division-4-courts-and-judicial-proceedings/hi-rev-st-sect-651-92/",
-     "source_kind": "secondary",
+     "notes": "Fair market value of an interest in one parcel of real property, over prior liens; one exemption per parcel.",
+     "source_url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/HRS_0651-0092.htm",
+     "source_kind": "statute",
      "verified_on": "2026-09-20",
-     "needs_review": true,
+     "needs_review": false,
      "conflicts": [],
      "secondary_claims": [
       {
@@ -1810,11 +1810,11 @@
      "amount": 2575,
      "amount_text": "$2,575 (wholesale value over liens)",
      "statute": "HRS § 651-121(2)",
-     "notes": "Measured by established wholesale used-car price guides. Secondary copy only.",
-     "source_url": "https://codes.findlaw.com/hi/division-4-courts-and-judicial-proceedings/hi-rev-st-sect-651-121/",
-     "source_kind": "secondary",
+     "notes": "Measured by established wholesale used-car price guides.",
+     "source_url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/HRS_0651-0121.htm",
+     "source_kind": "statute",
      "verified_on": "2026-09-20",
-     "needs_review": true,
+     "needs_review": false,
      "conflicts": [],
      "secondary_claims": [
       {
@@ -1827,11 +1827,11 @@
      "amount": null,
      "amount_text": "All necessary household furnishings and appliances, books and wearing apparel; jewelry and watches up to $1,000 aggregate",
      "statute": "HRS § 651-121(1)",
-     "notes": "No dollar cap on necessary household furnishings; the $1,000 cap applies to jewelry, watches and articles of personal adornment. Secondary copy only.",
-     "source_url": "https://codes.findlaw.com/hi/division-4-courts-and-judicial-proceedings/hi-rev-st-sect-651-121/",
-     "source_kind": "secondary",
+     "notes": "No dollar cap on necessary household furnishings; the $1,000 cap applies to jewelry, watches and articles of personal adornment.",
+     "source_url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/HRS_0651-0121.htm",
+     "source_kind": "statute",
      "verified_on": "2026-09-20",
-     "needs_review": true,
+     "needs_review": false,
      "conflicts": [],
      "secondary_claims": [
       {
@@ -1841,14 +1841,14 @@
      ]
     },
     "wildcard": {
-     "amount": null,
-     "amount_text": null,
-     "statute": null,
-     "notes": "No wildcard exemption appears in the HRS § 651-121 copy fetched, but no primary source confirms its absence.",
-     "source_url": null,
-     "source_kind": null,
+     "amount": 0,
+     "amount_text": "None",
+     "statute": "HRS §§ 651-121 to 651-124",
+     "notes": "Part III, subpart C of HRS chapter 651 (personal property, §§ 651-121 to 651-124) has no exemption for property of any kind.",
+     "source_url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/",
+     "source_kind": "statute",
      "verified_on": "2026-09-20",
-     "needs_review": true,
+     "needs_review": false,
      "conflicts": [],
      "secondary_claims": [
       {
@@ -1861,11 +1861,11 @@
      "amount": null,
      "amount_text": "Wages for personal services earned in the 31 days before the proceeding (§ 651-121(6)); garnishment limited to 5% of the first $100/month, 10% of the next $100, 20% of the excess over $200/month (§ 652-1)",
      "statute": "HRS § 651-121(6); § 652-1",
-     "notes": "Secondary copies only.",
-     "source_url": "https://codes.findlaw.com/hi/division-4-courts-and-judicial-proceedings/hi-rev-st-sect-651-121/",
-     "source_kind": "secondary",
+     "notes": "Garnishment limits: HRS § 652-1(a)(4), https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0652/HRS_0652-0001.htm",
+     "source_url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/HRS_0651-0121.htm",
+     "source_kind": "statute",
      "verified_on": "2026-09-20",
-     "needs_review": true,
+     "needs_review": false,
      "conflicts": [],
      "secondary_claims": [
       {
@@ -1878,11 +1878,11 @@
      "amount": null,
      "amount_text": "Unlimited (tools, implements, one commercial fishing boat and nets, one motor vehicle, and other property reasonably necessary to the debtor's livelihood)",
      "statute": "HRS § 651-121(3)",
-     "notes": "No dollar cap stated. Secondary copy only.",
-     "source_url": "https://codes.findlaw.com/hi/division-4-courts-and-judicial-proceedings/hi-rev-st-sect-651-121/",
-     "source_kind": "secondary",
+     "notes": "No dollar cap stated.",
+     "source_url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/HRS_0651-0121.htm",
+     "source_kind": "statute",
      "verified_on": "2026-09-20",
-     "needs_review": true,
+     "needs_review": false,
      "conflicts": [],
      "secondary_claims": [
       {
@@ -1893,13 +1893,13 @@
     },
     "retirement": {
      "amount": null,
-     "amount_text": "Unlimited (plans under IRC 401(a), 401(k), 403(a), 403(b), 408, 408A, 409, 414(d), 414(e); ABLE accounts)",
+     "amount_text": "Unlimited (plans under IRC 401(a), 401(k), 403(a), 403(b), 408, 408A, 409 as in effect before 1/1/1984, 414(d), 414(e); ABLE accounts), except contributions made within three years before filing and qualified domestic relations orders",
      "statute": "HRS § 651-124",
-     "notes": "ERISA-qualified plans are excluded from the estate under 11 U.S.C. § 541(c)(2); 11 U.S.C. § 522(b)(3)(C) exempts tax-exempt retirement funds regardless of state law. HRS § 651-124 exempts rights accrued under qualified retirement plans from attachment, execution and 'the operation of bankruptcy or insolvency laws under title 11 United States Code section 522(b)'. Secondary copy only.",
-     "source_url": "https://codes.findlaw.com/hi/division-4-courts-and-judicial-proceedings/hi-rev-st-sect-651-124/",
-     "source_kind": "secondary",
+     "notes": "ERISA-qualified plans are excluded from the estate under 11 U.S.C. § 541(c)(2); 11 U.S.C. § 522(b)(3)(C) exempts tax-exempt retirement funds regardless of state law. HRS § 651-124 exempts rights accrued under qualified retirement plans from attachment, execution and 'the operation of bankruptcy or insolvency laws under title 11 United States Code section 522(b)'. Exception: contributions made within three years before the bankruptcy filing are not exempt (§ 651-124(2)), nor is a QDRO (§ 651-124(1)). IRC § 409 applies only as in effect before 1/1/1984.",
+     "source_url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/HRS_0651-0124.htm",
+     "source_kind": "statute",
      "verified_on": "2026-09-20",
-     "needs_review": true,
+     "needs_review": false,
      "conflicts": [],
      "secondary_claims": [
       {
@@ -1915,24 +1915,29 @@
      "url": "https://www.hib.uscourts.gov/court-info/faq/debtor"
     },
     {
-     "label": "HRS § 651-92 (FindLaw copy) - secondary",
-     "url": "https://codes.findlaw.com/hi/division-4-courts-and-judicial-proceedings/hi-rev-st-sect-651-92/"
+     "label": "HRS chapter 651 (official, data.capitol.hawaii.gov)",
+     "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/"
     },
     {
-     "label": "HRS § 651-121 (FindLaw copy) - secondary",
-     "url": "https://codes.findlaw.com/hi/division-4-courts-and-judicial-proceedings/hi-rev-st-sect-651-121/"
+     "label": "HRS § 651-92 homestead",
+     "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/HRS_0651-0092.htm"
     },
     {
-     "label": "HRS § 651-124 (FindLaw copy) - secondary",
-     "url": "https://codes.findlaw.com/hi/division-4-courts-and-judicial-proceedings/hi-rev-st-sect-651-124/"
+     "label": "HRS § 651-121 personal property",
+     "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/HRS_0651-0121.htm"
     },
     {
-     "label": "HRS § 652-1 (FindLaw copy) - secondary",
-     "url": "https://codes.findlaw.com/hi/division-4-courts-and-judicial-proceedings/hi-rev-st-sect-652-1/"
+     "label": "HRS § 651-124 pensions",
+     "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0651/HRS_0651-0124.htm"
+    },
+    {
+     "label": "HRS § 652-1 wage garnishment",
+     "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0652/HRS_0652-0001.htm"
     }
    ],
    "needs_review": true,
-   "research_notes": "capitol.hawaii.gov returned 403 (and 404 for § 651-92) on every fetch, and Justia/casetext/lawserver also failed, so every Hawaii figure is from FindLaw copies marked current as of 1/1/2025 and carries needs_review. Opt-in status rests on the absence of any opt-out provision in the ch. 651 copies plus the D. Haw. court FAQ language about claiming exemptions under state or federal law; not affirmatively confirmed. Reviewer should re-fetch HRS §§ 651-92, 651-121, 651-124 from capitol.hawaii.gov."
+   "research_notes": "capitol.hawaii.gov returned 403 (and 404 for § 651-92) on every fetch, and Justia/casetext/lawserver also failed, so every Hawaii figure is from FindLaw copies marked current as of 1/1/2025 and carries needs_review. Opt-in status rests on the absence of any opt-out provision in the ch. 651 copies plus the D. Haw. court FAQ language about claiming exemptions under state or federal law; not affirmatively confirmed. Reviewer should re-fetch HRS §§ 651-92, 651-121, 651-124 from capitol.hawaii.gov. SECOND CHECK 9/20/26: all figures confirmed on official HRS (data.capitol.hawaii.gov); record-level needs_review stays true only for the opt-out line.",
+   "opt_out_needs_review": true
   },
   "idaho": {
    "state": "Idaho",
