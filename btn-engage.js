@@ -233,8 +233,11 @@
         site: host
       });
     }
-    // "File a complaint" or bar complaint links
-    if (/complaint|bar-complaint|ocdc|disciplinary/i.test(href) || /complaint/i.test(a.textContent)) {
+    // Attorney-regulator links only: href against an allow-list of regulator hosts
+    // (state bars, OCDC, the U.S. Trustee Program, the federal courts) or an explicit
+    // data-complaint attribute. Link text is not consulted.
+    var COMPLAINT_ALLOW = /^https?:\/\/([a-z0-9-]+\.)*(justice\.gov\/ust|usdoj\.gov\/ust|uscourts\.gov|ocdc\.[a-z]+|mo-legal-ethics\.org|iardc\.org|[a-z-]*bar\.(org|com|net|gov)|[a-z-]*bar\.[a-z]{2}\.(gov|us)|attorneydiscipline\.[a-z]+|lawyerdiscipline\.[a-z]+)/i;
+    if (a.hasAttribute('data-complaint') || COMPLAINT_ALLOW.test(href)) {
       gtag('event', 'complaint_link_click', {
         destination: href.substring(0, 100),
         page_path: path,

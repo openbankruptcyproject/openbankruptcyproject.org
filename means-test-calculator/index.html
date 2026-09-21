@@ -263,9 +263,22 @@ function render(state,hh,sixtot){
     +'</div>'
     +'<div class="delta">'+(pass?'You are ':'You are ')+'<strong>'+usd(diff)+'</strong> '+(pass?'below':'above')+' the median &middot; current monthly income '+usd(cmi)+' &times; 12.</div>'
     +'</div>'
-    +'<p style="font-size:.8rem;color:var(--text-muted);margin:0 0 8px">Figures: UST median family income, cases filed on or after April 1, 2026. For households over 4, $11,100 is added per additional person. Confirm the UST set matching your filing date.</p>';
+    +'<p style="font-size:.8rem;color:var(--text-muted);margin:0 0 8px">Figures: UST median family income, cases filed on or after April 1, 2026. For households over 4, $11,100 is added per additional person. Confirm the UST set matching your filing date.</p>'
+    +nextBlock(pass);
   document.getElementById('results').innerHTML=h;
 }
+/* Read-next block under the verdict. Informational links only; no calculation here. */
+function nextBlock(pass){
+  var verdict=pass?'below_median':'above_median';
+  var guide=pass?['/chapter-7-guide/','Chapter 7 bankruptcy: how it works']:['/means-test-deep-dives/form-122a-2-deductions/','Form 122A-2: how the deduction test works'];
+  return '<div class="next-read" style=\"margin:4px 0 16px;padding:12px 16px;background:var(--surface);border:1px solid var(--border);border-radius:8px;font-size:.92rem;color:var(--text-secondary)\">'
+    +'<strong style="color:var(--text)">Read next:</strong> <a href="'+guide[0]+'" data-next="'+verdict+'">'+guide[1]+'</a>'
+    +' &middot; <a href="/find-help.html" data-next="'+verdict+'">Find free legal help in your state</a></div>';
+}
+document.getElementById('results').addEventListener('click',function(e){
+  var a=e.target.closest('a[data-next]');if(!a||typeof gtag!=='function')return;
+  gtag('event','tool_next_click',{tool:'means_test_calculator',dest:a.getAttribute('href'),verdict:a.getAttribute('data-next')});
+});
 
 var form=document.getElementById('mtform'),errEl=document.getElementById('err');
 form.addEventListener('submit',function(e){
@@ -284,7 +297,7 @@ form.addEventListener('submit',function(e){
   }
   document.getElementById('results').scrollIntoView({behavior:'smooth',block:'start'});
 });
-document.getElementById('printbtn').addEventListener('click',function(){window.print();});
+document.getElementById('printbtn').addEventListener('click',function(){if(typeof gtag==='function'){gtag('event','tool_result_saved',{tool:'means_test_calculator'});}window.print();});
 })();
 </script>
 <script defer="" src="/btn-engage.js"></script>

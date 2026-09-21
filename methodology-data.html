@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<meta name="robots" content="index,follow"/>
+<title>Data Methods: Sources, Spans, and How Counts Are Computed | Open Bankruptcy Project</title>
+<meta name="description" content="Where every published bankruptcy count on this site comes from, the date span of each source, how counts and rates are computed, the denominator behind each percentage, and what the data cannot tell you."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/methodology-data.html"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<meta property="og:title" content="Data Methods: Sources, Spans, and How Counts Are Computed | Open Bankruptcy Project"/>
+<meta property="og:description" content="Where every published bankruptcy count on this site comes from, the date span of each source, how counts and rates are computed, the denominator behind each percentage, and what the data cannot tell you."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://openbankruptcyproject.org/methodology-data.html"/>
+<meta property="og:image" content="https://openbankruptcyproject.org/og-image.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<!-- BTN:GA4:START -->
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
+<!-- BTN:GA4:END -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Data Methods: Sources, Spans, and How Counts Are Computed",
+  "url": "https://openbankruptcyproject.org/methodology-data.html",
+  "description": "Where every published bankruptcy count on this site comes from, the date span of each source, how counts and rates are computed, and what the data cannot tell you.",
+  "datePublished": "2026-09-20",
+  "dateModified": "2026-09-20",
+  "author": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+  "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+  "about": [
+    {"@type": "Dataset", "name": "Federal Judicial Center Integrated Database, bankruptcy", "url": "https://www.fjc.gov/research/idb", "temporalCoverage": "2008/2025"},
+    {"@type": "Dataset", "name": "Open Bankruptcy Project Federal Bankruptcy Case Index", "url": "https://openbankruptcyproject.org/lookup.html", "temporalCoverage": "2008/2026-05-31"}
+  ]
+}
+</script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--green:#3fb950;--amber:#d29922}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 32px}
+nav.topnav{border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);z-index:100}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:24px;flex-wrap:wrap}
+.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.nav-links a:hover,.nav-links a.active{color:var(--text);text-decoration:none}
+.breadcrumb{padding:16px 0;font-size:.85rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--text-muted)}.breadcrumb a:hover{color:var(--accent)}
+.breadcrumb .sep{margin:0 8px;color:var(--border-light)}
+.hero{padding:42px 0 24px;border-bottom:1px solid var(--border)}
+.hero .label{font-size:.8rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.2rem;font-weight:800;letter-spacing:-.025em;margin-bottom:14px;line-height:1.18}
+.hero p.lede{color:var(--text-secondary);font-size:1.02rem;max-width:760px}
+.hero .datastamp{color:var(--text-muted);font-size:.85rem;margin-top:16px}
+main{padding:28px 0 56px}
+main h2{font-size:1.35rem;font-weight:700;margin:36px 0 12px;letter-spacing:-.01em}
+main h3{font-size:1.05rem;font-weight:700;margin:22px 0 8px;color:var(--text)}
+main p{color:var(--text-secondary);margin-bottom:14px}
+main ul,main ol{margin:10px 0 18px 22px;color:var(--text-secondary)}
+main li{margin-bottom:6px}
+main strong{color:var(--text)}
+main code{background:var(--surface);padding:2px 6px;border-radius:4px;font-size:.88em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.callout{background:var(--surface);border-left:3px solid var(--accent);padding:14px 20px;margin:18px 0;border-radius:0 6px 6px 0;font-size:.95rem}
+.callout strong{color:var(--text)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 24px;margin:18px 0}
+.card h3{margin-top:0}
+.link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+.link-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:.15s}
+.link-card:hover{background:var(--surface-hover);border-color:var(--accent)}
+.link-card .label{font-size:.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600;margin-bottom:4px}
+.link-card h4{font-size:.98rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.link-card p{font-size:.85rem;color:var(--text-secondary);margin:0}
+.faq details{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--text);list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;color:var(--text-muted);font-weight:300;font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:'−'}
+.faq details[open] summary{margin-bottom:10px;color:var(--accent)}
+.faq details p{margin:10px 0 0;color:var(--text-secondary)}
+.obp-footer{border-top:1px solid var(--border);margin-top:44px;padding-top:26px;color:var(--text-muted);font-size:.9rem}
+.obp-footer__disclaimer{background:var(--surface);border-left:3px solid var(--accent);padding:14px 18px;border-radius:0 6px 6px 0;margin-bottom:20px;color:var(--text-secondary)}
+.obp-footer__disclaimer strong{color:var(--text)}
+footer.site-footer{padding:28px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;text-align:center}
+@media(max-width:720px){.hero h1{font-size:1.7rem}}table.dm{width:100%;border-collapse:collapse;margin:12px 0 20px;font-size:.9rem}table.dm th,table.dm td{border:1px solid var(--border);padding:8px 10px;text-align:left;vertical-align:top;color:var(--text-secondary)}table.dm th{color:var(--text);background:var(--surface)}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"NonprofitOrganization","name":"Open Bankruptcy Project","alternateName":"OBP","url":"https://openbankruptcyproject.org","email":"info@openbankruptcyproject.org","taxID":"41-5159631","nonprofitStatus":"Nonprofit501c3"}
+</script>
+<style id="btn-a11y">:where(p,li,dd,td,th,blockquote,h1,h2,h3,h4,h5,h6,figcaption,small) a{text-decoration:underline}</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/">Mission</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/recap.html">RECAP</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+<section class="hero"><div class="container">
+<div class="label">Methodology</div>
+<h1>Data methods: sources, spans, and how counts are computed</h1>
+<p class="lede">The about page promises full methodological detail. This is that page: the four sources behind every figure on the site, the date each one ends, the query that produces a count, the convention behind a percentage, and the questions the data cannot answer.</p>
+<div class="datastamp">Published <time datetime="2026-09-20">2026-09-20</time>. Reviewed by Open Bankruptcy Project staff. See the <a href="/methodology.html">methodology index</a> and the <a href="/editorial-policy.html">editorial policy</a>.</div>
+</div></section>
+<main class="container">
+<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span><a href="/about.html">About</a><span class="sep">/</span>Data methods: sources, spans, and how counts are computed</div>
+
+<div class="callout"><strong>Short version.</strong> Every count on this site is a count of distinct cases in a named source over a stated date span. Counts reproduce to the case. Published percentages depend on a denominator convention that is still under review, so treat the ratios as provisional and the counts as exact. Each source has a hard edge; the edges are listed below.</div>
+
+<h2 id="sources">1. Sources and spans</h2>
+<p>Four sources feed the site. They are not the same data, they do not cover the same dates, and none of them is a sample: each is a complete administrative record with known gaps.</p>
+<table class="dm">
+<thead><tr><th>Source</th><th>What it holds</th><th>Span</th><th>How it updates</th></tr></thead>
+<tbody>
+<tr><td><strong>Federal Judicial Center Integrated Database</strong> (bankruptcy file)</td><td>One record per case per quarterly reporting period, all chapters, all 94 districts: district and office, chapter, filing and termination dates, termination code, prior-filing flag, and the schedule of assets and liabilities. About 17.2 million distinct cases.</td><td>Cases filed from fiscal 2008 through filings dated <strong>December 31, 2025</strong> (closings through mid-January 2026).</td><td>Manual download of the FJC release, then a full rebuild. Last built June 2026.</td></tr>
+<tr><td><strong>RECAP Archive</strong> (Free Law Project, via CourtListener)</td><td>Docket entries and documents that some PACER user has already purchased and shared.</td><td>Whatever has been shared; no fixed span.</td><td>Continuous, by other people's purchases. We link to it; we compute nothing from it.</td></tr>
+<tr><td><strong>PACER RSS feeds</strong>, three districts</td><td>New docket events as they post, for the District of Kansas and the Eastern and Western Districts of Missouri.</td><td>March 2026 to the present, with a <strong>34-day hole from April 25 to June 3, 2026</strong>. The feeds are rolling, so the hole cannot be backfilled.</td><td>Daily accumulation.</td></tr>
+<tr><td><strong>Case index</strong> behind the <a href="/lookup.html">case lookup</a></td><td>About 9.8 million case captions with case number, district, filing date, and a link to the public docket. The chapter field is populated on roughly 6.5 percent of rows.</td><td>Filings dated through <strong>May 31, 2026</strong>.</td><td>Bulk import, no schedule. A case filed after the last import is absent until the next one.</td></tr>
+</tbody>
+</table>
+<p>Three aggregate files derived from the FJC file (Chapter 13 dismissal rates by district, prior-filer rates, and national filing statistics) are published at <a href="https://1328f.org/data/" rel="external">1328f.org/data</a> under CC BY 4.0. They were generated in June 2026. No per-case dataset is distributed.</p>
+
+<h2 id="counts">2. How counts are computed</h2>
+<p>The FJC file is a snapshot panel, not a list of cases. A case appears once for every quarterly period it stayed open, so a naive row count overstates the number of cases and does so unevenly: long-running cases carry more rows. For Chapter 13 cases filed in fiscal 2008 through 2025 the file holds 18,127,101 rows but 5,097,521 distinct cases, a factor of 3.56.</p>
+<p>Every count on this site is therefore a count of <strong>distinct case keys</strong> (in SQL, <code>COUNT(DISTINCT casekey)</code>), taken from the latest snapshot row for each case. A discharge is a termination code of A or B; that mapping was established by reconciling our counts against six independently published district figures rather than by reading a codebook, and it matched five of the six exactly and the sixth within one case. A prior filer is a case the FJC flags as having a prior filing.</p>
+<p>The published population and discharge counts were re-derived from the raw file on August 22, 2026 and reproduced exactly. The headline prior-filer discharge count re-derived to within seven cases of the published figure, a fixed offset that is the same in every window we tested, so the published method differs from the plain query by one small exclusion rather than by drift.</p>
+
+<h2 id="denominator">3. The denominator behind every percentage</h2>
+<p>A rate needs a denominator you can name. Filed cases do not divide out, because a case filed this year has not had time to finish; only terminated cases do. Our published dismissal and discharge percentages are computed as the <strong>share of terminated cases with a disposition code in {A, B} versus the dismissal codes</strong>. The exact set of termination codes that belongs in the denominator is a convention, and ours is under review: back-solving the published rates lands between the conventions we can construct from the codebook, which means the rule that produced them was never written down. <strong>The counts are exact. The ratios are provisional</strong> until the convention is published on this page.</p>
+<p>One consequence already surfaced. Until August 22, 2026 the district and state pages printed the discharge and dismissal percentages under each other's label. The numbers were right; the labels were swapped. The pages were corrected that day, and the prose that described the denominator as "cases filed" was corrected to say that the count is filings and the rates are of terminated cases.</p>
+
+<h2 id="timelines">4. Timelines measure the cases that finished</h2>
+<p>A median days-to-discharge counts discharged cases only. Dismissed cases, pending cases, and converted cases are not in that median. A district with fast discharges and many dismissals will look faster than it is for a new filer. Every timeline figure on this site should be read as "among the cases that reached this outcome," and where a page does not say so, that is an error we want reported.</p>
+
+<h2 id="cannot">5. What this data cannot tell you</h2>
+<p>We borrow a distinction from our own consistency checks. A <em>contradiction</em> is two present values that cannot both be true. A <em>completeness</em> gap is a value that is merely absent. Neither one says which record is wrong, and neither says anything about anyone's conduct.</p>
+<ol>
+<li><strong>Two kinds of missing.</strong> In our internal working corpus of about 220,000 dockets, 6 cases show a discharge date earlier than their filing date (a contradiction), while 25,123 terminated cases carry neither a discharge nor a dismissal date (an absence). We report both kinds separately and never fill either one in.</li>
+<li><strong>A rate needs a denominator you can name.</strong> See section 3. Where a page shows a percentage without naming its denominator, the count next to it is the figure to trust.</li>
+<li><strong>A snapshot is not a history.</strong> The FJC file is overwritten each release. It cannot say whether a filer <em>ever</em> had a lawyer, only whether the last snapshot shows one. The FJC itself lists the pro se flag as one of three fields it does not quality-check.</li>
+<li><strong>A timeline measures the cases that finished.</strong> See section 4.</li>
+<li><strong>What no public dataset carries.</strong> No attorney field (the FJC file has none), no judge (redacted under Judicial Conference policy), no county (district and office only), no plan payment amounts, no fee amounts, and no reason for dismissal beyond the termination code. Pages on this site do not report attorney-level or judge-level outcomes because the public record does not support them.</li>
+<li><strong>A collection is not a sample.</strong> The RECAP Archive holds the documents someone paid to pull. Any rate computed over RECAP-covered dockets would oversample contested cases. Our case index links to RECAP for that reason and computes nothing from it.</li>
+<li><strong>Termination dates from secondary sources.</strong> Of 34 cases in our working corpus that appear terminated before they were filed, 32 came from one secondary source, whose date-ordering error rate is about 236 times the primary source's. We do not build timelines on secondary-source termination dates.</li>
+<li><strong>Coverage holes we know about.</strong> The docket feeds cover three districts since March 2026 with a 34-day hole in spring; the case index ends at filings dated May 31, 2026; the FJC snapshot ends at December 31, 2025. Each page states its own window, and a count that crosses a hole says so.</li>
+<li><strong>Names.</strong> Search results show masked captions, and caption pages are not indexed by search engines. A person absent from a result may never have filed, may have filed after our last import, or may have asked to be removed. Absence is not evidence.</li>
+<li><strong>A holding is not a prediction, and a count is not a conclusion.</strong> Nothing on this site forecasts the outcome of any case or characterizes anyone's conduct. The data describes what the record says happened.</li>
+</ol>
+
+<h2 id="check">6. How to check us</h2>
+<ul>
+<li><strong>Get the same file.</strong> The FJC Integrated Database is free at <a href="https://www.fjc.gov/research/idb" rel="external">fjc.gov/research/idb</a>, with its research guide and codebook. Count distinct case keys, filter on the chapter and fiscal-year window a page states, and you should land on our count.</li>
+<li><strong>Reconcile against the Administrative Office.</strong> Our calendar-2025 filing count from the FJC file is 575,052. The Administrative Office's published national total for the same year is 574,314. The difference is 738 cases, 0.13 percent, consistent with snapshot timing.</li>
+<li><strong>Run the same consistency questions.</strong> Our checks ask every case the same questions with no filter: is the termination date after the filing date, is a discharged case also marked dismissed, does an event's text use the word its class requires. In the working corpus, 414 cases (0.19 percent) fail at least one, and every failure is reported as a pair of operands, never as a verdict on which record is wrong.</li>
+<li><strong>Tell us.</strong> Send a sourced correction to <a href="mailto:info@openbankruptcyproject.org">info@openbankruptcyproject.org</a> or through the <a href="/contact.html">contact form</a>. Directory entries have their own <a href="/accuracy.html">accuracy and corrections</a> page. Our <a href="/editorial-policy.html">editorial policy</a> says how corrections are handled.</li>
+</ul>
+
+<section class="obp-footer">
+<div class="obp-footer__disclaimer">
+<strong>Disclaimer:</strong> Empirical statistics and informational content published by the Open Bankruptcy Project, a 501(c)(3) public charity (EIN 41-5159631). Not legal advice. For representation in a specific matter, contact a licensed attorney admitted to practice in the relevant district.
+</div>
+<p>Data sources: Federal Judicial Center Integrated Database; Free Law Project RECAP Archive via CourtListener; PACER RSS feeds of three federal bankruptcy courts. Derived content on this page is published under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external">CC BY-SA 4.0</a>.</p>
+<p>Spotted an error? <a href="/contact.html">Submit a correction.</a></p>
+</section>
+
+</main>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631. <a href="/editorial-policy.html">Editorial policy</a> &middot; <a href="/methodology-data.html">Data methods</a> &middot; <a href="/privacy.html">Privacy</a></div></footer>
+<script defer="" src="/btn-engage.js"></script>
+</body></html>

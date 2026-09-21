@@ -75,6 +75,28 @@
   }
 }
 </script>
+<!-- Schema.org Dataset: the case index behind this tool -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Open Bankruptcy Project Federal Bankruptcy Case Index",
+  "description": "Index of about 9.8 million federal bankruptcy case captions across all 94 U.S. judicial districts, covering filings dated through 2026-05-31. Fields: case number, masked debtor caption, chapter where available, filing date, district, and a link to the public docket. No attorney, judge, or disposition fields.",
+  "url": "https://openbankruptcyproject.org/lookup.html",
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "temporalCoverage": "2008-01-01/2026-05-31",
+  "spatialCoverage": {"@type": "Place", "name": "United States, all 94 federal bankruptcy districts"},
+  "variableMeasured": ["case number", "chapter", "filing date", "district"],
+  "datePublished": "2026-03-28",
+  "dateModified": "2026-09-20",
+  "author": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+  "creator": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+  "publisher": {"@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://openbankruptcyproject.org"},
+  "citation": "Open Bankruptcy Project. Federal Bankruptcy Case Index, filings through 2026-05-31. https://openbankruptcyproject.org/lookup.html",
+  "isBasedOn": ["https://www.courtlistener.com/recap/", "https://pacer.uscourts.gov/"]
+}
+</script>
 <!-- Schema.org FAQPage (rich results) -->
 <script type="application/ld+json">
 {
@@ -292,6 +314,7 @@ footer .footer-links { display: flex; flex-wrap: wrap; justify-content: center; 
 
 <section class="search-band" id="main">
 <div class="container">
+<p class="coverage" style="margin:0 0 14px;padding:12px 16px;background:#151b23;border-left:3px solid #58a6ff;border-radius:0 6px 6px 0;color:#b1bac4;font-size:.92rem"><strong style="color:#e6edf3">Coverage:</strong> about 9.8 million federal bankruptcy filings across all 94 districts, indexed through filings dated <strong style="color:#e6edf3">May 31, 2026</strong>. A case filed after that date is not in the index yet. Absence from a result does not mean a person never filed. <a href="/methodology-data.html">How the index is built and what it cannot tell you.</a></p>
 <h2>Search by debtor name</h2>
 <p class="search-help">Enter a first and last name, or a business name. Partial matches and middle initials work. Hyphenated surnames are supported.</p>
 <div class="obp-search" data-program="cases"></div>
@@ -300,6 +323,10 @@ footer .footer-links { display: flex; flex-wrap: wrap; justify-content: center; 
 
 <section class="content">
 <div class="container narrow">
+<h2 id="cite">How to cite this tool</h2>
+<p>Cite the index, its coverage date, and the date you ran the search, because the index is rebuilt in bulk and a result can change between loads:</p>
+<pre style="white-space:pre-wrap;background:#151b23;border:1px solid #252d38;border-radius:8px;padding:14px 16px;font-size:.88rem;color:#b1bac4">Open Bankruptcy Project. Federal Bankruptcy Case Index (filings through May 31, 2026). https://openbankruptcyproject.org/lookup.html. Accessed [date].</pre>
+<p>For a specific case, cite the court docket itself, not this page. Each result links to the public docket on CourtListener. Source data, spans, and known gaps are documented on the <a href="/methodology-data.html">data methods page</a>.</p>
 <h2>What this tool does</h2>
 <p>Open Bankruptcy Project indexes every federal bankruptcy filing publicly available through PACER and the CourtListener / RECAP archive. The lookup above searches that index by debtor name and returns case-level metadata — case number, court, chapter, and date filed — with a link to the underlying public docket.</p>
 

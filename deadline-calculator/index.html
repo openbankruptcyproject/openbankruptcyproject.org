@@ -238,8 +238,21 @@ function render(rows,meta){
     h+='<tr><td class="date">'+esc(dcell)+(r.preliminary?'<span class="tag prelim">prelim</span>':'')+'</td><td>'+esc(r.label)+(r.note?'<span class="rownote">'+esc(r.note)+'</span>':'')+'</td><td class="auth">'+esc(r.authority)+'</td></tr>';
   });
   h+='</tbody></table><p style="font-size:.8rem;color:var(--text-muted);margin:6px 0 0">Dates that fell on a weekend or federal holiday have been rolled under Rule 9006(a). Verify against your court notices.</p></div>';
+  h+=nextBlock(String(meta.chapter));
   document.getElementById('results').innerHTML=h;
 }
+/* Read-next block under the results. Informational links only; no date math here. */
+function nextBlock(chapter){
+  var verdict='chapter_'+chapter;
+  var guide=chapter==='13'?['/chapter-13-guide/','Chapter 13 bankruptcy: how it works']:['/chapter-7-guide/','Chapter 7 bankruptcy: how it works'];
+  return '<div class="next-read" style=\"margin:4px 0 16px;padding:12px 16px;background:var(--surface);border:1px solid var(--border);border-radius:8px;font-size:.92rem;color:var(--text-secondary)\">'
+    +'<strong style="color:var(--text)">Read next:</strong> <a href="'+guide[0]+'" data-next="'+verdict+'">'+guide[1]+'</a>'
+    +' &middot; <a href="/find-help.html" data-next="'+verdict+'">Find free legal help in your state</a></div>';
+}
+document.getElementById('results').addEventListener('click',function(e){
+  var a=e.target.closest('a[data-next]');if(!a||typeof gtag!=='function')return;
+  gtag('event','tool_next_click',{tool:'deadline_calculator',dest:a.getAttribute('href'),verdict:a.getAttribute('data-next')});
+});
 var form=document.getElementById('dlform');
 var errEl=document.getElementById('err');
 form.addEventListener('submit',function(e){
@@ -261,7 +274,7 @@ form.addEventListener('submit',function(e){
   }
   document.getElementById('results').scrollIntoView({behavior:'smooth',block:'start'});
 });
-document.getElementById('printbtn').addEventListener('click',function(){window.print();});
+document.getElementById('printbtn').addEventListener('click',function(){if(typeof gtag==='function'){gtag('event','tool_result_saved',{tool:'deadline_calculator'});}window.print();});
 })();
 </script>
 <script defer="" src="/btn-engage.js"></script>
