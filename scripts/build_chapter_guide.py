@@ -196,14 +196,15 @@ CH13 = {
         "why so many plans fail. Free 501(c)(3) guide, not legal advice."
     ),
     "lede": (
-        "Chapter 13 is the repayment chapter for individuals with regular income. Instead of selling property, "
-        "the debtor proposes a plan to pay creditors from future income over three to five years, keeps what "
-        "they own, and receives a discharge when the plan is complete. It is the chapter people use to stop a "
-        "foreclosure and catch up on a mortgage, to keep property Chapter 7 would take, or to pay taxes and "
-        "support arrears on a schedule. It is also the chapter with the highest failure rate, and this page "
-        "explains why."
+        "Chapter 13 lets an individual with regular income keep their property, including a home or car that is "
+        "behind on payments, while paying creditors through a plan that lasts three to five years. Filing "
+        "before a foreclosure sale stops the sale. Missed mortgage payments are spread across the plan while "
+        "the regular payment resumes, and taxes and support arrears are paid on a schedule instead of all at "
+        "once. When the last plan payment is made, the court discharges the debts the plan covered. This page "
+        "covers who qualifies, how the monthly payment is set, each step from filing to discharge, and what it "
+        "takes for a plan to finish."
     ),
-    "updated": "2026-09-18",
+    "updated": "2026-09-22",
     "faq": [
         ("How long does a Chapter 13 plan last?",
          "Three years if the debtor's household income is below the state median, five years if it is above, "
@@ -299,6 +300,21 @@ def ch13_main():
 <li><strong>Discharge and closing.</strong> After the final payment, the trustee audits the case, the debtor certifies that support obligations are current, and the court enters the discharge under § 1328(a).</li>
 </ol>
 
+<h2 id="timeline">Timeline at a glance</h2>
+<div class="card">
+<ul>
+<li><strong>Day 0:</strong> petition filed; automatic stay in force; a standing trustee is assigned.</li>
+<li><strong>Day 14 (at the latest):</strong> the plan and any schedules not filed with the petition are due (Rules 1007(c), 3015(b)).</li>
+<li><strong>Day 30:</strong> first plan payment due to the trustee, before confirmation (&sect; 1326(a)(1)).</li>
+<li><strong>Day 21 to 50:</strong> meeting of creditors (Rule 2003).</li>
+<li><strong>Day 70:</strong> deadline for most creditors to file a proof of claim; government creditors have 180 days (Rule 3002(c)).</li>
+<li><strong>Meeting + 20 to 45 days:</strong> confirmation hearing (&sect; 1324(b)).</li>
+<li><strong>Months 36 to 60:</strong> monthly plan payments; the debtor education course is completed before the last one.</li>
+<li><strong>After the final payment:</strong> the trustee's final report and the discharge under &sect; 1328(a).</li>
+</ul>
+<p style="margin:0">The <a href="/deadline-calculator/">deadline calculator</a> computes these dates from a petition date.</p>
+</div>
+
 <h2 id="discharge">What is discharged, and what is not</h2>
 <p>The Chapter 13 discharge covers the unsecured debts the plan provided for, whether they were paid in full, in part, or not at all, plus the two categories noted above that Chapter 7 excepts. It does not cover support, student loans absent a finding of undue hardship, taxes for which returns were not filed or that involved fraud, criminal restitution and fines, drunk-driving injury debts, and debts incurred by fraud if the creditor objects. Long-term secured debts that run past the plan, a mortgage above all, survive and continue on their original terms. The <a href="/debt-relief/">debt dischargeability guide</a> goes debt type by debt type.</p>
 
@@ -356,8 +372,23 @@ def ch13_main():
 """
 
 # ------------------------------------------------------------------ builder
-def faq_html(faq):
-    out = ['<section class="faq"><h2>Frequently asked questions</h2>']
+# 9/22/26: the live pages carry two trust signals added by hand after this generator last ran
+# (commit 12d22e0460). Rebuilding without them SILENTLY STRIPS them from the deployed page -- it
+# happened twice on 9/22 and was caught only by diffing the output against the live file. Anything
+# added to a built page by hand belongs here too, or the next rebuild deletes it.
+FIND_CASE_LINK = ('<p><a href="/find-bankruptcy-case/"><strong>How to look up a bankruptcy case for free</strong></a> '
+                  "&mdash; PACER, the fee waiver, RECAP, CourtListener, and the court's free phone line, and what "
+                  'each one shows.</p>\n')
+
+
+def reviewed_stamp(updated):
+    return (f'<div class="datastamp reviewed">Written and maintained by Open Bankruptcy Project staff. '
+            f'Last updated <time datetime="{updated}">{updated}</time>. '
+            f'<a href="/editorial-policy.html">Editorial policy</a>.</div>')
+
+
+def faq_html(faq, lead_html=""):
+    out = [f'<section class="faq">{lead_html}<h2>Frequently asked questions</h2>']
     for q, a in faq:
         out.append(f"<details><summary>{html.escape(q)}</summary><p>{html.escape(a)}</p></details>")
     out.append("</section>")
@@ -506,10 +537,12 @@ def build(page, main_html):
     hero = (f'<section class="hero"><div class="container">\n<div class="label">{esc(page["label"])}</div>\n'
             f'<h1>{esc(page["h1"])}</h1>\n<p class="lede">{esc(page["lede"])}</p>\n'
             f'<div class="datastamp">Updated <time datetime="{page["updated"]}">{page["updated"]}</time>. '
-            f'Statutory citations are to Title 11 of the United States Code unless noted. See <a href="/research/methodology/">methodology &amp; sources</a>.</div>\n</div></section>')
+            f'Statutory citations are to Title 11 of the United States Code unless noted. See <a href="/research/methodology/">methodology &amp; sources</a>.</div>\n'
+            f'{reviewed_stamp(page["updated"])}\n</div></section>')
     t = re.sub(r'<section class="hero">.*?</section>', hero, t, count=1, flags=re.S)
     crumb_html = f'<div class="breadcrumb"><a href="/">Home</a><span class="sep">/</span>{esc(page["h1"])}</div>'
-    body = crumb_html + main_html + faq_html(page["faq"])
+    lead = FIND_CASE_LINK if page["slug"] != "find-bankruptcy-case" else ""
+    body = crumb_html + main_html + faq_html(page["faq"], lead)
     t = re.sub(r'<div class="breadcrumb">.*?(?=<section class="obp-footer">)', body + "\n", t, count=1, flags=re.S)
     return t
 
