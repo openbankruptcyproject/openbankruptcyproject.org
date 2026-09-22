@@ -11029,7 +11029,7 @@ An LLC (Limited Liability Company) has several bankruptcy options:
 
 Chapter 7: Liquidation. A trustee sells the LLC's assets and distributes proceeds to creditors. The LLC ceases to exist. No discharge is available for business entities.
 
-Chapter 11: Reorganization. The LLC continues operating while restructuring debts under a plan. Subchapter V is available for small businesses with debts under $7.5 million.
+Chapter 11: Reorganization. The LLC continues operating while restructuring debts under a plan. Subchapter V is available for small businesses with debts up to $3,424,000.
 
 State dissolution: Dissolve the LLC under state law without bankruptcy. Works when there are few debts or assets.
 
@@ -29872,7 +29872,7 @@ Key Chapter 11 definitions:
 
 Creditors' Committee: A committee of unsecured creditors appointed by the U.S. Trustee to represent the interests of all unsecured creditors. Typically composed of the 7 largest unsecured creditors willing to serve.
 
-Small Business Debtor: A debtor with noncontingent, liquidated debts not exceeding $7.5 million who elects Subchapter V treatment.
+Small Business Debtor: A debtor with noncontingent, liquidated debts not exceeding $3,424,000 who elects Subchapter V treatment.
 
 How This Affects You
 
@@ -30478,7 +30478,7 @@ Home › 11 U.S.C. Section 1181 - Subchapter V for Small Business Debtors
 
 What Is Section 1181?
 
-Section 1181 of Title 11 of the United States Code (Subchapter V - Inapplicability of Other Sections) is a foundational provision of the Bankruptcy Code. It defines which sections of Chapter 11 apply (and which do not) in Subchapter V small business cases. Subchapter V, enacted in 2019 as SBRA, dramatically simplified Chapter 11 for small businesses with debts under $7.5 million.
+Section 1181 of Title 11 of the United States Code (Subchapter V - Inapplicability of Other Sections) is a foundational provision of the Bankruptcy Code. It defines which sections of Chapter 11 apply (and which do not) in Subchapter V small business cases. Subchapter V, enacted in 2019 as SBRA, dramatically simplified Chapter 11 for small businesses with debts up to $3,424,000.
 
 Official citation: 11 U.S.C. § 1181
 
@@ -30506,7 +30506,7 @@ Speed: Plans must be filed within 90 days. Cases are typically confirmed within 
 
 Owner retention: The elimination of the absolute priority rule means business owners can keep their businesses even if unsecured creditors are not paid in full.
 
-Debt limit: Originally $2.7 million, temporarily raised to $7.5 million during COVID, and made permanent. This covers the vast majority of small businesses.
+Debt limit: Originally $2.7 million, temporarily raised to $7.5 million during COVID. That temporary ceiling expired June 21, 2024; the limit is $3,424,000 for cases filed April 1, 2025, through March 31, 2028. This covers the vast majority of small businesses.
 
 Related Bankruptcy Code Sections
 
@@ -33098,7 +33098,7 @@ To elect Subchapter V, you must satisfy all four of these requirements at the ti
 
 You must be a "person" engaged in commercial or business activities. This includes individuals, corporations, LLCs, partnerships, and sole proprietorships. "Person" under the Bankruptcy Code is broad.
 
-Your total noncontingent, liquidated debts must not exceed $7,500,000. This includes both secured and unsecured debts, but excludes debts owed to affiliates or insiders.
+Your total noncontingent, liquidated debts must not exceed $3,424,000. This includes both secured and unsecured debts, but excludes debts owed to affiliates or insiders.
 
 At least 50% of those debts must arise from commercial or business activities. This is the "business debt" test - your debts must be predominantly business-related, not personal.
 
@@ -33108,7 +33108,7 @@ Key statute: 11 U.S.C. § 101(51D) defines "small business debtor" for Subchapte
 
 See also: 11 U.S.C. § 101(51B) (single asset real estate definition)
 
-The $7.5 Million Debt Limit
+The $3,424,000 Debt Limit
 
 The debt ceiling has a specific history that matters:
 
@@ -33118,7 +33118,9 @@ CARES Act temporary increase (Mar 2020): $7,500,000
 
 Extended through Jun 2024 by subsequent legislation
 
-Made permanent (Jun 2024): Bankruptcy Threshold Adjustment and Technical Corrections Act of 2022 locked $7.5 million as the permanent threshold
+Temporary ceiling expired (Jun 21, 2024): the limit reverted to the § 101(51D) figure, then $3,024,725
+
+Current (Apr 1, 2025 through Mar 31, 2028): $3,424,000, after the Judicial Conference's § 104 inflation adjustment
 
 Only noncontingent, liquidated debts count toward the limit. This means:
 
@@ -33128,7 +33130,7 @@ Unliquidated debts do not count. If someone has sued you but the amount has not 
 
 Debts to affiliates or insiders are excluded. If you owe money to a related entity or family member, those debts do not count toward the cap.
 
-Litigation trap: If you have a pending lawsuit against you with an unliquidated claim, it does not count toward the $7.5 million. But if a judgment is entered before you file, that amount becomes liquidated and counts. Timing matters.
+Litigation trap: If you have a pending lawsuit against you with an unliquidated claim, it does not count toward the $3,424,000. But if a judgment is entered before you file, that amount becomes liquidated and counts. Timing matters.
 
 The 50% Business Debt Test
 
@@ -33202,13 +33204,13 @@ It does not catch businesses that happen to own real property as part of broader
 
 Common Eligibility Mistakes
 
-Miscounting debts. Including contingent or unliquidated debts in the $7.5 million calculation (they should be excluded) or excluding debts that are actually liquidated.
+Miscounting debts. Including contingent or unliquidated debts in the $3,424,000 calculation (they should be excluded) or excluding debts that are actually liquidated.
 
 Failing the 50% test by a thin margin. A home mortgage can push your personal debt above 50%. If you are close, look carefully at which debts qualify as business-related.
 
 Not electing Sub V at filing. You must affirmatively designate your case as Subchapter V on the petition. You can amend the designation later, but the initial election matters for trustee appointment timing.
 
-Affiliate debt confusion. Debts to affiliates are excluded from both the $7.5 million cap and the 50% calculation. Make sure you correctly identify affiliate relationships.
+Affiliate debt confusion. Debts to affiliates are excluded from both the $3,424,000 cap and the 50% calculation. Make sure you correctly identify affiliate relationships.
 
 Waiting too long after a judgment. An unliquidated claim that becomes liquidated through a judgment can push you over the debt limit. File before the judgment if eligibility is tight.
 
@@ -33275,7 +33277,7 @@ Subchapter V FAQ
 
 What is Subchapter V bankruptcy?
 
-Subchapter V is a streamlined version of Chapter 11 bankruptcy created by the Small Business Reorganization Act of 2019. It allows small businesses with debts under $7.5 million to reorganize faster, cheaper, and with fewer requirements than traditional Chapter 11.
+Subchapter V is a streamlined version of Chapter 11 bankruptcy created by the Small Business Reorganization Act of 2019. It allows small businesses with debts up to $3,424,000 to reorganize faster, cheaper, and with fewer requirements than traditional Chapter 11.
 
 How much does Subchapter V cost?
 
@@ -33283,7 +33285,7 @@ Filing fee: $1,738. Attorney fees: $4,000-$40,000 depending on complexity. The S
 
 Who qualifies for Subchapter V?
 
-Any person or entity engaged in commercial or business activities, with total noncontingent liquidated debts (excluding affiliate debts) not exceeding $7.5 million, where at least 50% of debts arise from business activities, and who is not a single asset real estate debtor.
+Any person or entity engaged in commercial or business activities, with total noncontingent liquidated debts (excluding affiliate debts) not exceeding $3,424,000, where at least 50% of debts arise from business activities, and who is not a single asset real estate debtor.
 
 Can an individual file Subchapter V?
 
@@ -33295,7 +33297,7 @@ Yes. Corporations, LLCs, partnerships, and other business entities can all elect
 
 What is the debt limit for Subchapter V?
 
-$7,500,000 in total noncontingent, liquidated debts (secured plus unsecured combined), excluding debts owed to affiliates or insiders. This was made permanent by the Bankruptcy Threshold Adjustment and Technical Corrections Act of 2022.
+$3,424,000 in total noncontingent, liquidated debts (secured plus unsecured combined), excluding debts owed to affiliates or insiders, for cases filed April 1, 2025, through March 31, 2028. A temporary $7,500,000 ceiling expired June 21, 2024.
 
 How long does a Subchapter V case take?
 
@@ -33527,7 +33529,7 @@ FeatureSubchapter VChapter 13
 
 Who can fileIndividuals and entities (LLCs, corps)Individuals only
 
-Debt limit$7,500,000$2,750,000 (combined)
+Debt limit$3,424,000$2,750,000 (combined)
 
 Business debt requirement50%+ of debts must be business-relatedNone - personal debts OK
 
@@ -33553,7 +33555,7 @@ When to Choose Subchapter V
 
 Your business is an LLC or corporation. Chapter 13 is for individuals only. If your business entity needs bankruptcy protection, Sub V is the path.
 
-Your debts exceed $2,750,000. Chapter 13 has a hard debt cap. Sub V allows up to $7.5 million.
+Your debts exceed $2,750,000. Chapter 13 has a hard debt cap. Sub V allows up to $3,424,000 (the temporary $7,500,000 ceiling expired June 21, 2024).
 
 You need plan flexibility. Sub V plans can modify secured debt terms, propose varying distribution schedules, and structure payments around business cash flow cycles.
 
@@ -33668,7 +33670,7 @@ Who Qualifies?
 
 To elect Subchapter V, you must be a "small business debtor" under 11 U.S.C. § 101(51D):
 
-Debt limit: Total noncontingent, liquidated debts (secured + unsecured) must not exceed $7,500,000. This was originally $2,725,625. COVID-era legislation raised it temporarily, and the Bankruptcy Threshold Adjustment and Technical Corrections Act of 2022 made $7.5 million permanent.
+Debt limit: Total noncontingent, liquidated debts (secured + unsecured) must not exceed $3,424,000 for cases filed April 1, 2025, through March 31, 2028. This was originally $2,725,625. COVID-era legislation raised it temporarily to $7,500,000, and that temporary ceiling expired June 21, 2024.
 
 Commercial activity: At least 50% of your debts must arise from commercial or business activities.
 
@@ -33764,7 +33766,7 @@ Sub V vs Chapter 13
 
 If you are an individual business owner, you might be choosing between Subchapter V and Chapter 13. The key differences:
 
-Debt limits: Chapter 13 caps at $2,750,000 (combined secured + unsecured as of 2024). Sub V allows up to $7.5 million.
+Debt limits: Chapter 13 caps at $2,750,000 (combined secured + unsecured as of 2024). Sub V allows up to $3,424,000.
 
 Business ownership: Chapter 13 is for individuals only. Sub V allows entities (LLCs, corporations) to file.
 
