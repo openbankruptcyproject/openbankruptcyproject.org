@@ -29762,7 +29762,7 @@ Key eligibility requirements under Section 109:
 
 109(d) - Chapter 11 Eligibility: Any person who may be a debtor under Chapter 7 may file Chapter 11. Railroads can also file Chapter 11. Stockbrokers and commodity brokers may not.
 
-109(e) - Chapter 13 Debt Limits: Only individuals with regular income may file Chapter 13, and only if noncontingent, liquidated debts do not exceed the debt limit. As of 2024, the limit is $2,750,000 (combined secured and unsecured). This limit was raised and unified by the Bankruptcy Threshold Adjustment and Technical Corrections Act.
+109(e) - Chapter 13 Debt Limits: Only individuals with regular income may file Chapter 13, and only if noncontingent, liquidated debts are under the debt limits: $526,700 unsecured and $1,580,125 secured, for cases filed April 1, 2025, through March 31, 2028. The Bankruptcy Threshold Adjustment and Technical Corrections Act set a temporary combined $2,750,000 limit that expired June 21, 2024.
 
 109(g) - Filing Bar: A debtor may not file if they had a case dismissed within the past 180 days for willful failure to abide by court orders or for filing a voluntary dismissal after a creditor sought relief from the automatic stay.
 
@@ -29772,7 +29772,7 @@ How This Affects You
 
 How Section 109 affects your filing decision:
 
-Chapter 13 debt limits: If your total debts exceed the Chapter 13 limit ($2,750,000 combined), you cannot file Chapter 13 and must use Chapter 7 or Chapter 11. This affects some homeowners with large mortgages.
+Chapter 13 debt limits: If your debts exceed the Chapter 13 limits ($526,700 unsecured or $1,580,125 secured), you cannot file Chapter 13 and must use Chapter 7 or Chapter 11. This affects some homeowners with large mortgages.
 
 Credit counseling timing: You must complete the credit counseling course before you file your petition. A petition filed without the certificate is defective and may be dismissed. Budget $15-$50 and 60-90 minutes for the course.
 
@@ -33529,7 +33529,7 @@ FeatureSubchapter VChapter 13
 
 Who can fileIndividuals and entities (LLCs, corps)Individuals only
 
-Debt limit$3,424,000$2,750,000 (combined)
+Debt limit$3,424,000$526,700 unsecured / $1,580,125 secured
 
 Business debt requirement50%+ of debts must be business-relatedNone - personal debts OK
 
@@ -33555,7 +33555,7 @@ When to Choose Subchapter V
 
 Your business is an LLC or corporation. Chapter 13 is for individuals only. If your business entity needs bankruptcy protection, Sub V is the path.
 
-Your debts exceed $2,750,000. Chapter 13 has a hard debt cap. Sub V allows up to $3,424,000 (the temporary $7,500,000 ceiling expired June 21, 2024).
+Your debts exceed the Chapter 13 limits ($526,700 unsecured or $1,580,125 secured). Chapter 13 has hard debt caps. Sub V allows up to $3,424,000 (the temporary $7,500,000 ceiling expired June 21, 2024).
 
 You need plan flexibility. Sub V plans can modify secured debt terms, propose varying distribution schedules, and structure payments around business cash flow cycles.
 
@@ -33766,7 +33766,7 @@ Sub V vs Chapter 13
 
 If you are an individual business owner, you might be choosing between Subchapter V and Chapter 13. The key differences:
 
-Debt limits: Chapter 13 caps at $2,750,000 (combined secured + unsecured as of 2024). Sub V allows up to $3,424,000.
+Debt limits: Chapter 13 caps unsecured debts at $526,700 and secured debts at $1,580,125 (separate limits, for cases filed April 1, 2025, through March 31, 2028). Sub V allows up to $3,424,000.
 
 Business ownership: Chapter 13 is for individuals only. Sub V allows entities (LLCs, corporations) to file.
 
@@ -36419,7 +36419,7 @@ Failing the means test does not mean you cannot file bankruptcy - it means you m
 
 Debt Limits for Chapter 13
 
-Chapter 13 has a combined debt limit (secured + unsecured) that is adjusted periodically. As of 2024, the limit is approximately $2,750,000. If your debts exceed this, Chapter 11 (or Subchapter V for eligible small businesses) may be an option.
+Chapter 13 has separate limits for secured and unsecured debt that are adjusted periodically. For cases filed April 1, 2025, through March 31, 2028, the limits are $526,700 in unsecured debt and $1,580,125 in secured debt. A temporary combined $2,750,000 limit applied from June 21, 2022, until it expired June 21, 2024. If your debts exceed either limit, Chapter 11 (or Subchapter V for eligible small businesses) may be an option.
 
 Chapter 7 has no debt limits at all.
 
