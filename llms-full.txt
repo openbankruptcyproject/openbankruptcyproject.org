@@ -147,7 +147,7 @@ Step 2 - Compare to State Median: If your annualized CMI is below your state's m
 
 Step 3 - Deductions: If above median, subtract allowed deductions: IRS National Standards (food, clothing, personal care), IRS Local Standards (housing, transportation), actual secured debt payments, priority claims, and certain other expenses.
 
-Step 4 - Disposable Income Test: Multiply remaining monthly disposable income by 60. If the result is above $15,150, abuse is presumed. If between $9,075 and $15,150, abuse is presumed only if you could pay 25% or more of unsecured claims. Below $9,075, no presumption.
+Step 4 - Disposable Income Test: Multiply remaining monthly disposable income by 60. If the result is above $17,150, abuse is presumed. If between $10,275 and $17,150, abuse is presumed only if you could pay 25% or more of unsecured claims. Below $10,275, no presumption.
 
 Key form: The means test is calculated on Official Form 122A-1 (Chapter 7 Statement of Your Current Monthly Income) and Form 122A-2 (Chapter 7 Means Test Calculation) if above median.
 
@@ -9251,7 +9251,7 @@ Credit Card Debt in Bankruptcy
 
 creditcarddebtbankruptcy.org
 
-Credit card debt is general unsecured debt and is fully dischargeable in bankruptcy. However, there are exceptions: charges for luxury goods over $800 made within 90 days of filing, and cash advances over $1,100 within 70 days of filing, are presumed non-dischargeable. If you have been sued by a credit card company, filing bankruptcy stops the lawsuit immediately. This guide covers how credit card debt is treated in both chapters, how to avoid fraud objections, the impact of balance transfers, and what happens to store credit cards and rewards points.
+Credit card debt is general unsecured debt and is fully dischargeable in bankruptcy. However, there are exceptions: charges for luxury goods over $900 made within 90 days of filing, and cash advances over $1,250 within 70 days of filing, are presumed non-dischargeable. If you have been sued by a credit card company, filing bankruptcy stops the lawsuit immediately. This guide covers how credit card debt is treated in both chapters, how to avoid fraud objections, the impact of balance transfers, and what happens to store credit cards and rewards points.
 
 Payday Loans
 
@@ -31836,7 +31836,7 @@ Section 507(a) establishes the following priority order:
 
 507(a)(3) - Gap Claims: Claims arising in involuntary cases between the filing date and the order for relief.
 
-507(a)(4) - Employee Wages: Wages, salaries, and commissions earned within 180 days before filing, up to $15,150 per employee.
+507(a)(4) - Employee Wages: Wages, salaries, and commissions earned within 180 days before filing, up to $17,150 per employee.
 
 507(a)(5) - Employee Benefit Plans: Contributions to employee benefit plans for services rendered within 180 days before filing.
 
@@ -31856,7 +31856,7 @@ Chapter 13 plans: Your plan must pay all priority claims in full. This means pas
 
 Tax planning: Whether a tax debt has priority status determines whether it must be paid in full or can be discharged. The timing rules (3-year rule, 2-year rule, 240-day rule) determine priority for income taxes.
 
-Employee claims: If you are a business owner filing bankruptcy, your employees' unpaid wages get priority up to $15,150 each, ahead of your general creditors.
+Employee claims: If you are a business owner filing bankruptcy, your employees' unpaid wages get priority up to $17,150 each, ahead of your general creditors.
 
 Related Bankruptcy Code Sections
 
@@ -34572,7 +34572,7 @@ Vehicle exemptions range from $0 (some states) to $20,000+ (Kansas, Colorado)
 
 Some states allow you to use a "wildcard" exemption on top of the vehicle exemption
 
-17 states let you choose federal exemptions, which provide a $4,450 vehicle exemption
+17 states let you choose federal exemptions, which provide a $5,025 vehicle exemption
 
 Married couples filing jointly can often double the exemption amount
 
