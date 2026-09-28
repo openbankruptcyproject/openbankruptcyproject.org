@@ -21,17 +21,23 @@
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('set','allow_ad_personalization_signals',false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
 <!-- BTN:GA4:END -->
 <script>
-/* Ad Grants conversion for a completed donation. Stripe Payment Links do not
-   pass the amount to the redirect URL, so the value is unknown here and is
-   reported as 0 (the count is what the grant measures). Fires once per browser
-   session so a reload of this page does not double-count. */
+/* Ad Grants conversion for a completed donation. Each Stripe Payment Link redirects here as
+   ?v=<tier amount>&k=<kind>&sid={CHECKOUT_SESSION_ID} (set 2026-09-28). v is the fixed tier amount
+   (0 for donor-chosen amounts, valued later from Stripe by the nightly reconciliation); sid is
+   Stripe's Checkout Session id, used as transaction_id so GA4 deduplicates a reload or a second
+   visit. Older links without these parameters still count, at value 0. */
 (function(){
+  var p = new URLSearchParams(location.search);
+  var sid = (p.get('sid') || '').replace(/[^A-Za-z0-9_]/g, '');
+  var v = Number(p.get('v')) || 0;
+  var kind = (p.get('k') || 'donation').replace(/[^a-z_]/g, '');
+  var key = 'obp_purchase_fired_' + (sid || 'nosid');
   try {
-    if (sessionStorage.getItem('obp_purchase_fired') === '1') return;
-    sessionStorage.setItem('obp_purchase_fired', '1');
+    if (sessionStorage.getItem(key) === '1') return;
+    sessionStorage.setItem(key, '1');
   } catch (e) {}
   if (typeof gtag === 'function') {
-    gtag('event', 'purchase', { currency: 'USD', value: 0, transaction_id: 'stripe-' + Date.now(), items: [{ item_name: 'donation' }] });
+    gtag('event', 'purchase', { currency: 'USD', value: v, transaction_id: sid || ('stripe-' + Date.now()), items: [{ item_name: 'donation_' + kind, price: v, quantity: 1 }] });
   }
 })();
 </script>
