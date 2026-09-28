@@ -260,4 +260,32 @@
     }
   });
 
+  // 10. engaged_visit -- one per session, only for a reader who shows all three signs of a person:
+  // 30s of VISIBLE time (a background tab does not count), 50% scroll (or a page too short to
+  // scroll), and a real input (pointer, key or touch). Automated browsers that announce themselves
+  // (navigator.webdriver) never fire it. Added 2026-09-28 after the bot wave inflated key events;
+  // pattern from AdForge's engaged_visit (time + scroll + interaction).
+  (function () {
+    if (navigator.webdriver) return;
+    var KEY = 'btn_engaged_visit';
+    try { if (sessionStorage.getItem(KEY) === '1') return; } catch (_) {}
+    var visibleMs = 0, lastTick = Date.now(), scrolled = false, touched = false, done = false;
+    function check() {
+      if (done) return;
+      var now = Date.now();
+      if (document.visibilityState === 'visible') visibleMs += now - lastTick;
+      lastTick = now;
+      if (!scrolled && getScrollPct() >= 50) scrolled = true;
+      if (visibleMs >= 30000 && scrolled && touched) {
+        done = true;
+        try { sessionStorage.setItem(KEY, '1'); } catch (_) {}
+        gtag('event', 'engaged_visit', { page_path: path, site: host, visible_seconds: Math.round(visibleMs / 1000) });
+      }
+    }
+    ['pointerdown', 'keydown', 'touchstart'].forEach(function (t) {
+      window.addEventListener(t, function () { touched = true; }, { passive: true, once: true });
+    });
+    setInterval(check, 2000);
+  })();
+
 })();
