@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
-    <title>Debtor Experience Survey - Open Bankruptcy Project</title>
-    <meta name="description" content="Learn about debtor experience survey - open bankruptcy project in our free 2026 guide. Clear explanations, real data, and practical steps. Part of the Open Ban">
+    <title>Tell Your Bankruptcy Story (Anonymous) - Open Bankruptcy Project</title>
+    <meta name="description" content="Tired of screaming into the void? Tell your bankruptcy story anonymously. No name needed, and a person reads every story.">
     <link rel="canonical" href="https://openbankruptcyproject.org/survey/">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
-    <meta property="og:title" content="Debtor Experience Survey - Open Bankruptcy Project">
-    <meta property="og:description" content="Learn about debtor experience survey - open bankruptcy project in our free 2026 guide. Clear explanations, real data, and practical steps. Part of the Open Ban">
+    <meta property="og:title" content="Tell Your Bankruptcy Story (Anonymous) - Open Bankruptcy Project">
+    <meta property="og:description" content="Tired of screaming into the void? Tell your bankruptcy story anonymously. No name needed, and a person reads every story.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://openbankruptcyproject.org/survey/">
 <meta property="og:image" content="/og-image.png">
@@ -243,14 +243,17 @@
             fieldset { padding: 16px; }
             .scale-group { gap: 2px 10px; }
         }
+        details.optional-block { margin: 0 0 24px; border: 1px solid #30363d; border-radius: 8px; padding: 12px 16px; }
+        details.optional-block summary { cursor: pointer; font-weight: 600; color: #e6edf3; }
+        details.optional-block fieldset { border: 0; padding: 12px 0 0; margin: 0; }
     </style>
 
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Debtor Experience Survey",
-        "description": "Confidential survey collecting debtor feedback on attorney performance, case outcomes, and access to justice in bankruptcy proceedings.",
+        "name": "Tell Your Bankruptcy Story",
+        "description": "An anonymous place for people who have been through bankruptcy to tell their story. No name needed; a person reads every story.",
         "url": "https://openbankruptcyproject.org/survey/",
         "isPartOf": {
             "@type": "WebSite",
@@ -272,7 +275,7 @@
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Debtor Experience Survey",
+      "headline": "Tell Your Bankruptcy Story",
       "description": "Share your bankruptcy experience. The Open Bankruptcy Project",
       "author": {
         "@type": "Organization",
@@ -299,7 +302,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Debtor Experience Survey - Open Bankruptcy Project",
+          "name": "Tell Your Bankruptcy Story - Open Bankruptcy Project",
           "item": "https://openbankruptcyproject.org"
         }
       ]
@@ -357,8 +360,8 @@
 
 <div class="page-header">
     <div class="container">
-        <h1>Debtor Experience Survey</h1>
-        <p class="subtitle">Help us understand how bankruptcy attorneys serve their clients.</p>
+        <h1>Tired of screaming into the void?</h1>
+        <p class="subtitle">Let us be your outlet. Tell your bankruptcy story.</p>
     </div>
 </div>
 
@@ -366,231 +369,176 @@
     <div class="container">
 
         <div class="intro">
-            <p>This survey is voluntary and confidential. Your responses will be used solely for
-            research into attorney performance patterns in consumer bankruptcy cases.</p>
-            <p>You do not need to answer every question. If you are willing to be contacted for
-            follow-up, please provide your email or phone number at the end of the form.</p>
+            <p>Bankruptcy is hard, and most people go through it alone. This is a place to say what
+            happened, how it went, or just how it felt.</p>
+            <p><strong>It's anonymous.</strong> We don't ask for your name, and we read every story.</p>
         </div>
 
         <form id="surveyForm" novalidate>
 
             <fieldset>
-                <legend>Case Information</legend>
+                <legend>Your story</legend>
+                <label for="story">What happened?</label>
+                <textarea id="story" name="story" rows="10" maxlength="8000" placeholder="What happened? What do you wish someone had told you? Say as much or as little as you want."></textarea>
+                <div class="hint">Please leave out names, case numbers and anything else that could identify you or anyone else.</div>
 
-                <label for="fullName" class="required">Full name</label>
-                <input type="text" id="fullName" name="fullName" autocomplete="name" required>
-
-                <label for="caseNumber">Case number</label>
-                <input type="text" id="caseNumber" name="caseNumber" placeholder="XX-XXXXX">
-                <div class="hint">Format: two-digit year, dash, five-digit number (e.g., 23-12345)</div>
-
-                <label for="courtDistrict" class="required">Court / District</label>
-                <select id="courtDistrict" name="courtDistrict" required>
+                <label for="state" class="required">Your state</label>
+                <select id="state" name="state" required>
                     <option value="">-- Select --</option>
-                    <option value="Alabama Middle">Alabama Middle</option>
-                    <option value="Alabama Northern">Alabama Northern</option>
-                    <option value="Alabama Southern">Alabama Southern</option>
+                    <option value="Alabama">Alabama</option>
                     <option value="Alaska">Alaska</option>
                     <option value="Arizona">Arizona</option>
-                    <option value="Arkansas Eastern">Arkansas Eastern</option>
-                    <option value="Arkansas Western">Arkansas Western</option>
-                    <option value="California Central">California Central</option>
-                    <option value="California Eastern">California Eastern</option>
-                    <option value="California Northern">California Northern</option>
-                    <option value="California Southern">California Southern</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="California">California</option>
                     <option value="Colorado">Colorado</option>
                     <option value="Connecticut">Connecticut</option>
                     <option value="Delaware">Delaware</option>
                     <option value="District of Columbia">District of Columbia</option>
-                    <option value="Florida Middle">Florida Middle</option>
-                    <option value="Florida Northern">Florida Northern</option>
-                    <option value="Florida Southern">Florida Southern</option>
-                    <option value="Georgia Middle">Georgia Middle</option>
-                    <option value="Georgia Northern">Georgia Northern</option>
-                    <option value="Georgia Southern">Georgia Southern</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
                     <option value="Hawaii">Hawaii</option>
                     <option value="Idaho">Idaho</option>
-                    <option value="Illinois Central">Illinois Central</option>
-                    <option value="Illinois Northern">Illinois Northern</option>
-                    <option value="Illinois Southern">Illinois Southern</option>
-                    <option value="Indiana Northern">Indiana Northern</option>
-                    <option value="Indiana Southern">Indiana Southern</option>
-                    <option value="Iowa Northern">Iowa Northern</option>
-                    <option value="Iowa Southern">Iowa Southern</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
                     <option value="Kansas">Kansas</option>
-                    <option value="Kentucky Eastern">Kentucky Eastern</option>
-                    <option value="Kentucky Western">Kentucky Western</option>
-                    <option value="Louisiana Eastern">Louisiana Eastern</option>
-                    <option value="Louisiana Middle">Louisiana Middle</option>
-                    <option value="Louisiana Western">Louisiana Western</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana">Louisiana</option>
                     <option value="Maine">Maine</option>
                     <option value="Maryland">Maryland</option>
                     <option value="Massachusetts">Massachusetts</option>
-                    <option value="Michigan Eastern">Michigan Eastern</option>
-                    <option value="Michigan Western">Michigan Western</option>
+                    <option value="Michigan">Michigan</option>
                     <option value="Minnesota">Minnesota</option>
-                    <option value="Mississippi Northern">Mississippi Northern</option>
-                    <option value="Mississippi Southern">Mississippi Southern</option>
-                    <option value="Missouri Eastern">Missouri Eastern</option>
-                    <option value="Missouri Western">Missouri Western</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Missouri">Missouri</option>
                     <option value="Montana">Montana</option>
                     <option value="Nebraska">Nebraska</option>
                     <option value="Nevada">Nevada</option>
                     <option value="New Hampshire">New Hampshire</option>
                     <option value="New Jersey">New Jersey</option>
                     <option value="New Mexico">New Mexico</option>
-                    <option value="New York Eastern">New York Eastern</option>
-                    <option value="New York Northern">New York Northern</option>
-                    <option value="New York Southern">New York Southern</option>
-                    <option value="New York Western">New York Western</option>
-                    <option value="North Carolina Eastern">North Carolina Eastern</option>
-                    <option value="North Carolina Middle">North Carolina Middle</option>
-                    <option value="North Carolina Western">North Carolina Western</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina">North Carolina</option>
                     <option value="North Dakota">North Dakota</option>
-                    <option value="Ohio Northern">Ohio Northern</option>
-                    <option value="Ohio Southern">Ohio Southern</option>
-                    <option value="Oklahoma Eastern">Oklahoma Eastern</option>
-                    <option value="Oklahoma Northern">Oklahoma Northern</option>
-                    <option value="Oklahoma Western">Oklahoma Western</option>
+                    <option value="Ohio">Ohio</option>
+                    <option value="Oklahoma">Oklahoma</option>
                     <option value="Oregon">Oregon</option>
-                    <option value="Pennsylvania Eastern">Pennsylvania Eastern</option>
-                    <option value="Pennsylvania Middle">Pennsylvania Middle</option>
-                    <option value="Pennsylvania Western">Pennsylvania Western</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
                     <option value="Puerto Rico">Puerto Rico</option>
                     <option value="Rhode Island">Rhode Island</option>
                     <option value="South Carolina">South Carolina</option>
                     <option value="South Dakota">South Dakota</option>
-                    <option value="Tennessee Eastern">Tennessee Eastern</option>
-                    <option value="Tennessee Middle">Tennessee Middle</option>
-                    <option value="Tennessee Western">Tennessee Western</option>
-                    <option value="Texas Eastern">Texas Eastern</option>
-                    <option value="Texas Northern">Texas Northern</option>
-                    <option value="Texas Southern">Texas Southern</option>
-                    <option value="Texas Western">Texas Western</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
                     <option value="Utah">Utah</option>
                     <option value="Vermont">Vermont</option>
-                    <option value="Virginia Eastern">Virginia Eastern</option>
-                    <option value="Virginia Western">Virginia Western</option>
-                    <option value="Washington Eastern">Washington Eastern</option>
-                    <option value="Washington Western">Washington Western</option>
-                    <option value="West Virginia Northern">West Virginia Northern</option>
-                    <option value="West Virginia Southern">West Virginia Southern</option>
-                    <option value="Wisconsin Eastern">Wisconsin Eastern</option>
-                    <option value="Wisconsin Western">Wisconsin Western</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
                     <option value="Wyoming">Wyoming</option>
-                    <option value="Other">Other</option>
+                    <option value="Outside the US">Outside the US</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
                 </select>
-
-                <label for="attorneyName" class="required">Attorney name</label>
-                <input type="text" id="attorneyName" name="attorneyName" required>
-
-                <label for="firmName">Law firm name</label>
-                <input type="text" id="firmName" name="firmName">
             </fieldset>
+
+            <details class="optional-block">
+                <summary>Help us learn from your story (optional)</summary>
+                <fieldset>
+                    <label>Where are you in the process?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="stage" value="researching"> Researching / haven't filed</label>
+                        <label><input type="radio" name="stage" value="filed_with_lawyer"> Filed with a lawyer</label>
+                        <label><input type="radio" name="stage" value="filed_without_lawyer"> Filed without a lawyer</label>
+                        <label><input type="radio" name="stage" value="case_over"> My case is over</label>
+                    </div>
+
+                    <label style="margin-top:20px;">Chapter</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="chapter" value="7"> Chapter 7</label>
+                        <label><input type="radio" name="chapter" value="13"> Chapter 13</label>
+                        <label><input type="radio" name="chapter" value="11_other"> 11 or other</label>
+                        <label><input type="radio" name="chapter" value="not_sure"> Not sure</label>
+                    </div>
+
+                    <label for="yearFiled" style="margin-top:20px;">Year you filed (if you did)</label>
+                    <input type="text" id="yearFiled" name="yearFiled" inputmode="numeric" maxlength="4" placeholder="e.g. 2024">
+
+                    <label style="margin-top:20px;">How did it turn out?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="caseOutcome" value="Discharged"> Discharged</label>
+                        <label><input type="radio" name="caseOutcome" value="Dismissed"> Dismissed</label>
+                        <label><input type="radio" name="caseOutcome" value="Converted"> Converted</label>
+                        <label><input type="radio" name="caseOutcome" value="Still pending"> Still pending</label>
+                        <label><input type="radio" name="caseOutcome" value="Don't know"> Don't know</label>
+                    </div>
+
+                    <div id="lawyerQs" style="display:none">
+                        <label style="margin-top:20px;">How was your lawyer's communication? (1 = poor, 5 = great)</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="communication" value="1"> 1</label>
+                            <label><input type="radio" name="communication" value="2"> 2</label>
+                            <label><input type="radio" name="communication" value="3"> 3</label>
+                            <label><input type="radio" name="communication" value="4"> 4</label>
+                            <label><input type="radio" name="communication" value="5"> 5</label>
+                        </div>
+                        <label style="margin-top:20px;">How was your lawyer's competence? (1 = poor, 5 = great)</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="competence" value="1"> 1</label>
+                            <label><input type="radio" name="competence" value="2"> 2</label>
+                            <label><input type="radio" name="competence" value="3"> 3</label>
+                            <label><input type="radio" name="competence" value="4"> 4</label>
+                            <label><input type="radio" name="competence" value="5"> 5</label>
+                        </div>
+                        <label style="margin-top:20px;">Were you aware of errors or problems in your case?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="errors" value="Yes"> Yes</label>
+                            <label><input type="radio" name="errors" value="No"> No</label>
+                            <label><input type="radio" name="errors" value="Not sure"> Not sure</label>
+                        </div>
+                        <label style="margin-top:20px;">Were you told about all your options?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="informedOptions" value="Yes"> Yes</label>
+                            <label><input type="radio" name="informedOptions" value="No"> No</label>
+                            <label><input type="radio" name="informedOptions" value="Not sure"> Not sure</label>
+                        </div>
+                    </div>
+
+                    <label for="hardest" style="margin-top:20px;">What was hardest?</label>
+                    <textarea id="hardest" name="hardest" rows="3" maxlength="2000"></textarea>
+
+                    <label for="helped" style="margin-top:20px;">What would have helped most?</label>
+                    <textarea id="helped" name="helped" rows="3" maxlength="2000"></textarea>
+                </fieldset>
+            </details>
 
             <fieldset>
-                <legend>Case Outcome</legend>
-
-                <label class="required">What was the outcome of your case?</label>
+                <label>May we share your story, anonymously and with your state only?</label>
                 <div class="radio-group">
-                    <label><input type="radio" name="caseOutcome" value="Dismissed" required> Dismissed</label>
-                    <label><input type="radio" name="caseOutcome" value="Discharged"> Discharged</label>
-                    <label><input type="radio" name="caseOutcome" value="Converted"> Converted</label>
-                    <label><input type="radio" name="caseOutcome" value="Still pending"> Still pending</label>
-                    <label><input type="radio" name="caseOutcome" value="Don't know"> Don't know</label>
+                    <label><input type="radio" name="shareOk" value="no" checked> No, keep it private</label>
+                    <label><input type="radio" name="shareOk" value="yes"> Yes, you may quote it anonymously</label>
                 </div>
+                <div class="hint">Either way, we never publish anything that could identify you.</div>
             </fieldset>
 
-            <fieldset>
-                <legend>Attorney Performance</legend>
-
-                <label class="required">How would you rate your attorney's communication?</label>
-                <div class="scale-group">
-                    <label><input type="radio" name="communication" value="1" required> 1</label>
-                    <label><input type="radio" name="communication" value="2"> 2</label>
-                    <label><input type="radio" name="communication" value="3"> 3</label>
-                    <label><input type="radio" name="communication" value="4"> 4</label>
-                    <label><input type="radio" name="communication" value="5"> 5</label>
-                </div>
-                <div class="scale-labels"><span>Poor</span><span>Excellent</span></div>
-
-                <label class="required" style="margin-top:20px;">How would you rate your attorney's competence?</label>
-                <div class="scale-group">
-                    <label><input type="radio" name="competence" value="1" required> 1</label>
-                    <label><input type="radio" name="competence" value="2"> 2</label>
-                    <label><input type="radio" name="competence" value="3"> 3</label>
-                    <label><input type="radio" name="competence" value="4"> 4</label>
-                    <label><input type="radio" name="competence" value="5"> 5</label>
-                </div>
-                <div class="scale-labels"><span>Poor</span><span>Excellent</span></div>
-
-                <label style="margin-top:20px;">Were you aware of any errors or problems in your case?</label>
-                <div class="radio-group">
-                    <label><input type="radio" name="errors" value="Yes"> Yes</label>
-                    <label><input type="radio" name="errors" value="No"> No</label>
-                    <label><input type="radio" name="errors" value="Not sure"> Not sure</label>
-                </div>
-
-                <label style="margin-top:20px;">Were you informed about all options available to you?</label>
-                <div class="radio-group">
-                    <label><input type="radio" name="informedOptions" value="Yes"> Yes</label>
-                    <label><input type="radio" name="informedOptions" value="No"> No</label>
-                    <label><input type="radio" name="informedOptions" value="Not sure"> Not sure</label>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <legend>Your Experience</legend>
-
-                <label for="experience">Describe your experience</label>
-                <textarea id="experience" name="experience" placeholder="Please share as much detail as you are comfortable with. What went well? What went wrong? Were there unexpected costs, delays, or outcomes?"></textarea>
-            </fieldset>
-
-            <fieldset>
-                <legend>Willingness to Participate Further</legend>
-
-                <label>Would you be willing to provide a written declaration about your experience?</label>
-                <div class="radio-group">
-                    <label><input type="radio" name="declaration" value="Yes"> Yes</label>
-                    <label><input type="radio" name="declaration" value="No"> No</label>
-                    <label><input type="radio" name="declaration" value="Maybe"> Maybe</label>
-                </div>
-
-                <label style="margin-top:20px;">Would you be willing to speak with a journalist?</label>
-                <div class="radio-group">
-                    <label><input type="radio" name="journalist" value="Yes"> Yes</label>
-                    <label><input type="radio" name="journalist" value="No"> No</label>
-                    <label><input type="radio" name="journalist" value="Maybe"> Maybe</label>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <legend>Contact Information (Optional)</legend>
-
-                <label for="email">Email address</label>
-                <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com">
-                <div class="hint">Only used for follow-up if you indicated willingness above.</div>
-
-                <label for="phone">Phone number</label>
-                <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(555) 555-5555">
-            </fieldset>
+            <p class="hint" style="margin:0 0 16px">This is anonymous and for research. We can't give legal advice or review your case. For help with your case, a licensed bankruptcy attorney or your local <a href="/find-help.html">legal aid office</a> can advise you. Want to share more, or speak on the record? Email <a href="mailto:info@openbankruptcyproject.org">info@openbankruptcyproject.org</a>; that is separate from this form and never linked to it.</p>
 
             <p id="formError" class="error-msg" style="margin-bottom:8px; text-align:center;"></p>
 
-            <!-- Cloudflare Turnstile: bot check before a report can be stored. The
+            <!-- Cloudflare Turnstile: bot check before a story can be stored. The
                  Worker re-verifies the token server-side. -->
             <div class="cf-turnstile" data-sitekey="0x4AAAAAAE-Te29Hk-sLv06F" data-theme="dark" style="margin:0 auto 12px; display:flex; justify-content:center;"></div>
             <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
-            <button type="submit" class="btn-submit" id="submitBtn">Submit Survey</button>
+            <button type="submit" class="btn-submit" id="submitBtn">Share my story</button>
 
         </form>
 
         <div class="thank-you" id="thankYou">
-            <h2>Thank you.</h2>
-            <p>Your response has been received. If you provided contact information and indicated willingness to participate further, we may reach out.</p>
-            <p>Your answers are confidential and will be used solely for research purposes.</p>
-            <p class="thank-you-next">Read next: <a href="/fee-guide/" onclick="if(window.gtag){gtag('event','thankyou_next_click',{dest:'/fee-guide/'})}">How a fee review under section 329 works</a> &middot; <a href="/find-help.html" onclick="if(window.gtag){gtag('event','thankyou_next_click',{dest:'/find-help.html'})}">Find free legal help in your state</a></p>
+            <h2>Thank you for telling us.</h2>
+            <p>It matters, and it helps. A person will read your story.</p>
+            <p style="font-size:.9rem">If you're in crisis or thinking about harming yourself, call or text <strong>988</strong> (Suicide &amp; Crisis Lifeline, US). For help with your case, a licensed bankruptcy attorney or your local <a href="/find-help.html">legal aid office</a> can advise you.</p>
+            <p class="thank-you-next">Read next: <a href="/find-help.html" onclick="if(window.gtag){gtag('event','thankyou_next_click',{dest:'/find-help.html'})}">Find free legal help in your state</a> &middot; <a href="/exemptions/" onclick="if(window.gtag){gtag('event','thankyou_next_click',{dest:'/exemptions/'})}">What you can keep in bankruptcy</a></p>
         </div>
 
     </div>
@@ -624,7 +572,7 @@
             <a href="/donate.html">Donate</a>
         </div>
         <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization.</p>
-        <p>Your responses are confidential and used solely for research purposes.</p>
+        <p>Stories are anonymous. A person reads every one.</p>
     </div>
     <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
 <p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
@@ -636,39 +584,58 @@
   var btn = document.getElementById('submitBtn');
   var errorEl = document.getElementById('formError');
   var thankYou = document.getElementById('thankYou');
+  var lawyerQs = document.getElementById('lawyerQs');
 
   // Intake endpoint: Cloudflare Worker `obp-survey-intake` (source:
-  // D:\Bankruptcy\cloudflare\survey-intake). Stores each report in the
-  // obp-search D1 table `survey_reports` and returns JSON {ok:true,id}.
+  // D:\Bankruptcy\cloudflare\survey-intake). v2 (2026-09-30) is anonymous:
+  // no name, case number, court, attorney or contact field exists on this page.
   var ENDPOINT = 'https://obp-survey-intake.openbankruptcyproject.workers.dev/submit';
-  var FALLBACK_HTML = 'Our intake form could not accept your report just now. ' +
-    'Please email it to <a href="mailto:info@openbankruptcyproject.org">info@openbankruptcyproject.org</a> ' +
-    'and we will follow up. We are sorry for the inconvenience.';
+  var FALLBACK_HTML = 'We could not save your story just now. Please try again in a minute, ' +
+    'or email it to <a href="mailto:info@openbankruptcyproject.org">info@openbankruptcyproject.org</a>. We are sorry.';
+
+  // Lawyer questions only for people who filed with a lawyer.
+  form.addEventListener('change', function(e) {
+    if (e.target && e.target.name === 'stage') {
+      lawyerQs.style.display = e.target.value === 'filed_with_lawyer' ? 'block' : 'none';
+    }
+  });
+
+  function picked(name) {
+    var el = form.querySelector('input[name="' + name + '"]:checked');
+    return el ? el.value : '';
+  }
 
   form.addEventListener('submit', function(e) {
     e.preventDefault();
     errorEl.style.display = 'none';
 
-    // Basic validation
-    var name = form.fullName.value.trim();
-    var court = form.courtDistrict.value;
-    var attorney = form.attorneyName.value.trim();
-    var outcome = form.querySelector('input[name="caseOutcome"]:checked');
-    var comm = form.querySelector('input[name="communication"]:checked');
-    var comp = form.querySelector('input[name="competence"]:checked');
+    var withLawyer = picked('stage') === 'filed_with_lawyer';
+    var data = {
+      story: form.story.value.trim(),
+      state: form.state.value,
+      stage: picked('stage'),
+      chapter: picked('chapter'),
+      yearFiled: form.yearFiled.value.trim(),
+      caseOutcome: picked('caseOutcome'),
+      communication: withLawyer ? picked('communication') : '',
+      competence: withLawyer ? picked('competence') : '',
+      errors: withLawyer ? picked('errors') : '',
+      informedOptions: withLawyer ? picked('informedOptions') : '',
+      hardest: form.hardest.value.trim(),
+      helped: form.helped.value.trim(),
+      shareOk: picked('shareOk') === 'yes' ? 'yes' : 'no'
+    };
 
-    if (!name || !court || !attorney) {
-      errorEl.textContent = 'Please fill in the required fields: name, court, and attorney name.';
+    if (!data.state) {
+      errorEl.textContent = 'Please pick your state (or "Prefer not to say").';
       errorEl.style.display = 'block';
       return;
     }
-    if (!outcome) {
-      errorEl.textContent = 'Please select a case outcome.';
-      errorEl.style.display = 'block';
-      return;
-    }
-    if (!comm || !comp) {
-      errorEl.textContent = 'Please rate your attorney\'s communication and competence.';
+    var answered = Object.keys(data).some(function(k) {
+      return k !== 'state' && k !== 'shareOk' && data[k];
+    });
+    if (!answered) {
+      errorEl.textContent = 'Please write your story, or answer at least one question.';
       errorEl.style.display = 'block';
       return;
     }
@@ -676,48 +643,25 @@
     var tsField = form.querySelector('input[name="cf-turnstile-response"]');
     var tsToken = tsField ? tsField.value : '';
     if (!tsToken) {
-      errorEl.textContent = 'Please wait for the verification check below the form to finish, then submit again.';
+      errorEl.textContent = 'Please wait for the verification check just above the button to finish, then try again.';
       errorEl.style.display = 'block';
       return;
     }
+    data.turnstileToken = tsToken;
 
     btn.disabled = true;
-    btn.textContent = 'Submitting...';
+    btn.textContent = 'Sending...';
 
-    // Field names here must match the Worker's column mapping (survey-intake/src/index.js).
-    var data = {
-      fullName: name,
-      caseNumber: form.caseNumber.value.trim(),
-      courtDistrict: court,
-      attorneyName: attorney,
-      firmName: form.firmName.value.trim(),
-      caseOutcome: outcome.value,
-      communication: comm.value,
-      competence: comp.value,
-      errors: (form.querySelector('input[name="errors"]:checked') || {}).value || '',
-      informedOptions: (form.querySelector('input[name="informedOptions"]:checked') || {}).value || '',
-      experience: form.experience.value.trim(),
-      declaration: (form.querySelector('input[name="declaration"]:checked') || {}).value || '',
-      journalist: (form.querySelector('input[name="journalist"]:checked') || {}).value || '',
-      email: form.email.value.trim(),
-      phone: form.phone.value.trim(),
-      turnstileToken: tsToken
-    };
-
-    // The Worker answers with CORS headers, so the response is readable:
-    // the thank-you screen and the conversion events fire ONLY on a 2xx with
-    // {ok:true}. Anything else (network failure, Worker down, validation
-    // rejection) falls through to the honest email fallback. Never fake success.
+    // Thank-you and conversion events fire ONLY on a 2xx with {ok:true}.
+    // Anything else falls through to the honest fallback. Never fake success.
     function fail(msg) {
       errorEl.innerHTML = msg || FALLBACK_HTML;
       errorEl.style.display = 'block';
       btn.disabled = false;
-      btn.textContent = 'Submit Survey';
-      // A Turnstile token is single-use; issue a fresh one for the retry.
+      btn.textContent = 'Share my story';
       if (window.turnstile && typeof window.turnstile.reset === 'function') {
         try { window.turnstile.reset(); } catch (e) {}
       }
-      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     fetch(ENDPOINT, {
       method: 'POST',
@@ -735,17 +679,15 @@
       form.style.display = 'none';
       thankYou.style.display = 'block';
       window.scrollTo({ top: 0, behavior: 'smooth' });
-      // Ad Grants conversion: attorney-accountability intake. report_submit is the
-      // GA4 Key Event to mark + import to Google Ads; generate_lead is the standard
-      // high-value conversion Google Ads recognizes natively.
+      // Conversion: a story (or answers) was stored. No free text or state is
+      // sent to analytics; only whether a story was written and the stage.
       if (typeof gtag === 'function') {
         var conv = {
-          court_district: data.courtDistrict || '',
-          willing_declaration: data.declaration || '',
-          willing_journalist: data.journalist || '',
+          has_story: data.story ? 'yes' : 'no',
+          stage: data.stage || 'unspecified',
           site: location.hostname
         };
-        gtag('event', 'report_submit', conv);
+        gtag('event', 'story_submit', conv);
         gtag('event', 'generate_lead', conv);
       }
     }).catch(function() {
