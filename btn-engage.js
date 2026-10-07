@@ -91,11 +91,15 @@
         to_page: url.pathname
       });
     } else {
-      // External outbound
+      // External outbound. link_url / link_domain are GA4's own parameter names, so the
+      // built-in "Link URL" / "Link domain" dimensions fill without a custom-dimension
+      // registration (they read blank while only to_url was sent). to_url kept for continuity.
       gtag('event', 'outbound_click', {
         from_page: path,
         site: host,
-        to_url: href.substring(0, 200)
+        to_url: href.substring(0, 200),
+        link_url: href.substring(0, 200),
+        link_domain: url.hostname
       });
     }
   });
@@ -242,6 +246,7 @@
     if (/ko-fi\.com|\/support|\/donate/i.test(href)) {
       gtag('event', 'support_click', {
         destination: href.substring(0, 100),
+        link_url: href.substring(0, 200),
         page_path: path,
         site: host
       });
@@ -249,11 +254,14 @@
     // Attorney-regulator links only: href against an allow-list of regulator hosts
     // (state bars, OCDC, the U.S. Trustee Program, the federal courts) or an explicit
     // data-complaint attribute. Link text is not consulted.
-    var COMPLAINT_ALLOW = /^https?:\/\/([a-z0-9-]+\.)*(justice\.gov\/ust|usdoj\.gov\/ust|uscourts\.gov|ocdc\.[a-z]+|mo-legal-ethics\.org|iardc\.org|[a-z-]*bar\.(org|com|net|gov)|[a-z-]*bar\.[a-z]{2}\.(gov|us)|attorneydiscipline\.[a-z]+|lawyerdiscipline\.[a-z]+)/i;
+    // (?!dischargebar\.) 2026-10-07: dischargebar.org is a network site, not a bar; the bare
+    // *bar.org pattern was logging it as a regulator click from state pages.
+    var COMPLAINT_ALLOW = /^https?:\/\/([a-z0-9-]+\.)*(justice\.gov\/ust|usdoj\.gov\/ust|uscourts\.gov|ocdc\.[a-z]+|mo-legal-ethics\.org|iardc\.org|(?!dischargebar\.)[a-z-]*bar\.(org|com|net|gov)|[a-z-]*bar\.[a-z]{2}\.(gov|us)|attorneydiscipline\.[a-z]+|lawyerdiscipline\.[a-z]+)/i;
     if (a.hasAttribute('data-form-id')) return; // official form download, not a regulator link (6b)
     if (a.hasAttribute('data-complaint') || COMPLAINT_ALLOW.test(href)) {
       gtag('event', 'complaint_link_click', {
         destination: href.substring(0, 100),
+        link_url: href.substring(0, 200),
         page_path: path,
         site: host
       });

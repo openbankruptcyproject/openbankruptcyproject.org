@@ -116,10 +116,25 @@
     if (emptyEventTimer) { clearTimeout(emptyEventTimer); emptyEventTimer = null; }
   }
 
+  // Coarse, name-free class of a query for GA4: "[case-number]", "[number]",
+  // "[empty]", or "[text:Nw]" (N = word count, capped at 5+). Never the query itself.
+  function queryShape(q) {
+    var s = (q || "").trim();
+    if (!s) return "[empty]";
+    if (looksLikeCaseNumber(s)) return "[case-number]";
+    if (/^[\d\s().-]+$/.test(s)) return "[number]";
+    var n = s.split(/\s+/).length;
+    return "[text:" + (n >= 5 ? "5+" : n) + "w]";
+  }
+
   function scheduleEmptyEvent(params) {
     cancelEmptyEvent();
     var q = params._q || "";
     delete params._q; // never log the raw query to GA4 — only q_len ships
+    // search_term carries the query's SHAPE, never its text: these are searches of
+    // named debtors and loan recipients, and privacy.html says analytics collects no
+    // names. Fills customEvent:search_term (was all "(not set)") without shipping a name.
+    params.search_term = queryShape(q);
     emptyEventTimer = setTimeout(function () {
       emptyEventTimer = null;
       if (q && q === lastFiredEmptyQ) return; // same settled query — don't double-count
