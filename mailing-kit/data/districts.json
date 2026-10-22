@@ -19,7 +19,15 @@
    "official_url": "https://www.akb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 1,
+    "court_notice_url": "https://www.akb.uscourts.gov/news/important-notice-bankruptcy-noticing-center-service-disruption",
+    "court_notice_text": "Important Notice: Bankruptcy Noticing Center Service Disruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "almb",
@@ -28,7 +36,15 @@
    "official_url": "https://www.almb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 12,
+    "court_notice_url": "https://www.almb.uscourts.gov/news/emergency-administrative-order-during-bnc-interruption",
+    "court_notice_text": "Emergency Administrative Order During BNC Interruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "alnb",
@@ -37,7 +53,15 @@
    "official_url": "https://www.alnb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 7,
+    "court_notice_url": "https://www.alnb.uscourts.gov/news/important-information-regarding-bankruptcy-noticing-center-bnc-nationwide-service-disruption",
+    "court_notice_text": "Important Information Regarding Bankruptcy Noticing Center (BNC) Nationwide Service Disruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "alsb",
@@ -46,7 +70,15 @@
    "official_url": "https://www.alsb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 7,
+    "court_notice_url": "https://www.alsb.uscourts.gov/updates-regarding-bnc-disruption",
+    "court_notice_text": "(latest update 10/20/26)"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "areb",
@@ -55,7 +87,15 @@
    "official_url": "https://www.areb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 3,
+    "court_notice_url": "https://www.areb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "Update Regarding BNC Service Disruption and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "arwb",
@@ -64,7 +104,15 @@
    "official_url": "https://www.arwb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 3,
+    "court_notice_url": "https://www.arwb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "Update Regarding BNC Service Disruption and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "azb",
@@ -78,7 +126,15 @@
     "summary": "Update of Oct. 14: CM/ECF remains operational; attorneys and registered filers verify deadlines through CM/ECF or PACER rather than BNC confirmations and remain responsible for proper service; the creditor list is pulled through Query, then the Creditor link.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 12,
+    "court_notice_url": "https://www.azb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "BNC News Post"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "cacb",
@@ -92,7 +148,15 @@
     "summary": "Notice of Oct. 14 (General Order 26-02 / Public Notice 26-014) on procedures for service of entered orders during the BNC outage; the court says parties who are not registered CM/ECF users may experience delays in receiving copies of entered orders.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 2,
+    "court_notice_url": "https://www.cacb.uscourts.gov/news/procedures-service-entered-orders-light-bnc-outage",
+    "court_notice_text": "Procedures for Service of Entered Orders in Light of BNC Outage"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "caeb",
@@ -101,7 +165,15 @@
    "official_url": "https://www.caeb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 2,
+    "court_notice_url": "https://www.caeb.uscourts.gov/NewsItem?key=gbSsNHIhCH28UAzR",
+    "court_notice_text": "Update Regarding BNC Service Disruption and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "canb",
@@ -110,7 +182,15 @@
    "official_url": "https://www.canb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 8,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "mention_only"
   },
   {
    "slug": "casb",
@@ -119,7 +199,15 @@
    "official_url": "https://www.casb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 3,
+    "court_notice_url": "https://www.casb.uscourts.gov/news/bankruptcy-noticing-center-service-outage",
+    "court_notice_text": "Bankruptcy Noticing Center Service Outage"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "cob",
@@ -128,7 +216,15 @@
    "official_url": "https://www.cob.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 2,
+    "court_notice_url": "https://www.cob.uscourts.gov/news/2026/10/14/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "October 14, 2026 Update Regarding BNC Service Disruption and Accessing List of Creditors in CM/ECF Wednesday, October 14, 2026"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "ctb",
@@ -142,7 +238,15 @@
     "summary": "FAQs updated Oct. 21: the court remains open and CM/ECF is available; the disruption concerns notices and orders mailed through the BNC and does not itself suspend parties' independent service obligations; under General Order 2026-02 scheduled hearings proceed and deadlines are not automatically extended; relief may be requested by motion.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 18,
+    "court_notice_url": "https://www.ctb.uscourts.gov/bnc-service-disruption-2026",
+    "court_notice_text": "BNC SERVICE DISRUPTION - 2026"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "dcb",
@@ -151,7 +255,15 @@
    "official_url": "https://www.dcb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 2,
+    "court_notice_url": "https://www.dcb.uscourts.gov/sites/dcb/files/Notice%2010-14-26.pdf",
+    "court_notice_text": "BANKRUPTCY NOTICING CENTER DISRUPTION"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "deb",
@@ -160,7 +272,15 @@
    "official_url": "https://www.deb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 4,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "mention_only"
   },
   {
    "slug": "flmb",
@@ -169,7 +289,15 @@
    "official_url": "https://www.flmb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 11,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "mention_only"
   },
   {
    "slug": "flnb",
@@ -178,7 +306,15 @@
    "official_url": "https://www.flnb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 17,
+    "court_notice_url": "https://www.flnb.uscourts.gov/bnc-information",
+    "court_notice_text": "Bankruptcy Noticing Center"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "flsb",
@@ -192,7 +328,15 @@
     "summary": "Administrative Order 2026-06 (Oct. 16): entry and service of court notices and orders may be delayed; parties obtain creditor and party addresses through the CM/ECF Query function because the mailing-matrix service is unavailable.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 2,
+    "court_notice_url": "https://www.flsb.uscourts.gov/node/1783",
+    "court_notice_text": "IMPORTANT UPDATE REGARDING BANKRUPTCY NOTICING CENTER DISRUPTION IN SERVICE"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "gamb",
@@ -201,7 +345,15 @@
    "official_url": "https://www.gamb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 8,
+    "court_notice_url": "https://www.gamb.uscourts.gov/USCourts/news/administrative-order-2026-03-order-bankruptcy-noticing-center-service-interruption",
+    "court_notice_text": "Administrative Order 2026-03 Order on Bankruptcy Noticing Center Service Interruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "ganb",
@@ -215,7 +367,15 @@
     "summary": "Notice of Oct. 15: the disruption affects delivery of court notices and 341 meeting notices; the court continues to accept filings, open cases, and process documents as usual; CM/ECF users obtain creditor and party addresses through the Query function because the mailing matrix is inaccessible.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 5,
+    "court_notice_url": "https://www.ganb.uscourts.gov/news/important-information-regarding-bankruptcy-noticing-center-bnc-service-disruption",
+    "court_notice_text": "Important Information Regarding Bankruptcy Noticing Center (BNC) Service Disruption"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "gasb",
@@ -224,7 +384,15 @@
    "official_url": "https://www.gasb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 5,
+    "court_notice_url": "https://www.gasb.uscourts.gov/news/important-information-regarding-bankruptcy-noticing-center-bnc-nationwide-service-disruption",
+    "court_notice_text": "Important Information Regarding Bankruptcy Noticing Center (BNC) Nationwide Service Disruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "gub",
@@ -233,7 +401,15 @@
    "official_url": "https://www.gud.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 3,
+    "court_notice_url": "https://www.gud.uscourts.gov/news/bankruptcy-noticing-center-update",
+    "court_notice_text": "Bankruptcy Noticing Center Update"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "hib",
@@ -242,7 +418,15 @@
    "official_url": "https://www.hib.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 5,
+    "court_notice_url": "https://www.hib.uscourts.gov/news/notice-bnc-nationwide-outage",
+    "court_notice_text": "Notice of BNC Nationwide Outage"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "ianb",
@@ -251,7 +435,15 @@
    "official_url": "https://www.ianb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 10,
+    "court_notice_url": "https://www.ianb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "Update Regarding BNC Service Disruption and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "iasb",
@@ -260,7 +452,15 @@
    "official_url": "https://www.iasb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 8,
+    "court_notice_url": "https://www.iasb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "Update Regarding BNC Service Disruption and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "idb",
@@ -269,7 +469,15 @@
    "official_url": "https://www.id.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 3,
+    "court_notice_url": "https://www.id.uscourts.gov/Content_Fetcher/index.cfml/GO_483_re_BNC_Noticing_Changes_4674.pdf?Content_ID=4674",
+    "court_notice_text": "GO 483 re BNC Noticing Changes"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "ilcb",
@@ -278,7 +486,15 @@
    "official_url": "https://www.ilcb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 13,
+    "court_notice_url": "https://www.ilcb.uscourts.gov/bankruptcy-noticing-center",
+    "court_notice_text": "Bankruptcy Noticing Center"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "ilnb",
@@ -292,7 +508,15 @@
     "summary": "General Order No. 26-04 (Oct. 16): the assigned judge may extend or reset deadlines or continue hearings as necessary to address the interruption; relief is requested by written motion or orally. The court also posts a page of affected cases and matters.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 6,
+    "court_notice_url": "https://www.ilnb.uscourts.gov/bnc-outage-affected-cases-and-matters",
+    "court_notice_text": "BNC Outage Case Info"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "ilsb",
@@ -301,7 +525,15 @@
    "official_url": "https://www.ilsb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 6,
+    "court_notice_url": "https://www.ilsb.uscourts.gov/news/general-order-26-4-re-bankruptcy-noticing-center-service-bnc-interruption",
+    "court_notice_text": "General Order 26-4 RE Bankruptcy Noticing Center Service (BNC) Interruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "innb",
@@ -310,7 +542,15 @@
    "official_url": "https://www.innb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 11,
+    "court_notice_url": "https://www.innb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "HERE"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "insb",
@@ -319,7 +559,15 @@
    "official_url": "https://www.insb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 13,
+    "court_notice_url": "https://www.insb.uscourts.gov/documents-bankruptcy-noticing-center-bnc",
+    "court_notice_text": "Documents from the Bankruptcy Noticing Center (BNC)"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "ksb",
@@ -333,7 +581,15 @@
     "summary": "General Order 26-2 (Oct. 22), following General Order 26-1 (Oct. 14): the court designates parties who are temporarily responsible for serving the various court-issued notices and orders until the BNC disruption has concluded. Read the order itself for which party serves which notice.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 10,
+    "court_notice_url": "https://www.ksb.uscourts.gov/news/d-kan-general-order-26-2-designates-parties-temporarily-responsible-serve-notices-during-bnc",
+    "court_notice_text": "D. Kan. General Order 26-2 Designates Parties Temporarily Responsible to Serve Notices During BNC Service Disruption"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "kyeb",
@@ -342,7 +598,15 @@
    "official_url": "https://www.kyeb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 6,
+    "court_notice_url": "https://www.kyeb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "Update Regarding BNC Service Disruption and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "kywb",
@@ -351,7 +615,15 @@
    "official_url": "https://www.kywb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 9,
+    "court_notice_url": "https://www.kywb.uscourts.gov/news/noticing-center-issues-impacting-delivery-cmecf-notices",
+    "court_notice_text": "Noticing Center Issues Impacting Delivery of CM/ECF Notices"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "laeb",
@@ -365,7 +637,15 @@
     "summary": "Notice of Oct. 14: temporary noticing requirements are in General Order 2026-1; the CM/ECF NEF e-mail system continues to operate; the creditor list can be retrieved in CM/ECF (Query, then Creditor); the court notes the creditor list does not include all parties in interest.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 5,
+    "court_notice_url": "https://www.laeb.uscourts.gov/news/bankruptcy-noticing-center-service-disruption",
+    "court_notice_text": "Bankruptcy Noticing Center Service Disruption"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "lamb",
@@ -374,7 +654,15 @@
    "official_url": "https://www.lamb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 12,
+    "court_notice_url": "https://www.lamb.uscourts.gov/news/bankruptcy-noticing-center-bnc-disruption",
+    "court_notice_text": "Click Here"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "lawb",
@@ -383,7 +671,15 @@
    "official_url": "https://www.lawb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 17,
+    "court_notice_url": "https://www.lawb.uscourts.gov/news/general-order-2026-2-regarding-bnc-service-interruption",
+    "court_notice_text": "GENERAL ORDER 2026-2 REGARDING BNC SERVICE INTERRUPTION"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "mab",
@@ -392,7 +688,15 @@
    "official_url": "https://www.mab.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 5,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "mention_only"
   },
   {
    "slug": "mdb",
@@ -401,7 +705,15 @@
    "official_url": "https://www.mdb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 13,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "mention_only"
   },
   {
    "slug": "meb",
@@ -410,7 +722,15 @@
    "official_url": "https://www.meb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 13,
+    "court_notice_url": "https://www.meb.uscourts.gov/news/general-order-regarding-bankruptcy-noticing-center-service-disruption",
+    "court_notice_text": "General Order regarding the bankruptcy noticing center service disruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "mieb",
@@ -424,7 +744,15 @@
     "summary": "Clerk's update of Oct. 14 (after Administrative Order 26-16 of Oct. 13; a supplemental Administrative Order 26-18 followed Oct. 21): filings continue; entry and service of notices and orders, and service of 341 notices, may be delayed; CM/ECF users serving pleadings and delegated notices/orders pull the creditor list through Query, and the list does not include all interested parties such as the debtor, trustees, or the U.S. Trustee.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 4,
+    "court_notice_url": "https://www.mieb.uscourts.gov/sites/mieb/files/news/Administrative%20Order%20%2326-18%20Re%20Supplemental%20Order%20Re%20BNC%20Service%20Interruption%2010-21-26.pdf",
+    "court_notice_text": "Administrative Order #26-18 Regarding Bankruptcy Noticing Center Service Interruption"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "miwb",
@@ -433,7 +761,15 @@
    "official_url": "https://www.miwb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 15,
+    "court_notice_url": "https://www.miwb.uscourts.gov/news/service-chapter-13-plans-during-bnc-outage",
+    "court_notice_text": "Service of Chapter 13 Plans During BNC Outage"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "mnb",
@@ -442,7 +778,15 @@
    "official_url": "https://www.mnb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 5,
+    "court_notice_url": "https://www.mnb.uscourts.gov/news/update-regarding-bankruptcy-noticing-center-service-interruption",
+    "court_notice_text": "Update Regarding Bankruptcy Noticing Center Service Interruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "moeb",
@@ -456,7 +800,15 @@
     "summary": "Court update: a nationwide BNC service disruption since Oct. 9 delays delivery of mailed notices; electronic notices through CM/ECF continue normally; no restoration estimate; further updates promised.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 1,
+    "court_notice_url": "https://www.moeb.uscourts.gov/news/bankruptcy-noticing-center-update",
+    "court_notice_text": "BANKRUPTCY NOTICING CENTER UPDATE"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "mowb",
@@ -470,7 +822,15 @@
     "summary": "Notice of Oct. 16: a national disruption affects timely entry and service of court notices, orders, and 341 notices; the court continues to accept and process filings; CM/ECF users serving pleadings and delegated notices/orders may pull the creditor list in CM/ECF and should confirm all required parties; a party needing more time to serve may move to extend time under the applicable rules.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 2,
+    "court_notice_url": "https://www.mow.uscourts.gov/bankruptcy/bnc-service-disruption",
+    "court_notice_text": "Bankruptcy Noticing Center Service Disruption"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "msnb",
@@ -479,7 +839,15 @@
    "official_url": "https://www.msnb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 4,
+    "court_notice_url": "https://www.msnb.uscourts.gov/news/standing-order-regarding-bankruptcy-noticing-center-service-interruption",
+    "court_notice_text": "Standing Order Regarding Bankruptcy Noticing Center Service Interruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "mssb",
@@ -488,7 +856,15 @@
    "official_url": "https://www.mssb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 8,
+    "court_notice_url": "https://www.mssb.uscourts.gov/bankruptcy-noticing-center-service-disruption",
+    "court_notice_text": "Bankruptcy Noticing Center (BNC) Outage Information (Click Here)"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "mtb",
@@ -497,7 +873,15 @@
    "official_url": "https://www.mtb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 1,
+    "court_notice_url": "https://www.mtb.uscourts.gov/news/bankruptcy-noticing-center-service-disruption-1092026",
+    "court_notice_text": "Bankruptcy Noticing Center Service Disruption 10/9/2026"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "nceb",
@@ -506,7 +890,15 @@
    "official_url": "https://www.nceb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 4,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "mention_only"
   },
   {
    "slug": "ncmb",
@@ -515,7 +907,15 @@
    "official_url": "https://www.ncmb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 7,
+    "court_notice_url": "https://www.ncmb.uscourts.gov/sites/default/files/public-files/StandingOrderBNCOutage.pdf",
+    "court_notice_text": "Standing Order 26-01 Regarding the BNC Service Interruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "ncwb",
@@ -524,7 +924,15 @@
    "official_url": "https://www.ncwb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 19,
+    "court_notice_url": "https://www.ncwb.uscourts.gov/bnc-outage-info",
+    "court_notice_text": "BNC Outage Info"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "ndb",
@@ -533,7 +941,15 @@
    "official_url": "https://www.ndb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 12,
+    "court_notice_url": "https://www.ndb.uscourts.gov/bankruptcy-noticing-center-bnc-outage",
+    "court_notice_text": "here"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "neb",
@@ -547,7 +963,15 @@
     "summary": "Notice of Oct. 16: delivery of electronic and paper notices is interrupted and the court-generated matrix in CM/ECF is inaccessible; parties are expected to continue serving; the court describes two filings for temporary relief (a motion for exemption from attaching the court matrix, showing actual service, and a motion to extend time); questions to the clerk's office.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 9,
+    "court_notice_url": "https://www.neb.uscourts.gov/news/general-order-26-05-temporary-noticing-procedures-during-bankruptcy-noticing-center-service",
+    "court_notice_text": "General Order 26-05 Temporary Noticing Procedures During Bankruptcy Noticing Center Service Interruption and Accessing List of Creditors"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "nhb",
@@ -556,7 +980,15 @@
    "official_url": "https://www.nhb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 5,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "mention_only"
   },
   {
    "slug": "njb",
@@ -570,7 +1002,15 @@
     "summary": "Notice to the bar and public of Oct. 15: the BNC is unavailable and service of notices and orders is delayed; the court continues to accept filings and process documents; parties must serve all interested parties, including the debtor, trustees, and the U.S. Trustee, because the CM/ECF creditor list is incomplete; the Chief Judge issued a General Order on the disruption.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 2,
+    "court_notice_url": "https://www.njb.uscourts.gov/news/notice-bar-and-public-regarding-bankruptcy-noticing-center-service-interruption",
+    "court_notice_text": "Notice to the Bar and Public Regarding Bankruptcy Noticing Center Service Interruption"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "nmb",
@@ -579,7 +1019,15 @@
    "official_url": "https://www.nmb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 10,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "mention_only"
   },
   {
    "slug": "nmib",
@@ -588,7 +1036,15 @@
    "official_url": "https://www.nmid.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 0,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "none"
   },
   {
    "slug": "nvb",
@@ -602,7 +1058,15 @@
     "summary": "FAQ updated Oct. 21: the BNC disruption began Oct. 9; CM/ECF remains operational; the court cannot serve non-CM/ECF users through the BNC; parties remain responsible for notices they generate themselves; creditor lists are available in CM/ECF (Mailing Matrix by Case or the Creditor query, plus a Party query); no end date given.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 12,
+    "court_notice_url": "https://www.nvb.uscourts.gov/news-rss/announcements/2026/1021-bnc-outage-faq/",
+    "court_notice_text": "Bankruptcy Noticing Center Update"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "nyeb",
@@ -616,7 +1080,15 @@
     "summary": "Update of Oct. 14, with General Order 844 (Oct. 16) and General Order 845 (Oct. 22) posted alongside it: the BNC is experiencing a service interruption; the court's CM/ECF system remains operational; the page lists the affected BNC websites and how to pull the creditor list in CM/ECF.",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 12,
+    "court_notice_url": "https://www.nyeb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "BNC News Post"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "nynb",
@@ -625,7 +1097,15 @@
    "official_url": "https://www.nynb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 8,
+    "court_notice_url": "https://www.nynb.uscourts.gov/bnc-notice",
+    "court_notice_text": "BNC Notice"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "nysb",
@@ -639,7 +1119,15 @@
     "summary": "BNC update posted Oct. 13: a nationwide service disruption since Oct. 9 has delayed delivery of notices and orders; Notices of Electronic Filing continue. The court has also posted General Orders M-678 and M-679 on the Bankruptcy Noticing Center; read them on the court's site (not summarized here).",
     "last_verified": "2026-10-22"
    },
-   "status": "confirmed"
+   "status": "confirmed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 14,
+    "court_notice_url": "https://www.nysb.uscourts.gov/news/general-order-m-679-re-bankruptcy-noticing-center",
+    "court_notice_text": "General Order M-679 in re: Bankruptcy Noticing Center"
+   },
+   "tracker": "confirmed"
   },
   {
    "slug": "nywb",
@@ -648,7 +1136,15 @@
    "official_url": "https://www.nywb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 6,
+    "court_notice_url": "https://www.nywb.uscourts.gov/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "Click here for more information"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "ohnb",
@@ -657,7 +1153,15 @@
    "official_url": "https://www.ohnb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 13,
+    "court_notice_url": "https://www.ohnb.uscourts.gov/content/bnc",
+    "court_notice_text": "Bankruptcy Noticing Center"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "ohsb",
@@ -666,7 +1170,15 @@
    "official_url": "https://www.ohsb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 10,
+    "court_notice_url": "https://www.ohsb.uscourts.gov/news/general-order-67-1-mitigation-prejudice-due-bnc-service-disruption",
+    "court_notice_text": "General Order 67-1 (Mitigation of Prejudice Due to BNC Service Disruption)"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "okeb",
@@ -675,7 +1187,15 @@
    "official_url": "https://www.okeb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 9,
+    "court_notice_url": "https://www.okeb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "Update Regarding BNC Service Disruption and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "oknb",
@@ -684,7 +1204,15 @@
    "official_url": "https://www.oknb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 4,
+    "court_notice_url": "https://oknb.uscourts.gov/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "Update Regarding BNC Service Disruption and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "okwb",
@@ -693,7 +1221,15 @@
    "official_url": "https://www.okwb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 1,
+    "court_notice_url": "https://www.okwb.uscourts.gov/news/public-notice-service-disruption-bankruptcy-noticing-center",
+    "court_notice_text": "Public Notice: Service Disruption of the Bankruptcy Noticing Center"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "orb",
@@ -702,7 +1238,15 @@
    "official_url": "https://www.orb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 15,
+    "court_notice_url": "https://www.orb.uscourts.gov/bnc-service-disruption",
+    "court_notice_text": "BNC SERVICE DISRUPTION"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "paeb",
@@ -711,7 +1255,15 @@
    "official_url": "https://www.paeb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 5,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "mention_only"
   },
   {
    "slug": "pamb",
@@ -720,7 +1272,15 @@
    "official_url": "https://www.pamb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 4,
+    "court_notice_url": "https://www.pamb.uscourts.gov/news/2026/10/15/bankruptcy-noticing-center-disruption",
+    "court_notice_text": "October 15, 2026 THE BANKRUPTCY NOTICING CENTER DISRUPTION"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "pawb",
@@ -729,7 +1289,15 @@
    "official_url": "https://www.pawb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 5,
+    "court_notice_url": "https://www.pawb.uscourts.gov/news/bankruptcy-noticing-center-service-interruption",
+    "court_notice_text": "Bankruptcy Noticing Center Service Interruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "prb",
@@ -738,7 +1306,15 @@
    "official_url": "https://www.prb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 10,
+    "court_notice_url": "https://www.prb.uscourts.gov/?q=news/general-order-26-02-re-order-regarding-bankruptcy-noticing-center-service-interruption",
+    "court_notice_text": "General Order 26-02 In Re: Order Regarding Bankruptcy Noticing Center Service Interruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "rib",
@@ -747,7 +1323,15 @@
    "official_url": "https://www.rib.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": false,
+    "bnc_mentions": 0,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "unreachable"
   },
   {
    "slug": "scb",
@@ -756,7 +1340,15 @@
    "official_url": "https://www.scb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 8,
+    "court_notice_url": "https://www.scb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "October 14th"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "sdb",
@@ -765,7 +1357,15 @@
    "official_url": "https://www.sdb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 2,
+    "court_notice_url": "https://www.sdb.uscourts.gov/news/bankruptcy-noticing-center-service-disruption-judge-kulm-ask-seeks-term-law-clerk",
+    "court_notice_text": "Bankruptcy Noticing Center Service Disruption, Judge Kulm Ask Seeks a Term Law Clerk"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "tneb",
@@ -774,7 +1374,15 @@
    "official_url": "https://www.tneb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 9,
+    "court_notice_url": "https://www.tneb.uscourts.gov/news/update-bankruptcy-noticing-center-outage-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "Update on Bankruptcy Noticing Center Outage and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "tnmb",
@@ -783,7 +1391,15 @@
    "official_url": "https://www.tnmb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 6,
+    "court_notice_url": "https://www.tnmb.uscourts.gov/news/bankruptcy-noticing-center-service-disruption",
+    "court_notice_text": "Bankruptcy Noticing Center Service Disruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "tnwb",
@@ -792,7 +1408,15 @@
    "official_url": "https://www.tnwb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 7,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "mention_only"
   },
   {
    "slug": "txeb",
@@ -801,7 +1425,15 @@
    "official_url": "https://www.txeb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 3,
+    "court_notice_url": "https://www.txeb.uscourts.gov/news/bnc-service-interruption-update",
+    "court_notice_text": "BNC Service Interruption Update"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "txnb",
@@ -810,7 +1442,15 @@
    "official_url": "https://www.txnb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 7,
+    "court_notice_url": "https://www.txnb.uscourts.gov/news/bnc-service-interruption-update",
+    "court_notice_text": "BNC Service Interruption Update"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "txsb",
@@ -819,7 +1459,16 @@
    "official_url": "https://www.txsb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": false,
+    "bnc_mentions": 0,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "unreachable",
+   "official_url_note": "The bankruptcy court's pages are at https://www.txs.uscourts.gov/bankruptcy (checked 10/22; no BNC mention found there)."
   },
   {
    "slug": "txwb",
@@ -828,7 +1477,15 @@
    "official_url": "https://www.txwb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 1,
+    "court_notice_url": "https://www.txwb.uscourts.gov/news/administrative-order-regarding-bankruptcy-noticing-center-service-interruption",
+    "court_notice_text": "ADMINISTRATIVE ORDER REGARDING BANKRUPTCY NOTICING CENTER SERVICE INTERRUPTION"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "utb",
@@ -837,7 +1494,15 @@
    "official_url": "https://www.utb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 8,
+    "court_notice_url": "https://www.utb.uscourts.gov/news/notice-practitioners-regarding-bnc-outage",
+    "court_notice_text": "Notice to Practitioners regarding BNC Outage"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "vaeb",
@@ -846,7 +1511,15 @@
    "official_url": "https://www.vaeb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 2,
+    "court_notice_url": "https://www.vaeb.uscourts.gov/news/bankruptcy-noticing-center-issues-impacting-delivery-cmecf-notices",
+    "court_notice_text": "BANKRUPTCY NOTICING CENTER ISSUES IMPACTING DELIVERY OF CM/ECF NOTICES"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "vawb",
@@ -855,7 +1528,15 @@
    "official_url": "https://www.vawb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 5,
+    "court_notice_url": "https://www.vawb.uscourts.gov/?q=news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "Update Regarding BNC Service Disruption and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "vib",
@@ -864,7 +1545,15 @@
    "official_url": "https://www.vid.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 0,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "none"
   },
   {
    "slug": "vtb",
@@ -873,7 +1562,15 @@
    "official_url": "https://www.vtb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 3,
+    "court_notice_url": null,
+    "court_notice_text": null
+   },
+   "tracker": "mention_only"
   },
   {
    "slug": "waeb",
@@ -882,7 +1579,15 @@
    "official_url": "https://www.waeb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 1,
+    "court_notice_url": "https://www.waeb.uscourts.gov/news/important-notice-bankruptcy-noticing-center-service-disruption",
+    "court_notice_text": "Important Notice: Bankruptcy Noticing Center Service Disruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "wawb",
@@ -891,7 +1596,15 @@
    "official_url": "https://www.wawb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 1,
+    "court_notice_url": "https://www.wawb.uscourts.gov/node/1241/",
+    "court_notice_text": "Important Notice: Bankruptcy Noticing Center Service Disruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "wieb",
@@ -900,7 +1613,15 @@
    "official_url": "https://www.wieb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 5,
+    "court_notice_url": "https://www.wieb.uscourts.gov/news/administrative-order-26-1-regarding-bnc-service-disruption",
+    "court_notice_text": "Administrative Order 26-1 regarding BNC service disruption"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "wiwb",
@@ -909,7 +1630,15 @@
    "official_url": "https://www.wiwb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 9,
+    "court_notice_url": "https://www.wiwb.uscourts.gov/news/update-regarding-bnc-service-interruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "here"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "wvnb",
@@ -918,7 +1647,15 @@
    "official_url": "https://www.wvnb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 8,
+    "court_notice_url": "https://www.wvnb.uscourts.gov/news/bankruptcy-noticing-center-bnc-disruption",
+    "court_notice_text": "BANKRUPTCY NOTICING CENTER (BNC) DISRUPTION"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "wvsb",
@@ -927,7 +1664,15 @@
    "official_url": "https://www.wvsb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 7,
+    "court_notice_url": "https://www.wvsb.uscourts.gov/news/bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "BNC Service Disruption and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   },
   {
    "slug": "wyb",
@@ -936,7 +1681,22 @@
    "official_url": "https://www.wyb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
    "guidance": null,
-   "status": "unreviewed"
+   "status": "unreviewed",
+   "homepage_scan": {
+    "date": "2026-10-22",
+    "reachable": true,
+    "bnc_mentions": 3,
+    "court_notice_url": "https://www.wyb.uscourts.gov/news/bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "court_notice_text": "BNC Service Disruption and Accessing List of Creditors in CM/ECF"
+   },
+   "tracker": "notice_found"
   }
- ]
+ ],
+ "tracker_legend": {
+  "confirmed": "a maintainer read the court's BNC page and summarized it (see guidance)",
+  "notice_found": "the court's homepage links to its own BNC notice on the scan date; not yet summarized",
+  "mention_only": "the homepage mentions the BNC only via the BNC's own sites; no court notice link found",
+  "none": "no mention of the Bankruptcy Noticing Center on the homepage on the scan date",
+  "unreachable": "the catalogued address did not load on the scan date"
+ }
 }

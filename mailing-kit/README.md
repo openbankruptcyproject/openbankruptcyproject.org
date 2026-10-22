@@ -27,3 +27,6 @@ Built 2026-10-22 during the Bankruptcy Noticing Center (BNC) service disruption.
 - Envelopes are #10 (9.5 in x 4.125 in), landscape page, optional 90-degree rotation.
 - Up to 500 recipients and a 60-page, 25 MB source PDF per run. Packet output is split into files of about 200 pages (adjustable) so the browser never holds one enormous file.
 - No address verification, no postage purchase, no mail fulfillment, no court filing, no determination of whom to serve.
+
+## 94-court homepage scan (tracker)
+`data/districts.json` carries `homepage_scan` per district (date, reachable, bnc_mentions, court_notice_url/text) and a `tracker` label (`confirmed`, `notice_found`, `mention_only`, `none`, `unreachable`; legend in `tracker_legend`). The explainer's tracker table and the workspace panel read from it. To refresh: fetch each `official_url`, extract links whose text or href matches /noticing center|\bBNC\b/i, drop links to the BNC's own sites, write the fields, re-render the explainer table (the section between the `tracker` heading and the next h2) and update the dates in it. Never promote a district to `confirmed` without a human reading the page.

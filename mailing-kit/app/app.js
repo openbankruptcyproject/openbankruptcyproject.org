@@ -88,8 +88,10 @@
     var html = '<p><strong>' + esc(d.name) + '</strong><br>Official court website: <a href="' + esc(d.official_url) + '" rel="noopener" target="_blank">' + esc(d.official_url.replace('https://', '')) + '</a></p>';
     if (d.status === 'confirmed' && d.guidance) {
       html += '<div class="advisory"><strong>Court notice on file (read ' + esc(d.guidance.last_verified) + '):</strong> ' + esc(d.guidance.summary) + ' <a href="' + esc(d.guidance.guidance_url) + '" rel="noopener" target="_blank">Read the court\'s page</a> (dated ' + esc(d.guidance.guidance_date) + '). The court\'s page controls if it has changed since.</div>';
+    } else if (d.homepage_scan && d.homepage_scan.court_notice_url) {
+      html += '<div class="advisory"><strong>This court has posted its own notice</strong> (found on its homepage ' + esc(d.homepage_scan.date) + '; we have not summarized it): <a href="' + esc(d.homepage_scan.court_notice_url) + '" rel="noopener" target="_blank">' + esc(d.homepage_scan.court_notice_text || 'court notice') + '</a>. Read it before mailing. This tool does not decide whom you must serve.</div>';
     } else {
-      html += '<p class="muted">We have not reviewed this court\'s BNC-disruption guidance. Open the official website above and verify current local instructions before mailing. This tool does not decide whom you must serve.</p>';
+      html += '<p class="muted">We found no BNC-disruption notice on this court\'s homepage on ' + esc((d.homepage_scan && d.homepage_scan.date) || '2026-10-22') + '. Open the official website above and verify current local instructions before mailing. This tool does not decide whom you must serve.</p>';
     }
     panel.innerHTML = html;
   }
