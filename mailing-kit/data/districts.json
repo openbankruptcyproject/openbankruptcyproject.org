@@ -72,8 +72,13 @@
    "short": "D. Ariz.",
    "official_url": "https://www.azb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
-   "guidance": null,
-   "status": "unreviewed"
+   "guidance": {
+    "guidance_url": "https://www.azb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "guidance_date": "2026-10-14",
+    "summary": "Update of Oct. 14: CM/ECF remains operational; attorneys and registered filers verify deadlines through CM/ECF or PACER rather than BNC confirmations and remain responsible for proper service; the creditor list is pulled through Query, then the Creditor link.",
+    "last_verified": "2026-10-22"
+   },
+   "status": "confirmed"
   },
   {
    "slug": "cacb",
@@ -81,8 +86,13 @@
    "short": "C.D. Cal.",
    "official_url": "https://www.cacb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
-   "guidance": null,
-   "status": "unreviewed"
+   "guidance": {
+    "guidance_url": "https://www.cacb.uscourts.gov/news/procedures-service-entered-orders-light-bnc-outage",
+    "guidance_date": "2026-10-14",
+    "summary": "Notice of Oct. 14 (General Order 26-02 / Public Notice 26-014) on procedures for service of entered orders during the BNC outage; the court says parties who are not registered CM/ECF users may experience delays in receiving copies of entered orders.",
+    "last_verified": "2026-10-22"
+   },
+   "status": "confirmed"
   },
   {
    "slug": "caeb",
@@ -176,8 +186,13 @@
    "short": "S.D. Fla.",
    "official_url": "https://www.flsb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
-   "guidance": null,
-   "status": "unreviewed"
+   "guidance": {
+    "guidance_url": "https://www.flsb.uscourts.gov/node/1783",
+    "guidance_date": "2026-10-16",
+    "summary": "Administrative Order 2026-06 (Oct. 16): entry and service of court notices and orders may be delayed; parties obtain creditor and party addresses through the CM/ECF Query function because the mailing-matrix service is unavailable.",
+    "last_verified": "2026-10-22"
+   },
+   "status": "confirmed"
   },
   {
    "slug": "gamb",
@@ -194,8 +209,13 @@
    "short": "N.D. Ga.",
    "official_url": "https://www.ganb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
-   "guidance": null,
-   "status": "unreviewed"
+   "guidance": {
+    "guidance_url": "https://www.ganb.uscourts.gov/news/important-information-regarding-bankruptcy-noticing-center-bnc-service-disruption",
+    "guidance_date": "2026-10-15",
+    "summary": "Notice of Oct. 15: the disruption affects delivery of court notices and 341 meeting notices; the court continues to accept filings, open cases, and process documents as usual; CM/ECF users obtain creditor and party addresses through the Query function because the mailing matrix is inaccessible.",
+    "last_verified": "2026-10-22"
+   },
+   "status": "confirmed"
   },
   {
    "slug": "gasb",
@@ -266,8 +286,13 @@
    "short": "N.D. Ill.",
    "official_url": "https://www.ilnb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
-   "guidance": null,
-   "status": "unreviewed"
+   "guidance": {
+    "guidance_url": "https://www.ilnb.uscourts.gov/news/general-order-regarding-bankruptcy-noticing-center-service-interruption",
+    "guidance_date": "2026-10-16",
+    "summary": "General Order No. 26-04 (Oct. 16): the assigned judge may extend or reset deadlines or continue hearings as necessary to address the interruption; relief is requested by written motion or orally. The court also posts a page of affected cases and matters.",
+    "last_verified": "2026-10-22"
+   },
+   "status": "confirmed"
   },
   {
    "slug": "ilsb",
@@ -302,8 +327,13 @@
    "short": "D. Kan.",
    "official_url": "https://www.ksb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
-   "guidance": null,
-   "status": "unreviewed"
+   "guidance": {
+    "guidance_url": "https://www.ksb.uscourts.gov/news/d-kan-general-order-26-2-designates-parties-temporarily-responsible-serve-notices-during-bnc",
+    "guidance_date": "2026-10-22",
+    "summary": "General Order 26-2 (Oct. 22), following General Order 26-1 (Oct. 14): the court designates parties who are temporarily responsible for serving the various court-issued notices and orders until the BNC disruption has concluded. Read the order itself for which party serves which notice.",
+    "last_verified": "2026-10-22"
+   },
+   "status": "confirmed"
   },
   {
    "slug": "kyeb",
@@ -388,8 +418,13 @@
    "short": "E.D. Mich.",
    "official_url": "https://www.mieb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
-   "guidance": null,
-   "status": "unreviewed"
+   "guidance": {
+    "guidance_url": "https://www.mieb.uscourts.gov/sites/mieb/files/news/Update%20Regarding%20BNC.pdf",
+    "guidance_date": "2026-10-14",
+    "summary": "Clerk's update of Oct. 14 (after Administrative Order 26-16 of Oct. 13; a supplemental Administrative Order 26-18 followed Oct. 21): filings continue; entry and service of notices and orders, and service of 341 notices, may be delayed; CM/ECF users serving pleadings and delegated notices/orders pull the creditor list through Query, and the list does not include all interested parties such as the debtor, trustees, or the U.S. Trustee.",
+    "last_verified": "2026-10-22"
+   },
+   "status": "confirmed"
   },
   {
    "slug": "miwb",
@@ -429,8 +464,13 @@
    "short": "W.D. Mo.",
    "official_url": "https://www.mow.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
-   "guidance": null,
-   "status": "unreviewed"
+   "guidance": {
+    "guidance_url": "https://www.mow.uscourts.gov/bankruptcy/bnc-service-disruption",
+    "guidance_date": "2026-10-16",
+    "summary": "Notice of Oct. 16: a national disruption affects timely entry and service of court notices, orders, and 341 notices; the court continues to accept and process filings; CM/ECF users serving pleadings and delegated notices/orders may pull the creditor list in CM/ECF and should confirm all required parties; a party needing more time to serve may move to extend time under the applicable rules.",
+    "last_verified": "2026-10-22"
+   },
+   "status": "confirmed"
   },
   {
    "slug": "msnb",
@@ -524,8 +564,13 @@
    "short": "D.N.J.",
    "official_url": "https://www.njb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
-   "guidance": null,
-   "status": "unreviewed"
+   "guidance": {
+    "guidance_url": "https://www.njb.uscourts.gov/news/notice-bar-and-public-regarding-bankruptcy-noticing-center-service-interruption",
+    "guidance_date": "2026-10-15",
+    "summary": "Notice to the bar and public of Oct. 15: the BNC is unavailable and service of notices and orders is delayed; the court continues to accept filings and process documents; parties must serve all interested parties, including the debtor, trustees, and the U.S. Trustee, because the CM/ECF creditor list is incomplete; the Chief Judge issued a General Order on the disruption.",
+    "last_verified": "2026-10-22"
+   },
+   "status": "confirmed"
   },
   {
    "slug": "nmb",
@@ -565,8 +610,13 @@
    "short": "E.D.N.Y.",
    "official_url": "https://www.nyeb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
-   "guidance": null,
-   "status": "unreviewed"
+   "guidance": {
+    "guidance_url": "https://www.nyeb.uscourts.gov/news/update-regarding-bnc-service-disruption-and-accessing-list-creditors-cmecf",
+    "guidance_date": "2026-10-14",
+    "summary": "Update of Oct. 14, with General Order 844 (Oct. 16) and General Order 845 (Oct. 22) posted alongside it: the BNC is experiencing a service interruption; the court's CM/ECF system remains operational; the page lists the affected BNC websites and how to pull the creditor list in CM/ECF.",
+    "last_verified": "2026-10-22"
+   },
+   "status": "confirmed"
   },
   {
    "slug": "nynb",
@@ -583,8 +633,13 @@
    "short": "S.D.N.Y.",
    "official_url": "https://www.nysb.uscourts.gov",
    "official_url_source": "openbankruptcyproject.org courthouse pages (link text as published on the site)",
-   "guidance": null,
-   "status": "unreviewed"
+   "guidance": {
+    "guidance_url": "https://www.nysb.uscourts.gov/news/bankruptcy-noticing-center-update",
+    "guidance_date": "2026-10-13",
+    "summary": "BNC update posted Oct. 13: a nationwide service disruption since Oct. 9 has delayed delivery of notices and orders; Notices of Electronic Filing continue. The court has also posted General Orders M-678 and M-679 on the Bankruptcy Noticing Center; read them on the court's site (not summarized here).",
+    "last_verified": "2026-10-22"
+   },
+   "status": "confirmed"
   },
   {
    "slug": "nywb",
