@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://www.googletagmanager.com; img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-src 'none'; manifest-src 'self'"/>
+<meta name="referrer" content="no-referrer"/>
+<meta name="robots" content="noindex,follow"/>
+<title>Notice &amp; Mailing Kit, workspace | Open Bankruptcy Project</title>
+<meta name="description" content="Workspace for the OBP Notice &amp; Mailing Kit. Build printable notice packets, Avery 5160 labels, #10 envelopes, a mailing checklist, and an unsigned service log. Files stay in your browser."/>
+<link rel="canonical" href="https://openbankruptcyproject.org/mailing-kit/app/"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<script src="../vendor/pdf-lib.min.js"></script>
+<script src="../vendor/papaparse.min.js"></script>
+<script defer src="app.js"></script>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d1117;--surface:#151b23;--surface-hover:#1a2230;--border:#252d38;--border-light:#2d3748;--text:#e6edf3;--text-secondary:#b1bac4;--text-muted:#7d8590;--accent:#58a6ff;--accent-hover:#79b8ff;--ok:#3fb950;--warn:#d29922;--err:#f85149}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{color:var(--accent-hover);text-decoration:underline}
+.container{max-width:980px;margin:0 auto;padding:0 20px}
+nav.topnav{border-bottom:1px solid var(--border);padding:16px 0;background:var(--bg)}
+nav.topnav .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1200px}
+.nav-brand{font-size:1.05rem;font-weight:700;color:var(--text)}
+.nav-links{display:flex;gap:20px;flex-wrap:wrap}.nav-links a{color:var(--text-muted);font-size:.88rem;font-weight:500}
+.hero{padding:28px 0 12px}.hero h1{font-size:1.7rem;font-weight:800;letter-spacing:-.02em;line-height:1.2}
+.hero p{color:var(--text-secondary);margin-top:8px;max-width:820px}
+.ribbon{background:#1c2128;border:1px solid var(--border-light);border-left:4px solid var(--warn);border-radius:6px;padding:12px 16px;margin:14px 0;font-size:.92rem;color:var(--text-secondary)}
+.ribbon strong{color:var(--text)}
+main{padding:12px 0 48px}
+section.step{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px 22px;margin:16px 0}
+section.step h2{font-size:1.12rem;font-weight:700;margin-bottom:6px}
+section.step h2 span{display:inline-block;background:var(--border-light);color:var(--text);border-radius:999px;width:26px;height:26px;line-height:26px;text-align:center;font-size:.85rem;margin-right:8px}
+section.step p{color:var(--text-secondary);font-size:.95rem;margin:6px 0 10px}
+.muted{color:var(--text-muted);font-size:.9rem}.warn{color:var(--warn)}.ok{color:var(--ok)}
+label{display:block;font-size:.9rem;color:var(--text-secondary);margin:10px 0 4px}
+textarea,input[type=text],input[type=number],input[type=date],select{width:100%;max-width:640px;background:var(--bg);color:var(--text);border:1px solid var(--border-light);border-radius:6px;padding:8px 10px;font:inherit;font-size:.93rem}
+textarea{min-height:110px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.88rem}
+input[type=file]{color:var(--text-secondary);font-size:.9rem;margin:6px 0}
+input[type=checkbox]{width:auto;margin-right:8px;transform:scale(1.15)}
+.check{display:flex;align-items:center;gap:4px;margin:6px 0;font-size:.95rem;color:var(--text)}
+.row{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-end}.row > div{flex:1 1 180px}
+button{background:var(--accent);color:#0d1117;border:0;border-radius:6px;padding:9px 16px;font:inherit;font-weight:600;cursor:pointer;margin-top:10px}
+button:hover{background:var(--accent-hover)}button:disabled{opacity:.5;cursor:default}
+button.secondary{background:var(--border-light);color:var(--text)}button.sm{padding:4px 10px;font-size:.82rem;margin:0}
+table{width:100%;border-collapse:collapse;margin-top:10px;font-size:.9rem}
+th,td{text-align:left;padding:8px 8px;border-bottom:1px solid var(--border);vertical-align:top}
+th{color:var(--text-muted);font-weight:600;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
+td textarea.edit{min-height:0;width:100%;max-width:none}
+td.flags{font-size:.82rem;color:var(--warn);max-width:260px}
+.advisory{background:#1c2128;border-left:3px solid var(--accent);padding:10px 14px;border-radius:0 6px 6px 0;margin:10px 0;font-size:.92rem;color:var(--text-secondary)}
+.status{position:sticky;bottom:0;background:#1c2128;border-top:1px solid var(--border-light);padding:10px 16px;font-size:.92rem;color:var(--text);z-index:50}
+.status.error{color:var(--err)}
+#outputs{margin:10px 0 0 18px}#outputs li{margin:6px 0}#outputs a.dl{font-weight:600}
+#summary{font-size:.92rem;color:var(--text-secondary);margin-top:8px}
+footer.site-footer{border-top:1px solid var(--border);padding:22px 0;color:var(--text-muted);font-size:.85rem}
+@media (max-width:640px){.container{padding:0 14px}section.step{padding:16px}td.flags{max-width:140px}}
+@media print{nav,.status,.hero p,footer,button{display:none}}
+</style>
+</head>
+<body>
+<nav class="topnav"><div class="container">
+<a class="nav-brand" href="/">Open Bankruptcy Project</a>
+<div class="nav-links">
+<a href="/mailing-kit/">About this kit</a>
+<a href="/cases/">Cases</a>
+<a href="/research/">Research</a>
+<a href="/privacy.html">Privacy</a>
+<a href="/contact.html">Contact</a>
+</div></div></nav>
+
+<section class="hero"><div class="container">
+<h1>Notice &amp; Mailing Kit: workspace</h1>
+<p>Your recipient list and your PDF stay in this browser tab. Nothing is uploaded, stored, or sent to us. Close the tab or press Reset and it is gone. This tool does not decide whom you must serve; your court's instructions do.</p>
+<div class="ribbon" id="national" hidden></div>
+</div></section>
+
+<main class="container">
+
+<section class="step" id="step-court">
+<h2><span>1</span>Start with your court's guidance</h2>
+<p>Choose your bankruptcy court. If we have read that court's own page about the Bankruptcy Noticing Center disruption, its summary and link appear here. Otherwise you get the official website and a reminder to check it yourself.</p>
+<label for="district">Federal bankruptcy district</label>
+<select id="district"><option value="">Select a court</option><option value="unsure">Not sure</option></select>
+<div id="district-panel"></div>
+</section>
+
+<section class="step" id="step-mode">
+<h2><span>2</span>Choose what to print</h2>
+<p>Pick any combination. Packet copies need the original PDF from step 4. Labels and the checklist work with a recipient list alone.</p>
+<label class="check"><input type="checkbox" id="m-labels" checked> Avery 5160 / 8160 mailing labels (letter sheet, 3 x 10)</label>
+<label class="check"><input type="checkbox" id="m-envelopes"> #10 envelopes (one per recipient)</label>
+<label class="check"><input type="checkbox" id="m-packets" checked> Packet copies (one copy of the PDF per recipient)</label>
+<label class="check"><input type="checkbox" id="m-checklist" checked> Mailing checklist (worksheet)</label>
+<label class="check"><input type="checkbox" id="m-log" checked> Service log worksheet (fill in after mailing; unsigned)</label>
+</section>
+
+<section class="step" id="step-recipients">
+<h2><span>3</span>Add recipients</h2>
+<p>Paste address blocks separated by a blank line, open a CSV or text file from this device, or type one at a time. Review the list: blanks, possible duplicates, long lines, and missing ZIP codes are flagged, never removed or changed for you. Use each creditor's address exactly as your court's list or the creditor's notice gives it.</p>
+<div class="row">
+<div>
+<label for="paste">Paste address blocks (blank line between recipients)</label>
+<textarea id="paste" placeholder="Acme Finance LLC&#10;PO Box 1234&#10;Springfield, MO 65801&#10;&#10;Jane Q. Creditor&#10;100 Main St Apt 4B&#10;Kansas City, KS 66101-1234"></textarea>
+<button type="button" id="paste-add">Add pasted recipients</button>
+</div>
+<div>
+<label for="csv-file">Or open a CSV / TXT file from this device</label>
+<input type="file" id="csv-file" accept=".csv,.txt,text/csv,text/plain">
+<p class="muted">Headers recognized: name, address1, address2, city, state, zip. Without headers, each row's cells become the lines. <a href="../sample-recipients.csv" download>Sample CSV</a></p>
+<label for="manual">Or type one recipient (name on the first line)</label>
+<textarea id="manual" rows="4" placeholder="Name&#10;Street&#10;City, ST 00000"></textarea>
+<button type="button" id="manual-add" class="secondary">Add this recipient</button>
+</div>
+</div>
+<p style="margin-top:14px"><strong>Recipients: <span id="recipient-count">0</span></strong> <span class="muted">(edit any entry in place; up to 500 per run)</span></p>
+<table aria-label="Recipient list"><thead><tr><th>#</th><th>Name and address</th><th>Review flags</th><th></th></tr></thead><tbody id="recipients-body"></tbody></table>
+</section>
+
+<section class="step" id="step-pdf">
+<h2><span>4</span>Add the document to copy (optional for labels only)</h2>
+<p>Open the court-issued notice or other original PDF from this device. Its pages are copied exactly as they are; nothing inside is edited, and no notice, case number, date, or address is ever generated for you. Password-protected PDFs are refused. Limit: 60 pages, 25 MB.</p>
+<input type="file" id="pdf-file" accept="application/pdf,.pdf">
+<p id="pdf-info" class="muted"></p>
+<label class="check"><input type="checkbox" id="pdf-confirm"> I confirm this is the document I intend to mail, and that I have determined from my court's instructions that I need to mail it.</label>
+</section>
+
+<section class="step" id="step-generate">
+<h2><span>5</span>Review and generate</h2>
+<div class="row">
+<div>
+<label for="return-address">Return address for envelopes (optional, up to 5 lines)</label>
+<textarea id="return-address" rows="4"></textarea>
+<label class="check"><input type="checkbox" id="env-rotate"> Rotate envelope pages 90&deg; (for printers that feed envelopes portrait)</label>
+</div>
+<div>
+<label for="off-x">Label X offset (inches, + moves right)</label>
+<input type="number" id="off-x" step="0.02" value="0">
+<label for="off-y">Label Y offset (inches, + moves down)</label>
+<input type="number" id="off-y" step="0.02" value="0">
+<button type="button" id="test-sheet" class="secondary">Add a 1-page alignment test sheet</button>
+</div>
+<div>
+<label class="check"><input type="checkbox" id="separator"> Add a separator sheet before each copy (recipient name, "Copy n of N")</label>
+<label for="batch-pages">Split packet files at about this many pages</label>
+<input type="number" id="batch-pages" min="50" step="50" value="200">
+</div>
+</div>
+<button type="button" id="generate">Generate files</button>
+<button type="button" id="reset" class="secondary">Reset (clear everything)</button>
+<p id="summary"></p>
+<ul id="outputs" aria-live="polite"></ul>
+<p class="muted">Print every file at 100% / "Actual size" with scaling off. For labels, print the test sheet on plain paper first and hold it against a label sheet. Downloading or printing does not mark anyone as served.</p>
+</section>
+
+<section class="step" id="step-log" hidden>
+<h2><span>6</span>Record what you actually mailed</h2>
+<p>Fill this in after the mail goes out. Every date starts blank; nothing is marked mailed by default. Export it as a CSV or as an unsigned worksheet PDF. It is not a certificate of service: if your court requires one, use the court's form or format and sign it yourself.</p>
+<div class="row">
+<div><label for="log-docs">Documents mailed (your description)</label><input type="text" id="log-docs"></div>
+<div><label for="declarant">Person who mailed them (name only; no signature here)</label><input type="text" id="declarant"></div>
+</div>
+<table aria-label="Service log"><thead><tr><th>#</th><th>Recipient</th><th>Date mailed</th><th>Method</th></tr></thead><tbody id="log-body"></tbody></table>
+<button type="button" id="log-pdf" class="secondary">Export worksheet PDF</button>
+<button type="button" id="log-csv" class="secondary">Export CSV</button>
+</section>
+
+</main>
+<div id="status" class="status" role="status" aria-live="polite">Ready. Nothing you enter here leaves this browser tab.</div>
+<footer class="site-footer"><div class="container">Open Bankruptcy Project &mdash; Empirical research and free tools for bankruptcy. 501(c)(3) public charity, EIN 41-5159631. Not a U.S. Courts, BNC, or government service. <a href="/mailing-kit/">About this kit and its limits</a> &middot; <a href="/privacy.html">Privacy</a></div></footer>
+</body></html>
