@@ -514,8 +514,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-1191-confirmacion-sub-v/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/section-1191-subv-konfirmation/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://openbankruptcyproject.org/pl/section-1191-zatwierdzenie-sub-v/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://openbankruptcyproject.org/fr/section-1191-confirmation-sub-v/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
   </url>
   <url>
@@ -535,7 +533,6 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/chapter-13-plan-modification.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-1329-modificacion-del-plan/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/section-1329-planmodifikation/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/chapter-13-plan-modification.html"/>
   </url>
   <url>
@@ -645,8 +642,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-1191-confirmacion-sub-v/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/section-1191-subv-konfirmation/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://openbankruptcyproject.org/pl/section-1191-zatwierdzenie-sub-v/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://openbankruptcyproject.org/fr/section-1191-confirmation-sub-v/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
   </url>
   <url>
@@ -666,7 +661,6 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/chapter-13-plan-modification.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-1329-modificacion-del-plan/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/section-1329-planmodifikation/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/chapter-13-plan-modification.html"/>
   </url>
   <url>
@@ -1271,8 +1265,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-1191-confirmacion-sub-v/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/section-1191-subv-konfirmation/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://openbankruptcyproject.org/pl/section-1191-zatwierdzenie-sub-v/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://openbankruptcyproject.org/fr/section-1191-confirmation-sub-v/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
   </url>
   <url>
@@ -2735,8 +2727,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-1191-confirmacion-sub-v/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/section-1191-subv-konfirmation/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://openbankruptcyproject.org/pl/section-1191-zatwierdzenie-sub-v/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://openbankruptcyproject.org/fr/section-1191-confirmation-sub-v/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
   </url>
   <url>
@@ -4311,7 +4301,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/discharge-timing-calculator.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/discharge-timing-calculator-es.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/discharge-timing-calculator.html"/>
   </url>
   <url>
@@ -4320,7 +4309,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/discharge-timing-calculator.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/discharge-timing-calculator-es.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/discharge-timing-calculator.html"/>
   </url>
   <url>
