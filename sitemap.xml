@@ -527,15 +527,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/section-1325-confirmation.html"/>
   </url>
   <url>
-    <loc>https://openbankruptcyproject.org/de/section-1329-planmodifikation/</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/chapter-13-plan-modification.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-1329-modificacion-del-plan/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/chapter-13-plan-modification.html"/>
-  </url>
-  <url>
     <loc>https://openbankruptcyproject.org/de/section-523-ausnahmen-zur-restschuldbefreiung/</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -1258,16 +1249,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://openbankruptcyproject.org/fr/section-1191-confirmation-sub-v/</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-1191-confirmacion-sub-v/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/section-1191-subv-konfirmation/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
-  </url>
-  <url>
     <loc>https://openbankruptcyproject.org/fr/section-523-exceptions-a-la-liberation-de-dettes/</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
@@ -1434,12 +1415,6 @@
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://openbankruptcyproject.org/hub-filing-es.html</loc>
-    <lastmod>2026-05-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://openbankruptcyproject.org/impact.html</loc>
@@ -2718,16 +2693,6 @@
     <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://openbankruptcyproject.org/pl/section-1191-zatwierdzenie-sub-v/</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/es/section-1191-confirmacion-sub-v/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://openbankruptcyproject.org/de/section-1191-subv-konfirmation/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/section-1191-subv-confirmation.html"/>
   </url>
   <url>
     <loc>https://openbankruptcyproject.org/pl/section-523-wyjatki-od-umorzenia-dlugow/</loc>
@@ -4304,14 +4269,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/discharge-timing-calculator.html"/>
   </url>
   <url>
-    <loc>https://openbankruptcyproject.org/discharge-timing-calculator-es.html</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/discharge-timing-calculator.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openbankruptcyproject.org/discharge-timing-calculator.html"/>
-  </url>
-  <url>
     <loc>https://openbankruptcyproject.org/case-outcomes.html</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -4410,12 +4367,6 @@
   <url>
     <loc>https://openbankruptcyproject.org/states/illinois.html</loc>
     <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://openbankruptcyproject.org/states/index.html</loc>
-    <lastmod>2026-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4649,4 +4600,115 @@
     <loc>https://openbankruptcyproject.org/editorial-policy.html</loc>
     <lastmod>2026-09-20</lastmod>
   </url>
+  <url><loc>https://openbankruptcyproject.org/63-billion-dollar-tower.html</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/accuracy.html</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/bankruptcy-records-lookup.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/chapter-13-plan-modification-es.html</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/citations-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/codebtor-stay-chapter-13-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-1112-konversion-abweisung/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-1129-ch11-planbestaetigung/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-1141-bestaetigungs-wirkung/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-1146-uebertragungssteuer/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-1183-subv-treuhaender/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-1188-subv-statuskonferenz/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-1192-subv-restschuldbefreiung/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-1194-subv-zahlungen/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-348-konversion-wirkung/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-362-automatische-vollstreckungssperre/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-522-befreiungen/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/de/section-524-restschuldbefreiungs-injunktion/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/discharge-injunction-violations-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/does-bankruptcy-clear-student-loans-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/domicile-rule-state-exemptions-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/donate-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/es/rule-2014-empleo-profesionales/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/es/rule-9011-sanciones/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/es/section-1112-conversion-o-desestimacion/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/es/section-1141-efecto-de-confirmacion/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/es/section-348-efectos-de-conversion/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/es/section-541-bienes-del-patrimonio/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/es/section-547-preferencias/</loc><lastmod>2026-10-07</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/es/section-548-transferencias-fraudulentas/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/find-help-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/find-someone-in-bankruptcy.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/fr/section-1325-confirmation-du-plan-ch13/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/fr/section-1329-modification-du-plan-ch13/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/fr/section-362-sursis-automatique/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/fr/section-522-exemptions/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/free-pacer-alternative.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/hardship-discharge-chapter-13-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/index-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/lien-stripping-chapter-13-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/means-test-presumption-of-abuse-es.html</loc><lastmod>2026-09-24</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/mortgage-cure-and-reinstate-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/objections-to-claim-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/pl/section-1325-zatwierdzenie-planu-ch13/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/pl/section-1329-modyfikacja-planu-ch13/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/pl/section-362-automatyczne-wstrzymanie/</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/pl/section-522-zwolnienia/</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/preference-actions-section-547-es.html</loc><lastmod>2026-10-07</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/reaffirmation-agreements-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/recursos-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/</loc><lastmod>2026-11-09</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/baylson-edpa-standing-order-2023/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/cfpb-ai-mortgage-avm-rule-2024/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/cohen-sdny-furman-2024/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/colorado-ai-act-sb24-205/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/couvrette-v-wisnovsky-2025/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/crabill-co-opdj-2023/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/data.html</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/eeoc-ai-hiring-guidance-2023/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/eo-14110-biden-ai-2023/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/eo-14179-trump-ai-revocation-2025/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/fivehouse-v-us-ednc-2025/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/ftc-rite-aid-2023/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/fuentes-ndil-standing-order-2023/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/glyndon-square-llc-bkrtcy-dsc-2025/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/in-re-jackson-hospital-mdal-bkrtcy-2025/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/in-re-martin-ndil-bkrtcy-2025/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/in-re-prince-usa-sdny-bkrtcy-2026/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/mata-v-avianca-2023/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/monk-edtex-goodyear-2024/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/nist-ai-rmf-1-0-2023/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/noland-cal-coa-2025/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/omb-m-24-10-2024/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/omb-m-25-21-2025/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/park-v-kim-2dcir-2024/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/rajan-djn-2026/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/ramirez-sdind-erisa-2025/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/solis-kenosha-county-wi-2026/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/starr-ndtx-standing-order-2023/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/vaden-cit-standing-order-2023/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/watson-or-coa-2025/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/research/ai-court-tracker/whiting-v-city-of-athens-ca6-2026/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/retirement-accounts-bankruptcy-es.html</loc><lastmod>2026-09-24</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/rule-9037-compliance-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-110-bankruptcy-petition-preparers.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-111-credit-counseling.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-1111-claims-and-interests.html</loc><lastmod>2026-11-09</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-1123-plan-contents.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-1126-acceptance-of-plan.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-1515-recognition-petition.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-1517-recognition-factors.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-1520-effects-of-recognition.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-303-involuntary-bankruptcy.html</loc><lastmod>2026-09-24</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-321-trustee-eligibility.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-322-qualification-of-trustee.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-348-effect-of-conversion.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-523-dischargeability-es.html</loc><lastmod>2026-11-10</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-704-trustee-duties-ch7.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/section-722-redemption.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/statistics-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/subchapter-v-trustee-duties.html</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/tax-refunds-chapter-13-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/trustees-by-district/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/ustp-criminal-referrals.html</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/ustp-debtor-audits.html</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/ustp-enforcement-fy17-23.html</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/ustp-reports-studies.html</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/vehicle-cramdown-chapter-13-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/wage-garnishment-automatic-stay-es.html</loc><lastmod>2026-09-15</lastmod><priority>0.5</priority></url>
+  <url><loc>https://openbankruptcyproject.org/whats-new/</loc><lastmod>2026-09-17</lastmod><priority>0.5</priority></url>
 </urlset>
